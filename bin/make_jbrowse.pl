@@ -9,6 +9,97 @@ use Cwd;
 use FileHandle;
 #use Data::Dumper;
 
+=head1 NAME
+
+make_jbrowse.pl - Creates a JBrowse instance with input GFF and configuration
+
+=head1 SYNOPSYS
+
+  % make_jbrowse.pl --config <conf file> [options]
+
+=head1 OPTIONS
+
+ --config     Path to ini-style config file (required)
+ --gfffile    Path to an input GFF file
+ --datadir    Relative path (from jbrowse root) to jbrowse data dir
+ --nosplit    Don't split GFF file by reference sequence
+ --usenice    Run formatting commands with Unix nice 
+
+=head1 DESCRIPTION
+
+This script will take a GFF file for an organism and create the json
+files for JBrowse to consume.
+
+=head2 config
+
+This script uses a fairly simple ini style script.  The options in main
+section of the config (before the sections that start with square-bracketed
+names) include:
+
+ gfffile   - Path to the input GFF file
+ datadir   - Relative path (from the jbrowse root) to jbrowse data directory
+ nosplit   - Don't split GFF file by reference sequence 
+ usenice   - Run formatting commands with Unix nice
+
+Note that the options in the config file can be overridden with the command
+line options.
+
+Each stanza that starts with a section name enclosed in square brackets has
+several options:
+
+=over 
+
+=item
+
+origfile  - Set to 1 to use the original or split GFF file; this is overridden by the presense of the grep option
+
+=item
+
+grep      - A perl-style regular expression that can be used to create a small, track specific GFF file
+
+=item
+
+prefix    - The string that will be prepended to the original file name when created with the grep option
+
+=item
+
+type      - A comma-separated list of types with optional sources, written "type:source,type2:source2"
+
+=item
+
+label     - The jbrowse label and key for the track
+
+=item
+
+altfile   - The section name that contains the grep-created GFF file for this track (to allow a GFF file created for one track to be reused for another)
+
+=back
+ 
+=head2 nosplit
+
+Some of the formatting steps can take a very long time with large GFF
+files, so one of the intermeditate steps the script will take is to
+split the GFF file into multiple files based on the reference sequence.
+This may be less desirable when the genome consists of 10,000 contigs
+than when there are 6 chromosomes.
+
+=head2 usenice
+
+Run all of the commands with the Unix nice command to bump their priority
+down in the command scheduler.
+
+=head1 AUTHOR
+
+Scott Cain E<lt>scott@scottcain.netE<gt>
+
+Copyright (c) 2014
+
+This script is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=cut
+
+
 my $INITIALDIR = cwd();
 my $JBROWSEDIR = "/usr/local/wormbase/website/scain/jbrowse";
 
@@ -22,6 +113,8 @@ GetOptions(
     'nosplitgff'  => \$NOSPLITGFF,
     'usenice'     => \$USENICE,
 ) or ( system( 'pod2text', $0 ), exit -1 );
+
+system( 'pod2text', $0 ) unless $CONFIG;
 
 my $Config = Config::Tiny->read($CONFIG) or die $!;
 
