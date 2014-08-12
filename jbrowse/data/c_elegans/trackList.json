@@ -1,0 +1,776 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "{geneColor}",
+            "height" : "function(f) {var type = f.get('type'); if (type == 'CDS') {return 10;} return 6;  }"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{geneURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "Curated Genes",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/gene_from_gff/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "category" : "Genes",
+         "label" : "Curated Genes",
+         "glyph" : "{geneGlyph}",
+         "metadata" : {
+             "citation" : "Protein-coding gene structures result from the integration of a variety of prediction methods and data sources followed by manual review and revison by WormBase curators. tRNAs are predicted by tRNAscan, and other non-coding RNA transcripts are taken from a variety of literature sources. The purple and blue colors indicate transcripts on the forward and reverse strands respectively. If sufficient room is available between features, gene models end with a triangle; if not a small arrow is used. Grey areas represent 5' and 3' UTRs of protein-coding transcripts, assigned automatically using the extents of overlapping ESTs and full-length cDNAs. The UTR predictions have not been reviewed by WormBase curators, and some are known to contain artifacts."
+          }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "function(feature) { var strain = feature.get('strain'); if (strain=='CB4858' || strain=='AF16') {return 'blue';} else if (strain=='CB4856' || strain=='HK104') {return 'yellow';} else {return 'white';} }",
+            "strandArrow" : "false",
+            "borderColor" : "black",
+            "description" : "{typeDescription}"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "Polymorphisms",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Polymorphisms/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Polymorphisms",
+         "category" : "Alleles, Variations, RNAi",
+         "metadata" : {
+             "citation" : "This track shows single nucleotide polymorphisms (SNPs). In this track, the molecular nature of the polymorphism is indicated by its glyph: Boxes are deletions; triangles are insertions; point mutations and substitutions are diamonds. Color reflects the source strain: polymorphisms found in CB4858 (Pasadena) are shown in blue; those found in CB4856 (Hawaii) in yellow, and all others in white."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "function(feature) { var method = feature.get('type'); if (method=='deletion') {return 'red';} else if (method=='point_mutation') {return 'yellow';} else if (method=='substitution') {return 'yellow';} else if (method=='complex_substitution') {return 'blue';} else {return 'white';} }",
+            "strandArrow" : "false",
+            "borderColor" : "black",
+            "height" : "function(feature) {var rflp = feature.get('rflp'); var status = feature.get('status'); if (rflp && status == 'Confirmed') {return 14;} else {return 8;} }"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "Classical alleles",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Classical alleles/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Classical alleles",
+         "category" : "Alleles, Variations, RNAi",
+         "metadata" : {
+             "citation" : "This track shows classical alleles comprised of insertions, deletions, substitutions and complex changes. These alleles were typically generated during forward genetic screens. Red boxes represent deletions; yellow diamonds represent substitutions; blue boxes represent complex substitutions; and white triangles represent insertions."
+         }
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "all",
+         "track" : "Pathogen Exposure: TransFrags OG1RF_24h",
+         "style" : {
+            "className" : "feature",
+            "showLabels" : "false",
+            "color" : "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
+            "borderColor" : "black",
+            "label" : "false",
+            "description" : "false"
+         },
+         "key" : "Pathogen Exposure: TransFrags OG1RF_24h",
+         "feature" : [
+            "transcript_region:3706_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Pathogen Exposure: TransFrags OG1RF_24h/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "modENCODE Tracks:Waterston Group:Tiling Array",
+         "type" : "CanvasFeatures",
+         "label" : "Pathogen Exposure: TransFrags OG1RF_24h"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "all",
+         "track" : "Pathogen Exposure: TransFrags OP50_48h",
+         "style" : {
+            "className" : "feature",
+            "color" : "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
+            "showLabels" : "false",
+            "borderColor" : "black",
+            "label" : "false",
+            "description" : "false"
+         },
+         "key" : "Pathogen Exposure: TransFrags OP50_48h",
+         "feature" : [
+            "transcript_region:3734_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Pathogen Exposure: TransFrags OP50_48h/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "modENCODE Tracks:Waterston Group:Tiling Array",
+         "label" : "Pathogen Exposure: TransFrags OP50_48h",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "all",
+         "track" : "Pathogen Exposure: TransFrags Hb_24h",
+         "style" : {
+            "className" : "feature",
+            "showLabels" : "false",
+            "color" : "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
+            "borderColor" : "black",
+            "label" : "false",
+            "description" : "false"
+         },
+         "key" : "Pathogen Exposure: TransFrags Hb_24h",
+         "feature" : [
+            "transcript_region:3709_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Pathogen Exposure: TransFrags Hb_24h/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "modENCODE Tracks:Waterston Group:Tiling Array",
+         "label" : "Pathogen Exposure: TransFrags Hb_24h",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "all",
+         "track" : "Pathogen Exposure: TransFrags Db_48h",
+         "style" : {
+            "className" : "feature",
+            "color" : "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
+            "showLabels" : "false",
+            "borderColor" : "black",
+            "label" : "false",
+            "description" : "false"
+         },
+         "key" : "Pathogen Exposure: TransFrags Db_48h",
+         "feature" : [
+            "transcript_region:3722_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Pathogen Exposure: TransFrags Db_48h/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "modENCODE Tracks:Waterston Group:Tiling Array",
+         "type" : "CanvasFeatures",
+         "label" : "Pathogen Exposure: TransFrags Db_48h"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "all",
+         "track" : "Pathogen Exposure: TransFrags Db_24h",
+         "style" : {
+            "className" : "feature",
+            "showLabels" : "false",
+            "color" : "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
+            "borderColor" : "black",
+            "label" : "false",
+            "description" : "false"
+         },
+         "key" : "Pathogen Exposure: TransFrags Db_24h",
+         "feature" : [
+            "transcript_region:3723_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Pathogen Exposure: TransFrags Db_24h/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "modENCODE Tracks:Waterston Group:Tiling Array",
+         "label" : "Pathogen Exposure: TransFrags Db_24h",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "all",
+         "track" : "Pathogen Exposure: TransFrags OP50_24h",
+         "style" : {
+            "className" : "feature",
+            "color" : "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
+            "showLabels" : "false",
+            "borderColor" : "black",
+            "label" : "false",
+            "description" : "false"
+         },
+         "key" : "Pathogen Exposure: TransFrags OP50_24h",
+         "feature" : [
+            "transcript_region:3724_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Pathogen Exposure: TransFrags OP50_24h/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "modENCODE Tracks:Waterston Group:Tiling Array",
+         "type" : "CanvasFeatures",
+         "label" : "Pathogen Exposure: TransFrags OP50_24h"
+      },
+      {
+         "storeClass" : "JBrowse/Store/SeqFeature/BAM",
+         "urlTemplate" : "/jbrowse/data/A_bowtie.map.sam.gz.bam.sorted.bam",
+         "type" : "Alignments2",
+         "category" : "modENCODE Tracks : Piano Group: Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+         "label" : "pool A",
+         "key" : "pool A"
+      },
+      {
+         "style" : {
+            "height" : 20
+         },
+         "key" : "pool A (bigwig)",
+         "storeClass" : "BigWig",
+         "urlTemplate" : "/jbrowse/data/A_bowtie.map.sam.gz.bam.sorted.bw",
+         "max_score" : 1000,
+         "label" : "pool A (bigwig)",
+         "category" : "modENCODE Tracks : Piano Group: Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "min_score" : "0"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "strandArrow" : "false",
+            "label" : "function(f) {var score = f.get('score'); var name = f.get('Name'); if (typeof score === undefined) {return name;} return score+' reads';  }",
+            "description" : "none",
+            "height" : "function (f) {var score = f.get('score'); var h = Math.floor(score/2); if (score > 100) {h = 50;} if (h == 0 || h == 1) {h=2;} return h; }"
+         },
+         "onClick" : {
+            "action" : "contentDialog",
+            "content" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; return 'This doesnt work. these features dont have a Name attribute. '+ wburl+'/get?name=Name;class=Feature. In GBrowse this results in a link to a not found page in WB';}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "RNASeq introns",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/RNASeq introns/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "RNASeq introns",
+         "category" : "Expression",
+         "metadata" : {
+             "citation" : "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. The number of reads spanning the introns is indicated by the thickness of the display."
+         }
+      },
+      {
+         "displayMode" : "collapsed",
+         "style" : {
+            "className" : "feature",
+            "color" : "function(f) {var source = f.get('source'); if (source == 'RNASeq_R_asymmetry') {return 'red';} if (source == 'RNASeq_F_asymmetry') {return 'green';} return 'black';  }",
+            "label" : "function(f) {var score = f.get('score'); if(typeof score === undefined) {return 'no score'; } return 'Score: '+score;}",
+            "description" : "none",
+            "height" : "function (f) {var score = f.get('score'); var h = Math.floor(score/2); if (score > 100) {h = 50;} if (h == 0 || h == 1) {h=2;} return h; }"
+         },
+         "onClick" : {
+            "action" : "contentDialog",
+            "content" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('name'); return 'this doesnt appear to work '+wburl+'/get?name='+name+';class=Feature'; }",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "RNASeq Asymmetries",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/RNASeq Asymmetries/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Expression",
+         "type" : "CanvasFeatures",
+         "label" : "RNASeq Asymmetries",
+         "metadata" : {
+             "citation" : "Red boxes indicate regions where there are more than 2 times as many forward sense RNASeq reads aligned to the genome as reverse sense reads. This asymmetrical signal has been found empirically to be a sensitive marker for the ends of transcripts. Green boxes indicate regions where there are more than 2 times as many reverse sense RNASeq reads aligned to the genome as forward sense reads. This asymmetrical signal has been found empirically to be sensitive marker for the ends of transcripts. The height of all boxes indicates the relative score of the feature."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "gray",
+            "label" : "function(f) {var locus = f.get('Alias'); var name = f.get('Name'); if (locus == name) {return name; } if (typeof locus === 'undefined') {return name;} return locus+' ('+name+')'; }",
+            "height" : 6,
+            "description" : "function(f) {var type = f.get('type'); return type; }"
+         },
+         "subParts" : "exon",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{simpleGeneURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "Curated Genes (noncoding)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Curated Genes (noncoding)/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "category" : "Genes",
+         "label" : "Curated Genes (noncoding)",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "metadata" : {
+             "citation" : "Non-coding curated gene models, including ncRNA, tRNA, miRNA, snRNA, snoRNA, piRNA, lincRNA and antisense RNA."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "{geneColor}",
+            "label" : "function(f) {var locus = f.get('Alias'); var name = f.get('Name'); if (locus == name) {return name; } if (typeof locus === 'undefined') {return name;} return locus+' ('+name+')'; }",
+            "description" : "function(f) {return'protein coding';}"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{simpleGeneURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "Curated Genes (protein coding)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Curated Genes (protein coding)/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Genes",
+         "type" : "CanvasFeatures",
+         "label" : "Curated Genes (protein coding)",
+         "metadata" : {
+             "citation" : "A subset of the full Curated Genes set limited to protein-coding genes only. Only the CDS is represented. Full models (with UTRs) can be seen on the 'Curated Genes' track."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "gray",
+            "label" : "function(f) {var locus = f.get('Alias'); var name = f.get('Name'); if (locus == name) {return name; } if (typeof locus === 'undefined') {return name;} return locus+' ('+name+')'; }",
+            "description" : "function(f) {return 'pseudogene';}"
+         },
+         "subParts" : "exon",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{simpleGeneURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "Curated Genes (pseudogenes)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Curated Genes (pseudogenes)/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "category" : "Genes",
+         "label" : "Curated Genes (pseudogenes)",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "metadata" : {
+             "citation" : "A subset of the full Curated Genes set limited to pseudogenes only."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "function(f) {var strand = f.get('strand'); if (strand < 0) {return 'violet';} return 'turquoise';  }",
+            "label" : "function(f) {var name = f.get('Name'); return name;}",
+            "description" : "function(f) { var type = f.get('type'); type.replace(/_/g, ' '); return type;  }"
+         },
+         "subParts" : "exon",
+         "key" : "Gene Models (historical)",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{simpleGeneURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Gene Models (historical)/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Genes",
+         "type" : "CanvasFeatures",
+         "label" : "Gene Models (historical)",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "metadata" : {
+             "citation" : "Historical gene predictions."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "function(f) {var source = f.get('source'); if (source == 'interpolated_pmap_position') {return 'red';} return 'turquoise';  }",
+            "label" : "function(f) {var status = f.get('status'); var gmap = f.get('gmap'); return gmap+' ('+status+')';  }",
+            "height" : 3
+         },
+         "key" : "Genetic limits",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('gmap'); return wburl+'/get?name='+name+';class=Gene';}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Genetic limits/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Genes",
+         "label" : "Genetic limits",
+         "type" : "CanvasFeatures",
+         "glyph" : "JBrowse/View/FeatureGlyph/Box",
+         "metadata" : {
+             "citation" : "This track shows the maximal extents for genetic loci. Loci that have been interpolated onto the physical map (and whose precise location is unknown) are shown as a thin black span.  The physical extent of such loci are determined by interpolating their genetic position onto the physical map using 95% confidence limits.  Please note that the actual location of such loci may lay outside of the span depicted. Loci with known sequence connections are shown in turquoise and depicted using the physical span of the gene."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "height" : 10
+         },
+         "key" : "Operons",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Operons/{refseq}/trackData.json",
+         "compress" : 0,
+         "label" : "Operons",
+         "category" : "Genes",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+             "citation" : "These are operons published by Blumenthal et al, Nature 417: 851-854 (2002)."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "gray",
+            "label" : "function(f) {var name = f.get('Name'); return name;}"
+         },
+         "key" : "Transposons",
+         "onClick" : {
+            "action" : "contentDialog",
+            "content" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('Name'); return 'This url results in a 404 how does it work for GBrowse? '+ wburl+'/get?name='+name;}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Transposons/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "category" : "Genes",
+         "label" : "Transposons",
+         "metadata" : {
+             "citation" : "These are transposon spans reviewed by WormBase curators."
+          }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "height" : 10
+         },
+         "key" : "Deprecated operons",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Deprecated operons/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Genes",
+         "label" : "Deprecated operons",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+             "citation" : "These are historical operon predictions."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "{variationColor}",
+            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
+            "borderColor" : "black",
+            "height" : 8,
+            "description" : "{typeDescription}"
+         },
+         "key" : "Change-of-function alleles",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Change-of-function alleles/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Alleles, Variations, RNAi",
+         "type" : "CanvasFeatures",
+         "label" : "Change-of-function alleles",
+         "metadata" : {
+             "citation" : "This track shows alleles that generate a putative change-of-function. In this track, the type of mutation is indicated by its glyph: Boxes are deletions. Triangles are insertions. Point mutations and substitutions are diamonds. Color shows the potential effect on coding regions. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else. Mouse over the feature for details."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "{variationColor}",
+            "borderColor" : "black",
+            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
+            "height" : 8,
+            "description" : "{typeDescription}"
+         },
+         "key" : "Change-of-function polymorphisms",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Change-of-function polymorphisms/{refseq}/trackData.json",
+         "compress" : 0,
+         "label" : "Change-of-function polymorphisms",
+         "category" : "Alleles, Variations, RNAi",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+             "citation" : "This track shows single nucleotide polymorphisms (SNPs) that may generate a change of function. In this track, the molecular nature of the polymorphism is indicated by its glyph: Boxes are deletions; triangles are insertions; point mutations and substitutions are diamonds. Color shows the potential effect on coding regions. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else. Mouse over the feature for details."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "{variationColor}",
+            "borderColor" : "black",
+            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
+            "height" : 8,
+            "description" : "{typeDescription}"
+         },
+         "key" : "Million Mutation Project",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Million Mutation Project/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Million Mutation Project",
+         "category" : "Alleles, Variations, RNAi",
+         "metadata" : {
+             "citation" : "This track shows SNPs from the The Million Mutation Project (Waterston/Moerman). The color of the SNP represents its potental effect on a gene. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "{variationColor}",
+            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
+            "borderColor" : "black",
+            "description" : "{typeDescription}",
+            "height" : 8
+         },
+         "key" : "High-throughput alleles",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/High-throughput alleles/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Alleles, Variations, RNAi",
+         "type" : "CanvasFeatures",
+         "label" : "High-throughput alleles",
+         "metadata" : {
+             "citation" : "These are alleles generated through high-throughput, genome-wide projects. Million Mutation Project alleles are placed in a separate track."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "function(f) {var source = f.get('source'); if (source == 'Mos_insertion_allele') {return 'yellow';} if (source == 'NemaGENETAG_consortium') {return 'red'} return 'blue'; }",
+            "height" : 8
+         },
+         "key" : "Transposon insert sites",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Transposon insert sites/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "category" : "Alleles, Variations, RNAi",
+         "label" : "Transposon insert sites",
+         "metadata" : {
+             "citation" : "This track shows transposon insertion sites engineered by Laurent Segalat and others [<a href='/get?name=%5Bwm99ab757%5D;class=Paper'>Alvarez et al.</a>, Towards a genome-wide collection of transposon insertions, International C. elegans Meeting 1999 Yellow triangles are Mos-derived transposon insertions; red trangles are NemaGENETAG consortium insertion sites; blue triangles are Tc* derived transposon insertions."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "goldenrod",
+            "label" : "function(f) {var history = f.get('history_name'); if (!(typeof history === 'undefined')) {return history;} var name = f.get('Name'); var target = f.get('Target'); if(!(typeof name === 'undefined')) { return name;} if(!(typeof target === 'undefined')) {var index = target.indexOf(' '); name = target.substring(0, index); return name;  } }",
+            "height" : 4,
+            "description" : "function(f) {var lab = f.get('laboratory'); if (typeof lab === 'undefined') {return;} return 'source lab: '+lab;   }"
+         },
+         "key" : "RNAi experiments (primary targets)",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('Name'); if (typeof name ==='undefined') {var target = f.get('Target'); if (typeof target ==='undefined') {return;} var index = target.indexOf(' '); name = target.substring(0, index); } return wburl+'/get?name='+name+';class=RNAi'; }",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/RNAi experiments (primary targets)/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Alleles, Variations, RNAi",
+         "type" : "CanvasFeatures",
+         "label" : "RNAi experiments (primary targets)",
+         "metadata" : {
+             "citation" : "This track represents RNAi probes that have been aligned to the genome using a combination of BLAST and BLAT programs and have sequence identity to the target location of at least 95% over a stretch of at least 100 nt. Probes that satisfy these criteria are almost certain to produce RNAi effect on overlapping genes and the corresponding locations are usually the primary genomic targets of an RNAi experiment. Note that it is possible for a probe to have multiple primary targets within the genome. Click on the RNAi element to get more information about the experiment."
+          }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "red",
+            "label" : "function(f) {var history = f.get('history_name'); if (!(typeof history === 'undefined')) {return history;} var name = f.get('Name'); var target = f.get('Target'); if(!(typeof name === 'undefined')) { return name;} if(!(typeof target === 'undefined')) {var index = target.indexOf(' '); name = target.substring(0, index); return name;  } }",
+            "height" : 4,
+            "description" : "function(f) {var lab = f.get('laboratory'); if (typeof lab === 'undefined') {return;} return 'source lab: '+lab;   }"
+         },
+         "key" : "RNAi experiments (secondary targets)",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('Name'); if (typeof name ==='undefined') {var target = f.get('Target'); if (typeof target ==='undefined') {return;} var index = target.indexOf(' '); name = target.substring(0, index); } return wburl+'/get?name='+name+';class=RNAi'; }",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/RNAi experiments (secondary targets)/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Alleles, Variations, RNAi",
+         "type" : "CanvasFeatures",
+         "label" : "RNAi experiments (secondary targets)",
+         "metadata" : {
+             "citation" : "This track represents RNAi probes that have been aligned to the genome using BLAST program and have sequence identity to the target location from 80 to 94.99% over a stretch of at least 200 nt. Probes that satisfy these criteria may or may not produce RNAi effect on overlapping genes and the corresponding locations represent possible secondary (unintended) genomic targets of an RNAi experiment. Click on the RNAi element to get more information about the experiment."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "lightgray",
+            "height" : 7
+         },
+         "key" : "SAGE tags",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('sequence'); if (typeof name ==='undefined') {return;} return wburl+'/db/seq/sage?name='+name+';class=SAGE_tag'; }",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/SAGE tags/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "SAGE tags",
+         "category" : "Expression",
+         "metadata" : {
+             "citation" : "This track indicates the location of Serial Analysis of Gene Expression (SAGE) patterns associated with a tag and its associated genes.  Tags shown in grey are either unambiguously mapped to a gene elsewhere or are ambigous due to multiple occurences in genomic or trascript sequences.  Colored tags are mapped unambiguously to a single gene or genomic location.  Violet and turquoise refer to the plus strand and minus strands, respectively.  The number shown above tags is the total number of times this tag was observed in all SAGE experiments."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "key" : "Polysomes",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Polysomes/{refseq}/trackData.json",
+         "compress" : 0,
+         "label" : "Polysomes",
+         "type" : "CanvasFeatures",
+         "category" : "Expression",
+         "metadata" : {
+             "citation" : "This data is from the The Lamm et al. (2011) PMID: 21177965 paper finding regions bound by the polysome fraction of RNAs being actively translated."
+         }
+      },
+      {
+         "displayMode" : "collapsed",
+         "style" : {
+            "className" : "feature",
+            "color" : "black",
+            "label" : "function(f) {var score = f.get('score'); if(typeof score === undefined) {return 'no score'; } return 'Score: '+score;}",
+            "height" : "function (f) {var score = f.get('score'); var h = Math.floor(score/2); if (score > 100) {h = 50;} if (h == 0 || h == 1) {h=2;} return h; }"
+         },
+         "key" : "RNASeq",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/RNASeq/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "category" : "Expression",
+         "label" : "RNASeq",
+         "metadata" : {
+             "citation" : "These boxes indicate alignments of short read sequences from all available RNASeq projects. The number of reads has been normalised by averaging over the number of libraries. The height of all boxes indicates the relative score of the feature."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "orange",
+            "height" : 4
+         },
+         "key" : "Expression chip profiles",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Expression chip profiles/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Expression",
+         "label" : "Expression chip profiles",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+             "citation" : "This track indicates the location of PCR products that have been placed on expression chips produced by the C. elegans Microarray Consortium [ <a href='http://cmgm.stanford.edu/~kimlab/wmdirectorybig.html'>http://cmgm.stanford.edu/~kimlab/wmdirectorybig.html</a>]. The genes corresponding to these products have been clustered by their expression patterns.  Click on the profile to get more information about the expression profile of its corresponding gene."
+         },
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "black",
+            "height" : 3
+         },
+         "key" : "Expression patterns",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Expression patterns/{refseq}/trackData.json",
+         "compress" : 0,
+         "label" : "Expression patterns",
+         "type" : "CanvasFeatures",
+         "category" : "Expression",
+         "metadata" : {
+             "citation" : "This track represents sequences that were used for in vivo expression pattern analysis, such as promoter sequences for GFP or LacZ constructs.  Colored areas in the worm image represent approximate regions where adult or late larval expression has been documented via Anatomy Ontology terms.  The strand of the sequence (promoter) region used is indicated by color in the same way as genes, where violet is the forward strand and turqoise is the reverse strand.  Clicking on the worm image will take you to a detailed view of the expression pattern (not implemented yet)."
+         }
+      }
+   ],
+   "names" : {
+      "url" : "names/",
+      "type" : "Hash"
+   },
+   "include" : [
+      "../functions.conf"
+   ],
+   "formatVersion" : 1
+}
