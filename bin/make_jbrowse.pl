@@ -21,6 +21,7 @@ make_jbrowse.pl - Creates a JBrowse instance with input GFF and configuration
 
  --config     Path to ini-style config file (required)
  --gfffile    Path to an input GFF file
+ --fastafile  Path to an input FASTA file
  --datadir    Relative path (from jbrowse root) to jbrowse data dir
  --nosplit    Don't split GFF file by reference sequence
  --usenice    Run formatting commands with Unix nice 
@@ -37,6 +38,7 @@ section of the config (before the sections that start with square-bracketed
 names) include:
 
  gfffile   - Path to the input GFF file
+ fastafile - Path to the input FASTA file
  datadir   - Relative path (from the jbrowse root) to jbrowse data directory
  nosplit   - Don't split GFF file by reference sequence 
  usenice   - Run formatting commands with Unix nice
@@ -103,11 +105,12 @@ it under the same terms as Perl itself.
 my $INITIALDIR = cwd();
 my $JBROWSEDIR = "/usr/local/wormbase/website/scain/jbrowse";
 
-my ($GFFFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE);
+my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE);
 my %splitfiles;
 
 GetOptions(
     'gfffile=s'   => \$GFFFILE,
+    'fastafile=s' => \$FASTAFILE,
     'config=s'    => \$CONFIG,
     'datadir=s'   => \$DATADIR,
     'nosplitgff'  => \$NOSPLITGFF,
@@ -121,6 +124,7 @@ my $Config = Config::Tiny->read($CONFIG) or die $!;
 my @config_sections = grep {!/^_/} keys %{$Config}; 
 
 $GFFFILE  ||= $Config->{_}->{gfffile};
+$FASTAFILE||= $Config->{_}->{fastafile};
 $DATADIR  ||= $Config->{_}->{datadir};
 $NOSPLITGFF = $Config->{_}->{nosplitgff} unless defined $NOSPLITGFF;
 $USENICE    = $Config->{_}->{usenice}    unless defined $USENICE;
@@ -175,6 +179,12 @@ else {
 }
 
 chdir $JBROWSEDIR;
+
+#check to see if the seq directory is present; if not prepare-refseqs
+if (!-e $DATADIR."/seq") {
+    my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
+    system($command) == 0 or die $!;
+}
 
 #use original or split gff for many tracks
 for my $section (@config_sections) {
