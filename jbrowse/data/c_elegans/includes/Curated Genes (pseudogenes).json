@@ -1,0 +1,31 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "gray",
+            "label" : "function(f) {var locus = f.get('Alias'); var name = f.get('Name'); if (locus == name) {return name; } if (typeof locus === 'undefined') {return name;} return locus+' ('+name+')'; }",
+            "description" : "function(f) {return 'pseudogene';}"
+         },
+         "subParts" : "exon",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{simpleGeneURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "Curated Genes (pseudogenes)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Curated Genes (pseudogenes)/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "category" : "Genes",
+         "label" : "Curated Genes (pseudogenes)",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "metadata" : {
+             "citation" : "A subset of the full Curated Genes set limited to pseudogenes only."
+         }
+      }
+   ]
+}

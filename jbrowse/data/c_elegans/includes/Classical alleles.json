@@ -1,0 +1,30 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "function(feature) { var method = feature.get('type'); if (method=='deletion') {return 'red';} else if (method=='point_mutation') {return 'yellow';} else if (method=='substitution') {return 'yellow';} else if (method=='complex_substitution') {return 'blue';} else {return 'white';} }",
+            "strandArrow" : "false",
+            "borderColor" : "black",
+            "height" : "function(feature) {var rflp = feature.get('rflp'); var status = feature.get('status'); if (rflp && status == 'Confirmed') {return 14;} else {return 8;} }"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "Classical alleles",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Classical alleles/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Classical alleles",
+         "category" : "Alleles, Variations, RNAi",
+         "metadata" : {
+             "citation" : "This track shows classical alleles comprised of insertions, deletions, substitutions and complex changes. These alleles were typically generated during forward genetic screens. Red boxes represent deletions; yellow diamonds represent substitutions; blue boxes represent complex substitutions; and white triangles represent insertions."
+         }
+      }
+   ]
+}

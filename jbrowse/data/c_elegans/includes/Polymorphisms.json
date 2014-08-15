@@ -1,0 +1,30 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "function(feature) { var strain = feature.get('strain'); if (strain=='CB4858' || strain=='AF16') {return 'blue';} else if (strain=='CB4856' || strain=='HK104') {return 'yellow';} else {return 'white';} }",
+            "strandArrow" : "false",
+            "borderColor" : "black",
+            "description" : "{typeDescription}"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "Polymorphisms",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Polymorphisms/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Polymorphisms",
+         "category" : "Alleles, Variations, RNAi",
+         "metadata" : {
+             "citation" : "This track shows single nucleotide polymorphisms (SNPs). In this track, the molecular nature of the polymorphism is indicated by its glyph: Boxes are deletions; triangles are insertions; point mutations and substitutions are diamonds. Color reflects the source strain: polymorphisms found in CB4858 (Pasadena) are shown in blue; those found in CB4856 (Hawaii) in yellow, and all others in white."
+         }
+      }
+   ]
+}

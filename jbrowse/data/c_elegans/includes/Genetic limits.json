@@ -1,0 +1,30 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "function(f) {var source = f.get('source'); if (source == 'interpolated_pmap_position') {return 'red';} return 'turquoise';  }",
+            "label" : "function(f) {var status = f.get('status'); var gmap = f.get('gmap'); return gmap+' ('+status+')';  }",
+            "height" : 3
+         },
+         "key" : "Genetic limits",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('gmap'); return wburl+'/get?name='+name+';class=Gene';}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Genetic limits/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Genes",
+         "label" : "Genetic limits",
+         "type" : "CanvasFeatures",
+         "glyph" : "JBrowse/View/FeatureGlyph/Box",
+         "metadata" : {
+             "citation" : "This track shows the maximal extents for genetic loci. Loci that have been interpolated onto the physical map (and whose precise location is unknown) are shown as a thin black span.  The physical extent of such loci are determined by interpolating their genetic position onto the physical map using 95% confidence limits.  Please note that the actual location of such loci may lay outside of the span depicted. Loci with known sequence connections are shown in turquoise and depicted using the physical span of the gene."
+         }
+      }
+   ]
+}

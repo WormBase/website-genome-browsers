@@ -1,0 +1,31 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "function(f) {var strand = f.get('strand'); if (strand < 0) {return 'violet';} return 'turquoise';  }",
+            "label" : "function(f) {var name = f.get('Name'); return name;}",
+            "description" : "function(f) { var type = f.get('type'); type.replace(/_/g, ' '); return type;  }"
+         },
+         "subParts" : "exon",
+         "key" : "Gene Models (historical)",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{simpleGeneURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Gene Models (historical)/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Genes",
+         "type" : "CanvasFeatures",
+         "label" : "Gene Models (historical)",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "metadata" : {
+             "citation" : "Historical gene predictions."
+         }
+      }
+   ]
+}

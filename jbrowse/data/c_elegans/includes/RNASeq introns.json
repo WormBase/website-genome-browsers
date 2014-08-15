@@ -1,0 +1,31 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "strandArrow" : "false",
+            "label" : "function(f) {var score = f.get('score'); var name = f.get('Name'); if (typeof score === undefined) {return name;} return score+' reads';  }",
+            "description" : "none",
+            "height" : "function (f) {var score = f.get('score'); var h = Math.floor(score/2); if (score > 100) {h = 50;} if (h == 0 || h == 1) {h=2;} return h; }"
+         },
+         "onClick" : {
+            "action" : "contentDialog",
+            "content" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; return 'This doesnt work. these features dont have a Name attribute. '+ wburl+'/get?name=Name;class=Feature. In GBrowse this results in a link to a not found page in WB';}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "RNASeq introns",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/RNASeq introns/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "RNASeq introns",
+         "category" : "Expression",
+         "metadata" : {
+             "citation" : "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. The number of reads spanning the introns is indicated by the thickness of the display."
+         }
+      }
+   ]
+}

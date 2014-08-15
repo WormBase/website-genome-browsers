@@ -1,0 +1,31 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "{variationColor}",
+            "borderColor" : "black",
+            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
+            "height" : 8,
+            "description" : "{typeDescription}"
+         },
+         "key" : "Million Mutation Project",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Million Mutation Project/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Million Mutation Project",
+         "category" : "Alleles, Variations, RNAi",
+         "metadata" : {
+             "citation" : "This track shows SNPs from the The Million Mutation Project (Waterston/Moerman). The color of the SNP represents its potental effect on a gene. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else."
+         }
+      }
+   ]
+}

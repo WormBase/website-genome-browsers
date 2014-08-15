@@ -1,0 +1,22 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "function(f) {var source = f.get('source'); if (source == 'Mos_insertion_allele') {return 'yellow';} if (source == 'NemaGENETAG_consortium') {return 'red'} return 'blue'; }",
+            "height" : 8
+         },
+         "key" : "Transposon insert sites",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Transposon insert sites/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "category" : "Alleles, Variations, RNAi",
+         "label" : "Transposon insert sites",
+         "metadata" : {
+             "citation" : "This track shows transposon insertion sites engineered by Laurent Segalat and others [<a href='/get?name=%5Bwm99ab757%5D;class=Paper'>Alvarez et al.</a>, Towards a genome-wide collection of transposon insertions, International C. elegans Meeting 1999 Yellow triangles are Mos-derived transposon insertions; red trangles are NemaGENETAG consortium insertion sites; blue triangles are Tc* derived transposon insertions."
+         }
+      }
+   ]
+}

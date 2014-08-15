@@ -1,0 +1,28 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "gray",
+            "label" : "function(f) {var name = f.get('Name'); return name;}"
+         },
+         "key" : "Transposons",
+         "onClick" : {
+            "action" : "contentDialog",
+            "content" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('Name'); return 'This url results in a 404 how does it work for GBrowse? '+ wburl+'/get?name='+name;}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Transposons/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "category" : "Genes",
+         "label" : "Transposons",
+         "metadata" : {
+             "citation" : "These are transposon spans reviewed by WormBase curators."
+          }
+      }
+   ]
+}

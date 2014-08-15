@@ -1,0 +1,30 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "goldenrod",
+            "label" : "function(f) {var history = f.get('history_name'); if (!(typeof history === 'undefined')) {return history;} var name = f.get('Name'); var target = f.get('Target'); if(!(typeof name === 'undefined')) { return name;} if(!(typeof target === 'undefined')) {var index = target.indexOf(' '); name = target.substring(0, index); return name;  } }",
+            "height" : 4,
+            "description" : "function(f) {var lab = f.get('laboratory'); if (typeof lab === 'undefined') {return;} return 'source lab: '+lab;   }"
+         },
+         "key" : "RNAi experiments (primary targets)",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('Name'); if (typeof name ==='undefined') {var target = f.get('Target'); if (typeof target ==='undefined') {return;} var index = target.indexOf(' '); name = target.substring(0, index); } return wburl+'/get?name='+name+';class=RNAi'; }",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/RNAi experiments (primary targets)/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Alleles, Variations, RNAi",
+         "type" : "CanvasFeatures",
+         "label" : "RNAi experiments (primary targets)",
+         "metadata" : {
+             "citation" : "This track represents RNAi probes that have been aligned to the genome using a combination of BLAST and BLAT programs and have sequence identity to the target location of at least 95% over a stretch of at least 100 nt. Probes that satisfy these criteria are almost certain to produce RNAi effect on overlapping genes and the corresponding locations are usually the primary genomic targets of an RNAi experiment. Note that it is possible for a probe to have multiple primary targets within the genome. Click on the RNAi element to get more information about the experiment."
+          }
+      }
+   ]
+}
