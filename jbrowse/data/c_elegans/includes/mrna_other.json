@@ -1,0 +1,30 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "{matchColor}",
+            "height" : 5
+         },
+         "subParts" : "match_part",
+         "onClick" : {
+            "url" : "{targetURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase Staging",
+            "label" : "Feature in WormBase Staging"
+         },
+         "key" : "mRNAs/ncRNAs (other)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/mRNAs/ncRNAs (other)/{refseq}/trackData.json",
+         "compress" : 0,
+         "metadata" : {
+            "citation" : "Native (same species) full length mRNAs and ncRNAs aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows non-unique matches, which may represent repetitive sequences. For the best single alignment, see the track labeled 'mRNAs/ncRNAs (best)'."
+         },
+         "type" : "CanvasFeatures",
+         "label" : "mRNAs/ncRNAs (other)",
+         "category" : "Transcription:Supporting Evidence",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
+      }
+   ]
+}

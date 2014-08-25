@@ -1,0 +1,28 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "orange",
+            "height" : 5
+         },
+         "key" : "Other UniProt proteins",
+         "onClick" : {
+            "url" : "{proteinURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase Staging",
+            "label" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Other UniProt proteins/{refseq}/trackData.json",
+         "compress" : 0,
+         "label" : "Other UniProt proteins",
+         "type" : "CanvasFeatures",
+         "category" : "Sequence Similarity:Proteins",
+         "metadata" : {
+            "citation" : "Matches to proteins from a slimmed-down version of UniProt (with proteins from WormBase core nematodes, human, fly and yeast removed), aligned with BLASTX (nucleotide to protein, via six-frame translation)."
+         }
+      }
+   ]
+}

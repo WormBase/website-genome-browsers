@@ -1,4 +1,6 @@
 {
+   "tracks" : [
+   ],
    "names" : {
       "url" : "names/",
       "type" : "Hash"
@@ -31,6 +33,21 @@
       "includes/rnaseq.json",
       "includes/expression_chip_profiles.json",
       "includes/expression_patterns.json",
+      "includes/sequence_similarity_bmalayi_proteins_blastx.json",
+      "includes/sequence_similarity_uniprot_blastx.json",
+      "includes/sequence_similarity_scerevisiae_proteins_blastx.json",
+      "includes/sequence_similarity_ppacificus_proteins_blastx.json",
+      "includes/sequence_similarity_hsapiens_proteins_blastx.json",
+      "includes/sequence_similarity_dmelanogaster_proteins_blastx.json",
+      "includes/sequence_similarity_cremanei_proteins_blastx.json",
+      "includes/sequence_similarity_cjaponica_proteins_blastx.json",
+      "includes/sequence_similarity_celegans_proteins_blastx.json",
+      "includes/sequence_similarity_cbrenneri_proteins_blastx.json",
+      "includes/sequence_similarity_cbriggsae_proteins_blastx.json",
+      "includes/est_best.json",
+      "includes/est_other.json",
+      "includes/mrna_best.json",
+      "includes/mrna_other.json",
       "includes/Misc.json"
    ],
    "dataset_id" : "c_elegans",
