@@ -1,0 +1,49 @@
+This is not intended to take the place of the full JBrowse user guide
+at 
+
+    http://gmod.org/wiki/JBrowse and 
+    http://jbrowse.org/code/JBrowse-1.11.4/docs/tutorial/
+
+but rather is just a few things I'd like to point out for WormBase users.
+
+The current instance of JBrowse can be found at http://jbrowse.wormbase.org/.
+When you navigate there, you'll find a somewhat uninspiring page with the 
+name of a few species represented in WormBase.  As with everything else, 
+the one with the most data is C. elegans (currently both S. ratti and 
+C. briggsae just there for me to test some things).
+
+JBrowse is the "next gen" "replacement" for GBrowse.  I put the replacement
+in quotes because I don't expect GBrowse to go away any time soon, so really
+it's more of a compliment.  JBrowse is designed to be much faster than 
+GBrowse and it is generally quite successful in that.  I don't want to go
+into the technology that makes it so fast, but if you're curious, you can 
+look at the two URLs I gave above or ask me.
+
+Some usage notes:
+
+1. Selecting tracks: JBrowse comes with a faceted track selector.  To
+access it, click on the "Select tracks" tab near the upper left corner.
+This will slide open the track selector.  The track selector allows users
+to select tracks based on metadata provided about the tracks.  In the 
+current instance, that means the track names, categories (which are the
+same as in GBrowse) and citation (that is, description text about the track).
+Tracks can be selected in a variety of ways, including clicking on categories
+on the left or using the search field in the upper right section of the
+selector to dynamically search all metadata of the tracks.  Turning on tracks
+then can be accomplished either by clicking individual checkboxes next to the
+track names or by clicking the checkbox next to the "Name" header of the table
+to turn them all on.  Note that there is currently a limit of 30 tracks that
+you can turn on at once by clicking on the "Name" checkbox, but you can have
+more than 30 tracks in JBrowse at once.
+
+2. Navigation: 
+
+3. Searching:
+
+4. Using your own data:
+
+5. Combination tracks:
+
+6. Sequence searching:
+
+
