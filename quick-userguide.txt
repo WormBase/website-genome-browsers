@@ -4,7 +4,8 @@ at
     http://gmod.org/wiki/JBrowse and 
     http://jbrowse.org/code/JBrowse-1.11.4/docs/tutorial/
 
-but rather is just a few things I'd like to point out for WormBase users.
+but rather is just a few things I'd like to point out for WormBase users
+(and besides, most of that user guide stuff is real for admins).
 
 The current instance of JBrowse can be found at http://jbrowse.wormbase.org/.
 When you navigate there, you'll find a somewhat uninspiring page with the 
@@ -25,7 +26,7 @@ Some usage notes:
 access it, click on the "Select tracks" tab near the upper left corner.
 This will slide open the track selector.  The track selector allows users
 to select tracks based on metadata provided about the tracks.  In the 
-current instance, that means the track names, categories (which are the
+current instance, that means the track names, categories (which are both the
 same as in GBrowse) and citation (that is, description text about the track).
 Tracks can be selected in a variety of ways, including clicking on categories
 on the left or using the search field in the upper right section of the
@@ -34,7 +35,9 @@ then can be accomplished either by clicking individual checkboxes next to the
 track names or by clicking the checkbox next to the "Name" header of the table
 to turn them all on.  Note that there is currently a limit of 30 tracks that
 you can turn on at once by clicking on the "Name" checkbox, but you can have
-more than 30 tracks in JBrowse at once.
+more than 30 tracks in JBrowse at once. Please let me know if you have 
+suggestions for facets/metadata that I could add to make this searching
+more useful.
 
 2. Navigation: One of the big selling points of JBrowse is fast and fluid
 panning and zooming.  Generally you get around JBrowse the same way as
@@ -57,7 +60,8 @@ own data, you upload it to a server which processes the data and sends
 images back.  With JBrowse, the files are kept locally and processed
 by the JavaScript code in the browser.  To load your own data files, use
 the Open option in the File menu in the upper left corner of the JBrowse
-window.
+window. In addition to processing local files, you can also provide a
+URL in the Open dialog box that points to a BAM or BigWig file on a server.
 
 5. Combination tracks: Also under that File menu is the "Add combination
 track" menu. This is a fairly powerful function that lets you combine the
@@ -77,11 +81,12 @@ translating the reference sequence) as well as items like ignore case
 and limiting to one strand.  Additionally, you can provide a regular
 expression to search for, so you could search for something like this
 "at[gc]" and it would search for either "atg" or "atc".  It doesn't 
-know about IUPAC codes.  It also won't tell you about other places
-in the genome that the sequence might exist, it will only draw a glyph
-where the sequence is found in the current display.
+know about IUPAC codes (well, I don't think it does anyway).  It also
+won't tell you about other places in the genome that the sequence might
+exist, it will only draw a glyph where the sequence is found in the
+current display.
 
 7. Available data: Currently there are about 50 tracks but I will continue
-to add more.  If there is data you'd particularly like to see, please let 
+to add more.  If there are data you'd particularly like to see, please let 
 me know and I'll get it in as soon as possible.
 
