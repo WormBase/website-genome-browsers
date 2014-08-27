@@ -5,7 +5,7 @@ at
     http://jbrowse.org/code/JBrowse-1.11.4/docs/tutorial/
 
 but rather is just a few things I'd like to point out for WormBase users
-(and besides, most of that user guide stuff is real for admins).
+(and besides, most of that user guide stuff is really for admins).
 
 The current instance of JBrowse can be found at http://jbrowse.wormbase.org/.
 When you navigate there, you'll find a somewhat uninspiring page with the 
