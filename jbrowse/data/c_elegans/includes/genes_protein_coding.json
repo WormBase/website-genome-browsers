@@ -4,7 +4,7 @@
          "style" : {
             "className" : "feature",
             "color" : "{geneColor}",
-            "label" : "function(f) {var locus = f.get('Alias'); var name = f.get('Name'); if (locus == name) {return name; } if (typeof locus === 'undefined') {return name;} return locus+' ('+name+')'; }",
+            "label" : "{geneLabel}",
             "description" : "function(f) {return'protein coding';}"
          },
          "onClick" : {

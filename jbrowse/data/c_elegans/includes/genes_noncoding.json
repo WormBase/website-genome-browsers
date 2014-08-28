@@ -4,7 +4,7 @@
          "style" : {
             "className" : "feature",
             "color" : "gray",
-            "label" : "function(f) {var locus = f.get('Alias'); var name = f.get('Name'); if (locus == name) {return name; } if (typeof locus === 'undefined') {return name;} return locus+' ('+name+')'; }",
+            "label" : "{geneLabel}",
             "height" : 6,
             "description" : "function(f) {var type = f.get('type'); return type; }"
          },
