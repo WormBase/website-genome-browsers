@@ -25,6 +25,7 @@ make_jbrowse.pl - Creates a JBrowse instance with input GFF and configuration
  --datadir    Relative path (from jbrowse root) to jbrowse data dir
  --nosplit    Don't split GFF file by reference sequence
  --usenice    Run formatting commands with Unix nice 
+ --skipfilesplit Don't split files or use grep to make subfiles
 
 =head1 DESCRIPTION
 
@@ -42,6 +43,7 @@ names) include:
  datadir   - Relative path (from the jbrowse root) to jbrowse data directory
  nosplit   - Don't split GFF file by reference sequence 
  usenice   - Run formatting commands with Unix nice
+ skipfilesplit - Don't split files or use grep to make subfiles
 
 Note that the options in the config file can be overridden with the command
 line options.
@@ -103,9 +105,9 @@ it under the same terms as Perl itself.
 
 
 my $INITIALDIR = cwd();
-my $JBROWSEDIR = "/usr/local/wormbase/website/scain/jbrowse";
 
-my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE);
+my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
+    $SKIPFILESPLIT, $JBROWSEDIR);
 my %splitfiles;
 
 GetOptions(
@@ -115,6 +117,8 @@ GetOptions(
     'datadir=s'   => \$DATADIR,
     'nosplitgff'  => \$NOSPLITGFF,
     'usenice'     => \$USENICE,
+    'skipfilesplit'=>\$SKIPFILESPLIT,
+    'jbrowsedir'  => \$JBROWSEDIR,
 ) or ( system( 'pod2text', $0 ), exit -1 );
 
 system( 'pod2text', $0 ) unless $CONFIG;
@@ -126,12 +130,15 @@ my @config_sections = grep {!/^_/} keys %{$Config};
 $GFFFILE  ||= $Config->{_}->{gfffile};
 $FASTAFILE||= $Config->{_}->{fastafile};
 $DATADIR  ||= $Config->{_}->{datadir};
+$SKIPFILESPLIT ||= $Config->{_}->{skipfilesplit};
 $NOSPLITGFF = $Config->{_}->{nosplitgff} unless defined $NOSPLITGFF;
 $USENICE    = $Config->{_}->{usenice}    unless defined $USENICE;
 my $nice = $USENICE ? "nice" : '';
+$JBROWSEDIR ||= "/usr/local/wormbase/website/scain/jbrowse-dev";
 
 #use grep to create type specific gff files
-for my $section (@config_sections) {
+unless ($SKIPFILESPLIT) {
+  for my $section (@config_sections) {
 
     my $gffout      = $Config->{$section}->{prefix} . "_$GFFFILE";
     my $greppattern = $Config->{$section}->{grep};
@@ -141,6 +148,7 @@ for my $section (@config_sections) {
     my $grepcommand = "grep -P \"$greppattern\" $GFFFILE > $gffout";
     warn $grepcommand;
     system ($grepcommand) == 0 or die $!;
+  }
 }
 
 #split the primary GFF file by seq_id if desired.
