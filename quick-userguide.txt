@@ -17,9 +17,9 @@ visualiation.
 
 NOTES AND LIMITATIONS OF THE CURRENT IMPLEMENTATION 
 
-1. Available data: Currently there are about 50 tracks but I will continue
+1. Available data: Currently there are about 55 tracks but I will continue
 to add more.  If there are data you'd particularly like to see, please let 
-Scott know and I'll get it in as soon as possible.
+me know and I'll get it in as soon as possible.
 
 2. Selecting tracks: JBrowse comes with a faceted track selector.  To
 access it, click on the "Select tracks" tab near the upper left corner.  The 
@@ -39,7 +39,7 @@ more useful.
 
 3. Navigation: One of the big selling points of JBrowse is fast and fluid
 panning and zooming.  Generally you get around JBrowse the same way as
-GBrowse: there are pan, zoom in and out buttons (the big magnifying glasses
+GBrowse: there are pan and zoom in and out buttons (the big magnifying glasses
 zoom "a lot" and the little ones zoom "a little").  In addition to using
 the buttons, you can pan by clicking and dragging the mouse in any
 empty space in the tracks.  You can also zoom in a way that is similar to
@@ -47,10 +47,11 @@ GBrowse, by clicking and dragging to highlight the region to zoom to and
 release it.  You can do that either on the chromosome ruler (above the
 navigation buttons) or on the region ruler (below the navigation buttons).
 
-4. Searching: in the current implementation, searching is less than ideal.
-You can't search for alias or gene name but you can search for sequence
-names (that is, you can't search for unc-1 but you can look for K03E6.5.
-I'm working on a fix for that.
+4. Searching: You can use the search box in the upper right section of the
+screen to search for feature names and aliases, so for example unc-1,
+K03E6.5 and WBGene00006741 should all work.  The search box has name
+completion, so typing in the first few characters will get you suggested
+things to search for. 	
 
 5. Using your own data: JBrowse let's you load BAM or BigWig data but it 
 works differently from GBrowse.  In GBrowse, when you want to load your 
@@ -82,7 +83,10 @@ expression to search for, so you could search for something like this
 know about IUPAC codes (well, I don't think it does anyway).  It also
 won't tell you about other places in the genome that the sequence might
 exist, it will only draw a glyph where the sequence is found in the
-current display.
+current display. Once you create a sequence search track, that track will 
+remain until it is dismissed with the "x" next to the track name just like
+any other track.
+
 
 
 For further reading, please see the official JBrowse user guides and tutorials:
