@@ -48,6 +48,13 @@
       "includes/est_other.json",
       "includes/mrna_best.json",
       "includes/mrna_other.json",
+      "includes/prediction_genefinder.json",
+      "includes/prediction_genemarkhmm.json",
+      "includes/prediction_mgene.json",
+      "includes/prediction_msplicer_orf.json",
+      "includes/prediction_msplicer_transcript.json",
+      "includes/prediction_rnaz.json",
+      "includes/prediction_twinscan.json",
       "includes/Misc.json"
    ],
    "dataset_id" : "c_elegans",

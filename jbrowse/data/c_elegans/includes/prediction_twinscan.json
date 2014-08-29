@@ -1,0 +1,18 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "palevioletred"
+         },
+         "category" : "Transcription:Ab-initio predictions",
+         "key" : "Prediction: Twinscan",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Prediction: Twinscan/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Prediction: Twinscan"
+      }
+   ]
+}
