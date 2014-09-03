@@ -3,7 +3,8 @@
       { 
          "style" : {
             "className" : "feature",
-            "color" : "palevioletred"
+            "color" : "palevioletred",
+            "label" : "false"
          },
          "category" : "Transcription:Ab-initio predictions",
          "key" : "Prediction: GeneFinder",
