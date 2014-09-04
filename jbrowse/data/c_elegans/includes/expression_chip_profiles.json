@@ -6,6 +6,12 @@
             "color" : "orange",
             "height" : 4
          },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{expressionProfileURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
          "key" : "Expression chip profiles",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
