@@ -1,5 +1,166 @@
 {
    "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{featureURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "Binding regions",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Binding regions/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Sequence Features:Binding Sites & Regions",
+         "metadata" : {
+            "citation" : "Regions within which there may be one or more binding sites of a non-TF, non-Histone molecule."
+         },
+         "type" : "CanvasFeatures",
+         "label" : "Binding regions"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{featureURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "Binding sites (curated)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Binding sites (curated)/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Sequence Features:Binding Sites & Regions",
+         "metadata" : {
+            "citation" : "Sites where there is experimental evidence of a non-TF, non-Histone molecule binding."
+         },
+         "type" : "CanvasFeatures",
+         "label" : "Binding sites (curated)"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "function(f) {var source = f.get('source'); if (source == 'PicTar') {return 'blue';} if (source == 'miRanda') {return 'red'; } return 'green'; }"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{bindingsiteURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "Binding sites (predicted)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Binding sites (predicted)/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Sequence Features:Binding Sites & Regions",
+         "metadata" : {
+            "citation" : "This track shows curated and predicted binding sites for microRNAs. Binding sites (indicated in green) are extracted from the cisRed database of computationally derived potential bind targets. miRanda predictions -- indicated in red -- are the predicted target sequences for microRNA genes, provided by Anton Enright's group using the miRanda program. PicTar predictions -- indicated in blue -- are the predicted target sequences for microRNA genes from Lall et al; A genome-wide map of conserved microRNA targets in C. elegans. Curr Biol. 2006 Mar 7;16(5):460-71."
+         },
+         "type" : "CanvasFeatures",
+         "label" : "Binding sites (predicted)"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "key" : "Histone binding sites",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{featureURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Histone binding sites/{refseq}/trackData.json",
+         "compress" : 0,
+         "label" : "Histone binding sites",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+            "citation" : "Regions within which there is experimental evidence for one or more binding sites of a histone."
+         },
+         "category" : "Sequence Features:Binding Sites & Regions"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "key" : "Transcription factor binding regions",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{featureURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Transcription factor binding regions/{refseq}/trackData.json",
+         "compress" : 0,
+         "label" : "Transcription factor binding regions",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+            "citation" : "Regions within which there is experimental evidence of one or more binding sites of a transcription factor."
+         },
+         "category" : "Sequence Features:Binding Sites & Regions"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "key" : "Transcription factor binding sites",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{featureURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Transcription factor binding sites/{refseq}/trackData.json",
+         "compress" : 0,
+         "label" : "Transcription factor binding sites",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+            "citation" : "Sites where there is experimental evidence of a transcription factor binding site."
+         },
+         "category" : "Sequence Features:Binding Sites & Regions"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{featureURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "key" : "Promoter regions",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Promoter regions/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Promoter regions",
+         "metadata" : {
+            "citation" : "Regions within which there is experimental evidence for a promoter."
+         },
+         "category" : "Sequence Features:Binding Sites & Regions"
+      }
    ],
    "names" : {
       "url" : "names/",
