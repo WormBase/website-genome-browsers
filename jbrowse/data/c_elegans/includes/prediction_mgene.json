@@ -6,9 +6,6 @@
             "label" : "false",
             "color" : "palevioletred"
          },
-         "metadata" : {
-             "citation" : ""
-         },
          "category" : "Transcription:Ab-initio predictions",
          "key" : "Prediction: mGene",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
