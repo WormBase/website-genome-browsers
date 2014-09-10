@@ -1,0 +1,27 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "onClick" : {
+            "url" : "{featureURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase Staging",
+            "label" : "Feature in WormBase Staging"
+         },
+         "key" : "DNAseI hypersensitive site",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/DNAseI hypersensitive site/{refseq}/trackData.json",   
+         "compress" : 0,
+         "category" : "Sequence Features:Signals & Motifs",
+         "metadata" : {
+            "citation" : "DNAse I hypersensitive sites from the 2009 paper by Shi et al."
+         },
+         "type" : "CanvasFeatures",
+         "label" : "DNAseI hypersensitive site"
+      }
+   ]
+}

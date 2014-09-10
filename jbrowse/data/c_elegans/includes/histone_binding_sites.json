@@ -1,0 +1,27 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "onClick" : {
+            "url" : "{featureURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase Staging",
+            "label" : "Feature in WormBase Staging"
+         },
+         "key" : "Histone binding sites",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Histone binding sites/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Sequence Features:Binding Sites & Regions",
+         "metadata" : {
+            "citation" : "Regions within which there is experimental evidence for one or more binding sites of a histone."
+         },
+         "type" : "CanvasFeatures",
+         "label" : "Histone binding sites"
+      }
+   ]
+}

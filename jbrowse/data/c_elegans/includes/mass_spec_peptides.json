@@ -1,0 +1,30 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "red",
+            "height" : 7,
+            "description" : "false",
+            "label" : "{massSpecLabel}"
+         },
+         "metadata" : {
+             "citation" : "This track shows peptides identified in mass spec proteomics experiments."
+         },
+         "onClick" : {
+            "url" : "{proteinURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase Staging",
+            "label" : "Feature in WormBase Staging"
+         },
+         "category" : "Sequence Features:Translated Features",
+         "key" : "Mass spec peptides",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Mass spec peptides/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Mass spec peptides"
+      }
+   ]
+}

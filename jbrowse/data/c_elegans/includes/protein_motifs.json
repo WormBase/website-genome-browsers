@@ -1,0 +1,30 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "function(f) {var type =  f.get('Predictiontype'); if (type == 'tmhmm') {return 'magenta';} if (type == 'seg') {return 'lightseagreen';} if (type == 'signalp') {return 'aquamarine'} if (type == 'ncoils') {return 'chartreuse';} if (type == 'pfam') {return 'lightsalmon';} if (type == 'sequence_motif') {return 'purple';} return 'black'; }",
+            "label" : "function(f) {var type =  f.get('Description'); return type;  }",
+            "description" : "function(f) {var aa_range = f.get('Range'); var exons = f.get('Exons'); var label = f.get('Predictiontype'); if (aa_range) {label = label + '; amino acids: '+aa_range;} if (exons) {label = label + '; exons: '+exons;} return label;}",
+            "height" : 7
+         },
+         "onClick" : {
+            "url" : "{motifURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase Staging",
+            "label" : "Feature in WormBase Staging"
+         },
+         "metadata" : {
+             "citation" : "NOTE: This data is somewhat flawed and won't be fixed until the 246 release. This track shows the extent of predicted protein motifs. Note these spans correspond to amino acid coordinates interpolated onto the physical map.  Included are signal peptide (signalp), coiled coil (ncoils) and transmembrane (tmhmm) domains, regions of low complexity (seg), and Pfam annotated motif homologies."
+         },
+         "category" : "Sequence Features:Translated Features",
+         "key" : "Protein motifs",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Protein motifs/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Protein motifs"
+      }
+   ]
+}

@@ -1,0 +1,27 @@
+{
+   "tracks" : [
+       { 
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "key" : "Binding regions",
+         "onClick" : {
+            "url" : "{featureURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase Staging",
+            "label" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Binding regions/{refseq}/trackData.json",
+         "compress" : 0,
+         "label" : "Binding regions",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+            "citation" : "Regions within which there may be one or more binding sites of a non-TF, non-Histone molecule."
+         },
+         "category" : "Sequence Features:Binding Sites & Regions"
+      }
+   ]
+}

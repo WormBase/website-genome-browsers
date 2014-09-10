@@ -1,0 +1,27 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "onClick" : {
+            "url" : "{featureURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase Staging",
+            "label" : "Feature in WormBase Staging"
+         },
+         "key" : "Transcription factor binding sites",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Transcription factor binding sites/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Sequence Features:Binding Sites & Regions",
+         "metadata" : {
+            "citation" : "Sites where there is experimental evidence of a transcription factor binding site."
+         },
+         "type" : "CanvasFeatures",
+         "label" : "Transcription factor binding sites"
+      }
+   ]
+}
