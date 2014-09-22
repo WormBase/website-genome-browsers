@@ -1,0 +1,28 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "label" : "function(f) {var note = f.get('Note'); if (Array.isArray(note)) {return note.join(','); } return note;  }"
+         },
+         "onClick" : {
+            "url" : "{modencodeURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase Staging",
+            "label" : "Feature in WormBase Staging"
+         },
+         "key" : "Transcriptionally Active Region",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Transcriptionally Active Region/{refseq}/trackData.json",
+         "compress" : 0,
+         "category" : "Transcription:Supporting Evidence",
+         "type" : "CanvasFeatures",
+         "label" : "Transcriptionally Active Region",
+         "metadata" : {
+            "citation" : "Transcriptionally Active Regions (TARs) found by the Miller lab from tiling-array projects run as part of the modENCODE project."
+         }
+      }
+   ]
+}
