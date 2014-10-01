@@ -1,0 +1,31 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "{nematodeColor}",
+            "label" : "{nematodeLabel}",
+            "height" : 4
+         },
+         "subParts" : "match_part",
+         "onClick" : {
+            "url" : "{targetURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase Staging",
+            "label" : "Feature in WormBase Staging"
+         },
+         "category" : "Sequence Similarity:Nucleotide",
+         "key" : "WormBase nematode mRNAs/ESTs (other)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/WormBase nematode mRNAs/ESTs (other)/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "WormBase nematode mRNAs/ESTs (other)",
+         "metadata" : {
+            "citation" : "ESTs and mRNAs from other WormBase core species aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows non-unique matches, which may represent repetitive sequences. For the best single alignment, see the track labeled 'WormBase nematode mRNAs and ESTs (best)'. <p> mRNAs are shown in light blue; ESTs in green."
+         },
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
+      }
+   ]
+}

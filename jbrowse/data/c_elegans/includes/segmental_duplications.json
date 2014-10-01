@@ -1,0 +1,29 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "white",
+            "borderColor" : "black",
+            "height" : 6
+         },
+         "onClick" : {
+            "url" : "{expressionProfileURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase Staging",
+            "label" : "Feature in WormBase Staging"
+         },
+         "metadata" : {
+            "citation" : "Polymorphic segmental duplication as defined by the tool OrthoCluster. This feature represents one sequence from a pair of duplicons in the N2 genome."
+         },
+         "category" : "Genome Structure:Assembly & Curation",
+         "key" : "Segmental duplication",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Segmental duplication/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Segmental duplication"
+      }
+   ]
+}

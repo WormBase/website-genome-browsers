@@ -1,0 +1,28 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "height" : 6
+         },
+         "onClick" : {
+            "url" : "{featureURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase Staging",
+            "label" : "Feature in WormBase Staging"
+         },
+         "metadata" : {
+            "citation" : "Positions within the reference genome sequence that were previously identified as having a base call error. This error has now been corrected."
+         },
+         "category" : "Genome Structure:Assembly & Curation",
+         "key" : "Genome sequence corrections",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Genome sequence corrections/{refseq}/trackData.json",  
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Genome sequence corrections"
+      }
+   ]
+}

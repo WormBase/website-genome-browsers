@@ -1,0 +1,22 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "height" : 4,
+            "color" : "bisque"
+         },
+         "metadata" : {
+            "citation" : "Exact tandem and inverted repetitive elements."
+         },
+         "category" : "Genome Structure:Assembly & Curation",
+         "key" : "Tandem and Inverted Repeats",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Tandem and Inverted Repeats/{refseq}/trackData.json",  
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Tandem and Inverted Repeats"
+      }
+   ]
+}

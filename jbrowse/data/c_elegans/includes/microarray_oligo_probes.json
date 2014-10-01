@@ -1,0 +1,28 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "black",
+            "height" : 3
+         },
+         "key" : "Microarray oligo probes",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{sequenceURL}",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Microarray oligo probes/{refseq}/trackData.json",
+         "compress" : 0,
+         "label" : "Microarray oligo probes",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+            "citation" : "This track contains Affymetrix GeneChip and Washington University GSC microarray probe sets."
+         },
+         "category" : "Reagents"
+      }
+   ]
+}

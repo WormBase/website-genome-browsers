@@ -1,0 +1,28 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "sienna",
+            "height" : 7
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "function(track,f) {var url = 'http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Search&db=Nucleotide&doptcmdl=GenBank&term='; var accn = f.get('Genbank'); if (typeof accn === 'undefined') {return;} return url + accn;}",
+            "label" : "Feature at Genbank",
+            "title" : "Feature at Genbank"
+         },
+         "metadata" : {
+            "citation" : "This track shows the location and coordinates of contigs (mostly cosmids) submitted to GenBank/EMBL."
+         },
+         "category" : "Genome Structure:Assembly & Curation",
+         "key" : "Contig submissions",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Contig submissions/{refseq}/trackData.json",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Contig submissions"
+      }
+   ]
+}
