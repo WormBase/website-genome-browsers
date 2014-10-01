@@ -1,29 +1,5 @@
 {
    "tracks" : [
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "violet",
-            "height" : 3
-         },
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('Name'); return wburl+'/species/all/pcr_oligo/'+name;  }",
-            "label" : "Feature in WormBase Staging",
-            "title" : "Feature in WormBase Staging"
-         },
-         "key" : "PCR Assays",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "tracks/PCR Assays/{refseq}/trackData.json",
-         "compress" : 0,
-         "category" : "Reagents",
-         "metadata" : {
-            "citation" : "This track indicates the location of primer pairs that have been created by a number of groups.  Click on the element to obtain the left and right oligo sequences, information about the amplification information, and ordering information (if available)."
-         },
-         "type" : "CanvasFeatures",
-         "label" : "PCR Assays"
-      },
    ],
    "names" : {
       "url" : "names/",
@@ -113,6 +89,7 @@
       "includes/microarray_oligo_probes.json",
       "includes/sequence_similarity_wormbase_core_ests_and_mrnas_best.json",
       "includes/sequence_similarity_wormbase_core_ests_and_mrnas_other.json",
+      "includes/pcr_products.json",
       "includes/Misc.json"
    ],
    "dataset_id" : "c_elegans",
