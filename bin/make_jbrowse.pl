@@ -7,6 +7,7 @@ use Config::Tiny;
 use FindBin qw($Bin);
 use Cwd;
 use FileHandle;
+use JSON;
 #use Data::Dumper;
 
 =head1 NAME
@@ -26,6 +27,8 @@ make_jbrowse.pl - Creates a JBrowse instance with input GFF and configuration
  --nosplit    Don't split GFF file by reference sequence
  --usenice    Run formatting commands with Unix nice 
  --skipfilesplit Don't split files or use grep to make subfiles
+ --skipprepare Don't run prepare-refseqs.pl
+ --allstats   Path to the ALLSPECIES.stats file
 
 =head1 DESCRIPTION
 
@@ -44,6 +47,8 @@ names) include:
  nosplit   - Don't split GFF file by reference sequence 
  usenice   - Run formatting commands with Unix nice
  skipfilesplit - Don't split files or use grep to make subfiles
+ skipprepare - Don't run prepare-refseqs.pl
+ allstats  - Path to the ALLSPECIES.stats file
 
 Note that the options in the config file can be overridden with the command
 line options.
@@ -77,6 +82,14 @@ label     - The jbrowse label and key for the track
 
 altfile   - The section name that contains the grep-created GFF file for this track (to allow a GFF file created for one track to be reused for another)
 
+=item
+
+postprocess - the name of a script that will perform some sort of post
+processing on the created GFF file.  It takes the name of the GFF file
+as input and creates a gff file with the same name as the input with
+".out" appended.  The script should be in the same directory as this
+script.
+
 =back
  
 =head2 nosplit
@@ -107,7 +120,7 @@ it under the same terms as Perl itself.
 my $INITIALDIR = cwd();
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
-    $SKIPFILESPLIT, $JBROWSEDIR);
+    $SKIPFILESPLIT, $JBROWSEDIR, $SKIPPREPARE);
 my %splitfiles;
 
 GetOptions(
@@ -119,6 +132,7 @@ GetOptions(
     'usenice'     => \$USENICE,
     'skipfilesplit'=>\$SKIPFILESPLIT,
     'jbrowsedir'  => \$JBROWSEDIR,
+    'skipprepare' => \$SKIPPREPARE,
 ) or ( system( 'pod2text', $0 ), exit -1 );
 
 system( 'pod2text', $0 ) unless $CONFIG;
@@ -133,8 +147,12 @@ $DATADIR  ||= $Config->{_}->{datadir};
 $SKIPFILESPLIT ||= $Config->{_}->{skipfilesplit};
 $NOSPLITGFF = $Config->{_}->{nosplitgff} unless defined $NOSPLITGFF;
 $USENICE    = $Config->{_}->{usenice}    unless defined $USENICE;
+$SKIPPREPARE= $Config->{_}->{skipprepare} unless defined $SKIPPREPARE;
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||= "/usr/local/wormbase/website/scain/jbrowse-dev";
+
+#this will be added to by every track
+my @include = ("../functions.conf");
 
 #use grep to create type specific gff files
 unless ($SKIPFILESPLIT) {
@@ -142,12 +160,17 @@ unless ($SKIPFILESPLIT) {
 
     my $gffout      = $Config->{$section}->{prefix} . "_$GFFFILE";
     my $greppattern = $Config->{$section}->{grep};
+    my $postprocess = $Config->{$section}->{postprocess};
 
     $greppattern or next;
 
     my $grepcommand = "grep -P \"$greppattern\" $GFFFILE > $gffout";
     warn $grepcommand;
     system ($grepcommand) == 0 or die $!;
+
+    if ($postprocess) {
+        system("$Bin/$postprocess $gffout") == 0 or die $!;
+    }
   }
 }
 
@@ -189,7 +212,7 @@ else {
 chdir $JBROWSEDIR;
 
 #check to see if the seq directory is present; if not prepare-refseqs
-if (!-e $DATADIR."/seq") {
+if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
     my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
     system($command) == 0 or die $!;
 }
@@ -208,12 +231,16 @@ for my $section (@config_sections) {
         warn $command;
         system($command) ==0 or die $!;
     }
+
+    push @include, "includes/$section.json";
 }
 
 
 #use grep-created files for specific tracks
 for my $section (@config_sections) {
+    my $postprocess = $Config->{$section}->{postprocess};
     next if $Config->{$section}->{origfile};
+
     my $gffout;
     if ($Config->{$section}->{altfile}) {
         my $altsection = $Config->{$section}->{altfile};
@@ -222,13 +249,42 @@ for my $section (@config_sections) {
     else {
         $gffout = $INITIALDIR ."/". $Config->{$section}->{prefix} . "_$GFFFILE";
     }
+
+    if ($postprocess) {
+        $gffout = $gffout.".out";
+    }
+
     my $type   = $Config->{$section}->{type};
     my $label  = $Config->{$section}->{label};
     my $command= "$nice bin/flatfile-to-json.pl --gff $gffout --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\"";
     warn $command;
 
     system($command) ==0 or die $!;
+
+    push @include, "includes/$section.json";
 }
+
+#create trackList data structure:
+my $struct = {
+    "tracks" => [],
+    "names" => { "url" => "names/", "type" => "Hash" },
+    "include" => \@include,
+    "dataset_id" => "c_elegans",
+    "formatVersion" => 1
+};
+my $json = JSON->new->pretty(1)->encode($struct);
+
+#print out trackList.json
+if (-e "$DATADIR/trackList.json") {
+    move("$DATADIR/trackList.json","$DATADIR/trackList.json.old");
+}
+
+open TL, ">$DATADIR/trackList.json" or die $!;
+print $json; 
+close TL;
+
+
+
 
 
 #time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/II.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:WormBase --trackLabel gene_from_gff --trackType CanvasFeatures --key genes_from_gff --maxLookback 1000000
