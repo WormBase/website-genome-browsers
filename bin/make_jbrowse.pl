@@ -1,10 +1,11 @@
-#!perl
+#!/usr/bin/perl
 use strict;
 use warnings;
 
 use Getopt::Long;
 use Config::Tiny;
 use FindBin qw($Bin);
+use File::Copy;
 use Cwd;
 use FileHandle;
 use JSON;
@@ -24,11 +25,13 @@ make_jbrowse.pl - Creates a JBrowse instance with input GFF and configuration
  --gfffile    Path to an input GFF file
  --fastafile  Path to an input FASTA file
  --datadir    Relative path (from jbrowse root) to jbrowse data dir
+ --jbrowsedir Path to jbrowse directory
  --nosplit    Don't split GFF file by reference sequence
  --usenice    Run formatting commands with Unix nice 
  --skipfilesplit Don't split files or use grep to make subfiles
  --skipprepare Don't run prepare-refseqs.pl
  --allstats   Path to the ALLSPECIES.stats file
+ --quiet      Limit output to errors
 
 =head1 DESCRIPTION
 
@@ -120,7 +123,7 @@ it under the same terms as Perl itself.
 my $INITIALDIR = cwd();
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
-    $SKIPFILESPLIT, $JBROWSEDIR, $SKIPPREPARE);
+    $SKIPFILESPLIT, $JBROWSEDIR, $SKIPPREPARE, $ALLSTATS,$QUIET);
 my %splitfiles;
 
 GetOptions(
@@ -131,8 +134,10 @@ GetOptions(
     'nosplitgff'  => \$NOSPLITGFF,
     'usenice'     => \$USENICE,
     'skipfilesplit'=>\$SKIPFILESPLIT,
-    'jbrowsedir'  => \$JBROWSEDIR,
+    'jbrowsedir=s'=> \$JBROWSEDIR,
     'skipprepare' => \$SKIPPREPARE,
+    'allstats=s'  => \$ALLSTATS,
+    'quiet'       => \$QUIET,
 ) or ( system( 'pod2text', $0 ), exit -1 );
 
 system( 'pod2text', $0 ) unless $CONFIG;
@@ -148,11 +153,33 @@ $SKIPFILESPLIT ||= $Config->{_}->{skipfilesplit};
 $NOSPLITGFF = $Config->{_}->{nosplitgff} unless defined $NOSPLITGFF;
 $USENICE    = $Config->{_}->{usenice}    unless defined $USENICE;
 $SKIPPREPARE= $Config->{_}->{skipprepare} unless defined $SKIPPREPARE;
+$ALLSTATS ||= $Config->{_}->{allstats};
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||= "/usr/local/wormbase/website/scain/jbrowse-dev";
 
 #this will be added to by every track
 my @include = ("../functions.conf");
+
+#parse all stats
+die "allstats must be defined" unless (-e $ALLSTATS);
+
+open AS, $ALLSTATS or die $!;
+my $firstline = <AS>;
+chomp $firstline;
+my @columnnames = split /\t/, $firstline;
+my %speciesdata;
+
+#parse the rest of the file
+while (my $line = <AS>) {
+    chomp $line;
+    my @la = split /\t/, $line;
+    for (my $i=0;$i<scalar(@la);$i++) {
+        $speciesdata{$columnnames[$i]} = $la[$i];        
+    }
+}
+close AS;
+
+
 
 #use grep to create type specific gff files
 unless ($SKIPFILESPLIT) {
@@ -165,11 +192,11 @@ unless ($SKIPFILESPLIT) {
     $greppattern or next;
 
     my $grepcommand = "grep -P \"$greppattern\" $GFFFILE > $gffout";
-    warn $grepcommand;
-    system ($grepcommand) == 0 or die $!;
+    warn $grepcommand unless $QUIET;
+    system ("$nice $grepcommand") == 0 or warn $!;
 
     if ($postprocess) {
-        system("$Bin/$postprocess $gffout") == 0 or die $!;
+        system("$nice $Bin/$postprocess $gffout") == 0 or warn $!;
     }
   }
 }
@@ -209,27 +236,27 @@ else {
     $splitfiles{$GFFFILE} = 1;
 }
 
-chdir $JBROWSEDIR;
+chdir $JBROWSEDIR or die $!." $JBROWSEDIR\n";
 
 #check to see if the seq directory is present; if not prepare-refseqs
 if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
     my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
-    system($command) == 0 or die $!;
+    system("$nice $command") == 0 or warn $!;
 }
 
 #use original or split gff for many tracks
 for my $section (@config_sections) {
     next unless $Config->{$section}->{origfile};
 
-    warn $section;
+    warn $section unless $QUIET;
     my $type   = $Config->{$section}->{type};
     my $label  = $Config->{$section}->{label};
 
     for my $file (keys %splitfiles) {
         my $gfffile = $INITIALDIR ."/". $file;
         my $command = "$nice bin/flatfile-to-json.pl --gff $gfffile --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\" --maxLookback 1000000";
-        warn $command;
-        system($command) ==0 or die $!;
+        warn $command unless $QUIET;
+        system($command) ==0 or warn $!;
     }
 
     push @include, "includes/$section.json";
@@ -257,9 +284,9 @@ for my $section (@config_sections) {
     my $type   = $Config->{$section}->{type};
     my $label  = $Config->{$section}->{label};
     my $command= "$nice bin/flatfile-to-json.pl --gff $gffout --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\"";
-    warn $command;
+    warn $command unless $QUIET;
 
-    system($command) ==0 or die $!;
+    system($command) ==0 or warn $!;
 
     push @include, "includes/$section.json";
 }
