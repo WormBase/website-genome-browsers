@@ -52,6 +52,7 @@ names) include:
  skipfilesplit - Don't split files or use grep to make subfiles
  skipprepare - Don't run prepare-refseqs.pl
  allstats  - Path to the ALLSPECIES.stats file
+ includes  - Path to the json includes file
 
 Note that the options in the config file can be overridden with the command
 line options.
@@ -123,7 +124,8 @@ it under the same terms as Perl itself.
 my $INITIALDIR = cwd();
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
-    $SKIPFILESPLIT, $JBROWSEDIR, $SKIPPREPARE, $ALLSTATS,$QUIET);
+    $SKIPFILESPLIT, $JBROWSEDIR, $SKIPPREPARE, $ALLSTATS,
+    $QUIET, $INCLUDES);
 my %splitfiles;
 
 GetOptions(
@@ -153,6 +155,7 @@ $SKIPFILESPLIT ||= $Config->{_}->{skipfilesplit};
 $NOSPLITGFF = $Config->{_}->{nosplitgff} unless defined $NOSPLITGFF;
 $USENICE    = $Config->{_}->{usenice}    unless defined $USENICE;
 $SKIPPREPARE= $Config->{_}->{skipprepare} unless defined $SKIPPREPARE;
+$INCLUDES   = $Config->{_}->{includes};
 $ALLSTATS ||= $Config->{_}->{allstats};
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||= "/usr/local/wormbase/website/scain/jbrowse-dev";
@@ -243,6 +246,7 @@ if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
     my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
     system("$nice $command") == 0 or warn $!;
 }
+push @include, "includes/DNA.json";
 
 #use original or split gff for many tracks
 for my $section (@config_sections) {
@@ -306,9 +310,15 @@ if (-e "$DATADIR/trackList.json") {
     move("$DATADIR/trackList.json","$DATADIR/trackList.json.old");
 }
 
+#make a symlink to the includes dir
+unless (-e "$DATADIR/includes") {
+    symlink $INCLUDES, $DATADIR/includes" or warn $!;
+}
+
 open TL, ">$DATADIR/trackList.json" or die $!;
 print TL $json; 
 close TL;
+
 
 
 
