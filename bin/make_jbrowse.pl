@@ -307,7 +307,7 @@ if (-e "$DATADIR/trackList.json") {
 }
 
 open TL, ">$DATADIR/trackList.json" or die $!;
-print $json; 
+print TL $json; 
 close TL;
 
 
