@@ -53,6 +53,7 @@ names) include:
  skipprepare - Don't run prepare-refseqs.pl
  allstats  - Path to the ALLSPECIES.stats file
  includes  - Path to the json includes file
+ glyphs    - Path to custom JBrowse glyphs
 
 Note that the options in the config file can be overridden with the command
 line options.
@@ -129,7 +130,7 @@ my $INITIALDIR = cwd();
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $SKIPPREPARE, $ALLSTATS,
-    $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS);
+    $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS);
 my %splitfiles;
 
 GetOptions(
@@ -162,6 +163,7 @@ $SKIPPREPARE= $Config->{_}->{skipprepare} unless defined $SKIPPREPARE;
 $INCLUDES   = $Config->{_}->{includes};
 $FUNCTIONS  = $Config->{_}->{functions};
 $ORGANISMS  = $Config->{_}->{organisms};
+$GLYPHS     = $Config->{_}->{glyphs};
 $ALLSTATS ||= $Config->{_}->{allstats};
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||= "/usr/local/wormbase/website/scain/jbrowse-dev";
@@ -287,8 +289,7 @@ for my $section (@config_sections) {
 }
 
 #run indexing
-die;
-
+system("$nice bin/generate-names.pl --out $DATADIR --compress");
 
 #process the rest of the tracks
 for my $section (@config_sections) {
@@ -321,9 +322,21 @@ unless (-e "$DATADIR/../functions.conf") {
     symlink $FUNCTIONS, "$DATADIR/../functions.conf" or warn $!; 
 }
 
+
+
 open TL, ">$DATADIR/trackList.json" or die $!;
 print TL $json; 
 close TL;
+
+
+#make symlinks for custom glyphs
+chdir $GLYPHS;
+my @files = glob("*.js");
+foreach my $file (@files) {
+    unless (-e "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file") {
+        symlink "$GLYPHS/$file", "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file" or warn $!;
+    }
+}
 
 exit(0);
 
