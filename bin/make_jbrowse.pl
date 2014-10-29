@@ -94,6 +94,10 @@ as input and creates a gff file with the same name as the input with
 ".out" appended.  The script should be in the same directory as this
 script.
 
+=item
+
+index    - 0|1, whether or not to include this track when running generate_names to index the names for autocompletion.
+
 =back
  
 =head2 nosplit
@@ -125,7 +129,7 @@ my $INITIALDIR = cwd();
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $SKIPPREPARE, $ALLSTATS,
-    $QUIET, $INCLUDES);
+    $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS);
 my %splitfiles;
 
 GetOptions(
@@ -156,6 +160,8 @@ $NOSPLITGFF = $Config->{_}->{nosplitgff} unless defined $NOSPLITGFF;
 $USENICE    = $Config->{_}->{usenice}    unless defined $USENICE;
 $SKIPPREPARE= $Config->{_}->{skipprepare} unless defined $SKIPPREPARE;
 $INCLUDES   = $Config->{_}->{includes};
+$FUNCTIONS  = $Config->{_}->{functions};
+$ORGANISMS  = $Config->{_}->{organisms};
 $ALLSTATS ||= $Config->{_}->{allstats};
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||= "/usr/local/wormbase/website/scain/jbrowse-dev";
@@ -188,6 +194,7 @@ close AS;
 unless ($SKIPFILESPLIT) {
   for my $section (@config_sections) {
 
+    next unless $Config->{$section}->{prefix};
     my $gffout      = $Config->{$section}->{prefix} . "_$GFFFILE";
     my $greppattern = $Config->{$section}->{grep};
     my $postprocess = $Config->{$section}->{postprocess};
@@ -248,6 +255,11 @@ if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
 }
 push @include, "includes/DNA.json";
 
+#make a symlink to the organisms include file
+unless (-e "$DATADIR/../organisms.conf") {
+    symlink $ORGANISMS, "$DATADIR/../organisms.conf" or warn $!;
+}
+
 #use original or split gff for many tracks
 for my $section (@config_sections) {
     next unless $Config->{$section}->{origfile};
@@ -268,32 +280,22 @@ for my $section (@config_sections) {
 
 
 #use grep-created files for specific tracks
+#first process tracks that will be name indexed
 for my $section (@config_sections) {
-    my $postprocess = $Config->{$section}->{postprocess};
-    next if $Config->{$section}->{origfile};
-
-    my $gffout;
-    if ($Config->{$section}->{altfile}) {
-        my $altsection = $Config->{$section}->{altfile};
-        $gffout = $INITIALDIR ."/". $Config->{$altsection}->{prefix} . "_$GFFFILE";
-    }
-    else {
-        $gffout = $INITIALDIR ."/". $Config->{$section}->{prefix} . "_$GFFFILE";
-    }
-
-    if ($postprocess) {
-        $gffout = $gffout.".out";
-    }
-
-    my $type   = $Config->{$section}->{type};
-    my $label  = $Config->{$section}->{label};
-    my $command= "$nice bin/flatfile-to-json.pl --gff $gffout --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\"";
-    warn $command unless $QUIET;
-
-    system($command) ==0 or warn $!;
-
-    push @include, "includes/$section.json";
+    next unless $Config->{$section}->{index} == 1;
+    process_grep_track($Config, $section);
 }
+
+#run indexing
+die;
+
+
+#process the rest of the tracks
+for my $section (@config_sections) {
+    next if $Config->{$section}->{index} == 1;
+    process_grep_track($Config, $section);
+}
+
 
 #create trackList data structure:
 my $struct = {
@@ -312,14 +314,51 @@ if (-e "$DATADIR/trackList.json") {
 
 #make a symlink to the includes dir
 unless (-e "$DATADIR/includes") {
-    symlink $INCLUDES, $DATADIR/includes" or warn $!;
+    symlink $INCLUDES, "$DATADIR/includes" or warn $!;
+}
+#make a symlink to the functions
+unless (-e "$DATADIR/../functions.conf") {
+    symlink $FUNCTIONS, "$DATADIR/../functions.conf" or warn $!; 
 }
 
 open TL, ">$DATADIR/trackList.json" or die $!;
 print TL $json; 
 close TL;
 
+exit(0);
 
+
+sub process_grep_track {
+    my $config = shift;
+    my $section= shift;
+
+    my $postprocess = $config->{$section}->{postprocess};
+    next if $config->{$section}->{origfile};
+
+    my $gffout;
+    if ($config->{$section}->{altfile}) {
+        my $altsection = $config->{$section}->{altfile};
+        $gffout = $INITIALDIR ."/". $config->{$altsection}->{prefix} . "_$GFFFILE";
+    }
+    else {
+        $gffout = $INITIALDIR ."/". $config->{$section}->{prefix} . "_$GFFFILE";
+    }
+
+    if ($postprocess) {
+        $gffout = $gffout.".out";
+    }
+
+    my $type   = $config->{$section}->{type};
+    my $label  = $config->{$section}->{label};
+    my $command= "$nice bin/flatfile-to-json.pl --gff $gffout --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\"";
+    warn $command unless $QUIET;
+
+    system($command) ==0 or warn $!;
+
+    push @include, "includes/$section.json";
+
+    return;
+}
 
 
 
