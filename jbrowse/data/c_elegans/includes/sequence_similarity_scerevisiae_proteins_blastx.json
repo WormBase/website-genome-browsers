@@ -19,6 +19,8 @@
          "compress" : 0,
          "label" : "S. cerevisiae proteins",
          "type" : "CanvasFeatures",
+         "subParts" : "match_part",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "category" : "Sequence Similarity:Proteins",
          "metadata" : {
             "citation" : "Matches to S. cerevisiae proteins from SGD, aligned with BLASTX (nucleotide to protein, via six-frame translation)."

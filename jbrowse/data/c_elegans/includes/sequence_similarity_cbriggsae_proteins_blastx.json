@@ -20,6 +20,8 @@
          "type" : "CanvasFeatures",
          "label" : "C. briggsae proteins",
          "category" : "Sequence Similarity:Proteins",
+         "subParts" : "match_part",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {
             "citation" : "Matches to WormBase C. briggsae proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          }

@@ -22,6 +22,8 @@
          "urlTemplate" : "../tracks/B. malayi proteins/{refseq}/trackData.json",
          "compress" : 0,
          "type" : "CanvasFeatures",
+         "subParts" : "match_part",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "label" : "B. malayi proteins"
       }
    ]

@@ -20,6 +20,8 @@
          "label" : "C. elegans proteins",
          "type" : "CanvasFeatures",
          "category" : "Sequence Similarity:Proteins",
+         "subParts" : "match_part",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {
             "citation" : "Matches to WormBase C. elegans proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          }

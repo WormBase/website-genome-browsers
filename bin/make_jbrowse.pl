@@ -184,19 +184,45 @@ my %speciesdata;
 while (my $line = <AS>) {
     chomp $line;
     my @la = split /\t/, $line;
+
+    my $track;
+    if($la[3] =~ /\((\S+?)\)$/ ) {
+        $track = $1;
+    }
+    else {
+        next;
+    }
+
     for (my $i=0;$i<scalar(@la);$i++) {
-        $speciesdata{$columnnames[$i]} = $la[$i];        
+        next unless $la[$i];
+        $speciesdata{$columnnames[$i]}{$track} = $la[$i];
     }
 }
 close AS;
 
+my $species = 'a_ceylanicum_PRJNA231479';
+    #print $key,"\t",$speciesdata{$species}{$key},"\n";
 
 
 #use grep to create type specific gff files
 unless ($SKIPFILESPLIT) {
   for my $section (@config_sections) {
 
-    next unless $Config->{$section}->{prefix};
+    next unless $speciesdata{$species}{$section};
+    #next unless $Config->{$section}->{prefix};
+
+    if ($Config->{$section}->{altfile}) {
+        my $realgfffile = $Config->{$section}->{altfile} . "_$GFFFILE";
+        if (-e $realgfffile) {
+            next;
+        }
+        else {
+            #naughty--changing the for loop variable in the loop!
+            $section = $Config->{$section}->{altfile};    
+        }
+    }
+
+
     my $gffout      = $Config->{$section}->{prefix} . "_$GFFFILE";
     my $greppattern = $Config->{$section}->{grep};
     my $postprocess = $Config->{$section}->{postprocess};
@@ -285,6 +311,7 @@ for my $section (@config_sections) {
 #first process tracks that will be name indexed
 for my $section (@config_sections) {
     next unless $Config->{$section}->{index} == 1;
+    next unless $speciesdata{$species}{$section};
     process_grep_track($Config, $section);
 }
 
@@ -294,6 +321,7 @@ system("$nice bin/generate-names.pl --out $DATADIR --compress");
 #process the rest of the tracks
 for my $section (@config_sections) {
     next if $Config->{$section}->{index} == 1;
+    next unless $speciesdata{$species}{$section};
     process_grep_track($Config, $section);
 }
 
@@ -366,8 +394,7 @@ sub process_grep_track {
     my $command= "$nice bin/flatfile-to-json.pl --gff $gffout --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\"";
     warn $command unless $QUIET;
 
-    system($command) ==0 or warn $!;
-
+    system($command)==0 or warn $! ;
     push @include, "includes/$section.json";
 
     return;
