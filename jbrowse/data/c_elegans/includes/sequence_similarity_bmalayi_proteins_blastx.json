@@ -3,6 +3,7 @@
       { 
          "style" : {
             "className" : "feature",
+            "label" : false,
             "color" : "orange",
             "height" : 5
          },

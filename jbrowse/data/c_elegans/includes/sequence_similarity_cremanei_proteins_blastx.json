@@ -4,6 +4,7 @@
          "style" : {
             "className" : "feature",
             "color" : "orange",
+            "label" : false,
             "height" : 5
          },
          "key" : "C. remanei proteins",
