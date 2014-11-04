@@ -22,6 +22,7 @@ make_jbrowse.pl - Creates a JBrowse instance with input GFF and configuration
 =head1 OPTIONS
 
  --config     Path to ini-style config file (required)
+ --species    Name of species (should correspond to what's in ALL_SPECIES.stats
  --gfffile    Path to an input GFF file
  --fastafile  Path to an input FASTA file
  --datadir    Relative path (from jbrowse root) to jbrowse data dir
@@ -130,11 +131,12 @@ my $INITIALDIR = cwd();
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $SKIPPREPARE, $ALLSTATS,
-    $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS);
+    $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES);
 my %splitfiles;
 
 GetOptions(
     'gfffile=s'   => \$GFFFILE,
+    'species=s'   => \$SPECIES,
     'fastafile=s' => \$FASTAFILE,
     'config=s'    => \$CONFIG,
     'datadir=s'   => \$DATADIR,
@@ -153,6 +155,7 @@ my $Config = Config::Tiny->read($CONFIG) or die $!;
 
 my @config_sections = grep {!/^_/} keys %{$Config}; 
 
+$SPECIES  ||= 'c_elegans_PRJNA13758';
 $GFFFILE  ||= $Config->{_}->{gfffile};
 $FASTAFILE||= $Config->{_}->{fastafile};
 $DATADIR  ||= $Config->{_}->{datadir};
@@ -200,32 +203,21 @@ while (my $line = <AS>) {
 }
 close AS;
 
-my $species = 'a_ceylanicum_PRJNA231479';
-    #print $key,"\t",$speciesdata{$species}{$key},"\n";
-
-
 #use grep to create type specific gff files
 unless ($SKIPFILESPLIT) {
   for my $section (@config_sections) {
 
-    next unless $speciesdata{$species}{$section};
-    #next unless $Config->{$section}->{prefix};
+    next unless $speciesdata{$SPECIES}{$section};
 
-    if ($Config->{$section}->{altfile}) {
-        my $realgfffile = $Config->{$section}->{altfile} . "_$GFFFILE";
-        if (-e $realgfffile) {
-            next;
-        }
-        else {
-            #naughty--changing the for loop variable in the loop!
-            $section = $Config->{$section}->{altfile};    
-        }
-    }
+    my $alt=$Config->{$section}->{altfile};
 
+    my $key = $alt ? $alt : $section;
 
-    my $gffout      = $Config->{$section}->{prefix} . "_$GFFFILE";
-    my $greppattern = $Config->{$section}->{grep};
-    my $postprocess = $Config->{$section}->{postprocess};
+    my $gffout      ||= $Config->{$key}->{prefix} . "_$GFFFILE";
+    my $greppattern ||= $Config->{$key}->{grep};
+    my $postprocess ||= $Config->{$key}->{postprocess};
+
+    next if (-e $gffout);
 
     $greppattern or next;
 
@@ -306,12 +298,17 @@ for my $section (@config_sections) {
     push @include, "includes/$section.json";
 }
 
+print "\n\n";
+warn join(", ",@config_sections)."\n\n";
+
+warn Dumper($Config);
+print "\n\n";
 
 #use grep-created files for specific tracks
 #first process tracks that will be name indexed
 for my $section (@config_sections) {
     next unless $Config->{$section}->{index} == 1;
-    next unless $speciesdata{$species}{$section};
+    next unless $speciesdata{$SPECIES}{$section};
     process_grep_track($Config, $section);
 }
 
@@ -319,9 +316,10 @@ for my $section (@config_sections) {
 system("$nice bin/generate-names.pl --out $DATADIR --compress");
 
 #process the rest of the tracks
+
 for my $section (@config_sections) {
     next if $Config->{$section}->{index} == 1;
-    next unless $speciesdata{$species}{$section};
+    next unless $speciesdata{$SPECIES}{$section};
     process_grep_track($Config, $section);
 }
 
@@ -331,7 +329,7 @@ my $struct = {
     "tracks" => [],
     "names" => { "url" => "names/", "type" => "Hash" },
     "include" => \@include,
-    "dataset_id" => "c_elegans",
+    "dataset_id" => "$SPECIES",
     "formatVersion" => 1
 };
 my $json = JSON->new->pretty(1)->encode($struct);
@@ -372,6 +370,8 @@ exit(0);
 sub process_grep_track {
     my $config = shift;
     my $section= shift;
+
+    warn $section;
 
     my $postprocess = $config->{$section}->{postprocess};
     next if $config->{$section}->{origfile};
