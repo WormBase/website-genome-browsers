@@ -13,7 +13,7 @@ while (<LIST>) {
    
     print CONF "[datasets.$organism]\n";
     print CONF "name   = $nice_org\n";
-    print CONF "url    = ?data/$organism\n\n";
+    print CONF "url    = ?data=data/$organism\n\n";
  
 }
 
