@@ -22,7 +22,8 @@ make_jbrowse.pl - Creates a JBrowse instance with input GFF and configuration
 =head1 OPTIONS
 
  --config     Path to ini-style config file (required)
- --species    Name of species (should correspond to what's in ALL_SPECIES.stats
+ --species    Name of species 
+                  (should use same format as ALL_SPECIES.stats)
  --gfffile    Path to an input GFF file
  --fastafile  Path to an input FASTA file
  --datadir    Relative path (from jbrowse root) to jbrowse data dir
@@ -155,7 +156,7 @@ my $Config = Config::Tiny->read($CONFIG) or die $!;
 
 my @config_sections = grep {!/^_/} keys %{$Config}; 
 
-$SPECIES  ||= 'c_elegans_PRJNA13758';
+$SPECIES  ||= 'c_elegans';
 $GFFFILE  ||= $Config->{_}->{gfffile};
 $FASTAFILE||= $Config->{_}->{fastafile};
 $DATADIR  ||= $Config->{_}->{datadir};
@@ -181,6 +182,25 @@ open AS, $ALLSTATS or die $!;
 my $firstline = <AS>;
 chomp $firstline;
 my @columnnames = split /\t/, $firstline;
+
+my @fullspecies_id = grep { /^$SPECIES/ } @columnnames;
+
+if (@fullspecies_id > 1) {
+    print STDERR <<END
+
+The species you specified on the command line has more than
+one data set associated with it. Please rerun the command
+and specify one of these:
+END
+;
+
+    print STDERR "  ".join("\n  ",@fullspecies_id)."\n\n";
+    exit(1);
+}
+my $species = $fullspecies_id[0];
+die "No matching species found: $SPECIES\n" unless $species;
+
+$DATADIR  ||= "data/$species";
 my %speciesdata;
 
 #parse the rest of the file
@@ -193,7 +213,7 @@ while (my $line = <AS>) {
         $track = $1;
     }
     else {
-        next;
+        next; #if there's no config for this track, goto next line
     }
 
     for (my $i=0;$i<scalar(@la);$i++) {
@@ -207,7 +227,7 @@ close AS;
 unless ($SKIPFILESPLIT) {
   for my $section (@config_sections) {
 
-    next unless $speciesdata{$SPECIES}{$section};
+    next unless $speciesdata{$species}{$section};
 
     my $alt=$Config->{$section}->{altfile};
 
@@ -298,17 +318,11 @@ for my $section (@config_sections) {
     push @include, "includes/$section.json";
 }
 
-print "\n\n";
-warn join(", ",@config_sections)."\n\n";
-
-warn Dumper($Config);
-print "\n\n";
-
 #use grep-created files for specific tracks
 #first process tracks that will be name indexed
 for my $section (@config_sections) {
     next unless $Config->{$section}->{index} == 1;
-    next unless $speciesdata{$SPECIES}{$section};
+    next unless $speciesdata{$species}{$section};
     process_grep_track($Config, $section);
 }
 
@@ -319,7 +333,7 @@ system("$nice bin/generate-names.pl --out $DATADIR --compress");
 
 for my $section (@config_sections) {
     next if $Config->{$section}->{index} == 1;
-    next unless $speciesdata{$SPECIES}{$section};
+    next unless $speciesdata{$species}{$section};
     process_grep_track($Config, $section);
 }
 
@@ -329,7 +343,7 @@ my $struct = {
     "tracks" => [],
     "names" => { "url" => "names/", "type" => "Hash" },
     "include" => \@include,
-    "dataset_id" => "$SPECIES",
+    "dataset_id" => "$species",
     "formatVersion" => 1
 };
 my $json = JSON->new->pretty(1)->encode($struct);
@@ -363,6 +377,10 @@ foreach my $file (@files) {
         symlink "$GLYPHS/$file", "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file" or warn $!;
     }
 }
+
+#clean up temporary gff files
+my @tmp_gffs = glob("*_$GFFFILE*");
+foreach my $file (@tmp_gffs) {unlink $file;} 
 
 exit(0);
 
@@ -399,106 +417,4 @@ sub process_grep_track {
 
     return;
 }
-
-
-
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/II.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:WormBase --trackLabel gene_from_gff --trackType CanvasFeatures --key genes_from_gff --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/III.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:WormBase --trackLabel gene_from_gff --trackType CanvasFeatures --key genes_from_gff --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/IV.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:WormBase --trackLabel gene_from_gff --trackType CanvasFeatures --key genes_from_gff --maxLookback 100000 --sortMem 2000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/MtDNA.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:WormBase --trackLabel gene_from_gff --trackType CanvasFeatures --key genes_from_gff --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/V.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:WormBase --trackLabel gene_from_gff --trackType CanvasFeatures --key genes_from_gff --maxLookback 100000 --sortMem 2000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/X.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:WormBase --trackLabel gene_from_gff --trackType CanvasFeatures --key genes_from_gff --maxLookback 1000000
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/I.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele_Polymorphism,substitution:Variation_project_Polymorphism,deletion:Variation_project_Polymorphism,SNP:Variation_project_Polymorphism,insertion_site:Variation_project_Polymorphism,complex_substitution:Variation_project_Polymorphism,sequence_alteration:Variation_project_Polymorphism,deletion:Allele_Polymorphism --trackLabel Polymorphisms --trackType CanvasFeatures --key Polymorphisms --maxLookback 500000 --sortMem 3000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/II.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele_Polymorphism,substitution:Variation_project_Polymorphism,deletion:Variation_project_Polymorphism,SNP:Variation_project_Polymorphism,insertion_site:Variation_project_Polymorphism,complex_substitution:Variation_project_Polymorphism,sequence_alteration:Variation_project_Polymorphism,deletion:Allele_Polymorphism --trackLabel Polymorphisms --trackType CanvasFeatures --key Polymorphisms --maxLookback 500000 --sortMem 3000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/III.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele_Polymorphism,substitution:Variation_project_Polymorphism,deletion:Variation_project_Polymorphism,SNP:Variation_project_Polymorphism,insertion_site:Variation_project_Polymorphism,complex_substitution:Variation_project_Polymorphism,sequence_alteration:Variation_project_Polymorphism,deletion:Allele_Polymorphism --trackLabel Polymorphisms --trackType CanvasFeatures --key Polymorphisms --maxLookback 500000 --sortMem 3000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/IV.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele_Polymorphism,substitution:Variation_project_Polymorphism,deletion:Variation_project_Polymorphism,SNP:Variation_project_Polymorphism,insertion_site:Variation_project_Polymorphism,complex_substitution:Variation_project_Polymorphism,sequence_alteration:Variation_project_Polymorphism,deletion:Allele_Polymorphism --trackLabel Polymorphisms --trackType CanvasFeatures --key Polymorphisms --maxLookback 500000 --sortMem 3000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/MtDNA.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele_Polymorphism,substitution:Variation_project_Polymorphism,deletion:Variation_project_Polymorphism,SNP:Variation_project_Polymorphism,insertion_site:Variation_project_Polymorphism,complex_substitution:Variation_project_Polymorphism,sequence_alteration:Variation_project_Polymorphism,deletion:Allele_Polymorphism --trackLabel Polymorphisms --trackType CanvasFeatures --key Polymorphisms --maxLookback 500000 --sortMem 3000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/V.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele_Polymorphism,substitution:Variation_project_Polymorphism,deletion:Variation_project_Polymorphism,SNP:Variation_project_Polymorphism,insertion_site:Variation_project_Polymorphism,complex_substitution:Variation_project_Polymorphism,sequence_alteration:Variation_project_Polymorphism,deletion:Allele_Polymorphism --trackLabel Polymorphisms --trackType CanvasFeatures --key Polymorphisms --maxLookback 500000 --sortMem 3000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/X.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele_Polymorphism,substitution:Variation_project_Polymorphism,deletion:Variation_project_Polymorphism,SNP:Variation_project_Polymorphism,insertion_site:Variation_project_Polymorphism,complex_substitution:Variation_project_Polymorphism,sequence_alteration:Variation_project_Polymorphism,deletion:Allele_Polymorphism --trackLabel Polymorphisms --trackType CanvasFeatures --key Polymorphisms --maxLookback 500000 --sortMem 3000000000
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/I.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:Allele,insertion_site:Allele,substitution:Allele,complex_substitution:Allele,point_mutation:Allele,transposable_element_insertion_site:Allele --trackLabel "Classical alleles" --trackType CanvasFeatures --key "Classical alleles" --maxLookback 500000 --sortMem 3000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/II.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:Allele,insertion_site:Allele,substitution:Allele,complex_substitution:Allele,point_mutation:Allele,transposable_element_insertion_site:Allele --trackLabel "Classical alleles" --trackType CanvasFeatures --key "Classical alleles" --maxLookback 500000 --sortMem 3000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/III.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:Allele,insertion_site:Allele,substitution:Allele,complex_substitution:Allele,point_mutation:Allele,transposable_element_insertion_site:Allele --trackLabel "Classical alleles" --trackType CanvasFeatures --key "Classical alleles" --maxLookback 500000 --sortMem 3000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/IV.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:Allele,insertion_site:Allele,substitution:Allele,complex_substitution:Allele,point_mutation:Allele,transposable_element_insertion_site:Allele --trackLabel "Classical alleles" --trackType CanvasFeatures --key "Classical alleles" --maxLookback 500000 --sortMem 3000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/MtDNA.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:Allele,insertion_site:Allele,substitution:Allele,complex_substitution:Allele,point_mutation:Allele,transposable_element_insertion_site:Allele --trackLabel "Classical alleles" --trackType CanvasFeatures --key "Classical alleles" --maxLookback 500000 --sortMem 3000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/V.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:Allele,insertion_site:Allele,substitution:Allele,complex_substitution:Allele,point_mutation:Allele,transposable_element_insertion_site:Allele --trackLabel "Classical alleles" --trackType CanvasFeatures --key "Classical alleles" --maxLookback 500000 --sortMem 3000000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/X.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:Allele,insertion_site:Allele,substitution:Allele,complex_substitution:Allele,point_mutation:Allele,transposable_element_insertion_site:Allele --trackLabel "Classical alleles" --trackType CanvasFeatures --key "Classical alleles" --maxLookback 500000 --sortMem 3000000000
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/intron_RNASeq_splice.gff --out data/c_elegans --type intron:RNASeq_splice --trackLabel "RNASeq introns"  --trackType CanvasFeatures --key "RNASeq introns" 
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/RNASeq_asymmetry.gff --out data/c_elegans --type transcript_region:RNASeq_F_asymmetry,transcript_region:RNASeq_R_asymmetry --trackLabel "RNASeq Asymmetries"  --trackType CanvasFeatures --key "RNASeq Asymmetries"
-
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/I.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type miRNA:WormBase,ncRNA:WormBase,rRNA:WormBase,scRNA:WormBase,snoRNA:WormBase,tRNA:WormBase,piRNA:WormBase,lincRNA:WormBase,antisense_RNA --trackLabel "Curated Genes (noncoding)" --trackType CanvasFeatures --key "Curated Genes (noncoding)" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/II.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type miRNA:WormBase,ncRNA:WormBase,rRNA:WormBase,scRNA:WormBase,snoRNA:WormBase,tRNA:WormBase,piRNA:WormBase,lincRNA:WormBase,antisense_RNA --trackLabel "Curated Genes (noncoding)" --trackType CanvasFeatures --key "Curated Genes (noncoding)" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/III.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type miRNA:WormBase,ncRNA:WormBase,rRNA:WormBase,scRNA:WormBase,snoRNA:WormBase,tRNA:WormBase,piRNA:WormBase,lincRNA:WormBase,antisense_RNA --trackLabel "Curated Genes (noncoding)" --trackType CanvasFeatures --key "Curated Genes (noncoding)" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/IV.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type miRNA:WormBase,ncRNA:WormBase,rRNA:WormBase,scRNA:WormBase,snoRNA:WormBase,tRNA:WormBase,piRNA:WormBase,lincRNA:WormBase,antisense_RNA --trackLabel "Curated Genes (noncoding)" --trackType CanvasFeatures --key "Curated Genes (noncoding)" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/V.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type miRNA:WormBase,ncRNA:WormBase,rRNA:WormBase,scRNA:WormBase,snoRNA:WormBase,tRNA:WormBase,piRNA:WormBase,lincRNA:WormBase,antisense_RNA --trackLabel "Curated Genes (noncoding)" --trackType CanvasFeatures --key "Curated Genes (noncoding)" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/X.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type miRNA:WormBase,ncRNA:WormBase,rRNA:WormBase,scRNA:WormBase,snoRNA:WormBase,tRNA:WormBase,piRNA:WormBase,lincRNA:WormBase,antisense_RNA --trackLabel "Curated Genes (noncoding)" --trackType CanvasFeatures --key "Curated Genes (noncoding)" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/MtDNA.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type miRNA:WormBase,ncRNA:WormBase,rRNA:WormBase,scRNA:WormBase,snoRNA:WormBase,tRNA:WormBase,piRNA:WormBase,lincRNA:WormBase,antisense_RNA --trackLabel "Curated Genes (noncoding)" --trackType CanvasFeatures --key "Curated Genes (noncoding)" --maxLookback 1000000
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/I.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type mRNA:WormBase --trackLabel "Curated Genes (protein coding)" --trackType CanvasFeatures --key "Curated Genes (protein coding)" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/II.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type mRNA:WormBase --trackLabel "Curated Genes (protein coding)" --trackType CanvasFeatures --key "Curated Genes (protein coding)" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/III.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type mRNA:WormBase --trackLabel "Curated Genes (protein coding)" --trackType CanvasFeatures --key "Curated Genes (protein coding)" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/IV.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type mRNA:WormBase --trackLabel "Curated Genes (protein coding)" --trackType CanvasFeatures --key "Curated Genes (protein coding)" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/V.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type mRNA:WormBase --trackLabel "Curated Genes (protein coding)" --trackType CanvasFeatures --key "Curated Genes (protein coding)" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/X.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type mRNA:WormBase --trackLabel "Curated Genes (protein coding)" --trackType CanvasFeatures --key "Curated Genes (protein coding)" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/MtDNA.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type mRNA:WormBase --trackLabel "Curated Genes (protein coding)" --trackType CanvasFeatures --key "Curated Genes (protein coding)" --maxLookback 1000000
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/MtDNA.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type pseudogenic_transcript:WormBase --trackLabel "Curated Genes (pseudogenes)" --trackType CanvasFeatures --key "Curated Genes (pseudogenes)" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/I.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type pseudogenic_transcript:WormBase --trackLabel "Curated Genes (pseudogenes)" --trackType CanvasFeatures --key "Curated Genes (pseudogenes)" --maxLookback 1000000 
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/II.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type pseudogenic_transcript:WormBase --trackLabel "Curated Genes (pseudogenes)" --trackType CanvasFeatures --key "Curated Genes (pseudogenes)" --maxLookback 1000000 
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/III.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type pseudogenic_transcript:WormBase --trackLabel "Curated Genes (pseudogenes)" --trackType CanvasFeatures --key "Curated Genes (pseudogenes)" --maxLookback 1000000 
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/IV.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type pseudogenic_transcript:WormBase --trackLabel "Curated Genes (pseudogenes)" --trackType CanvasFeatures --key "Curated Genes (pseudogenes)" --maxLookback 1000000 
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/V.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type pseudogenic_transcript:WormBase --trackLabel "Curated Genes (pseudogenes)" --trackType CanvasFeatures --key "Curated Genes (pseudogenes)" --maxLookback 1000000 
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/X.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type pseudogenic_transcript:WormBase --trackLabel "Curated Genes (pseudogenes)" --trackType CanvasFeatures --key "Curated Genes (pseudogenes)" --maxLookback 1000000 
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/history.gff --out data/c_elegans --type pseudogenic_transcript:history,transposable_element:history,protein_coding_primary_transcript:history,primary_transcript:history,nc_primary_transcript:history --trackLabel "Gene Models (historical)" --trackType CanvasFeatures --key "Gene Models (historical)" 
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/MtDNA.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:interpolated_pmap_position,gene:absolute_pmap_position --trackLabel "Genetic limits" --trackType CanvasFeatures --key "Genetic limits" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/I.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:interpolated_pmap_position,gene:absolute_pmap_position --trackLabel "Genetic limits" --trackType CanvasFeatures --key "Genetic limits" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/II.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:interpolated_pmap_position,gene:absolute_pmap_position --trackLabel "Genetic limits" --trackType CanvasFeatures --key "Genetic limits" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/III.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:interpolated_pmap_position,gene:absolute_pmap_position --trackLabel "Genetic limits" --trackType CanvasFeatures --key "Genetic limits" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/IV.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:interpolated_pmap_position,gene:absolute_pmap_position --trackLabel "Genetic limits" --trackType CanvasFeatures --key "Genetic limits" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/V.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:interpolated_pmap_position,gene:absolute_pmap_position --trackLabel "Genetic limits" --trackType CanvasFeatures --key "Genetic limits" --maxLookback 1000000
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/X.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type gene:interpolated_pmap_position,gene:absolute_pmap_position --trackLabel "Genetic limits" --trackType CanvasFeatures --key "Genetic limits" --maxLookback 1000000 --subfeatureClasses '{'exon' : 'transcript-CDS' }'
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/operons.gff --out data/c_elegans --type operon:operon --trackLabel "Operons" --trackType CanvasFeatures --key "Operons" 
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/transposons.gff --out data/c_elegans --type transposable_element:WormBase_transposon --trackLabel "Transposons" --trackType CanvasFeatures --key "Transposons"
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/deprecated_operon.gff --out data/c_elegans --type operon:deprecated_operon --trackLabel "Deprecated operons" --trackType CanvasFeatures --key "Deprecated operons"
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/change_of_function_alleles.gff --out data/c_elegans --type complex_substitution:PCoF_Allele,deletion:PCoF_Allele,insertion_site:PCoF_Allele,substitution:PCoF_Allele,point_mutation:PCoF_Allele,transposable_element_insertion_site:PCoF_Allele,deletion:PCoF_CGH_allele,complex_substitution:PCoF_KO_consortium,deletion:PCoF_KO_consortium,point_mutation:PCoF_KO_consortium,point_mutation:PCoF_Million_mutation,deletion:PCoF_Million_mutation,insertion_site:PCoF_Million_mutation,complex_substitution:PCoF_Million_mutation,sequence_alteration:PCoF_Million_mutation,deletion:PCoF_Variation_project,point_mutation:PCoF_Variation_project,complex_substitution:PCoF_NBP_knockout,deletion:PCoF_NBP_knockout,transposable_element_insertion_site:PCoF_NemaGENETAG_consortium --trackLabel "Change-of-function alleles" --trackType CanvasFeatures --key "Change-of-function alleles"
-
-###
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/change_of_function_alleles.gff --out data/c_elegans --type deletion:PCoF_CGH_allele_Polymorphism,deletion:PCoF_Variation_project_Polymorphism,insertion_site:PCoF_Variation_project_Polymorphism,SNP:PCoF_Variation_project_Polymorphism,substitution:PCoF_Variation_project_Polymorphism,complex_substitution:PCoF_Variation_project_Polymorphism,sequence_alteration:PCoF_Variation_project_Polymorphism --trackLabel "Change-of-function polymorphisms" --trackType CanvasFeatures --key "Change-of-function polymorphisms"
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/Million_mutation.gff --out data/c_elegans --type point_mutation:Million_mutation,complex_substitution:Million_mutation,deletion:Million_mutation,insertion_site:Million_mutation,sequence_alteration:Million_mutation --trackLabel "Million Mutation Project" --trackType CanvasFeatures --key "Million Mutation Project"
-
-
-#time nice bin/flatfile-to-json.pl --maxLookback 1000000 --gff ../c_elegans_gff/I.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele,complex_substitution:KO_consortium,deletion:KO_consortium,point_mutation:KO_consortium,deletion:Variation_project,insertion_site:Variation_project,point_mutation:Variation_project,complex_substitution:NBP_knockout,deletion:NBP_knockout,transposable_element_insertion_site:NemaGENETAG_consortium --trackLabel "High-throughput alleles" --trackType CanvasFeatures --key "High-throughput alleles" 
-#time nice bin/flatfile-to-json.pl --maxLookback 1000000 --gff ../c_elegans_gff/II.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele,complex_substitution:KO_consortium,deletion:KO_consortium,point_mutation:KO_consortium,deletion:Variation_project,insertion_site:Variation_project,point_mutation:Variation_project,complex_substitution:NBP_knockout,deletion:NBP_knockout,transposable_element_insertion_site:NemaGENETAG_consortium --trackLabel "High-throughput alleles" --trackType CanvasFeatures --key "High-throughput alleles" 
-#time nice bin/flatfile-to-json.pl --maxLookback 1000000 --gff ../c_elegans_gff/III.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele,complex_substitution:KO_consortium,deletion:KO_consortium,point_mutation:KO_consortium,deletion:Variation_project,insertion_site:Variation_project,point_mutation:Variation_project,complex_substitution:NBP_knockout,deletion:NBP_knockout,transposable_element_insertion_site:NemaGENETAG_consortium --trackLabel "High-throughput alleles" --trackType CanvasFeatures --key "High-throughput alleles" 
-#time nice bin/flatfile-to-json.pl --maxLookback 1000000 --gff ../c_elegans_gff/IV.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele,complex_substitution:KO_consortium,deletion:KO_consortium,point_mutation:KO_consortium,deletion:Variation_project,insertion_site:Variation_project,point_mutation:Variation_project,complex_substitution:NBP_knockout,deletion:NBP_knockout,transposable_element_insertion_site:NemaGENETAG_consortium --trackLabel "High-throughput alleles" --trackType CanvasFeatures --key "High-throughput alleles" 
-#time nice bin/flatfile-to-json.pl --maxLookback 1000000 --gff ../c_elegans_gff/V.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele,complex_substitution:KO_consortium,deletion:KO_consortium,point_mutation:KO_consortium,deletion:Variation_project,insertion_site:Variation_project,point_mutation:Variation_project,complex_substitution:NBP_knockout,deletion:NBP_knockout,transposable_element_insertion_site:NemaGENETAG_consortium --trackLabel "High-throughput alleles" --trackType CanvasFeatures --key "High-throughput alleles" 
-#time nice bin/flatfile-to-json.pl --maxLookback 1000000 --gff ../c_elegans_gff/X.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele,complex_substitution:KO_consortium,deletion:KO_consortium,point_mutation:KO_consortium,deletion:Variation_project,insertion_site:Variation_project,point_mutation:Variation_project,complex_substitution:NBP_knockout,deletion:NBP_knockout,transposable_element_insertion_site:NemaGENETAG_consortium --trackLabel "High-throughput alleles" --trackType CanvasFeatures --key "High-throughput alleles" 
-#time nice bin/flatfile-to-json.pl --maxLookback 1000000 --gff ../c_elegans_gff/MtDNA.c_elegans.PRJNA13758.WS243.annotations.gff3.out.gff3 --out data/c_elegans --type deletion:CGH_allele,complex_substitution:KO_consortium,deletion:KO_consortium,point_mutation:KO_consortium,deletion:Variation_project,insertion_site:Variation_project,point_mutation:Variation_project,complex_substitution:NBP_knockout,deletion:NBP_knockout,transposable_element_insertion_site:NemaGENETAG_consortium --trackLabel "High-throughput alleles" --trackType CanvasFeatures --key "High-throughput alleles" 
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/transposable_element_insertion_site.gff --out data/c_elegans --type transposable_element_insertion_site:Mos_insertion_allele,transposable_element_insertion_site:Allele,transposable_element_insertion_site:NemaGENETAG_consortium --trackLabel "Transposon insert sites" --trackType CanvasFeatures --key "Transposon insert sites"
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/rnai_variations.gff --out data/c_elegans --type RNAi_reagent:RNAi_primary,experimental_result_region:cDNA_for_RNAi --trackLabel "RNAi experiments (primary targets)" --trackType CanvasFeatures --key "RNAi experiments (primary targets)"
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/rnai_variations.gff --out data/c_elegans --type RNAi_reagent:RNAi_secondary --trackLabel "RNAi experiments (secondary targets)" --trackType CanvasFeatures --key "RNAi experiments (secondary targets)"
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/sage_tag.gff --out data/c_elegans --type SAGE_tag:SAGE_tag  --trackLabel "SAGE tags" --trackType CanvasFeatures --key "SAGE tags"
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/Polysome_profiling.gff --out data/c_elegans --type mRNA_region:Polysome_profiling --trackLabel "Polysomes" --trackType CanvasFeatures --key "Polysomes"
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/RNASeq_reads.gff --out data/c_elegans --type transcript_region:RNASeq_reads --trackLabel "RNASeq" --trackType CanvasFeatures --key "RNASeq"
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/Expr_profile.gff --out data/c_elegans --type experimental_result_region:Expr_profile --trackLabel "Expression chip profiles" --trackType CanvasFeatures --key "Expression chip profiles"
-
-#time nice bin/flatfile-to-json.pl --gff ../c_elegans_gff/Expr_pattern.gff --out data/c_elegans --type reagent:Expr_pattern --trackLabel "Expression patterns" --trackType CanvasFeatures --key "Expression patterns"
 
