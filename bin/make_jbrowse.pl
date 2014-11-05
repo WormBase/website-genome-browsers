@@ -24,6 +24,7 @@ make_jbrowse.pl - Creates a JBrowse instance with input GFF and configuration
  --config     Path to ini-style config file (required)
  --species    Name of species 
                   (should use same format as ALL_SPECIES.stats)
+ --filedir    Path to parent directory where releases and files can be found
  --gfffile    Path to an input GFF file
  --fastafile  Path to an input FASTA file
  --datadir    Relative path (from jbrowse root) to jbrowse data dir
@@ -48,6 +49,7 @@ names) include:
 
  gfffile   - Path to the input GFF file
  fastafile - Path to the input FASTA file
+ filedir   - Path to parent directory where releases and files can be found
  datadir   - Relative path (from the jbrowse root) to jbrowse data directory
  nosplit   - Don't split GFF file by reference sequence 
  usenice   - Run formatting commands with Unix nice
@@ -131,13 +133,15 @@ it under the same terms as Perl itself.
 my $INITIALDIR = cwd();
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
-    $SKIPFILESPLIT, $JBROWSEDIR, $SKIPPREPARE, $ALLSTATS,
-    $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES);
+    $SKIPFILESPLIT, $JBROWSEDIR, $SKIPPREPARE, $ALLSTATS, $FILEDIR,
+    $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES,
+    $RELEASE);
 my %splitfiles;
 
 GetOptions(
     'gfffile=s'   => \$GFFFILE,
     'species=s'   => \$SPECIES,
+    'filedir=s'   => \$FILEDIR,
     'fastafile=s' => \$FASTAFILE,
     'config=s'    => \$CONFIG,
     'datadir=s'   => \$DATADIR,
@@ -157,6 +161,8 @@ my $Config = Config::Tiny->read($CONFIG) or die $!;
 my @config_sections = grep {!/^_/} keys %{$Config}; 
 
 $SPECIES  ||= 'c_elegans';
+$FILEDIR  ||= $Config->{_}->{filedir} ||='/usr/local/wormbase/databases/';
+$RELEASE  ||= $Config->{_}->{release};
 $GFFFILE  ||= $Config->{_}->{gfffile};
 $FASTAFILE||= $Config->{_}->{fastafile};
 $DATADIR  ||= $Config->{_}->{datadir};
@@ -169,6 +175,7 @@ $FUNCTIONS  = $Config->{_}->{functions};
 $ORGANISMS  = $Config->{_}->{organisms};
 $GLYPHS     = $Config->{_}->{glyphs};
 $ALLSTATS ||= $Config->{_}->{allstats};
+    $ALLSTATS =~ s/\$RELEASE/$RELEASE/e;
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||= "/usr/local/wormbase/website/scain/jbrowse-dev";
 
@@ -222,6 +229,23 @@ while (my $line = <AS>) {
     }
 }
 close AS;
+
+#fetch the GFF and fasta files
+$species =~ /(\w_\w+?)_(\w+)$/;
+my $speciesdir = $1;
+my $projectdir = $2;
+my $datapath = $FILEDIR . 'WS' . $RELEASE . '/species/' . $speciesdir . '/' . $projectdir;
+$GFFFILE   = "$speciesdir.$projectdir.WS$RELEASE.annotations-processed.gff3";
+$FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
+
+copy("$datapath/$GFFFILE.gz", '.');
+copy("$datapath/$FASTAFILE.gz", '.');
+
+system("gunzip -f $GFFFILE.gz");
+system("gunzip -f $FASTAFILE.gz");
+
+(-e $GFFFILE)   or die "No GFF file: $GFFFILE";
+(-e $FASTAFILE) or die "No FASTA file: $FASTAFILE";
 
 #use grep to create type specific gff files
 unless ($SKIPFILESPLIT) {
@@ -379,6 +403,7 @@ foreach my $file (@files) {
 }
 
 #clean up temporary gff files
+chdir $INITIALDIR;
 my @tmp_gffs = glob("*_$GFFFILE*");
 foreach my $file (@tmp_gffs) {unlink $file;} 
 
@@ -388,8 +413,6 @@ exit(0);
 sub process_grep_track {
     my $config = shift;
     my $section= shift;
-
-    warn $section;
 
     my $postprocess = $config->{$section}->{postprocess};
     next if $config->{$section}->{origfile};
