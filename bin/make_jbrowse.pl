@@ -339,6 +339,9 @@ for my $section (@config_sections) {
         system($command) ==0 or warn $!;
     }
 
+    if (!-e "$INCLUDES/$section.json") {
+        warn "\nMISSING INCLUDE FILE: $section.json\n\n";
+    }
     push @include, "includes/$section.json";
 }
 
@@ -348,6 +351,7 @@ for my $section (@config_sections) {
     next unless $Config->{$section}->{index} == 1;
     next unless $speciesdata{$species}{$section};
     process_grep_track($Config, $section);
+    $speciesdata{$species}{$section} = -1;
 }
 
 #run indexing
@@ -359,6 +363,7 @@ for my $section (@config_sections) {
     next if $Config->{$section}->{index} == 1;
     next unless $speciesdata{$species}{$section};
     process_grep_track($Config, $section);
+    $speciesdata{$species}{$section} = -1;
 }
 
 
@@ -407,6 +412,12 @@ chdir $INITIALDIR;
 my @tmp_gffs = glob("*_$GFFFILE*");
 foreach my $file (@tmp_gffs) {unlink $file;} 
 
+#check for tracks that have data but didn't get processed
+for my $key (keys $speciesdata{$species}) {
+    next if $speciesdata{$species}{$key} == -1;
+    warn "\n\nWARNING: TRACK WITH DATA BUT NO CONFIG: $key\n\n";
+}
+
 exit(0);
 
 
@@ -436,6 +447,10 @@ sub process_grep_track {
     warn $command unless $QUIET;
 
     system($command)==0 or warn $! ;
+
+    if (!-e "$INCLUDES/$section.json") {
+        warn "\nMISSING INCLUDE FILE: $section.json\n\n";
+    }
     push @include, "includes/$section.json";
 
     return;
