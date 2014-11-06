@@ -1,0 +1,21 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "blue"
+         },
+         "key" : "Diminuted regions",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Diminuted regions/{refseq}/trackData.json",
+         "category" : "Misc",
+         "compress" : 0,
+         "type" : "CanvasFeatures",
+         "label" : "Diminuted regions",
+         "metadata" : {
+            "citation" : "These regions correspond to stretches of genomic sequence which have undergone chromatin diminution. This process involves the programmed elimination of specific DNA sequences during development.  In Ascaris suum the process occurs during early embryonic cleavages and leads to the loss of germline genomic sequences and the formation of a distinct genome in somatic cells. The specific function and specificity of sequence loss remain largely unknown.  Wang J, Mitreva M, Berriman M, et al. Silencing of germline-expressed genes by DNA elimination in somatic cells Dev. Cell (2012).  <a href='http://www.ncbi.nlm.nih.gov/pubmed/?term=23123092'>Pubmed</a>."
+         }
+      }
+   ]
+}
