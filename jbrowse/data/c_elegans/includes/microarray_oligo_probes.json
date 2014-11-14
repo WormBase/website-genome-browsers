@@ -15,8 +15,8 @@
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Microarray oligo probes/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Microarray oligo probes/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "label" : "Microarray oligo probes",
          "type" : "CanvasFeatures",
          "metadata" : {

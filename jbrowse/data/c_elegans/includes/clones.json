@@ -16,8 +16,8 @@
          "key" : "YACs, Fosmids, & Cosmids",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/YACs, Fosmids, & Cosmids/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/YACs, Fosmids, & Cosmids/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "metadata" : {
             "citation" : "This track shows the locations of the cosmids, fosmids, and YACs used for the physical mapping and sequencing of the C. elegans genome.  The clone termini do not necessarily correspond to the termini of submitted GenBank/EMBL entries. In some cases the exact termini of the clones is not known.  For example, YACs were sequenced using PCR amplification across gaps in the cosmid maps.  When a clone end is not known, it is shown as an arrow extending to the end of the display.  Such data is to be treated with caution.  The Vancouver fosmids can be ordered directly from <a href='http://www.geneservice.co.uk/products/clones/Celegans_Fos.jsp'>GeneService</a>."
          },

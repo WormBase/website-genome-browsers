@@ -12,8 +12,8 @@
          "key" : "ORFeome PCR Products",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/ORFeome PCR Products/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/ORFeome PCR Products/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "type" : "CanvasFeatures",
          "category" : "Transcription:Supporting Evidence",
          "label" : "ORFeome PCR Products"

@@ -21,8 +21,8 @@
          "key" : "Mass spec peptides",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Mass spec peptides/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Mass spec peptides/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Mass spec peptides"
       }

@@ -19,8 +19,8 @@
          "key" : "Genome sequence corrections",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Genome sequence corrections/{refseq}/trackData.json",  
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Genome sequence corrections/{refseq}/trackData.jsonz",  
+         "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Genome sequence corrections"
       }

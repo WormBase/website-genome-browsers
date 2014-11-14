@@ -14,8 +14,8 @@
          "key" : "Transcription factor binding sites",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Transcription factor binding sites/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Transcription factor binding sites/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "category" : "Sequence Features:Binding Sites & Regions",
          "metadata" : {
             "citation" : "Sites where there is experimental evidence of a transcription factor binding site."

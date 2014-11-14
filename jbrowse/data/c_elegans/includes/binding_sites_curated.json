@@ -14,8 +14,8 @@
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Binding sites (curated)/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Binding sites (curated)/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "label" : "Binding sites (curated)",
          "type" : "CanvasFeatures",
          "metadata" : {

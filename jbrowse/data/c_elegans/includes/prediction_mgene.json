@@ -10,8 +10,8 @@
          "key" : "Prediction: mGene",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Prediction: mGene/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Prediction: mGene/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Prediction: mGene"
       }

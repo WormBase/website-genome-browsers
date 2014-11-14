@@ -13,8 +13,8 @@
          "key" : "Tandem and Inverted Repeats",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Tandem and Inverted Repeats/{refseq}/trackData.json",  
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Tandem and Inverted Repeats/{refseq}/trackData.jsonz",  
+         "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Tandem and Inverted Repeats"
       }

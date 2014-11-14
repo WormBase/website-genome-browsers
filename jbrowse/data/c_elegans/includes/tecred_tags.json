@@ -9,8 +9,8 @@
          "key" : "TEC-RED tags",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/TEC-RED tags/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/TEC-RED tags/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "label" : "TEC-RED tags",
          "type" : "CanvasFeatures",
          "metadata" : {

@@ -14,8 +14,8 @@
          "key" : "DNAseI hypersensitive site",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/DNAseI hypersensitive site/{refseq}/trackData.json",   
-         "compress" : 0,
+         "urlTemplate" : "../tracks/DNAseI hypersensitive site/{refseq}/trackData.jsonz",   
+         "compress" : 1,
          "category" : "Sequence Features:Signals & Motifs",
          "metadata" : {
             "citation" : "DNAse I hypersensitive sites from the 2009 paper by Shi et al."

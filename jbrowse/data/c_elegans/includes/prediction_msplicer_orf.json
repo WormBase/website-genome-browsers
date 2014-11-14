@@ -13,8 +13,8 @@
          "key" : "Prediction: mSplicer-ORF",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Prediction: mSplicer-ORF/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Prediction: mSplicer-ORF/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Prediction: mSplicer-ORF"
       }

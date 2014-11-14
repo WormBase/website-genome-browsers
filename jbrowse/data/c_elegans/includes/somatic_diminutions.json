@@ -8,9 +8,9 @@
          "key" : "Diminuted regions",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Diminuted regions/{refseq}/trackData.json",
+         "urlTemplate" : "../tracks/Diminuted regions/{refseq}/trackData.jsonz",
          "category" : "Misc",
-         "compress" : 0,
+         "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Diminuted regions",
          "metadata" : {

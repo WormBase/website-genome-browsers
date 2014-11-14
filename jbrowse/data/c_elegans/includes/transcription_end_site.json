@@ -9,8 +9,8 @@
          "key" : "Transcription end site",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Transcription end site/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Transcription end site/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "category" : "Transcription:Signals",
          "metadata" : {
             "citation" : "Transcription_end_site defined by analysis of RNASeq short read datasets (example Hillier et al.)"

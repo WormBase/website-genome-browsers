@@ -14,8 +14,8 @@
          "key" : "RNAz non-coding RNA genes",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/RNAz non-coding RNA genes/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/RNAz non-coding RNA genes/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "RNAz non-coding RNA genes"
       }

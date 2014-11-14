@@ -334,7 +334,7 @@ for my $section (@config_sections) {
 
     for my $file (keys %splitfiles) {
         my $gfffile = $INITIALDIR ."/". $file;
-        my $command = "$nice bin/flatfile-to-json.pl --gff $gfffile --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\" --maxLookback 1000000";
+        my $command = "$nice bin/flatfile-to-json.pl --compress --gff $gfffile --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\" --maxLookback 1000000";
         warn $command unless $QUIET;
         system($command) ==0 or warn $!;
     }
@@ -443,7 +443,7 @@ sub process_grep_track {
 
     my $type   = $config->{$section}->{type};
     my $label  = $config->{$section}->{label};
-    my $command= "$nice bin/flatfile-to-json.pl --gff $gffout --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\"";
+    my $command= "$nice bin/flatfile-to-json.pl --compress --gff $gffout --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\"";
     warn $command unless $QUIET;
 
     system($command)==0 or warn $! ;

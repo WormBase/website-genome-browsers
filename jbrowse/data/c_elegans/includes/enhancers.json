@@ -15,8 +15,8 @@
          "key" : "Enhancers",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Enhancers/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Enhancers/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Enhancers",
          "metadata" : {

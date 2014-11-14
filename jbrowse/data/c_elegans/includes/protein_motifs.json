@@ -21,8 +21,8 @@
          "key" : "Protein motifs",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Protein motifs/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Protein motifs/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Protein motifs"
       }

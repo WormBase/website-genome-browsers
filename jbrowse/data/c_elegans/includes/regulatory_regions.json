@@ -14,8 +14,8 @@
          "key" : "Regulatory regions",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Regulatory regions/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Regulatory regions/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "category" : "Sequence Features:Binding Sites & Regions",
          "metadata" : {
             "citation" : "Assorted or unspecified regulatory elements with experimental evidence."

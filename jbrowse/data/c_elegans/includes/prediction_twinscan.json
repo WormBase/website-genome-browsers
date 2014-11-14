@@ -10,8 +10,8 @@
          "key" : "Prediction: Twinscan",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Prediction: Twinscan/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Prediction: Twinscan/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Prediction: Twinscan"
       }

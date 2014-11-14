@@ -14,8 +14,8 @@
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Promoter regions/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Promoter regions/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "category" : "Sequence Features:Binding Sites & Regions",
          "metadata" : {
             "citation" : "Regions within which there is experimental evidence for a promoter."

@@ -16,8 +16,8 @@
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Trans-spliced acceptor/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Trans-spliced acceptor/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "label" : "Trans-spliced acceptor",
          "type" : "CanvasFeatures",
          "metadata" : {

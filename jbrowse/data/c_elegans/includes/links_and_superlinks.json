@@ -19,8 +19,8 @@
          "key" : "Links and Superlinks",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Links and Superlinks/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/Links and Superlinks/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Links and Superlinks"
       }

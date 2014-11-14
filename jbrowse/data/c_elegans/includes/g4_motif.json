@@ -9,8 +9,8 @@
          "key" : "G4 Motif",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/G4 Motif/{refseq}/trackData.json",
-         "compress" : 0,
+         "urlTemplate" : "../tracks/G4 Motif/{refseq}/trackData.jsonz",
+         "compress" : 1,
          "metadata" : {
             "citation" : "This track shows the extent of G4 DNA signature. G4 motif is 'Intrinsically mutagenic motif, probably because it can form secondary structures during DNA replication'. Data are from Kruisselbrink E et al. (2008) Curr Biol 'Mutagenic Capacity of Endogenous G4 DNA Underlies Genome Instability in ....'."
          },
