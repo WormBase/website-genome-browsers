@@ -16,13 +16,13 @@
          "key" : "mRNAs/ncRNAs (other)",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/mRNAs/ncRNAs (other)/{refseq}/trackData.jsonz",
+         "urlTemplate" : "../tracks/mRNAs_ncRNAs (other)/{refseq}/trackData.jsonz",
          "compress" : 1,
          "metadata" : {
             "citation" : "Native (same species) full length mRNAs and ncRNAs aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows non-unique matches, which may represent repetitive sequences. For the best single alignment, see the track labeled 'mRNAs/ncRNAs (best)'."
          },
          "type" : "CanvasFeatures",
-         "label" : "mRNAs/ncRNAs (other)",
+         "label" : "mRNAs_ncRNAs (other)",
          "category" : "Transcription:Supporting Evidence",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments"
       }
