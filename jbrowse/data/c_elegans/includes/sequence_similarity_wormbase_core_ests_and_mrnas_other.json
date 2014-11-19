@@ -18,10 +18,10 @@
          "key" : "WormBase nematode mRNAs/ESTs (other)",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/WormBase nematode mRNAs/ESTs (other)/{refseq}/trackData.jsonz",
+         "urlTemplate" : "../tracks/WormBase nematode mRNAs_ESTs (other)/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "WormBase nematode mRNAs/ESTs (other)",
+         "label" : "WormBase nematode mRNAs_ESTs (other)",
          "metadata" : {
             "citation" : "ESTs and mRNAs from other WormBase core species aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows non-unique matches, which may represent repetitive sequences. For the best single alignment, see the track labeled 'WormBase nematode mRNAs and ESTs (best)'. <p> mRNAs are shown in light blue; ESTs in green."
          },
