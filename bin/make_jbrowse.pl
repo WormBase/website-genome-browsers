@@ -425,21 +425,24 @@ sub process_grep_track {
     my $config = shift;
     my $section= shift;
 
-    my $postprocess = $config->{$section}->{postprocess};
     next if $config->{$section}->{origfile};
 
     my $gffout;
-    if ($config->{$section}->{altfile}) {
-        my $altsection = $config->{$section}->{altfile};
+    my $postprocess;
+    my $altsection = $config->{$section}->{altfile};
+    if ($altsection) {
         $gffout = $INITIALDIR ."/". $config->{$altsection}->{prefix} . "_$GFFFILE";
+        $postprocess = $config->{$altsection}->{postprocess};
     }
     else {
         $gffout = $INITIALDIR ."/". $config->{$section}->{prefix} . "_$GFFFILE";
+        $postprocess = $config->{$section}->{postprocess};
     }
 
     if ($postprocess) {
         $gffout = $gffout.".out";
     }
+    
 
     my $type   = $config->{$section}->{type};
     my $label  = $config->{$section}->{label};
