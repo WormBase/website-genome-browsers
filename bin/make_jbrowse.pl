@@ -58,6 +58,7 @@ names) include:
  allstats  - Path to the ALLSPECIES.stats file
  includes  - Path to the json includes file
  glyphs    - Path to custom JBrowse glyphs
+ browser_data - Path to the browser_data directory where modencode files are
 
 Note that the options in the config file can be overridden with the command
 line options.
@@ -135,7 +136,7 @@ my $INITIALDIR = cwd();
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $SKIPPREPARE, $ALLSTATS, $FILEDIR,
     $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES,
-    $RELEASE);
+    $RELEASE, $BROWSER_DATA);
 my %splitfiles;
 
 GetOptions(
@@ -178,6 +179,7 @@ $ALLSTATS ||= $Config->{_}->{allstats};
     $ALLSTATS =~ s/\$RELEASE/$RELEASE/e;
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||= "/usr/local/wormbase/website/scain/jbrowse-dev";
+$BROWSER_DIR = $Config->{_}->{browser_data};
 
 #this will be added to by every track
 my @include = ("../functions.conf");
@@ -322,6 +324,9 @@ push @include, "includes/DNA.json";
 #make a symlink to the organisms include file
 unless (-e "$DATADIR/../organisms.conf") {
     symlink $ORGANISMS, "$DATADIR/../organisms.conf" or warn $!;
+}
+unless (-e "browser_data") {
+    symlink "browser_data", $BROWSER_DATA or warn $!;
 }
 
 #use original or split gff for many tracks
