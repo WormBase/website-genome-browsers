@@ -8,6 +8,7 @@ use FindBin qw($Bin);
 use File::Copy;
 use Cwd;
 use FileHandle;
+use File::Basename;
 use JSON;
 #use Data::Dumper;
 
@@ -179,7 +180,6 @@ $ALLSTATS ||= $Config->{_}->{allstats};
     $ALLSTATS =~ s/\$RELEASE/$RELEASE/e;
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||= "/usr/local/wormbase/website/scain/jbrowse-dev";
-$BROWSER_DIR = $Config->{_}->{browser_data};
 
 #this will be added to by every track
 my @include = ("../functions.conf");
@@ -369,6 +369,21 @@ for my $section (@config_sections) {
     next unless $speciesdata{$species}{$section};
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
+}
+
+
+#check for species-specific include files
+my $only_species_name;
+if ($species =~ /^(\w_[a-z]+)_/) {
+    $only_species_name = $1;
+}
+if ($only_species_name) {
+    my @species_specific = glob("$INCLUDES/$only_species_name"."*");
+    for (@species_specific) {
+        #ack, in place edit of array elements
+        $_ = "includes/".basename($_);
+    }
+    push @include, @species_specific;
 }
 
 
