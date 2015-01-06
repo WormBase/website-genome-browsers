@@ -137,7 +137,7 @@ my $INITIALDIR = cwd();
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $SKIPPREPARE, $ALLSTATS, $FILEDIR,
     $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES,
-    $RELEASE, $BROWSER_DATA);
+    $RELEASE, $BROWSER_DATA, $FTPHOST);
 my %splitfiles;
 
 GetOptions(
@@ -180,6 +180,7 @@ $ALLSTATS ||= $Config->{_}->{allstats};
     $ALLSTATS =~ s/\$RELEASE/$RELEASE/e;
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||= "/usr/local/wormbase/website/scain/jbrowse-dev";
+$FTPHOST    = 'ftp://ftp.wormbase.org';
 
 #this will be added to by every track
 my @include = ("../functions.conf");
@@ -240,8 +241,29 @@ my $datapath = $FILEDIR . 'WS' . $RELEASE . '/species/' . $speciesdir . '/' . $p
 $GFFFILE   = "$speciesdir.$projectdir.WS$RELEASE.annotations-processed.gff3";
 $FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
 
-copy("$datapath/$GFFFILE.gz", '.');
-copy("$datapath/$FASTAFILE.gz", '.');
+my $copyfailed;
+copy("$datapath/$GFFFILE.gz", '.') or $copyfailed = 1;
+copy("$datapath/$FASTAFILE.gz", '.') or $copyfailed = 1;
+
+if ($copyfailed == 1) {
+    #use ftp to fetch them
+
+    my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
+
+    #my $ftp = Net::FTP->new($FTPHOST)
+    #    or die "can't connect to $FTPHOST: $@";
+    #$ftp->login("anonymous",'-anonymous@')
+    #    or die "Cannot login to ftp ", $ftp->message;
+    my $gff = "$ftpgffpath/$GFFFILE.gz";
+    #$ftp->get("$ftpgffpath/$GFFFILE.gz")
+    #    or die "ftp get failed $gff", $ftp->message;
+    my $fasta = "$ftpgffpath/$FASTAFILE.gz";
+    #$ftp->get("$ftpgffpath/$FASTAFILE.gz")
+    #    or die "ftp get failed $fasta", $ftp->message;
+
+    system("wget $FTPHOST$gff");
+    system("wget $FTPHOST$fasta");
+}
 
 system("gunzip -f $GFFFILE.gz");
 system("gunzip -f $FASTAFILE.gz");
