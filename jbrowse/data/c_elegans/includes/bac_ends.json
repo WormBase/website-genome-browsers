@@ -1,0 +1,23 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "function(f) {var source = f.get('source'); if (source.match('EXONERATE_BAC_END_BEST')) {return 'white';} return 'gray';  }",
+            "borderColor" : "black",
+            "height" : 6
+         },
+         "category" : "Assembly",
+         "key" : "BAC end reads",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/BAC end reads/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "BAC end reads",
+         "metadata" : {
+             "citation" : "BAC end-reads aligned to Assembly CB25 ultracontigs using BLAT. Best matches indicated in white, those with reduced but still significant nucleotide identity in gray."
+         }
+      }
+   ]
+}

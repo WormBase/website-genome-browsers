@@ -1,0 +1,22 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "gray",
+            "height" : 6
+         },
+         "category" : "Genes",
+         "key" : "Transposon Genes",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Transposon Genes/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Transposon Genes",
+         "metadata" : {
+             "citation" : "These are transposon spans reviewed by WormBase curators."
+         }
+      }
+   ]
+}
