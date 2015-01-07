@@ -52,6 +52,7 @@ names) include:
  fastafile - Path to the input FASTA file
  filedir   - Path to parent directory where releases and files can be found
  datadir   - Relative path (from the jbrowse root) to jbrowse data directory
+ jbrowsedir- Path to JBrowse directory
  nosplit   - Don't split GFF file by reference sequence 
  usenice   - Run formatting commands with Unix nice
  skipfilesplit - Don't split files or use grep to make subfiles
@@ -176,10 +177,11 @@ $INCLUDES   = $Config->{_}->{includes};
 $FUNCTIONS  = $Config->{_}->{functions};
 $ORGANISMS  = $Config->{_}->{organisms};
 $GLYPHS     = $Config->{_}->{glyphs};
+$BROWSER_DATA = $Config->{_}->{browser_data};
 $ALLSTATS ||= $Config->{_}->{allstats};
     $ALLSTATS =~ s/\$RELEASE/$RELEASE/e;
 my $nice = $USENICE ? "nice" : '';
-$JBROWSEDIR ||= "/usr/local/wormbase/website/scain/jbrowse-dev";
+$JBROWSEDIR ||=  $Config->{_}->{jbrowsedir};;
 $FTPHOST    = 'ftp://ftp.wormbase.org';
 
 #this will be added to by every track
@@ -233,6 +235,9 @@ while (my $line = <AS>) {
 }
 close AS;
 
+print "Processing $species ...\n";
+
+
 #fetch the GFF and fasta files
 $species =~ /(\w_\w+?)_(\w+)$/;
 my $speciesdir = $1;
@@ -261,8 +266,9 @@ if ($copyfailed == 1) {
     #$ftp->get("$ftpgffpath/$FASTAFILE.gz")
     #    or die "ftp get failed $fasta", $ftp->message;
 
-    system("wget $FTPHOST$gff");
-    system("wget $FTPHOST$fasta");
+    my $quiet = $QUIET ? '-q' : '';
+    system("wget $quiet $FTPHOST$gff");
+    system("wget $quiet $FTPHOST$fasta");
 }
 
 system("gunzip -f $GFFFILE.gz");
@@ -291,7 +297,7 @@ unless ($SKIPFILESPLIT) {
 
     my $grepcommand = "grep -P \"$greppattern\" $GFFFILE > $gffout";
     warn $grepcommand unless $QUIET;
-    system ("$nice $grepcommand") == 0 or warn $!;
+    system ("$nice $grepcommand") == 0 or warn "$GFFFILE: $!\n";
 
     if ($postprocess) {
         system("$nice $Bin/$postprocess $gffout") == 0 or warn $!;
@@ -348,7 +354,7 @@ unless (-e "$DATADIR/../organisms.conf") {
     symlink $ORGANISMS, "$DATADIR/../organisms.conf" or warn $!;
 }
 unless (-e "browser_data") {
-    symlink "browser_data", $BROWSER_DATA or warn $!;
+    symlink $BROWSER_DATA, "browser_data" or warn $!;
 }
 
 #use original or split gff for many tracks
@@ -491,7 +497,7 @@ sub process_grep_track {
     my $command= "$nice bin/flatfile-to-json.pl --compress --gff $gffout --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\"";
     warn $command unless $QUIET;
 
-    system($command)==0 or warn $! ;
+    system($command)==0 or warn "$gffout: $!\n" ;
 
     if (!-e "$INCLUDES/$section.json") {
         warn "\nMISSING INCLUDE FILE: $section.json\n\n";
