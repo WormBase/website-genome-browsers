@@ -1,0 +1,274 @@
+{
+   "../tracks" : [
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_hypodermal",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_hypodermal",
+         "feature" : [
+            "transcript_region:3816_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: L3_L4_hypodermal/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_hypodermal",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_dopa",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_dopa",
+         "feature" : [
+            "transcript_region:3821_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: L3_L4_dopa/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "type" : "CanvasFeatures",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_dopa"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: YA_reference",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: YA_reference",
+         "feature" : [
+            "transcript_region:3827_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: YA_reference/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: YA_reference",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_coelomocytes",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_coelomocytes",
+         "feature" : [
+            "transcript_region:3842_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: L2_coelomocytes/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "type" : "CanvasFeatures",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: L2_coelomocytes"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_glut_rec",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_glut_rec",
+         "feature" : [
+            "transcript_region:3851_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: L2_glut_rec/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: L2_glut_rec",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_reference",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_reference",
+         "feature" : [
+            "transcript_region:3857_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: L3_L4_reference/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "type" : "CanvasFeatures",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_reference"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: YA_CEPsh",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: YA_CEPsh",
+         "feature" : [
+            "transcript_region:3867_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: YA_CEPsh/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: YA_CEPsh",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_PVD_OLL",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_PVD_OLL",
+         "feature" : [
+            "transcript_region:3887_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: L3_L4_PVD_OLL/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "type" : "CanvasFeatures",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_PVD_OLL"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_reference",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_reference",
+         "feature" : [
+            "transcript_region:3892_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: L2_reference/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: L2_reference",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_panneural",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_panneural",
+         "feature" : [
+            "transcript_region:3897_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: L2_panneural/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "type" : "CanvasFeatures",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: L2_panneural"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_intestine",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_intestine",
+         "feature" : [
+            "transcript_region:3902_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: L2_intestine/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: L2_intestine",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_excretory_cell",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_excretory_cell",
+         "feature" : [
+            "transcript_region:3907_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: L2_excretory_cell/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "type" : "CanvasFeatures",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: L2_excretory_cell"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_bw_muscle",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_bw_muscle",
+         "feature" : [
+            "transcript_region:3912_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: L2_bw_muscle/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: L2_bw_muscle",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_A_class_neuron",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_A_class_neuron",
+         "feature" : [
+            "transcript_region:3942_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: L2_A_class_neuron/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "type" : "CanvasFeatures",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: L2_A_class_neuron"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_GABA_neurons",
+         "style" : {
+            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+         },
+         "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_GABA_neurons",
+         "feature" : [
+            "transcript_region:4003_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Post-Embryo Fax-sorted cells TransFrags: L2_GABA_neurons/{refseq}/trackData.jsonz",
+         "compress" : 1, "category" : "modENCODE Tracks : Waterston Group:Tiling Array",
+         "label" : "Post-Embryo Fax-sorted cells TransFrags: L2_GABA_neurons",
+         "type" : "CanvasFeatures"
+      }
+   ]
+}
