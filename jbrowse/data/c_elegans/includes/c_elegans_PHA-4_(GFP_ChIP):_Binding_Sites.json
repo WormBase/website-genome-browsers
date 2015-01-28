@@ -1,0 +1,148 @@
+{
+   "tracks" : [
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_L2_GFP",
+         "style" : {
+            "className" : "feature",
+            "showLabels" : "false",
+            "color" : "{snyderHeatMap}",
+            "borderColor" : "black",
+            "label" : "false",
+            "description" : "false"
+         },
+         "key" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_L2_GFP",
+         "feature" : [
+            "binding_site:4190_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_L2_GFP/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "category" : "modENCODE Tracks : Snyder Group: GFP ChIP: Binding Sites",
+         "label" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_L2_GFP",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_FedL1_GFP",
+         "style" : {
+            "className" : "feature",
+            "color" : "{snyderHeatMap}",
+            "showLabels" : "false",
+            "label" : "false",
+            "borderColor" : "black",
+            "description" : "false"
+         },
+         "key" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_FedL1_GFP",
+         "feature" : [
+            "binding_site:4235_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_FedL1_GFP/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_FedL1_GFP",
+         "category" : "modENCODE Tracks : Snyder Group: GFP ChIP: Binding Sites"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_emb_GFP",
+         "style" : {
+            "className" : "feature",
+            "showLabels" : "false",
+            "color" : "{snyderHeatMap}",
+            "borderColor" : "black",
+            "label" : "false",
+            "description" : "false"
+         },
+         "key" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_emb_GFP",
+         "feature" : [
+            "binding_site:4241_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_emb_GFP/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "category" : "modENCODE Tracks : Snyder Group: GFP ChIP: Binding Sites",
+         "label" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_emb_GFP",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_StarvedL1_GFP",
+         "style" : {
+            "className" : "feature",
+            "color" : "{snyderHeatMap}",
+            "showLabels" : "false",
+            "label" : "false",
+            "borderColor" : "black",
+            "description" : "false"
+         },
+         "key" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_StarvedL1_GFP",
+         "feature" : [
+            "binding_site:4240_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_StarvedL1_GFP/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_StarvedL1_GFP",
+         "category" : "modENCODE Tracks : Snyder Group: GFP ChIP: Binding Sites"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_YA",
+         "style" : {
+            "className" : "feature",
+            "showLabels" : "false",
+            "color" : "{snyderHeatMap}",
+            "borderColor" : "black",
+            "label" : "false",
+            "description" : "false"
+         },
+         "key" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_YA",
+         "feature" : [
+            "binding_site:5397_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_YA/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "category" : "modENCODE Tracks : Snyder Group: GFP ChIP: Binding Sites",
+         "label" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_YA",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_lemb",
+         "style" : {
+            "className" : "feature",
+            "color" : "{snyderHeatMap}",
+            "showLabels" : "false",
+            "label" : "false",
+            "borderColor" : "black",
+            "description" : "false"
+         },
+         "key" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_lemb",
+         "feature" : [
+            "binding_site:5401_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_lemb/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_lemb",
+         "category" : "modENCODE Tracks : Snyder Group: GFP ChIP: Binding Sites"
+      }
+   ]
+}

@@ -1,0 +1,172 @@
+{
+   "tracks" : [
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Pol II ChIP (N2): Binding Sites: N2_POLII_L1",
+         "style" : {
+            "className" : "feature",
+            "color" : "{snyderHeatMap}",
+            "showLabels" : "false",
+            "label" : "false",
+            "borderColor" : "black",
+            "description" : "false"
+         },
+         "key" : "Pol II ChIP (N2): Binding Sites: N2_POLII_L1",
+         "feature" : [
+            "binding_site:4325_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_L1/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Pol II ChIP (N2): Binding Sites: N2_POLII_L1",
+         "category" : "modENCODE Tracks : Snyder Group: Pol II ChIP: Binding Sites"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Pol II ChIP (N2): Binding Sites: N2_POLII_L3",
+         "style" : {
+            "className" : "feature",
+            "showLabels" : "false",
+            "color" : "{snyderHeatMap}",
+            "borderColor" : "black",
+            "label" : "false",
+            "description" : "false"
+         },
+         "key" : "Pol II ChIP (N2): Binding Sites: N2_POLII_L3",
+         "feature" : [
+            "binding_site:4336_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_L3/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "category" : "modENCODE Tracks : Snyder Group: Pol II ChIP: Binding Sites",
+         "label" : "Pol II ChIP (N2): Binding Sites: N2_POLII_L3",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Pol II ChIP (N2): Binding Sites: N2_POLII_L2",
+         "style" : {
+            "className" : "feature",
+            "color" : "{snyderHeatMap}",
+            "showLabels" : "false",
+            "label" : "false",
+            "borderColor" : "black",
+            "description" : "false"
+         },
+         "key" : "Pol II ChIP (N2): Binding Sites: N2_POLII_L2",
+         "feature" : [
+            "binding_site:4333_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_L2/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Pol II ChIP (N2): Binding Sites: N2_POLII_L2",
+         "category" : "modENCODE Tracks : Snyder Group: Pol II ChIP: Binding Sites"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Pol II ChIP (N2): Binding Sites: N2_POLII_lemb",
+         "style" : {
+            "className" : "feature",
+            "showLabels" : "false",
+            "color" : "{snyderHeatMap}",
+            "borderColor" : "black",
+            "label" : "false",
+            "description" : "false"
+         },
+         "key" : "Pol II ChIP (N2): Binding Sites: N2_POLII_lemb",
+         "feature" : [
+            "binding_site:4348_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_lemb/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "category" : "modENCODE Tracks : Snyder Group: Pol II ChIP: Binding Sites",
+         "label" : "Pol II ChIP (N2): Binding Sites: N2_POLII_lemb",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Pol II ChIP (N2): Binding Sites: N2_POLII_L4",
+         "style" : {
+            "className" : "feature",
+            "color" : "{snyderHeatMap}",
+            "showLabels" : "false",
+            "label" : "false",
+            "borderColor" : "black",
+            "description" : "false"
+         },
+         "key" : "Pol II ChIP (N2): Binding Sites: N2_POLII_L4",
+         "feature" : [
+            "binding_site:4363_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_L4/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Pol II ChIP (N2): Binding Sites: N2_POLII_L4",
+         "category" : "modENCODE Tracks : Snyder Group: Pol II ChIP: Binding Sites"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Pol II ChIP (N2): Binding Sites: N2_POLII_YA",
+         "style" : {
+            "className" : "feature",
+            "showLabels" : "false",
+            "color" : "{snyderHeatMap}",
+            "borderColor" : "black",
+            "label" : "false",
+            "description" : "false"
+         },
+         "key" : "Pol II ChIP (N2): Binding Sites: N2_POLII_YA",
+         "feature" : [
+            "binding_site:4362_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_YA/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "category" : "modENCODE Tracks : Snyder Group: Pol II ChIP: Binding Sites",
+         "label" : "Pol II ChIP (N2): Binding Sites: N2_POLII_YA",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "displayMode" : "collapsed",
+         "autocomplete" : "none",
+         "track" : "Pol II ChIP (N2): Binding Sites: N2_POLII_eemb",
+         "style" : {
+            "className" : "feature",
+            "color" : "{snyderHeatMap}",
+            "showLabels" : "false",
+            "label" : "false",
+            "borderColor" : "black",
+            "description" : "false"
+         },
+         "key" : "Pol II ChIP (N2): Binding Sites: N2_POLII_eemb",
+         "feature" : [
+            "binding_site:4384_details"
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_eemb/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Pol II ChIP (N2): Binding Sites: N2_POLII_eemb",
+         "category" : "modENCODE Tracks : Snyder Group: Pol II ChIP: Binding Sites"
+      }
+   ]
+}
