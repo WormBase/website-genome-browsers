@@ -19,7 +19,7 @@
          "label" : "Binding sites (curated)",
          "type" : "CanvasFeatures",
          "metadata" : {
-            "citation" : "Sites where there is experimental evidence of a non-TF, non-Histone molecule binding."
+            "shortInfo" : "Sites where there is experimental evidence of a non-TF, non-Histone molecule binding."
          },
          "category" : "Sequence Features:Binding Sites & Regions"
       }

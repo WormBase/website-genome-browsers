@@ -24,7 +24,7 @@
          "subParts" : "match_part",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {
-            "citation" : "Matches to WormBase C. elegans proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
+            "shortInfo" : "Matches to WormBase C. elegans proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          }
       }
    ]

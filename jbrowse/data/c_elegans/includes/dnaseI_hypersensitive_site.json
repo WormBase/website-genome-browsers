@@ -18,7 +18,7 @@
          "compress" : 1,
          "category" : "Sequence Features:Signals & Motifs",
          "metadata" : {
-            "citation" : "DNAse I hypersensitive sites from the 2009 paper by Shi et al."
+            "shortInfo" : "DNAse I hypersensitive sites from the 2009 paper by Shi et al."
          },
          "type" : "CanvasFeatures",
          "label" : "DNAseI hypersensitive site"

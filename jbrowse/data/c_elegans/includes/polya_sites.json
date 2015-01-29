@@ -20,7 +20,7 @@
          "label" : "PolyA sites and signal sequences",
          "type" : "CanvasFeatures",
          "metadata" : {
-            "citation" : "High-confidence polyadenylation signal sequences and sites calculated by an algorithm trained with verified sites from full-length mRNAs. Signals are indicated with a diamond; sites with a triangle. (Different glyphs not implemented in JBrowse yet)"
+            "shortInfo" : "High-confidence polyadenylation signal sequences and sites calculated by an algorithm trained with verified sites from full-length mRNAs. Signals are indicated with a diamond; sites with a triangle. (Different glyphs not implemented in JBrowse yet)"
          },
          "category" : "Transcription:Signals"
       }

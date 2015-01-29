@@ -13,7 +13,7 @@
             "title" : "Feature at Genbank"
          },
          "metadata" : {
-            "citation" : "This track shows the location and coordinates of contigs (mostly cosmids) submitted to GenBank/EMBL."
+            "shortInfo" : "This track shows the location and coordinates of contigs (mostly cosmids) submitted to GenBank/EMBL."
          },
          "category" : "Genome Structure:Assembly & Curation",
          "key" : "Contig submissions",

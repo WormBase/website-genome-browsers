@@ -13,7 +13,7 @@
             "label" : "Feature in WormBase Staging"
          },
          "metadata" : {
-            "citation" : "Positions within the reference genome sequence that were previously identified as having a base call error. This error has now been corrected."
+            "shortInfo" : "Positions within the reference genome sequence that were previously identified as having a base call error. This error has now been corrected."
          },
          "category" : "Genome Structure:Assembly & Curation",
          "key" : "Genome sequence corrections",

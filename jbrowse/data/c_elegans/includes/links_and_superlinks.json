@@ -13,7 +13,7 @@
             "label" : "Feature in WormBase Staging"
          },
          "metadata" : {
-            "citation" : "This track shows the location and coordinates of contigs created during the assembly of the C. elegans genome."
+            "shortInfo" : "This track shows the location and coordinates of contigs created during the assembly of the C. elegans genome."
          },
          "category" : "Genome Structure:Assembly & Curation",
          "key" : "Links and Superlinks",

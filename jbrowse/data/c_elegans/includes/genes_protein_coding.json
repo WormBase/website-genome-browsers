@@ -22,7 +22,7 @@
          "type" : "CanvasFeatures",
          "label" : "Curated Genes (protein coding)",
          "metadata" : {
-             "citation" : "A subset of the full Curated Genes set limited to protein-coding genes only. Only the CDS is represented. Full models (with UTRs) can be seen on the 'Curated Genes' track."
+             "shortInfo" : "A subset of the full Curated Genes set limited to protein-coding genes only. Only the CDS is represented. Full models (with UTRs) can be seen on the 'Curated Genes' track."
          }
       }
    ]

@@ -21,7 +21,7 @@
          "type" : "CanvasFeatures",
          "category" : "Expression",
          "metadata" : {
-             "citation" : "This track represents sequences that were used for in vivo expression pattern analysis, such as promoter sequences for GFP or LacZ constructs.  Colored areas in the worm image represent approximate regions where adult or late larval expression has been documented via Anatomy Ontology terms.  The strand of the sequence (promoter) region used is indicated by color in the same way as genes, where violet is the forward strand and turqoise is the reverse strand.  Clicking on the glyph image will take you to a detailed view of the expression pattern."
+             "shortInfo" : "This track represents sequences that were used for in vivo expression pattern analysis, such as promoter sequences for GFP or LacZ constructs.  Colored areas in the worm image represent approximate regions where adult or late larval expression has been documented via Anatomy Ontology terms.  The strand of the sequence (promoter) region used is indicated by color in the same way as genes, where violet is the forward strand and turqoise is the reverse strand.  Clicking on the glyph image will take you to a detailed view of the expression pattern."
          },
       }
    ]

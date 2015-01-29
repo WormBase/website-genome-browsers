@@ -13,7 +13,7 @@
             "title" : "Feature at Genbank"
          },
          "metadata" : {
-            "citation" : "The C. elegans genome was submitted to the GenBank and EMBL databases in in the form of a set of minimally-overlapping segments.  This track shows the position of these accessioned entries."
+            "shortInfo" : "The C. elegans genome was submitted to the GenBank and EMBL databases in in the form of a set of minimally-overlapping segments.  This track shows the position of these accessioned entries."
          },
          "category" : "Genome Structure:Assembly & Curation",
          "key" : "Genbank submissions",

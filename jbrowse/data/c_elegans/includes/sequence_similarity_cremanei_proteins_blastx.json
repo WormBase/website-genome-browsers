@@ -24,7 +24,7 @@
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "category" : "Sequence Similarity:Proteins",
          "metadata" : {
-            "citation" : "Matches to WormBase C. remanei proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
+            "shortInfo" : "Matches to WormBase C. remanei proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          }
       }
    ]

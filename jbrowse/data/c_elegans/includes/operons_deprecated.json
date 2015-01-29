@@ -15,7 +15,7 @@
          "label" : "Deprecated operons",
          "type" : "CanvasFeatures",
          "metadata" : {
-             "citation" : "These are historical operon predictions."
+             "shortInfo" : "These are historical operon predictions."
          }
       }
    ]

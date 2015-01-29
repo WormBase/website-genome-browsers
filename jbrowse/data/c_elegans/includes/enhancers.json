@@ -20,7 +20,7 @@
          "type" : "CanvasFeatures",
          "label" : "Enhancers",
          "metadata" : {
-            "citation" : "There should be better text here for enhancers"
+            "shortInfo" : "There should be better text here for enhancers"
          },
          "category" : "Sequence Features:Binding Sites & Regions"
       }

@@ -15,7 +15,7 @@
          "type" : "CanvasFeatures",
          "label" : "Transposon Genes",
          "metadata" : {
-             "citation" : "These are transposon spans reviewed by WormBase curators."
+             "shortInfo" : "These are transposon spans reviewed by WormBase curators."
          }
       }
    ]

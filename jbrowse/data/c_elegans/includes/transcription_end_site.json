@@ -13,7 +13,7 @@
          "compress" : 1,
          "category" : "Transcription:Signals",
          "metadata" : {
-            "citation" : "Transcription_end_site defined by analysis of RNASeq short read datasets (example Hillier et al.)"
+            "shortInfo" : "Transcription_end_site defined by analysis of RNASeq short read datasets (example Hillier et al.)"
          },
          "label" : "Transcription end site",
          "type" : "CanvasFeatures"

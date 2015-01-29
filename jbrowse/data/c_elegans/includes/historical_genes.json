@@ -24,7 +24,7 @@
          "label" : "Gene Models (historical)",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {
-             "citation" : "Historical gene predictions."
+             "shortInfo" : "Historical gene predictions."
          }
       }
    ]

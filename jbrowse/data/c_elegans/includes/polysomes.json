@@ -14,7 +14,7 @@
          "type" : "CanvasFeatures",
          "category" : "Expression",
          "metadata" : {
-             "citation" : "This data is from the The Lamm et al. (2011) PMID: 21177965 paper finding regions bound by the polysome fraction of RNAs being actively translated."
+             "shortInfo" : "This data is from the The Lamm et al. (2011) PMID: 21177965 paper finding regions bound by the polysome fraction of RNAs being actively translated."
          }
       }
    ]

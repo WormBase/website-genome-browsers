@@ -18,7 +18,7 @@
          "compress" : 1,
          "category" : "Sequence Features:Binding Sites & Regions",
          "metadata" : {
-            "citation" : "Sites where there is experimental evidence of a transcription factor binding site."
+            "shortInfo" : "Sites where there is experimental evidence of a transcription factor binding site."
          },
          "type" : "CanvasFeatures",
          "label" : "Transcription factor binding sites"

@@ -21,7 +21,7 @@
          "category" : "Genes",
          "label" : "Transposons",
          "metadata" : {
-             "citation" : "These are transposon spans reviewed by WormBase curators."
+             "shortInfo" : "These are transposon spans reviewed by WormBase curators."
           }
       }
    ]

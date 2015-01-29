@@ -24,7 +24,7 @@
          "type" : "CanvasFeatures",
          "label" : "High-throughput alleles",
          "metadata" : {
-             "citation" : "These are alleles generated through high-throughput, genome-wide projects. Million Mutation Project alleles are placed in a separate track."
+             "shortInfo" : "These are alleles generated through high-throughput, genome-wide projects. Million Mutation Project alleles are placed in a separate track."
          }
       }
    ]

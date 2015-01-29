@@ -19,7 +19,7 @@
          "urlTemplate" : "../tracks/mRNAs_ncRNAs (best)/{refseq}/trackData.jsonz",
          "compress" : 1,
          "metadata" : {
-            "citation" : "Native (same species) full length cDNAs and ncRNAs aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each cDNA. Other cDNA matches, some of which may represent repetitive elements, are shown in the track labeled 'mRNAs/ncRNAs (other)'"
+            "shortInfo" : "Native (same species) full length cDNAs and ncRNAs aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each cDNA. Other cDNA matches, some of which may represent repetitive elements, are shown in the track labeled 'mRNAs/ncRNAs (other)'"
          },
          "label" : "mRNAs_ncRNAs (best)",
          "type" : "CanvasFeatures",

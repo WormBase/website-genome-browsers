@@ -15,7 +15,7 @@
          "category" : "Genes",
          "type" : "CanvasFeatures",
          "metadata" : {
-             "citation" : "These are operons published by Blumenthal et al, Nature 417: 851-854 (2002)."
+             "shortInfo" : "These are operons published by Blumenthal et al, Nature 417: 851-854 (2002)."
          }
       }
    ]

@@ -21,7 +21,7 @@
          "type" : "CanvasFeatures",
          "label" : "Transcriptionally Active Region",
          "metadata" : {
-            "citation" : "Transcriptionally Active Regions (TARs) found by the Miller lab from tiling-array projects run as part of the modENCODE project."
+            "shortInfo" : "Transcriptionally Active Regions (TARs) found by the Miller lab from tiling-array projects run as part of the modENCODE project."
          }
       }
    ]

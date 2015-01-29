@@ -20,7 +20,7 @@
          "label" : "Microarray oligo probes",
          "type" : "CanvasFeatures",
          "metadata" : {
-            "citation" : "This track contains Affymetrix GeneChip and Washington University GSC microarray probe sets."
+            "shortInfo" : "This track contains Affymetrix GeneChip and Washington University GSC microarray probe sets."
          },
          "category" : "Reagents"
       }

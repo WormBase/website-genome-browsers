@@ -17,7 +17,7 @@
          "category" : "Expression",
          "label" : "RNASeq",
          "metadata" : {
-             "citation" : "These boxes indicate alignments of short read sequences from all available RNASeq projects. The number of reads has been normalised by averaging over the number of libraries. The height of all boxes indicates the relative score of the feature."
+             "shortInfo" : "These boxes indicate alignments of short read sequences from all available RNASeq projects. The number of reads has been normalised by averaging over the number of libraries. The height of all boxes indicates the relative score of the feature."
          }
       }
    ]

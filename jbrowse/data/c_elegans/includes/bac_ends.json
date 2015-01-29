@@ -16,7 +16,7 @@
          "type" : "CanvasFeatures",
          "label" : "BAC end reads",
          "metadata" : {
-             "citation" : "BAC end-reads aligned to Assembly CB25 ultracontigs using BLAT. Best matches indicated in white, those with reduced but still significant nucleotide identity in gray."
+             "shortInfo" : "BAC end-reads aligned to Assembly CB25 ultracontigs using BLAT. Best matches indicated in white, those with reduced but still significant nucleotide identity in gray."
          }
       }
    ]

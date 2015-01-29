@@ -7,7 +7,7 @@
             "height" : 4
          },
          "metadata" : {
-            "citation" : "Repetitive regions identified by RepeatMasker."
+            "shortInfo" : "Repetitive regions identified by RepeatMasker."
          },
          "category" : "Genome Structure:Assembly & Curation",
          "key" : "Repeat Region (RepeatMasker)",

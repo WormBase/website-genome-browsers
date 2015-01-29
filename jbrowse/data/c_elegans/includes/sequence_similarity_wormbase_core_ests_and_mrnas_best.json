@@ -24,7 +24,7 @@
          "label" : "WormBase nematode mRNAs/ESTs (best)",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {
-            "citation" : "ESTs and mRNAs from other WormBase core species aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best location for each cDNA sequence. <p> mRNAs are shown in light blue; ESTs in green."
+            "shortInfo" : "ESTs and mRNAs from other WormBase core species aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best location for each cDNA sequence. <p> mRNAs are shown in light blue; ESTs in green."
          }
       }
    ]
