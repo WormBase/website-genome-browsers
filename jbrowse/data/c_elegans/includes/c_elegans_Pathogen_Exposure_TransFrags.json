@@ -24,7 +24,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Pathogen Exposure: TransFrags OG1RF_24h/{refseq}/trackData.json",
          "compress" : 0,
-         "category" : "modENCODE:Waterston Group:Tiling Array",
+         "category" : "modENCODE : Waterston Group:Tiling Array",
          "type" : "CanvasFeatures",
          "label" : "Pathogen Exposure: TransFrags OG1RF_24h"
       },
@@ -52,7 +52,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Pathogen Exposure: TransFrags OP50_48h/{refseq}/trackData.json",
          "compress" : 0,
-         "category" : "modENCODE:Waterston Group:Tiling Array",
+         "category" : "modENCODE : Waterston Group:Tiling Array",
          "label" : "Pathogen Exposure: TransFrags OP50_48h",
          "type" : "CanvasFeatures"
       },
@@ -80,7 +80,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Pathogen Exposure: TransFrags Hb_24h/{refseq}/trackData.json",
          "compress" : 0,
-         "category" : "modENCODE:Waterston Group:Tiling Array",
+         "category" : "modENCODE : Waterston Group:Tiling Array",
          "label" : "Pathogen Exposure: TransFrags Hb_24h",
          "type" : "CanvasFeatures"
       },
@@ -108,7 +108,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Pathogen Exposure: TransFrags Db_48h/{refseq}/trackData.json",
          "compress" : 0,
-         "category" : "modENCODE:Waterston Group:Tiling Array",
+         "category" : "modENCODE : Waterston Group:Tiling Array",
          "type" : "CanvasFeatures",
          "label" : "Pathogen Exposure: TransFrags Db_48h"
       },
@@ -136,7 +136,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Pathogen Exposure: TransFrags Db_24h/{refseq}/trackData.json",
          "compress" : 0,
-         "category" : "modENCODE:Waterston Group:Tiling Array",
+         "category" : "modENCODE : Waterston Group:Tiling Array",
          "label" : "Pathogen Exposure: TransFrags Db_24h",
          "type" : "CanvasFeatures"
       },
@@ -164,7 +164,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Pathogen Exposure: TransFrags OP50_24h/{refseq}/trackData.json",
          "compress" : 0,
-         "category" : "modENCODE:Waterston Group:Tiling Array",
+         "category" : "modENCODE : Waterston Group:Tiling Array",
          "type" : "CanvasFeatures",
          "label" : "Pathogen Exposure: TransFrags OP50_24h"
       },

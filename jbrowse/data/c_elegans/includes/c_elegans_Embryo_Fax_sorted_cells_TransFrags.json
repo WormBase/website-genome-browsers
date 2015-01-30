@@ -18,7 +18,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_panneural/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "type" : "CanvasFeatures",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_panneural"
       },
@@ -40,7 +40,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_ACLASS/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "type" : "CanvasFeatures",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_ACLASS"
       },
@@ -62,7 +62,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_ALLREF/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_ALLREF",
          "type" : "CanvasFeatures"
       },
@@ -84,7 +84,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_intestine/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "type" : "CanvasFeatures",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_intestine"
       },
@@ -106,7 +106,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_coelomocytes/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_coelomocytes",
          "type" : "CanvasFeatures"
       },
@@ -128,7 +128,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_AVA_neurons/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "type" : "CanvasFeatures",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_AVA_neurons"
       },
@@ -150,7 +150,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_GLP/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_GLP",
          "type" : "CanvasFeatures"
       },
@@ -172,7 +172,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_hypodermal/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "type" : "CanvasFeatures",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_hypodermal"
       },
@@ -194,7 +194,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_dopa/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_dopa",
          "type" : "CanvasFeatures"
       },
@@ -216,7 +216,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_GABA/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "type" : "CanvasFeatures",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_GABA"
       },
@@ -238,7 +238,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_bw_v2/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_bw_v2",
          "type" : "CanvasFeatures"
       },
@@ -260,7 +260,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_BAG/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "type" : "CanvasFeatures",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_BAG"
       },
@@ -282,7 +282,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_PhM/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_PhM",
          "type" : "CanvasFeatures"
       },
@@ -304,7 +304,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Embryo Fax-sorted cells TransFrags: EMB_PVC/{refseq}/trackData.jsonz",
-         "compress" : 1, "category" : "modENCODE:Waterston Group:Tiling Array",
+         "compress" : 1, "category" : "modENCODE : Waterston Group:Tiling Array",
          "type" : "CanvasFeatures",
          "label" : "Embryo Fax-sorted cells TransFrags: EMB_PVC"
       }
