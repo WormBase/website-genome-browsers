@@ -1,0 +1,30 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "height" : 8,
+            "color" : "gray",
+            "description" : "function(f) {var type = f.get('balancer_type'); if (typeof type === 'undefined') {return 'rearrangement'; } return type;  }",
+            "label" : "function(f) {var balancer = f.get('balancer'); if(typeof balancer === 'undefined') {balancer = f.get('Name'); } var name = balancer.replace('Rearrangement:','');  return name;  }"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var balancer = f.get('balancer'); var name = balancer.replace('Rearrangement','');  return wburl+'/db/get?name='+name+';class=Rearrangement';  }",
+            "label" : "Feature in WormBase Staging",
+            "title" : "Feature in WormBase Staging"
+         },
+         "metadata" : {
+            "shortInfo" : "This track shows the approximate location of balancers."
+         },
+         "category" : "Alleles, Variations, RNAi",
+         "key" : "Balancers",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Balancers/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Balancers"
+      }
+   ]
+}
