@@ -255,16 +255,8 @@ if ($copyfailed == 1) {
 
     my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
 
-    #my $ftp = Net::FTP->new($FTPHOST)
-    #    or die "can't connect to $FTPHOST: $@";
-    #$ftp->login("anonymous",'-anonymous@')
-    #    or die "Cannot login to ftp ", $ftp->message;
     my $gff = "$ftpgffpath/$GFFFILE.gz";
-    #$ftp->get("$ftpgffpath/$GFFFILE.gz")
-    #    or die "ftp get failed $gff", $ftp->message;
     my $fasta = "$ftpgffpath/$FASTAFILE.gz";
-    #$ftp->get("$ftpgffpath/$FASTAFILE.gz")
-    #    or die "ftp get failed $fasta", $ftp->message;
 
     my $quiet = $QUIET ? '-q' : '';
     system("wget $quiet $FTPHOST$gff");
@@ -297,10 +289,10 @@ unless ($SKIPFILESPLIT) {
 
     my $grepcommand = "grep -P \"$greppattern\" $GFFFILE > $gffout";
     warn $grepcommand unless $QUIET;
-    system ("$nice $grepcommand") == 0 or warn "$GFFFILE: $!\n";
+    system ("$nice $grepcommand") == 0 or warn "$GFFFILE: $!";
 
     if ($postprocess) {
-        system("$nice $Bin/$postprocess $gffout") == 0 or warn $!;
+        system("$nice $Bin/$postprocess $gffout") == 0 or warn "postpressing $gffout: $!";
     }
   }
 }
