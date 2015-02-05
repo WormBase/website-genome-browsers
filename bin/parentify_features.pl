@@ -6,17 +6,31 @@ use warnings;
 use Bio::GFF3::LowLevel qw/ gff3_parse_feature gff3_format_feature /;
 use Storable qw/ dclone /;
 use IO::Handle;
+use Getopt::Long;
+
+my $SORT = 0;
+
+GetOptions(
+    'sort'   => \$SORT,
+) or ( system( 'pod2text', $0 ), exit -1 );
 
 my $FILEIN = $ARGV[0];
-my $infh   = new IO::File "< $FILEIN";
-
 my $FILEOUT = "$FILEIN.out";
+
+if ($SORT) {
+    #do a simple unix sort on the ninth column first
+    system("sort -k 9 $FILEIN > $FILEIN.sorted; mv $FILEIN.sorted $FILEIN");
+}
+
+my $infh   = new IO::File "< $FILEIN";
 my $outfh   = new IO::File "> $FILEOUT";
+
 
 my $oldid;
 my %featurehash;
 my @featurearray;
 my %idlessfeature;
+my $oldtargetname = '';
 while (<$infh>) {
     next if /^#/;
     my $f = gff3_parse_feature($_);
@@ -31,7 +45,13 @@ while (<$infh>) {
         if ($target =~ /^(\S+)\s/) {
             $targetname = $1;
         }
-        $idlessfeature{$targetname}++;
+        die "no ID and no Target; I don't know what to do" unless $targetname;
+
+        if ($targetname ne $oldtargetname) {
+            $idlessfeature{$targetname}++;
+            $oldtargetname = $targetname; 
+        }
+
         $id = "$targetname.$idlessfeature{$targetname}";
         $f->{attributes}->{ID} = [$id];
     }
