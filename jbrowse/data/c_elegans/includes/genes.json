@@ -4,7 +4,7 @@
          "style" : {
             "className" : "feature",
             "color" : "{geneColor}",
-	    "label" : "{geneLabel}",
+            "label" : "{geneLabel}",
             "height" : "function(f) {var type = f.get('type'); if (type == 'CDS') {return 10;} return 6;  }"
          },
          "onClick" : {

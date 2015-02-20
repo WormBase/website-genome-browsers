@@ -4,8 +4,7 @@
          "style" : {
             "className" : "feature",
             "color" : "{geneColor}",
-            "label" : "{geneLabel}",
-            "description" : "function(f) {return'protein coding';}"
+            "label" : "{geneLabel}"
          },
          "onClick" : {
             "action" : "iframeDialog",
