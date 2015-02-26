@@ -1,0 +1,16 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "key" : "NEMBASE cDNAs",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/NEMBASE cDNAs/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "NEMBASE cDNAs"
+      }
+   ]
+}

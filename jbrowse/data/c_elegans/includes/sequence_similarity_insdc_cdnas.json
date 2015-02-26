@@ -1,0 +1,16 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "key" : "INSDC nematode cDNAs",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/INSDC nematode cDNAs/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "INSDC nematode cDNAs"
+      }
+   ]
+}
