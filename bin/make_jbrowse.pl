@@ -246,7 +246,7 @@ my $datapath = $FILEDIR . 'WS' . $RELEASE . '/species/' . $speciesdir . '/' . $p
 $GFFFILE   = "$speciesdir.$projectdir.WS$RELEASE.annotations-processed.gff3";
 $FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
 
-my $copyfailed;
+my $copyfailed = 0;
 copy("$datapath/$GFFFILE.gz", '.') or $copyfailed = 1;
 copy("$datapath/$FASTAFILE.gz", '.') or $copyfailed = 1;
 
