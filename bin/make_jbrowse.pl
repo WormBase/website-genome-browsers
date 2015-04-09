@@ -243,7 +243,7 @@ $species =~ /(\w_\w+?)_(\w+)$/;
 my $speciesdir = $1;
 my $projectdir = $2;
 my $datapath = $FILEDIR . 'WS' . $RELEASE . '/species/' . $speciesdir . '/' . $projectdir;
-$GFFFILE   = "$speciesdir.$projectdir.WS$RELEASE.annotations-processed.gff3";
+$GFFFILE   = "$speciesdir.$projectdir.WS$RELEASE.annotations.gff3";
 $FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
 
 my $copyfailed = 0;
