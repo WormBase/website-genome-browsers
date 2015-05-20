@@ -4,7 +4,14 @@
          "style" : {
             "className" : "feature",
             "color" : "gray",
+            "description" : "function(f) {var type = f.get('type'); if (type.match('pseudogenic')) {return 'transposon pseudogene';} return 'transposon mRNA';}",
             "height" : 6
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{simpleGeneURL}",
+            "label" : "{geneLinkLabel}",
+            "title" : "Feature in WormBase"
          },
          "category" : "Genes",
          "key" : "Transposon Genes",
@@ -14,6 +21,8 @@
          "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Transposon Genes",
+         "subParts" : "exon",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {
              "shortInfo" : "These are transposon spans reviewed by WormBase curators."
          }
