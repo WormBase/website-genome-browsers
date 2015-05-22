@@ -18,7 +18,7 @@
          "key" : "WormBase nematode mRNAs/ESTs (best)",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/WormBase nematode mRNAs/ESTs (best)/{refseq}/trackData.jsonz",
+         "urlTemplate" : "../tracks/WormBase nematode mRNAs_ESTs (best)/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "WormBase nematode mRNAs/ESTs (best)",
