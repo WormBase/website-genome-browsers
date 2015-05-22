@@ -13,8 +13,8 @@
          "onClick" : {
             "action" : "iframeDialog",
             "url" : "{variationURL}",
-            "label" : "Feature in WormBase Staging",
-            "title" : "Feature in WormBase Staging"
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

@@ -14,8 +14,8 @@
          "onClick" : {
             "url" : "{proteinURL}",
             "action" : "iframeDialog",
-            "title" : "Feature in WormBase Staging",
-            "label" : "Feature in WormBase Staging"
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
          },
          "category" : "Sequence Features:Translated Features",
          "key" : "Mass spec peptides",

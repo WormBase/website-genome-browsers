@@ -2,8 +2,16 @@
    "tracks" : [
       {
          "style" : {
-            "className" : "feature"
+            "className" : "feature",
+            "color" : "gray",
+            "height" : 4
          },
+         "metadata" : {
+            "shortInfo" : "cDNAs from this species from INSDC that have been aligned to the genome using STAR."
+         },
+         "subParts" : "match_part",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "category" : "Sequence Similarity:Nucleotide",
          "key" : "INSDC nematode cDNAs",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

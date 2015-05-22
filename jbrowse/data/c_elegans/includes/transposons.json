@@ -9,9 +9,9 @@
          "key" : "Transposons",
          "onClick" : {
             "action" : "contentDialog",
-            "content" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('Name'); return 'This url results in a 404 how does it work for GBrowse? '+ wburl+'/get?name='+name;}",
-            "label" : "Feature in WormBase Staging",
-            "title" : "Feature in WormBase Staging"
+            "content" : "function(track,f) {var wburl = ''; var name = f.get('Name'); return 'This url results in a 404 how does it work for GBrowse? '+ wburl+'/get?name='+name;}",
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

@@ -8,8 +8,8 @@
          "onClick" : {
             "url" : "{featureURL}",
             "action" : "iframeDialog",
-            "title" : "Feature in WormBase Staging",
-            "label" : "Feature in WormBase Staging"
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
          },
          "key" : "Transcription factor binding regions",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",

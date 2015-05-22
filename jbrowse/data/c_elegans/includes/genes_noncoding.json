@@ -12,8 +12,8 @@
          "onClick" : {
             "action" : "iframeDialog",
             "url" : "{simpleGeneURL}",
-            "label" : "Feature in WormBase Staging",
-            "title" : "Feature in WormBase Staging"
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
          },
          "key" : "Curated Genes (noncoding)",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",

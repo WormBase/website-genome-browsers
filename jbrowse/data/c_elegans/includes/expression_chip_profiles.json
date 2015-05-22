@@ -9,8 +9,8 @@
          "onClick" : {
             "action" : "iframeDialog",
             "url" : "{expressionProfileURL}",
-            "label" : "Feature in WormBase Staging",
-            "title" : "Feature in WormBase Staging"
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
          },
          "key" : "Expression chip profiles",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",

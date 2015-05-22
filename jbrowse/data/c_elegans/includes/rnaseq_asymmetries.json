@@ -11,9 +11,9 @@
          },
          "onClick" : {
             "action" : "contentDialog",
-            "content" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('name'); return 'this doesnt appear to work '+wburl+'/get?name='+name+';class=Feature'; }",
-            "label" : "Feature in WormBase Staging",
-            "title" : "Feature in WormBase Staging"
+            "content" : "function(track,f) {var wburl = ''; var name = f.get('name'); return 'this doesnt appear to work '+wburl+'/get?name='+name+';class=Feature'; }",
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
          },
          "key" : "RNASeq Asymmetries",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",

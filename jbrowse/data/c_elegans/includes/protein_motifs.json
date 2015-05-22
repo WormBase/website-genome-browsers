@@ -11,8 +11,8 @@
          "onClick" : {
             "url" : "{motifURL}",
             "action" : "iframeDialog",
-            "title" : "Feature in WormBase Staging",
-            "label" : "Feature in WormBase Staging"
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
          },
          "metadata" : {
              "shortInfo" : "NOTE: This data is somewhat flawed and won't be fixed until the 246 release. This track shows the extent of predicted protein motifs. Note these spans correspond to amino acid coordinates interpolated onto the physical map.  Included are signal peptide (signalp), coiled coil (ncoils) and transmembrane (tmhmm) domains, regions of low complexity (seg), and Pfam annotated motif homologies."

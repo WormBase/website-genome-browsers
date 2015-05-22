@@ -1,0 +1,74 @@
+{
+   "tracks" : [
+      {
+         "label" : "Conservation for 8 Caenorhabditis species",
+         "key" : "Conservation for 8 Caenorhabditis species",
+         "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
+         "urlTemplate"   : "../../elegans.phastcons_8.wib",
+         "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
+         "min_score"     : 0,
+         "max_score"     : 1,
+         "category"      : "Conservation",
+         "style" : {
+            "pos_color"  : "black",
+            "height" : 60
+         },
+         "metadata" : {
+            "shortInfo" : "Sequence conservation of the 8 Caenorhabditis species housed at WormBase."
+         }
+      },
+      {
+         "label" : "Conservation all 29 worm species",
+         "key" : "Conservation all 29 worm species",
+         "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
+         "urlTemplate"   : "../../elegans_phastcons_29.wib",
+         "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
+         "min_score"     : 0,
+         "max_score"     : 1,
+         "category"      : "Conservation",
+         "style" : {
+            "pos_color"  : "black",
+            "height" : 60
+         },
+         "metadata" : {
+            "shortInfo" : "Sequence conservation of the 29 worm species housed at WormBase."
+         }
+      },
+      {
+         "label" : "elegans.align.wib",
+         "key" : "elegans.align.wib",
+         "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
+         "urlTemplate"   : "../../elegans.align.wib",
+         "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
+         "min_score"     : 0,
+         "max_score"     : 29,
+         "category"      : "Conservation",
+         "style" : {
+            "pos_color"  : "black",
+            "height" : 60
+         },
+         "metadata" : {
+            "shortInfo" : "elegans.align.wib"
+         }
+      },
+      {
+         "label" : "elegans.phylop.wib",
+         "key" : "elegans.phylop.wib",
+         "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
+         "urlTemplate"   : "../../elegans.phylop.wib",
+         "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
+         "min_score"     : -4.9,
+         "max_score"     : 4.9,
+         "category"      : "Conservation",
+         "style" : {
+            "pos_color"  : "blue",
+            "neg_color"  : "red",
+            "height" : 60
+         },
+         "metadata" : {
+            "shortInfo" : "elegans.phylop.wib"
+         }
+      }
+
+   ]
+}

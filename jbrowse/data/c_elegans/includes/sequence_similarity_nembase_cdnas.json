@@ -2,8 +2,16 @@
    "tracks" : [
       {
          "style" : {
-            "className" : "feature"
+            "className" : "feature",
+            "color" : "gray",
+            "height" : 4
          },
+         "metadata" : {
+            "shortInfo" : "Clustered cDNAs from this species provided by NEMBASE that have been aligned to the genome using STAR. NEMBASE (http://www.nematodes.org/nembase4/) provides a resource for nematode transcriptome analysis, and a research tool for nematode biology, drug discovery and vaccine design, as part of the University of Edinburgh and Wellcome Trust Sanger Institute parasitic nematode EST programme."
+         },
+         "subParts" : "match_part",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "category" : "Sequence Similarity:Nucleotide",
          "key" : "NEMBASE cDNAs",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

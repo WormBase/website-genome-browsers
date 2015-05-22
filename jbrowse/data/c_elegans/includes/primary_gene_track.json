@@ -10,8 +10,8 @@
          "onClick" : {
             "action" : "iframeDialog",
             "url" : "{geneURL}",
-            "label" : "Feature in WormBase Staging",
-            "title" : "Feature in WormBase Staging"
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
          },
          "key" : "Curated Genes",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",

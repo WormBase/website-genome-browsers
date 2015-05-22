@@ -10,8 +10,8 @@
          "onClick" : {
             "url" : "{expressionProfileURL}",
             "action" : "iframeDialog",
-            "title" : "Feature in WormBase Staging",
-            "label" : "Feature in WormBase Staging"
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
          },
          "metadata" : {
             "shortInfo" : "Polymorphic segmental duplication as defined by the tool OrthoCluster. This feature represents one sequence from a pair of duplicons in the N2 genome."

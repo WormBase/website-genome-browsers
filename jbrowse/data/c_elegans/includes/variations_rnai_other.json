@@ -11,9 +11,9 @@
          "key" : "RNAi experiments (secondary targets)",
          "onClick" : {
             "action" : "iframeDialog",
-            "url" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('Name'); if (typeof name ==='undefined') {var target = f.get('Target'); if (typeof target ==='undefined') {return;} var index = target.indexOf(' '); name = target.substring(0, index); } return wburl+'/get?name='+name+';class=RNAi'; }",
-            "label" : "Feature in WormBase Staging",
-            "title" : "Feature in WormBase Staging"
+            "url" : "function(track,f) {var wburl = ''; var name = f.get('Name'); if (typeof name ==='undefined') {var target = f.get('Target'); if (typeof target ==='undefined') {return;} var index = target.indexOf(' '); name = target.substring(0, index); } return wburl+'/get?name='+name+';class=RNAi'; }",
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

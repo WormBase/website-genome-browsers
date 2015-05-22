@@ -10,9 +10,9 @@
          },
          "onClick" : {
             "action" : "iframeDialog",
-            "url" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var balancer = f.get('balancer'); var name = balancer.replace('Rearrangement','');  return wburl+'/db/get?name='+name+';class=Rearrangement';  }",
-            "label" : "Feature in WormBase Staging",
-            "title" : "Feature in WormBase Staging"
+            "url" : "function(track,f) {var wburl = ''; var balancer = f.get('balancer'); var name = balancer.replace('Rearrangement','');  return wburl+'/db/get?name='+name+';class=Rearrangement';  }",
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
          },
          "metadata" : {
             "shortInfo" : "This track shows the approximate location of balancers."

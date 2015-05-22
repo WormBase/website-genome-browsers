@@ -9,9 +9,9 @@
          "key" : "SAGE tags",
          "onClick" : {
             "action" : "iframeDialog",
-            "url" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('sequence'); if (typeof name ==='undefined') {return;} return wburl+'/db/seq/sage?name='+name+';class=SAGE_tag'; }",
-            "label" : "Feature in WormBase Staging",
-            "title" : "Feature in WormBase Staging"
+            "url" : "function(track,f) {var wburl = ''; var name = f.get('sequence'); if (typeof name ==='undefined') {return;} return wburl+'/db/seq/sage?name='+name+';class=SAGE_tag'; }",
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

@@ -10,8 +10,8 @@
          "onClick" : {
             "url" : "{ostURL}",
             "action" : "iframeDialog",
-            "title" : "Feature in WormBase Staging",
-            "label" : "Feature in WormBase Staging"
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
          },
          "key" : "C. elegans OSTs",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",

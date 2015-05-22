@@ -9,8 +9,8 @@
          "onClick" : {
             "url" : "{featureURL}",
             "action" : "iframeDialog",
-            "title" : "Feature in WormBase Staging",
-            "label" : "Feature in WormBase Staging"
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
          },
          "metadata" : {
             "shortInfo" : "Positions within the reference genome sequence that were previously identified as having a base call error. This error has now been corrected."

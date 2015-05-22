@@ -11,8 +11,8 @@
          "onClick" : {
             "url" : "{targetURL}",
             "action" : "iframeDialog",
-            "title" : "Feature in WormBase Staging",
-            "label" : "Feature in WormBase Staging"
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
          },
          "category" : "Sequence Similarity:Nucleotide",
          "key" : "WormBase nematode mRNAs/ESTs (other)",

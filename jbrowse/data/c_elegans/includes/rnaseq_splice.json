@@ -11,9 +11,9 @@
          },
          "onClick" : {
             "action" : "contentDialog",
-            "content" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; return 'This doesnt work. these features dont have a Name attribute. '+ wburl+'/get?name=Name;class=Feature. In GBrowse this results in a link to a not found page in WB';}",
-            "label" : "Feature in WormBase Staging",
-            "title" : "Feature in WormBase Staging"
+            "content" : "function(track,f) {var wburl = ''; return 'This doesnt work. these features dont have a Name attribute. '+ wburl+'/get?name=Name;class=Feature. In GBrowse this results in a link to a not found page in WB';}",
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
          },
          "key" : "RNASeq introns",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",

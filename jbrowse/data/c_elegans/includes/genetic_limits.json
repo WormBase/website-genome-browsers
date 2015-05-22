@@ -10,9 +10,9 @@
          "key" : "Genetic limits",
          "onClick" : {
             "action" : "iframeDialog",
-            "url" : "function(track,f) {var wburl = 'http://staging.wormbase.org'; var name = f.get('gmap'); return wburl+'/get?name='+name+';class=Gene';}",
-            "label" : "Feature in WormBase Staging",
-            "title" : "Feature in WormBase Staging"
+            "url" : "function(track,f) {var wburl = ''; var name = f.get('gmap'); return wburl+'/get?name='+name+';class=Gene';}",
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
