@@ -8,7 +8,7 @@
          },
          "onClick" : {
             "action" : "iframeDialog",
-            "url" : "{simpleGeneURL}",
+            "url" : "{transcriptURL}",
             "label" : "Feature in WormBase",
             "title" : "Feature in WormBase"
          },
