@@ -8,8 +8,8 @@
          "onClick" : {
             "action" : "iframeDialog",
             "url" : "{expressionURL}",
-            "label" : "function() { var name = this.feature.get('name'); return '<img src=/images/expression/assembled/'+name+'.png>'; }",
-            "title" : "Expression pattern in WormBase Staging"
+            "label" : "function() { var name = this.feature.get('Name'); return '<img width=250 src=/tools/genome/jbrowse/images/expression/assembled/'+name+'.png>'; }",
+            "title" : "Expression pattern in WormBase"
          },
          "key" : "Expression patterns",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
