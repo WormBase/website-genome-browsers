@@ -11,13 +11,13 @@
          "onClick" : {
             "action" : "iframeDialog",
             "url" : "{variationURL}",
-            "label" : "Feature in WormBase",
+            "label" : "{variationsBalloon}",
             "title" : "Feature in WormBase"
          },
          "key" : "Classical alleles",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Classical alleles/{refseq}/trackData.jsonz",
+         "urlTemplate" : "../tracks/Classical_alleles/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Classical_alleles",

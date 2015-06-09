@@ -11,7 +11,7 @@
          "onClick" : {
             "action" : "iframeDialog",
             "url" : "{variationURL}",
-            "label" : "Feature in WormBase",
+            "label" : "{variationsBalloon}",
             "title" : "Feature in WormBase"
          },
          "key" : "Polymorphisms",

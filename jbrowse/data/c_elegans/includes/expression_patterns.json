@@ -8,7 +8,7 @@
          "onClick" : {
             "action" : "iframeDialog",
             "url" : "{expressionURL}",
-            "label" : "function() { var name = this.feature.get('Name');var url = '/tools/genome/jbrowse/images/expression/assembled/'+name+'.png'; var rtnString; require(['dojo/request'],function(request) {request(url,{sync:true}).then(function(text) { rtnString = '<img width=250 src='+url+'>'; },function(error){rtnString = 'Expression pattern not found<br>We are working on getting a new image';  }); }); return rtnString; }",
+            "label" : "{expressionPatternBalloon}",
             "title" : "Expression pattern in WormBase"
          },
          "key" : "Expression patterns",

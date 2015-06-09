@@ -6,6 +6,12 @@
             "color" : "function(f) {var source = f.get('source'); if (source == 'Mos_insertion_allele') {return 'yellow';} if (source == 'NemaGENETAG_consortium') {return 'red'} return 'blue'; }",
             "height" : 8
          },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "label" : "{variationsBalloon}",
+            "title" : "Feature in WormBase"
+         },
          "key" : "Transposon insert sites",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
