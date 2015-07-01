@@ -2,6 +2,16 @@
 use strict;
 use warnings;
 
+=pod
+
+So why add Name attributes? In order for the mouseover/tooltip popups to work,
+JBrowse requires that the features have Name attributes (why is not exactly clear
+to me, but whatever).  So that's what this script does in a fairly simple way.
+If it starts failing, look at the hard coded list of attributes that the
+script looks for to copy into the Name attribute.
+
+=cut
+
 use Bio::GFF3::LowLevel qw/ gff3_parse_feature gff3_format_feature /;
 use IO::Handle;
 
