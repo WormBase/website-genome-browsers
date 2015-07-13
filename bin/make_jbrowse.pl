@@ -447,6 +447,12 @@ foreach my $file (@files) {
     }
 }
 
+#if this is elegans make links to the modencode data
+if ($SPECIES =~ /c_elegans/) {
+    chdir "$DATADIR/tracks";    
+    system("$Bin/track_links.sh") == 0 or warn "creating track symlinks didn't work";
+}
+
 #clean up temporary gff files
 chdir $INITIALDIR;
 my @tmp_gffs = glob("*_$GFFFILE*");

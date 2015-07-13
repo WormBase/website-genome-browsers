@@ -5,7 +5,7 @@
          "autocomplete" : "none",
          "track" : "Dev.Stages TransFrags: L2",
          "style" : {
-            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false"
+            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false, "showLabels" : false
          },
          "key" : "Dev.Stages TransFrags: L2",
          "feature" : [
@@ -28,7 +28,7 @@
          "autocomplete" : "none",
          "track" : "Dev.Stages TransFrags: N2EE",
          "style" : {
-            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false"
+            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false, "showLabels" : false
          },
          "key" : "Dev.Stages TransFrags: N2EE",
          "feature" : [
@@ -51,7 +51,7 @@
          "autocomplete" : "none",
          "track" : "Dev.Stages TransFrags: YA_gonad",
          "style" : {
-            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false"
+            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false, "showLabels" : false
          },
          "key" : "Dev.Stages TransFrags: YA_gonad",
          "feature" : [
@@ -74,7 +74,7 @@
          "autocomplete" : "none",
          "track" : "Dev.Stages TransFrags: N2LE",
          "style" : {
-            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false"
+            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false, "showLabels" : false
          },
          "key" : "Dev.Stages TransFrags: N2LE",
          "feature" : [
@@ -97,7 +97,7 @@
          "autocomplete" : "none",
          "track" : "Dev.Stages TransFrags: L4_male",
          "style" : {
-            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false"
+            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false, "showLabels" : false
          },
          "key" : "Dev.Stages TransFrags: L4_male",
          "feature" : [
@@ -120,7 +120,7 @@
          "autocomplete" : "none",
          "track" : "Dev.Stages TransFrags: L4_soma",
          "style" : {
-            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false"
+            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false, "showLabels" : false
          },
          "key" : "Dev.Stages TransFrags: L4_soma",
          "feature" : [
@@ -143,7 +143,7 @@
          "autocomplete" : "none",
          "track" : "Dev.Stages TransFrags: YA",
          "style" : {
-            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false"
+            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false, "showLabels" : false
          },
          "key" : "Dev.Stages TransFrags: YA",
          "feature" : [
@@ -166,7 +166,7 @@
          "autocomplete" : "none",
          "track" : "Dev.Stages TransFrags: L1",
          "style" : {
-            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false"
+            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false, "showLabels" : false
          },
          "key" : "Dev.Stages TransFrags: L1",
          "feature" : [
@@ -189,7 +189,7 @@
          "autocomplete" : "none",
          "track" : "Dev.Stages TransFrags: L2_polyA",
          "style" : {
-            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false"
+            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false, "showLabels" : false
          },
          "key" : "Dev.Stages TransFrags: L2_polyA",
          "feature" : [
@@ -212,7 +212,7 @@
          "autocomplete" : "none",
          "track" : "Dev.Stages TransFrags: L3",
          "style" : {
-            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false"
+            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false, "showLabels" : false
          },
          "key" : "Dev.Stages TransFrags: L3",
          "feature" : [
@@ -235,7 +235,7 @@
          "autocomplete" : "none",
          "track" : "Dev.Stages TransFrags: L4",
          "style" : {
-            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false"
+            "className" : "feature", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false, "showLabels" : false
          },
          "key" : "Dev.Stages TransFrags: L4",
          "feature" : [

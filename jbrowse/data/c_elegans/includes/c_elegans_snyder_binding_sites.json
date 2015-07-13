@@ -7,10 +7,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites AMA-1 (Pol II ChIP)",
          "feature" : [
@@ -30,11 +30,11 @@
          "track" : "Binding Sites DAF-16 (Pol II ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites DAF-16 (Pol II ChIP)",
          "feature" : [
@@ -55,10 +55,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites EGL-5 (Pol II ChIP)",
          "feature" : [
@@ -78,11 +78,11 @@
          "track" : "Binding Sites EOR-1 (Pol II ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites EOR-1 (Pol II ChIP)",
          "feature" : [
@@ -103,10 +103,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites HLH-8 (Pol II ChIP)",
          "feature" : [
@@ -126,11 +126,11 @@
          "track" : "Binding Sites MAB-5 (Pol II ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites MAB-5 (Pol II ChIP)",
          "feature" : [
@@ -151,10 +151,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites ALR-1 (GFP ChIP)",
          "feature" : [
@@ -174,11 +174,11 @@
          "track" : "Binding Sites AMA-1 (GFP ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites AMA-1 (GFP ChIP)",
          "feature" : [
@@ -199,10 +199,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites BLMP-1 (GFP ChIP)",
          "feature" : [
@@ -222,11 +222,11 @@
          "track" : "Binding Sites CEH-14 (GFP ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites CEH-14 (GFP ChIP)",
          "feature" : [
@@ -247,10 +247,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites CEH-30 (GFP ChIP)",
          "feature" : [
@@ -270,11 +270,11 @@
          "track" : "Binding Sites DAF-16 (GFP ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites DAF-16 (GFP ChIP)",
          "feature" : [
@@ -295,10 +295,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites DPY-27 (GFP ChIP)",
          "feature" : [
@@ -318,11 +318,11 @@
          "track" : "Binding Sites EGL-27 (GFP ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites EGL-27 (GFP ChIP)",
          "feature" : [
@@ -343,10 +343,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites EGL-5 (GFP ChIP)",
          "feature" : [
@@ -366,11 +366,11 @@
          "track" : "Binding Sites ELT-3 (GFP ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites ELT-3 (GFP ChIP)",
          "feature" : [
@@ -391,10 +391,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites EOR-1 (GFP ChIP)",
          "feature" : [
@@ -414,11 +414,11 @@
          "track" : "Binding Sites GEI-11 (GFP ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites GEI-11 (GFP ChIP)",
          "feature" : [
@@ -439,10 +439,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites HLH-1 (GFP ChIP)",
          "feature" : [
@@ -462,11 +462,11 @@
          "track" : "Binding Sites HLH-8 (GFP ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites HLH-8 (GFP ChIP)",
          "feature" : [
@@ -487,10 +487,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites LIN-13 (GFP ChIP)",
          "feature" : [
@@ -510,11 +510,11 @@
          "track" : "Binding Sites LIN-15B (GFP ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites LIN-15B (GFP ChIP)",
          "feature" : [
@@ -535,10 +535,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites LIN-39 (GFP ChIP)",
          "feature" : [
@@ -558,11 +558,11 @@
          "track" : "Binding Sites MAB-5 (GFP ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites MAB-5 (GFP ChIP)",
          "feature" : [
@@ -583,10 +583,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites MDL-1 (GFP ChIP)",
          "feature" : [
@@ -606,11 +606,11 @@
          "track" : "Binding Sites MEP-1 (GFP ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites MEP-1 (GFP ChIP)",
          "feature" : [
@@ -631,10 +631,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites NHR-105 (GFP ChIP)",
          "feature" : [
@@ -654,11 +654,11 @@
          "track" : "Binding Sites NHR-6 (GFP ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites NHR-6 (GFP ChIP)",
          "feature" : [
@@ -679,10 +679,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites PES-1 (GFP ChIP)",
          "feature" : [
@@ -702,11 +702,11 @@
          "track" : "Binding Sites PQM-1 (GFP ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites PQM-1 (GFP ChIP)",
          "feature" : [
@@ -727,10 +727,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "Binding Sites SKN-1 (GFP ChIP)",
          "feature" : [
@@ -750,11 +750,11 @@
          "track" : "Binding Sites UNC-130 (GFP ChIP)",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Binding Sites UNC-130 (GFP ChIP)",
          "feature" : [

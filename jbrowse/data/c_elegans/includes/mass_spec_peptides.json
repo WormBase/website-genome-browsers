@@ -5,7 +5,7 @@
             "className" : "feature",
             "color" : "red",
             "height" : 7,
-            "description" : "false",
+            "description" : false,
             "label" : "{massSpecLabel}"
          },
          "metadata" : {

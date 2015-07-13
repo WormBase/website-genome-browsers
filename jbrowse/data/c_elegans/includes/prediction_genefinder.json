@@ -4,7 +4,7 @@
          "style" : {
             "className" : "feature",
             "color" : "palevioletred",
-            "label" : "false"
+            "label" : false
          },
          "category" : "Transcription:Ab-initio predictions",
          "key" : "Prediction: GeneFinder",

@@ -6,11 +6,11 @@
          "track" : "Pathogen Exposure: TransFrags OG1RF_24h",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Pathogen Exposure: TransFrags OG1RF_24h",
          "feature" : [
@@ -35,10 +35,10 @@
          "style" : {
             "className" : "feature",
             "color" : "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
-            "showLabels" : "false",
+            "showLabels" : false,
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Pathogen Exposure: TransFrags OP50_48h",
          "feature" : [
@@ -62,11 +62,11 @@
          "track" : "Pathogen Exposure: TransFrags Hb_24h",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Pathogen Exposure: TransFrags Hb_24h",
          "feature" : [
@@ -91,10 +91,10 @@
          "style" : {
             "className" : "feature",
             "color" : "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
-            "showLabels" : "false",
+            "showLabels" : false,
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Pathogen Exposure: TransFrags Db_48h",
          "feature" : [
@@ -118,11 +118,11 @@
          "track" : "Pathogen Exposure: TransFrags Db_24h",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Pathogen Exposure: TransFrags Db_24h",
          "feature" : [
@@ -147,10 +147,10 @@
          "style" : {
             "className" : "feature",
             "color" : "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
-            "showLabels" : "false",
+            "showLabels" : false,
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "Pathogen Exposure: TransFrags OP50_24h",
          "feature" : [

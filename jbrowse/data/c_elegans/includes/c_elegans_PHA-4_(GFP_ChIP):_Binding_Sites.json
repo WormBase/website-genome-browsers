@@ -6,11 +6,11 @@
          "track" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_L2_GFP",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_L2_GFP",
          "feature" : [
@@ -35,10 +35,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_FedL1_GFP",
          "feature" : [
@@ -62,11 +62,11 @@
          "track" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_emb_GFP",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_emb_GFP",
          "feature" : [
@@ -91,10 +91,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_StarvedL1_GFP",
          "feature" : [
@@ -118,11 +118,11 @@
          "track" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_YA",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_YA",
          "feature" : [
@@ -147,10 +147,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_lemb",
          "feature" : [

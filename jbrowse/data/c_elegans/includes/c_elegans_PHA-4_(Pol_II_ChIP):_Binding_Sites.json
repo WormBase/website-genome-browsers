@@ -7,10 +7,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "PHA-4 (Pol II ChIP): Binding Sites: PHA4_POLII_StarvedL1",
          "feature" : [
@@ -34,11 +34,11 @@
          "track" : "PHA-4 (Pol II ChIP): Binding Sites: PHA4_POLII_FedL1",
          "style" : {
             "className" : "feature",
-            "showLabels" : "false",
+            "showLabels" : false,
             "color" : "{snyderHeatMap}",
             "borderColor" : "black",
-            "label" : "false",
-            "description" : "false"
+            "label" : false,
+            "description" : false
          },
          "key" : "PHA-4 (Pol II ChIP): Binding Sites: PHA4_POLII_FedL1",
          "feature" : [
@@ -63,10 +63,10 @@
          "style" : {
             "className" : "feature",
             "color" : "{snyderHeatMap}",
-            "showLabels" : "false",
-            "label" : "false",
+            "showLabels" : false,
+            "label" : false,
             "borderColor" : "black",
-            "description" : "false"
+            "description" : false
          },
          "key" : "PHA-4 (Pol II ChIP): Binding Sites: PHA4_POLII_emb",
          "feature" : [

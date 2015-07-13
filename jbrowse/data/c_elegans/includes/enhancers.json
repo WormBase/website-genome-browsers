@@ -4,7 +4,7 @@
          "style" : {
             "className" : "feature",
             "color" : "green",
-            "label" : "false"
+            "label" : false
          },
          "onClick" : {
             "url" : "{featureURL}",

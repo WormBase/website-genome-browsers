@@ -5,7 +5,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_hypodermal",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false" 
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false 
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_hypodermal",
          "feature" : [
@@ -27,7 +27,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_dopa",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_dopa",
          "feature" : [
@@ -49,7 +49,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: YA_reference",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: YA_reference",
          "feature" : [
@@ -71,7 +71,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_coelomocytes",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_coelomocytes",
          "feature" : [
@@ -93,7 +93,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_glut_rec",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_glut_rec",
          "feature" : [
@@ -115,7 +115,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_reference",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_reference",
          "feature" : [
@@ -137,7 +137,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: YA_CEPsh",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: YA_CEPsh",
          "feature" : [
@@ -159,7 +159,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_PVD_OLL",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: L3_L4_PVD_OLL",
          "feature" : [
@@ -181,7 +181,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_reference",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_reference",
          "feature" : [
@@ -203,7 +203,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_panneural",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_panneural",
          "feature" : [
@@ -225,7 +225,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_intestine",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_intestine",
          "feature" : [
@@ -247,7 +247,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_excretory_cell",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_excretory_cell",
          "feature" : [
@@ -269,7 +269,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_bw_muscle",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_bw_muscle",
          "feature" : [
@@ -291,7 +291,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_A_class_neuron",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_A_class_neuron",
          "feature" : [
@@ -313,7 +313,7 @@
          "autocomplete" : "none",
          "track" : "Post-Embryo Fax-sorted cells TransFrags: L2_GABA_neurons",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Post-Embryo Fax-sorted cells TransFrags: L2_GABA_neurons",
          "feature" : [

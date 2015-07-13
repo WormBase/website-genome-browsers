@@ -5,7 +5,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_panneural",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false, "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_panneural",
          "feature" : [
@@ -27,7 +27,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_ACLASS",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_ACLASS",
          "feature" : [
@@ -49,7 +49,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_ALLREF",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_ALLREF",
          "feature" : [
@@ -71,7 +71,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_intestine",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_intestine",
          "feature" : [
@@ -93,7 +93,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_coelomocytes",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_coelomocytes",
          "feature" : [
@@ -115,7 +115,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_AVA_neurons",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_AVA_neurons",
          "feature" : [
@@ -137,7 +137,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_GLP",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_GLP",
          "feature" : [
@@ -159,7 +159,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_hypodermal",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_hypodermal",
          "feature" : [
@@ -181,7 +181,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_dopa",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_dopa",
          "feature" : [
@@ -203,7 +203,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_GABA",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_GABA",
          "feature" : [
@@ -225,7 +225,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_bw_v2",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_bw_v2",
          "feature" : [
@@ -247,7 +247,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_BAG",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_BAG",
          "feature" : [
@@ -269,7 +269,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_PhM",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_PhM",
          "feature" : [
@@ -291,7 +291,7 @@
          "autocomplete" : "none",
          "track" : "Embryo Fax-sorted cells TransFrags: EMB_PVC",
          "style" : {
-            "className" : "feature", "showLabels" : "false", "color" : "{blueHeatMap}", "borderColor" : "black", "label" : "false", "description" : "false"
+            "className" : "feature", "showLabels" : false, "color" : "{blueHeatMap}", "borderColor" : "black", "label" : false, "description" : false
          },
          "key" : "Embryo Fax-sorted cells TransFrags: EMB_PVC",
          "feature" : [

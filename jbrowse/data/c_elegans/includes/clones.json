@@ -5,7 +5,7 @@
             "className" : "feature",
             "color" : "black",
             "height" : 3,
-            "description" : "false"
+            "description" : false
          },
          "onClick" : {
             "action" : "iframeDialog",

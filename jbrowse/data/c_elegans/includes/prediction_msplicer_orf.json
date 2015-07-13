@@ -3,7 +3,7 @@
       { 
          "style" : {
             "className" : "feature",
-            "label" : "false",
+            "label" : false,
             "color" : "palevioletred"
          },
          "metadata" : {

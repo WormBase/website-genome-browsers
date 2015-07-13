@@ -4,7 +4,7 @@
          "style" : {
             "className" : "feature",
             "color" : "green",
-            "strandArrow" : "false",
+            "strandArrow" : false,
             "label" : "function(f) {var score = f.get('score'); var name = f.get('Name'); if (typeof score === undefined) {return name;} return score+' reads';  }",
             "description" : "none",
             "height" : "function (f) {var score = f.get('score'); var h = Math.floor(score/2); if (score > 100) {h = 50;} if (h == 0 || h == 1) {h=2;} return h; }"

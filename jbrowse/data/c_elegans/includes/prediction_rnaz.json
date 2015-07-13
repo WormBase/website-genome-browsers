@@ -4,7 +4,7 @@
          "style" : {
             "className" : "feature",
             "color" : "white",
-            "label" : "false",
+            "label" : false,
             "borderColor" : "black"
          },
          "metadata" : {
