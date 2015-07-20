@@ -3,19 +3,19 @@
       { 
          "style" : {
             "className" : "feature",
-            "color" : "function(f) {var type =  f.get('Predictiontype'); if (type == 'tmhmm') {return 'magenta';} if (type == 'seg') {return 'lightseagreen';} if (type == 'signalp') {return 'aquamarine'} if (type == 'ncoils') {return 'chartreuse';} if (type == 'pfam') {return 'lightsalmon';} if (type == 'sequence_motif') {return 'purple';} return 'black'; }",
+            "color" : "function(f) {var type =  f._parent.get('predictiontype'); if (type == 'tmhmm') {return 'magenta';} if (type == 'seg') {return 'lightseagreen';} if (type == 'signalp') {return 'aquamarine'} if (type == 'ncoils') {return 'chartreuse';} if (type == 'pfam') {return 'lightsalmon';} return 'purple'; }",
             "label" : "function(f) {var type =  f.get('Description'); return type;  }",
-            "description" : "function(f) {var aa_range = f.get('Range'); var exons = f.get('Exons'); var label = f.get('Predictiontype'); if (aa_range) {label = label + '; amino acids: '+aa_range;} if (exons) {label = label + '; exons: '+exons;} return label;}",
+            "description" : "function(f) {var aa_range = f.get('range'); var exons = f.get('exons'); var label = f.get('predictiontype'); if (aa_range) {label = label + '; amino acids: '+aa_range;} if (exons) {label = label + '; exons: '+exons;} return label;}",
             "height" : 7
          },
          "onClick" : {
-            "url" : "{motifURL}",
             "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
+            "url" : "{motifURL}",
+            "label" : "function() {var aa_range = this.feature.get('range'); var exons = this.feature.get('exons'); var label = this.feature.get('predictiontype'); if (aa_range) {label = label + '; amino acids: '+aa_range;} if (exons) {label = label + '; exons: '+exons;} return label;}",
+            "title" : "Feature in WormBase"
          },
          "metadata" : {
-             "shortInfo" : "NOTE: This data is somewhat flawed and won't be fixed until the 246 release. This track shows the extent of predicted protein motifs. Note these spans correspond to amino acid coordinates interpolated onto the physical map.  Included are signal peptide (signalp), coiled coil (ncoils) and transmembrane (tmhmm) domains, regions of low complexity (seg), and Pfam annotated motif homologies."
+             "shortInfo" : "This track shows the extent of predicted protein motifs. Note these spans correspond to amino acid coordinates interpolated onto the physical map.  Included are signal peptide (signalp), coiled coil (ncoils) and transmembrane (tmhmm) domains, regions of low complexity (seg), and Pfam annotated motif homologies."
          },
          "category" : "Sequence Features:Translated Features",
          "key" : "Protein motifs",
@@ -24,6 +24,8 @@
          "urlTemplate" : "../tracks/Protein motifs/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
+         "subParts" : "polypeptide_motif_part",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "label" : "Protein motifs"
       }
    ]

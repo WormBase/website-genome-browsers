@@ -106,6 +106,12 @@ sub print_feature {
         next if $key eq 'Name';
         next if $key eq 'clone';
         next if $key eq 'species';
+        next if $key eq 'Note';
+        next if $key eq 'exons';
+        next if $key eq 'predictiontype';
+        next if $key eq 'range';
+        next if $key eq 'protein';
+        next if $key eq 'cds';
 
         undef $parent->{attributes}->{$key};
     }
@@ -119,6 +125,8 @@ sub print_feature {
      
     for my $child (@featurearray) {
         $child->{type} = 'match_part' if ($child->{type} =~ /match/);
+     #yes I know polypeptide_motif_part is a valid SO term :-/
+        $child->{type} = 'polypeptide_motif_part' if ($child->{type} =~ /polypeptide_motif/);
         $child->{attributes}->{Parent} = $child->{attributes}->{ID};
         undef $child->{attributes}->{ID};
         print $outfh gff3_format_feature($child);
