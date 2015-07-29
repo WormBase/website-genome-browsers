@@ -1,0 +1,153 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "strandArrow" : false,
+            "label" : "function(f) {var name = f.get('Name');var match = /.*:(.*)/.exec(name);var shortname = match[1];return shortname; }",
+            "height" : 6
+         },
+         "subParts" : "match_part",
+         "key" : "RSTs - CEUP1",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/RSTs - CEUP1/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "label" : "RSTs - CEUP1",
+         "metadata" : {
+            "shortInfo" : "General Description: The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues.",
+            "citation" : "<h1> Piano mixed-stage 3'RACE (Piano project, Piano subgroup) </h1> <h2>General Description</h2> The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues. <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b> <a href='http://wiki.modencode.org/project/index.php?title=Mixed-stage_Whole_worm_RNA_extraction:FP:1&oldid=19429'>RNA_extraction</a> </li> <li> <b>Sample preparation:</b> <a href='http://wiki.modencode.org/project/index.php?title=UTRome_3%27RACE_cloning:FP:1&oldid=18529'>UTRome RACE and cloning</a>, <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sample_Preparation_and_Sanger_sequencing:FP:1&oldid=18322'>Sequencing</a> </li> <li> <b>Other Protocols:</b> <a href='http://wiki.modencode.org/project/index.php?title=Mixed-stage_Whole_worm_RNA_extraction:FP:1&oldid=19429'>RNA_extraction</a>, <a href='http://wiki.modencode.org/project/index.php?title=ABI_Data_Processing_%28Blat%29:FP:1&oldid=19789'>Data Processing</a> </li> </ol> <h2>Reagents</h2> <ol> <li> <b>Animals:</b> Caenorhabditis elegans, <a href='http://wiki.modencode.org/project/index.php?title=DevStage:Mixed_Population_Worms:FP:1&oldid=19422'>Mixed Worm Stages</a>, <a href='http://wiki.modencode.org/project/index.php?title=Strain:N2&oldid=14588'>N2</a> </li> </ol> <br /> <b>Release Date:</b> 2009-05-01"
+         },
+         "type" : "CanvasFeatures",
+         "category" : "modENCODE Tracks : Piano Group: 3UTR Annotation",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "strandArrow" : false,
+            "label" : "function(f) {var name = f.get('Name');var match = /.*:(.*)/.exec(name);var shortname = match[1];return shortname; }",
+            "height" : 6
+         },
+         "subParts" : "match_part",
+         "key" : "USTs - CEUP1",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/USTs - CEUP1/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "metadata" : {
+            "shortInfo" : "Piano mixed-stage 3'RACE (Piano project, Piano subgroup). General Description: The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues.",
+            "citation" : "<h1> Piano mixed-stage 3'RACE (Piano project, Piano subgroup) </h1> <h2>General Description</h2> The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues. <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b> <a href='http://wiki.modencode.org/project/index.php?title=Mixed-stage_Whole_worm_RNA_extraction:FP:1&oldid=19429'>RNA_extraction</a> </li> <li> <b>Sample preparation:</b> <a href='http://wiki.modencode.org/project/index.php?title=UTRome_3%27RACE_cloning:FP:1&oldid=18529'>UTRome RACE and cloning</a>, <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sample_Preparation_and_Sanger_sequencing:FP:1&oldid=18322'>Sequencing</a> </li> <li> <b>Other Protocols:</b> <a href='http://wiki.modencode.org/project/index.php?title=Mixed-stage_Whole_worm_RNA_extraction:FP:1&oldid=19429'>RNA_extraction</a>, <a href='http://wiki.modencode.org/project/index.php?title=ABI_Data_Processing_%28Blat%29:FP:1&oldid=19789'>Data Processing</a> </li> </ol> <h2>Reagents</h2> <ol> <li> <b>Animals:</b> Caenorhabditis elegans, <a href='http://wiki.modencode.org/project/index.php?title=DevStage:Mixed_Population_Worms:FP:1&oldid=19422'>Mixed Worm Stages</a>, <a href='http://wiki.modencode.org/project/index.php?title=Strain:N2&oldid=14588'>N2</a> </li> </ol> <br /> <br /> <b>Release Date:</b> 2009-05-01"
+         },
+         "label" : "USTs - CEUP1",
+         "type" : "CanvasFeatures",
+         "category" : "modENCODE Tracks : Piano Group: 3UTR Annotation",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "red",
+            "strandArrow" : false,
+            "label" : "function(f) {var strand = f.get('strand'); var pm; if(strand <0) {pm = ' (-)';} else {pm = ' (+)';} var name = f.get('Name'); var clean = name.replace(/.*CEUP/, 'CEUP'); return clean + pm;  }",
+            "height" : 4
+         },
+         "key" : "polyA sites - CEUP1",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/polyA sites - CEUP1/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "metadata" : {
+            "shortInfo" : "Piano mixed-stage 3'RACE (Piano project, Piano subgroup). General Description: The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues.",
+            "citation" : "<h1> Piano mixed-stage 3'RACE (Piano project, Piano subgroup) </h1> <h2>General Description</h2> The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues. <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b> <a href='http://wiki.modencode.org/project/index.php?title=Mixed-stage_Whole_worm_RNA_extraction:FP:1&oldid=19429'>RNA_extraction</a> </li> <li> <b>Sample preparation:</b> <a href='http://wiki.modencode.org/project/index.php?title=UTRome_3%27RACE_cloning:FP:1&oldid=18529'>UTRome RACE and cloning</a>, <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sample_Preparation_and_Sanger_sequencing:FP:1&oldid=18322'>Sequencing</a> </li> <li> <b>Other Protocols:</b> <a href='http://wiki.modencode.org/project/index.php?title=Mixed-stage_Whole_worm_RNA_extraction:FP:1&oldid=19429'>RNA_extraction</a>, <a href='http://wiki.modencode.org/project/index.php?title=ABI_Data_Processing_%28Blat%29:FP:1&oldid=19789'>Data Processing</a> </li> </ol> <h2>Reagents</h2> <ol> <li> <b>Animals:</b> Caenorhabditis elegans, <a href='http://wiki.modencode.org/project/index.php?title=DevStage:Mixed_Population_Worms:FP:1&oldid=19422'>Mixed Worm Stages</a>, <a href='http://wiki.modencode.org/project/index.php?title=Strain:N2&oldid=14588'>N2</a> </li> </ol> <br /> <br /> <b>Release Date:</b> 2009-05-01"
+         },
+         "category" : "modENCODE Tracks : Piano Group: 3UTR Annotation",
+         "label" : "polyA sites - CEUP1"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "blue",
+            "strandArrow" : false,
+            "label" : "function(f) {var name = f.get('Name'); var clean = name.replace(/.*ID/, ''); return clean;  }",
+            "height" : 8
+         },
+         "key" : "UTRome polyA signal sequence",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/UTRome polyA signal sequence/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "label" : "UTRome polyA signal sequence",
+         "metadata" : {
+            "shortInfo" : "Annotation of CEUP 3' UTRs, polyA sites, and PAS sites (Piano project). Details: Multiple independent evidence sources supporting the existence of 3'UTR isoforms were collected, aligned to the genome, and curated as previously described. Four main types of data sources were used, including several modENCODE datasets: 1. CEUP 3' RACE clones (modENCODE datasets 515) 2. CEUP polyA capture (modENCODE datasets 992,2330-2337) 3. AceView curated cDNA and EST traces from the Yuji Kohara collection, Exelixis and the NCBI Trace Archive, and GenBank entries. 4. Published RNAseq transcriptome profiling data from Hillier et al., Genome Res 2009 (PMID:19181841; modENCODE 2351-2354) Additional details can be found in the protocol",
+            "citation" : "<h1> Annotation of CEUP 3' UTRs, polyA sites, and PAS sites (Piano project) </h1> <h2>Details</h2> Multiple independent evidence sources supporting the existence of 3'UTR isoforms were collected, aligned to the genome, and curated as previously described. Four main types of data sources were used, including several modENCODE datasets: 1. CEUP 3' RACE clones (modENCODE datasets 515) 2. CEUP polyA capture (modENCODE datasets 992,2330-2337) 3. AceView curated cDNA and EST traces from the Yuji Kohara collection, Exelixis and the NCBI Trace Archive, and GenBank entries. 4. Published RNAseq transcriptome profiling data from Hillier et al., Genome Res 2009 (PMID:19181841; modENCODE 2351-2354) Additional details can be found in the protocol, below. <h2>General Description</h2> The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues. <br/><br/> <h2>Protocols</h2> <ol>label             = sub { return shift->name; } <li> <b>Other Protocols:</b> <a href='http://wiki.modencode.org/project/index.php?title=Annotation_of_3%27UTRs_in_C._elegans:FP:1&oldid=27615'>Annotation of 3'UTRs in C. elegans</a> </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b> Caenorhabditis elegans </li> <li> <b>External Links:</b> <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443959'>GSM443959</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443960'>GSM443960</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443961'>GSM443961</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443962'>GSM443962</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443963'>GSM443963</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443964'>GSM443964</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446651'>GSM446651</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446652'>GSM446652</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446653'>GSM446653</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446654'>GSM446654</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446655'>GSM446655</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446656'>GSM446656</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446657'>GSM446657</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446658'>GSM446658</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446659'>GSM446659</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446660'>GSM446660</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446661'>GSM446661</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=SRX001872'>SRX001872</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=SRX001874'>SRX001874</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=SRX001875'>SRX001875</a> </li> </ol> <br /> <h2>Related modENCODE submissions:</h2> <ul> <li><b>DCC-2327</b>: <a href='/submit/public/citation/2327'>3' UTR Staged 454 Sequencing - L1 - alignments</a></li> </ul> <br /> <b>Release Date:</b> 2010-02-16"
+         },
+         "category" : "modENCODE Tracks : Piano Group: 3UTR Annotation",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "red",
+            "strandArrow" : false,
+            "label" : "function(f) {var name = f.get('Name'); var clean = name.replace(/.*ID/, ''); return clean;  }",
+            "height" : 8
+         },
+         "key" : "UTRome polyA sites",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/UTRome polyA sites/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "label" : "UTRome polyA sites",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+            "shortInfo" : "Annotation of CEUP 3' UTRs, polyA sites, and PAS sites (Piano project). Details: Multiple independent evidence sources supporting the existence of 3'UTR isoforms were collected, aligned to the genome, and curated as previously described. Four main types of data sources were used, including several modENCODE datasets: 1. CEUP 3' RACE clones (modENCODE datasets 515) 2. CEUP polyA capture (modENCODE datasets 992,2330-2337) 3. AceView curated cDNA and EST traces from the Yuji Kohara collection, Exelixis and the NCBI Trace Archive, and GenBank entries. 4. Published RNAseq transcriptome profiling data from Hillier et al., Genome Res 2009 (PMID:19181841; modENCODE 2351-2354) Additional details can be found in the protocol",
+            "citation" : "<h1> Annotation of CEUP 3' UTRs, polyA sites, and PAS sites (Piano project) </h1> <h2>Details</h2> Multiple independent evidence sources supporting the existence of 3'UTR isoforms were collected, aligned to the genome, and curated as previously described. Four main types of data sources were used, including several modENCODE datasets: 1. CEUP 3' RACE clones (modENCODE datasets 515) 2. CEUP polyA capture (modENCODE datasets 992,2330-2337) 3. AceView curated cDNA and EST traces from the Yuji Kohara collection, Exelixis and the NCBI Trace Archive, and GenBank entries. 4. Published RNAseq transcriptome profiling data from Hillier et al., Genome Res 2009 (PMID:19181841; modENCODE 2351-2354) Additional details can be found in the protocol, below. <h2>General Description</h2> The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues. <br/><br/> <h2>Protocols</h2> <ol>label             = sub { return shift->name; } <li> <b>Other Protocols:</b> <a href='http://wiki.modencode.org/project/index.php?title=Annotation_of_3%27UTRs_in_C._elegans:FP:1&oldid=27615'>Annotation of 3'UTRs in C. elegans</a> </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b> Caenorhabditis elegans </li> <li> <b>External Links:</b> <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443959'>GSM443959</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443960'>GSM443960</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443961'>GSM443961</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443962'>GSM443962</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443963'>GSM443963</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443964'>GSM443964</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446651'>GSM446651</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446652'>GSM446652</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446653'>GSM446653</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446654'>GSM446654</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446655'>GSM446655</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446656'>GSM446656</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446657'>GSM446657</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446658'>GSM446658</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446659'>GSM446659</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446660'>GSM446660</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446661'>GSM446661</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=SRX001872'>SRX001872</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=SRX001874'>SRX001874</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=SRX001875'>SRX001875</a> </li> </ol> <br /> <h2>Related modENCODE submissions:</h2> <ul> <li><b>DCC-2327</b>: <a href='/submit/public/citation/2327'>3' UTR Staged 454 Sequencing - L1 - alignments</a></li> </ul> <br /> <b>Release Date:</b> 2010-02-16"
+         },
+         "category" : "modENCODE Tracks : Piano Group: 3UTR Annotation"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "grey",
+            "label" : "function(f) {var name = f.get('Name'); var clean = name.replace(/.*:/, ''); return clean; }",
+            "height" : 8
+         },
+         "key" : "UTRome 3prime UTRs",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/UTRome 3prime UTRs/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "metadata" : {
+            "shortInfo" : "Annotation of CEUP 3' UTRs, polyA sites, and PAS sites (Piano project). Details: Multiple independent evidence sources supporting the existence of 3'UTR isoforms were collected, aligned to the genome, and curated as previously described. Four main types of data sources were used, including several modENCODE datasets: 1. CEUP 3' RACE clones (modENCODE datasets 515) 2. CEUP polyA capture (modENCODE datasets 992,2330-2337) 3. AceView curated cDNA and EST traces from the Yuji Kohara collection, Exelixis and the NCBI Trace Archive, and GenBank entries. 4. Published RNAseq transcriptome profiling data from Hillier et al., Genome Res 2009 (PMID:19181841; modENCODE 2351-2354) Additional details can be found in the protocol, below.",
+            "citation" : "<h1> Annotation of CEUP 3' UTRs, polyA sites, and PAS sites (Piano project) </h1> <h2>Details</h2> Multiple independent evidence sources supporting the existence of 3'UTR isoforms were collected, aligned to the genome, and curated as previously described. Four main types of data sources were used, including several modENCODE datasets: 1. CEUP 3' RACE clones (modENCODE datasets 515) 2. CEUP polyA capture (modENCODE datasets 992,2330-2337) 3. AceView curated cDNA and EST traces from the Yuji Kohara collection, Exelixis and the NCBI Trace Archive, and GenBank entries. 4. Published RNAseq transcriptome profiling data from Hillier et al., Genome Res 2009 (PMID:19181841; modENCODE 2351-2354) Additional details can be found in the protocol, below. <h2>General Description</h2> The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues. <br/><br/> <h2>Protocols</h2> <ol>label             = sub { return shift->name; } <li> <b>Other Protocols:</b> <a href='http://wiki.modencode.org/project/index.php?title=Annotation_of_3%27UTRs_in_C._elegans:FP:1&oldid=27615'>Annotation of 3'UTRs in C. elegans</a> </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b> Caenorhabditis elegans </li> <li> <b>External Links:</b> <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443959'>GSM443959</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443960'>GSM443960</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443961'>GSM443961</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443962'>GSM443962</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443963'>GSM443963</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM443964'>GSM443964</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446651'>GSM446651</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446652'>GSM446652</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446653'>GSM446653</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446654'>GSM446654</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446655'>GSM446655</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446656'>GSM446656</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446657'>GSM446657</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446658'>GSM446658</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446659'>GSM446659</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446660'>GSM446660</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM446661'>GSM446661</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=SRX001872'>SRX001872</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=SRX001874'>SRX001874</a>, <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=SRX001875'>SRX001875</a> </li> </ol> <br /> <h2>Related modENCODE submissions:</h2> <ul> <li><b>DCC-2327</b>: <a href='/submit/public/citation/2327'>3' UTR Staged 454 Sequencing - L1 - alignments</a></li> </ul> <br /> <b>Release Date:</b> 2010-02-16"
+         },
+         "label" : "UTRome 3prime UTRs",
+         "category" : "modENCODE Tracks : Piano Group: 3UTR Annotation",
+         "type" : "CanvasFeatures"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "height" : 7,
+            "color" : "blue",
+            "label" : "function(f) { var strand = f.get('strand'); var pm; if(strand <0) {pm = ' (-)';} else {pm = ' (+)';} var name = f.get('Name'); var clean = name.replace(/.*CEUP/, 'CEUP'); return clean + pm;  }"
+         },
+         "key" : "3prime UTRs - CEUP1",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/3prime UTRs - CEUP1/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "metadata" : {
+            "shortInfo" : "Piano mixed-stage 3'RACE (Piano project, Piano subgroup). General Description: The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues.",
+            "citation" : "<h1> Piano mixed-stage 3'RACE (Piano project, Piano subgroup) </h1> <h2>General Description</h2> The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues. <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b> <a href='http://wiki.modencode.org/project/index.php?title=Mixed-stage_Whole_worm_RNA_extraction:FP:1&oldid=19429'>RNA_extraction</a> </li> <li> <b>Sample preparation:</b> <a href='http://wiki.modencode.org/project/index.php?title=UTRome_3%27RACE_cloning:FP:1&oldid=18529'>UTRome RACE and cloning</a>, <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sample_Preparation_and_Sanger_sequencing:FP:1&oldid=18322'>Sequencing</a> </li> <li> <b>Other Protocols:</b> <a href='http://wiki.modencode.org/project/index.php?title=Mixed-stage_Whole_worm_RNA_extraction:FP:1&oldid=19429'>RNA_extraction</a>, <a href='http://wiki.modencode.org/project/index.php?title=ABI_Data_Processing_%28Blat%29:FP:1&oldid=19789'>Data Processing</a> </li> </ol> <h2>Reagents</h2> <ol> <li> <b>Animals:</b> Caenorhabditis elegans, <a href='http://wiki.modencode.org/project/index.php?title=DevStage:Mixed_Population_Worms:FP:1&oldid=19422'>Mixed Worm Stages</a>, <a href='http://wiki.modencode.org/project/index.php?title=Strain:N2&oldid=14588'>N2</a> </li> </ol> <br /> <br /> <b>Release Date:</b> 2009-05-01"
+         },
+         "category" : "modENCODE Tracks : Piano Group: 3UTR Annotation",
+         "label" : "3prime UTRs - CEUP1"
+      }
+   ]
+}
