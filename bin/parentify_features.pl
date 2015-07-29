@@ -96,7 +96,7 @@ sub print_feature {
     for my $key (keys ($parent->{attributes})) {
         if ($key eq 'ID') {
             my $id = @{ $parent->{attributes}->{ID}}[0];
-            $parent->{attributes}->{Name} = $id;
+            $parent->{attributes}->{Name} = $id unless $parent->{type} =~ /[UR]ST_match/;
            
             if ($id =~ s/(\.\d+)$// and $type ne 'CDS') {
                 $parent->{attributes}->{clone} = $id; #only create the clone attribute if it matches and pulls off the ".number" at the end
