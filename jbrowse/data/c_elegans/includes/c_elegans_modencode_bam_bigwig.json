@@ -535,11 +535,11 @@
       },
       {
          "autoscale" : "local",
-         "key" : "Young Adult Genelets (colored by mRNA)",
+         "key" : "Young Adult Genelets",
          "storeClass" : "JBrowse/Store/SeqFeature/BAM",
          "urlTemplate" : null,
          "category" : "modENCODE : Waterston Group:Genelets:Genelets",
-         "label" : "Young Adult Genelets (colored by mRNA)",
+         "label" : "Young Adult Genelets",
          "type" : "Alignments2",
          "metadata" : {
             "shortInfo" : "Test for confirmed polyA"
