@@ -937,11 +937,11 @@
       },
       {
          "autoscale" : "local",
-         "key" : "male mid-L4 dpy28 him-8 25dC 30hrs",
+         "key" : "male mid-L4 dpy28 him-8 25dC 30hrs (bam)",
          "storeClass" : "JBrowse/Store/SeqFeature/BAM",
          "urlTemplate" : "http://dev.wormbase.org:8002/worm/sam_binaries/Waterston/male_mid-L4_25dC_30hrs_post-L1.alignments.gff3.sam.gz.bam.sorted.bam",
          "category" : "modENCODE : Waterston Group:RNA-Seq: polyA RNA reads",
-         "label" : "male mid-L4 dpy28 him-8 25dC 30hrs",
+         "label" : "male mid-L4 dpy28 him-8 25dC 30hrs (bam)",
          "type" : "Alignments2",
          "metadata" : {
             "shortInfo" : "C. elegans male mid-L4 dpy-28(y1);him-8(e1489) RNA-Seq sequences and alignments (Waterston project, Waterston subgroup). Details: Using polyA+ RNA isolated from C. elegans dpy-28(y1);him-8(e1498) male larva at the mid-L4 stage, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads.  Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base.",
@@ -1132,11 +1132,11 @@
       },
       {
          "autoscale" : "local",
-         "key" : "dauer exit daf-2 25dC 91hrs 15dC 12hrs",
+         "key" : "dauer exit daf-2 25dC 91hrs 15dC 12hrs (bam)",
          "storeClass" : "JBrowse/Store/SeqFeature/BAM",
          "urlTemplate" : "http://dev.wormbase.org:8002/worm/sam_binaries/Waterston/dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.alignments.gff3.sam.gz.bam.sorted.bam",
          "category" : "modENCODE : Waterston Group:RNA-Seq: polyA RNA reads",
-         "label" : "dauer exit daf-2 25dC 91hrs 15dC 12hrs",
+         "label" : "dauer exit daf-2 25dC 91hrs 15dC 12hrs (bam)",
          "type" : "Alignments2",
          "metadata" : {
             "shortInfo" : "C. elegans dauer exit daf-2 25dC 91hrs15dC 12hrs post-L1 RNA-Seq sequences and alignments (Waterston project, Waterston subgroup). Details: Using polyA+ RNA isolated from C. elegans daf-2 larva exiting the dauer stage, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads.  Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base.",
@@ -1288,11 +1288,11 @@
       },
       {
          "autoscale" : "local",
-         "key" : "Adult spe-9",
+         "key" : "Adult spe-9 (bam)",
          "storeClass" : "JBrowse/Store/SeqFeature/BAM",
          "urlTemplate" : "http://dev.wormbase.org:8002/worm/sam_binaries/Waterston/Adult_spe-9_23dC_8days_post-L4_molt.alignments.gff3.sam.gz.bam.sorted.bam",
          "category" : "modENCODE : Waterston Group:RNA-Seq: polyA RNA reads",
-         "label" : "Adult spe-9",
+         "label" : "Adult spe-9 (bam)",
          "type" : "Alignments2",
          "metadata" : {
             "shortInfo" : "C. elegans Adult spe-9 RNA-Seq sequences and alignments (Waterston project, Waterston subgroup). Details: Using polyA+ RNA isolated from C. elegans spe-9 adults (8 days post-L4 molt), which fail to make viable embryos, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads.  Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base.",
@@ -1457,11 +1457,11 @@
       },
       {
          "autoscale" : "local",
-         "key" : "dauer daf-2 25dC 91hrs",
+         "key" : "dauer daf-2 25dC 91hrs (bam)",
          "storeClass" : "JBrowse/Store/SeqFeature/BAM",
          "urlTemplate" : "http://dev.wormbase.org:8002/worm/sam_binaries/Waterston/dauer_daf-2_25dC_91hrs_post-L1.alignments.gff3.sam.gz.bam.sorted.bam",
          "category" : "modENCODE : Waterston Group:RNA-Seq: polyA RNA reads",
-         "label" : "dauer daf-2 25dC 91hrs",
+         "label" : "dauer daf-2 25dC 91hrs (bam)",
          "type" : "Alignments2",
          "metadata" : {
             "shortInfo" : "C. elegans dauer daf-2 25dC 91hrs post-L1 RNA-Seq sequences and alignments (Waterston project, Waterston subgroup). Details: Using polyA+ RNA isolated from C. elegans daf-2 dauer larvae (91hrs post-L1), we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads.  Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base.",
@@ -1522,11 +1522,11 @@
       },
       {
          "autoscale" : "local",
-         "key" : "dauer entry daf-2 25dC 48hrs",
+         "key" : "dauer entry daf-2 25dC 48hrs (bam)",
          "storeClass" : "JBrowse/Store/SeqFeature/BAM",
          "urlTemplate" : "http://dev.wormbase.org:8002/worm/sam_binaries/Waterston/dauer_entry_daf-2_25dC_48hrs_post-L1.alignments.gff3.sam.gz.bam.sorted.bam",
          "category" : "modENCODE : Waterston Group:RNA-Seq: polyA RNA reads",
-         "label" : "dauer entry daf-2 25dC 48hrs",
+         "label" : "dauer entry daf-2 25dC 48hrs (bam)",
          "type" : "Alignments2",
          "metadata" : {
             "shortInfo" : "C. elegans dauer entry daf-2 25dC 48hrs post-L1 RNA-Seq sequences and alignments (Waterston project, Waterston subgroup). Details: Using polyA+ RNA isolated from C. elegans daf-2 larva entering the dauer stage, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads.  Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base.",
@@ -1626,11 +1626,11 @@
       },
       {
          "autoscale" : "local",
-         "key" : "early embryo",
+         "key" : "early embryo (bam)",
          "storeClass" : "JBrowse/Store/SeqFeature/BAM",
          "urlTemplate" : "http://dev.wormbase.org:8002/worm/sam_binaries/Waterston/early_embryo.alignments.gff3.sam.gz.bam.sorted.bam",
          "category" : "modENCODE : Waterston Group:RNA-Seq: polyA RNA reads",
-         "label" : "early embryo",
+         "label" : "early embryo (bam)",
          "type" : "Alignments2",
          "metadata" : {
             "shortInfo" : "C. elegans early embryo N2 RNA-Seq sequences and alignments (Waterston project, Waterston subgroup). Details: Using polyA+ RNA isolated from C. elegans N2 early embryos, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the WS170 genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads.  Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base.  Alignments and coverage files were lifted over to WS190 coordinates by the DCC for display in the browser.",
