@@ -3,9 +3,9 @@
       {
          "style" : {
             "className" : "feature",
-            "color" : "gray",
+            "color" : "function(f) {var type = f._parent.get('type'); if (type == 'pseudogenic_rRNA') {return 'darkslategray';} if (type == 'pseudogenic_tRNA') {return 'silver';}  return 'gray';}",
             "label" : "{geneLabel}",
-            "description" : "function(f) {return 'pseudogene';}"
+            "description" : "function(f) {var type = f.get('type'); var clean = type.replace(/_/g, ' '); return clean; }"
          },
          "subParts" : "exon",
          "onClick" : {
@@ -24,7 +24,7 @@
          "label" : "Curated Genes (pseudogenes)",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {
-             "shortInfo" : "A subset of the full Curated Genes set limited to pseudogenes only."
+             "shortInfo" : "A subset of the full Curated Genes set limited to pseudogenes only. Pseudogenes of tRNA are lighter gray and pseudogenes of rRNA are darker gray than pseudogenes of protein coding genes."
          }
       }
    ]
