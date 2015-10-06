@@ -10,8 +10,8 @@
          },
          "onClick" : {
             "action" : "iframeDialog",
-            "url" : "function(track,f) {var wburl = ''; var balancer = f.get('balancer'); var name = balancer.replace('Rearrangement','');  return wburl+'/db/get?name='+name+';class=Rearrangement';  }",
-            "label" : "Feature in WormBase",
+            "url" : "function(track,f) {var wburl = ''; var balancer = f.get('balancer'); var name = balancer.replace('Rearrangement:','');  return wburl+'/db/get?name='+name+';class=Rearrangement';  }",
+            "label" : "function() { var balancer = this.feature.get('balancer'); if(typeof balancer === 'undefined') {balancer = this.feature.get('Name'); } var name = balancer.replace('Rearrangement:',''); var type = this.feature.get('balancer_type'); if (typeof type === 'undefined') {type = 'rearrangement'; } var ref = this.feature.get('seq_id'); var start = this.feature.get('start'); var end = this.feature.get('end'); var locStr = ref+':'+start+'..'+end; var labelStr = '<b>Balancer: '+name+'</b><br /><b>type:</b>'+type+'<br/><b>location:</b> '+locStr; var notes = this.feature.get('Note'); if (!(typeof notes ==='undefined' )) {labelStr = labelStr+'<br/><b>Notes:</b> '+notes; } return labelStr;  }",
             "title" : "Feature in WormBase"
          },
          "metadata" : {
