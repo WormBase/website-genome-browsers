@@ -4,7 +4,7 @@
          "style" : {
             "className" : "feature",
             "color" : "function(f) {var type =  f._parent.get('predictiontype'); if (type == 'tmhmm') {return 'magenta';} if (type == 'seg') {return 'lightseagreen';} if (type == 'signalp') {return 'aquamarine'} if (type == 'ncoils') {return 'chartreuse';} if (type == 'pfam') {return 'lightsalmon';} return 'purple'; }",
-            "label" : "function(f) {var type =  f.get('Description'); return type;  }",
+            "label" : "function(f) {var type =  f.get('Note'); return type;  }",
             "description" : "function(f) {var aa_range = f.get('range'); var exons = f.get('exons'); var label = f.get('predictiontype'); if (aa_range) {label = label + '; amino acids: '+aa_range;} if (exons) {label = label + '; exons: '+exons;} return label;}",
             "height" : 7
          },
