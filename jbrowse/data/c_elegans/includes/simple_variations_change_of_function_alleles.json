@@ -1,0 +1,32 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "{variationColor}",
+            "strandArrow" : false,
+            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
+            "borderColor" : "black",
+            "height" : 8,
+            "description" : "{typeDescription}"
+         },
+         "key" : "Change-of-function alleles",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "label" : "{variationsBalloon}",
+            "title" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Change-of-function alleles/{refseq}/trackData.jsonz",   
+         "compress" : 1,
+         "category" : "Alleles, Variations, RNAi",
+         "type" : "CanvasFeatures",
+         "label" : "Change-of-function alleles",
+         "metadata" : {
+             "shortInfo" : "This track shows alleles that generate a putative change-of-function."
+         }
+      }
+   ]
+}

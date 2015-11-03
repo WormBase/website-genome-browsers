@@ -1,0 +1,30 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "red",
+            "label" : "function(f) {var history = f.get('history_name'); if (!(typeof history === 'undefined')) {return history;} var name = f.get('Name'); var target = f.get('Target'); if(!(typeof name === 'undefined')) { return name;} if(!(typeof target === 'undefined')) {var index = target.indexOf(' '); name = target.substring(0, index); return name;  } }",
+            "height" : 4,
+            "description" : "function(f) {var lab = f.get('laboratory'); if (typeof lab === 'undefined') {return;} return 'source lab: '+lab;   }"
+         },
+         "key" : "RNAi experiments (secondary targets)",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "function(track,f) {var wburl = ''; var name = f.get('Name'); if (typeof name ==='undefined') {var target = f.get('Target'); if (typeof target ==='undefined') {return;} var index = target.indexOf(' '); name = target.substring(0, index); } return wburl+'/get?name='+name+';class=RNAi'; }",
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/RNAi experiments (secondary targets)/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "category" : "Alleles, Variations, RNAi",
+         "type" : "CanvasFeatures",
+         "label" : "RNAi experiments (secondary targets)",
+         "metadata" : {
+             "shortInfo" : "This track represents RNAi probes that have been aligned to the genome using BLAST program and have sequence identity to the target location from 80 to 94.99% over a stretch of at least 200 nt."
+         }
+      }
+   ]
+}

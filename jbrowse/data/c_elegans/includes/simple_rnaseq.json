@@ -1,0 +1,30 @@
+{
+   "tracks" : [
+      { 
+         "displayMode" : "collapsed",
+         "style" : {
+            "className" : "feature",
+            "color" : "black",
+            "label" : "function(f) {var score = f.get('score'); if(typeof score === undefined) {return 'no score'; } return 'Score: '+score;}",
+            "height" : "function (f) {var score = f.get('score'); var h = Math.floor(score/2); if (score > 100) {h = 50;} if (h == 0 || h == 1) {h=2;} return h; }"
+         },
+         "onClick" : {
+            "action" : "contentDialog",
+            "content" : "",
+            "label" : "{rnaseqReads}",
+            "title" : "Feature in WormBase"
+         },
+         "key" : "RNASeq",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/RNASeq/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "category" : "Expression",
+         "label" : "RNASeq",
+         "metadata" : {
+             "shortInfo" : "These boxes indicate alignments of short read sequences from all available RNASeq projects."
+         }
+      }
+   ]
+}

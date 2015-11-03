@@ -1,0 +1,22 @@
+{
+   "tracks" : [
+      { 
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "height" : 10
+         },
+         "key" : "Operons",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Operons/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "label" : "Operons",
+         "category" : "Genes",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+             "shortInfo" : "These are operons published by Blumenthal et al, Nature 417: 851-854 (2002)."
+         }
+      }
+   ]
+}
