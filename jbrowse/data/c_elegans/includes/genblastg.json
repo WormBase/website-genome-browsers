@@ -10,15 +10,16 @@
          },
          "onClick" : {
             "action" : "iframeDialog",
-            "url" : "function(track,f) {var name=f.get('Name'); var match = name.match(/remanei_(.+)/); var geneid = match[1]; return '/get?name='+geneid+';class=CDS';}",
+            "url" : "function(track,f) {var name=f.get('Name'); var match = name.match(/_([^_]+)$/); var geneid = match[1]; return '/get?name='+geneid+';class=CDS';}",
             "label" : "Link to related gene in C. elegans",
             "title" : "Feature in WormBase"
          },
          "subParts" : "CDS",
          "key" : "genBlastG CDS predictions",
+         "category" : "Genes",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "tracks/genBlastG CDS predictions/{refseq}/trackData.jsonz",
+         "urlTemplate" : "../tracks/genBlastG CDS predictions/{refseq}/trackData.jsonz",
          "compress" : 1,
          "label" : "genBlastG CDS predictions",
          "type" : "CanvasFeatures",
