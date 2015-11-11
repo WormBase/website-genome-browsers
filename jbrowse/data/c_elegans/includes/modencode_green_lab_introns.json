@@ -1,0 +1,88 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "key" : "Curated Genes (noncoding)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Curated Genes (noncoding)/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Curated Genes (noncoding)"
+      },
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "key" : "Green Lab confirmed introns 2008-12-02 set 4",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Green Lab confirmed introns 2008-12-02 set 4/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Green Lab confirmed introns 2008-12-02 set 4"
+      },
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "key" : "Green Lab confirmed introns 2008-12-02 set 1",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Green Lab confirmed introns 2008-12-02 set 1/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Green Lab confirmed introns 2008-12-02 set 1"
+      },
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "key" : "Green Lab confirmed introns 2009-09-21 Chromosome II",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Green Lab confirmed introns 2009-09-21 Chromosome II/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Green Lab confirmed introns 2009-09-21 Chromosome II"
+      },
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "key" : "Green Lab confirmed introns 2008-12-02 set 2",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Green Lab confirmed introns 2008-12-02 set 2/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Green Lab confirmed introns 2008-12-02 set 2"
+      },
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "key" : "Green Lab confirmed introns 2008-12-02 set 3",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Green Lab confirmed introns 2008-12-02 set 3/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Green Lab confirmed introns 2008-12-02 set 3"
+      },
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "key" : "Green Lab confirmed introns 2010-01-26 set 5",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Green Lab confirmed introns 2010-01-26 set 5/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Green Lab confirmed introns 2010-01-26 set 5"
+      }
+   ]
+}
