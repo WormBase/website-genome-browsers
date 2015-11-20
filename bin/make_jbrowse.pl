@@ -396,7 +396,7 @@ foreach my $file (@files) {
 
 #if this is elegans make links to the modencode data
 if (!$SIMPLE && $SPECIES =~ /c_elegans/) {
-    chdir "$DATADIR/tracks";    
+    chdir "$DATADIR/tracks" or warn "changing to tracks dir didn't work";    
     system("$Bin/track_links.sh") == 0 or warn "creating track symlinks didn't work";
 }
 
