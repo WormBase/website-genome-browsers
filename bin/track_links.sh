@@ -1,3 +1,4 @@
+#!/bin/bash
 ln -s "/browser_data/jbrowse/data/c_elegans/tracks/3prime UTRs - CEUP1"
 ln -s "/browser_data/jbrowse/data/c_elegans/tracks/Adult Harposporium control exp. OP50 2-24hrs"
 ln -s "/browser_data/jbrowse/data/c_elegans/tracks/Adult Harposporium control exp. OP50 2-24hrs (colored by exon)"
