@@ -352,6 +352,13 @@ if ($only_species_name) {
     }
     push @include, @species_specific;
 }
+if ($only_species_name eq 'c_elegans') {
+    my @modencode = glob("$INCLUDES/modencode*");
+    for (@modencode) {
+        $_ = "includes/".basename($_);
+    }
+    push @include, @modencode;
+}
 
 
 #create trackList data structure:
