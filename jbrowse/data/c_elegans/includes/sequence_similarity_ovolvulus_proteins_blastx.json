@@ -1,0 +1,31 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "orange",
+            "label" : false,
+            "height" : 5
+         },
+         "key" : "O. volvulus proteins",
+         "onClick" : {
+            "url" : "{proteinURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/O. volvulus proteins/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "label" : "O. volvulus proteins",
+         "type" : "CanvasFeatures",
+         "subParts" : "match_part",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "category" : "Sequence Similarity:Proteins",
+         "metadata" : {
+            "shortInfo" : "Matches to WormBase O. volvulus proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
+         }
+      }
+   ]
+}
