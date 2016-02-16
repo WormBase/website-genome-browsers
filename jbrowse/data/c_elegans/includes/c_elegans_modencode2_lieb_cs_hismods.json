@@ -702,6 +702,6 @@
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
             "category"      : "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",  "autoscale" : "local", 
             "label"         : "Histone Modifications in H3K14 (ChIP-Seq)"
-        },
+        }
    ]
 }

@@ -188,6 +188,6 @@
             "label"         : "PHA-4 Combined (Pol II ChIP), PHA4_POLII_StarvedL1",
             "max_score"     : 4,
             "min_score"     : -4
-        },
+        }
    ]
 }

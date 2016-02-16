@@ -146,6 +146,6 @@
             "label"         : "Pol II Combined (N2 ChIP), N2_POLII_L2",
             "max_score"     : 4,
             "min_score"     : -4
-        },
+        }
    ]
 }

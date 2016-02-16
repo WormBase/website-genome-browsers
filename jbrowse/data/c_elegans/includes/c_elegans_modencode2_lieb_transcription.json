@@ -1823,6 +1823,6 @@
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
             "category"      : "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",  "autoscale" : "local", 
             "label"         : "Transcription Factors ChIP-Seq Early Embryo, AB817_8WG16_639746_N2_EEMB"
-        },
+        }
    ]
 }

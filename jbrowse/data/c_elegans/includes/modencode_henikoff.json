@@ -19,7 +19,7 @@
             "min_score"     : -3,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
             "category"      : "modENCODE Tracks : Henikoff Group",
-            "label"         : "Mononucleosomes, Adt Mononucleosomes",
+            "label"         : "Mononucleosomes, Adt Mononucleosomes"
         },
         {
             "style" : {
@@ -40,7 +40,7 @@
             "min_score"     : -3,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
             "category"      : "modENCODE Tracks : Henikoff Group",
-            "label"         : "Mononucleosomes, Emb Mononucleosomes",
+            "label"         : "Mononucleosomes, Emb Mononucleosomes"
         },
         {
             "style" : {
@@ -61,7 +61,7 @@
             "min_score"     : -3,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
             "category"      : "modENCODE Tracks : Henikoff Group",
-            "label"         : "H3.3 Chromatin fractions extracted with NaCl, 350mM fraction",
+            "label"         : "H3.3 Chromatin fractions extracted with NaCl, 350mM fraction"
         },
         {
             "style" : {
@@ -82,7 +82,7 @@
             "min_score"     : -3,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
             "category"      : "modENCODE Tracks : Henikoff Group",
-            "label"         : "H3.3 Chromatin fractions extracted with NaCl, 600mM fraction",
+            "label"         : "H3.3 Chromatin fractions extracted with NaCl, 600mM fraction"
         },
         {
             "style" : {
@@ -103,7 +103,7 @@
             "min_score"     : -3,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
             "category"      : "modENCODE Tracks : Henikoff Group",
-            "label"         : "H3.3 Chromatin fractions extracted with NaCl, 80mM fraction",
+            "label"         : "H3.3 Chromatin fractions extracted with NaCl, 80mM fraction"
         },
         {
             "style" : {
@@ -124,7 +124,7 @@
             "min_score"     : -3,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
             "category"      : "modENCODE Tracks : Henikoff Group",
-            "label"         : "Chromatin fractions extracted with NaCl, 80mM fraction",
+            "label"         : "Chromatin fractions extracted with NaCl, 80mM fraction"
         },
         {
             "style" : {
@@ -145,7 +145,7 @@
             "min_score"     : -3,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
             "category"      : "modENCODE Tracks : Henikoff Group",
-            "label"         : "Chromatin fractions extracted with NaCl, 600mM fraction",
+            "label"         : "Chromatin fractions extracted with NaCl, 600mM fraction"
         },
         {
             "style" : {
@@ -166,7 +166,7 @@
             "min_score"     : -3,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
             "category"      : "modENCODE Tracks : Henikoff Group",
-            "label"         : "Chromatin fractions extracted with NaCl, 600mM Pellet",
-        },
+            "label"         : "Chromatin fractions extracted with NaCl, 600mM Pellet"
+        }
    ]
 }

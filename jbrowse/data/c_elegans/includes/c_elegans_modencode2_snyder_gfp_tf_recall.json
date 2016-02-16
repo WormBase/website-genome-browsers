@@ -545,6 +545,6 @@
             "label"         : "UNC-130 Combined (GFP ChIP) recalled peaks",
             "max_score"     : 4,
             "min_score"     : -4
-        },
+        }
    ]
 }

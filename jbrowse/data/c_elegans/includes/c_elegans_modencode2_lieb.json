@@ -1238,6 +1238,6 @@
             "label"         : "Mononucleosomes, Mixed Embryos",
             "max_score"     : 4,
             "min_score"     : -4
-        },
+        }
    ]
 }

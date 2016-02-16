@@ -5,7 +5,7 @@
             "className" : "feature",
             "height" : 6,
             "color" : "{exonColor}",
-            "label" : "function(f) { var name = f.get('Name'); var clean = name.replace(/.*redundant_exons\./, ''); var cleaner = clean.replace(/_[\+\-].*/,''); return cleaner;  }"
+            "label" : "function(f) { var name = f.get('Name'); var clean = name.replace(/.*redundant_exons./, ''); var cleaner = clean.replace(/_[+-].*/,''); return cleaner;  }"
          },
          "category" : "modENCODE Tracks : Waterston Group: Exons",
          "key" : "non-redundant exons from 14 stages",

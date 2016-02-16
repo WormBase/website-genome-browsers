@@ -23,6 +23,7 @@
          "type" : "CanvasFeatures",
          "label" : "RNASeq introns",
          "category" : "Expression",
+         "maxExportSpan" : 25000000,
          "metadata" : {
              "shortInfo" : "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. The number of reads spanning the introns is indicated by the thickness of the display."
          }

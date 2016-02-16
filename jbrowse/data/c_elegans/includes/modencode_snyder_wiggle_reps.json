@@ -1055,6 +1055,6 @@
             "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
             "label"         : "Replicates LIN-15B (GFP ChIP), LIN15B_GFP_L3_rep2#2610 ",
             "min_score"     : 0
-        },
+        }
    ]
 }

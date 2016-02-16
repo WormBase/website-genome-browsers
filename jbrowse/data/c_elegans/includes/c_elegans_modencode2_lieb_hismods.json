@@ -1633,6 +1633,6 @@
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
             "category"      : "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants", "max_score" : 4, "min_score" : -4,
             "label"         : "Histone Modifications (H3K23) ChIP-Seq"
-        },
+        }
    ]
 }

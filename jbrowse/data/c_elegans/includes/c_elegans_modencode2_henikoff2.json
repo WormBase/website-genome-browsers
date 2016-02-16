@@ -151,6 +151,6 @@
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
             "category"      : "modENCODE data (2014):Chromatin Structure: Nucleosome Structure",  "autoscale" : "local", 
             "label"         : "Chromatin fractions extracted with NaCl, 600mM Pellet"
-        },
+        }
    ]
 }

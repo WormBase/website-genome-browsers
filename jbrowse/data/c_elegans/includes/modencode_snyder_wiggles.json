@@ -959,6 +959,6 @@
             "category"      : "modENCODE Tracks : Snyder Group: Pol II ChIP: Replicates",
             "label"         : "Pol II ChIP (N2): Replicates, N2_L3_POLII_rep2",
             "min_score"     : 0
-        },
+        }
    ]
 }
