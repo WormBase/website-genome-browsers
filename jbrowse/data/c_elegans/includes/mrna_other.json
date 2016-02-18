@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "{matchColor}",
@@ -24,7 +24,8 @@
          "type" : "CanvasFeatures",
          "label" : "mRNAs_ncRNAs (other)",
          "category" : "Transcription:Supporting Evidence",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "maxExportSpan" : 50000000
       }
    ]
 }

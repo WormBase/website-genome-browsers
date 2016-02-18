@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "height" : 4,
@@ -16,7 +16,8 @@
          "compress" : 1,
          "type" : "CanvasFeatures",
          "category" : "Transcription:Supporting Evidence",
-         "label" : "ORFeome PCR Products"
+         "label" : "ORFeome PCR Products",
+         "maxExportSpan" : 50000000
       }
    ]
 }

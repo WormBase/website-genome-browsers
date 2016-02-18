@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "white",
@@ -16,7 +16,8 @@
             "shortInfo" : "Transcription_end_site defined by analysis of RNASeq short read datasets (example Hillier et al.)"
          },
          "label" : "Transcription end site",
-         "type" : "CanvasFeatures"
+         "type" : "CanvasFeatures",
+         "maxExportSpan" : 50000000
       }
    ]
 }

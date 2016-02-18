@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "green"
@@ -21,7 +21,8 @@
             "shortInfo" : "Regions within which there is experimental evidence for a promoter."
          },
          "label" : "Promoter regions",
-         "type" : "CanvasFeatures"
+         "type" : "CanvasFeatures",
+         "maxExportSpan" : 50000000
       }
    ]
 }

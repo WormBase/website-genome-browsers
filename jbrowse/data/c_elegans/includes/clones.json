@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "black",
@@ -23,7 +23,8 @@
          },
          "category" : "Reagents",
          "type" : "CanvasFeatures",
-         "label" : "YACs, Fosmids, & Cosmids"
+         "label" : "YACs, Fosmids, & Cosmids",
+         "maxExportSpan" : 50000000
       }
    ]
 }

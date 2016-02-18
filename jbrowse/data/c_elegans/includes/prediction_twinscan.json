@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "label" : false,
@@ -13,7 +13,8 @@
          "urlTemplate" : "../tracks/Prediction: Twinscan/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Prediction: Twinscan"
+         "label" : "Prediction: Twinscan",
+         "maxExportSpan" : 50000000
       }
    ]
 }

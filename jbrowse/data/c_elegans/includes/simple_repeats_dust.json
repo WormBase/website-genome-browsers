@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "height" : 4,
@@ -16,7 +16,8 @@
          "urlTemplate" : "../tracks/Low complextity region (Dust)/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Low complextity region (Dust)"
+         "label" : "Low complextity region (Dust)",
+         "maxExportSpan" : 50000000
       }
    ]
 }

@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "black",
@@ -22,7 +22,8 @@
          "metadata" : {
             "shortInfo" : "This track contains Affymetrix GeneChip and Washington University GSC microarray probe sets."
          },
-         "category" : "Reagents"
+         "category" : "Reagents",
+         "maxExportSpan" : 50000000
       }
    ]
 }

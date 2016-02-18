@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "sienna",
@@ -22,7 +22,8 @@
          "urlTemplate" : "../tracks/Genbank submissions/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Genbank submissions"
+         "label" : "Genbank submissions",
+         "maxExportSpan" : 50000000
       }
    ]
 }

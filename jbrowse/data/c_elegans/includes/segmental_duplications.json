@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "white",
@@ -23,7 +23,8 @@
          "urlTemplate" : "../tracks/Segmental duplication/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Segmental duplication"
+         "label" : "Segmental duplication",
+         "maxExportSpan" : 50000000
       }
    ]
 }

@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "cyan",
@@ -24,7 +24,8 @@
          },
          "type" : "CanvasFeatures",
          "label" : "C. elegans OSTs",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "maxExportSpan" : 50000000
       }
    ]
 }

@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "limegreen",
@@ -24,7 +24,8 @@
          "type" : "CanvasFeatures",
          "category" : "Transcription:Supporting Evidence",
          "label" : "ESTs (best)",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "maxExportSpan" : 50000000
       }
    ]
 }

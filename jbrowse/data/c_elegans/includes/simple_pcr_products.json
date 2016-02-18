@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "violet",
@@ -22,7 +22,8 @@
             "shortInfo" : "This track indicates the location of primer pairs that have been created by a number of groups."
          },
          "type" : "CanvasFeatures",
-         "label" : "PCR Assays"
+         "label" : "PCR Assays",
+         "maxExportSpan" : 50000000
       }
    ]
 }

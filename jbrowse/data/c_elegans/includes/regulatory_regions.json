@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "green"
@@ -21,7 +21,8 @@
             "shortInfo" : "Assorted or unspecified regulatory elements with experimental evidence."
          },
          "type" : "CanvasFeatures",
-         "label" : "Regulatory regions"
+         "label" : "Regulatory regions",
+         "maxExportSpan" : 50000000
       }
    ]
 }

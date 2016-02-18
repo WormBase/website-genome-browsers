@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "green",
@@ -22,7 +22,8 @@
          "label" : "Transcriptionally Active Region",
          "metadata" : {
             "shortInfo" : "Transcriptionally Active Regions (TARs) found by the Miller lab from tiling-array projects run as part of the modENCODE project."
-         }
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "green"
@@ -21,7 +21,8 @@
             "shortInfo" : "Sites where there is experimental evidence of a transcription factor binding site."
          },
          "type" : "CanvasFeatures",
-         "label" : "Transcription factor binding sites"
+         "label" : "Transcription factor binding sites",
+         "maxExportSpan" : 50000000
       }
    ]
 }

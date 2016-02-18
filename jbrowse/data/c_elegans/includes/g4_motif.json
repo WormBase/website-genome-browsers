@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "magenta",
@@ -16,7 +16,8 @@
          },
          "category" : "Sequence Features:Signals & Motifs",
          "type" : "CanvasFeatures",
-         "label" : "G4 Motif"
+         "label" : "G4 Motif",
+         "maxExportSpan" : 50000000
       }
    ]
 }

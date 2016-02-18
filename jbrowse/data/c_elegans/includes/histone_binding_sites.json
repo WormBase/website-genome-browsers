@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "green"
@@ -21,7 +21,8 @@
             "shortInfo" : "Regions within which there is experimental evidence for one or more binding sites of a histone."
          },
          "type" : "CanvasFeatures",
-         "label" : "Histone binding sites"
+         "label" : "Histone binding sites",
+         "maxExportSpan" : 50000000
       }
    ]
 }

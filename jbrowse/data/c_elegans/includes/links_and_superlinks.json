@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "height" : 4,
@@ -22,7 +22,8 @@
          "urlTemplate" : "../tracks/Links and Superlinks/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Links and Superlinks"
+         "label" : "Links and Superlinks",
+         "maxExportSpan" : 50000000
       }
    ]
 }

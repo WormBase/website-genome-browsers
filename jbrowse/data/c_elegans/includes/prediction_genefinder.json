@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "palevioletred",
@@ -13,7 +13,8 @@
          "urlTemplate" : "../tracks/Prediction: GeneFinder/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Prediction: GeneFinder"
+         "label" : "Prediction: GeneFinder",
+         "maxExportSpan" : 50000000
       }
    ]
 }

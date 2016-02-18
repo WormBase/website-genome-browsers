@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "label" : false,
@@ -13,7 +13,8 @@
          "urlTemplate" : "../tracks/Prediction: mGene/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Prediction: mGene"
+         "label" : "Prediction: mGene",
+         "maxExportSpan" : 50000000
       }
    ]
 }
