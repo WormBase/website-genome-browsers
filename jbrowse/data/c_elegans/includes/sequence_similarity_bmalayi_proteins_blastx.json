@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "label" : false,
@@ -14,7 +14,7 @@
             "label" : "Feature in WormBase"
          },
          "metadata" : {
-             "shortInfo" : "Matches to WormBase B. malayi proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
+            "shortInfo" : "Matches to WormBase B. malayi proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
          "category" : "Sequence Similarity:Proteins",
          "key" : "B. malayi proteins",
@@ -25,7 +25,8 @@
          "type" : "CanvasFeatures",
          "subParts" : "match_part",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "label" : "B. malayi proteins"
+         "label" : "B. malayi proteins",
+         "maxExportSpan" : 50000000
       }
    ]
 }

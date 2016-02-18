@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "{nematodeColor}",
@@ -25,7 +25,8 @@
          "metadata" : {
             "shortInfo" : "ESTs and mRNAs from other WormBase core species aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows non-unique matches, which may represent repetitive sequences. For the best single alignment, see the track labeled 'WormBase nematode mRNAs and ESTs (best)'. <p> mRNAs are shown in light blue; ESTs in green."
          },
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "maxExportSpan" : 50000000
       }
    ]
 }

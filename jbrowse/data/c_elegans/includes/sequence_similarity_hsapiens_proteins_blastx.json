@@ -25,7 +25,8 @@
          "category" : "Sequence Similarity:Proteins",
          "metadata" : {
             "shortInfo" : "Matches to Human proteins from Ensembl, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
-         }
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

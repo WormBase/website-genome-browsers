@@ -18,7 +18,8 @@
          "urlTemplate" : "../tracks/Nematode.net cDNAs/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Nematode.net cDNAs"
+         "label" : "Nematode.net cDNAs",
+         "maxExportSpan" : 50000000
       }
    ]
 }

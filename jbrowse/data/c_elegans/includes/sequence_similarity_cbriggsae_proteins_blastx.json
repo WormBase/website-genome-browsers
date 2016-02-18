@@ -25,7 +25,8 @@
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {
             "shortInfo" : "Matches to WormBase C. briggsae proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
-         }
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

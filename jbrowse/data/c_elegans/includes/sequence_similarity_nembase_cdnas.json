@@ -18,7 +18,8 @@
          "urlTemplate" : "../tracks/NEMBASE cDNAs/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "NEMBASE cDNAs"
+         "label" : "NEMBASE cDNAs",
+         "maxExportSpan" : 50000000
       }
    ]
 }

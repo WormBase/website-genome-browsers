@@ -18,7 +18,8 @@
          "urlTemplate" : "../tracks/INSDC nematode cDNAs/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "INSDC nematode cDNAs"
+         "label" : "INSDC nematode cDNAs",
+         "maxExportSpan" : 50000000
       }
    ]
 }
