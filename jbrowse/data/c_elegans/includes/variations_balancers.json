@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "height" : 8,
@@ -25,7 +25,8 @@
          "compress" : 1,
          "type" : "CanvasFeatures",
          "glyph" : "JBrowse/View/FeatureGlyph/LabelFloatBox",
-         "label" : "Balancers"
+         "label" : "Balancers",
+         "maxExportSpan" : 50000000
       }
    ]
 }

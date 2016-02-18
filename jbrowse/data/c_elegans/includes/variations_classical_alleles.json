@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "function(feature) { var method = feature.get('type'); if (method=='deletion') {return 'red';} else if (method=='point_mutation') {return 'yellow';} else if (method=='substitution') {return 'yellow';} else if (method=='complex_substitution') {return 'blue';} else {return 'white';} }",
@@ -23,8 +23,9 @@
          "label" : "Classical_alleles",
          "category" : "Alleles, Variations, RNAi",
          "metadata" : {
-             "shortInfo" : "This track shows classical alleles comprised of insertions, deletions, substitutions and complex changes. These alleles were typically generated during forward genetic screens. Red boxes represent deletions; yellow diamonds represent substitutions; blue boxes represent complex substitutions; and white triangles represent insertions."
-         }
+            "shortInfo" : "This track shows classical alleles comprised of insertions, deletions, substitutions and complex changes. These alleles were typically generated during forward genetic screens. Red boxes represent deletions; yellow diamonds represent substitutions; blue boxes represent complex substitutions; and white triangles represent insertions."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

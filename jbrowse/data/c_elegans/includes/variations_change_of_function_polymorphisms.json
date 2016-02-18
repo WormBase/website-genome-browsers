@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "{variationColor}",
@@ -24,8 +24,9 @@
          "category" : "Alleles, Variations, RNAi",
          "type" : "CanvasFeatures",
          "metadata" : {
-             "shortInfo" : "This track shows single nucleotide polymorphisms (SNPs) that may generate a change of function. In this track, the molecular nature of the polymorphism is indicated by its glyph: Boxes are deletions; triangles are insertions; point mutations and substitutions are diamonds. Color shows the potential effect on coding regions. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else. Mouse over the feature for details."
-         }
+            "shortInfo" : "This track shows single nucleotide polymorphisms (SNPs) that may generate a change of function. In this track, the molecular nature of the polymorphism is indicated by its glyph: Boxes are deletions; triangles are insertions; point mutations and substitutions are diamonds. Color shows the potential effect on coding regions. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else. Mouse over the feature for details."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

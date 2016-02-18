@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "strandArrow" : false,
@@ -25,8 +25,9 @@
          "label" : "Million Mutation Project",
          "category" : "Alleles, Variations, RNAi",
          "metadata" : {
-             "shortInfo" : "This track shows SNPs from the The Million Mutation Project (Waterston/Moerman). The color of the SNP represents its potental effect on a gene. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else."
-         }
+            "shortInfo" : "This track shows SNPs from the The Million Mutation Project (Waterston/Moerman). The color of the SNP represents its potental effect on a gene. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "{variationColor}",
@@ -24,8 +24,9 @@
          "type" : "CanvasFeatures",
          "label" : "High-throughput alleles",
          "metadata" : {
-             "shortInfo" : "These are alleles generated through high-throughput, genome-wide projects. Million Mutation Project alleles are placed in a separate track."
-         }
+            "shortInfo" : "These are alleles generated through high-throughput, genome-wide projects. Million Mutation Project alleles are placed in a separate track."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }
