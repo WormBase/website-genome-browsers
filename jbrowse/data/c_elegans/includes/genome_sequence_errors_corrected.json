@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "green",
@@ -19,10 +19,11 @@
          "key" : "Genome sequence corrections",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Genome sequence corrections/{refseq}/trackData.jsonz",  
+         "urlTemplate" : "../tracks/Genome sequence corrections/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Genome sequence corrections"
+         "label" : "Genome sequence corrections",
+         "maxExportSpan" : 50000000
       }
    ]
 }

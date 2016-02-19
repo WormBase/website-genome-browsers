@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "red",
@@ -13,7 +13,7 @@
             "label" : "Feature in WormBase"
          },
          "metadata" : {
-            "shortInfo" : "Positions within the reference genome sequence that have been identified as having a base call error. This error has not yet been corrected." 
+            "shortInfo" : "Positions within the reference genome sequence that have been identified as having a base call error. This error has not yet been corrected."
          },
          "category" : "Genome Structure:Assembly & Curation",
          "key" : "Genome sequence errors",
@@ -22,7 +22,8 @@
          "urlTemplate" : "../tracks/Genome sequence errors/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Genome sequence errors"
+         "label" : "Genome sequence errors",
+         "maxExportSpan" : 50000000
       }
    ]
 }

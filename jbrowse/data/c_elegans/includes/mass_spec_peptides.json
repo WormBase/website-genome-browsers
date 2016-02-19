@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "red",
@@ -9,7 +9,7 @@
             "label" : "{massSpecLabel}"
          },
          "metadata" : {
-             "shortInfo" : "This track shows peptides identified in mass spec proteomics experiments."
+            "shortInfo" : "This track shows peptides identified in mass spec proteomics experiments."
          },
          "onClick" : {
             "url" : "{proteinURL}",
@@ -24,7 +24,8 @@
          "urlTemplate" : "../tracks/Mass spec peptides/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Mass spec peptides"
+         "label" : "Mass spec peptides",
+         "maxExportSpan" : 50000000
       }
    ]
 }

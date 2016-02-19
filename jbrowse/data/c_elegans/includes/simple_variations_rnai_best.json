@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "goldenrod",
@@ -23,8 +23,9 @@
          "type" : "CanvasFeatures",
          "label" : "RNAi experiments (primary targets)",
          "metadata" : {
-             "shortInfo" : "This track represents RNAi probes that have been aligned to the genome using a combination of BLAST and BLAT programs and have sequence identity to the target location of at least 95% over a stretch of at least 100 nt."
-          }
+            "shortInfo" : "This track represents RNAi probes that have been aligned to the genome using a combination of BLAST and BLAT programs and have sequence identity to the target location of at least 95% over a stretch of at least 100 nt."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

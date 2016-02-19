@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "bisque",
@@ -13,10 +13,11 @@
          "key" : "Repeat Region (RepeatMasker)",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Repeat Region (RepeatMasker)/{refseq}/trackData.jsonz", 
+         "urlTemplate" : "../tracks/Repeat Region (RepeatMasker)/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Repeat Region (RepeatMasker)"
+         "label" : "Repeat Region (RepeatMasker)",
+         "maxExportSpan" : 50000000
       }
    ]
 }

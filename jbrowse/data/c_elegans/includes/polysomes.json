@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "green"
@@ -14,8 +14,9 @@
          "type" : "CanvasFeatures",
          "category" : "Expression",
          "metadata" : {
-             "shortInfo" : "This data is from the The Lamm et al. (2011) PMID: 21177965 paper finding regions bound by the polysome fraction of RNAs being actively translated."
-         }
+            "shortInfo" : "This data is from the The Lamm et al. (2011) PMID: 21177965 paper finding regions bound by the polysome fraction of RNAs being actively translated."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

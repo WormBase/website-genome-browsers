@@ -19,14 +19,15 @@
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Change-of-function alleles/{refseq}/trackData.jsonz",   
+         "urlTemplate" : "../tracks/Change-of-function alleles/{refseq}/trackData.jsonz",
          "compress" : 1,
          "category" : "Alleles, Variations, RNAi",
          "type" : "CanvasFeatures",
          "label" : "Change-of-function alleles",
          "metadata" : {
-             "shortInfo" : "This track shows alleles that generate a putative change-of-function."
-         }
+            "shortInfo" : "This track shows alleles that generate a putative change-of-function."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

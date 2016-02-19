@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "orange",
@@ -21,8 +21,9 @@
          "label" : "Expression chip profiles",
          "type" : "CanvasFeatures",
          "metadata" : {
-             "shortInfo" : "This track indicates the location of PCR products that have been placed on expression chips produced by the C. elegans Microarray Consortium."  
-         }
+            "shortInfo" : "This track indicates the location of PCR products that have been placed on expression chips produced by the C. elegans Microarray Consortium."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

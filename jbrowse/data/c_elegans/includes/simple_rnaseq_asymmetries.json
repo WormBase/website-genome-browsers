@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "displayMode" : "collapsed",
          "style" : {
             "className" : "feature",
@@ -24,8 +24,9 @@
          "type" : "CanvasFeatures",
          "label" : "RNASeq Asymmetries",
          "metadata" : {
-             "shortInfo" : "Red boxes indicate regions where there are more than 2 times as many forward sense RNASeq reads aligned to the genome as reverse sense reads."
-         }
+            "shortInfo" : "Red boxes indicate regions where there are more than 2 times as many forward sense RNASeq reads aligned to the genome as reverse sense reads."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

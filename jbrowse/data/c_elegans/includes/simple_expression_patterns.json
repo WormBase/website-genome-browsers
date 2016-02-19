@@ -20,8 +20,9 @@
          "type" : "CanvasFeatures",
          "category" : "Expression",
          "metadata" : {
-             "shortInfo" : "This track represents sequences that were used for in vivo expression pattern analysis, such as promoter sequences for GFP or LacZ constructs."
-         }
+            "shortInfo" : "This track represents sequences that were used for in vivo expression pattern analysis, such as promoter sequences for GFP or LacZ constructs."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }
