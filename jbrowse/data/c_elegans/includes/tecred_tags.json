@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "red",
@@ -16,7 +16,8 @@
          "metadata" : {
             "shortInfo" : "Trans-spliced Exon Coupled RNA End Determination (TEC-RED) tags. TEC-RED uses a method similar to SAGE to identify expressed genes and characterize the 5' end of transcripts."
          },
-         "category" : "Transcription:Supporting Evidence"
+         "category" : "Transcription:Supporting Evidence",
+         "maxExportSpan" : 50000000
       }
    ]
 }

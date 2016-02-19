@@ -3,7 +3,7 @@
       {
          "style" : {
             "className" : "feature",
-            "height"    : 7
+            "height" : 7
          },
          "metadata" : {
             "shortInfo" : "Data from <a href='http://www.wormbase.org/resources/paper/WBPaper00040677#0--10'>'genBlastG: using BLAST searches to build homologous gene models'</a>."
@@ -23,7 +23,8 @@
          "compress" : 1,
          "label" : "genBlastG CDS predictions",
          "type" : "CanvasFeatures",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "maxExportSpan" : 50000000
       }
    ]
 }

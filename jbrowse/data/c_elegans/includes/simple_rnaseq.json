@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "displayMode" : "collapsed",
          "style" : {
             "className" : "feature",
@@ -23,8 +23,9 @@
          "category" : "Expression",
          "label" : "RNASeq",
          "metadata" : {
-             "shortInfo" : "These boxes indicate alignments of short read sequences from all available RNASeq projects."
-         }
+            "shortInfo" : "These boxes indicate alignments of short read sequences from all available RNASeq projects."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

@@ -24,8 +24,9 @@
          "subParts" : "exon",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {
-             "shortInfo" : "These are transposon spans reviewed by WormBase curators."
-         }
+            "shortInfo" : "These are transposon spans reviewed by WormBase curators."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

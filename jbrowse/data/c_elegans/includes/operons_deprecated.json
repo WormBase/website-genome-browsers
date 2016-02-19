@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "green",
@@ -15,8 +15,9 @@
          "label" : "Deprecated operons",
          "type" : "CanvasFeatures",
          "metadata" : {
-             "shortInfo" : "These are historical operon predictions."
-         }
+            "shortInfo" : "These are historical operon predictions."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

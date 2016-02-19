@@ -21,8 +21,9 @@
          "type" : "CanvasFeatures",
          "label" : "Curated Genes (protein coding)",
          "metadata" : {
-             "shortInfo" : "A subset of the full Curated Genes set limited to protein-coding genes only."
-         }
+            "shortInfo" : "A subset of the full Curated Genes set limited to protein-coding genes only."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

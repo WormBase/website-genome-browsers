@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "green"
@@ -14,14 +14,15 @@
          "key" : "DNAseI hypersensitive site",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/DNAseI hypersensitive site/{refseq}/trackData.jsonz",   
+         "urlTemplate" : "../tracks/DNAseI hypersensitive site/{refseq}/trackData.jsonz",
          "compress" : 1,
          "category" : "Sequence Features:Signals & Motifs",
          "metadata" : {
             "shortInfo" : "DNAse I hypersensitive sites from the 2009 paper by Shi et al."
          },
          "type" : "CanvasFeatures",
-         "label" : "DNAseI hypersensitive site"
+         "label" : "DNAseI hypersensitive site",
+         "maxExportSpan" : 50000000
       }
    ]
 }

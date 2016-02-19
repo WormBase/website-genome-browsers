@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "gray",
@@ -21,8 +21,9 @@
          "category" : "Genes",
          "label" : "Transposons",
          "metadata" : {
-             "shortInfo" : "These are transposon spans reviewed by WormBase curators."
-          }
+            "shortInfo" : "These are transposon spans reviewed by WormBase curators."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

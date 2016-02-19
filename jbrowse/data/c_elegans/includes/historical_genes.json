@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "function(f) {var strand = f.get('strand'); if (strand < 0) {return 'violet';} return 'turquoise';  }",
@@ -24,8 +24,9 @@
          "label" : "Gene Models (historical)",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {
-             "shortInfo" : "Historical gene predictions."
-         }
+            "shortInfo" : "Historical gene predictions."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

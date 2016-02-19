@@ -24,8 +24,9 @@
          "label" : "RNASeq introns",
          "category" : "Expression",
          "metadata" : {
-             "shortInfo" : "These are introns formed by aligned RNASeq reads spanning a region of the genome."
-         }
+            "shortInfo" : "These are introns formed by aligned RNASeq reads spanning a region of the genome."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

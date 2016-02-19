@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "function(feature) { var strain = feature.get('strain'); if (strain=='CB4858' || strain=='AF16') {return 'blue';} else if (strain=='CB4856' || strain=='HK104') {return 'yellow';} else {return 'white';} }",
@@ -23,8 +23,9 @@
          "label" : "Polymorphisms",
          "category" : "Alleles, Variations, RNAi",
          "metadata" : {
-             "shortInfo" : "This track shows single nucleotide polymorphisms (SNPs)."
-         }
+            "shortInfo" : "This track shows single nucleotide polymorphisms (SNPs)."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }

@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "function(f) {var type =  f._parent.get('predictiontype'); if (type == 'tmhmm') {return 'magenta';} if (type == 'seg') {return 'lightseagreen';} if (type == 'signalp') {return 'aquamarine'} if (type == 'ncoils') {return 'chartreuse';} if (type == 'pfam') {return 'lightsalmon';} return 'purple'; }",
@@ -15,7 +15,7 @@
             "title" : "Feature in WormBase"
          },
          "metadata" : {
-             "shortInfo" : "This track shows the extent of predicted protein motifs."
+            "shortInfo" : "This track shows the extent of predicted protein motifs."
          },
          "category" : "Sequence Features:Translated Features",
          "key" : "Protein motifs",
@@ -26,7 +26,8 @@
          "type" : "CanvasFeatures",
          "subParts" : "polypeptide_motif_part",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "label" : "Protein motifs"
+         "label" : "Protein motifs",
+         "maxExportSpan" : 50000000
       }
    ]
 }
