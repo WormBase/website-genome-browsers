@@ -1,6 +1,6 @@
 {
    "tracks" : [
-      { 
+      {
          "style" : {
             "className" : "feature",
             "color" : "function(f) {var source = f.get('source'); if (source == 'interpolated_pmap_position') {return 'red';} return 'turquoise';  }",
@@ -23,8 +23,9 @@
          "type" : "CanvasFeatures",
          "glyph" : "JBrowse/View/FeatureGlyph/Box",
          "metadata" : {
-             "shortInfo" : "This track shows the maximal extents for genetic loci. Loci that have been interpolated onto the physical map (and whose precise location is unknown) are shown as a thin black span.  The physical extent of such loci are determined by interpolating their genetic position onto the physical map using 95% confidence limits.  Please note that the actual location of such loci may lay outside of the span depicted. Loci with known sequence connections are shown in turquoise and depicted using the physical span of the gene."
-         }
+            "shortInfo" : "This track shows the maximal extents for genetic loci. Loci that have been interpolated onto the physical map (and whose precise location is unknown) are shown as a thin black span.  The physical extent of such loci are determined by interpolating their genetic position onto the physical map using 95% confidence limits.  Please note that the actual location of such loci may lay outside of the span depicted. Loci with known sequence connections are shown in turquoise and depicted using the physical span of the gene."
+         },
+         "maxExportSpan" : 50000000
       }
    ]
 }
