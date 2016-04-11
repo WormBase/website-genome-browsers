@@ -81,7 +81,7 @@
                    // create a JBrowse global variable holding the JBrowse instance
                    JBrowse = new Browser( config );
                    JBrowse.afterMilestone('loadRefSeqs', function() { dojo.destroy(dojo.byId('loading_screen')); });
-                   JBrowse.afterMilestone('completely initialized', function() { var tracksel = document.getElementsByClassName("faceted_tracksel_on_off tab"); tracksel = tracksel[0]; tracksel.style.top = '4em';  });
+                   JBrowse.afterMilestone('completely initialized', function() { var tracksel = document.getElementsByClassName("faceted_tracksel_on_off tab"); tracksel = tracksel[0]; if(!tracksel) {return;} tracksel.style.top = '4em';  });
         });
     </script>
 
