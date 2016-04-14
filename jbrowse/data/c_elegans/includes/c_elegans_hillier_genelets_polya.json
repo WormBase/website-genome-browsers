@@ -1,422 +1,422 @@
 {
-   "tracks" : [
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "Adult Harposporium control exp. OP50 2-24hrs confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Adult Harposporium control exp. OP50 2-24hrs confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "Adult Harposporium control exp. OP50 2-24hrs confirmed polyA"
+  "tracks": [
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "Adult Harposporium exp. 2-24hrs confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Adult Harposporium exp. 2-24hrs confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "Adult Harposporium exp. 2-24hrs confirmed polyA"
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "Adult S.macescens control exp. OP50 1-24hrs confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Adult S.macescens control exp. OP50 1-24hrs confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "Adult S.macescens control exp. OP50 1-24hrs confirmed polyA"
+      "key": "Adult Harposporium control exp. OP50 2-24hrs confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Adult Harposporium control exp. OP50 2-24hrs confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "Adult Harposporium control exp. OP50 2-24hrs confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "Adult S.macescens Db10 exp. 1-24hrs confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Adult S.macescens Db10 exp. 1-24hrs confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "Adult S.macescens Db10 exp. 1-24hrs confirmed polyA"
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "Adult spe-9 confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Adult spe-9 confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "Adult spe-9 confirmed polyA"
+      "key": "Adult Harposporium exp. 2-24hrs confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Adult Harposporium exp. 2-24hrs confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "Adult Harposporium exp. 2-24hrs confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "dauer daf-2 25dC 91hrs confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/dauer daf-2 25dC 91hrs confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "dauer daf-2 25dC 91hrs confirmed polyA"
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "dauer entry daf-2 25dC 48hrs confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/dauer entry daf-2 25dC 48hrs confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "dauer entry daf-2 25dC 48hrs confirmed polyA"
+      "key": "Adult S.macescens control exp. OP50 1-24hrs confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Adult S.macescens control exp. OP50 1-24hrs confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "Adult S.macescens control exp. OP50 1-24hrs confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed polyA"
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "early embryo confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/early embryo confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "early embryo confirmed polyA"
+      "key": "Adult S.macescens Db10 exp. 1-24hrs confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Adult S.macescens Db10 exp. 1-24hrs confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "Adult S.macescens Db10 exp. 1-24hrs confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "embryo him-8 confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/embryo him-8 confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "embryo him-8 confirmed polyA"
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "L4 soma no DNAse I confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/L4 soma no DNAse I confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "L4 soma no DNAse I confirmed polyA"
+      "key": "Adult spe-9 confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Adult spe-9 confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "Adult spe-9 confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "late embryo confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/late embryo confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "late embryo confirmed polyA"
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "mid-L1 lin-35 confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/mid-L1 lin-35 confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "mid-L1 lin-35 confirmed polyA"
+      "key": "dauer daf-2 25dC 91hrs confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/dauer daf-2 25dC 91hrs confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "dauer daf-2 25dC 91hrs confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "male mid-L4 dpy28 him-8 25dC 30hrs confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/male mid-L4 dpy28 him-8 25dC 30hrs confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "male mid-L4 dpy28 him-8 25dC 30hrs confirmed polyA"
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "mid-L1 confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/mid-L1 confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "mid-L1 confirmed polyA"
+      "key": "dauer entry daf-2 25dC 48hrs confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/dauer entry daf-2 25dC 48hrs confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "dauer entry daf-2 25dC 48hrs confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "mid-L2 confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/mid-L2 confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "mid-L2 confirmed polyA"
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "mid-L3 confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/mid-L3 confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "mid-L3 confirmed polyA"
+      "key": "dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "mid-L4 confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/mid-L4 confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "mid-L4 confirmed polyA"
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "color" : "red",
-            "height" : 5,
-            "label" : "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "url" : "",
-            "label" : "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
-            "title" : ""
-         },
-         "key" : "Young Adult confirmed polyA",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Young Adult confirmed polyA/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category" : "modENCODE Tracks : Waterston Group:Genelets:PolyA",
-         "type" : "CanvasFeatures",
-         "label" : "Young Adult confirmed polyA"
-      }
-   ]
+      "key": "early embryo confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/early embryo confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "early embryo confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "embryo him-8 confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/embryo him-8 confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "embryo him-8 confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "L4 soma no DNAse I confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/L4 soma no DNAse I confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "L4 soma no DNAse I confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "late embryo confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/late embryo confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "late embryo confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "mid-L1 lin-35 confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/mid-L1 lin-35 confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "mid-L1 lin-35 confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "male mid-L4 dpy28 him-8 25dC 30hrs confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/male mid-L4 dpy28 him-8 25dC 30hrs confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "male mid-L4 dpy28 him-8 25dC 30hrs confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "mid-L1 confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/mid-L1 confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "mid-L1 confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "mid-L2 confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/mid-L2 confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "mid-L2 confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "mid-L3 confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/mid-L3 confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "mid-L3 confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "mid-L4 confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/mid-L4 confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "mid-L4 confirmed polyA"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "Young Adult confirmed polyA",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Young Adult confirmed polyA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE Tracks : Waterston Group:Genelets:PolyA",
+      "type": "CanvasFeatures",
+      "label": "Young Adult confirmed polyA"
+    }
+  ]
 }

@@ -1,548 +1,548 @@
 {
-   "tracks" : [
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined DPY-27 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4095_Snyder_DPY27_GFP_emb_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined DPY-27 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined CEH-14 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4171_Snyder_CEH-14_GFP_L2_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined CEH-14 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "ALR-1 Combined (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4180_Snyder_ALR-1_GFP_L2_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "ALR-1 Combined (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined HLH-8 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4180_Snyder_ALR-1_GFP_L2_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined HLH-8 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined AMA-1 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4213_Snyder_AMA1_GFP_L4YA_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined AMA-1 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined UNC-130 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4257_Snyder_UNC-130_GFP_L1_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined UNC-130 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined LIN-11 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4266_Snyder_LIN-11_GFP_L2_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined LIN-11 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined EOR-1 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4270_Snyder_EOR-1_GFP_L3_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined EOR-1 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined EOR-1 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4270_Snyder_EOR-1_GFP_L3_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined EOR-1 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined MAB-5 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4284_Snyder_MAB5_GFP_L3_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined MAB-5 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined DAF-16 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4297_Snyder_DAF16_GFP_L4YA_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined DAF-16 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined HLH-1 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4319_Snyder_HLH-1_GFP_emb_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined HLH-1 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined LIN-39 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4324_Snyder_LIN-39-GFP_L3_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined LIN-39 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined NHR-6 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4353_Snyder_NHR-6_GFP_L2_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined NHR-6 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined GEI-11 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4366_Snyder_GEI11_GFP_L4_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined GEI-11 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined PES-1 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4377_Snyder_PES1_GFP_L4_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined PES-1 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined EGL-5 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4388_Snyder_EGL5_GFP_L3_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined EGL-5 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined MDL-1 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5388_Snyder_MDL-1_GFP_L1_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined MDL-1 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined MEP-1 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5403_Snyder_MEP-1_GFP_emb_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined MEP-1 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined ELT-3 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5415_Snyder_ELT-3_GFP_L1_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined ELT-3 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined LIN-13 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5425_Snyder_LIN-13_GFP_emb_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined LIN-13 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined BLMP-1 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5426_Snyder_BLMP-1_GFP_L1_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined BLMP-1 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined SKN-1 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5427_Snyder_SKN-1_GFP_L1_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined SKN-1 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined CEH-30 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5446_Snyder_CEH-30_GFP_lemb_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined CEH-30 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined EGL-27 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5452_Snyder_EGL-27_GFP_L1_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined EGL-27 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined PQM-1 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5454_Snyder_PQM-1_GFP_L3_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined PQM-1 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined NHR-105 (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5465_Snyder_NHR-105_GFP_L3_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined NHR-105 (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined LIN-15B (GFP ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5469_Snyder_LIN-15B_GFP_L3_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
-            "label"         : "Combined LIN-15B (GFP ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined MAB-5 (Pol II ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4275_Snyder_MAB5_POLII_L3_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: Pol II ChIP: Combined",
-            "label"         : "Combined MAB-5 (Pol II ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined DAF-16 (Pol II ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4283_Snyder_DAF16_POLII_L4YA_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: Pol II ChIP: Combined",
-            "label"         : "Combined DAF-16 (Pol II ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined AMA-1 (Pol II ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4308_Snyder_AMA1_POLII_L4YA_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: Pol II ChIP: Combined",
-            "label"         : "Combined AMA-1 (Pol II ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined EGL-5 (Pol II ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5876_Snyder_HLH-8_POLII_L3_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: Pol II ChIP: Combined",
-            "label"         : "Combined EGL-5 (Pol II ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined HLH-8 (Pol II ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/6105_Snyder_EOR-1_POLII_L3_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: Pol II ChIP: Combined",
-            "label"         : "Combined HLH-8 (Pol II ChIP)",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "height"            : 40
-            },
-            "variance_band" : 0,
-            "key"           : "Combined EOR-1 (Pol II ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5739_Snyder_EGL-5_POLII_L3_combined.bw",
-            "max_score"     : 200,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE Tracks : Snyder Group: Pol II ChIP: Combined",
-            "label"         : "Combined EOR-1 (Pol II ChIP)",
-            "min_score"     : 0
-        }
-   ]
+  "tracks": [
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined DPY-27 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4095_Snyder_DPY27_GFP_emb_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined DPY-27 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined CEH-14 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4171_Snyder_CEH-14_GFP_L2_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined CEH-14 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "ALR-1 Combined (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4180_Snyder_ALR-1_GFP_L2_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "ALR-1 Combined (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined HLH-8 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4180_Snyder_ALR-1_GFP_L2_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined HLH-8 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined AMA-1 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4213_Snyder_AMA1_GFP_L4YA_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined AMA-1 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined UNC-130 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4257_Snyder_UNC-130_GFP_L1_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined UNC-130 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined LIN-11 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4266_Snyder_LIN-11_GFP_L2_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined LIN-11 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined EOR-1 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4270_Snyder_EOR-1_GFP_L3_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined EOR-1 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined EOR-1 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4270_Snyder_EOR-1_GFP_L3_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined EOR-1 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined MAB-5 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4284_Snyder_MAB5_GFP_L3_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined MAB-5 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined DAF-16 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4297_Snyder_DAF16_GFP_L4YA_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined DAF-16 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined HLH-1 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4319_Snyder_HLH-1_GFP_emb_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined HLH-1 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined LIN-39 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4324_Snyder_LIN-39-GFP_L3_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined LIN-39 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined NHR-6 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4353_Snyder_NHR-6_GFP_L2_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined NHR-6 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined GEI-11 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4366_Snyder_GEI11_GFP_L4_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined GEI-11 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined PES-1 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4377_Snyder_PES1_GFP_L4_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined PES-1 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined EGL-5 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4388_Snyder_EGL5_GFP_L3_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined EGL-5 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined MDL-1 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5388_Snyder_MDL-1_GFP_L1_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined MDL-1 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined MEP-1 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5403_Snyder_MEP-1_GFP_emb_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined MEP-1 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined ELT-3 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5415_Snyder_ELT-3_GFP_L1_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined ELT-3 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined LIN-13 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5425_Snyder_LIN-13_GFP_emb_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined LIN-13 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined BLMP-1 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5426_Snyder_BLMP-1_GFP_L1_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined BLMP-1 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined SKN-1 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5427_Snyder_SKN-1_GFP_L1_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined SKN-1 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined CEH-30 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5446_Snyder_CEH-30_GFP_lemb_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined CEH-30 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined EGL-27 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5452_Snyder_EGL-27_GFP_L1_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined EGL-27 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined PQM-1 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5454_Snyder_PQM-1_GFP_L3_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined PQM-1 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined NHR-105 (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5465_Snyder_NHR-105_GFP_L3_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined NHR-105 (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined LIN-15B (GFP ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5469_Snyder_LIN-15B_GFP_L3_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Combined",
+      "label": "Combined LIN-15B (GFP ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined MAB-5 (Pol II ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4275_Snyder_MAB5_POLII_L3_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Combined",
+      "label": "Combined MAB-5 (Pol II ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined DAF-16 (Pol II ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4283_Snyder_DAF16_POLII_L4YA_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Combined",
+      "label": "Combined DAF-16 (Pol II ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined AMA-1 (Pol II ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4308_Snyder_AMA1_POLII_L4YA_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Combined",
+      "label": "Combined AMA-1 (Pol II ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined EGL-5 (Pol II ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5876_Snyder_HLH-8_POLII_L3_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Combined",
+      "label": "Combined EGL-5 (Pol II ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined HLH-8 (Pol II ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/6105_Snyder_EOR-1_POLII_L3_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Combined",
+      "label": "Combined HLH-8 (Pol II ChIP)",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "height": 40
+      },
+      "variance_band": 0,
+      "key": "Combined EOR-1 (Pol II ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5739_Snyder_EGL-5_POLII_L3_combined.bw",
+      "max_score": 200,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Combined",
+      "label": "Combined EOR-1 (Pol II ChIP)",
+      "min_score": 0
+    }
+  ]
 }
