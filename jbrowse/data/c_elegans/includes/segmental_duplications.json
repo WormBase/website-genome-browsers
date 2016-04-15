@@ -16,7 +16,7 @@
          "metadata" : {
             "shortInfo" : "Polymorphic segmental duplication as defined by the tool OrthoCluster. This feature represents one sequence from a pair of duplicons in the N2 genome."
          },
-         "category": "Genome Structure/Assembly & Curation",
+         "category": "Genome Structure/Genome Structure",
          "key" : "Segmental duplication",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

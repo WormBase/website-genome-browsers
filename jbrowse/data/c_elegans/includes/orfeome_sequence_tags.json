@@ -18,7 +18,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/C. elegans OSTs/{refseq}/trackData.jsonz",
          "compress" : 1,
-         "category": "Transcription/Supporting Evidence",
+         "category": "Genes/Supporting Evidence",
          "metadata" : {
             "shortInfo" : "<a href='http://worfdb.dfci.harvard.edu/'>ORFeome project</a> sequence reads. The ORFeome project designs primer assays for spliced C. elegans mRNAs and then performs sequence reads on rtPCR material, producing 'OSTs.' This track shows ORFeome project OSTs aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each OST."
          },

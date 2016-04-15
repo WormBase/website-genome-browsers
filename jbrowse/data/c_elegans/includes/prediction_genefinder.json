@@ -6,7 +6,7 @@
             "color" : "palevioletred",
             "label" : false
          },
-         "category": "Transcription/Ab-initio predictions",
+         "category": "Genes/Ab-initio predictions",
          "key" : "Prediction: GeneFinder",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

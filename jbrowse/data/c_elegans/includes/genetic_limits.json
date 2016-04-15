@@ -18,7 +18,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Genetic limits/{refseq}/trackData.jsonz",
          "compress" : 1,
-         "category": "Genes",
+         "category": "Genes/Curated Genes",
          "label" : "Genetic limits",
          "type" : "CanvasFeatures",
          "glyph" : "JBrowse/View/FeatureGlyph/Box",

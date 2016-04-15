@@ -9,7 +9,7 @@
          "metadata" : {
             "shortInfo" : "Exact tandem and inverted repetitive elements."
          },
-         "category": "Genome Structure/Assembly & Curation",
+         "category": "Genome Structure/Repeats",
          "key" : "Tandem and Inverted Repeats",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

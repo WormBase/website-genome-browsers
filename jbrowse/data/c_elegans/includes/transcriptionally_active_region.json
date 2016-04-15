@@ -17,7 +17,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Transcriptionally Active Region/{refseq}/trackData.jsonz",
          "compress" : 1,
-         "category": "Transcription/Supporting Evidence",
+         "category": "Genes/Supporting Evidence",
          "type" : "CanvasFeatures",
          "label" : "Transcriptionally Active Region",
          "metadata" : {

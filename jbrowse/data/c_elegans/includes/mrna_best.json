@@ -23,7 +23,7 @@
          },
          "label" : "mRNAs_ncRNAs (best)",
          "type" : "CanvasFeatures",
-         "category": "Transcription/Supporting Evidence",
+         "category": "Genes/Supporting Evidence",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "maxExportSpan" : 50000000
       }

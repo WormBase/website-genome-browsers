@@ -15,7 +15,7 @@
          "urlTemplate" : "../tracks/ORFeome PCR Products/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "category": "Transcription/Supporting Evidence",
+         "category": "Genes/Supporting Evidence",
          "label" : "ORFeome PCR Products",
          "maxExportSpan" : 50000000
       }
