@@ -15,7 +15,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_MAB5_POLII_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "MAB-5 Combined (Pol II ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -35,7 +35,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_DAF16_POLII_L4YA_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "DAF-16 Combined (Pol II ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -55,7 +55,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_AMA1_POLII_L4YA_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "AMA-1 Combined (Pol II ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -75,7 +75,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_EGL-5_POLII_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "EGL-5 Combined (Pol II ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -95,7 +95,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_HLH-8_POLII_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "HLH-8 Combined (Pol II ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -115,7 +115,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_EOR-1_POLII_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "EOR-1 Combined (Pol II ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -135,7 +135,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_POLII_FedL1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_FedL1",
       "max_score": 4,
       "min_score": -4
@@ -155,7 +155,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_POLII_emb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_emb",
       "max_score": 4,
       "min_score": -4
@@ -175,7 +175,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_POLII_Starved-L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_StarvedL1",
       "max_score": 4,
       "min_score": -4

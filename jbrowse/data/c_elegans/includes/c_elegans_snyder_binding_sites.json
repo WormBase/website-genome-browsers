@@ -20,7 +20,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites AMA-1 (Pol II ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: Pol II ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites",
       "label": "Binding Sites AMA-1 (Pol II ChIP)",
       "type": "CanvasFeatures"
     },
@@ -46,7 +46,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites DAF-16 (Pol II ChIP)",
-      "category": "modENCODE : Snyder Group: Pol II ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -68,7 +68,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites EGL-5 (Pol II ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: Pol II ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites",
       "label": "Binding Sites EGL-5 (Pol II ChIP)",
       "type": "CanvasFeatures"
     },
@@ -94,7 +94,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites EOR-1 (Pol II ChIP)",
-      "category": "modENCODE : Snyder Group: Pol II ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -116,7 +116,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites HLH-8 (Pol II ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: Pol II ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites",
       "label": "Binding Sites HLH-8 (Pol II ChIP)",
       "type": "CanvasFeatures"
     },
@@ -142,7 +142,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites MAB-5 (Pol II ChIP)",
-      "category": "modENCODE : Snyder Group: Pol II ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -164,7 +164,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites ALR-1 (GFP ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "Binding Sites ALR-1 (GFP ChIP)",
       "type": "CanvasFeatures"
     },
@@ -190,7 +190,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites AMA-1 (GFP ChIP)",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -212,7 +212,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites BLMP-1 (GFP ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "Binding Sites BLMP-1 (GFP ChIP)",
       "type": "CanvasFeatures"
     },
@@ -238,7 +238,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites CEH-14 (GFP ChIP)",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -260,7 +260,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites CEH-30 (GFP ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "Binding Sites CEH-30 (GFP ChIP)",
       "type": "CanvasFeatures"
     },
@@ -286,7 +286,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites DAF-16 (GFP ChIP)",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -308,7 +308,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites DPY-27 (GFP ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "Binding Sites DPY-27 (GFP ChIP)",
       "type": "CanvasFeatures"
     },
@@ -334,7 +334,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites EGL-27 (GFP ChIP)",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -356,7 +356,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites EGL-5 (GFP ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "Binding Sites EGL-5 (GFP ChIP)",
       "type": "CanvasFeatures"
     },
@@ -382,7 +382,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites ELT-3 (GFP ChIP)",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -404,7 +404,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites EOR-1 (GFP ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "Binding Sites EOR-1 (GFP ChIP)",
       "type": "CanvasFeatures"
     },
@@ -430,7 +430,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites GEI-11 (GFP ChIP)",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -452,7 +452,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites HLH-1 (GFP ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "Binding Sites HLH-1 (GFP ChIP)",
       "type": "CanvasFeatures"
     },
@@ -478,7 +478,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites HLH-8 (GFP ChIP)",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -500,7 +500,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites LIN-13 (GFP ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "Binding Sites LIN-13 (GFP ChIP)",
       "type": "CanvasFeatures"
     },
@@ -526,7 +526,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites LIN-15B (GFP ChIP)",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -548,7 +548,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites LIN-39 (GFP ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "Binding Sites LIN-39 (GFP ChIP)",
       "type": "CanvasFeatures"
     },
@@ -574,7 +574,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites MAB-5 (GFP ChIP)",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -596,7 +596,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites MDL-1 (GFP ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "Binding Sites MDL-1 (GFP ChIP)",
       "type": "CanvasFeatures"
     },
@@ -622,7 +622,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites MEP-1 (GFP ChIP)",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -644,7 +644,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites NHR-105 (GFP ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "Binding Sites NHR-105 (GFP ChIP)",
       "type": "CanvasFeatures"
     },
@@ -670,7 +670,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites NHR-6 (GFP ChIP)",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -692,7 +692,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites PES-1 (GFP ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "Binding Sites PES-1 (GFP ChIP)",
       "type": "CanvasFeatures"
     },
@@ -718,7 +718,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites PQM-1 (GFP ChIP)",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -740,7 +740,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Binding Sites SKN-1 (GFP ChIP)/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "Binding Sites SKN-1 (GFP ChIP)",
       "type": "CanvasFeatures"
     },
@@ -766,7 +766,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Binding Sites UNC-130 (GFP ChIP)",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     }
   ]
 }

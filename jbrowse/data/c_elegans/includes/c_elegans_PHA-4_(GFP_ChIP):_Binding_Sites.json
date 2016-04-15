@@ -23,7 +23,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_L2_GFP/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "PHA-4 (GFP ChIP): Binding Sites: PHA4_L2_GFP",
       "type": "CanvasFeatures"
     },
@@ -52,7 +52,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "PHA-4 (GFP ChIP): Binding Sites: PHA4_FedL1_GFP",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -77,7 +77,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_emb_GFP/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "PHA-4 (GFP ChIP): Binding Sites: PHA4_emb_GFP",
       "type": "CanvasFeatures"
     },
@@ -106,7 +106,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "PHA-4 (GFP ChIP): Binding Sites: PHA4_StarvedL1_GFP",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     },
     {
       "displayMode": "collapsed",
@@ -131,7 +131,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_YA/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
       "label": "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_YA",
       "type": "CanvasFeatures"
     },
@@ -160,7 +160,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_lemb",
-      "category": "modENCODE : Snyder Group: GFP ChIP: Binding Sites"
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
     }
   ]
 }

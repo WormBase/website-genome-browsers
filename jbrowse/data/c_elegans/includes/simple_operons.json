@@ -12,7 +12,7 @@
          "urlTemplate" : "../tracks/Operons/{refseq}/trackData.jsonz",
          "compress" : 1,
          "label" : "Operons",
-         "category" : "Genes",
+         "category": "Genes",
          "type" : "CanvasFeatures",
          "metadata" : {
             "shortInfo" : "These are operons published by Blumenthal et al, Nature 417: 851-854 (2002)."

@@ -7,7 +7,7 @@
             "borderColor" : "black",
             "height" : 6
          },
-         "category" : "Assembly",
+         "category": "Assembly",
          "key" : "BAC end reads",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

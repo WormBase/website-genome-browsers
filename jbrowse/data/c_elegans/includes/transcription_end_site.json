@@ -11,7 +11,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Transcription end site/{refseq}/trackData.jsonz",
          "compress" : 1,
-         "category" : "Transcription:Signals",
+         "category": "Transcription/Signals",
          "metadata" : {
             "shortInfo" : "Transcription_end_site defined by analysis of RNASeq short read datasets (example Hillier et al.)"
          },

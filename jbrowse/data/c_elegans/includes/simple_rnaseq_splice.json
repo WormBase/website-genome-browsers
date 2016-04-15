@@ -22,7 +22,7 @@
          "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "RNASeq introns",
-         "category" : "Expression",
+         "category": "Expression",
          "metadata" : {
             "shortInfo" : "These are introns formed by aligned RNASeq reads spanning a region of the genome."
          },

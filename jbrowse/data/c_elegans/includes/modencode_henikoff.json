@@ -17,7 +17,7 @@
       "max_score": 3,
       "min_score": -3,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Henikoff Group",
+      "category": "modENCODE/Henikoff Group",
       "label": "Mononucleosomes, Adt Mononucleosomes"
     },
     {
@@ -37,7 +37,7 @@
       "max_score": 3,
       "min_score": -3,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Henikoff Group",
+      "category": "modENCODE/Henikoff Group",
       "label": "Mononucleosomes, Emb Mononucleosomes"
     },
     {
@@ -57,7 +57,7 @@
       "max_score": 3,
       "min_score": -3,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Henikoff Group",
+      "category": "modENCODE/Henikoff Group",
       "label": "H3.3 Chromatin fractions extracted with NaCl, 350mM fraction"
     },
     {
@@ -77,7 +77,7 @@
       "max_score": 3,
       "min_score": -3,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Henikoff Group",
+      "category": "modENCODE/Henikoff Group",
       "label": "H3.3 Chromatin fractions extracted with NaCl, 600mM fraction"
     },
     {
@@ -97,7 +97,7 @@
       "max_score": 3,
       "min_score": -3,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Henikoff Group",
+      "category": "modENCODE/Henikoff Group",
       "label": "H3.3 Chromatin fractions extracted with NaCl, 80mM fraction"
     },
     {
@@ -117,7 +117,7 @@
       "max_score": 3,
       "min_score": -3,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Henikoff Group",
+      "category": "modENCODE/Henikoff Group",
       "label": "Chromatin fractions extracted with NaCl, 80mM fraction"
     },
     {
@@ -137,7 +137,7 @@
       "max_score": 3,
       "min_score": -3,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Henikoff Group",
+      "category": "modENCODE/Henikoff Group",
       "label": "Chromatin fractions extracted with NaCl, 600mM fraction"
     },
     {
@@ -157,7 +157,7 @@
       "max_score": 3,
       "min_score": -3,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Henikoff Group",
+      "category": "modENCODE/Henikoff Group",
       "label": "Chromatin fractions extracted with NaCl, 600mM Pellet"
     }
   ]

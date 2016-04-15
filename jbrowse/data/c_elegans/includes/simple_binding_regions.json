@@ -21,7 +21,7 @@
          "metadata" : {
             "shortInfo" : "Regions within which there may be one or more binding sites of a non-TF, non-Histone molecule."
          },
-         "category" : "Sequence Features:Binding Sites & Regions",
+         "category": "Sequence Features/Binding Sites & Regions",
          "maxExportSpan" : 50000000
       }
    ]

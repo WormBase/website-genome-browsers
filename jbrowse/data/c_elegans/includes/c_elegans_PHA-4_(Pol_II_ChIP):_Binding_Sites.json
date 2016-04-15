@@ -25,7 +25,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "PHA-4 (Pol II ChIP): Binding Sites: PHA4_POLII_StarvedL1",
-      "category": "modENCODE : Snyder Group: Pol II ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites",
       "maxExportSpan": 50000000
     },
     {
@@ -51,7 +51,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/PHA-4 (Pol II ChIP): Binding Sites: PHA4_POLII_FedL1/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Snyder Group: Pol II ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites",
       "label": "PHA-4 (Pol II ChIP): Binding Sites: PHA4_POLII_FedL1",
       "type": "CanvasFeatures",
       "maxExportSpan": 50000000
@@ -81,7 +81,7 @@
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "PHA-4 (Pol II ChIP): Binding Sites: PHA4_POLII_emb",
-      "category": "modENCODE : Snyder Group: Pol II ChIP: Binding Sites",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites",
       "maxExportSpan": 50000000
     }
   ]

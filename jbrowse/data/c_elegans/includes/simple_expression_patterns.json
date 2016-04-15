@@ -18,7 +18,7 @@
          "compress" : 1,
          "label" : "Expression patterns",
          "type" : "CanvasFeatures",
-         "category" : "Expression",
+         "category": "Expression",
          "metadata" : {
             "shortInfo" : "This track represents sequences that were used for in vivo expression pattern analysis, such as promoter sequences for GFP or LacZ constructs."
          },

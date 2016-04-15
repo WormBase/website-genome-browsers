@@ -9,7 +9,7 @@
          "metadata" : {
             "shortInfo" : "Repetitive regions identified by RepeatMasker."
          },
-         "category" : "Genome Structure:Assembly & Curation",
+         "category": "Genome Structure/Assembly & Curation",
          "key" : "Repeat Region (RepeatMasker)",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

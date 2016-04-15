@@ -16,7 +16,7 @@
          },
          "subParts" : "CDS",
          "key" : "genBlastG CDS predictions",
-         "category" : "Genes",
+         "category": "Genes",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/genBlastG CDS predictions/{refseq}/trackData.jsonz",

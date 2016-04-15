@@ -17,7 +17,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult spe-9 Day 0 miRNA expression change/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group: miRNA",
+      "category": "modENCODE/Waterston Group/miRNA",
       "type": "CanvasFeatures",
       "label": "Adult spe-9 Day 0 miRNA expression change",
       "metadata": {
@@ -36,7 +36,7 @@
         "label": "{miRNABalloon}",
         "title": "miRNA"
       },
-      "category": "modENCODE Tracks : Waterston Group: miRNA",
+      "category": "modENCODE/Waterston Group/miRNA",
       "key": "Adult spe-9 Day 5 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -60,7 +60,7 @@
         "label": "{miRNABalloon}",
         "title": "miRNA"
       },
-      "category": "modENCODE Tracks : Waterston Group: miRNA",
+      "category": "modENCODE/Waterston Group/miRNA",
       "key": "Adult spe-9 Day 8 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -84,7 +84,7 @@
         "label": "{miRNABalloon}",
         "title": "miRNA"
       },
-      "category": "modENCODE Tracks : Waterston Group: miRNA",
+      "category": "modENCODE/Waterston Group/miRNA",
       "key": "mid-L1 Embryo miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -108,7 +108,7 @@
         "label": "{miRNABalloon}",
         "title": "miRNA"
       },
-      "category": "modENCODE Tracks : Waterston Group: miRNA",
+      "category": "modENCODE/Waterston Group/miRNA",
       "key": "Embryo miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -132,7 +132,7 @@
         "label": "{miRNABalloon}",
         "title": "miRNA"
       },
-      "category": "modENCODE Tracks : Waterston Group: miRNA",
+      "category": "modENCODE/Waterston Group/miRNA",
       "key": "mid-L2 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -156,7 +156,7 @@
         "label": "{miRNABalloon}",
         "title": "miRNA"
       },
-      "category": "modENCODE Tracks : Waterston Group: miRNA",
+      "category": "modENCODE/Waterston Group/miRNA",
       "key": "mid-L3 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -180,7 +180,7 @@
         "label": "{miRNABalloon}",
         "title": "miRNA"
       },
-      "category": "modENCODE Tracks : Waterston Group: miRNA",
+      "category": "modENCODE/Waterston Group/miRNA",
       "key": "mid-L4 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -204,7 +204,7 @@
         "label": "{miRNABalloon}",
         "title": "miRNA"
       },
-      "category": "modENCODE Tracks : Waterston Group: miRNA",
+      "category": "modENCODE/Waterston Group/miRNA",
       "key": "Young Adult miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -228,7 +228,7 @@
         "label": "{miRNABalloon}",
         "title": "miRNA"
       },
-      "category": "modENCODE Tracks : Waterston Group: miRNA",
+      "category": "modENCODE/Waterston Group/miRNA",
       "key": "Young Adult male dpy-5;him-8 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -252,7 +252,7 @@
         "label": "{miRNABalloon}",
         "title": "miRNA"
       },
-      "category": "modENCODE Tracks : Waterston Group: miRNA",
+      "category": "modENCODE/Waterston Group/miRNA",
       "key": "Adult spe-9 Day 12 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",

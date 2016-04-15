@@ -13,7 +13,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "Adult Harposporium control exp. OP50 2-24hrs confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -35,7 +35,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "Adult Harposporium exp. 2-24hrs confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -57,7 +57,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "Adult S.macescens control exp. OP50 1-24hrs confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -79,7 +79,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "Adult S.macescens Db10 exp. 1-24hrs confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -101,7 +101,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "Adult spe-9 confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -123,7 +123,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "dauer daf-2 25dC 91hrs confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -145,7 +145,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "dauer entry daf-2 25dC 48hrs confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -167,7 +167,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -189,7 +189,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "early embryo confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -211,7 +211,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "embryo him-8 confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -233,7 +233,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "L4 soma no DNAse I confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -255,7 +255,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "late embryo confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -277,7 +277,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "mid-L1 lin-35 confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -299,7 +299,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "male mid-L4 dpy28 him-8 25dC 30hrs confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -321,7 +321,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "mid-L1 confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -343,7 +343,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "mid-L2 confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -365,7 +365,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "mid-L3 confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -387,7 +387,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "mid-L4 confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
@@ -409,7 +409,7 @@
         "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
         "title": ""
       },
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Introns",
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
       "key": "Young Adult confirmed introns",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",

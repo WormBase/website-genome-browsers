@@ -15,7 +15,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8240.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ALY-2 Combined (GFP ChIP), ALY-2_GFP_L3",
       "max_score": 4,
       "min_score": -4
@@ -35,7 +35,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/14857.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ALY-2 Combined (GFP ChIP), ALY-2_GFP_L2",
       "max_score": 4,
       "min_score": -4
@@ -55,7 +55,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8102.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ALY-2 Combined (GFP ChIP), ALY-2_GFP_L1",
       "max_score": 4,
       "min_score": -4
@@ -75,7 +75,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_ALR-1_GFP_L2_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ALR-1 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -95,7 +95,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_AMA1_GFP_L4YA_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "AMA-1 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -115,7 +115,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8172.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "C01B12.2 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -135,7 +135,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_CEH-14_GFP_L2_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "CEH-14 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -155,7 +155,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9166.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "CEH-26 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -175,7 +175,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_CEH-30_GFP_lemb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "CEH-30 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -195,7 +195,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8115.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "CES-1 Combined (GFP ChIP), CES-1_GFP_L4",
       "max_score": 4,
       "min_score": -4
@@ -215,7 +215,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9155.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "CES-1 Combined (GFP ChIP), CES-1_GFP_L1",
       "max_score": 4,
       "min_score": -4
@@ -235,7 +235,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/11327.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "CES-1 Combined (GFP ChIP), CES-1_GFP_L3",
       "max_score": 4,
       "min_score": -4
@@ -255,7 +255,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8212.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "DAF-12 Combined (GFP ChIP), DAF-12_GFP_L4",
       "max_score": 4,
       "min_score": -4
@@ -275,7 +275,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8225.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "DAF-12 Combined (GFP ChIP), DAF-12_GFP_L3 OP222",
       "max_score": 4,
       "min_score": -4
@@ -295,7 +295,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9252.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "DAF-12 Combined (GFP ChIP), DAF-12 GFP L3 OP167",
       "max_score": 4,
       "min_score": -4
@@ -315,7 +315,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_DAF16_GFP_L4YA_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "DAF-16 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -335,7 +335,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_DPY27_GFP_emb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "DPY-27 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -355,7 +355,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_EGL5_GFP_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "EGL-5 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -375,7 +375,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/20469.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "EGL-27 Combined (GFP ChIP), EGL27 L2",
       "max_score": 4,
       "min_score": -4
@@ -395,7 +395,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_EGL-27_GFP_L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "EGL-27 Combined (GFP ChIP), EGL27 L1",
       "max_score": 4,
       "min_score": -4
@@ -415,7 +415,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/7987.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "EOR-1 Combined (GFP ChIP), EOR-1 GFP L3",
       "max_score": 4,
       "min_score": -4
@@ -435,7 +435,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8324.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "EOR-1 Combined (GFP ChIP), EOR-1 GFP L3.v2",
       "max_score": 4,
       "min_score": -4
@@ -455,7 +455,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9283.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "F16B12.6 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -475,7 +475,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/15178.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "F45C12.2 Combined (GFP ChIP), F45C12.2_GFP_L2",
       "max_score": 4,
       "min_score": -4
@@ -495,7 +495,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/13531.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "F45C12.2 Combined (GFP ChIP), F45C12.2_GFP_L1",
       "max_score": 4,
       "min_score": -4
@@ -515,7 +515,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8277.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "F45C12.2 Combined (GFP ChIP), F45C12.2_GFP_L3",
       "max_score": 4,
       "min_score": -4
@@ -535,7 +535,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8288.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "FOS-1 Combined (GFP ChIP), FOS-1 GFP L1",
       "max_score": 4,
       "min_score": -4
@@ -555,7 +555,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/13459.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "FOS-1 Combined (GFP ChIP), FOS-1 GFP L3",
       "max_score": 4,
       "min_score": -4
@@ -575,7 +575,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/13477.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "FOS-1 Combined (GFP ChIP), FOS-1 GFP L4",
       "max_score": 4,
       "min_score": -4
@@ -595,7 +595,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8168.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "FOS-1 Combined (GFP ChIP), FOS-1 GFP L2",
       "max_score": 4,
       "min_score": -4
@@ -615,7 +615,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_HLH-1_GFP_emb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "HLH-1 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -635,7 +635,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_LIN-11_GFP_L2_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-11 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -655,7 +655,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/15180.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-15B Combined (GFP ChIP), LIN15B_GFP_L1",
       "max_score": 4,
       "min_score": -4
@@ -675,7 +675,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_LIN-15B_GFP_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-15B Combined (GFP ChIP), LIN15B_GFP_L3",
       "max_score": 4,
       "min_score": -4
@@ -695,7 +695,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9120.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-15B Combined (GFP ChIP), LIN15B_GFP_L4",
       "max_score": 4,
       "min_score": -4
@@ -715,7 +715,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9074.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "MEF-2 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -735,7 +735,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_MDL-1_GFP_L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "MDL-1 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -755,7 +755,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_MEP-1_GFP_emb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "MEP-1 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -775,7 +775,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_NHR-6v2_GFP_L2_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-6.v2 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -795,7 +795,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9140.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "DPL-1 Combined (GFP ChIP), Pdpl1_DPL1_GFP_L1",
       "max_score": 4,
       "min_score": -4
@@ -815,7 +815,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/15138.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "DPL-1 Combined (GFP ChIP), DPL1_GFP_L1",
       "max_score": 4,
       "min_score": -4
@@ -835,7 +835,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/14815.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "DPL-1 Combined (GFP ChIP), DPL-1_GFP_L4",
       "max_score": 4,
       "min_score": -4
@@ -855,7 +855,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9184.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "DPL-1 Combined (GFP ChIP), PIE1_DPL1_GFP_YA",
       "max_score": 4,
       "min_score": -4
@@ -875,7 +875,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PES1_GFP_L4_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "PES-1 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -895,7 +895,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PQM-1_GFP_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "PQM-1 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -915,7 +915,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9299.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "SEA-2 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -935,7 +935,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_UNC-130_GFP_L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-130 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -955,7 +955,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9273.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "W03F9.2 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -975,7 +975,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8200.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZAG-1 Combined (GFP ChIP), ZAG-1_GFP_L3",
       "max_score": 4,
       "min_score": -4
@@ -995,7 +995,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8226.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZAG-1 Combined (GFP ChIP), ZAG-1_GFP_L1",
       "max_score": 4,
       "min_score": -4
@@ -1015,7 +1015,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8118.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZAG-1 Combined (GFP ChIP), ZAG-1_GFP_L2",
       "max_score": 4,
       "min_score": -4
@@ -1035,7 +1035,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/13375.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZAG-1 Combined (GFP ChIP), ZAG-1_GFP_L4",
       "max_score": 4,
       "min_score": -4
@@ -1055,7 +1055,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/13835.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZK377.2 Combined (GFP ChIP), ZK377.2_GFP_L4",
       "max_score": 4,
       "min_score": -4
@@ -1075,7 +1075,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/14936.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZK377.2 Combined (GFP ChIP), ZK377.2_GFP_L1",
       "max_score": 4,
       "min_score": -4
@@ -1095,7 +1095,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/13514.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZK377.2 Combined (GFP ChIP), ZK377.2_GFP_L2",
       "max_score": 4,
       "min_score": -4
@@ -1115,7 +1115,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/13831.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZK377.2 Combined (GFP ChIP), ZK377.2_GFP_L3",
       "max_score": 4,
       "min_score": -4
@@ -1135,7 +1135,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/13558.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-77 Combined (GFP ChIP), NHR77_GFP_L4",
       "max_score": 4,
       "min_score": -4
@@ -1155,7 +1155,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/13481.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-77 Combined (GFP ChIP), NHR77_GFP_L3",
       "max_score": 4,
       "min_score": -4
@@ -1175,7 +1175,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/14974.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-77 Combined (GFP ChIP), NHR77_GFP_L1",
       "max_score": 4,
       "min_score": -4
@@ -1195,7 +1195,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/13475.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-77 Combined (GFP ChIP), NHR77_GFP_L2",
       "max_score": 4,
       "min_score": -4
@@ -1215,7 +1215,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/14892.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-116 Combined (GFP ChIP), NHR116_GFP_L2",
       "max_score": 4,
       "min_score": -4
@@ -1235,7 +1235,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/13527.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-116 Combined (GFP ChIP), NHR116_GFP_L1",
       "max_score": 4,
       "min_score": -4
@@ -1255,7 +1255,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/14900.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "SPTF-1 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -1275,7 +1275,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/14844.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "C16A3.4 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -1295,7 +1295,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/15149.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "SEM-4 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -1315,7 +1315,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18234.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-11 Combined (GFP ChIP), NHR-11_L3",
       "max_score": 4,
       "min_score": -4
@@ -1335,7 +1335,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18199.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-11 Combined (GFP ChIP), NHR-11_L1",
       "max_score": 4,
       "min_score": -4
@@ -1355,7 +1355,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18232.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-11 Combined (GFP ChIP), NHR-11_LEMB",
       "max_score": 4,
       "min_score": -4
@@ -1375,7 +1375,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18201.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-11 Combined (GFP ChIP), NHR-11_L4",
       "max_score": 4,
       "min_score": -4
@@ -1395,7 +1395,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9123.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-11 Combined (GFP ChIP), NHR11_GFP_L2",
       "max_score": 4,
       "min_score": -4
@@ -1415,7 +1415,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18182.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-62 Combined (GFP ChIP), UNC_62_L4",
       "max_score": 4,
       "min_score": -4
@@ -1435,7 +1435,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8187.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-62 Combined (GFP ChIP), UNC-62_GFP_L1",
       "max_score": 4,
       "min_score": -4
@@ -1455,7 +1455,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18274.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-62 Combined (GFP ChIP), UNC_62_EMB",
       "max_score": 4,
       "min_score": -4
@@ -1475,7 +1475,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8304.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-62 Combined (GFP ChIP), UNC-62_GFP_L2",
       "max_score": 4,
       "min_score": -4
@@ -1495,7 +1495,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8135.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-62 Combined (GFP ChIP), UNC-62_GFP_L3",
       "max_score": 4,
       "min_score": -4
@@ -1515,7 +1515,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/13503.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-62 Combined (GFP ChIP), UNC-62_GFP_YA",
       "max_score": 4,
       "min_score": -4
@@ -1535,7 +1535,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18292.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-28 Combined (GFP ChIP), NHR-28_EMB",
       "max_score": 4,
       "min_score": -4
@@ -1555,7 +1555,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8266.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-28 Combined (GFP ChIP), NHR-28_GFP_L3",
       "max_score": 4,
       "min_score": -4
@@ -1575,7 +1575,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8157.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-28 Combined (GFP ChIP), NHR-28_GFP_L4",
       "max_score": 4,
       "min_score": -4
@@ -1595,7 +1595,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18323.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-28 Combined (GFP ChIP), NHR-28_L1",
       "max_score": 4,
       "min_score": -4
@@ -1615,7 +1615,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18312.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "FKH-10 Combined (GFP ChIP), FKH-10_LEMB",
       "max_score": 4,
       "min_score": -4
@@ -1635,7 +1635,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18239.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "FKH-10 Combined (GFP ChIP), FKH-10_L4",
       "max_score": 4,
       "min_score": -4
@@ -1655,7 +1655,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18373.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "C34F6.9 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -1675,7 +1675,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18457.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZTF-7 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -1695,7 +1695,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_BLMP-1_GFP_L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "BLMP-1 Combined (GFP ChIP), BLMP1_GFP_L1",
       "max_score": 4,
       "min_score": -4
@@ -1715,7 +1715,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18246.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "BLMP-1 Combined (GFP ChIP), BLMP-1_Emb",
       "max_score": 4,
       "min_score": -4
@@ -1735,7 +1735,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_LIN-39-GFP_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-39 Combined (GFP ChIP), LIN39_L3_GFP",
       "max_score": 4,
       "min_score": -4
@@ -1755,7 +1755,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18261.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-39 Combined (GFP ChIP), LIN-39_L1",
       "max_score": 4,
       "min_score": -4
@@ -1775,7 +1775,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18338.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-39 Combined (GFP ChIP), LIN-39_L4",
       "max_score": 4,
       "min_score": -4
@@ -1795,7 +1795,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18183.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-39 Combined (GFP ChIP), LIN-39_L2",
       "max_score": 4,
       "min_score": -4
@@ -1815,7 +1815,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18288.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-67 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -1835,7 +1835,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18589.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ELT-1 Combined (GFP ChIP), ELT-1_L3",
       "max_score": 4,
       "min_score": -4
@@ -1855,7 +1855,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17925.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ELT-1 Combined (GFP ChIP), ELT-1_L2",
       "max_score": 4,
       "min_score": -4
@@ -1875,7 +1875,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18060.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "JUN-1 Combined (GFP ChIP), JUN-1_L4",
       "max_score": 4,
       "min_score": -4
@@ -1895,7 +1895,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17848.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "JUN-1 Combined (GFP ChIP), JUN-1_L3",
       "max_score": 4,
       "min_score": -4
@@ -1915,7 +1915,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18013.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "JUN-1 Combined (GFP ChIP), JUN-1_L1",
       "max_score": 4,
       "min_score": -4
@@ -1935,7 +1935,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17983.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-39 Combined (GFP ChIP), UNC-39_L2",
       "max_score": 4,
       "min_score": -4
@@ -1955,7 +1955,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18016.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-39 Combined (GFP ChIP), UNC-39_EMB",
       "max_score": 4,
       "min_score": -4
@@ -1975,7 +1975,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17957.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ELT-3 Combined (GFP ChIP), ELT3 EMB",
       "max_score": 4,
       "min_score": -4
@@ -1995,7 +1995,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/20327.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ELT-3 Combined (GFP ChIP), ELT3 L3",
       "max_score": 4,
       "min_score": -4
@@ -2015,7 +2015,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_ELT-3_GFP_L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ELT-3 Combined (GFP ChIP), ELT3 L1",
       "max_score": 4,
       "min_score": -4
@@ -2035,7 +2035,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17875.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-13 Combined (GFP ChIP), LIN-13_L2",
       "max_score": 4,
       "min_score": -4
@@ -2055,7 +2055,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17843.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-13 Combined (GFP ChIP), LIN-13_L1",
       "max_score": 4,
       "min_score": -4
@@ -2075,7 +2075,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17915.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-13 Combined (GFP ChIP), LIN-13_L4",
       "max_score": 4,
       "min_score": -4
@@ -2095,7 +2095,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_LIN-13_GFP_emb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-13 Combined (GFP ChIP), LIN13_GFP_emb",
       "max_score": 4,
       "min_score": -4
@@ -2115,7 +2115,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17893.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-12 Combined (GFP ChIP), NHR-12_EMB",
       "max_score": 4,
       "min_score": -4
@@ -2135,7 +2135,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18443.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-12 Combined (GFP ChIP), NHR-12_L2",
       "max_score": 4,
       "min_score": -4
@@ -2155,7 +2155,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17850.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-12 Combined (GFP ChIP), NHR-12_L3",
       "max_score": 4,
       "min_score": -4
@@ -2175,7 +2175,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17949.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZTF-11 Combined (GFP ChIP), ZTF-11_L4",
       "max_score": 4,
       "min_score": -4
@@ -2195,7 +2195,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18125.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZTF-11 Combined (GFP ChIP), ZTF-11_EMB",
       "max_score": 4,
       "min_score": -4
@@ -2215,7 +2215,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18071.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZTF-11 Combined (GFP ChIP), ZTF-11_L3",
       "max_score": 4,
       "min_score": -4
@@ -2235,7 +2235,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18047.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "CEH-28 Combined (GFP ChIP), CEH-28_L3",
       "max_score": 4,
       "min_score": -4
@@ -2255,7 +2255,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18027.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "CEH-28 Combined (GFP ChIP), CEH-28_L4",
       "max_score": 4,
       "min_score": -4
@@ -2275,7 +2275,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17842.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-10 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2295,7 +2295,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17970.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-21 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2315,7 +2315,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18094.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZIP-2 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2335,7 +2335,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18096.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "DVE-1 Combined (GFP ChIP), DVE-1_L4",
       "max_score": 4,
       "min_score": -4
@@ -2355,7 +2355,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18197.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "DVE-1 Combined (GFP ChIP), DVE-1_LEMB",
       "max_score": 4,
       "min_score": -4
@@ -2375,7 +2375,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18154.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "HLH-30 Combined (GFP ChIP), HLH-30_LEMB",
       "max_score": 4,
       "min_score": -4
@@ -2395,7 +2395,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18170.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "HLH-30 Combined (GFP ChIP), HLH-30_L4",
       "max_score": 4,
       "min_score": -4
@@ -2415,7 +2415,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18124.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "MED-1 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2435,7 +2435,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18126.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NFYA-1 Combined (GFP ChIP), NFYA-1_L3",
       "max_score": 4,
       "min_score": -4
@@ -2455,7 +2455,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18149.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NFYA-1 Combined (GFP ChIP), NFYA-1_YA",
       "max_score": 4,
       "min_score": -4
@@ -2475,7 +2475,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18095.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NFYA-1 Combined (GFP ChIP), NFYA-1_LEMB",
       "max_score": 4,
       "min_score": -4
@@ -2495,7 +2495,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/19760.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "F23B12.7 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2515,7 +2515,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18908.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "PEB-1 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2535,7 +2535,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18530.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-25 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2555,7 +2555,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18917.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-55 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2575,7 +2575,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18850.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "TLP-1 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2595,7 +2595,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18752.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "FKH-2 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2615,7 +2615,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18576.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-2 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2635,7 +2635,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18933.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-129 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2655,7 +2655,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18655.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "CEH-39 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2675,7 +2675,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18735.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "MML-1 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2695,7 +2695,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18593.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "F23F12.9 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2715,7 +2715,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18472.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "SMA-9 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2735,7 +2735,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18549.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-6 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2755,7 +2755,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18882.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "N2_POLIII_YA Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2775,7 +2775,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18783.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "CEH-16 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -2795,7 +2795,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18715.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "R02D3.7 Combined (GFP ChIP), R02D3.7_L4",
       "max_score": 4,
       "min_score": -4
@@ -2815,7 +2815,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/14869.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "R02D3.7 Combined (GFP ChIP), R02D3.7_GFP_L3",
       "max_score": 4,
       "min_score": -4
@@ -2835,7 +2835,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/8255.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "R02D3.7 Combined (GFP ChIP), R02D3.7_GFP_L2",
       "max_score": 4,
       "min_score": -4
@@ -2855,7 +2855,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/19116.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "PHA-4 Combined (GFP ChIP), PHA-4_L3",
       "max_score": 4,
       "min_score": -4
@@ -2875,7 +2875,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18725.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "PHA-4 Combined (GFP ChIP), PHA-4 L4",
       "max_score": 4,
       "min_score": -4
@@ -2895,7 +2895,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_GFP_emb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "PHA-4 Combined (GFP ChIP), PHA4_emb_GFP",
       "max_score": 4,
       "min_score": -4
@@ -2915,7 +2915,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_GFP_FedL1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "PHA-4 Combined (GFP ChIP), PHA4_FedL1_GFP",
       "max_score": 4,
       "min_score": -4
@@ -2935,7 +2935,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_GFP_lemb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "PHA-4 Combined (GFP ChIP), PHA4_GFP_lemb",
       "max_score": 4,
       "min_score": -4
@@ -2955,7 +2955,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_GFP_L2_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "PHA-4 Combined (GFP ChIP), PHA4_L2_GFP",
       "max_score": 4,
       "min_score": -4
@@ -2975,7 +2975,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_GFP_YA_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "PHA-4 Combined (GFP ChIP), PHA4_GFP_YA",
       "max_score": 4,
       "min_score": -4
@@ -2995,7 +2995,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_GFP_Starved-L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "PHA-4 Combined (GFP ChIP), PHA4_StarvedL1_GFP",
       "max_score": 4,
       "min_score": -4
@@ -3015,7 +3015,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18622.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "HAM-1 Combined (GFP ChIP), HAM-1_L4",
       "max_score": 4,
       "min_score": -4
@@ -3035,7 +3035,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18787.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "HAM-1 Combined (GFP ChIP), HAM-1_L1",
       "max_score": 4,
       "min_score": -4
@@ -3055,7 +3055,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18635.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "MAB-5 Combined (GFP ChIP), MAB-5_EMB",
       "max_score": 4,
       "min_score": -4
@@ -3075,7 +3075,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18826.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "MAB-5 Combined (GFP ChIP), MAB-5_L2",
       "max_score": 4,
       "min_score": -4
@@ -3095,7 +3095,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_MAB5_GFP_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "MAB-5 Combined (GFP ChIP), MAB5_L3_GFP",
       "max_score": 4,
       "min_score": -4
@@ -3115,7 +3115,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17944.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZTF-4 Combined (GFP ChIP), ZTF-4_L1",
       "max_score": 4,
       "min_score": -4
@@ -3135,7 +3135,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/19078.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZTF-4 Combined (GFP ChIP), ZTF-4_L3",
       "max_score": 4,
       "min_score": -4
@@ -3155,7 +3155,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18015.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "ZTF-4 Combined (GFP ChIP), ZTF-4_L2",
       "max_score": 4,
       "min_score": -4
@@ -3175,7 +3175,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17923.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LSY-2 Combined (GFP ChIP), LSY-2_L4",
       "max_score": 4,
       "min_score": -4
@@ -3195,7 +3195,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17883.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LSY-2 Combined (GFP ChIP), LSY-2_L2",
       "max_score": 4,
       "min_score": -4
@@ -3215,7 +3215,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18596.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LSY-2 Combined (GFP ChIP), LSY-2_EMB",
       "max_score": 4,
       "min_score": -4
@@ -3235,7 +3235,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_SKN-1_GFP_L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "SKN-1 Combined (GFP ChIP), SKN1_L1",
       "max_score": 4,
       "min_score": -4
@@ -3255,7 +3255,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17890.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "SKN-1 Combined (GFP ChIP), SKN1_L4",
       "max_score": 4,
       "min_score": -4
@@ -3275,7 +3275,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/20859.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "SKN-1 Combined (GFP ChIP), SKN1_L2",
       "max_score": 4,
       "min_score": -4
@@ -3295,7 +3295,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18687.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "SKN-1 Combined (GFP ChIP), SKN1_L3",
       "max_score": 4,
       "min_score": -4
@@ -3315,7 +3315,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18660.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-23 Combined (GFP ChIP), NHR-23_L3",
       "max_score": 4,
       "min_score": -4
@@ -3335,7 +3335,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18037.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-23 Combined (GFP ChIP), NHR-23_L2",
       "max_score": 4,
       "min_score": -4
@@ -3355,7 +3355,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9188.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "EFL-1 Combined (GFP ChIP), EFL1 L1",
       "max_score": 4,
       "min_score": -4
@@ -3375,7 +3375,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18980.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "EFL-1 Combined (GFP ChIP), EFL1 L1",
       "max_score": 4,
       "min_score": -4
@@ -3395,7 +3395,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18847.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "EFL-1 Combined (GFP ChIP), N2 EFL1 anti-EFL1 L1",
       "max_score": 4,
       "min_score": -4
@@ -3415,7 +3415,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9107.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "EFL-1 Combined (GFP ChIP), EFL1 YA",
       "max_score": 4,
       "min_score": -4
@@ -3435,7 +3435,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/20512.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "GEI-11 Combined (GFP ChIP), GEI-11_Emb",
       "max_score": 4,
       "min_score": -4
@@ -3455,7 +3455,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/9256.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "GEI-11 Combined (GFP ChIP), GEI11_L2_GFP",
       "max_score": 4,
       "min_score": -4
@@ -3475,7 +3475,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_GEI11_GFP_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "GEI-11 Combined (GFP ChIP), GEI11_L3_GFP",
       "max_score": 4,
       "min_score": -4
@@ -3495,7 +3495,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_GEI11_GFP_L4_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "GEI-11 Combined (GFP ChIP), GEI11_L4_GFP",
       "max_score": 4,
       "min_score": -4
@@ -3515,7 +3515,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18808.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "GEI-11 Combined (GFP ChIP), GEI-11_L1",
       "max_score": 4,
       "min_score": -4
@@ -3535,7 +3535,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18895.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "GEI-11 Combined (GFP ChIP), GEI-11_YA",
       "max_score": 4,
       "min_score": -4
@@ -3555,7 +3555,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18488.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-35 Combined (GFP ChIP), LIN-35_YL468_YAD",
       "max_score": 4,
       "min_score": -4
@@ -3575,7 +3575,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/15089.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-35 Combined (GFP ChIP), LIN-35_YL402_yAd",
       "max_score": 4,
       "min_score": -4
@@ -3595,7 +3595,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/15116.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-35 Combined (GFP ChIP), LIN-35_YL398_L1",
       "max_score": 4,
       "min_score": -4
@@ -3615,7 +3615,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18340.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-35 Combined (GFP ChIP), lin-35_n745_EFL-1_Ab_L1",
       "max_score": 4,
       "min_score": -4
@@ -3635,7 +3635,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18398.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "LIN-35 Combined (GFP ChIP), LIN-35_L1",
       "max_score": 4,
       "min_score": -4
@@ -3655,7 +3655,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18702.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-76 Combined (GFP ChIP), NHR-76_L3",
       "max_score": 4,
       "min_score": -4
@@ -3675,7 +3675,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/17982.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-76 Combined (GFP ChIP), NHR-76_L4",
       "max_score": 4,
       "min_score": -4
@@ -3695,7 +3695,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/15092.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "HPL-2 Combined (GFP ChIP), HPL-2_YL416_L1",
       "max_score": 4,
       "min_score": -4
@@ -3715,7 +3715,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18492.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "HPL-2 Combined (GFP ChIP), HPL-2_L1",
       "max_score": 4,
       "min_score": -4
@@ -3735,7 +3735,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18345.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "HPL-2 Combined (GFP ChIP), Pmex-5_HPL-2_YL472_yAd",
       "max_score": 4,
       "min_score": -4
@@ -3755,7 +3755,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/15207.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "AHA-1 Combined (GFP ChIP), AHA-1_L4",
       "max_score": 4,
       "min_score": -4
@@ -3775,7 +3775,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18770.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "AHA-1 Combined (GFP ChIP), AHA-1_L1",
       "max_score": 4,
       "min_score": -4
@@ -3795,7 +3795,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18417.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "PAX-1 Combined (GFP ChIP)",
       "max_score": 4,
       "min_score": -4
@@ -3815,7 +3815,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18384.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-237 Combined (GFP ChIP), NHR-237 L3",
       "max_score": 4,
       "min_score": -4
@@ -3835,7 +3835,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18414.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-237 Combined (GFP ChIP), NHR-237 L2",
       "max_score": 4,
       "min_score": -4
@@ -3855,7 +3855,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18623.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-237 Combined (GFP ChIP), NHR-237 EMB",
       "max_score": 4,
       "min_score": -4
@@ -3875,7 +3875,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/18676.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: GFP ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "NHR-237 Combined (GFP ChIP), NHR-237 L1",
       "max_score": 4,
       "min_score": -4

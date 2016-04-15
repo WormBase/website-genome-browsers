@@ -17,7 +17,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Curated Genes (protein coding)/{refseq}/trackData.jsonz",
          "compress" : 1,
-         "category" : "Genes",
+         "category": "Genes",
          "type" : "CanvasFeatures",
          "label" : "Curated Genes (protein coding)",
          "metadata" : {

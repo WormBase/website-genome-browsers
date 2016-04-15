@@ -19,7 +19,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult spe-9/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "Adult spe-9 (colored by exon)"
     },
@@ -42,7 +42,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer daf-2 25dC 91hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "dauer daf-2 25dC 91hrs (colored by exon)"
     },
@@ -65,7 +65,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer entry daf-2 25dC 48hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "dauer entry daf-2 25dC 48hrs (colored by exon)"
     },
@@ -88,7 +88,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer exit daf-2 25dC 91hrs 15dC 12hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "dauer exit daf-2 25dC 91hrs 15dC 12hrs (colored by exon)"
     },
@@ -111,7 +111,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/early embryo/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "early embryo (colored by exon)"
     },
@@ -134,7 +134,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/embryo him-8/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "embryo him-8 (colored by exon)"
     },
@@ -157,7 +157,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/late embryo/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "late embryo (colored by exon)"
     },
@@ -180,7 +180,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L1 lin-35/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "mid-L1 lin-35 (colored by exon)"
     },
@@ -203,7 +203,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/male mid-L4 dpy28 him-8 25dC 30hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "male mid-L4 dpy28 him-8 25dC 30hrs (colored by exon)"
     },
@@ -226,7 +226,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L1/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "mid-L1 (colored by exon)"
     },
@@ -249,7 +249,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Young Adult/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "Young Adult (colored by exon)"
     },
@@ -272,7 +272,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L2/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "mid-L2 (colored by exon)"
     },
@@ -295,7 +295,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L3/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "mid-L3 (colored by exon)"
     },
@@ -318,7 +318,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L4/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "mid-L4 (colored by exon)"
     },
@@ -341,7 +341,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult spe-9/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "Adult spe-9 (colored by mRNA)"
     },
@@ -364,7 +364,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer daf-2 25dC 91hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "dauer daf-2 25dC 91hrs (colored by mRNA)"
     },
@@ -387,7 +387,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer entry daf-2 25dC 48hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "dauer entry daf-2 25dC 48hrs (colored by mRNA)"
     },
@@ -410,7 +410,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer exit daf-2 25dC 91hrs 15dC 12hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "dauer exit daf-2 25dC 91hrs 15dC 12hrs (colored by mRNA)"
     },
@@ -433,7 +433,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/early embryo/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "early embryo (colored by mRNA)"
     },
@@ -456,7 +456,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/embryo him-8/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "embryo him-8 (colored by mRNA)"
     },
@@ -479,7 +479,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/late embryo/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "late embryo (colored by mRNA)"
     },
@@ -502,7 +502,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L1 lin-35/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "mid-L1 lin-35 (colored by mRNA)"
     },
@@ -525,7 +525,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/male mid-L4 dpy28 him-8 25dC 30hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "male mid-L4 dpy28 him-8 25dC 30hrs (colored by mRNA)"
     },
@@ -548,7 +548,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L1/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "mid-L1 (colored by mRNA)"
     },
@@ -571,7 +571,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Young Adult/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "Young Adult (colored by mRNA)"
     },
@@ -594,7 +594,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L2/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "mid-L2 (colored by mRNA)"
     },
@@ -617,7 +617,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L3/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "mid-L3 (colored by mRNA)"
     },
@@ -640,7 +640,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L4/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Integrated Transcripts",
+      "category": "modENCODE/Waterston Group/Integrated Transcripts",
       "type": "CanvasFeatures",
       "label": "mid-L4 (colored by mRNA)"
     }

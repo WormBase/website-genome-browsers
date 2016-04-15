@@ -12,7 +12,7 @@
             "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/TSS_Chen.Forward.bw",
             "max_score"     : 25,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "Misc: Transcription Start Sites",
+            "category": "Misc/Transcription Start Sites",
             "label"         : "TSS (Chen) Forward",
             "min_score"     : 0
         },
@@ -28,7 +28,7 @@
             "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/TSS_Chen.Reverse.bw",
             "max_score"     : 25,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "Misc: Transcription Start Sites",
+            "category": "Misc/Transcription Start Sites",
             "label"         : "TSS (Chen) Reverse",
             "min_score"     : 0
         },
@@ -44,7 +44,7 @@
             "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/TSS_Saito.Forward.bw",
             "max_score"     : 25,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "Misc: Transcription Start Sites",
+            "category": "Misc/Transcription Start Sites",
             "label"         : "TSS (Saito) Forward",
             "min_score"     : 0
         },
@@ -60,7 +60,7 @@
             "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/TSS_Saito.Reverse.bw",
             "max_score"     : 25,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "Misc: Transcription Start Sites",
+            "category": "Misc/Transcription Start Sites",
             "label"         : "TSS (Saito) Reverse",
             "min_score"     : 0
         },
@@ -76,7 +76,7 @@
             "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/TSS_Kruesi.Forward.bw",
             "max_score"     : 25,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "Misc: Transcription Start Sites",
+            "category": "Misc/Transcription Start Sites",
             "label"         : "TSS (Kruesi) Forward",
             "min_score"     : 0
         },
@@ -92,7 +92,7 @@
             "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/TSS_Kruesi.Reverse.bw",
             "max_score"     : 25,
             "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "Misc: Transcription Start Sites",
+            "category": "Misc/Transcription Start Sites",
             "label"         : "TSS (Kruesi) Reverse",
             "min_score"     : 0
         }

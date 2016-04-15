@@ -16,7 +16,7 @@
          "metadata" : {
             "shortInfo" : "Matches to WormBase B. malayi proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
-         "category" : "Sequence Similarity:Proteins",
+         "category": "Sequence Similarity/Proteins",
          "key" : "B. malayi proteins",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

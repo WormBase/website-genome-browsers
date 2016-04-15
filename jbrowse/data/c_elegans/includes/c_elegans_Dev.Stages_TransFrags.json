@@ -19,7 +19,7 @@
       "metadata": {
         "shortInfo": "Tiling array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commerically available genome tiling arrays. To maximize the chances of detecting rare transcripts with limited expression in specific cells, we are extracting RNA from selected embryonic cells isolated by FACS and from postembryonic cells by use of the mRNA tagging method."
       },
-      "category": "modENCODE : Waterston Group:Tiling Array",
+      "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Dev.Stages TransFrags: L2/{refseq}/trackData.jsonz",
@@ -46,7 +46,7 @@
       "metadata": {
         "shortInfo": "Tiling array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commerically available genome tiling arrays. To maximize the chances of detecting rare transcripts with limited expression in specific cells, we are extracting RNA from selected embryonic cells isolated by FACS and from postembryonic cells by use of the mRNA tagging method."
       },
-      "category": "modENCODE : Waterston Group:Tiling Array",
+      "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Dev.Stages TransFrags: N2EE/{refseq}/trackData.jsonz",
@@ -73,7 +73,7 @@
       "metadata": {
         "shortInfo": "Tiling array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commerically available genome tiling arrays. To maximize the chances of detecting rare transcripts with limited expression in specific cells, we are extracting RNA from selected embryonic cells isolated by FACS and from postembryonic cells by use of the mRNA tagging method."
       },
-      "category": "modENCODE : Waterston Group:Tiling Array",
+      "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Dev.Stages TransFrags: YA_gonad/{refseq}/trackData.jsonz",
@@ -100,7 +100,7 @@
       "metadata": {
         "shortInfo": "Tiling array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commerically available genome tiling arrays. To maximize the chances of detecting rare transcripts with limited expression in specific cells, we are extracting RNA from selected embryonic cells isolated by FACS and from postembryonic cells by use of the mRNA tagging method."
       },
-      "category": "modENCODE : Waterston Group:Tiling Array",
+      "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Dev.Stages TransFrags: N2LE/{refseq}/trackData.jsonz",
@@ -127,7 +127,7 @@
       "metadata": {
         "shortInfo": "Tiling array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commerically available genome tiling arrays. To maximize the chances of detecting rare transcripts with limited expression in specific cells, we are extracting RNA from selected embryonic cells isolated by FACS and from postembryonic cells by use of the mRNA tagging method."
       },
-      "category": "modENCODE : Waterston Group:Tiling Array",
+      "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Dev.Stages TransFrags: L4_male/{refseq}/trackData.jsonz",
@@ -154,7 +154,7 @@
       "metadata": {
         "shortInfo": "Tiling array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commerically available genome tiling arrays. To maximize the chances of detecting rare transcripts with limited expression in specific cells, we are extracting RNA from selected embryonic cells isolated by FACS and from postembryonic cells by use of the mRNA tagging method."
       },
-      "category": "modENCODE : Waterston Group:Tiling Array",
+      "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Dev.Stages TransFrags: L4_soma/{refseq}/trackData.jsonz",
@@ -181,7 +181,7 @@
       "metadata": {
         "shortInfo": "Tiling array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commerically available genome tiling arrays. To maximize the chances of detecting rare transcripts with limited expression in specific cells, we are extracting RNA from selected embryonic cells isolated by FACS and from postembryonic cells by use of the mRNA tagging method."
       },
-      "category": "modENCODE : Waterston Group:Tiling Array",
+      "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Dev.Stages TransFrags: YA/{refseq}/trackData.jsonz",
@@ -208,7 +208,7 @@
       "metadata": {
         "shortInfo": "Tiling array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commerically available genome tiling arrays. To maximize the chances of detecting rare transcripts with limited expression in specific cells, we are extracting RNA from selected embryonic cells isolated by FACS and from postembryonic cells by use of the mRNA tagging method."
       },
-      "category": "modENCODE : Waterston Group:Tiling Array",
+      "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Dev.Stages TransFrags: L1/{refseq}/trackData.jsonz",
@@ -235,7 +235,7 @@
       "metadata": {
         "shortInfo": "Tiling array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commerically available genome tiling arrays. To maximize the chances of detecting rare transcripts with limited expression in specific cells, we are extracting RNA from selected embryonic cells isolated by FACS and from postembryonic cells by use of the mRNA tagging method."
       },
-      "category": "modENCODE : Waterston Group:Tiling Array",
+      "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Dev.Stages TransFrags: L2_polyA/{refseq}/trackData.jsonz",
@@ -262,7 +262,7 @@
       "metadata": {
         "shortInfo": "Tiling array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commerically available genome tiling arrays. To maximize the chances of detecting rare transcripts with limited expression in specific cells, we are extracting RNA from selected embryonic cells isolated by FACS and from postembryonic cells by use of the mRNA tagging method."
       },
-      "category": "modENCODE : Waterston Group:Tiling Array",
+      "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Dev.Stages TransFrags: L3/{refseq}/trackData.jsonz",
@@ -289,7 +289,7 @@
       "metadata": {
         "shortInfo": "Tiling array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commerically available genome tiling arrays. To maximize the chances of detecting rare transcripts with limited expression in specific cells, we are extracting RNA from selected embryonic cells isolated by FACS and from postembryonic cells by use of the mRNA tagging method."
       },
-      "category": "modENCODE : Waterston Group:Tiling Array",
+      "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Dev.Stages TransFrags: L4/{refseq}/trackData.jsonz",

@@ -7,7 +7,7 @@
         "color": "{exonColor}",
         "label": "function(f) { var name = f.get('Name'); var clean = name.replace(/.*redundant_exons./, ''); var cleaner = clean.replace(/_[+-].*/,''); return cleaner;  }"
       },
-      "category": "modENCODE Tracks : Waterston Group: Exons",
+      "category": "modENCODE/Waterston Group/Exons",
       "key": "non-redundant exons from 14 stages",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",

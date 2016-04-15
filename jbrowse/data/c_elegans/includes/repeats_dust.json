@@ -9,7 +9,7 @@
          "metadata" : {
             "shortInfo" : "Low-complexity regions identified by Dust."
          },
-         "category" : "Genome Structure:Assembly & Curation",
+         "category": "Genome Structure/Assembly & Curation",
          "key" : "Low complextity region (Dust)",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

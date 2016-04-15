@@ -15,7 +15,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/henikoff/4432_SOH34_80g_WS220.mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Nucleosome Structure",
+      "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
       "label": "Mononucleosomes 80mM NaCl, Adult Mononucleosomes"
     },
@@ -34,7 +34,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/henikoff/13401.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Nucleosome Structure",
+      "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
       "label": "Mononucleosomes 80mM NaCl, Embryo Mononucleosomes"
     },
@@ -53,7 +53,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/henikoff/4427_SOH_WS220.mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Nucleosome Structure",
+      "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
       "label": "H3.3 Chromatin fractions extracted with NaCl, 350mM fraction"
     },
@@ -72,7 +72,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/henikoff/4428_SOH41_p6PD_WS220.mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Nucleosome Structure",
+      "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
       "label": "H3.3 Chromatin fractions extracted with NaCl, 600mM fraction"
     },
@@ -91,7 +91,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/henikoff/4422_SOH25_80PD_WS220.mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Nucleosome Structure",
+      "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
       "label": "H3.3 Chromatin fractions extracted with NaCl, 80mM fraction"
     },
@@ -110,7 +110,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/henikoff/4416_SOH18_80g_WS220.mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Nucleosome Structure",
+      "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
       "label": "Chromatin fractions extracted with NaCl, 80mM fraction"
     },
@@ -129,7 +129,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/henikoff/4417_SOH20_p6_WS220.mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Nucleosome Structure",
+      "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
       "label": "Chromatin fractions extracted with NaCl, 600mM fraction"
     },
@@ -148,7 +148,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/henikoff/4418_SOH44_p6p_WS220.mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Nucleosome Structure",
+      "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
       "label": "Chromatin fractions extracted with NaCl, 600mM Pellet"
     }

@@ -19,7 +19,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult Harposporium control exp. OP50 2-24hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "Adult Harposporium control exp. OP50 2-24hrs (colored by exon)"
     },
@@ -42,7 +42,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult Harposporium exp. 2-24hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "Adult Harposporium exp. 2-24hrs (colored by exon)"
     },
@@ -65,7 +65,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult S.macescens control exp. OP50 1-24hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "Adult S.macescens control exp. OP50 1-24hrs (colored by exon)"
     },
@@ -88,7 +88,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult S.macescens Db10 exp. 1-24hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "Adult S.macescens Db10 exp. 1-24hrs (colored by exon)"
     },
@@ -111,7 +111,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult spe-9 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "Adult spe-9 Genelets (colored by exon)"
     },
@@ -134,7 +134,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer daf-2 25dC 91hrs Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "dauer daf-2 25dC 91hrs Genelets (colored by exon)"
     },
@@ -157,7 +157,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer entry daf-2 25dC 48hrs Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "dauer entry daf-2 25dC 48hrs Genelets (colored by exon)"
     },
@@ -180,7 +180,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer exit daf-2 25dC 91hrs 15dC 12hrs Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "dauer exit daf-2 25dC 91hrs 15dC 12hrs Genelets (colored by exon)"
     },
@@ -203,7 +203,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/early embryo Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "early embryo Genelets (colored by exon)"
     },
@@ -226,7 +226,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/embryo him-8 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "embryo him-8 Genelets (colored by exon)"
     },
@@ -249,7 +249,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/L4 soma no DNAse I/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "L4 soma no DNAse I (colored by exon)"
     },
@@ -272,7 +272,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/late embryo Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "late embryo Genelets (colored by exon)"
     },
@@ -295,7 +295,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L1 lin-35 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "mid-L1 lin-35 Genelets (colored by exon)"
     },
@@ -318,7 +318,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/male mid-L4 dpy28 him-8 25dC 30hrs Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "male mid-L4 dpy28 him-8 25dC 30hrs Genelets (colored by exon)"
     },
@@ -341,7 +341,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L1 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "mid-L1 Genelets (colored by exon)"
     },
@@ -364,7 +364,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L2 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "mid-L2 Genelets (colored by exon)"
     },
@@ -387,7 +387,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L3 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "mid-L3 Genelets (colored by exon)"
     },
@@ -410,7 +410,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L4 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "mid-L4 Genelets (colored by exon)"
     },
@@ -433,7 +433,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Young Adult Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "Young Adult Genelets (colored by exon)"
     },
@@ -456,7 +456,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult Harposporium control exp. OP50 2-24hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "Adult Harposporium control exp. OP50 2-24hrs (colored by mRNA)"
     },
@@ -479,7 +479,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult Harposporium exp. 2-24hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "Adult Harposporium exp. 2-24hrs (colored by mRNA)"
     },
@@ -502,7 +502,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult S.macescens control exp. OP50 1-24hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "Adult S.macescens control exp. OP50 1-24hrs (colored by mRNA)"
     },
@@ -525,7 +525,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult S.macescens Db10 exp. 1-24hrs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "Adult S.macescens Db10 exp. 1-24hrs (colored by mRNA)"
     },
@@ -548,7 +548,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult spe-9 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "Adult spe-9 Genelets (colored by mRNA)"
     },
@@ -571,7 +571,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer daf-2 25dC 91hrs Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "dauer daf-2 25dC 91hrs Genelets (colored by mRNA)"
     },
@@ -594,7 +594,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer entry daf-2 25dC 48hrs Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "dauer entry daf-2 25dC 48hrs Genelets (colored by mRNA)"
     },
@@ -617,7 +617,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer exit daf-2 25dC 91hrs 15dC 12hrs Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "dauer exit daf-2 25dC 91hrs 15dC 12hrs Genelets (colored by mRNA)"
     },
@@ -640,7 +640,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/early embryo Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "early embryo Genelets (colored by mRNA)"
     },
@@ -663,7 +663,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/embryo him-8 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "embryo him-8 Genelets (colored by mRNA)"
     },
@@ -686,7 +686,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/L4 soma no DNAse I/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "L4 soma no DNAse I (colored by mRNA)"
     },
@@ -709,7 +709,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/late embryo Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "late embryo Genelets (colored by mRNA)"
     },
@@ -732,7 +732,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L1 lin-35 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "mid-L1 lin-35 Genelets (colored by mRNA)"
     },
@@ -755,7 +755,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/male mid-L4 dpy28 him-8 25dC 30hrs Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "male mid-L4 dpy28 him-8 25dC 30hrs Genelets (colored by mRNA)"
     },
@@ -778,7 +778,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L1 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "mid-L1 Genelets (colored by mRNA)"
     },
@@ -801,7 +801,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L2 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "mid-L2 Genelets (colored by mRNA)"
     },
@@ -824,7 +824,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L3 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "mid-L3 Genelets (colored by mRNA)"
     },
@@ -847,7 +847,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L4 Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "mid-L4 Genelets (colored by mRNA)"
     },
@@ -870,7 +870,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Young Adult Genelets/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Genelets",
+      "category": "modENCODE/Waterston Group/Genelets/Genelets",
       "type": "CanvasFeatures",
       "label": "Young Adult Genelets (colored by mRNA)"
     }

@@ -15,7 +15,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ2357_AMA1_N2_MXEMB_1_EE_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII Isoforms ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII Isoforms ChIP",
       "label": "Polymerase II Isoforms ChIP-chip arrays, AMA1_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -35,7 +35,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/ABAB817_8WG16_N2_LTEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII Isoforms ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII Isoforms ChIP",
       "label": "Polymerase II Isoforms ChIP-chip arrays, 8WG16_N2_LTEMB_ABAB817",
       "max_score": 4,
       "min_score": -4
@@ -55,7 +55,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/ABAB817_8WG16_N2_EEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII Isoforms ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII Isoforms ChIP",
       "label": "Polymerase II Isoforms ChIP-chip arrays, 8WG16_N2_EEMB_ABAB817",
       "max_score": 4,
       "min_score": -4
@@ -75,7 +75,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/RNAPIIIPmean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII Isoforms ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII Isoforms ChIP",
       "label": "Polymerase II Isoforms ChIP-chip arrays, 8WG16_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -95,7 +95,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/ABAB5408_4H8_N2_MXEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII Isoforms ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII Isoforms ChIP",
       "label": "Polymerase II Isoforms ChIP-chip arrays, POLII4H8_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -115,7 +115,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/ABAB817_8WG16_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII Isoforms ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII Isoforms ChIP",
       "label": "Polymerase II Isoforms ChIP-chip arrays, 8WG16_N2_EEMB",
       "max_score": 4,
       "min_score": -4
@@ -135,7 +135,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/CVMMS126R_8WG16_N2_L4_mean.wig_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: PolII Isoforms ChIP",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII Isoforms ChIP",
       "label": "Polymerase II Isoforms ChIP-chip arrays, 8WG16_N2_L4",
       "max_score": 4,
       "min_score": -4
@@ -155,7 +155,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HTZIPmean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "label": "Histone Variants ChIP-chip arrays",
       "max_score": 4,
       "min_score": -4
@@ -175,7 +175,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00001_DPY27_YPT47_MXemb_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, DPY27_YPT47_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -195,7 +195,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00002_SDC3_YPT47_MXemb_mean.wig_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, SDC3_YPT47_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -215,7 +215,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00001_DPY27_N2_MXemb_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, DPY27_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -235,7 +235,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00012_DPY28_N2_MXemb_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, DPY28_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -255,7 +255,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00001_DPY27_N2_L4_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, DPY27_N2_L4",
       "max_score": 4,
       "min_score": -4
@@ -275,7 +275,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00001_DPY27_YPT41_MXemb_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, DPY27_YPT41_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -295,7 +295,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00002_SDC3_N2_MXemb_mean.wig_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, SDC3_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -315,7 +315,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00004_MIX1_N2_MXemb_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, MIX1_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -335,7 +335,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00002_SDC3_N2_MXEMB_1_A_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, SDC3_N2_MXEMB_1_A",
       "max_score": 4,
       "min_score": -4
@@ -355,7 +355,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00001_DPY27_N2_MXEMB_1_A_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, DPY27_N2_MXEMB_1_A",
       "max_score": 4,
       "min_score": -4
@@ -375,7 +375,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00001_DPY27_N2_EEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays",
       "max_score": 4,
       "min_score": -4
@@ -395,7 +395,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ314mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, SDC2_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -415,7 +415,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00005_SDC2_N2_MXemb_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, SDC2_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -435,7 +435,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00002_SDC3_N2_MXEMB_1_B_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, SDC3_N2_MXEMB_1_B",
       "max_score": 4,
       "min_score": -4
@@ -455,7 +455,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00001_DPY27_11dh_MXemb_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, DPY27_11dh_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -475,7 +475,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SS00050_IGG_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, IGG_N2_EEMB",
       "max_score": 4,
       "min_score": -4
@@ -495,7 +495,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00003_DPY26_N2_MXemb_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "Dosage Compensation ChIP-chip arrays, DPY26_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -515,7 +515,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/15018.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Centromere Specificaton ChIP-chip arrays, SDQ0804_HCP3_N2_LTEMB",
       "max_score": 4,
       "min_score": -4
@@ -535,7 +535,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/OD00079_HCP3_N2_EEMB_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Centromere Specificaton ChIP-chip arrays, OD00079_HCP3_N2_EEMB",
       "max_score": 4,
       "min_score": -4
@@ -555,7 +555,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/OD00079_HCP3_N2_MXEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Centromere Specificaton ChIP-chip arrays, OD00079_HCP3_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -575,7 +575,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/OD00001_HCP3_N2_MXEMB_mean.wig_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Centromere Specificaton ChIP-chip arrays, OD00001_HCP3_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -595,7 +595,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/15158.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Centromere Specificaton ChIP-chip arrays, SDQ0803_KNL2_N2_LTemb",
       "max_score": 4,
       "min_score": -4
@@ -615,7 +615,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/15012.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Centromere Specificaton ChIP-chip arrays, OD00079_HCP3_N2_EEMB",
       "max_score": 4,
       "min_score": -4
@@ -635,7 +635,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/15006.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Centromere Specificaton ChIP-chip arrays, OD00079_HCP3_N2_LTEMB",
       "max_score": 4,
       "min_score": -4
@@ -655,7 +655,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/15159.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Centromere Specificaton ChIP-chip arrays, SDQ0810_KNL2_N2_LTemb",
       "max_score": 4,
       "min_score": -4
@@ -675,7 +675,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SGF3165_FLAG_MES4FLAG_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "MES-4 ChIP-chip arrays, MES4_N2_EEMB",
       "max_score": 4,
       "min_score": -4
@@ -695,7 +695,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ0791_MES4_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "MES-4 ChIP-chip arrays, MES4_N2_EEMB",
       "max_score": 4,
       "min_score": -4
@@ -715,7 +715,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/NA_MES4FLAG_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "MES-4 ChIP-chip arrays, MES4FLAG_N2_EEMB",
       "max_score": 4,
       "min_score": -4
@@ -735,7 +735,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB46540_NIGG_N2_MXEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "No Antibody (IGG) ChIP-chip arrays, NIGG_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -755,7 +755,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JA00002_IGG_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "No Antibody (IGG) ChIP-chip arrays, IGG_N2_L3",
       "max_score": 4,
       "min_score": -4
@@ -775,7 +775,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ0790_MRG1_N2_EEMB_mean.wig_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "MRG-1 ChIP-chip arrays",
       "max_score": 4,
       "min_score": -4
@@ -795,7 +795,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00006_ZFP1_N2_MXEMB_mean.wig_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "ZFP-1 ChIP-chip arrays, ZFP1_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -815,7 +815,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ3517_ZFP1_N2_MXEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "ZFP-1 ChIP-chip arrays, ZFP1_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -835,7 +835,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/JL00006_ZFP1_RB774_MXEMB_1_A_13805901_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "ZFP-1 ChIP-chip arrays, ZFP1_RB774_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -855,7 +855,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ35mean.wig_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "label": "CBP-1 ChIP-chip arrays",
       "max_score": 4,
       "min_score": -4
@@ -875,7 +875,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB1791_H3_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "label": "Core Histones ChIP-chip arrays, H3_N2_L3",
       "max_score": 4,
       "min_score": -4
@@ -895,7 +895,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB1791_H3_N2_L3_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "label": "Core Histones ChIP-chip arrays, AB1791_H3_N2_L3",
       "max_score": 4,
       "min_score": -4
@@ -915,7 +915,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/MP05858_H4DAM1636076_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "label": "Core Histones ChIP-chip arrays, MP05858_H4DAM1636076_N2_L3",
       "max_score": 4,
       "min_score": -4
@@ -935,7 +935,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB1791_H3609253_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "label": "Core Histones ChIP-chip arrays, H3609253_N2_EEMB",
       "max_score": 4,
       "min_score": -4
@@ -955,7 +955,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AR0144_H3144_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "label": "Core Histones ChIP-chip arrays, H3144_N2_L3",
       "max_score": 4,
       "min_score": -4
@@ -975,7 +975,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AR0144_H3144_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "label": "Core Histones ChIP-chip arrays, H3144_N2_EEMB",
       "max_score": 4,
       "min_score": -4
@@ -995,7 +995,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AR0144_H3144_N2_L3_LM_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "label": "Core Histones ChIP-chip arrays, H3144_N2_L3_LM",
       "max_score": 4,
       "min_score": -4
@@ -1015,7 +1015,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ4051_LEM2_SP646_MXEMB_2_A_SP646_KI1802_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Chromosome-Nuclear Envelope Interaction, SDQ4051_LEM2_SP646_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -1035,7 +1035,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/7823.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Chromosome-Nuclear Envelope Interaction, SDQ4051_LEM2_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -1055,7 +1055,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ3891_LEM2_N2_MXEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Chromosome-Nuclear Envelope Interaction, SDQ3891_LEM2_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -1075,7 +1075,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ3891_LEM2_SP646_MXEMB_1_A_SP646_KI1777_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Chromosome-Nuclear Envelope Interaction, SDQ3891_LEM2_SP646_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -1095,7 +1095,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ3891_LEM2_VC1317_MXEMB_1_A_VC1317_KI1761_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Chromosome-Nuclear Envelope Interaction, SDQ3891_LEM2_VC1317_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -1115,7 +1115,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ3897_NPP13_N2_MXEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "label": "Chromosome-Nuclear Envelope Interaction, SDQ3897_NPP13_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
@@ -1135,7 +1135,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/GermlinelessAdults_NormalizedAveraged_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Nucleosome Structure",
+      "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "label": "Mononucleosomes, GermlinelessAdults",
       "max_score": 4,
       "min_score": -4
@@ -1155,7 +1155,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/GermlinecontainingAdults_NormalizedAveraged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Nucleosome Structure",
+      "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "label": "Mononucleosomes, GermlinecontainingAdults",
       "max_score": 4,
       "min_score": -4
@@ -1175,7 +1175,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/Embryos_NormalizedAveraged_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Nucleosome Structure",
+      "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "label": "Mononucleosomes, Mixed Embryos",
       "max_score": 4,
       "min_score": -4

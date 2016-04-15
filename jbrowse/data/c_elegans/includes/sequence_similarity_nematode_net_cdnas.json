@@ -11,7 +11,7 @@
          },
          "subParts" : "match_part",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "category" : "Sequence Similarity:Nucleotide",
+         "category": "Sequence Similarity/Nucleotide",
          "key" : "Nematode.net cDNAs",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

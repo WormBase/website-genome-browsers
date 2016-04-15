@@ -15,7 +15,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/H3K9me3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-chip arrays, H3K9ME3_N2_L3"
@@ -35,7 +35,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00009_H3K9ME32F3_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-chip arrays, H3K9ME32F3_N2_L3"
@@ -55,7 +55,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB8896_H3K9ME1104560_N2_EEMB_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-chip arrays, AB8896_H3K9ME1104560_N2_EEMB"
@@ -75,7 +75,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/UP07442_H3K9ME3_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-chip arrays, H3K9ME3_N2_EEMB"
@@ -95,7 +95,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00009_H3K9ME32F3_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-chip arrays, H3K9ME32F3_N2_EEMB"
@@ -115,7 +115,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00008_H3K9ME26D11_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-chip arrays, H3K9ME26D11_N2_L3"
@@ -135,7 +135,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB8898_H3K9ME3339901_N2_EEMB_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-chip arrays, H3K9ME3339901_N2_EEMB"
@@ -155,7 +155,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB9045_H3K9ME1291918_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-chip arrays, AB9045_H3K9ME1291918_N2_EEMB"
@@ -175,7 +175,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00008_H3K9ME26D11_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-chip arrays, H3K9ME26D11_N2_EEMB"
@@ -195,7 +195,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/NA_N2_EEMB_mean.wig_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-chip arrays, NA_N2_EEMB"
@@ -215,7 +215,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB9045_H3K9ME1291918_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-chip arrays, AB9045_H3K9ME1291918_N2_L3"
@@ -235,7 +235,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/WA30534819_H3K4ME3_N2_L3_1_OID28399_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, WA30534819_H3K4ME3_N2_L3"
@@ -255,7 +255,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/WA30534819_H3K4ME3_N2_L2_1_OID28399_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, WA30534819_H3K4ME3_N2_L2"
@@ -275,7 +275,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/WA30534819_H3K4ME3_N2_L1_1_OID28399_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, WA30534819_H3K4ME3_N2_L1"
@@ -295,7 +295,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB8895_H3K4ME1733246_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, AB8895_H3K4ME1733246_N2_EEMB"
@@ -315,7 +315,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/WA30834809_H3K4ME2_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, H3K4ME2_N2_EEMB"
@@ -335,7 +335,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/MP07030_H3K4ME2_DAM1570816_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, MP07030_H3K4ME2_DAM1570816_N2_EEMB"
@@ -355,7 +355,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/WA30534819_H3K4ME3_N2_LTEMB_1_OID28399_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, WA30534819_H3K4ME3_N2_LTEMB"
@@ -375,7 +375,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB8895_H3K4ME1733246_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, AB8895_H3K4ME1733246_N2_L3"
@@ -395,7 +395,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AR0169_H3K4me3_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, H3K4ME3_N2_L3"
@@ -415,7 +415,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/WA30534819_H3K4ME3_N2_L4_1_OID28399_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, WA30534819_H3K4ME3_N2_L4"
@@ -435,7 +435,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/WA30534819_H3K4ME3_N2_EEMB_1_OID28399_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, WA30534819_H3K4ME3_N2_EEMB"
@@ -455,7 +455,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/WA30834809_H3K4ME2_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, H3K4ME2_N2_L3"
@@ -475,7 +475,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/WA30534819_H3K4ME3_N2_YA_1_OID28399_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, WA30534819_H3K4ME3_N2_YA"
@@ -495,7 +495,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/WA30534819_H3K4ME3_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K4) ChIP-chip arrays, H3K4ME3_N2_EEMB"
@@ -515,7 +515,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB2886_H3K79ME1361912_N2_MXEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K79) ChIP-chip arrays, AB2886_H3K79ME1361912_N2_MXEMB"
@@ -535,7 +535,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB2621_H3K79ME3361576_N2_MXEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K79) ChIP-chip arrays, AB2621_H3K79ME3361576_N2_MXEMB"
@@ -555,7 +555,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB3594_H3K79ME2_346021_N2_L3_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K79) ChIP-chip arrays, AB3594_H3K79ME2346021_N2_L3"
@@ -575,7 +575,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB2621_H3K79ME3361576_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K79) ChIP-chip arrays, H3K79ME3361576_N2_EEMB"
@@ -595,7 +595,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB3594_H3K79ME2346021_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K79) ChIP-chip arrays, H3K79ME2346021_N2_EEMB"
@@ -615,7 +615,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB2621_H3K79ME3_361576_N2_L3_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K79) ChIP-chip arrays, AB2621_H3K79ME3_361576_N2_L3"
@@ -635,7 +635,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB3594_H3K79ME2346021_N2_MXEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K79) ChIP-chip arrays, AB3594_H3K79ME2346021_N2_MXEMB"
@@ -655,7 +655,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB2886_H3K79ME1361912_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K79) ChIP-chip arrays, H3K79ME1361912_N2_EEMB"
@@ -675,7 +675,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB2886_H3K79ME1_361912_N2_L3_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K79) ChIP-chip arrays, AB2886_H3K79ME1_361912_N2_L3"
@@ -695,7 +695,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00012_H3K36ME22C3_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, H3K36ME22C3_N2_EEMB"
@@ -715,7 +715,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB9048_H3K36ME1206009_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, AB9048_H3K36ME1206009_N2_EEMB"
@@ -735,7 +735,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00001_H3K36ME3_13C9_N2_YA_1_OID30311_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, HK00001_H3K36ME3_13C9_N2_YA_s7"
@@ -755,7 +755,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00001_H3K36ME3_13C9_N2_LTEMB_1_OID30311_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, HK00001_H3K36ME3_13C9_N2_LTEMB"
@@ -775,7 +775,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00001_H3K36ME3_13C9_N2_L4_1_OID30311_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, HK00001_H3K36ME3_13C9_N2_L4"
@@ -795,7 +795,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00001_H3K36ME3_13C9_N2_L1_1_OID30311_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, HK00001_H3K36ME3_13C9_N2_L1"
@@ -815,7 +815,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00012_H3K36ME22C3_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, H3K36ME22C3_N2_L3"
@@ -835,7 +835,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB9050_H3K36ME3_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, AB9050_H3K36ME3_N2_L3"
@@ -855,7 +855,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/15033.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, AM39379_H3K36AC29108001_N2_EEMB"
@@ -875,7 +875,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00001_H3K36ME313C9_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, H3K36ME313C9_N2_EEMB"
@@ -895,7 +895,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00001_H3K36ME313C9_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, H3K36ME313C9_N2_L3"
@@ -915,7 +915,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00001_H3K36ME3_13C9_N2_L2_1_OID30311_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, HK00001_H3K36ME3_13C9_N2_L2"
@@ -935,7 +935,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00001_H3K36ME3_13C9_N2_L3_1_OID30311_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, HK00001_H3K36ME3_13C9_N2_L3"
@@ -955,7 +955,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB9049_H3K36ME2608457_N2_EEMB_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, H3K36ME2608457_N2_EEMB"
@@ -975,7 +975,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB9048_H3K36ME1206009_N2_L3_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, AB9048_H3K36ME1206009_N2_L3"
@@ -995,7 +995,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/NA_N2_EEMB_mean.wig_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, NA_N2_EEMB"
@@ -1015,7 +1015,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00001_H3K36ME3_13C9_N2_EEMB_1_OID30311_MA2Cscore.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-chip arrays, HK00001_H3K36ME3_13C9_N2_EEMB"
@@ -1035,7 +1035,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5049.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-Seq, ab9048_H3K36me1:206009_N2_L3"
@@ -1055,7 +1055,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5043.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-Seq, NB211254_H3K36ac_N2_L3"
@@ -1075,7 +1075,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5041.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-Seq, HK00012_H3K36me2:2C3_N2_L3"
@@ -1095,7 +1095,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-AB9050_H3K36me3_N2_L3_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K36) ChIP-Seq, AB9050_H3K36me3_N2_L3"
@@ -1115,7 +1115,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/UP07448_H3K27ME124439_N2_L3_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K27) ChIP-chip arrays, UP07448_H3K27ME124439_N2_L3"
@@ -1135,7 +1135,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/TJ00001_H3K27ME18835_N2_EEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K27) ChIP-chip arrays, TJ00001_H3K27ME18835_N2_EEMB"
@@ -1155,7 +1155,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB4729_H3K27AC361571_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K27) ChIP-chip arrays, AB4729_H3K27AC361571_N2_L3"
@@ -1175,7 +1175,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00013_H3K27ME31E7_N2_EEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K27) ChIP-chip arrays, HK00013_H3K27ME31E7_N2_EEMB"
@@ -1195,7 +1195,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/WA30634849_H3K27AC_N2_EEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K27) ChIP-chip arrays, WA30634849_H3K27AC_N2_EEMB"
@@ -1215,7 +1215,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB4729_H3K27AC361571_N2_EEMB_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K27) ChIP-chip arrays, AB4729_H3K27AC361571_N2_EEMB"
@@ -1235,7 +1235,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/UP07448_H3K27ME124439_N2_EEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K27) ChIP-chip arrays, UP07448_H3K27ME124439_N2_EEMB"
@@ -1255,7 +1255,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/HK00013_H3K27ME31E7_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K27) ChIP-chip arrays, H3K27ME31E7_N2_L3"
@@ -1275,7 +1275,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/WA30634849_H3K27AC_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K27) ChIP-chip arrays, WA30634849_H3K27AC_N2_L3"
@@ -1295,7 +1295,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/MP07329_H4K16ACDAM1612187_N2_EEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H4) ChIP-chip arrays, MP07329_H4K16ACDAM1612187_N2_EEMB"
@@ -1315,7 +1315,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB15823_H4K8AC487128_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H4) ChIP-chip arrays, AB15823_H4K8AC487128_N2_L3"
@@ -1335,7 +1335,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/DISN147_H4K20ME1_001_N2_L3_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H4) ChIP-chip arrays, DISN147_H4K20ME1_001_N2_L3"
@@ -1355,7 +1355,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/DISN147_H4K20ME1001_N2_LTEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H4) ChIP-chip arrays, DISN147_H4K20ME1001_N2_LTEMB"
@@ -1375,7 +1375,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB9051_H4K20ME1104513_N2_L3_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H4) ChIP-chip arrays, AB9051_H4K20ME1104513_N2_L3"
@@ -1395,7 +1395,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/DISN147_H4K20ME1_001_N2_EEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H4) ChIP-chip arrays, DISN147_H4K20ME1_001_N2_EEMB"
@@ -1415,7 +1415,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB9051_H4K20ME1104513_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H4) ChIP-chip arrays, AB9051_H4K20ME1104513_N2_EEMB"
@@ -1435,7 +1435,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/AB15823_H4K8AC487128_N2_EEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H4) ChIP-chip arrays, AB15823_H4K8AC487128_N2_EEMB"
@@ -1455,7 +1455,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/LPAR109_H4TETRAAC109_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H4) ChIP-chip arrays, LPAR109_H4TETRAAC109_N2_EEMB"
@@ -1475,7 +1475,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5032.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K79) ChIP-Seq, AB2621_H3K79me3:361576_N2_L3 "
@@ -1495,7 +1495,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5047.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K79) ChIP-Seq, AB3594_H3K79me2:346021_N2_L3"
@@ -1515,7 +1515,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5037.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-Seq, AB8898_H3K9me3:33990_N2_L3"
@@ -1535,7 +1535,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5036.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-Seq, AB8896_H3K9me1_104560_N2_L3"
@@ -1555,7 +1555,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5040.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-Seq, HK00009_H3K9me3:2F3_N2_L3"
@@ -1575,7 +1575,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5050.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K9) ChIP-Seq, HK00008_H3K9me2:6D11_N2_L3"
@@ -1595,7 +1595,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5039.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H4K20) ChIP-Seq"
@@ -1615,7 +1615,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5045.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K27) ChIP-Seq, UP07449_H3K27me3:24440_N2_L3"
@@ -1635,7 +1635,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5044.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K27) ChIP-Seq, UP07448_H3K27me1:24439_N2_L3"
@@ -1655,7 +1655,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5051.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K27) ChIP-Seq, HK00013_H3K27me3:1E7_N2_L3"
@@ -1675,7 +1675,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5054.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K27) ChIP-Seq, WA30634849_H3K27ac_N2_L3"
@@ -1695,7 +1695,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5046.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K18) ChIP-Seq"
@@ -1715,7 +1715,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5053.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "max_score": 4,
       "min_score": -4,
       "label": "Histone Modifications (H3K23) ChIP-Seq"

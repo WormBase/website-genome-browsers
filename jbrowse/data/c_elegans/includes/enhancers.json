@@ -22,7 +22,7 @@
          "metadata" : {
             "shortInfo" : "There should be better text here for enhancers"
          },
-         "category" : "Sequence Features:Binding Sites & Regions",
+         "category": "Sequence Features/Binding Sites & Regions",
          "maxExportSpan" : 50000000
       }
    ]

@@ -18,7 +18,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult Harposporium control exp. OP50 2-24hrs confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "Adult Harposporium control exp. OP50 2-24hrs confirmed SLs"
     },
@@ -34,7 +34,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult Harposporium exp. 2-24hrs confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "Adult Harposporium exp. 2-24hrs confirmed SLs"
     },
@@ -50,7 +50,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult S.macescens control exp. OP50 1-24hrs confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "Adult S.macescens control exp. OP50 1-24hrs confirmed SLs"
     },
@@ -66,7 +66,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult S.macescens Db10 exp. 1-24hrs confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "Adult S.macescens Db10 exp. 1-24hrs confirmed SLs"
     },
@@ -82,7 +82,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Adult spe-9 confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "Adult spe-9 confirmed SLs"
     },
@@ -98,7 +98,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer daf-2 25dC 91hrs confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "dauer daf-2 25dC 91hrs confirmed SLs"
     },
@@ -114,7 +114,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer entry daf-2 25dC 48hrs confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "dauer entry daf-2 25dC 48hrs confirmed SLs"
     },
@@ -130,7 +130,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed SLs"
     },
@@ -146,7 +146,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/early embryo confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "early embryo confirmed SLs"
     },
@@ -162,7 +162,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/embryo him-8 confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "embryo him-8 confirmed SLs"
     },
@@ -178,7 +178,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/L4 soma no DNAse I confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "L4 soma no DNAse I confirmed SLs"
     },
@@ -194,7 +194,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/late embryo confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "late embryo confirmed SLs"
     },
@@ -210,7 +210,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L1 lin-35 confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "mid-L1 lin-35 confirmed SLs"
     },
@@ -226,7 +226,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/male mid-L4 dpy28 him-8 25dC 30hrs confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "male mid-L4 dpy28 him-8 25dC 30hrs confirmed SLs"
     },
@@ -242,7 +242,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L1 confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "mid-L1 confirmed SLs"
     },
@@ -258,7 +258,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L2 confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "mid-L2 confirmed SLs"
     },
@@ -274,7 +274,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L3 confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "mid-L3 confirmed SLs"
     },
@@ -290,7 +290,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/mid-L4 confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "mid-L4 confirmed SLs"
     },
@@ -306,7 +306,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/Young Adult confirmed SLs/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE Tracks : Waterston Group:Genelets:Splice Leaders",
+      "category": "modENCODE/Waterston Group/Genelets/Splice Leaders",
       "type": "CanvasFeatures",
       "label": "Young Adult confirmed SLs"
     }

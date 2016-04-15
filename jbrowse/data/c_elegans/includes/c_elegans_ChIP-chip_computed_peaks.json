@@ -19,7 +19,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/ChIP-chip computed peaks: DPY-26/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Lieb Group: Computed Peaks",
+      "category": "modENCODE/Lieb Group/Computed Peaks",
       "label": "ChIP-chip computed peaks: DPY-26",
       "type": "CanvasFeatures"
     },
@@ -42,7 +42,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/ChIP-chip computed peaks: DPY27/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Lieb Group: Computed Peaks",
+      "category": "modENCODE/Lieb Group/Computed Peaks",
       "type": "CanvasFeatures",
       "label": "ChIP-chip computed peaks: DPY27"
     },
@@ -65,7 +65,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/ChIP-chip computed peaks: SDC-2/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Lieb Group: Computed Peaks",
+      "category": "modENCODE/Lieb Group/Computed Peaks",
       "label": "ChIP-chip computed peaks: SDC-2",
       "type": "CanvasFeatures"
     },
@@ -88,7 +88,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/ChIP-chip computed peaks: SDC-3/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Lieb Group: Computed Peaks",
+      "category": "modENCODE/Lieb Group/Computed Peaks",
       "type": "CanvasFeatures",
       "label": "ChIP-chip computed peaks: SDC-3"
     },
@@ -111,7 +111,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/ChIP-chip computed peaks: MIX-1/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Lieb Group: Computed Peaks",
+      "category": "modENCODE/Lieb Group/Computed Peaks",
       "label": "ChIP-chip computed peaks: MIX-1",
       "type": "CanvasFeatures"
     },
@@ -134,7 +134,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/ChIP-chip computed peaks: HTZ-1/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Lieb Group: Computed Peaks",
+      "category": "modENCODE/Lieb Group/Computed Peaks",
       "label": "ChIP-chip computed peaks: HTZ-1",
       "type": "CanvasFeatures"
     },
@@ -157,7 +157,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/ChIP-chip computed peaks: MES4/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Lieb Group: Computed Peaks",
+      "category": "modENCODE/Lieb Group/Computed Peaks",
       "type": "CanvasFeatures",
       "label": "ChIP-chip computed peaks: MES4"
     },
@@ -180,7 +180,7 @@
       "trackType": "CanvasFeatures",
       "urlTemplate": "../tracks/ChIP-chip computed peaks: PolII/{refseq}/trackData.jsonz",
       "compress": 1,
-      "category": "modENCODE : Lieb Group: Computed Peaks",
+      "category": "modENCODE/Lieb Group/Computed Peaks",
       "type": "CanvasFeatures",
       "label": "ChIP-chip computed peaks: PolII"
     }

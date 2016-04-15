@@ -6,7 +6,7 @@
             "label" : false,
             "color" : "palevioletred"
          },
-         "category" : "Transcription:Ab-initio predictions",
+         "category": "Transcription/Ab-initio predictions",
          "key" : "Prediction: mGene",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

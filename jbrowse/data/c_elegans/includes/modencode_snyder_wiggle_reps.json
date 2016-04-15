@@ -12,7 +12,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4301_Snyder_MAB5_POLII_L3_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Replicates",
       "label": "Replicates MAB-5 (Pol II ChIP), MAB5_L3_GFP_rep1#593",
       "min_score": 0
     },
@@ -28,7 +28,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4290_Snyder_MAB5_POLII_L3_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Replicates",
       "label": "Replicates MAB-5 (Pol II ChIP), MAB5_L3_GFP_rep2#593",
       "min_score": 0
     },
@@ -44,7 +44,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4293_Snyder_DAF16_POLII_L4YA_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Replicates",
       "label": "Replicates DAF-16 (Pol II ChIP), DAF16_L4YA_GFP_rep1#591",
       "min_score": 0
     },
@@ -60,7 +60,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4288_Snyder_DAF16_POLII_L4YA_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Replicates",
       "label": "Replicates DAF-16 (Pol II ChIP), DAF16_L4YA_GFP_rep2#591",
       "min_score": 0
     },
@@ -76,7 +76,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4316_Snyder_AMA1_POLII_L4YA_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Replicates",
       "label": "Replicates AMA-1 (Pol II ChIP), AMA1_L4YA_GFP_rep1#589",
       "min_score": 0
     },
@@ -92,7 +92,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4321_Snyder_AMA1_POLII_L4YA_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Replicates",
       "label": "Replicates AMA-1 (Pol II ChIP), AMA1_L4YA_GFP_rep2#589",
       "min_score": 0
     },
@@ -108,7 +108,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5744_Snyder_EGL-5_POLII_L3_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Replicates",
       "label": "Replicates EGL-5 (Pol II ChIP), EGL5_POLII_L3_rep1#2616",
       "min_score": 0
     },
@@ -124,7 +124,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5745_Snyder_EGL-5_POLII_L3_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Replicates",
       "label": "Replicates EGL-5 (Pol II ChIP), EGL5_POLII_L3_rep2#2616",
       "min_score": 0
     },
@@ -140,7 +140,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5879_Snyder_HLH-8_POLII_L3_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Replicates",
       "label": "Replicates HLH-8 (Pol II ChIP), HLH8_POLII_L3_rep1#2597",
       "min_score": 0
     },
@@ -156,7 +156,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5880_Snyder_HLH-8_POLII_L3_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Replicates",
       "label": "Replicates HLH-8 (Pol II ChIP), HLH8_POLII_L3_rep2#2597",
       "min_score": 0
     },
@@ -172,7 +172,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/6107_Snyder_EOR-1_POLII_L3_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Replicates",
       "label": "Replicates EOR-1 (Pol II ChIP), EOR1_POLII_L3_rep1#2596",
       "min_score": 0
     },
@@ -188,7 +188,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/6108_Snyder_EOR-1_POLII_L3_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: Pol II ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Replicates",
       "label": "Replicates EOR-1 (Pol II ChIP), EOR1_POLII_L3_rep2#2596",
       "min_score": 0
     },
@@ -204,7 +204,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4099_Snyder_DPY27_GFP_emb_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates DPY-27 (GFP ChIP), DPY27_emb_GFP_rep1#2416",
       "min_score": 0
     },
@@ -220,7 +220,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4101_Snyder_DPY27_GFP_emb_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates DPY-27 (GFP ChIP), DPY27_emb_GFP_rep2#2416 ",
       "min_score": 0
     },
@@ -236,7 +236,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4176_Snyder_CEH-14_GFP_L2_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates CEH-14 (GFP ChIP), CEH14_L2_GFP_rep1#734",
       "min_score": 0
     },
@@ -252,7 +252,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4177_Snyder_CEH-14_GFP_L2_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates CEH-14 (GFP ChIP), CEH14_L2_GFP_rep2#734 ",
       "min_score": 0
     },
@@ -268,7 +268,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4182_Snyder_ALR-1_GFP_L2_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates ALR-1 (GFP ChIP), ALR1_L2_GFP_rep1#2434",
       "min_score": 0
     },
@@ -284,7 +284,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4183_Snyder_ALR-1_GFP_L2_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates ALR-1 (GFP ChIP), ALR1_L2_GFP_rep2#2434 ",
       "min_score": 0
     },
@@ -300,7 +300,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4188_Snyder_HLH-8_GFP_L3_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates HLH-8 (GFP ChIP), HLH8_L3_GFP_rep1#2418",
       "min_score": 0
     },
@@ -316,7 +316,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4189_Snyder_HLH-8_GFP_L3_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates HLH-8 (GFP ChIP), HLH8_L3_GFP_rep2#2418 ",
       "min_score": 0
     },
@@ -332,7 +332,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4216_Snyder_AMA1_GFP_L4YA_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates AMA-1 (GFP ChIP), AMA1_L4YA_GFP_rep1#589",
       "min_score": 0
     },
@@ -348,7 +348,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4220_Snyder_AMA1_GFP_L4YA_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates AMA-1 (GFP ChIP), AMA1_L4YA_GFP_rep2#589 ",
       "min_score": 0
     },
@@ -364,7 +364,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4259_Snyder_UNC-130_GFP_L1_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates UNC-130 (GFP ChIP), UNC130_L1_GFP_rep1#2430",
       "min_score": 0
     },
@@ -380,7 +380,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4260_Snyder_UNC-130_GFP_L1_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates UNC-130 (GFP ChIP), UNC130_L1_GFP_rep2#2430 ",
       "min_score": 0
     },
@@ -396,7 +396,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4274_Snyder_LIN-11_GFP_L2_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates LIN-11 (GFP ChIP), LIN11_L2_GFP_rep1#2429",
       "min_score": 0
     },
@@ -412,7 +412,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4276_Snyder_LIN-11_GFP_L2_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates LIN-11 (GFP ChIP), LIN11_L2_GFP_rep2#2429 ",
       "min_score": 0
     },
@@ -428,7 +428,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4277_Snyder_EOR-1_GFP_L3_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates EOR-1 (GFP ChIP), EOR1_L3_GFP_rep1#2417",
       "min_score": 0
     },
@@ -444,7 +444,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4278_Snyder_EOR-1_GFP_L3_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates EOR-1 (GFP ChIP), EOR1_L3_GFP_rep2#2417 ",
       "min_score": 0
     },
@@ -460,7 +460,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4289_Snyder_MAB5_GFP_L3_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates MAB-5 (GFP ChIP), MAB5_L3_GFP_rep1#593",
       "min_score": 0
     },
@@ -476,7 +476,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4295_Snyder_MAB5_GFP_L3_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates MAB-5 (GFP ChIP), MAB5_L3_GFP_rep2#593 ",
       "min_score": 0
     },
@@ -492,7 +492,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4303_Snyder_DAF16_GFP_L4YA_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates DAF-16 (GFP ChIP), DAF16_L4YA_GFP_rep1#591",
       "min_score": 0
     },
@@ -508,7 +508,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4306_Snyder_DAF16_GFP_L4YA_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates DAF-16 (GFP ChIP), DAF16_L4YA_GFP_rep2#591 ",
       "min_score": 0
     },
@@ -524,7 +524,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4327_Snyder_HLH-1_GFP_emb_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates HLH-1 (GFP ChIP), HLH1_emb_GFP_rep1#2431",
       "min_score": 0
     },
@@ -540,7 +540,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4329_Snyder_HLH-1_GFP_emb_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates HLH-1 (GFP ChIP), HLH1_emb_GFP_rep2#2431 ",
       "min_score": 0
     },
@@ -556,7 +556,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4331_Snyder_LIN-39-GFP_L3_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates LIN-39 (GFP ChIP), LIN39_L3_GFP_rep1#2432",
       "min_score": 0
     },
@@ -572,7 +572,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4332_Snyder_LIN-39-GFP_L3_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates LIN-39 (GFP ChIP), LIN39_L3_GFP_rep2#2432 ",
       "min_score": 0
     },
@@ -588,7 +588,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4356_Snyder_NHR-6_GFP_L2_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates NHR-6 (GFP ChIP), NHR6_L2_GFP_rep1#2433",
       "min_score": 0
     },
@@ -604,7 +604,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4357_Snyder_NHR-6_GFP_L2_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates NHR-6 (GFP ChIP), NHR6_L2_GFP_rep2#2433 ",
       "min_score": 0
     },
@@ -620,7 +620,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4371_Snyder_GEI11_GFP_L4_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates GEI-11 (GFP ChIP), GEI11_L4_GFP_rep1#2451",
       "min_score": 0
     },
@@ -636,7 +636,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4373_Snyder_GEI11_GFP_L4_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates GEI-11 (GFP ChIP), GEI11_L4_GFP_rep2#2451 ",
       "min_score": 0
     },
@@ -652,7 +652,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4382_Snyder_PES1_GFP_L4_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates PES-1 (GFP ChIP), PES1_L4_GFP_rep1#2450",
       "min_score": 0
     },
@@ -668,7 +668,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4383_Snyder_PES1_GFP_L4_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates PES-1 (GFP ChIP), PES1_L4_GFP_rep2#2450 ",
       "min_score": 0
     },
@@ -684,7 +684,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4392_Snyder_EGL5_GFP_L3_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates EGL-5 (GFP ChIP), EGL5_L3_GFP_rep1#2453",
       "min_score": 0
     },
@@ -700,7 +700,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/4394_Snyder_EGL5_GFP_L3_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates EGL-5 (GFP ChIP), EGL5_L3_GFP_rep2#2453 ",
       "min_score": 0
     },
@@ -716,7 +716,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5395_Snyder_MDL-1_GFP_L1_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates MDL-1 (GFP ChIP), MDL1_GFP_L1_rep1#2601",
       "min_score": 0
     },
@@ -732,7 +732,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5398_Snyder_MDL-1_GFP_L1_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates MDL-1 (GFP ChIP), MDL1_GFP_L1_rep2#2601 ",
       "min_score": 0
     },
@@ -748,7 +748,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5409_Snyder_MEP-1_GFP_emb_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates MEP-1 (GFP ChIP), MEP1_GFP_emb_rep1#2600",
       "min_score": 0
     },
@@ -764,7 +764,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5413_Snyder_MEP-1_GFP_emb_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates MEP-1 (GFP ChIP), MEP1_GFP_emb_rep2#2600 ",
       "min_score": 0
     },
@@ -780,7 +780,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5428_Snyder_ELT-3_GFP_L1_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates ELT-3 (GFP ChIP), ELT3_GFP_L1_rep1#2614",
       "min_score": 0
     },
@@ -796,7 +796,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5429_Snyder_ELT-3_GFP_L1_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates ELT-3 (GFP ChIP), ELT3_GFP_L1_rep2#2614 ",
       "min_score": 0
     },
@@ -812,7 +812,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5432_Snyder_SKN-1_GFP_L1_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates SKN-1 (GFP ChIP), SKN1_GFP_L1_rep1#2622",
       "min_score": 0
     },
@@ -828,7 +828,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5433_Snyder_SKN-1_GFP_L1_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates SKN-1 (GFP ChIP), SKN1_GFP_L1_rep2#2622 ",
       "min_score": 0
     },
@@ -844,7 +844,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5439_Snyder_LIN-13_GFP_emb_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates LIN-13 (GFP ChIP), LIN13_GFP_emb_rep1#2613",
       "min_score": 0
     },
@@ -860,7 +860,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5442_Snyder_LIN-13_GFP_emb_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates LIN-13 (GFP ChIP), LIN13_GFP_emb_rep2#2613 ",
       "min_score": 0
     },
@@ -876,7 +876,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5444_Snyder_BLMP-1_GFP_L1_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates BLMP-1 (GFP ChIP), BLMP1_GFP_L1_rep1#2612",
       "min_score": 0
     },
@@ -892,7 +892,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5449_Snyder_BLMP-1_GFP_L1_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates BLMP-1 (GFP ChIP), BLMP1_GFP_L1_rep2#2612 ",
       "min_score": 0
     },
@@ -908,7 +908,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5457_Snyder_EGL-27_GFP_L1_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates EGL-27 (GFP ChIP), EGL27_GFP_L1_rep1#2621",
       "min_score": 0
     },
@@ -924,7 +924,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5458_Snyder_EGL-27_GFP_L1_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates EGL-27 (GFP ChIP), EGL27_GFP_L1_rep2#2621 ",
       "min_score": 0
     },
@@ -940,7 +940,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5459_Snyder_CEH-30_GFP_lemb_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates CEH-30 (GFP ChIP), CEH30_GFP_lemb_rep1#2620",
       "min_score": 0
     },
@@ -956,7 +956,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5461_Snyder_CEH-30_GFP_lemb_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates CEH-30 (GFP ChIP), CEH30_GFP_lemb_rep2#2620 ",
       "min_score": 0
     },
@@ -972,7 +972,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5463_Snyder_PQM-1_GFP_L3_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates PQM-1 (GFP ChIP), PQM1_GFP_L3_rep1#2623",
       "min_score": 0
     },
@@ -988,7 +988,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5464_Snyder_PQM-1_GFP_L3_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates PQM-1 (GFP ChIP), PQM1_GFP_L3_rep2#2623 ",
       "min_score": 0
     },
@@ -1004,7 +1004,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5470_Snyder_NHR-105_GFP_L3_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates NHR-105 (GFP ChIP), NHR105_GFP_L3_rep1#2617",
       "min_score": 0
     },
@@ -1020,7 +1020,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5472_Snyder_NHR-105_GFP_L3_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates NHR-105 (GFP ChIP), NHR105_GFP_L3_rep2#2617 ",
       "min_score": 0
     },
@@ -1036,7 +1036,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5473_Snyder_LIN-15B_GFP_L3_rep1.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates LIN-15B (GFP ChIP), LIN15B_GFP_L3_rep1#2610",
       "min_score": 0
     },
@@ -1052,7 +1052,7 @@
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/5474_Snyder_LIN-15B_GFP_L3_rep2.bw",
       "max_score": 200,
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE Tracks : Snyder Group: GFP ChIP: Replicates",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Replicates",
       "label": "Replicates LIN-15B (GFP ChIP), LIN15B_GFP_L3_rep2#2610 ",
       "min_score": 0
     }

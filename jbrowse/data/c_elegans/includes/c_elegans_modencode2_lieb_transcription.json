@@ -15,7 +15,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/FP00001_HPL2_N2_L3_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "autoscale": "local",
       "label": "Chromatin Silencing ChIP-chip arrays, FP00001_HPL2_N2_L3_EGS"
     },
@@ -34,7 +34,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ2324_HPL2_N2_LTEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "autoscale": "local",
       "label": "Chromatin Silencing ChIP-chip arrays, SDQ2324_HPL2_N2_LTEMB"
     },
@@ -53,7 +53,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ4129_Y39G10AR18_N2_MXEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Chromatin Modifying Enzymes",
+      "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "autoscale": "local",
       "label": "Chromatin Silencing ChIP-chip arrays, SDQ4129_Y39G10AR18_N2_MXEMB"
     },
@@ -72,7 +72,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/SDQ2330_LIN15B_N2_LTEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Lin-15B ChIP-chip arrays"
     },
@@ -91,7 +91,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-SDQ3599_DPL1_N2_L3_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, SDQ3599_DPL1_N2_L3"
     },
@@ -110,7 +110,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-JA00011_LIN35_N2_L3_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, JA00011_LIN35_N2_L3"
     },
@@ -129,7 +129,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_3569.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, JA00001_HTZ1_N2_L3"
     },
@@ -148,7 +148,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5976.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, SDQ2340_HPL2_N2_L3"
     },
@@ -167,7 +167,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-BH00004_LIN54_N2_L3_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, BH00004_LIN54_N2_L3"
     },
@@ -186,7 +186,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-BH00001_LIN52_N2_L3_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, BH00001_LIN52_N2_L3"
     },
@@ -205,7 +205,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-BH00003_LIN37_N2_L3_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, BH00003_LIN37_N2_L3"
     },
@@ -224,7 +224,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5987.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, SDQ3528_NURF1_N2_L3"
     },
@@ -243,7 +243,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5973.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, SDQ2354_HDA1_N2_L3"
     },
@@ -262,7 +262,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6300.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, SDQ4663_RPC1_N2_L3"
     },
@@ -281,7 +281,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5974.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, SDQ3861_LET418_N2_L3"
     },
@@ -300,7 +300,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5980.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, HM4077_LIN61_N2_L3"
     },
@@ -319,7 +319,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5975.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, SDQ2342_LET418_N2_L3"
     },
@@ -338,7 +338,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-BH00005_LIN9_N2_L3_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, BH00005_LIN9_N2_L3"
     },
@@ -357,7 +357,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_3574.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, SDQ2370_LIN53_N2_L3"
     },
@@ -376,7 +376,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5986.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, SDQ3525_NURF1_N2_L3"
     },
@@ -395,7 +395,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5979.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, SDQ3520_LIN61_N2_L3"
     },
@@ -414,7 +414,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5985.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, SDQ2940_NURF1_N2_L3"
     },
@@ -433,7 +433,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-SDQ3590_EFL1_N2_L3_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq L3, SDQ3590_EFL1_N2_L3"
     },
@@ -452,7 +452,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-BH00003_LIN37_N2_LTemb_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Late Embryo, BH00003_LIN37_N2_LEMB"
     },
@@ -471,7 +471,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-SDQ3590_EFL1_N2_LTemb_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Late Embryo, SDQ3590_EFL1_N2_LEMB"
     },
@@ -490,7 +490,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_3929.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Late Embryo, SDQ3166_LIN37_N2_LEMB"
     },
@@ -509,7 +509,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-BH00004_LIN54_N2_LTemb_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Late Embryo, BH00004_LIN54_N2_LEMB"
     },
@@ -528,7 +528,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-BH00005_LIN9_N2_LTemb_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Late Embryo, BH00005_LIN9_N2_LEMB"
     },
@@ -547,7 +547,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-BH00001_LIN52_N2_LTemb_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Late Embryo, BH00001_LIN52_N2_LEMB"
     },
@@ -566,7 +566,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_3931.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Late Embryo, SDQ2370_LIN53_N2_LEMB"
     },
@@ -585,7 +585,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-SDQ3599_DPL1_N2_LTemb_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Late Embryo, SDQ3599_DPL1_N2_LEMB"
     },
@@ -604,7 +604,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-JA00011_LIN35_N2_LTemb_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Late Embryo, JA00011_LIN35_N2_LEMB"
     },
@@ -623,7 +623,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6227.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ2357Q2358_AMA1_N2_MXEMB_EE"
     },
@@ -642,7 +642,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-SDQ4663_RPC1_N2_MXemb_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4663_RPC1_N2_MXEMB"
     },
@@ -661,7 +661,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-SDQ4526_SFC1_N2_MXemb_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4526_TF3C_N2_MXEMB"
     },
@@ -680,7 +680,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq_SDQ4470_TAG315_N2_MXemb_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4470_TAG315_N2_MXEMB"
     },
@@ -699,7 +699,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6208.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, AB46540_NIgG_N2_MXEMB"
     },
@@ -718,7 +718,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6291.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4585_ASH2_N2_MXEMB"
     },
@@ -737,7 +737,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6265.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4481_PQN85_N2_MXEMB"
     },
@@ -756,7 +756,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6218.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, NBP170893_HTZ1_N2_MXEMB"
     },
@@ -775,7 +775,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6235.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ3856_SDC1_N2_MXEMB"
     },
@@ -794,7 +794,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6021.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ2966_MIS12_N2_MXEMB"
     },
@@ -813,7 +813,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6219.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, OD0039_SMC4_N2_MXEMB"
     },
@@ -832,7 +832,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6230.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ2357Q2358_AMA1_N2_MXEMB_RiIMB1"
     },
@@ -851,7 +851,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6285.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4564_DPY28_N2_MXEMB"
     },
@@ -870,7 +870,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6251.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4109_TAF1_N2_MXEMB"
     },
@@ -889,7 +889,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6297.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4640_SWD3_N2_MXEMB"
     },
@@ -908,7 +908,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6283.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4562_SMC6_N2_MXEMB"
     },
@@ -927,7 +927,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6281.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4561_DPY26_N2_MXEMB"
     },
@@ -946,7 +946,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6234.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ3582_CBP1_N2_MXEMB"
     },
@@ -965,7 +965,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6269.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4496_DPY26_N2_MXEMB"
     },
@@ -984,7 +984,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6232.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ3499_DPY30_N2_MXEMB"
     },
@@ -1003,7 +1003,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6267.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4493_MAU2_N2_MXEMB"
     },
@@ -1022,7 +1022,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6257.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4154_IMB1_N2_MXEMB"
     },
@@ -1041,7 +1041,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6237.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ3892_MIX1_N2_MXEMB"
     },
@@ -1060,7 +1060,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6023.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ2946_HCP4_N2_MXEMB"
     },
@@ -1079,7 +1079,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-AB1791_H3_N2_L3_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
       "label": "Core Histones ChIP-Seq"
     },
@@ -1098,7 +1098,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-JL00001_DPY27_N2_L3_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Dosage Compensation ChIP-Seq"
     },
@@ -1117,7 +1117,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-SDQ0820_EPC1_N2_L3_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Polycomb Proteins ChIP-Seq"
     },
@@ -1136,7 +1136,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-LPAR109_H4tetraac_109_N2_L3_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
       "label": "Histone Modifications (H4) ChIP-Seq"
     },
@@ -1155,7 +1155,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/seq-WA30534819_H3K4me3_N2_L3_merged.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Chromatin Structure: Histone Modifications and Variants",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
       "label": "Histone Modifications (H3K4) ChIP-Seq, WA30534819_H3K4me3_N2_L3"
     },
@@ -1174,7 +1174,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5230.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3972_COH3_FEM2_AD"
     },
@@ -1193,7 +1193,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6375.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ5421_CEC7_FEM2_AD"
     },
@@ -1212,7 +1212,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5233.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ4068_MRG1_FEM2_AD"
     },
@@ -1231,7 +1231,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5227.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3965_ZIM1_FEM2_AD"
     },
@@ -1250,7 +1250,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_3923.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ0811_RAD51_FEM2_AD"
     },
@@ -1269,7 +1269,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6272.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, G0655G0656_HTP3_FEM2_AD"
     },
@@ -1288,7 +1288,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5224.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3953_REC8_FEM2_AD"
     },
@@ -1307,7 +1307,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5231.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3989_ASH2_FEM2_AD"
     },
@@ -1326,7 +1326,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5223.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3949_ZIM3_FEM2_AD"
     },
@@ -1345,7 +1345,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5218.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3925_ZHP3_FEM2_AD"
     },
@@ -1364,7 +1364,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5188.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ0835_SCC1_FEM2_AD"
     },
@@ -1383,7 +1383,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_3917.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ4501_T09A5.8_FEM2_AD"
     },
@@ -1402,7 +1402,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6282.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ0809_COH1_FEM2_AD"
     },
@@ -1421,7 +1421,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5190.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ2356_MRE11_FEM2_AD"
     },
@@ -1440,7 +1440,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3942_KLE2_FEM2_AD"
     },
@@ -1459,7 +1459,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5209.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3866_MRE11_FEM2_AD"
     },
@@ -1478,7 +1478,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5208.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3853_MSH5_FEM2_AD"
     },
@@ -1497,7 +1497,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6007.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ4625_T09A5.8_FEM2_AD"
     },
@@ -1516,7 +1516,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6374.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ5413_CEC7_FEM2_AD"
     },
@@ -1535,7 +1535,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6301.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ2382_HIM5_FEM2_AD"
     },
@@ -1554,7 +1554,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5216.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3915_MSH5_FEM2_AD"
     },
@@ -1573,7 +1573,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5214.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3907_CHD3_FEM2_AD"
     },
@@ -1592,7 +1592,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5187.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ0821_SCC1_FEM2_AD"
     },
@@ -1611,7 +1611,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6008.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3898_KLE2_FEM2_AD"
     },
@@ -1630,7 +1630,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6278.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3914_REC8_FEM2_AD"
     },
@@ -1649,7 +1649,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5207.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3849_CHD3_FEM2_AD"
     },
@@ -1668,7 +1668,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6276.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ0802_REC8_FEM2_AD"
     },
@@ -1687,7 +1687,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5222.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3948_COH3_FEM2_AD"
     },
@@ -1706,7 +1706,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5225.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ3956_ZHP3_FEM2_AD"
     },
@@ -1725,7 +1725,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5186.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ0812_COH1_FEM2_AD"
     },
@@ -1744,7 +1744,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5189.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq DH245, SDQ1665_1666_MRG1_FEM2_AD"
     },
@@ -1763,7 +1763,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_5031.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Early Embryo, AB1791_H3_377098_N2_EEMB"
     },
@@ -1782,7 +1782,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6341.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Early Embryo, SDQ3927_MRG1_N2_EEMB"
     },
@@ -1801,7 +1801,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6329.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Early Embryo, SDQ3838_T26A5.5_N2_EEMB"
     },
@@ -1820,7 +1820,7 @@
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/lieb/modencode_6344.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014):Transcription Factors: Transcription and Chromatin",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
       "label": "Transcription Factors ChIP-Seq Early Embryo, AB817_8WG16_639746_N2_EEMB"
     }

@@ -11,7 +11,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Deprecated operons/{refseq}/trackData.jsonz",
          "compress" : 1,
-         "category" : "Genes",
+         "category": "Genes",
          "label" : "Deprecated operons",
          "type" : "CanvasFeatures",
          "metadata" : {

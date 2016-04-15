@@ -19,7 +19,7 @@
         "shortInfo": "The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
       },
       "type": "CanvasFeatures",
-      "category": "modENCODE Tracks : Piano Group: 3UTR Annotation",
+      "category": "modENCODE/Piano Group/3UTR Annotation",
       "glyph": "JBrowse/View/FeatureGlyph/Segments"
     },
     {
@@ -41,7 +41,7 @@
       },
       "label": "USTs - CEUP1",
       "type": "CanvasFeatures",
-      "category": "modENCODE Tracks : Piano Group: 3UTR Annotation",
+      "category": "modENCODE/Piano Group/3UTR Annotation",
       "glyph": "JBrowse/View/FeatureGlyph/Segments"
     },
     {
@@ -61,7 +61,7 @@
       "metadata": {
         "shortInfo": "Piano mixed-stage 3'RACE. The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
       },
-      "category": "modENCODE Tracks : Piano Group: 3UTR Annotation",
+      "category": "modENCODE/Piano Group/3UTR Annotation",
       "label": "polyA sites - CEUP1"
     },
     {
@@ -81,7 +81,7 @@
       "metadata": {
         "shortInfo": "Annotation of CEUP 3' UTRs, polyA sites, and PAS sites. Multiple independent evidence sources supporting the existence of 3'UTR isoforms were collected, aligned to the genome, and curated as previously described. Four main types of data sources were used, including several modENCODE datasets: 1. CEUP 3' RACE clones (modENCODE datasets 515) 2. CEUP polyA capture (modENCODE datasets 992,2330-2337) 3. AceView curated cDNA and EST traces from the Yuji Kohara collection, Exelixis and the NCBI Trace Archive, and GenBank entries. 4. Published RNAseq transcriptome profiling data from Hillier et al., Genome Res 2009 (PMID:19181841; modENCODE 2351-2354) Additional details can be found in the protocol"
       },
-      "category": "modENCODE Tracks : Piano Group: 3UTR Annotation",
+      "category": "modENCODE/Piano Group/3UTR Annotation",
       "type": "CanvasFeatures"
     },
     {
@@ -102,7 +102,7 @@
       "metadata": {
         "shortInfo": "Annotation of CEUP 3' UTRs, polyA sites, and PAS sites. Multiple independent evidence sources supporting the existence of 3'UTR isoforms were collected, aligned to the genome, and curated as previously described. Four main types of data sources were used, including several modENCODE datasets: 1. CEUP 3' RACE clones (modENCODE datasets 515) 2. CEUP polyA capture (modENCODE datasets 992,2330-2337) 3. AceView curated cDNA and EST traces from the Yuji Kohara collection, Exelixis and the NCBI Trace Archive, and GenBank entries. 4. Published RNAseq transcriptome profiling data from Hillier et al., Genome Res 2009 (PMID:19181841; modENCODE 2351-2354) Additional details can be found in the protocol"
       },
-      "category": "modENCODE Tracks : Piano Group: 3UTR Annotation"
+      "category": "modENCODE/Piano Group/3UTR Annotation"
     },
     {
       "style": {
@@ -120,7 +120,7 @@
         "shortInfo": "Annotation of CEUP 3' UTRs, polyA sites, and PAS sites. Multiple independent evidence sources supporting the existence of 3'UTR isoforms were collected, aligned to the genome, and curated as previously described. Four main types of data sources were used, including several modENCODE datasets: 1. CEUP 3' RACE clones (modENCODE datasets 515) 2. CEUP polyA capture (modENCODE datasets 992,2330-2337) 3. AceView curated cDNA and EST traces from the Yuji Kohara collection, Exelixis and the NCBI Trace Archive, and GenBank entries. 4. Published RNAseq transcriptome profiling data from Hillier et al., Genome Res 2009 (PMID:19181841; modENCODE 2351-2354) Additional details can be found in the protocol, below."
       },
       "label": "UTRome 3prime UTRs",
-      "category": "modENCODE Tracks : Piano Group: 3UTR Annotation",
+      "category": "modENCODE/Piano Group/3UTR Annotation",
       "type": "CanvasFeatures"
     },
     {
@@ -139,7 +139,7 @@
       "metadata": {
         "shortInfo": "Piano mixed-stage 3'RACE. The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
       },
-      "category": "modENCODE Tracks : Piano Group: 3UTR Annotation",
+      "category": "modENCODE/Piano Group/3UTR Annotation",
       "label": "3prime UTRs - CEUP1"
     }
   ]

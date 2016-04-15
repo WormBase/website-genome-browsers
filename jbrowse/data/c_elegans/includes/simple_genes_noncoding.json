@@ -21,7 +21,7 @@
          "urlTemplate" : "../tracks/Curated Genes (noncoding)/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "category" : "Genes",
+         "category": "Genes",
          "label" : "Curated Genes (noncoding)",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {

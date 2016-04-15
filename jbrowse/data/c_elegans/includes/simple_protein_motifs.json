@@ -17,7 +17,7 @@
          "metadata" : {
             "shortInfo" : "This track shows the extent of predicted protein motifs."
          },
-         "category" : "Sequence Features:Translated Features",
+         "category": "Sequence Features/Translated Features",
          "key" : "Protein motifs",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
