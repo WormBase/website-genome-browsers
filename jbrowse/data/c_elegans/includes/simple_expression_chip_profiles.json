@@ -17,7 +17,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Expression chip profiles/{refseq}/trackData.jsonz",
          "compress" : 1,
-         "category" : "Expression",
+         "category": "Expression",
          "label" : "Expression chip profiles",
          "type" : "CanvasFeatures",
          "metadata" : {

@@ -21,7 +21,7 @@
          "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Classical_alleles",
-         "category" : "Alleles, Variations, RNAi",
+         "category": "Alleles, Variations, RNAi",
          "metadata" : {
             "shortInfo" : "This track shows classical alleles comprised of insertions, deletions, substitutions and complex changes."
          },

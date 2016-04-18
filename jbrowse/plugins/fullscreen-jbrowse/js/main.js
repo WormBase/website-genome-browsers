@@ -46,6 +46,12 @@ return declare( JBrowsePlugin,
 			console.log("entering fullpage");
 
                  var url = '/tools/genome/jbrowse/full.html';
+                 var fullurl = document.location;
+
+                 if (String(fullurl).match('jbrowse-simple')) {
+                     url = '/tools/genome/jbrowse-simple/full.html';
+                 };
+
                  var get = document.location.search;
                  var get2 = get.replace(/nav=0/,'nav=1');
                  var get3 = get2.replace(/overview=0/, 'overview=1');

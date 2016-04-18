@@ -19,7 +19,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/RNAi experiments (primary targets)/{refseq}/trackData.jsonz",
          "compress" : 1,
-         "category" : "Alleles, Variations, RNAi",
+         "category": "Alleles, Variations, RNAi",
          "type" : "CanvasFeatures",
          "label" : "RNAi experiments (primary targets)",
          "metadata" : {

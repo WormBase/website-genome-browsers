@@ -20,7 +20,7 @@
          "urlTemplate" : "../tracks/RNASeq/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "category" : "Expression",
+         "category": "Expression",
          "label" : "RNASeq",
          "metadata" : {
             "shortInfo" : "These boxes indicate alignments of short read sequences from all available RNASeq projects. The number of reads has been normalised by averaging over the number of libraries. The height of all boxes indicates the relative score of the feature."

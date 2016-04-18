@@ -20,7 +20,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/High-throughput alleles/{refseq}/trackData.jsonz",
          "compress" : 1,
-         "category" : "Alleles, Variations, RNAi",
+         "category": "Alleles, Variations, RNAi",
          "type" : "CanvasFeatures",
          "label" : "High-throughput alleles",
          "metadata" : {

@@ -21,7 +21,7 @@
          "urlTemplate" : "../tracks/Change-of-function polymorphisms/{refseq}/trackData.jsonz",
          "compress" : 1,
          "label" : "Change-of-function polymorphisms",
-         "category" : "Alleles, Variations, RNAi",
+         "category": "Alleles, Variations, RNAi",
          "type" : "CanvasFeatures",
          "metadata" : {
             "shortInfo" : "This track shows single nucleotide polymorphisms (SNPs) that may generate a change of function."

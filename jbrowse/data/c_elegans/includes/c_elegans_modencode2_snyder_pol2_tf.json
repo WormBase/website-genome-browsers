@@ -1,193 +1,184 @@
 {
-   "tracks" : [
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "neg color"         : "orange",
-                "height"            : 30
-            },
-            "metadata"      : {
-                "citation"  : " <h1>   Identification of Pol II Binding Regions in MAB-5::GFP L3    (Snyder project,Snyder subgroup) </h1> <h2>General Description</h2> We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Worm_Growth_and_Harvest:MS:1&oldid=25516'>Worm Growth and Harvest</a>      </li> <li> <b>Sample preparation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing_Illumina:MS:1&oldid=19139'>Illumina Deep Sequencing</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP:MS:1&oldid=19120'>ChIP</a> </li> <li> <b>Data Analysis:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Merging:MS:1&oldid=23034'>Illumina Data Merging</a>,  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Analysis:MS:1&oldid=21752'>Illumina Data Analysis</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP-Seq_Peak-calling:MS:1&oldid=23035'>Peak Calling</a>      </li> </ol> <h2>Experimental Reagents</h2> <ol> <b>Growth Conditions:</b> <li> <b>Antibodies:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Ab:RNA_Polymerase_II:MS:1&oldid=19074'>RNA Polymerase II</a>      </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:L3:MS:1&oldid=19069'>L3</a> </li> </ol> <br /> <br /> <b>Release Date:</b> 2009-11-27  Track 594",
-                "shortInfo" : "    Identification of Pol II Binding Regions in MAB-5::GFP L3    (Snyder project,Snyder subgroup)  General Description We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
-            },
-            "variance_band" : 0,
-            "key"           : "MAB-5 Combined (Pol II ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_MAB5_POLII_L3_combined_WS220.bw",
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE data (2014):Transcription Factors: PolII ChIP",
-            "label"         : "MAB-5 Combined (Pol II ChIP)",
-            "max_score"     : 4,
-            "min_score"     : -4
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "neg color"         : "orange",
-                "height"            : 30
-            },
-            "metadata"      : {
-                "citation"  : " <h1>   Identification of Pol II Binding Regions in DAF-16::GFP L4 Young Adults    (Snyder project,Snyder subgroup) </h1> <h2>General Description</h2> We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Worm_Growth_and_Harvest:MS:1&oldid=25516'>Worm Growth and Harvest</a>      </li> <li> <b>Sample preparation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing_Illumina:MS:1&oldid=19139'>Illumina Deep Sequencing</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP:MS:1&oldid=19120'>ChIP</a> </li> <li> <b>Data Analysis:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Merging:MS:1&oldid=23034'>Illumina Data Merging</a>,  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Analysis:MS:1&oldid=21752'>Illumina Data Analysis</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP-Seq_Peak-calling:MS:1&oldid=23035'>Peak Calling</a>      </li> </ol> <h2>Experimental Reagents</h2> <ol> <b>Growth Conditions:</b> <li> <b>Antibodies:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Ab:RNA_Polymerase_II:MS:1&oldid=19074'>RNA Polymerase II</a>      </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:L4-Young_Adult:MS:1&oldid=19737'>L4-Young Adult</a> </li> <li> <b>External Links:</b>  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM389651'>GSM389651</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM389650'>GSM389650</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM389647'>GSM389647</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM389648'>GSM389648</a> </li> </ol> <br /> <br /> <b>Release Date:</b> 2009-11-27  Track 592",
-                "shortInfo" : "    Identification of Pol II Binding Regions in DAF-16::GFP L4 Young Adults    (Snyder project,Snyder subgroup)  General Description We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
-            },
-            "variance_band" : 0,
-            "key"           : "DAF-16 Combined (Pol II ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_DAF16_POLII_L4YA_combined_WS220.bw",
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE data (2014):Transcription Factors: PolII ChIP",
-            "label"         : "DAF-16 Combined (Pol II ChIP)",
-            "max_score"     : 4,
-            "min_score"     : -4
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "neg color"         : "orange",
-                "height"            : 30
-            },
-            "metadata"      : {
-                "citation"  : "<h1>Identification of Pol II Binding Regions in AMA-1::GFP L4 Young Adult (Snyder project,Snyder subgroup)</h1> <h2>General Description</h2> We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Worm_Growth_and_Harvest:MS:1&oldid=25516'>Worm Growth and Harvest</a>      </li> <li> <b>Sample preparation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing_Illumina:MS:1&oldid=19139'>Illumina Deep Sequencing</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP:MS:1&oldid=19120'>ChIP</a> </li> <li> <b>Data Analysis:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Merging:MS:1&oldid=23034'>Illumina Data Merging</a>,  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Analysis:MS:1&oldid=21752'>Illumina Data Analysis</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP-Seq_Peak-calling:MS:1&oldid=23035'>Peak Calling</a>      </li> </ol> <h2>Experimental Reagents</h2> <ol> <b>Growth Conditions:</b> <li> <b>Antibodies:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Ab:RNA_Polymerase_II:MS:1&oldid=19074'>RNA Polymerase II</a>      </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:L4-Young_Adult:MS:1&oldid=19737'>L4-Young Adult</a> </li> <li> <b>External Links:</b>  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM389313'>GSM389313</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM389312'>GSM389312</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM389310'>GSM389310</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM389309'>GSM389309</a> </li> </ol> <br /> <br /> <b>Release Date:</b> 2009-11-27  Track 590",
-                "shortInfo" : "Identification of Pol II Binding Regions in AMA-1::GFP L4 Young Adult (Snyder project,Snyder subgroup) General Description We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
-            },
-            "variance_band" : 0,
-            "key"           : "AMA-1 Combined (Pol II ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_AMA1_POLII_L4YA_combined_WS220.bw",
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE data (2014):Transcription Factors: PolII ChIP",
-            "label"         : "AMA-1 Combined (Pol II ChIP)",
-            "max_score"     : 4,
-            "min_score"     : -4
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "neg color"         : "orange",
-                "height"            : 30
-            },
-            "metadata"      : {
-                "citation"  : "<h1> Identification of Pol II Binding Regions in L3 EGL-5::GFP (Snyder project,Snyder subgroup) </h1> <h2>General Description</h2> We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Worm_Growth_and_Harvest:MS:1&oldid=25516'>Worm Growth and Harvest</a>      </li> <li> <b>Sample preparation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing_Illumina:MS:1&oldid=26756'>Illumina Deep Sequencing</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP:MS:1&oldid=19120'>ChIP</a> </li> <li> <b>Data Analysis:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Merging:MS:1&oldid=23034'>Illumina Data Merging</a>,  <a href='http://wiki.modencode.org/project/index.php?title=Skip_Illumina_Data_Merging:MS:1&oldid=25729'>Skip Illumina Data Merging</a>,  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Analysis:MS:1&oldid=21752'>Illumina Data Analysis</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP-Seq_Peak-calling:MS:1&oldid=23035'>Peak Calling</a>      </li> </ol> <h2>Experimental Reagents</h2> <ol> <b>Growth Conditions:</b> <li> <b>Antibodies:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Ab:RNA_Polymerase_II:MS:1&oldid=19074'>RNA Polymerase II</a>      </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:L3:MS:1&oldid=19069'>L3</a> </li> </ol> <br /> <br /> <b>Release Date:</b> 2010-02-11",
-                "shortInfo" : " Identification of Pol II Binding Regions in L3 EGL-5::GFP (Snyder project,Snyder subgroup)  General Description We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
-            },
-            "variance_band" : 0,
-            "key"           : "EGL-5 Combined (Pol II ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_EGL-5_POLII_L3_combined_WS220.bw",
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE data (2014):Transcription Factors: PolII ChIP",
-            "label"         : "EGL-5 Combined (Pol II ChIP)",
-            "max_score"     : 4,
-            "min_score"     : -4
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "neg color"         : "orange",
-                "height"            : 30
-            },
-            "metadata"      : {
-                "citation"  : "<h1> Identification of Pol II Binding Regions in L3 HLH-8::GFP (Snyder project, Snyder subgroup) </h1> Synchronized L3 larvae from C. elegans strain OP74 (a transgenic strain engineered to express a gene fusion between hlh-8 and GFP) were treated with the cross-linking reagent formaldehyde.  After lysis and sonication, the chromatin was immunoprecipitated with an affinity-purified antibody that recognizes the largest subunit of RNA Polymerase II.  The bound DNA was purified and sequenced in an Illumina GA-2.  A sample of the input DNA was sequenced in parallel.  The ChIP-seq data generated by this experiment was analyzed using the PeakSeq peak-calling algorithm to predict protein binding sites in the C. elegans genome. <br/><br/> <h2>General Description</h2> We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Worm_Growth_and_Harvest:MS:1&oldid=25516'>Worm Growth and Harvest</a>      </li> <li> <b>Sample preparation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing_Illumina:MS:1&oldid=26756'>Illumina Deep Sequencing</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP:MS:1&oldid=19120'>ChIP</a> </li> <li> <b>Data Analysis:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Merging:MS:1&oldid=23034'>Illumina Data Merging</a>,  <a href='http://wiki.modencode.org/project/index.php?title=Skip_Illumina_Data_Merging:MS:1&oldid=25729'>Skip Illumina Data Merging</a>,  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Analysis:MS:1&oldid=21752'>Illumina Data Analysis</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP-Seq_Peak-calling:MS:1&oldid=23035'>Peak Calling</a>      </li> </ol> <h2>Experimental Reagents</h2> <ol> <b>Growth Conditions:</b> <li> <b>Antibodies:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Ab:RNA_Polymerase_II:MS:1&oldid=19074'>RNA Polymerase II</a>      </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:L3:MS:1&oldid=19069'>L3</a> </li> </ol> <br /> <br /> <b>Release Date:</b> 2010-02-11  Track 2597",
-                "shortInfo" : " Identification of Pol II Binding Regions in L3 HLH-8::GFP (Snyder project, Snyder subgroup)  Synchronized L3 larvae from C. elegans strain OP74 (a transgenic strain engineered to express a gene fusion between hlh-8 and GFP) were treated with the cross-linking reagent formaldehyde.  After lysis and sonication, the chromatin was immunoprecipitated with an affinity-purified antibody that recognizes the largest subunit of RNA Polymerase II.  The bound DNA was purified and sequenced in an Illumina GA-2.  A sample of the input DNA was sequenced in parallel.  The ChIP-seq data generated by this experiment was analyzed using the PeakSeq peak-calling algorithm to predict protein binding sites in the C. elegans genome.  General Description We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
-            },
-            "variance_band" : 0,
-            "key"           : "HLH-8 Combined (Pol II ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_HLH-8_POLII_L3_combined_WS220.bw",
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE data (2014):Transcription Factors: PolII ChIP",
-            "label"         : "HLH-8 Combined (Pol II ChIP)",
-            "max_score"     : 4,
-            "min_score"     : -4
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "neg color"         : "orange",
-                "height"            : 30
-            },
-            "metadata"      : {
-                "citation"  : "<h1> Identification of Pol II Binding Regions in L3 EOR-1::GFP (Snyder project,  subgroup) </h1> <h2>General Description</h2> We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Worm_Growth_and_Harvest:MS:1&oldid=25516'>Worm Growth and Harvest</a>      </li> <li> <b>Sample preparation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing_Illumina:MS:1&oldid=26756'>Illumina Deep Sequencing</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP:MS:1&oldid=19120'>ChIP</a> </li> <li> <b>Data Analysis:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Merging:MS:1&oldid=23034'>Illumina Data Merging</a>,  <a href='http://wiki.modencode.org/project/index.php?title=Skip_Illumina_Data_Merging:MS:1&oldid=25729'>Skip Illumina Data Merging</a>,  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Analysis:MS:1&oldid=21752'>Illumina Data Analysis</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP-Seq_Peak-calling:MS:1&oldid=23035'>Peak Calling</a>      </li> </ol> <h2>Experimental Reagents</h2> <ol> <b>Growth Conditions:</b> <li> <b>Antibodies:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Ab:RNA_Polymerase_II:MS:1&oldid=19074'>RNA Polymerase II</a>      </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:L3:MS:1&oldid=19069'>L3</a> </li> </ol> <br /> <br /> <b>Release Date:</b> 2010-02-17  Track 2596",
-                "shortInfo" : " Identification of Pol II Binding Regions in L3 EOR-1::GFP (Snyder project,  subgroup)  General Description We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
-            },
-            "variance_band" : 0,
-            "key"           : "EOR-1 Combined (Pol II ChIP)",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_EOR-1_POLII_L3_combined_WS220.bw",
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE data (2014):Transcription Factors: PolII ChIP",
-            "label"         : "EOR-1 Combined (Pol II ChIP)",
-            "max_score"     : 4,
-            "min_score"     : -4
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "neg color"         : "orange",
-                "height"            : 30
-            },
-            "metadata"      : {
-                "citation"  : "<h1> Identification of Pol II Binding Regions in PHA-4::GFP Starved L1  (Snyder project,Snyder subgroup)</h1> <h2>General Description</h2> We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Worm_Growth_and_Harvest:MS:1&oldid=25516'>Worm Growth and Harvest</a>      </li> <li> <b>Sample preparation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing_Illumina:MS:1&oldid=19139'>Illumina Deep Sequencing</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP:MS:1&oldid=19120'>ChIP</a> </li> <li> <b>Data Analysis:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Merging:MS:1&oldid=23034'>Illumina Data Merging</a>,  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Analysis:MS:1&oldid=21752'>Illumina Data Analysis</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP-Seq_Peak-calling:MS:1&oldid=23035'>Peak Calling</a>      </li> </ol> <h2>Experimental Reagents</h2> <ol> <b>Growth Conditions:</b> <li> <b>Antibodies:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Ab:RNA_Polymerase_II:MS:1&oldid=19074'>RNA Polymerase II</a>      </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:starved_L1:MS:1&oldid=19067'>starved L1</a>,  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:fed_L1:MS:1&oldid=20167'>fed L1</a>,  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:embryo:MS:1&oldid=19065'>embryo</a> </li> <li> <b>External Links:</b>  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM363863'>GSM363863</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM363861'>GSM363861</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM391296'>GSM391296</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM391299'>GSM391299</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM391297'>GSM391297</a>      </li> </ol> <br /> <br /> <b>Release Date:</b> 2009-11-27  Track 588",
-                "shortInfo" : " Identification of Pol II Binding Regions in PHA-4::GFP Starved L1  (Snyder project,Snyder subgroup) General Description We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
-            },
-            "variance_band" : 0,
-            "key"           : "PHA-4 Combined (Pol II ChIP), PHA4_POLII_FedL1",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_POLII_FedL1_combined_WS220.bw",
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE data (2014):Transcription Factors: PolII ChIP",
-            "label"         : "PHA-4 Combined (Pol II ChIP), PHA4_POLII_FedL1",
-            "max_score"     : 4,
-            "min_score"     : -4
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "neg color"         : "orange",
-                "height"            : 30
-            },
-            "metadata"      : {
-                "citation"  : "<h1> Identification of Pol II Binding Regions in PHA-4::GFP Starved L1  (Snyder project,Snyder subgroup)</h1> <h2>General Description</h2> We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Worm_Growth_and_Harvest:MS:1&oldid=25516'>Worm Growth and Harvest</a>      </li> <li> <b>Sample preparation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing_Illumina:MS:1&oldid=19139'>Illumina Deep Sequencing</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP:MS:1&oldid=19120'>ChIP</a> </li> <li> <b>Data Analysis:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Merging:MS:1&oldid=23034'>Illumina Data Merging</a>,  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Analysis:MS:1&oldid=21752'>Illumina Data Analysis</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP-Seq_Peak-calling:MS:1&oldid=23035'>Peak Calling</a>      </li> </ol> <h2>Experimental Reagents</h2> <ol> <b>Growth Conditions:</b> <li> <b>Antibodies:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Ab:RNA_Polymerase_II:MS:1&oldid=19074'>RNA Polymerase II</a>      </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:starved_L1:MS:1&oldid=19067'>starved L1</a>,  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:fed_L1:MS:1&oldid=20167'>fed L1</a>,  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:embryo:MS:1&oldid=19065'>embryo</a> </li> <li> <b>External Links:</b>  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM363863'>GSM363863</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM363861'>GSM363861</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM391296'>GSM391296</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM391299'>GSM391299</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM391297'>GSM391297</a>      </li> </ol> <br /> <br /> <b>Release Date:</b> 2009-11-27  Track 588",
-                "shortInfo" : " Identification of Pol II Binding Regions in PHA-4::GFP Starved L1  (Snyder project,Snyder subgroup) General Description We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
-            },
-            "variance_band" : 0,
-            "key"           : "PHA-4 Combined (Pol II ChIP), PHA4_POLII_emb",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_POLII_emb_combined_WS220.bw",
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE data (2014):Transcription Factors: PolII ChIP",
-            "label"         : "PHA-4 Combined (Pol II ChIP), PHA4_POLII_emb",
-            "max_score"     : 4,
-            "min_score"     : -4
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "blue",
-                "neg color"         : "orange",
-                "height"            : 30
-            },
-            "metadata"      : {
-                "citation"  : "<h1> Identification of Pol II Binding Regions in PHA-4::GFP Starved L1  (Snyder project,Snyder subgroup)</h1> <h2>General Description</h2> We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Worm_Growth_and_Harvest:MS:1&oldid=25516'>Worm Growth and Harvest</a>      </li> <li> <b>Sample preparation:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing_Illumina:MS:1&oldid=19139'>Illumina Deep Sequencing</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP:MS:1&oldid=19120'>ChIP</a> </li> <li> <b>Data Analysis:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Merging:MS:1&oldid=23034'>Illumina Data Merging</a>,  <a href='http://wiki.modencode.org/project/index.php?title=Illumina_Data_Analysis:MS:1&oldid=21752'>Illumina Data Analysis</a>,  <a href='http://wiki.modencode.org/project/index.php?title=ChIP-Seq_Peak-calling:MS:1&oldid=23035'>Peak Calling</a>      </li> </ol> <h2>Experimental Reagents</h2> <ol> <b>Growth Conditions:</b> <li> <b>Antibodies:</b>  <a href='http://wiki.modencode.org/project/index.php?title=Ab:RNA_Polymerase_II:MS:1&oldid=19074'>RNA Polymerase II</a>      </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b>  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:starved_L1:MS:1&oldid=19067'>starved L1</a>,  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:fed_L1:MS:1&oldid=20167'>fed L1</a>,  <a href='http://wiki.modencode.org/project/index.php?title=DevStageWorm:embryo:MS:1&oldid=19065'>embryo</a> </li> <li> <b>External Links:</b>  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM363863'>GSM363863</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM363861'>GSM363861</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM391296'>GSM391296</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM391299'>GSM391299</a>,  <a href='http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM391297'>GSM391297</a>      </li> </ol> <br /> <br /> <b>Release Date:</b> 2009-11-27  Track 588",
-                "shortInfo" : " Identification of Pol II Binding Regions in PHA-4::GFP Starved L1  (Snyder project,Snyder subgroup) General Description We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
-            },
-            "variance_band" : 0,
-            "key"           : "PHA-4 Combined (Pol II ChIP), PHA4_POLII_StarvedL1",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_POLII_Starved-L1_combined_WS220.bw",
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category"      : "modENCODE data (2014):Transcription Factors: PolII ChIP",
-            "label"         : "PHA-4 Combined (Pol II ChIP), PHA4_POLII_StarvedL1",
-            "max_score"     : 4,
-            "min_score"     : -4
-        }
-   ]
+  "tracks": [
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": "    Identification of Pol II Binding Regions in MAB-5::GFP L3. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
+      },
+      "variance_band": 0,
+      "key": "MAB-5 Combined (Pol II ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_MAB5_POLII_L3_combined_WS220.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
+      "label": "MAB-5 Combined (Pol II ChIP)",
+      "max_score": 4,
+      "min_score": -4
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": "    Identification of Pol II Binding Regions in DAF-16::GFP L4 Young Adults. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
+      },
+      "variance_band": 0,
+      "key": "DAF-16 Combined (Pol II ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_DAF16_POLII_L4YA_combined_WS220.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
+      "label": "DAF-16 Combined (Pol II ChIP)",
+      "max_score": 4,
+      "min_score": -4
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": "Identification of Pol II Binding Regions in AMA-1::GFP L4 Young Adult. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
+      },
+      "variance_band": 0,
+      "key": "AMA-1 Combined (Pol II ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_AMA1_POLII_L4YA_combined_WS220.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
+      "label": "AMA-1 Combined (Pol II ChIP)",
+      "max_score": 4,
+      "min_score": -4
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": " Identification of Pol II Binding Regions in L3 EGL-5::GFP. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
+      },
+      "variance_band": 0,
+      "key": "EGL-5 Combined (Pol II ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_EGL-5_POLII_L3_combined_WS220.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
+      "label": "EGL-5 Combined (Pol II ChIP)",
+      "max_score": 4,
+      "min_score": -4
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": " Identification of Pol II Binding Regions in L3 HLH-8::GFP (Snyder project, Snyder subgroup)  Synchronized L3 larvae from C. elegans strain OP74 (a transgenic strain engineered to express a gene fusion between hlh-8 and GFP) were treated with the cross-linking reagent formaldehyde.  After lysis and sonication, the chromatin was immunoprecipitated with an affinity-purified antibody that recognizes the largest subunit of RNA Polymerase II.  The bound DNA was purified and sequenced in an Illumina GA-2.  A sample of the input DNA was sequenced in parallel.  The ChIP-seq data generated by this experiment was analyzed using the PeakSeq peak-calling algorithm to predict protein binding sites in the C. elegans genome.  General Description We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
+      },
+      "variance_band": 0,
+      "key": "HLH-8 Combined (Pol II ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_HLH-8_POLII_L3_combined_WS220.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
+      "label": "HLH-8 Combined (Pol II ChIP)",
+      "max_score": 4,
+      "min_score": -4
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": " Identification of Pol II Binding Regions in L3 EOR-1::GFP (Snyder project,  subgroup)  General Description We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
+      },
+      "variance_band": 0,
+      "key": "EOR-1 Combined (Pol II ChIP)",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_EOR-1_POLII_L3_combined_WS220.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
+      "label": "EOR-1 Combined (Pol II ChIP)",
+      "max_score": 4,
+      "min_score": -4
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": " Identification of Pol II Binding Regions in PHA-4::GFP Starved L1. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
+      },
+      "variance_band": 0,
+      "key": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_FedL1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_POLII_FedL1_combined_WS220.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
+      "label": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_FedL1",
+      "max_score": 4,
+      "min_score": -4
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": " Identification of Pol II Binding Regions in PHA-4::GFP Starved L1. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
+      },
+      "variance_band": 0,
+      "key": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_emb",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_POLII_emb_combined_WS220.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
+      "label": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_emb",
+      "max_score": 4,
+      "min_score": -4
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": " Identification of Pol II Binding Regions in PHA-4::GFP Starved L1. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
+      },
+      "variance_band": 0,
+      "key": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_StarvedL1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://dev.wormbase.org:8002/worm/wiggle_binaries/snyder/Snyder_PHA4_POLII_Starved-L1_combined_WS220.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
+      "label": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_StarvedL1",
+      "max_score": 4,
+      "min_score": -4
+    }
+  ]
 }

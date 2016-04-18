@@ -21,7 +21,7 @@
          "metadata" : {
             "shortInfo" : "Sites where there is experimental evidence of a non-TF, non-Histone molecule binding."
          },
-         "category" : "Sequence Features:Binding Sites & Regions",
+         "category": "Sequence Features/Binding Sites & Regions",
          "maxExportSpan" : 50000000
       }
    ]

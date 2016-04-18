@@ -22,7 +22,7 @@
             "shortInfo" : "Native (same-species) Expressed Sequence Tags (ESTs), aligned to the genome using BLAT. This track shows the best unique location for each EST."
          },
          "type" : "CanvasFeatures",
-         "category" : "Transcription:Supporting Evidence",
+         "category": "Genes/Supporting Evidence",
          "label" : "ESTs (best)",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "maxExportSpan" : 50000000

@@ -17,7 +17,7 @@
          "metadata" : {
             "shortInfo" : "This track shows the approximate location of balancers."
          },
-         "category" : "Alleles, Variations, RNAi",
+         "category": "Alleles, Variations, RNAi",
          "key" : "Balancers",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

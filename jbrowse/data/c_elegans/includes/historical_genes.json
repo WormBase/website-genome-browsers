@@ -19,7 +19,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Gene Models (historical)/{refseq}/trackData.jsonz",
          "compress" : 1,
-         "category" : "Genes",
+         "category": "Genes/Curated Genes",
          "type" : "CanvasFeatures",
          "label" : "Gene Models (historical)",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",

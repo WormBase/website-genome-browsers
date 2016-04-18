@@ -21,7 +21,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Change-of-function alleles/{refseq}/trackData.jsonz",
          "compress" : 1,
-         "category" : "Alleles, Variations, RNAi",
+         "category": "Alleles, Variations, RNAi",
          "type" : "CanvasFeatures",
          "label" : "Change-of-function alleles",
          "metadata" : {

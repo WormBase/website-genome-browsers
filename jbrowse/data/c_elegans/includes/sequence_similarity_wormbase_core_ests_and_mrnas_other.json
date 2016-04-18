@@ -14,7 +14,7 @@
             "title" : "Feature in WormBase",
             "label" : "Feature in WormBase"
          },
-         "category" : "Sequence Similarity:Nucleotide",
+         "category": "Sequence Similarity/Nucleotide",
          "key" : "WormBase nematode mRNAs/ESTs (other)",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

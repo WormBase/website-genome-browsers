@@ -20,7 +20,7 @@
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/RNASeq Asymmetries/{refseq}/trackData.jsonz",
          "compress" : 1,
-         "category" : "Expression",
+         "category": "Expression",
          "type" : "CanvasFeatures",
          "label" : "RNASeq Asymmetries",
          "metadata" : {

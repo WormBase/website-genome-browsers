@@ -8,7 +8,7 @@
             "height" : 4
          },
          "subParts" : "match_part",
-         "category" : "Sequence Similarity:Nucleotide",
+         "category": "Sequence Similarity/Nucleotide",
          "onClick" : {
             "url" : "{targetURL}",
             "action" : "iframeDialog",

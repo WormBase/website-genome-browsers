@@ -8,7 +8,7 @@
          "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
          "min_score"     : 0,
          "max_score"     : 1,
-         "category"      : "Conservation",
+         "category": "Conservation",
          "style" : {
             "pos_color"  : "black",
             "height" : 60
@@ -25,7 +25,7 @@
          "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
          "min_score"     : 0,
          "max_score"     : 1,
-         "category"      : "Conservation",
+         "category": "Conservation",
          "style" : {
             "pos_color"  : "black",
             "height" : 60
@@ -42,7 +42,7 @@
          "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
          "min_score"     : 0,
          "max_score"     : 29,
-         "category"      : "Conservation",
+         "category": "Conservation",
          "style" : {
             "pos_color"  : "black",
             "height" : 60
@@ -59,7 +59,7 @@
          "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
          "min_score"     : -4.9,
          "max_score"     : 4.9,
-         "category"      : "Conservation",
+         "category": "Conservation",
          "style" : {
             "pos_color"  : "blue",
             "neg_color"  : "red",

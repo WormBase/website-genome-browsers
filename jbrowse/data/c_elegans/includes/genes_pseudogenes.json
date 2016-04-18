@@ -20,7 +20,7 @@
          "urlTemplate" : "../tracks/Curated Genes (pseudogenes)/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "category" : "Genes",
+         "category": "Genes/Curated Genes",
          "label" : "Curated Genes (pseudogenes)",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {

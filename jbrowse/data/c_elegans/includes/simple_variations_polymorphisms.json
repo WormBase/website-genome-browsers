@@ -21,7 +21,7 @@
          "compress" : 1,
          "type" : "CanvasFeatures",
          "label" : "Polymorphisms",
-         "category" : "Alleles, Variations, RNAi",
+         "category": "Alleles, Variations, RNAi",
          "metadata" : {
             "shortInfo" : "This track shows single nucleotide polymorphisms (SNPs)."
          },

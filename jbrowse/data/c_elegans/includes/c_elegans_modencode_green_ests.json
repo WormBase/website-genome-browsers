@@ -1,180 +1,172 @@
 {
-   "tracks" : [
-      {
-         "style" : {
-            "className" : "feature",
-            "height" : 6,
-            "label" : "{greenESTLabel}",
-            "color" : "limegreen"
-         },
-         "metadata" : {
-            "shortInfo" : "C. elegans Introns (Waterston project, Green subgroup). General Description: This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs.",
-            "citation" : "<h1> C. elegans Introns (Waterston project, Green subgroup) </h1> <h2>General Description</h2> This experiment identifies intron boundary coordinates in C. elegans<br/> genomic sequence. Initially, we run genefinder to predict protein-coding<br/> transcripts from the C. elegans chromosome sequences. We align<br/> existing cDNA and EST sequences to the predicted transcript sequences<br/> to confirm the transcript structure. Predicted splice junctions<br/> unconfirmed by these alignments are tested for confirmation using<br/> RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments<br/> use gene-specific/gene-specific, 5' RACE/gene-specific, and<br/> gene-specific/3' RACE primer pairs.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b> <a href='http://modencode.oicr.on.ca/project/index.php?title=Organism_Preparation:RW:Green.020401&oldid=15441'>Organism_Preparation</a>, <a href='http://modencode.oicr.on.ca/project/index.php?title=RNA_Extraction:RW:Green.020401&oldid=15434'>RNA_Extraction</a> </li> <li> <b>Sample preparation:</b> <a href='http://wiki.modencode.org/project/index.php?title=CDNA_Preparation.RACE:RW:Green.070801&oldid=12969'>CDNA_Preparation</a>, <a href='http://wiki.modencode.org/project/index.php?title=PCR.RACE:RW:Green.070601&oldid=15823'>PCR</a>, <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing.RACE:RW:Green.070801&oldid=15830'>DNA_Sequencing</a> </li> <li> <b>Data Analysis:</b> <a href='http://wiki.modencode.org/project/index.php?title=Basecalling.phred.071220:RW:Green.071220&oldid=15632'>Basecalling</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation_Alignment:RW:Green.080925&oldid=15843'>Alignment</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation:RW:Green.080925&oldid=15842'>Analysis</a> </li> </ol> <h2>Reagents</h2> <ol> <li> <b>Animals:</b> Caenorhabditis elegans, <a href='http://wiki.modencode.org/project/index.php?title=DevStage:Mixed Larval Stages Grown 4-5 Days:RW:Green'>Mixed Larval Stages Grown for 4-5 Days</a>, N2, <a href='http://wiki.modencode.org/project/index.php?title=Strain:N2'>N2</a> </li> </ol> <b>Release Date:</b> 2009-01-28"
-         },
-         "category" : "modENCODE Tracks : Waterston Group:Green Lab",
-         "subParts" : "match_part",
-         "key" : "Green Lab ESTs (all)",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Green Lab ESTs (all)/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "label" : "Green Lab ESTs (all)",
-         "type" : "CanvasFeatures",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
+  "tracks": [
+    {
+      "style": {
+        "className": "feature",
+        "height": 6,
+        "label": "{greenESTLabel}",
+        "color": "limegreen"
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "height" : 6,
-            "label" : "{greenESTLabel}",
-            "color" : "limegreen"
-         },
-         "metadata" : {
-            "shortInfo" : "C. elegans Intron Identification set.20090106.2_3_2_2_4_4_3_2_2 (Waterston project, Green subgroup). General Description: This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs.",
-            "citation" : "<h1> C. elegans Intron Identification set.20090106.2_3_2_2_4_4_3_2_2 (Waterston project, Green subgroup) </h1> <h2>General Description</h2> This experiment identifies intron boundary coordinates in C. elegans<br/> genomic sequence. Initially, we run genefinder to predict protein-coding<br/> transcripts from the C. elegans chromosome sequences. We align<br/> existing cDNA and EST sequences to the predicted transcript sequences<br/> to confirm the transcript structure. Predicted splice junctions<br/> unconfirmed by these alignments are tested for confirmation using<br/> RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments<br/> use gene-specific/gene-specific, 5' RACE/gene-specific, and<br/> gene-specific/3' RACE primer pairs.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b> <a href='http://modencode.oicr.on.ca/project/index.php?title=Organism_Preparation:RW:Green.020401&oldid=15441'>Organism_Preparation</a>, <a href='http://modencode.oicr.on.ca/project/index.php?title=RNA_Extraction:RW:Green.020401&oldid=15434'>RNA_Extraction</a> </li> <li> <b>Sample preparation:</b> <a href='http://wiki.modencode.org/project/index.php?title=CDNA_Preparation.RACE:RW:Green.070801&oldid=12969'>CDNA_Preparation</a>, <a href='http://wiki.modencode.org/project/index.php?title=PCR.RACE_outer:RW:Green.070601&oldid=15629'>PCR</a>, <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing.RACE:RW:Green.070801&oldid=15830'>DNA_Sequencing</a> </li> <li> <b>Data Analysis:</b> <a href='http://wiki.modencode.org/project/index.php?title=Basecalling.phred.071220:RW:Green.071220&oldid=15632'>Basecalling</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation_Alignment:RW:Green.080925&oldid=15843'>Alignment</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation:RW:Green.080925&oldid=15842'>Analysis</a> </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b> Caenorhabditis elegans, <a href='http://wiki.modencode.org/project/index.php?title=DevStage:Mixed Larval Stages Grown 4-5 Days:RW:Green&oldid=19053'>Mixed Larval Stages Grown for 4-5 Days</a>, <a href='http://wiki.modencode.org/project/index.php?title=Strain:N2&oldid=19052'>N2</a> </li> <li> <b>External Links:</b> TA:1971697209, TA:1971697428, TA:2131354407, TA:2131354408, TA:2131354409, TA:2131354410, TA:2131354411, TA:2131354412, TA:2131354413 , and 137 more.  </li> </ol> <br /> <br /> <b>Release Date:</b> 2009-11-17"
-         },
-         "category" : "modENCODE Tracks : Waterston Group:Green Lab",
-         "subParts" : "match_part",
-         "key" : "Green Lab ESTs 2008-12-02 set 1",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Green Lab ESTs 2008-12-02 set 1/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "Green Lab ESTs 2008-12-02 set 1",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
+      "metadata": {
+        "shortInfo": "C. elegans Introns. This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs."
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "height" : 6,
-            "label" : "{greenESTLabel}",
-            "color" : "limegreen"
-         },
-         "metadata" : {
-            "shortInfo" : "C. elegans Intron Identification set.20090106.2_3_2_2_4_3_3_2_2 (Waterston project, Green subgroup). General Description: This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs.",
-            "citation" : "<h1> C. elegans Intron Identification set.20090106.2_3_2_2_4_3_3_2_2 (Waterston project, Green subgroup) </h1> <h2>General Description</h2> This experiment identifies intron boundary coordinates in C. elegans<br/> genomic sequence. Initially, we run genefinder to predict protein-coding<br/> transcripts from the C. elegans chromosome sequences. We align<br/> existing cDNA and EST sequences to the predicted transcript sequences<br/> to confirm the transcript structure. Predicted splice junctions<br/> unconfirmed by these alignments are tested for confirmation using<br/> RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments<br/> use gene-specific/gene-specific, 5' RACE/gene-specific, and<br/> gene-specific/3' RACE primer pairs.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b> <a href='http://modencode.oicr.on.ca/project/index.php?title=Organism_Preparation:RW:Green.020401&oldid=15441'>Organism_Preparation</a>, <a href='http://modencode.oicr.on.ca/project/index.php?title=RNA_Extraction:RW:Green.020401&oldid=15434'>RNA_Extraction</a> </li> <li> <b>Sample preparation:</b> <a href='http://wiki.modencode.org/project/index.php?title=CDNA_Preparation.RACE:RW:Green.070801&oldid=12969'>CDNA_Preparation</a>, <a href='http://wiki.modencode.org/project/index.php?title=PCR.RACE:RW:Green.070601&oldid=15823'>PCR</a>, <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing.RACE:RW:Green.070801&oldid=15830'>DNA_Sequencing</a> </li> <li> <b>Data Analysis:</b> <a href='http://wiki.modencode.org/project/index.php?title=Basecalling.phred.071220:RW:Green.071220&oldid=15632'>Basecalling</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation_Alignment:RW:Green.080925&oldid=15843'>Alignment</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation:RW:Green.080925&oldid=15842'>Analysis</a> </li> </ol> <h2>Reagents</h2> <ol> <li> <b>Animals:</b> Caenorhabditis elegans, <a href='http://wiki.modencode.org/project/index.php?title=DevStage:Mixed Larval Stages Grown 4-5 Days:RW:Green'>Mixed Larval Stages Grown for 4-5 Days</a>, N2, <a href='http://wiki.modencode.org/project/index.php?title=Strain:N2'>N2</a> </li> </ol> <b>Release Date:</b> 2009-01-28"
-         },
-         "subParts" : "match_part",
-         "category" : "modENCODE Tracks : Waterston Group:Green Lab",
-         "key" : "Green Lab ESTs 2008-12-02 set 2",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Green Lab ESTs 2008-12-02 set 2/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "label" : "Green Lab ESTs 2008-12-02 set 2",
-         "type" : "CanvasFeatures",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "subParts": "match_part",
+      "key": "Green Lab ESTs (all)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Green Lab ESTs (all)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "label": "Green Lab ESTs (all)",
+      "type": "CanvasFeatures",
+      "glyph": "JBrowse/View/FeatureGlyph/Segments"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "height": 6,
+        "label": "{greenESTLabel}",
+        "color": "limegreen"
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "height" : 6,
-            "label" : "{greenESTLabel}",
-            "color" : "limegreen"
-         },
-         "metadata" : {
-            "shortInfo" : "C. elegans Intron Identification set.20090106.2_3_2_2_4_3_3_2_2 (Waterston project, Green subgroup). General Description: This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs.",
-            "citation" : "<h1> C. elegans Intron Identification set.20090106.2_3_2_2_4_3_3_2_2 (Waterston project, Green subgroup) </h1> <h2>General Description</h2> This experiment identifies intron boundary coordinates in C. elegans<br/> genomic sequence. Initially, we run genefinder to predict protein-coding<br/> transcripts from the C. elegans chromosome sequences. We align<br/> existing cDNA and EST sequences to the predicted transcript sequences<br/> to confirm the transcript structure. Predicted splice junctions<br/> unconfirmed by these alignments are tested for confirmation using<br/> RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments<br/> use gene-specific/gene-specific, 5' RACE/gene-specific, and<br/> gene-specific/3' RACE primer pairs.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b> <a href='http://modencode.oicr.on.ca/project/index.php?title=Organism_Preparation:RW:Green.020401&oldid=15441'>Organism_Preparation</a>, <a href='http://modencode.oicr.on.ca/project/index.php?title=RNA_Extraction:RW:Green.020401&oldid=15434'>RNA_Extraction</a> </li> <li> <b>Sample preparation:</b> <a href='http://wiki.modencode.org/project/index.php?title=CDNA_Preparation.RACE:RW:Green.070801&oldid=12969'>CDNA_Preparation</a>, <a href='http://wiki.modencode.org/project/index.php?title=PCR.RACE:RW:Green.070601&oldid=15823'>PCR</a>, <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing.RACE:RW:Green.070801&oldid=15830'>DNA_Sequencing</a> </li> <li> <b>Data Analysis:</b> <a href='http://wiki.modencode.org/project/index.php?title=Basecalling.phred.071220:RW:Green.071220&oldid=15632'>Basecalling</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation_Alignment:RW:Green.080925&oldid=15843'>Alignment</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation:RW:Green.080925&oldid=15842'>Analysis</a> </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b> Caenorhabditis elegans, <a href='http://wiki.modencode.org/project/index.php?title=DevStage:Mixed Larval Stages Grown 4-5 Days:RW:Green&oldid=19053'>Mixed Larval Stages Grown for 4-5 Days</a>, <a href='http://wiki.modencode.org/project/index.php?title=Strain:N2&oldid=19052'>N2</a> </li> <li> <b>External Links:</b> TA:1971697196, TA:1971697197, TA:1971697199, TA:1971697200, TA:1971697202, TA:1971697203, TA:1971697205, TA:1971697206 , and 31063 more.  </li> </ol> <br /> <br /> <b>Release Date:</b> 2009-11-17"
-         },
-         "subParts" : "match_part",
-         "category" : "modENCODE Tracks : Waterston Group:Green Lab",
-         "key" : "Green Lab ESTs 2008-12-02 set 3",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Green Lab ESTs 2008-12-02 set 3/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "Green Lab ESTs 2008-12-02 set 3",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
+      "metadata": {
+        "shortInfo": "C. elegans Intron Identification set.20090106.2_3_2_2_4_4_3_2_2. This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs."
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "height" : 6,
-            "label" : "{greenESTLabel}",
-            "color" : "limegreen"
-         },
-         "metadata" : {
-            "shortInfo" : "C. elegans Intron Identification set.20090106.2_3_2_2_3_2_2_2_2 (Waterston project, Green subgroup). General Description: This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs.",
-            "citation" : "<h1> C. elegans Intron Identification set.20090106.2_3_2_2_3_2_2_2_2 (Waterston project, Green subgroup) </h1> <h2>General Description</h2> This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b> <a href='http://modencode.oicr.on.ca/project/index.php?title=Organism_Preparation:RW:Green.020401&oldid=15441'>Organism_Preparation</a>, <a href='http://modencode.oicr.on.ca/project/index.php?title=RNA_Extraction:RW:Green.020401&oldid=15434'>RNA_Extraction</a> </li> <li> <b>Sample preparation:</b> <a href='http://wiki.modencode.org/project/index.php?title=CDNA_Preparation:RW:Green.060501&oldid=12943'>CDNA_Preparation</a>, <a href='http://wiki.modencode.org/project/index.php?title=PCR.rePCR:RW:Green.070601&oldid=15822'>PCR</a>, <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing:RW:Green.070601&oldid=15834'>DNA_Sequencing</a> </li> <li> <b>Data Analysis:</b> <a href='http://wiki.modencode.org/project/index.php?title=Basecalling.phred.071220:RW:Green.071220&oldid=15632'>Basecalling</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation_Alignment:RW:Green.080925&oldid=15843'>Alignment</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation:RW:Green.080925&oldid=15842'>Analysis</a> </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b> Caenorhabditis elegans, <a href='http://wiki.modencode.org/project/index.php?title=DevStage:Mixed Larval Stages Grown 4-5 Days:RW:Green&oldid=19053'>Mixed Larval Stages Grown for 4-5 Days</a>, <a href='http://wiki.modencode.org/project/index.php?title=Strain:N2&oldid=19052'>N2</a> </li> <li> <b>External Links:</b> TA:1902857087, TA:1902857088, TA:1902857089, TA:1902857090, TA:1902857091, TA:1902857092, TA:1902857093 , and 7115 more.  </li> </ol> <br /> <br /> <b>Release Date:</b> 2009-11-17"
-         },
-         "key" : "Green Lab ESTs 2008-12-02 set 4",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Green Lab ESTs 2008-12-02 set 4/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "subParts" : "match_part",
-         "category" : "modENCODE Tracks : Waterston Group:Green Lab",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "label" : "Green Lab ESTs 2008-12-02 set 4"
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "subParts": "match_part",
+      "key": "Green Lab ESTs 2008-12-02 set 1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Green Lab ESTs 2008-12-02 set 1/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Green Lab ESTs 2008-12-02 set 1",
+      "glyph": "JBrowse/View/FeatureGlyph/Segments"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "height": 6,
+        "label": "{greenESTLabel}",
+        "color": "limegreen"
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "height" : 6,
-            "label" : "{greenESTLabel}",
-            "color" : "limegreen"
-         },
-         "metadata" : {
-            "shortInfo" : "C. elegans Intron Identification set.20090921.2_3_2_2_4_3_3_2_2 (Waterston project, Green subgroup). General Description: This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs.",
-            "citation" : "<h1> C. elegans Intron Identification set.20090921.2_3_2_2_4_3_3_2_2 (Waterston project, Green subgroup) </h1> <h2>General Description</h2> This experiment identifies intron boundary coordinates in C. elegans<br/> genomic sequence. Initially, we run genefinder to predict protein-coding<br/> transcripts from the C. elegans chromosome sequences. We align<br/> existing cDNA and EST sequences to the predicted transcript sequences<br/> to confirm the transcript structure. Predicted splice junctions<br/> unconfirmed by these alignments are tested for confirmation using<br/> RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments<br/> use gene-specific/gene-specific, 5' RACE/gene-specific, and<br/> gene-specific/3' RACE primer pairs.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b> <a href='http://wiki.modencode.org/project/index.php?title=Organism_Preparation:RW:Green.020401&oldid=18457'>Organism_Preparation</a>, <a href='http://wiki.modencode.org/project/index.php?title=RNA_Extraction:RW:Green.020401&oldid=18471'>RNA_Extraction</a> </li> <li> <b>Sample preparation:</b> <a href='http://wiki.modencode.org/project/index.php?title=CDNA_Preparation.RACE:RW:Green.070801&oldid=18270'>CDNA_Preparation</a>, <a href='http://wiki.modencode.org/project/index.php?title=PCR.RACE:RW:Green.070601&oldid=18463'>PCR</a>, <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing.RACE:RW:Green.070801&oldid=18325'>DNA_Sequencing</a> </li> <li> <b>Data Analysis:</b> <a href='http://wiki.modencode.org/project/index.php?title=Basecalling.phred.071220:RW:Green.071220&oldid=18255'>Basecalling</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation_Alignment:RW:Green.080925&oldid=18415'>Alignment</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation:RW:Green.080925&oldid=15842'>Analysis</a> </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b> Caenorhabditis elegans, <a href='http://wiki.modencode.org/project/index.php?title=DevStage:Mixed_Larval_Stages_Grown_4-5_Days:RW:Green&oldid=19053'>Mixed Larval Stages Grown for 4-5 Days</a>, <a href='http://wiki.modencode.org/project/index.php?title=WormStrain:N2&oldid=19052'>N2</a> </li> <li> <b>External Links:</b> TA:2245122449, TA:2245122450, TA:2245122451, TA:2245122452, TA:2245122453, TA:2245122454, TA:2245122455, TA:2245122456 , and 3012 more.  </li> </ol> <br /> <br /> <b>Release Date:</b> 2009-11-17"
-         },
-         "key" : "Green Lab ESTs 2009-09-21 Chromosome II",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Green Lab ESTs 2009-09-21 Chromosome II/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "subParts" : "match_part",
-         "category" : "modENCODE Tracks : Waterston Group:Green Lab",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "label" : "Green Lab ESTs 2009-09-21 Chromosome II"
+      "metadata": {
+        "shortInfo": "C. elegans Intron Identification set.20090106.2_3_2_2_4_3_3_2_2. This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs."
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "height" : 6,
-            "label" : "{greenESTLabel}",
-            "color" : "limegreen"
-         },
-         "metadata" : {
-            "shortInfo" : "C. elegans Intron Identification set.20100126.2_3_2_2_4_3_3_2_2_2.ws180 (Waterston project, Green subgroup). General Description: This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs.",
-            "citation" : "<h1> C. elegans Intron Identification set.20100126.2_3_2_2_4_3_3_2_2_2.ws180 (Waterston project, Green subgroup) </h1> <h2>General Description</h2> This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b> <a href='http://wiki.modencode.org/project/index.php?title=Organism_Preparation:RW:Green.020401&oldid=18457'>Organism_Preparation</a>, <a href='http://wiki.modencode.org/project/index.php?title=RNA_Extraction:RW:Green.020401&oldid=18471'>RNA_Extraction</a> </li> <li> <b>Sample preparation:</b> <a href='http://wiki.modencode.org/project/index.php?title=CDNA_Preparation.RACE:RW:Green.070801&oldid=18270'>CDNA_Preparation</a>, <a href='http://wiki.modencode.org/project/index.php?title=PCR.RACE:RW:Green.070601&oldid=18463'>PCR</a>, <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing.RACE:RW:Green.070801&oldid=18325'>DNA_Sequencing</a> </li> <li> <b>Data Analysis:</b> <a href='http://wiki.modencode.org/project/index.php?title=Basecalling.phred.071220:RW:Green.071220&oldid=18255'>Basecalling</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation_Alignment:RW:Green.080925&oldid=18415'>Alignment</a>, <a href='http://wiki.modencode.org/project/index.php?title=Intron_Confirmation:RW:Green.080925&oldid=15842'>Analysis</a> </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b> Caenorhabditis elegans, <a href='http://wiki.modencode.org/project/index.php?title=DevStage:Mixed_Larval_Stages_Grown_4-5_Days:RW:Green&oldid=19053'>Mixed Larval Stages Grown for 4-5 Days</a>, <a href='http://wiki.modencode.org/project/index.php?title=WormStrain:N2&oldid=19052'>N2</a> </li> <li> <b>External Links:</b> TA:2262244677, TA:2262244678, TA:2262244679, TA:2262244680, TA:2262244681, TA:2262244682, TA:2262244683, and 2856 more.  </li> </ol> <br /> <b>Release Date:</b> 2010-02-08"
-         },
-         "key" : "Green Lab ESTs 2010-01-26 Chromosome I",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Green Lab ESTs 2010-01-26 Chromosome I/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "subParts" : "match_part",
-         "category" : "modENCODE Tracks : Waterston Group:Green Lab",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "label" : "Green Lab ESTs 2010-01-26 Chromosome I"
+      "subParts": "match_part",
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "key": "Green Lab ESTs 2008-12-02 set 2",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Green Lab ESTs 2008-12-02 set 2/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "label": "Green Lab ESTs 2008-12-02 set 2",
+      "type": "CanvasFeatures",
+      "glyph": "JBrowse/View/FeatureGlyph/Segments"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "height": 6,
+        "label": "{greenESTLabel}",
+        "color": "limegreen"
       },
-      {
-         "style" : {
-            "className" : "feature",
-            "height" : 6,
-            "label" : "{greenESTLabel}",
-            "color" : "limegreen"
-         },
-         "metadata" : {
-            "shortInfo" : "C. elegans SL Acceptor Site Identification set.20100203.2_3_2_2_4_3_3_2_3_3.ws180 (Waterston project, Green subgroup). General Description: This experiment identifies splice leader acceptor sites in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions near the 5' transcript end that are unconfirmed by these alignments are tested for confirmation using 5' RACE, DNA sequencing, and sequence alignment. The resulting reads are aligned to the WS170 genomic sequences, the splice leader sequences, and the 5' RACE primer sequence. Combinations of the read-genomic and read-splice leader alignments are used to identify splice leader acceptor sites.",
-            "citation" : "<h1> C. elegans SL Acceptor Site Identification set.20100203.2_3_2_2_4_3_3_2_3_3.ws180 (Waterston project, Green subgroup) </h1> <h2>General Description</h2> This experiment identifies splice leader acceptor sites in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions near the 5' transcript end that are unconfirmed by these alignments are tested for confirmation using 5' RACE, DNA sequencing, and sequence alignment. The resulting reads are aligned to the WS170 genomic sequences, the splice leader sequences, and the 5' RACE primer sequence. Combinations of the read-genomic and read-splice leader alignments are used to identify splice leader acceptor sites.  <br/><br/> <h2>Protocols</h2> <ol> <li> <b>Growth and isolation:</b> <a href='http://wiki.modencode.org/project/index.php?title=Organism_Preparation:RW:Green.020401&oldid=18457'>Organism_Preparation</a>, <a href='http://wiki.modencode.org/project/index.php?title=RNA_Extraction:RW:Green.020401&oldid=18471'>RNA_Extraction</a> </li> <li> <b>Sample preparation:</b> <a href='http://wiki.modencode.org/project/index.php?title=CDNA_Preparation.RACE:RW:Green.070801&oldid=18270'>CDNA_Preparation</a>, <a href='http://wiki.modencode.org/project/index.php?title=PCR.RACE:RW:Green.070601&oldid=18463'>PCR</a>, <a href='http://wiki.modencode.org/project/index.php?title=DNA_Sequencing.RACE:RW:Green.070801&oldid=18325'>DNA_Sequencing</a> </li> <li> <b>Data Analysis:</b> <a href='http://wiki.modencode.org/project/index.php?title=Basecalling.phred.071220:RW:Green.071220&oldid=18255'>Basecalling</a>, <a href='http://wiki.modencode.org/project/index.php?title=SL_Acceptor_Site_Confirmation_Alignment:RW:1&oldid=26993'>Alignment</a>, <a href='http://wiki.modencode.org/project/index.php?title=SL_Acceptor_Site_Confirmation:RW:1&oldid=26986'>Analysis</a> </li> </ol> <h2> Sample Details </h2> <ol> <li> <b>Animals/Lines:</b> Caenorhabditis elegans, <a href='http://wiki.modencode.org/project/index.php?title=DevStage:Mixed_Larval_Stages_Grown_4-5_Days:RW:Green&oldid=19053'>Mixed Larval Stages Grown for 4-5 Days</a>, <a href='http://wiki.modencode.org/project/index.php?title=WormStrain:N2&oldid=19052'>N2</a> </li> <li> <b>External Links:</b> TA:1971697210, TA:1971697211, TA:1971697214, TA:1971697217, TA:1971697249, TA:1971697251, TA:1971697256, and 9098 more.  </li> </ol> <br /> <b>Release Date:</b> 2010-02-08"
-         },
-         "key" : "Green Lab ESTs SL Set 1",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Green Lab ESTs SL Set 1/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "subParts" : "match_part",
-         "category" : "modENCODE Tracks : Waterston Group:Green Lab",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "label" : "Green Lab ESTs SL Set 1"
-      }
-   ]
+      "metadata": {
+        "shortInfo": "C. elegans Intron Identification set.20090106.2_3_2_2_4_3_3_2_2. This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs."
+      },
+      "subParts": "match_part",
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "key": "Green Lab ESTs 2008-12-02 set 3",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Green Lab ESTs 2008-12-02 set 3/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Green Lab ESTs 2008-12-02 set 3",
+      "glyph": "JBrowse/View/FeatureGlyph/Segments"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "height": 6,
+        "label": "{greenESTLabel}",
+        "color": "limegreen"
+      },
+      "metadata": {
+        "shortInfo": "C. elegans Intron Identification set.20090106.2_3_2_2_3_2_2_2_2. This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs."
+      },
+      "key": "Green Lab ESTs 2008-12-02 set 4",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Green Lab ESTs 2008-12-02 set 4/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "subParts": "match_part",
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "glyph": "JBrowse/View/FeatureGlyph/Segments",
+      "label": "Green Lab ESTs 2008-12-02 set 4"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "height": 6,
+        "label": "{greenESTLabel}",
+        "color": "limegreen"
+      },
+      "metadata": {
+        "shortInfo": "C. elegans Intron Identification set.20090921.2_3_2_2_4_3_3_2_2. This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs."
+      },
+      "key": "Green Lab ESTs 2009-09-21 Chromosome II",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Green Lab ESTs 2009-09-21 Chromosome II/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "subParts": "match_part",
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "glyph": "JBrowse/View/FeatureGlyph/Segments",
+      "label": "Green Lab ESTs 2009-09-21 Chromosome II"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "height": 6,
+        "label": "{greenESTLabel}",
+        "color": "limegreen"
+      },
+      "metadata": {
+        "shortInfo": "C. elegans Intron Identification set.20100126.2_3_2_2_4_3_3_2_2_2.ws180. This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs."
+      },
+      "key": "Green Lab ESTs 2010-01-26 Chromosome I",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Green Lab ESTs 2010-01-26 Chromosome I/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "subParts": "match_part",
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "glyph": "JBrowse/View/FeatureGlyph/Segments",
+      "label": "Green Lab ESTs 2010-01-26 Chromosome I"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "height": 6,
+        "label": "{greenESTLabel}",
+        "color": "limegreen"
+      },
+      "metadata": {
+        "shortInfo": "C. elegans SL Acceptor Site Identification set.20100203.2_3_2_2_4_3_3_2_3_3.ws180. This experiment identifies splice leader acceptor sites in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions near the 5' transcript end that are unconfirmed by these alignments are tested for confirmation using 5' RACE, DNA sequencing, and sequence alignment. The resulting reads are aligned to the WS170 genomic sequences, the splice leader sequences, and the 5' RACE primer sequence. Combinations of the read-genomic and read-splice leader alignments are used to identify splice leader acceptor sites."
+      },
+      "key": "Green Lab ESTs SL Set 1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "../tracks/Green Lab ESTs SL Set 1/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "subParts": "match_part",
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "glyph": "JBrowse/View/FeatureGlyph/Segments",
+      "label": "Green Lab ESTs SL Set 1"
+    }
+  ]
 }

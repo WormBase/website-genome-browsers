@@ -9,7 +9,7 @@
          "metadata" : {
             "shortInfo" : "These are B.malayi gene models from TIGR, less than best hit"
          },
-         "category" : "Genes",
+         "category": "Genes",
          "key" : "TIGR genes models (other)",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

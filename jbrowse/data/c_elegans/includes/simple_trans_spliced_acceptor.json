@@ -23,7 +23,7 @@
          "metadata" : {
             "shortInfo" : "These are SL1 and SL2 trans-spliced acceptors published by Blumenthal et al, Nature 417: 851-854 (2002). SL1 acceptors are show in red, SL2 in green."
          },
-         "category" : "Transcription:Signals",
+         "category": "Transcription/Signals",
          "maxExportSpan" : 50000000
       }
    ]

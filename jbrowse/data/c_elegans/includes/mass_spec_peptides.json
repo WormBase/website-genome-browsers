@@ -17,7 +17,7 @@
             "title" : "Feature in WormBase",
             "label" : "Feature in WormBase"
          },
-         "category" : "Sequence Features:Translated Features",
+         "category": "Sequence Features/Translated Features",
          "key" : "Mass spec peptides",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

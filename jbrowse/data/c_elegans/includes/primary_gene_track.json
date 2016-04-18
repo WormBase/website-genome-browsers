@@ -19,7 +19,7 @@
          "urlTemplate" : "../tracks/Curated Genes/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "category" : "Genes",
+         "category": "Genes",
          "label" : "Curated Genes",
          "glyph" : "{geneGlyph}",
          "metadata" : {
