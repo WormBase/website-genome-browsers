@@ -48,6 +48,9 @@ return declare( JBrowsePlugin,
                  var url = '/tools/genome/jbrowse/full.html';
                  var fullurl = document.location;
 
+		 if (String(fullurl).match('full.html')) {
+			return;
+		 }
                  if (String(fullurl).match('jbrowse-simple')) {
                      url = '/tools/genome/jbrowse-simple/full.html';
                  };
