@@ -27,6 +27,14 @@
          "metadata" : {
             "shortInfo" : "Non-coding curated gene models, including ncRNA, tRNA, miRNA, snRNA, snoRNA, piRNA, lincRNA and antisense RNA."
          },
+        "menuTemplate" : [
+           {
+           "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+           "iconClass" : "dijitIconDatabase",
+           "action" : "contentDialog",
+           "label" : "View Sequence"
+           }
+         ],
          "maxExportSpan" : 50000000
       }
    ]
