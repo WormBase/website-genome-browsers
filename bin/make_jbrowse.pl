@@ -10,7 +10,10 @@ use Cwd;
 use FileHandle;
 use File::Basename;
 use JSON;
-#use Data::Dumper;
+use Data::Dumper;
+use Log::Log4perl;
+Log::Log4perl->init("log4perl.conf");
+my $log = Log::Log4perl->get_logger('build.log');
 
 =head1 NAME
 
@@ -270,16 +273,16 @@ if ($SIMPLE) {
 #check to see if the seq directory is present; if not prepare-refseqs
 if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
     my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
-    system("$nice $command") == 0 or warn $!;
+    system("$nice $command") == 0 or $log->error( $!);
 }
 push @include, "includes/DNA.json";
 
 #make a symlink to the organisms include file
 unless (-e "$DATADIR/../organisms.conf") {
-    symlink $ORGANISMS, "$DATADIR/../organisms.conf" or warn $!;
+    symlink $ORGANISMS, "$DATADIR/../organisms.conf" or $log->error( $!);
 }
 unless (-e "browser_data") {
-    symlink $BROWSER_DATA, "browser_data" or warn $!;
+    symlink $BROWSER_DATA, "browser_data" or $log->error( $!);
 }
 
 #create several links in the main dir
@@ -299,19 +302,19 @@ if (!-e "$JBROWSEDIR/full.html") {
 for my $section (@config_sections) {
     next unless $Config->{$section}->{origfile};
 
-    warn $section unless $QUIET;
+    $log->warn( $section) unless $QUIET;
     my $type   = $Config->{$section}->{type};
     my $label  = $Config->{$section}->{label};
 
     for my $file (keys %splitfiles) {
         my $gfffile = $INITIALDIR ."/". $file;
         my $command = "$nice bin/flatfile-to-json.pl --compress --gff $gfffile --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\" --maxLookback 1000000";
-        warn $command unless $QUIET;
-        system($command) ==0 or warn $!;
+        $log->warn( $command) unless $QUIET;
+        system($command) ==0 or $log->error( $!);
     }
 
     if (!-e "$INCLUDES/$section.json") {
-        warn "\nMISSING INCLUDE FILE: $section.json\n\n";
+        $log->error( "\nMISSING INCLUDE FILE: $section.json");
     }
     push @include, "includes/$section.json";
 }
@@ -378,11 +381,11 @@ if (-e "$DATADIR/trackList.json") {
 
 #make a symlink to the includes dir
 unless (-e "$DATADIR/includes") {
-    symlink $INCLUDES, "$DATADIR/includes" or warn $!;
+    symlink $INCLUDES, "$DATADIR/includes" or $log->error( $!);
 }
 #make a symlink to the functions
 unless (-e "$DATADIR/../functions.conf") {
-    symlink $FUNCTIONS, "$DATADIR/../functions.conf" or warn $!; 
+    symlink $FUNCTIONS, "$DATADIR/../functions.conf" or $log->error( $!); 
 }
 
 
@@ -397,14 +400,14 @@ chdir $GLYPHS;
 my @files = glob("*.js");
 foreach my $file (@files) {
     unless (-e "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file") {
-        symlink "$GLYPHS/$file", "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file" or warn $!;
+        symlink "$GLYPHS/$file", "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file" or $log->error( $!);
     }
 }
 
 #if this is elegans make links to the modencode data
 if (!$SIMPLE && $SPECIES =~ /c_elegans/) {
-    chdir "$DATADIR/tracks" or warn "changing to tracks dir didn't work";    
-    system("$Bin/track_links.sh") == 0 or warn "creating track symlinks didn't work";
+    chdir "$DATADIR/tracks" or $log->error( "changing to tracks dir didn't work");    
+    system("$Bin/track_links.sh") == 0 or $log->error( "creating track symlinks didn't work");
 }
 
 #clean up temporary gff files
@@ -415,7 +418,7 @@ foreach my $file (@tmp_gffs) {unlink $file;}
 #check for tracks that have data but didn't get processed
 for my $key (keys $speciesdata{$species}) {
     next if $speciesdata{$species}{$key} == -1;
-    warn "\n\nWARNING: TRACK WITH DATA BUT NO CONFIG: $key\n\n";
+    $log->error( "\n\nWARNING: TRACK WITH DATA BUT NO CONFIG: $key\n\n");
 }
 
 exit(0);
@@ -447,12 +450,12 @@ sub process_grep_track {
     my $type   = $config->{$section}->{type};
     my $label  = $config->{$section}->{label};
     my $command= "$nice bin/flatfile-to-json.pl --compress --gff $gffout --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\"";
-    warn $command unless $QUIET;
+    $log->warn( $command) unless $QUIET;
 
-    system($command)==0 or warn "$gffout: $!\n" ;
+    system($command)==0 or $log->error( "$gffout: $!\n") ;
 
     if (!-e "$INCLUDES/$section.json") {
-        warn "\nMISSING INCLUDE FILE: $section.json\n\n";
+        $log->error( "\nMISSING INCLUDE FILE: $section.json\n\n");
     }
     push @include, "includes/$section.json";
 
@@ -512,11 +515,11 @@ unless ($SKIPFILESPLIT) {
     $greppattern or next;
 
     my $grepcommand = "grep -P \"$greppattern\" $GFFFILE > $gffout";
-    warn $grepcommand unless $QUIET;
-    system ("$nice $grepcommand") == 0 or warn "$GFFFILE: $!";
+    $log->warn( $grepcommand) unless $QUIET;
+    system ("$nice $grepcommand") == 0 or $log->error( "$GFFFILE: $!");
 
     if ($postprocess) {
-        system("$nice $Bin/$postprocess $gffout") == 0 or warn "postpressing $gffout: $!";
+        system("$nice $Bin/$postprocess $gffout") == 0 or $log->error( "postpressing $gffout: $!");
     }
   }
 }
@@ -539,7 +542,7 @@ if (!$NOSPLITGFF) {
 
         my @la = split /\t/;
 
-        (warn "ignored gff line: $_" && next) if (scalar @la != 9);
+        ($log->warn( "ignored gff line: $_") && next) if (scalar @la != 9);
 
         my $filename = $la[0].".".$GFFFILE;
         unless ( defined $splitfiles{ $filename } ) {
