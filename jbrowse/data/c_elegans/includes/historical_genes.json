@@ -3,7 +3,7 @@
       {
          "style" : {
             "className" : "feature",
-            "color" : "function(f) {var strand = f.get('strand'); if (strand < 0) {return 'violet';} return 'turquoise';  }",
+            "color" : "function(f) {var strand = f.get('strand'); if (strand > 0) {return 'violet';} return 'turquoise';  }",
             "label" : "function(f) {var name = f.get('Name'); return name;}",
             "description" : "function(f) { var type = f.get('type'); type.replace(/_/g, ' '); return type;  }"
          },
