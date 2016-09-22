@@ -48,7 +48,7 @@ return declare( JBrowsePlugin,
                  var url = '/tools/genome/jbrowse/full.html';
                  var fullurl = document.location;
 
-		 if (String(fullurl).match('full.html')) {
+		 if (String(fullurl).match('full.html') && !String(fullurl).match('tracklist=0')) {
 			return;
 		 }
                  if (String(fullurl).match('jbrowse-simple')) {
