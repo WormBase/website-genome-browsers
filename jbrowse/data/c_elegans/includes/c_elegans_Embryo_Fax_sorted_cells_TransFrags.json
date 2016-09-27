@@ -1,0 +1,382 @@
+{
+  "tracks": [
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_panneural",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_panneural",
+      "feature": [
+        "transcript_region:3804_EMB_panneural"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_panneural/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "type": "CanvasFeatures",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_panneural"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_ACLASS",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_ACLASS",
+      "feature": [
+        "transcript_region:3810_details"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_ACLASS/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "type": "CanvasFeatures",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_ACLASS"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_ALLREF",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_ALLREF",
+      "feature": [
+        "transcript_region:3833_details"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_ALLREF/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_ALLREF",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_intestine",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_intestine",
+      "feature": [
+        "transcript_region:3852_details"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_intestine/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "type": "CanvasFeatures",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_intestine"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_coelomocytes",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_coelomocytes",
+      "feature": [
+        "transcript_region:3862_details"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_coelomocytes/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_coelomocytes",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_AVA_neurons",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_AVA_neurons",
+      "feature": [
+        "transcript_region:3872_details"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_AVA_neurons/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "type": "CanvasFeatures",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_AVA_neurons"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_GLP",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_GLP",
+      "feature": [
+        "transcript_region:3877_details"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_GLP/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_GLP",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_hypodermal",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_hypodermal",
+      "feature": [
+        "transcript_region:3885_details"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_hypodermal/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "type": "CanvasFeatures",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_hypodermal"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_dopa",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_dopa",
+      "feature": [
+        "transcript_region:3929_details"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_dopa/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_dopa",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_GABA",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_GABA",
+      "feature": [
+        "transcript_region:3935_details"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_GABA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "type": "CanvasFeatures",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_GABA"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_bw_v2",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_bw_v2",
+      "feature": [
+        "transcript_region:3947_details"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_bw_v2/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_bw_v2",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_BAG",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_BAG",
+      "feature": [
+        "transcript_region:5503_details"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_BAG/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "type": "CanvasFeatures",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_BAG"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_PhM",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_PhM",
+      "feature": [
+        "transcript_region:5525_details"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_PhM/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_PhM",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Embryo Fax-sorted cells TransFrags: EMB_PVC",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{blueHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Embryo Fax-sorted cells TransFrags: EMB_PVC",
+      "feature": [
+        "transcript_region:5823_details"
+      ],
+      "metadata": {
+        "shortInfo": "embryo cells tiling arrays. Cells were isolated using FACS, sorting on GFP-fusion reporters expressing embryos. RNA was isolated, amplified, and transcripts were detected on an Affymetrix C. elegans tiling array.  A smoothed density plot (log 2 transformed with a window size of 110) and transcriptionally active regions (TARs) are shown."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo Fax-sorted cells TransFrags: EMB_PVC/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "type": "CanvasFeatures",
+      "label": "Embryo Fax-sorted cells TransFrags: EMB_PVC"
+    }
+  ]
+}

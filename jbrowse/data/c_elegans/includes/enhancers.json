@@ -1,0 +1,29 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "label" : false
+         },
+         "onClick" : {
+            "url" : "{featureURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
+         },
+         "key" : "Enhancers",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Enhancers/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Enhancers",
+         "metadata" : {
+            "shortInfo" : "There should be better text here for enhancers"
+         },
+         "category": "Sequence Features/Binding Sites & Regions",
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

@@ -1,0 +1,23 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "red",
+            "height" : 5
+         },
+         "key" : "TEC-RED tags",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/TEC-RED tags/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "label" : "TEC-RED tags",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+            "shortInfo" : "Trans-spliced Exon Coupled RNA End Determination (TEC-RED) tags. TEC-RED uses a method similar to SAGE to identify expressed genes and characterize the 5' end of transcripts."
+         },
+         "category": "Genes/Supporting Evidence",
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

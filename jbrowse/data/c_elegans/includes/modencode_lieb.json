@@ -1,0 +1,1410 @@
+{
+  "tracks": [
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K36ME22C3_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4152_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K36ME22C3_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, AB15823_H4K8AC487128_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5724_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, AB15823_H4K8AC487128_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, AB8895_H3K4ME1733246_N2_EEMB_2",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5693_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, AB8895_H3K4ME1733246_N2_EEMB_2",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, AB9048_H3K36ME1206009_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5684_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, AB9048_H3K36ME1206009_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K4ME3_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4138_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K4ME3_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, MP07030_H3K4ME2DAM1570816_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5683_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, MP07030_H3K4ME2DAM1570816_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K79ME1361912_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4123_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K79ME1361912_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, AB4729_H3K27AC361571_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5721_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, AB4729_H3K27AC361571_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "NO BIGWIG Histone Modifications ChIP-chip arrays, H3K9ME3_N2_L3",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "NO BIGWIG Histone Modifications ChIP-chip arrays, H3K9ME3_N2_L3",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K9ME3339901_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4125_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K9ME3339901_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, AB9050_H3K36ME3_N2_L3",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4477_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, AB9050_H3K36ME3_N2_L3",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K4ME2_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4465_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K4ME2_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, AB4729_H3K27AC361571_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5708_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, AB4729_H3K27AC361571_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, AB8896_H3K9ME1104560_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5707_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, AB8896_H3K9ME1104560_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K9ME32F3_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4146_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K9ME32F3_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K9ME3_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4162_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K9ME3_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, AB9051_H4K20ME1104513_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5728_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, AB9051_H4K20ME1104513_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K9ME26D11_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4466_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K9ME26D11_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, AB9045_H3K9ME1291918_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5688_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, AB9045_H3K9ME1291918_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K36ME313C9_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4475_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K36ME313C9_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K36ME313C9_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4157_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K36ME313C9_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K79ME3361576_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4201_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K79ME3361576_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K9ME26D11_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4115_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K9ME26D11_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, AB9045_H3K9ME1291918_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5718_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, AB9045_H3K9ME1291918_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K4ME2_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4116_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K4ME2_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, AB8895_H3K4ME1733246_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5727_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, AB8895_H3K4ME1733246_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K36ME22C3_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4463_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K36ME22C3_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K9ME32F3_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4459_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K9ME32F3_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, AB9051_H4K20ME1104513_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5709_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, AB9051_H4K20ME1104513_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K36ME2608457_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4134_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K36ME2608457_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K79ME2346021_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4128_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K79ME2346021_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, NA_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4132_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, NA_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K4ME3_N2_L3",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4478_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K4ME3_N2_L3",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, H3K27ME31E7_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4461_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, H3K27ME31E7_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, WA30634849_H3K27AC_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5722_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, WA30634849_H3K27AC_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Histone modifications. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 trimethylated on lysine 9.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications ChIP-chip arrays, LPAR109_H4TETRAAC109_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5711_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Histone Modifications",
+      "label": "Histone Modifications ChIP-chip arrays, LPAR109_H4TETRAAC109_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "RNA Polymerase II Isoforms. Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with either an affinity-purified polyclonal antibody that recognizes the largest sub-unit of RNA polymerase II or monoclonal antibody recognizing subunit 8WG16 of PolII.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Polymerase II Isoforms ChIP-chip arrays, POLII4H8_N2_MXEMB",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4506_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/RNA Polymerase II Isoforms",
+      "label": "Polymerase II Isoforms ChIP-chip arrays, POLII4H8_N2_MXEMB",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "RNA Polymerase II Isoforms. Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with either an affinity-purified polyclonal antibody that recognizes the largest sub-unit of RNA polymerase II or monoclonal antibody recognizing subunit 8WG16 of PolII.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Polymerase II Isoforms ChIP-chip arrays, 8WG16_N2_MXEMB",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4491_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/RNA Polymerase II Isoforms",
+      "label": "Polymerase II Isoforms ChIP-chip arrays, 8WG16_N2_MXEMB",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "RNA Polymerase II Isoforms. Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with either an affinity-purified polyclonal antibody that recognizes the largest sub-unit of RNA polymerase II or monoclonal antibody recognizing subunit 8WG16 of PolII.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Polymerase II Isoforms ChIP-chip arrays, 8WG16_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4440_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/RNA Polymerase II Isoforms",
+      "label": "Polymerase II Isoforms ChIP-chip arrays, 8WG16_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "RNA Polymerase II Isoforms. Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with either an affinity-purified polyclonal antibody that recognizes the largest sub-unit of RNA polymerase II or monoclonal antibody recognizing subunit 8WG16 of PolII.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Polymerase II Isoforms ChIP-chip arrays, 8WG16_N2_L4_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4172_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/RNA Polymerase II Isoforms",
+      "label": "Polymerase II Isoforms ChIP-chip arrays, 8WG16_N2_L4_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, DPY27_N2_L4_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4205_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, DPY27_N2_L4_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, SDC3_N2_MXEMB",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4493_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, SDC3_N2_MXEMB",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, DPY26_N2_MXEMB",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4447_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, DPY26_N2_MXEMB",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization. Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, SDC3_N2_MXEMB_1_A",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4168_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, SDC3_N2_MXEMB_1_A",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, DPY27_N2_MXEMB_1_A",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4396_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, DPY27_N2_MXEMB_1_A",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, SDC3_N2_MXEMB_1_B",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4167_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, SDC3_N2_MXEMB_1_B",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, DPY27_11dh_MXEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4161_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, DPY27_11dh_MXEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, IGG_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4129_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, IGG_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "MISSING SUBTRACK INFO Dosage Compensation ChIP-chip arrays, ",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4451_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "MISSING SUBTRACK INFO Dosage Compensation ChIP-chip arrays, ",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, DPY27_YPT47_MXEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4197_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, DPY27_YPT47_MXEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, SDC3_YPT47_MXEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4196_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, SDC3_YPT47_MXEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, DPY27_N2_MXEMB",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4497_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, DPY27_N2_MXEMB",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, DPY28_N2_MXEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4203_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, DPY28_N2_MXEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, DPY27_YPT41_MXEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4160_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, DPY27_YPT41_MXEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, SDC2_N2_MXEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4437_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, SDC2_N2_MXEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization (Lieb project, Ahringer subgroup) . General Description: Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, SDC2_N2_MXEMB",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4443_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Dosage Compensation ChIP-chip arrays, SDC2_N2_MXEMB",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Cenromere Specificaton and Kinetochore Function (Lieb project, Desai subgroup) . General Description: Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes the centromere-binding protein HCP-3 (CENP-A).  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Centromere Specificaton ChIP-chip arrays, HCP3_N2_MXEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4117_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Centromere Specificaton and Kinetochore Function",
+      "label": "Centromere Specificaton ChIP-chip arrays, HCP3_N2_MXEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Cenromere Specificaton and Kinetochore Function (Lieb project, Desai subgroup) . General Description: Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes the centromere-binding protein HCP-3 (CENP-A).  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Centromere Specificaton ChIP-chip arrays, HCP3_N2_MXEMB",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4310_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Centromere Specificaton and Kinetochore Function",
+      "label": "Centromere Specificaton ChIP-chip arrays, HCP3_N2_MXEMB",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Transcription and Chromatin(Lieb project, Strome subgroup). General Description: Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes the chromodomain-containing protein MRG-1.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Transcription and Chromatin ChIP-chip arrays, MRG1_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4153_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Transcription and Chromatin",
+      "label": "Transcription and Chromatin ChIP-chip arrays, MRG1_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Transcription and Chromatin(Lieb project, Strome subgroup). General Description: Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes the chromodomain-containing protein MRG-1.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Transcription and Chromatin ChIP-chip arrays, MES4_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4148_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Transcription and Chromatin",
+      "label": "Transcription and Chromatin ChIP-chip arrays, MES4_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Transcription and Chromatin(Lieb project, Strome subgroup). General Description: Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes the chromodomain-containing protein MRG-1.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Transcription and Chromatin ChIP-chip arrays, MES4_N2_EEMB",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4305_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Transcription and Chromatin",
+      "label": "Transcription and Chromatin ChIP-chip arrays, MES4_N2_EEMB",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Transcription and Chromatin(Lieb project, Strome subgroup). General Description: Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes the chromodomain-containing protein MRG-1.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Transcription and Chromatin ChIP-chip arrays, CBP1_N2_MXEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5712_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Transcription and Chromatin",
+      "label": "Transcription and Chromatin ChIP-chip arrays, CBP1_N2_MXEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Transcription and Chromatin(Lieb project, Strome subgroup). General Description: Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes the chromodomain-containing protein MRG-1.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "NO BIGWIG Transcription and Chromatin ChIP-chip arrays, IGG_N2_L3",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Transcription and Chromatin",
+      "label": "NO BIGWIG Transcription and Chromatin ChIP-chip arrays, IGG_N2_L3",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Transcription and Chromatin(Lieb project, Strome subgroup). General Description: Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes the chromodomain-containing protein MRG-1.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Transcription and Chromatin ChIP-chip arrays, MES4FLAG_N2_EEMB",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4504_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Transcription and Chromatin",
+      "label": "Transcription and Chromatin ChIP-chip arrays, MES4FLAG_N2_EEMB",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Core Histones. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes core histone H3.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Core Histones ChIP-chip arrays, H3_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4471_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Core Histones",
+      "label": "Core Histones ChIP-chip arrays, H3_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Core Histones. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes core histone H3.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Core Histones ChIP-chip arrays, MP05858_H4DAM1636076_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5715_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Core Histones",
+      "label": "Core Histones ChIP-chip arrays, MP05858_H4DAM1636076_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Core Histones. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes core histone H3.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Core Histones ChIP-chip arrays, H3144_N2_L3_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4469_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Core Histones",
+      "label": "Core Histones ChIP-chip arrays, H3144_N2_L3_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Core Histones. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes core histone H3.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Core Histones ChIP-chip arrays, H3609253_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4135_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Core Histones",
+      "label": "Core Histones ChIP-chip arrays, H3609253_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Core Histones. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes core histone H3.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Core Histones ChIP-chip arrays, H3144_N2_EEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4137_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Core Histones",
+      "label": "Core Histones ChIP-chip arrays, H3144_N2_EEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Core Histones. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes core histone H3.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track."
+      },
+      "variance_band": 0,
+      "key": "Core Histones ChIP-chip arrays, H3144_N2_L3_LM_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/4454_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Core Histones",
+      "label": "Core Histones ChIP-chip arrays, H3144_N2_L3_LM_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Chromosome-Nuclear Envelope Interaction proteins (Lieb project, Strome subgroup). General Description: The focus of our analysis will be elements that specify nucleosome positioning and occupancy, control domains of gene expression, induce repression of the X chromosome, guide mitotic segregation and genome duplication, govern homolog pairing and recombination during meiosis, and organize chromosome positioning within the nucleus. 126 strategically selected targets include key histone modifications, histone variants, RNA polymerase II isoforms, dosage-compensation proteins, centromere components, homolog-pairing facilitators, recombination markers, and nuclear-envelope constituents."
+      },
+      "variance_band": 0,
+      "key": "Chromosome-Nuclear Envelope Interaction, SDQ3891_LEM2_N2_MXEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5696_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Chromosome-Nuclear Envelope Interaction",
+      "label": "Chromosome-Nuclear Envelope Interaction, SDQ3891_LEM2_N2_MXEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Chromosome-Nuclear Envelope Interaction proteins (Lieb project, Strome subgroup). General Description: The focus of our analysis will be elements that specify nucleosome positioning and occupancy, control domains of gene expression, induce repression of the X chromosome, guide mitotic segregation and genome duplication, govern homolog pairing and recombination during meiosis, and organize chromosome positioning within the nucleus. 126 strategically selected targets include key histone modifications, histone variants, RNA polymerase II isoforms, dosage-compensation proteins, centromere components, homolog-pairing facilitators, recombination markers, and nuclear-envelope constituents."
+      },
+      "variance_band": 0,
+      "key": "Chromosome-Nuclear Envelope Interaction, SDQ3897_NPP13_N2_MXEMB_1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5700_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Chromosome-Nuclear Envelope Interaction",
+      "label": "Chromosome-Nuclear Envelope Interaction, SDQ3897_NPP13_N2_MXEMB_1",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Chromosome-Nuclear Envelope Interaction proteins (Lieb project, Strome subgroup). General Description: The focus of our analysis will be elements that specify nucleosome positioning and occupancy, control domains of gene expression, induce repression of the X chromosome, guide mitotic segregation and genome duplication, govern homolog pairing and recombination during meiosis, and organize chromosome positioning within the nucleus. 126 strategically selected targets include key histone modifications, histone variants, RNA polymerase II isoforms, dosage-compensation proteins, centromere components, homolog-pairing facilitators, recombination markers, and nuclear-envelope constituents."
+      },
+      "variance_band": 0,
+      "key": "Mononucleosomes, MXEMB",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/6100_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Mononucleosomes, MXEMB",
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Chromosome-Nuclear Envelope Interaction proteins (Lieb project, Strome subgroup). General Description: The focus of our analysis will be elements that specify nucleosome positioning and occupancy, control domains of gene expression, induce repression of the X chromosome, guide mitotic segregation and genome duplication, govern homolog pairing and recombination during meiosis, and organize chromosome positioning within the nucleus. 126 strategically selected targets include key histone modifications, histone variants, RNA polymerase II isoforms, dosage-compensation proteins, centromere components, homolog-pairing facilitators, recombination markers, and nuclear-envelope constituents."
+      },
+      "variance_band": 0,
+      "key": "Mononucleosomes, GermlinelessAdults",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/lieb/5927_signal.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Lieb Group/Dosage Compensation and Chromosome Organization",
+      "label": "Mononucleosomes, GermlinelessAdults",
+      "min_score": 0
+    }
+  ]
+}

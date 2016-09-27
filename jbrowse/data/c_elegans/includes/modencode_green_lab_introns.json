@@ -1,0 +1,118 @@
+{
+  "tracks": [
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "label": false,
+        "height": 8
+      },
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "metadata": {
+        "shortInfo": "C. elegans Intron Identification set.20090106.2_3_2_2_3_2_2_2_2. This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs."
+      },
+      "key": "Green Lab confirmed introns 2008-12-02 set 4",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2008-12-02 set 4/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Green Lab confirmed introns 2008-12-02 set 4"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "label": false,
+        "height": 8
+      },
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "metadata": {
+        "shortInfo": "C. elegans Intron Identification set.20090106.2_3_2_2_4_4_3_2_2. This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs."
+      },
+      "key": "Green Lab confirmed introns 2008-12-02 set 1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2008-12-02 set 1/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Green Lab confirmed introns 2008-12-02 set 1"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "label": false,
+        "height": 8
+      },
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "metadata": {
+        "shortInfo": "C. elegans Intron Identification set.20090921.2_3_2_2_4_3_3_2_2. This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs."
+      },
+      "key": "Green Lab confirmed introns 2009-09-21 Chromosome II",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2009-09-21 Chromosome II/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Green Lab confirmed introns 2009-09-21 Chromosome II"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "label": false,
+        "height": 8
+      },
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "metadata": {
+        "shortInfo": "C. elegans Intron Identification set.20090106.2_3_2_2_4_3_3_2_2. This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs."
+      },
+      "key": "Green Lab confirmed introns 2008-12-02 set 2",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2008-12-02 set 2/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Green Lab confirmed introns 2008-12-02 set 2"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "label": false,
+        "height": 8
+      },
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "metadata": {
+        "shortInfo": "C. elegans Intron Identification set.20090106.2_3_2_2_4_3_3_2_2. This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs."
+      },
+      "key": "Green Lab confirmed introns 2008-12-02 set 3",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2008-12-02 set 3/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Green Lab confirmed introns 2008-12-02 set 3"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "label": false,
+        "height": 8
+      },
+      "category": "modENCODE/Waterston Group/Green Lab",
+      "metadata": {
+        "shortInfo": "C. elegans Intron Identification set.20100126.2_3_2_2_4_3_3_2_2_2.ws180. This experiment identifies intron boundary coordinates in C. elegans genomic sequence. Initially, we run genefinder to predict protein-coding transcripts from the C. elegans chromosome sequences. We align existing cDNA and EST sequences to the predicted transcript sequences to confirm the transcript structure. Predicted splice junctions unconfirmed by these alignments are tested for confirmation using RT-PCR, DNA sequencing, and sequence alignment. These PCR experiments use gene-specific/gene-specific, 5' RACE/gene-specific, and gene-specific/3' RACE primer pairs."
+      },
+      "key": "Green Lab confirmed introns 2010-01-26 set 5",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2010-01-26 set 5/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Green Lab confirmed introns 2010-01-26 set 5"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+Welcome to the alpha preview of JBrowse, a proposed successor to GBrowse. This preview is intended for members of WormBase staff only.
+
+The staff preview of JBrowse is available at 
+
+      http://jbrowse.wormbase.org/.
+
+For now, the landing page lists available species. The most complete species
+is of course C. elegans.
+
+BACKGROUND
+
+JBrowse is the "next gen" "replacement" for GBrowse.  I put the replacement
+in quotes because I don't expect GBrowse to go away any time soon, so really
+it's more of a compliment.  JBrowse is designed to be faster than GBrowse with
+better navigation of large numbers of tracks and tools for quantitative data
+visualiation.
+
+NOTES AND LIMITATIONS OF THE CURRENT IMPLEMENTATION 
+
+1. Available data: Currently there are about 55 tracks but I will continue
+to add more.  If there are data you'd particularly like to see, please let 
+me know and I'll get it in as soon as possible.
+
+2. Selecting tracks: JBrowse comes with a faceted track selector.  To
+access it, click on the "Select tracks" tab near the upper left corner.  The 
+track selector allows users to select tracks based on metadata provided about
+the tracks.  In the current instance, that means the track names, categories 
+(which are both the same as in GBrowse) and citation (that is, description text
+about the track). Tracks can be selected in a variety of ways, including clicking
+on categories on the left or using the search field in the upper right section of the
+selector to dynamically search all metadata of the tracks.  Turning on tracks
+can be accomplished either by clicking checkboxes next to each
+track name or by clicking the checkbox next to the "Name" header of the table
+to turn them all on. There is currently a limit of 30 tracks that
+you can turn on at once by clicking on the "Name" checkbox, but you can have
+more than 30 tracks in JBrowse at once. Please let me know if you have 
+suggestions for facets/metadata that I could add to make this searching
+more useful.
+
+3. Navigation: One of the big selling points of JBrowse is fast and fluid
+panning and zooming.  Generally you get around JBrowse the same way as
+GBrowse: there are pan and zoom in and out buttons (the big magnifying glasses
+zoom "a lot" and the little ones zoom "a little").  In addition to using
+the buttons, you can pan by clicking and dragging the mouse in any
+empty space in the tracks.  You can also zoom in a way that is similar to
+GBrowse, by clicking and dragging to highlight the region to zoom to and
+release it.  You can do that either on the chromosome ruler (above the
+navigation buttons) or on the region ruler (below the navigation buttons).
+
+4. Searching: You can use the search box in the upper right section of the
+screen to search for feature names and aliases, so for example unc-1,
+K03E6.5 and WBGene00006741 should all work.  The search box has name
+completion, so typing in the first few characters will get you suggested
+things to search for. 	
+
+5. Using your own data: JBrowse let's you load BAM or BigWig data but it 
+works differently from GBrowse.  In GBrowse, when you want to load your 
+own data, you upload it to a server which processes the data and sends
+images back.  With JBrowse, the files are kept locally and processed
+by the JavaScript code in the browser.  To load your own data files, use
+the Open option in the File menu in the upper left corner of the JBrowse
+window. In addition to processing local files, you can also provide a
+URL in the Open dialog box that points to a BAM or BigWig file on a server.
+
+5. Combination tracks: Also under that File menu is the "Add combination
+track" menu. This is a fairly powerful function that lets you combine the
+results in two tracks using a variety of logical operations as well as 
+allowing one track to be used as a mask for another track.  To use it
+you select that option from the menu and then using the track labels on
+the left side of the track, drag the tracks you want to combine into 
+the combination track region.  After you drag the second track in,
+a window will open with options for how to combine the tracks.
+
+6. Sequence searching: JBrowse has a way to search for short nucleotide
+sequences, though it works a little differently from how it used to work
+with GBrowse.  To look for the sequence of interest, select the "Add
+sequence search track" from the File menu and it will open a window
+asking for the sequence (DNA or amino acid, which it searches for by 
+translating the reference sequence) as well as items like ignore case 
+and limiting to one strand.  Additionally, you can provide a regular
+expression to search for, so you could search for something like this
+"at[gc]" and it would search for either "atg" or "atc".  It doesn't 
+know about IUPAC codes (well, I don't think it does anyway).  It also
+won't tell you about other places in the genome that the sequence might
+exist, it will only draw a glyph where the sequence is found in the
+current display. Once you create a sequence search track, that track will 
+remain until it is dismissed with the "x" next to the track name just like
+any other track.
+
+
+
+For further reading, please see the official JBrowse user guides and tutorials:
+
+    http://gmod.org/wiki/JBrowse and 
+    http://jbrowse.org/code/JBrowse-1.11.4/docs/tutorial/

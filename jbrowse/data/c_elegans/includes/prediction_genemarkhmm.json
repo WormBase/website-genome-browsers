@@ -1,0 +1,23 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "label" : false,
+            "color" : "palevioletred"
+         },
+         "metadata" : {
+            "shortInfo" : "These are GeneMarkHMM gene predictions provided by Mark Borodovsky."
+         },
+         "category": "Genes/Ab-initio predictions",
+         "key" : "Prediction: GeneMarkHMM",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Prediction: GeneMarkHMM/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Prediction: GeneMarkHMM",
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

@@ -1,0 +1,86 @@
+define([
+           'dojo/_base/declare',
+           'dojo/query',
+
+   	   'dijit/form/Button',
+           'JBrowse/Plugin'
+       ],
+       function(
+           declare,
+           query,
+	   	   
+	   dijitButton,
+           JBrowsePlugin
+       ) {
+return declare( JBrowsePlugin,
+{
+    constructor: function( args ) {
+		
+		var thisBrowser = this.browser;
+                var switchSelector = this.switchSelectorButton();
+		
+
+		thisBrowser.afterMilestone('initView', function() {
+	
+			var myMenu = thisBrowser.menuBar;
+			
+        	console.log( "switchselector plugin starting" );
+
+			myMenu.appendChild(switchSelector);
+		
+		})
+        
+		console.log( "SwitchTrackSelector plugin added" );
+	},
+
+    switchSelectorButton function () {
+	
+	var doSwitch = function(){
+		var ele = document.getElementById("GenomeBrowser");
+		var doc = document;
+	
+			console.log("entering switchselector");
+
+                 var fullurl = document.location;
+                 var url;
+                 if (String(fullurl).match('jbrowse-simple')) {
+                     if ( String(fullurl).match('full.html') ) {
+                         url = '/tools/genome/jbrowse/full.html';
+                     }
+                     else {
+                         url = '/tools/genome/jbrowse/index.html';
+                     } 
+                 }
+                 else {
+                     if ( String(fullurl).match('full.html') ) {
+                         url = '/tools/genome/jbrowse-simple/full.html'; 
+                     }
+                     else {
+                         url = '/tools/genome/jbrowse-simple/index.html';
+                     }
+                 };
+
+                 var get = document.location.search;
+                 var get2 = get.replace(/nav=0/,'nav=1');
+                 var get3 = get2.replace(/overview=0/, 'overview=1');
+                 var get4 = get3.replace(/tracklist=0/, 'tracklist=1');
+                 var get5 = get4.replace(/c_elegans_simple/, 'c_elegans_PRJNA13758');
+                 var newWindow = window.open(url+get5, "WormBase JBrowse");
+
+	};
+
+	var selectTrackSwitcher = new dijitButton({
+		className :"switchselector-button",
+		innerHTML:"Track Selector",
+		title: "Switch to the other track selector style",
+		onClick : function(){
+	
+			doSwitch();
+		
+		}
+	});
+
+	return selectTrackSwitcher.domNode;
+    }
+}); 
+});

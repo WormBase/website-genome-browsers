@@ -1,0 +1,146 @@
+{
+  "tracks": [
+    {
+      "style": {
+        "className": "feature",
+        "color": "green",
+        "strandArrow": false,
+        "label": "function(f) {var name = f.get('Name');var match = /.*:(.*)/.exec(name);var shortname = match[1];return shortname; }",
+        "height": 6
+      },
+      "subParts": "match_part",
+      "key": "RSTs - CEUP1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/RSTs - CEUP1/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "label": "RSTs - CEUP1",
+      "metadata": {
+        "shortInfo": "The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      },
+      "type": "CanvasFeatures",
+      "category": "modENCODE/Piano Group/3UTR Annotation",
+      "glyph": "JBrowse/View/FeatureGlyph/Segments"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "green",
+        "strandArrow": false,
+        "label": "function(f) {var name = f.get('Name');var match = /.*:(.*)/.exec(name);var shortname = match[1];return shortname; }",
+        "height": 6
+      },
+      "subParts": "match_part",
+      "key": "USTs - CEUP1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/USTs - CEUP1/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "metadata": {
+        "shortInfo": "Piano mixed-stage 3'RACE. The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      },
+      "label": "USTs - CEUP1",
+      "type": "CanvasFeatures",
+      "category": "modENCODE/Piano Group/3UTR Annotation",
+      "glyph": "JBrowse/View/FeatureGlyph/Segments"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "strandArrow": false,
+        "label": "function(f) {var strand = f.get('strand'); var pm; if(strand <0) {pm = ' (-)';} else {pm = ' (+)';} var name = f.get('Name'); var clean = name.replace(/.*CEUP/, 'CEUP'); return clean + pm;  }",
+        "height": 4
+      },
+      "key": "polyA sites - CEUP1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/polyA sites - CEUP1/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "metadata": {
+        "shortInfo": "Piano mixed-stage 3'RACE. The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      },
+      "category": "modENCODE/Piano Group/3UTR Annotation",
+      "label": "polyA sites - CEUP1"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "blue",
+        "strandArrow": false,
+        "label": "function(f) {var name = f.get('Name'); var clean = name.replace(/.*ID/, ''); return clean;  }",
+        "height": 8
+      },
+      "key": "UTRome polyA signal sequence",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/UTRome polyA signal sequence/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "label": "UTRome polyA signal sequence",
+      "metadata": {
+        "shortInfo": "Annotation of CEUP 3' UTRs, polyA sites, and PAS sites. Multiple independent evidence sources supporting the existence of 3'UTR isoforms were collected, aligned to the genome, and curated as previously described. Four main types of data sources were used, including several modENCODE datasets: 1. CEUP 3' RACE clones (modENCODE datasets 515) 2. CEUP polyA capture (modENCODE datasets 992,2330-2337) 3. AceView curated cDNA and EST traces from the Yuji Kohara collection, Exelixis and the NCBI Trace Archive, and GenBank entries. 4. Published RNAseq transcriptome profiling data from Hillier et al., Genome Res 2009 (PMID:19181841; modENCODE 2351-2354) Additional details can be found in the protocol"
+      },
+      "category": "modENCODE/Piano Group/3UTR Annotation",
+      "type": "CanvasFeatures"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "strandArrow": false,
+        "label": "function(f) {var name = f.get('Name'); var clean = name.replace(/.*ID/, ''); return clean;  }",
+        "height": 8
+      },
+      "key": "UTRome polyA sites",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/UTRome polyA sites/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "label": "UTRome polyA sites",
+      "type": "CanvasFeatures",
+      "metadata": {
+        "shortInfo": "Annotation of CEUP 3' UTRs, polyA sites, and PAS sites. Multiple independent evidence sources supporting the existence of 3'UTR isoforms were collected, aligned to the genome, and curated as previously described. Four main types of data sources were used, including several modENCODE datasets: 1. CEUP 3' RACE clones (modENCODE datasets 515) 2. CEUP polyA capture (modENCODE datasets 992,2330-2337) 3. AceView curated cDNA and EST traces from the Yuji Kohara collection, Exelixis and the NCBI Trace Archive, and GenBank entries. 4. Published RNAseq transcriptome profiling data from Hillier et al., Genome Res 2009 (PMID:19181841; modENCODE 2351-2354) Additional details can be found in the protocol"
+      },
+      "category": "modENCODE/Piano Group/3UTR Annotation"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "grey",
+        "label": "function(f) {var name = f.get('Name'); var clean = name.replace(/.*:/, ''); return clean; }",
+        "height": 8
+      },
+      "key": "UTRome 3prime UTRs",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/UTRome 3prime UTRs/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "metadata": {
+        "shortInfo": "Annotation of CEUP 3' UTRs, polyA sites, and PAS sites. Multiple independent evidence sources supporting the existence of 3'UTR isoforms were collected, aligned to the genome, and curated as previously described. Four main types of data sources were used, including several modENCODE datasets: 1. CEUP 3' RACE clones (modENCODE datasets 515) 2. CEUP polyA capture (modENCODE datasets 992,2330-2337) 3. AceView curated cDNA and EST traces from the Yuji Kohara collection, Exelixis and the NCBI Trace Archive, and GenBank entries. 4. Published RNAseq transcriptome profiling data from Hillier et al., Genome Res 2009 (PMID:19181841; modENCODE 2351-2354) Additional details can be found in the protocol, below."
+      },
+      "label": "UTRome 3prime UTRs",
+      "category": "modENCODE/Piano Group/3UTR Annotation",
+      "type": "CanvasFeatures"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "height": 7,
+        "color": "blue",
+        "label": "function(f) { var strand = f.get('strand'); var pm; if(strand <0) {pm = ' (-)';} else {pm = ' (+)';} var name = f.get('Name'); var clean = name.replace(/.*CEUP/, 'CEUP'); return clean + pm;  }"
+      },
+      "key": "3prime UTRs - CEUP1",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/3prime UTRs - CEUP1/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "metadata": {
+        "shortInfo": "Piano mixed-stage 3'RACE. The 3' untranslated region (3' UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3' UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      },
+      "category": "modENCODE/Piano Group/3UTR Annotation",
+      "label": "3prime UTRs - CEUP1"
+    }
+  ]
+}

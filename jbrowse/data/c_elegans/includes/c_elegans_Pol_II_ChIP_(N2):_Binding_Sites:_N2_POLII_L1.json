@@ -1,0 +1,193 @@
+{
+  "tracks": [
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Pol II ChIP (N2): Binding Sites: N2_POLII_L1",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Pol II ChIP (N2): Binding Sites: N2_POLII_L1",
+      "feature": [
+        "binding_site:4325_details"
+      ],
+      "metadata": {
+        "shortInfo": "Identification of Binding Regions for transcription factors in C. elegans. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_L1/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Pol II ChIP (N2): Binding Sites: N2_POLII_L1",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Pol II ChIP (N2): Binding Sites: N2_POLII_L3",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Pol II ChIP (N2): Binding Sites: N2_POLII_L3",
+      "feature": [
+        "binding_site:4336_details"
+      ],
+      "metadata": {
+        "shortInfo": "Identification of Binding Regions for transcription factors in C. elegans. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_L3/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites",
+      "label": "Pol II ChIP (N2): Binding Sites: N2_POLII_L3",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Pol II ChIP (N2): Binding Sites: N2_POLII_L2",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Pol II ChIP (N2): Binding Sites: N2_POLII_L2",
+      "feature": [
+        "binding_site:4333_details"
+      ],
+      "metadata": {
+        "shortInfo": "Identification of Binding Regions for transcription factors in C. elegans. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_L2/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Pol II ChIP (N2): Binding Sites: N2_POLII_L2",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Pol II ChIP (N2): Binding Sites: N2_POLII_lemb",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Pol II ChIP (N2): Binding Sites: N2_POLII_lemb",
+      "feature": [
+        "binding_site:4348_details"
+      ],
+      "metadata": {
+        "shortInfo": "Identification of Binding Regions for transcription factors in C. elegans. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_lemb/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites",
+      "label": "Pol II ChIP (N2): Binding Sites: N2_POLII_lemb",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Pol II ChIP (N2): Binding Sites: N2_POLII_L4",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Pol II ChIP (N2): Binding Sites: N2_POLII_L4",
+      "feature": [
+        "binding_site:4363_details"
+      ],
+      "metadata": {
+        "shortInfo": "Identification of Binding Regions for transcription factors in C. elegans. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_L4/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Pol II ChIP (N2): Binding Sites: N2_POLII_L4",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Pol II ChIP (N2): Binding Sites: N2_POLII_YA",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Pol II ChIP (N2): Binding Sites: N2_POLII_YA",
+      "feature": [
+        "binding_site:4362_details"
+      ],
+      "metadata": {
+        "shortInfo": "Identification of Binding Regions for transcription factors in C. elegans. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_YA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites",
+      "label": "Pol II ChIP (N2): Binding Sites: N2_POLII_YA",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Pol II ChIP (N2): Binding Sites: N2_POLII_eemb",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Pol II ChIP (N2): Binding Sites: N2_POLII_eemb",
+      "feature": [
+        "binding_site:4384_details"
+      ],
+      "metadata": {
+        "shortInfo": "Identification of Binding Regions for transcription factors in C. elegans. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Pol II ChIP (N2): Binding Sites: N2_POLII_eemb/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Pol II ChIP (N2): Binding Sites: N2_POLII_eemb",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites"
+    }
+  ]
+}

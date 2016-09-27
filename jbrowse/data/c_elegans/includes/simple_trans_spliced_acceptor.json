@@ -1,0 +1,30 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "function(f) {var source = f.get('Source'); if (source == 'SL1') {return 'red';} if (source == 'SL2') {return 'green';} return 'black';  }",
+            "description" : "function(f) {return f.get('Source');}",
+            "height" : 8
+         },
+         "key" : "Trans-spliced acceptor",
+         "onClick" : {
+            "url" : "{featureURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Trans-spliced acceptor/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "label" : "Trans-spliced acceptor",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+            "shortInfo" : "These are SL1 and SL2 trans-spliced acceptors published by Blumenthal et al, Nature 417: 851-854 (2002). SL1 acceptors are show in red, SL2 in green."
+         },
+         "category": "Transcription/Signals",
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

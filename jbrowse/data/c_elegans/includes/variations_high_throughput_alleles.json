@@ -1,0 +1,32 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "{variationColor}",
+            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
+            "borderColor" : "black",
+            "description" : "{typeDescription}",
+            "height" : 8
+         },
+         "key" : "High-throughput alleles",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "label" : "{variationsBalloon}",
+            "title" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/High-throughput alleles/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "category": "Alleles, Variations, RNAi",
+         "type" : "CanvasFeatures",
+         "label" : "High-throughput alleles",
+         "metadata" : {
+            "shortInfo" : "These are alleles generated through high-throughput, genome-wide projects. Million Mutation Project alleles are placed in a separate track."
+         },
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

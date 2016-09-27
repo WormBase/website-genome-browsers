@@ -1,0 +1,29 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "sienna",
+            "height" : 4
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "function(track,f) {var url = 'http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Search&db=Nucleotide&doptcmdl=GenBank&term='; var accn = f.get('Genbank'); if (typeof accn === 'undefined') {return;} return url + accn;}",
+            "label" : "Feature at Genbank",
+            "title" : "Feature at Genbank"
+         },
+         "metadata" : {
+            "shortInfo" : "The C. elegans genome was submitted to the GenBank and EMBL databases in in the form of a set of minimally-overlapping segments.  This track shows the position of these accessioned entries."
+         },
+         "category": "Genome Structure/Assembly & Curation",
+         "key" : "Genbank submissions",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Genbank submissions/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Genbank submissions",
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

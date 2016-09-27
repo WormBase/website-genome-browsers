@@ -1,0 +1,29 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "purple",
+            "description" : "{typeDescription}"
+         },
+         "key" : "PolyA sites and signal sequences",
+         "onClick" : {
+            "url" : "{featureURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/PolyA sites and signal sequences/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "label" : "PolyA sites and signal sequences",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+            "shortInfo" : "High-confidence polyadenylation signal sequences and sites calculated by an algorithm trained with verified sites from full-length mRNAs. Signals are indicated with a diamond; sites with a triangle. (Different glyphs not implemented in JBrowse yet)"
+         },
+         "category": "Sequence Features/Signals & Motifs",
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

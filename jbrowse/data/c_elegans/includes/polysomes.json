@@ -1,0 +1,22 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "key" : "Polysomes",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Polysomes/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "label" : "Polysomes",
+         "type" : "CanvasFeatures",
+         "category": "Expression",
+         "metadata" : {
+            "shortInfo" : "This data is from the The Lamm et al. (2011) PMID: 21177965 paper finding regions bound by the polysome fraction of RNAs being actively translated."
+         },
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

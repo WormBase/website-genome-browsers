@@ -1,0 +1,31 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "{matchColor}",
+            "height" : 6
+         },
+         "subParts" : "match_part",
+         "key" : "mRNAs/ncRNAs (best)",
+         "onClick" : {
+            "url" : "{targetURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/mRNAs_ncRNAs (best)/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "metadata" : {
+            "shortInfo" : "Native (same species) full length cDNAs and ncRNAs aligned to the genome using BLAT."
+         },
+         "label" : "mRNAs_ncRNAs (best)",
+         "type" : "CanvasFeatures",
+         "category": "Genes/Supporting Evidence",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

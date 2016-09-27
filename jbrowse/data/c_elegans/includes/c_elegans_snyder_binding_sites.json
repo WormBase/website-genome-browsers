@@ -1,0 +1,772 @@
+{
+  "tracks": [
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites AMA-1 (Pol II ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites AMA-1 (Pol II ChIP)",
+      "feature": [
+        "binding_site:4298_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites AMA-1 (Pol II ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites",
+      "label": "Binding Sites AMA-1 (Pol II ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites DAF-16 (Pol II ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites DAF-16 (Pol II ChIP)",
+      "feature": [
+        "binding_site:4281_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites DAF-16 (Pol II ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites DAF-16 (Pol II ChIP)",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites EGL-5 (Pol II ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites EGL-5 (Pol II ChIP)",
+      "feature": [
+        "binding_site:5736_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites EGL-5 (Pol II ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites",
+      "label": "Binding Sites EGL-5 (Pol II ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites EOR-1 (Pol II ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites EOR-1 (Pol II ChIP)",
+      "feature": [
+        "binding_site:6101_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites EOR-1 (Pol II ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites EOR-1 (Pol II ChIP)",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites HLH-8 (Pol II ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites HLH-8 (Pol II ChIP)",
+      "feature": [
+        "binding_site:5872_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites HLH-8 (Pol II ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites",
+      "label": "Binding Sites HLH-8 (Pol II ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites MAB-5 (Pol II ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites MAB-5 (Pol II ChIP)",
+      "feature": [
+        "binding_site:4269_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites MAB-5 (Pol II ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites MAB-5 (Pol II ChIP)",
+      "category": "modENCODE/Snyder Group/Pol II ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites ALR-1 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites ALR-1 (GFP ChIP)",
+      "feature": [
+        "binding_site:4178_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites ALR-1 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "Binding Sites ALR-1 (GFP ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites AMA-1 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites AMA-1 (GFP ChIP)",
+      "feature": [
+        "binding_site:4206_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites AMA-1 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites AMA-1 (GFP ChIP)",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites BLMP-1 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites BLMP-1 (GFP ChIP)",
+      "feature": [
+        "binding_site:5418_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites BLMP-1 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "Binding Sites BLMP-1 (GFP ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites CEH-14 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites CEH-14 (GFP ChIP)",
+      "feature": [
+        "binding_site:4169_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites CEH-14 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites CEH-14 (GFP ChIP)",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites CEH-30 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites CEH-30 (GFP ChIP)",
+      "feature": [
+        "binding_site:5438_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites CEH-30 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "Binding Sites CEH-30 (GFP ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites DAF-16 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites DAF-16 (GFP ChIP)",
+      "feature": [
+        "binding_site:4294_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites DAF-16 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites DAF-16 (GFP ChIP)",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites DPY-27 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites DPY-27 (GFP ChIP)",
+      "feature": [
+        "binding_site:4088_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites DPY-27 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "Binding Sites DPY-27 (GFP ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites EGL-27 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites EGL-27 (GFP ChIP)",
+      "feature": [
+        "binding_site:5448_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites EGL-27 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites EGL-27 (GFP ChIP)",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites EGL-5 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites EGL-5 (GFP ChIP)",
+      "feature": [
+        "binding_site:4385_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites EGL-5 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "Binding Sites EGL-5 (GFP ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites ELT-3 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites ELT-3 (GFP ChIP)",
+      "feature": [
+        "binding_site:5408_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites ELT-3 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites ELT-3 (GFP ChIP)",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites EOR-1 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites EOR-1 (GFP ChIP)",
+      "feature": [
+        "binding_site:4267_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites EOR-1 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "Binding Sites EOR-1 (GFP ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites GEI-11 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites GEI-11 (GFP ChIP)",
+      "feature": [
+        "binding_site:4360_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites GEI-11 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites GEI-11 (GFP ChIP)",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites HLH-1 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites HLH-1 (GFP ChIP)",
+      "feature": [
+        "binding_site:4315_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites HLH-1 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "Binding Sites HLH-1 (GFP ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites HLH-8 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites HLH-8 (GFP ChIP)",
+      "feature": [
+        "binding_site:4184_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites HLH-8 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites HLH-8 (GFP ChIP)",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites LIN-13 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites LIN-13 (GFP ChIP)",
+      "feature": [
+        "binding_site:5417_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites LIN-13 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "Binding Sites LIN-13 (GFP ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites LIN-15B (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites LIN-15B (GFP ChIP)",
+      "feature": [
+        "binding_site:5466_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites LIN-15B (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites LIN-15B (GFP ChIP)",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites LIN-39 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites LIN-39 (GFP ChIP)",
+      "feature": [
+        "binding_site:4320_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites LIN-39 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "Binding Sites LIN-39 (GFP ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites MAB-5 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites MAB-5 (GFP ChIP)",
+      "feature": [
+        "binding_site:4279_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites MAB-5 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites MAB-5 (GFP ChIP)",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites MDL-1 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites MDL-1 (GFP ChIP)",
+      "feature": [
+        "binding_site:5382_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites MDL-1 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "Binding Sites MDL-1 (GFP ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites MEP-1 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites MEP-1 (GFP ChIP)",
+      "feature": [
+        "binding_site:5396_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites MEP-1 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites MEP-1 (GFP ChIP)",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites NHR-105 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites NHR-105 (GFP ChIP)",
+      "feature": [
+        "binding_site:5460_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites NHR-105 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "Binding Sites NHR-105 (GFP ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites NHR-6 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites NHR-6 (GFP ChIP)",
+      "feature": [
+        "binding_site:4351_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites NHR-6 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites NHR-6 (GFP ChIP)",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites PES-1 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites PES-1 (GFP ChIP)",
+      "feature": [
+        "binding_site:4374_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites PES-1 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "Binding Sites PES-1 (GFP ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites PQM-1 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites PQM-1 (GFP ChIP)",
+      "feature": [
+        "binding_site:5447_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites PQM-1 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites PQM-1 (GFP ChIP)",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites SKN-1 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "Binding Sites SKN-1 (GFP ChIP)",
+      "feature": [
+        "binding_site:5423_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites SKN-1 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "Binding Sites SKN-1 (GFP ChIP)",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "Binding Sites UNC-130 (GFP ChIP)",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Binding Sites UNC-130 (GFP ChIP)",
+      "feature": [
+        "binding_site:4254_details"
+      ],
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Binding Sites UNC-130 (GFP ChIP)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Binding Sites UNC-130 (GFP ChIP)",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    }
+  ]
+}

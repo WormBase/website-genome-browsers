@@ -1,0 +1,28 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "key" : "Binding sites (curated)",
+         "onClick" : {
+            "url" : "{featureURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Binding sites (curated)/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "label" : "Binding sites (curated)",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+            "shortInfo" : "Sites where there is experimental evidence of a non-TF, non-Histone molecule binding."
+         },
+         "category": "Sequence Features/Binding Sites & Regions",
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

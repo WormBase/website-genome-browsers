@@ -1,0 +1,23 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "white",
+            "borderColor" : "black"
+         },
+         "key" : "Transcription end site",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Transcription end site/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "category": "Sequence Features/Signals & Motifs",
+         "metadata" : {
+            "shortInfo" : "Transcription_end_site defined by analysis of RNASeq short read datasets (example Hillier et al.)"
+         },
+         "label" : "Transcription end site",
+         "type" : "CanvasFeatures",
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

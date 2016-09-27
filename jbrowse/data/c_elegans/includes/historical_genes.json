@@ -1,0 +1,40 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "function(f) {var strand = f.get('strand'); if (strand > 0) {return 'violet';} return 'turquoise';  }",
+            "label" : "function(f) {var name = f.get('Name'); return name;}",
+            "description" : "function(f) { var type = f.get('type'); type.replace(/_/g, ' '); return type;  }"
+         },
+         "subParts" : "exon",
+         "key" : "Gene Models (historical)",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{simpleGeneURL}",
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Gene Models (historical)/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "category": "Genes/Curated Genes",
+         "type" : "CanvasFeatures",
+         "label" : "Gene Models (historical)",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "metadata" : {
+            "shortInfo" : "Historical gene predictions."
+         },
+        "menuTemplate" : [
+           {
+           "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+           "iconClass" : "dijitIconDatabase",
+           "action" : "contentDialog",
+           "label" : "View Sequence"
+           }
+         ],
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

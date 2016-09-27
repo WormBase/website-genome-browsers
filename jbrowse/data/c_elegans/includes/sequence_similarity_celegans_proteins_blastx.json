@@ -1,0 +1,32 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "orange",
+            "label" : false,
+            "height" : 5
+         },
+         "key" : "C. elegans proteins",
+         "onClick" : {
+            "url" : "{proteinURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/C. elegans proteins/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "label" : "C. elegans proteins",
+         "type" : "CanvasFeatures",
+         "category": "Sequence Similarity/Proteins",
+         "subParts" : "match_part",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "metadata" : {
+            "shortInfo" : "Matches to WormBase C. elegans proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
+         },
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

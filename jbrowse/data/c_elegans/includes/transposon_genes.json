@@ -1,0 +1,40 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "gray",
+            "description" : "function(f) {var type = f.get('type'); if (type.match('pseudogenic')) {return 'transposon pseudogene';} return 'transposon mRNA';}",
+            "height" : 6
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{simpleGeneURL}",
+            "label" : "{geneLinkLabel}",
+            "title" : "Feature in WormBase"
+         },
+         "category": "Genes/Curated Genes",
+         "key" : "Transposon Genes",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Transposon Genes/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Transposon Genes",
+         "subParts" : "exon",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "metadata" : {
+            "shortInfo" : "These are transposon spans reviewed by WormBase curators."
+         },
+        "menuTemplate" : [
+           {
+           "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+           "iconClass" : "dijitIconDatabase",
+           "action" : "contentDialog",
+           "label" : "View Sequence"
+           }
+         ],
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

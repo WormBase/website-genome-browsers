@@ -1,0 +1,32 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "orange",
+            "label" : false,
+            "height" : 5
+         },
+         "key" : "H. sapiens proteins",
+         "onClick" : {
+            "url" : "{proteinURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/H. sapiens proteins/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "label" : "H. sapiens proteins",
+         "type" : "CanvasFeatures",
+         "subParts" : "match_part",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "category": "Sequence Similarity/Proteins",
+         "metadata" : {
+            "shortInfo" : "Matches to Human proteins from Ensembl, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
+         },
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

@@ -1,0 +1,23 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "height" : 10
+         },
+         "key" : "Deprecated operons",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Deprecated operons/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "category": "Genes/Curated Genes",
+         "label" : "Deprecated operons",
+         "type" : "CanvasFeatures",
+         "metadata" : {
+            "shortInfo" : "These are historical operon predictions."
+         },
+         "maxExportSpan" : 50000000
+      }
+   ]
+}

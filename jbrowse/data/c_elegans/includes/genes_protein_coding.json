@@ -1,0 +1,37 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "{geneColor}",
+            "label" : "{geneLabel}"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{transcriptURL}",
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase"
+         },
+         "key" : "Curated Genes (protein coding)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Curated Genes (protein coding)/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "category": "Genes/Curated Genes",
+         "type" : "CanvasFeatures",
+         "label" : "Curated Genes (protein coding)",
+         "metadata" : {
+            "shortInfo" : "A subset of the full Curated Genes set limited to protein-coding genes only. Only the CDS is represented. Full models (with UTRs) can be seen on the 'Curated Genes' track."
+         },
+         "maxExportSpan" : 50000000,
+         "menuTemplate" : [
+           {
+           "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+           "iconClass" : "dijitIconDatabase",
+           "action" : "contentDialog",
+           "label" : "View Sequence"
+           }
+         ]
+      }
+   ]
+}

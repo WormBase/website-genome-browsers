@@ -1,0 +1,101 @@
+{
+    "tracks" : [
+        {
+            "style" : {
+                "clip_marker_color" : "red",
+                "pos_color"         : "black",
+                "height"            : 50
+            },
+            "variance_band" : 0,
+            "key"           : "TSS (Chen) Forward",
+            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
+            "urlTemplate"   : "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/TSS_Chen.Forward.bw",
+            "max_score"     : 25,
+            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
+            "category": "Misc/Transcription Start Sites",
+            "label"         : "TSS (Chen) Forward",
+            "min_score"     : 0
+        },
+        {
+            "style" : {
+                "clip_marker_color" : "red",
+                "pos_color"         : "black",
+                "height"            : 50
+            },
+            "variance_band" : 0,
+            "key"           : "TSS (Chen) Reverse",
+            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
+            "urlTemplate"   : "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/TSS_Chen.Reverse.bw",
+            "max_score"     : 25,
+            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
+            "category": "Misc/Transcription Start Sites",
+            "label"         : "TSS (Chen) Reverse",
+            "min_score"     : 0
+        },
+        {
+            "style" : {
+                "clip_marker_color" : "red",
+                "pos_color"         : "black",
+                "height"            : 50
+            },
+            "variance_band" : 0,
+            "key"           : "TSS (Saito) Forward",
+            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
+            "urlTemplate"   : "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/TSS_Saito.Forward.bw",
+            "max_score"     : 25,
+            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
+            "category": "Misc/Transcription Start Sites",
+            "label"         : "TSS (Saito) Forward",
+            "min_score"     : 0
+        },
+        {
+            "style" : {
+                "clip_marker_color" : "red",
+                "pos_color"         : "black",
+                "height"            : 50
+            },
+            "variance_band" : 0,
+            "key"           : "TSS (Saito) Reverse",
+            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
+            "urlTemplate"   : "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/TSS_Saito.Reverse.bw",
+            "max_score"     : 25,
+            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
+            "category": "Misc/Transcription Start Sites",
+            "label"         : "TSS (Saito) Reverse",
+            "min_score"     : 0
+        },
+        {
+            "style" : {
+                "clip_marker_color" : "red",
+                "pos_color"         : "black",
+                "height"            : 50
+            },
+            "variance_band" : 0,
+            "key"           : "TSS (Kruesi) Forward",
+            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
+            "urlTemplate"   : "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/TSS_Kruesi.Forward.bw",
+            "max_score"     : 25,
+            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
+            "category": "Misc/Transcription Start Sites",
+            "label"         : "TSS (Kruesi) Forward",
+            "min_score"     : 0
+        },
+        {
+            "style" : {
+                "clip_marker_color" : "red",
+                "pos_color"         : "black",
+                "height"            : 50
+            },
+            "variance_band" : 0,
+            "key"           : "TSS (Kruesi) Reverse",
+            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
+            "urlTemplate"   : "http://gbrowse.wormbase.org:8002/worm/wiggle_binaries/TSS_Kruesi.Reverse.bw",
+            "max_score"     : 25,
+            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
+            "category": "Misc/Transcription Start Sites",
+            "label"         : "TSS (Kruesi) Reverse",
+            "min_score"     : 0
+        }
+      ]
+}
+

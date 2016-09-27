@@ -1,0 +1,32 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "orange",
+            "label" : false,
+            "height" : 5
+         },
+         "key" : "C. remanei proteins",
+         "onClick" : {
+            "url" : "{proteinURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/C. remanei proteins/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "label" : "C. remanei proteins",
+         "type" : "CanvasFeatures",
+         "subParts" : "match_part",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "category": "Sequence Similarity/Proteins",
+         "metadata" : {
+            "shortInfo" : "Matches to WormBase C. remanei proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
+         },
+         "maxExportSpan" : 50000000
+      }
+   ]
+}
