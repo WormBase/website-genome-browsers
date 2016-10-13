@@ -4,6 +4,7 @@ category     = Alleles, Variations, RNAi
 feature      = deletion:CGH_allele
 	       complex_substitution:KO_consortium
 	       deletion:KO_consortium
+               insertion_site:KO_consortium
 	       point_mutation:KO_consortium
 	       deletion:Variation_project
 	       insertion_site:Variation_project
