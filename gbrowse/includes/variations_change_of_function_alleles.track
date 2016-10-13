@@ -8,6 +8,7 @@ feature =         complex_substitution:PCoF_Allele
                               deletion:PCoF_CGH_allele
                   complex_substitution:PCoF_KO_consortium
                               deletion:PCoF_KO_consortium
+                        insertion_site:PCoF_KO_consortium
                         point_mutation:PCoF_KO_consortium
                         point_mutation:PCoF_Million_mutation
                               deletion:PCoF_Million_mutation
