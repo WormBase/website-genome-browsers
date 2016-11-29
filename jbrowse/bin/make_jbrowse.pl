@@ -372,7 +372,8 @@ my $struct = {
     "names" => { "url" => "names/", "type" => "Hash" },
     "include" => \@include,
     "dataset_id" => "$species",
-    "formatVersion" => 1
+    "formatVersion" => 1,
+    "plugins" => { "FeatureSequence" => {"location" => "./plugins/FeatureSequence"  }  }
 };
 my $json = JSON->new->pretty(1)->encode($struct);
 
