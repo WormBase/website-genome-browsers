@@ -10,7 +10,7 @@
          "onClick" : {
             "action" : "iframeDialog",
             "url" : "{simpleGeneURL}",
-            "label" : "{geneLinkLabel}",
+            "label" : "Right/Control click for more options",
             "title" : "Feature in WormBase"
          },
          "category": "Genes/Curated Genes",

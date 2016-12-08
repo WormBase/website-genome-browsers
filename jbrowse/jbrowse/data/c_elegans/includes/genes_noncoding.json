@@ -12,7 +12,7 @@
          "onClick" : {
             "action" : "iframeDialog",
             "url" : "{transcriptURL}",
-            "label" : "Feature in WormBase",
+            "label" : "Right/Control click for more options",
             "title" : "Feature in WormBase"
          },
          "key" : "Curated Genes (noncoding)",
