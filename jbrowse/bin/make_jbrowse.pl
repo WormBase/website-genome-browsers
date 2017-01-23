@@ -288,7 +288,7 @@ unless (-e "browser_data") {
 #create several links in the main dir
 if (!-e "$JBROWSEDIR/full.html") {
     unlink  "$JBROWSEDIR/faceted_track_selector.css";
-    symlink "$JBROWSEREPO/faceted_track_selector.css", $JBROWSEDIR/faceted_track_selector.css";
+    symlink "$JBROWSEREPO/faceted_track_selector.css", "$JBROWSEDIR/faceted_track_selector.css";
     symlink "$JBROWSEREPO/full.html",    "$JBROWSEDIR/full.html";
     unlink  "$JBROWSEDIR/index.html";
     symlink "$JBROWSEREPO/index.html",   "$JBROWSEDIR/index.html";
