@@ -2,7 +2,7 @@
    "tracks" : [
       {
          "chunkSize":20000,
-         "storeClass":"JBrowse/Store/Sequence/StaticChunked",
+         "storeClass":"plugins/projectionplugin/js/Store/SeqFeature/SequenceChunks",
          "urlTemplate":"../seq/{refseq_dirpath}/{refseq}-",
          "category": "Reference sequence",
          "type":"SequenceTrack",

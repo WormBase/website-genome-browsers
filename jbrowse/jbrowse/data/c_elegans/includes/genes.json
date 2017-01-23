@@ -14,7 +14,7 @@
             "title" : "Feature in WormBase"
          },
          "key" : "Curated Genes",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "storeClass" : "plugins/projectionplugin/js/Store/SeqFeature/ReverseNCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Curated_Genes/{refseq}/trackData.jsonz",
          "compress" : 1,
