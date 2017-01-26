@@ -140,6 +140,7 @@ it under the same terms as Perl itself.
 
 
 my $INITIALDIR = cwd();
+my $PRIMARY_SPECIES = "PRJNA13758";
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $JBROWSEREPO, $SKIPPREPARE, $ALLSTATS, $FILEDIR,
@@ -263,11 +264,11 @@ chdir $JBROWSEDIR or die $!." $JBROWSEDIR\n";
 if ($SIMPLE) {
     mkdir $DATADIR unless -e $DATADIR;
     #make a bunch of symlinks to the main elegans site
-    symlink "../c_elegans_PRJNA13758/includes"   , "$DATADIR/includes";
-    symlink "../c_elegans_PRJNA13758/names"      , "$DATADIR/names";
-    symlink "../c_elegans_PRJNA13758/seq"        , "$DATADIR/seq";
-    symlink "../c_elegans_PRJNA13758/tracks"     , "$DATADIR/tracks";
-    symlink "../c_elegans_PRJNA13758/tracks.conf", "$DATADIR/tracks.conf";
+    symlink "../c_elegans_$PRIMARY_SPECIES/includes"   , "$DATADIR/includes";
+    symlink "../c_elegans_$PRIMARY_SPECIES/names"      , "$DATADIR/names";
+    symlink "../c_elegans_$PRIMARY_SPECIES/seq"        , "$DATADIR/seq";
+    symlink "../c_elegans_$PRIMARY_SPECIES/tracks"     , "$DATADIR/tracks";
+    symlink "../c_elegans_$PRIMARY_SPECIES/tracks.conf", "$DATADIR/tracks.conf";
 }
 
 #check to see if the seq directory is present; if not prepare-refseqs
@@ -295,6 +296,9 @@ if (!-e "$JBROWSEDIR/full.html") {
     symlink "/usr/local/wormbase/website-shared-files/images", "$JBROWSEDIR/images";
     symlink "$JBROWSEREPO/plugins/fullscreen-jbrowse",         "$JBROWSEDIR/plugins/fullscreen-jbrowse";
     symlink "$JBROWSEREPO/plugins/HideTrackLabels",            "$JBROWSEDIR/plugins/HideTrackLabels";
+    #not thrilled about the location of the these plugin locations
+    symlink "/home/scain/scain/MotifSearch"                    "$JBROWSEDIR/plugins/MotifSearch";
+    symlink "/home/scain/FeatureSequence"                      "$JBROWSEDIR/plugins/FeatureSequence";
 }
 
 
@@ -366,6 +370,7 @@ if ($only_species_name eq 'c_elegans') {
 
 #create trackList data structure:
 my $struct = {
+    "plugins" => {"FeatureSequence" => {"location" : "./plugins/FeatureSequence" }  },
     "tracks" => [],
     "names" => { "url" => "names/", "type" => "Hash" },
     "include" => \@include,
@@ -405,9 +410,23 @@ foreach my $file (@files) {
 }
 
 #if this is elegans make links to the modencode data
-if (!$SIMPLE && $SPECIES =~ /c_elegans/) {
+if (!$SIMPLE && $SPECIES =~ /c_elegans_$PRIMARY_SPECIES/) {
     chdir "$DATADIR/tracks" or $log->error( "changing to tracks dir didn't work");    
     system("$Bin/track_links.sh") == 0 or $log->error( "creating track symlinks didn't work");
+}
+
+#make "jbrowse-simple" dir with symlinks
+if (!-e "$JBROWSEDIR/../jbrowse-simple") {
+    chdir $JBROWSEDIR;
+    my @file_list = <*>;
+    mkdir "../jbrowse-simple";
+    chdir "../jbrowse-simple";
+    for my $file (@file_list) {
+        next if $file eq 'jbrowse.conf';
+        symlink "../jbrowse/$file", $file;
+    }
+    #get the simple jbrowse.conf
+    symlink "$JBROWSEREPO/jbrowse-simple.conf", "jbrowse.conf";
 }
 
 #clean up temporary gff files
