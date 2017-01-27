@@ -297,8 +297,8 @@ if (!-e "$JBROWSEDIR/full.html") {
     symlink "$JBROWSEREPO/plugins/fullscreen-jbrowse",         "$JBROWSEDIR/plugins/fullscreen-jbrowse";
     symlink "$JBROWSEREPO/plugins/HideTrackLabels",            "$JBROWSEDIR/plugins/HideTrackLabels";
     #not thrilled about the location of the these plugin locations
-    symlink "/home/scain/scain/MotifSearch"                    "$JBROWSEDIR/plugins/MotifSearch";
-    symlink "/home/scain/FeatureSequence"                      "$JBROWSEDIR/plugins/FeatureSequence";
+    symlink "/home/scain/scain/MotifSearch" ,                  "$JBROWSEDIR/plugins/MotifSearch";
+    symlink "/home/scain/FeatureSequence"   ,                  "$JBROWSEDIR/plugins/FeatureSequence";
 }
 
 
@@ -370,7 +370,7 @@ if ($only_species_name eq 'c_elegans') {
 
 #create trackList data structure:
 my $struct = {
-    "plugins" => {"FeatureSequence" => {"location" : "./plugins/FeatureSequence" }  },
+    "plugins" => {"FeatureSequence" => {"location" => "./plugins/FeatureSequence" }  },
     "tracks" => [],
     "names" => { "url" => "names/", "type" => "Hash" },
     "include" => \@include,
