@@ -213,21 +213,6 @@ die "JBROWSEREPO must be defined" unless (-e $JBROWSEREPO);
 #parse all stats
 die "allstats must be defined" unless (-e $ALLSTATS);
 
-#check of $JBROWSEDIR exists, and if not, create it and build jbrowse
-if (!-e $JBROWSEDIR) {
-    -e $JBROWSESRC or die "JBROWSESRC isn't specified; can't continue";
-    make_path( $JBROWSEDIR );
-    copy($JBROWSESRC, "$JBROWSEDIR/..");
-    chdir("$JBROWSEDIR/..");
-    my @zipfile = <*.zip>;
-    system("unzip", $zipfile[0]) == 0 or die "failed to unzip jbrowse src"; 
-    remove($zipfile[0]);
-    my @jbrowsesrc = <JB*>;
-    move($jbrowsesrc[0], $JBROWSEDIR);
-    chdir($JBROWSEDIR);
-    system("./setup.sh") == 0 or die "failed to run setup.sh in $JBROWSEDIR";
-}
-
 open AS, $ALLSTATS or die $!;
 my $firstline = <AS>;
 chomp $firstline;
@@ -279,6 +264,20 @@ print "Processing $species ...\n";
 
 process_data_files() unless $SIMPLE;
 
+#check of $JBROWSEDIR exists, and if not, create it and build jbrowse
+if (!-e $JBROWSEDIR) {
+    -e $JBROWSESRC or die "JBROWSESRC isn't specified; can't continue";
+    make_path( $JBROWSEDIR );
+    copy($JBROWSESRC, "$JBROWSEDIR/..");
+    chdir("$JBROWSEDIR/..");
+    my @zipfile = <*.zip>;
+    system("unzip", $zipfile[0]) == 0 or die "failed to unzip jbrowse src";
+    remove($zipfile[0]);
+    my @jbrowsesrc = <JB*>;
+    move($jbrowsesrc[0], $JBROWSEDIR);
+    chdir($JBROWSEDIR);
+    system("./setup.sh") == 0 or die "failed to run setup.sh in $JBROWSEDIR";
+}
 
 chdir $JBROWSEDIR or die $!." $JBROWSEDIR\n";
 
