@@ -230,7 +230,7 @@ my $species = $fullspecies_id[0];
 $species    = 'c_elegans_simple' if $SIMPLE;
 die "No matching species found: $SPECIES\n" unless $species;
 
-$DATADIR  ||= "data/$species";
+$DATADIR  ||= "$JBROWSEDIR/data/$species";
 my %speciesdata;
 
 #parse the rest of the file
@@ -359,7 +359,7 @@ if ($only_species_name) {
     }
     push @include, @species_specific;
 }
-if ($only_species_name eq 'c_elegans') {
+if ($species eq $PRIMARY_SPECIES) {
     my @modencode = glob("$INCLUDES/modencode*");
     for (@modencode) {
         $_ = "includes/".basename($_);
