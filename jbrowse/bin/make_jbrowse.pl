@@ -9,6 +9,8 @@ use File::Copy;
 use Cwd;
 use FileHandle;
 use File::Basename;
+use File::Path qw( make_path );
+use File::Remove qw( remove );
 use JSON;
 use Data::Dumper;
 use Log::Log4perl;
@@ -39,6 +41,7 @@ make_jbrowse.pl - Creates a JBrowse instance with input GFF and configuration
  --skipfilesplit Don't split files or use grep to make subfiles
  --skipprepare Don't run prepare-refseqs.pl
  --allstats   Path to the ALLSPECIES.stats file
+ --jbrowsesrc Path to the current JBrowse source zip file
  --simple     Make the C. elegans "simple" config for gene pages
  --quiet      Limit output to errors
 
@@ -67,6 +70,7 @@ names) include:
  includes  - Path to the json includes file
  glyphs    - Path to custom JBrowse glyphs
  browser_data - Path to the browser_data directory where modencode files are
+ jbrowsesrc- Path to the current jbrowse source zip file
 
 Note that the options in the config file can be overridden with the command
 line options.
@@ -145,7 +149,7 @@ my $PRIMARY_SPECIES = "PRJNA13758";
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $JBROWSEREPO, $SKIPPREPARE, $ALLSTATS, $FILEDIR,
     $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES,
-    $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE);
+    $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE, $JBROWSESRC);
 my %splitfiles;
 
 GetOptions(
@@ -162,6 +166,7 @@ GetOptions(
     'jbrowserepo=s'=>\$JBROWSEREPO,
     'skipprepare' => \$SKIPPREPARE,
     'allstats=s'  => \$ALLSTATS,
+    'jbrowsesrc=s'=> \$JBROWSESRC,
     'simple'      => \$SIMPLE,
     'quiet'       => \$QUIET,
 ) or ( system( 'pod2text', $0 ), exit -1 );
@@ -190,6 +195,7 @@ $GLYPHS     = $Config->{_}->{glyphs}    || "$JBROWSEREPO/src/JBrowse/View/Featur
 $BROWSER_DATA = $Config->{_}->{browser_data};
 $ALLSTATS ||= $Config->{_}->{allstats};
     $ALLSTATS =~ s/\$RELEASE/$RELEASE/e;
+$JBROWSESRC = $Config->{_}->{jbrowsesrc};
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||=  $Config->{_}->{jbrowsedir};;
 $FTPHOST    = 'ftp://ftp.wormbase.org';
@@ -206,6 +212,21 @@ die "JBROWSEREPO must be defined" unless (-e $JBROWSEREPO);
 
 #parse all stats
 die "allstats must be defined" unless (-e $ALLSTATS);
+
+#check of $JBROWSEDIR exists, and if not, create it and build jbrowse
+if (!-e $JBROWSEDIR) {
+    -e $JBROWSESRC or die "JBROWSESRC isn't specified; can't continue";
+    make_path( $JBROWSEDIR );
+    copy($JBROWSESRC, "$JBROWSEDIR/..");
+    chdir("$JBROWSEDIR/..");
+    my @zipfile = <*.zip>;
+    system("unzip", $zipfile[0]) == 0 or die "failed to unzip jbrowse src"; 
+    remove($zipfile[0]);
+    my @jbrowsesrc = <JB*>;
+    move($jbrowsesrc[0], $JBROWSEDIR);
+    chdir($JBROWSEDIR);
+    system("./setup.sh") == 0 or die "failed to run setup.sh in $JBROWSEDIR";
+}
 
 open AS, $ALLSTATS or die $!;
 my $firstline = <AS>;
