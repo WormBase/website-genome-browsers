@@ -9,6 +9,8 @@ use File::Copy;
 use Cwd;
 use FileHandle;
 use File::Basename;
+use File::Path qw( make_path );
+use File::Remove qw( remove );
 use JSON;
 use Data::Dumper;
 use Log::Log4perl;
@@ -39,6 +41,7 @@ make_jbrowse.pl - Creates a JBrowse instance with input GFF and configuration
  --skipfilesplit Don't split files or use grep to make subfiles
  --skipprepare Don't run prepare-refseqs.pl
  --allstats   Path to the ALLSPECIES.stats file
+ --jbrowsesrc Path to the current JBrowse source zip file
  --simple     Make the C. elegans "simple" config for gene pages
  --quiet      Limit output to errors
 
@@ -67,6 +70,7 @@ names) include:
  includes  - Path to the json includes file
  glyphs    - Path to custom JBrowse glyphs
  browser_data - Path to the browser_data directory where modencode files are
+ jbrowsesrc- Path to the current jbrowse source zip file
 
 Note that the options in the config file can be overridden with the command
 line options.
@@ -140,11 +144,12 @@ it under the same terms as Perl itself.
 
 
 my $INITIALDIR = cwd();
+my $PRIMARY_SPECIES = "PRJNA13758";
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $JBROWSEREPO, $SKIPPREPARE, $ALLSTATS, $FILEDIR,
     $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES,
-    $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE);
+    $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE, $JBROWSESRC);
 my %splitfiles;
 
 GetOptions(
@@ -161,6 +166,7 @@ GetOptions(
     'jbrowserepo=s'=>\$JBROWSEREPO,
     'skipprepare' => \$SKIPPREPARE,
     'allstats=s'  => \$ALLSTATS,
+    'jbrowsesrc=s'=> \$JBROWSESRC,
     'simple'      => \$SIMPLE,
     'quiet'       => \$QUIET,
 ) or ( system( 'pod2text', $0 ), exit -1 );
@@ -189,6 +195,7 @@ $GLYPHS     = $Config->{_}->{glyphs}    || "$JBROWSEREPO/src/JBrowse/View/Featur
 $BROWSER_DATA = $Config->{_}->{browser_data};
 $ALLSTATS ||= $Config->{_}->{allstats};
     $ALLSTATS =~ s/\$RELEASE/$RELEASE/e;
+$JBROWSESRC = $Config->{_}->{jbrowsesrc};
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||=  $Config->{_}->{jbrowsedir};;
 $FTPHOST    = 'ftp://ftp.wormbase.org';
@@ -229,7 +236,7 @@ my $species = $fullspecies_id[0];
 $species    = 'c_elegans_simple' if $SIMPLE;
 die "No matching species found: $SPECIES\n" unless $species;
 
-$DATADIR  ||= "data/$species";
+$DATADIR  ||= "$JBROWSEDIR/data/$species";
 my %speciesdata;
 
 #parse the rest of the file
@@ -257,17 +264,31 @@ print "Processing $species ...\n";
 
 process_data_files() unless $SIMPLE;
 
+#check of $JBROWSEDIR exists, and if not, create it and build jbrowse
+if (!-e $JBROWSEDIR) {
+    -e $JBROWSESRC or die "JBROWSESRC isn't specified; can't continue";
+    make_path( $JBROWSEDIR );
+    copy($JBROWSESRC, "$JBROWSEDIR/..");
+    chdir("$JBROWSEDIR/..");
+    my @zipfile = <*.zip>;
+    system("unzip", $zipfile[0]) == 0 or die "failed to unzip jbrowse src";
+    remove($zipfile[0]);
+    my @jbrowsesrc = <JB*>;
+    move($jbrowsesrc[0], $JBROWSEDIR);
+    chdir($JBROWSEDIR);
+    system("./setup.sh") == 0 or die "failed to run setup.sh in $JBROWSEDIR";
+}
 
 chdir $JBROWSEDIR or die $!." $JBROWSEDIR\n";
 
 if ($SIMPLE) {
     mkdir $DATADIR unless -e $DATADIR;
     #make a bunch of symlinks to the main elegans site
-    symlink "../c_elegans_PRJNA13758/includes"   , "$DATADIR/includes";
-    symlink "../c_elegans_PRJNA13758/names"      , "$DATADIR/names";
-    symlink "../c_elegans_PRJNA13758/seq"        , "$DATADIR/seq";
-    symlink "../c_elegans_PRJNA13758/tracks"     , "$DATADIR/tracks";
-    symlink "../c_elegans_PRJNA13758/tracks.conf", "$DATADIR/tracks.conf";
+    symlink "../c_elegans_$PRIMARY_SPECIES/includes"   , "$DATADIR/includes";
+    symlink "../c_elegans_$PRIMARY_SPECIES/names"      , "$DATADIR/names";
+    symlink "../c_elegans_$PRIMARY_SPECIES/seq"        , "$DATADIR/seq";
+    symlink "../c_elegans_$PRIMARY_SPECIES/tracks"     , "$DATADIR/tracks";
+    symlink "../c_elegans_$PRIMARY_SPECIES/tracks.conf", "$DATADIR/tracks.conf";
 }
 
 #check to see if the seq directory is present; if not prepare-refseqs
@@ -297,6 +318,9 @@ if (!-e "$JBROWSEDIR/full.html") {
     symlink "/usr/local/wormbase/website-shared-files/images", "$JBROWSEDIR/images";
     symlink "$JBROWSEREPO/plugins/fullscreen-jbrowse",         "$JBROWSEDIR/plugins/fullscreen-jbrowse";
     symlink "$JBROWSEREPO/plugins/HideTrackLabels",            "$JBROWSEDIR/plugins/HideTrackLabels";
+    #not thrilled about the location of the these plugin locations
+    symlink "/home/scain/scain/MotifSearch" ,                  "$JBROWSEDIR/plugins/MotifSearch";
+    symlink "/home/scain/FeatureSequence"   ,                  "$JBROWSEDIR/plugins/FeatureSequence";
 }
 
 
@@ -357,7 +381,7 @@ if ($only_species_name) {
     }
     push @include, @species_specific;
 }
-if ($only_species_name eq 'c_elegans') {
+if ($species eq $PRIMARY_SPECIES) {
     my @modencode = glob("$INCLUDES/modencode*");
     for (@modencode) {
         $_ = "includes/".basename($_);
@@ -368,6 +392,7 @@ if ($only_species_name eq 'c_elegans') {
 
 #create trackList data structure:
 my $struct = {
+    "plugins" => {"FeatureSequence" => {"location" => "./plugins/FeatureSequence" }  },
     "tracks" => [],
     "names" => { "url" => "names/", "type" => "Hash" },
     "include" => \@include,
@@ -408,9 +433,23 @@ foreach my $file (@files) {
 }
 
 #if this is elegans make links to the modencode data
-if (!$SIMPLE && $SPECIES =~ /c_elegans/) {
+if (!$SIMPLE && $SPECIES =~ /c_elegans_$PRIMARY_SPECIES/) {
     chdir "$DATADIR/tracks" or $log->error( "changing to tracks dir didn't work");    
     system("$Bin/track_links.sh") == 0 or $log->error( "creating track symlinks didn't work");
+}
+
+#make "jbrowse-simple" dir with symlinks
+if (!-e "$JBROWSEDIR/../jbrowse-simple") {
+    chdir $JBROWSEDIR;
+    my @file_list = <*>;
+    mkdir "../jbrowse-simple";
+    chdir "../jbrowse-simple";
+    for my $file (@file_list) {
+        next if $file eq 'jbrowse.conf';
+        symlink "../jbrowse/$file", $file;
+    }
+    #get the simple jbrowse.conf
+    symlink "$JBROWSEREPO/jbrowse-simple.conf", "jbrowse.conf";
 }
 
 #clean up temporary gff files
