@@ -266,6 +266,7 @@ process_data_files() unless $SIMPLE;
 
 #check of $JBROWSEDIR exists, and if not, create it and build jbrowse
 if (!-e $JBROWSEDIR) {
+    print "Building JBrowse from source...\n";
     -e $JBROWSESRC or die "JBROWSESRC isn't specified; can't continue";
     make_path( $JBROWSEDIR );
     copy($JBROWSESRC, "$JBROWSEDIR/..");
