@@ -296,6 +296,7 @@ if ($SIMPLE) {
 if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
     my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
     system("$nice $command") == 0 or $log->error( $!);
+    unlink $FASTAFILE;
 }
 push @include, "includes/DNA.json";
 
@@ -309,8 +310,8 @@ unless (-e "browser_data") {
 
 #create several links in the main dir
 if (!-e "$JBROWSEDIR/full.html") {
-    unlink  "$JBROWSEDIR/faceted_track_selector.css";
-    symlink "$JBROWSEREPO/faceted_track_selector.css", "$JBROWSEDIR/faceted_track_selector.css";
+    unlink  "$JBROWSEDIR/css/faceted_track_selector.css";
+    symlink "$JBROWSEREPO/css/faceted_track_selector.css", "$JBROWSEDIR/faceted_track_selector.css";
     symlink "$JBROWSEREPO/full.html",    "$JBROWSEDIR/full.html";
     unlink  "$JBROWSEDIR/index.html";
     symlink "$JBROWSEREPO/index.html",   "$JBROWSEDIR/index.html";
