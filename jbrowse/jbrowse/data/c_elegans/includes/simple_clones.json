@@ -23,7 +23,7 @@
          },
          "category": "Reagents",
          "type" : "CanvasFeatures",
-         "label" : "YACs, Fosmids, & Cosmids",
+         "label" : "YACs_Fosmids_Cosmids",
          "glyph" : "JBrowse/View/FeatureGlyph/LabelFloatBox",
          "maxExportSpan" : 50000000
       }

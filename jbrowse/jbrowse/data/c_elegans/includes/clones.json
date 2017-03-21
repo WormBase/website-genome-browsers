@@ -23,7 +23,7 @@
          },
          "category": "Reagents",
          "type" : "CanvasFeatures",
-         "label" : "YACs, Fosmids, & Cosmids",
+         "label" : "YACs_Fosmids_Cosmids",
          "maxExportSpan" : 50000000
       }
    ]
