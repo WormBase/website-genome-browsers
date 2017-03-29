@@ -27,18 +27,18 @@ with room to build (currently, a jbrowse build takes about 30GB).
 3a. Make a fresh install of JBrowse (unpack the zip file, run setup.sh)
 
 3b. Create a shell script to run the make_jbrowse.pl script for each species.
-    The lines will look something like
+The lines will look something like
 
       make_jbrowse.pl --conf c_elegans.jbrowse.conf --quiet --species c_japonica_PRJNA12591
 
-    Note the the the "c_elegans.jbrowse.conf" comes from the repo, at
-    website-genome-browsers/jbrowse/conf/c_elegans.jbrowse.conf. I usually
-    make a local copy to update the path to the fresh jbrowse and the release
-    number.  Don't forget to add a "simple" line to the build shell script, like
+Note the the the "c_elegans.jbrowse.conf" comes from the repo, at
+website-genome-browsers/jbrowse/conf/c_elegans.jbrowse.conf. I usually
+make a local copy to update the path to the fresh jbrowse and the release
+number.  Don't forget to add a "simple" line to the build shell script, like
 
       make_jbrowse.pl --conf c_elegans.jbrowse.conf --quiet --simple
 
-    This makes the config for the the gene page instance of jbrowse.
+This makes the config for the the gene page instance of jbrowse.
 
 3c. Run the build script inside a screen process.  It will take a while
     to run, generally in the ballpark of 12 hours.
