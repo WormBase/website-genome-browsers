@@ -3,7 +3,8 @@ This is the WormBase website-genome-browsers repository.
 It contains the configuration files for GBrowse for the last several releases
 and the build tools and json configuration files for JBrowse.
 
-==Typical build procedure==
+Typical build procedure
+=======================
 
 1. After GFF files are available on dev server, create a branch of this repo
 for each JBrowse and GBrowse builds and clone it into a space
@@ -47,7 +48,8 @@ This makes the config for the the gene page instance of jbrowse.
     directory.  Generally it's a good idea to keep a copy of the old symlink
     in case something goes south and you want to quickly revert.
 
-==Moving from staging to production==
+Moving from staging to production
+=================================
 
 Before the move, the pull requests should be made from the build-specific
 branches into the staging branches ("staging" for GBrowse, "jbrowse-staging"
