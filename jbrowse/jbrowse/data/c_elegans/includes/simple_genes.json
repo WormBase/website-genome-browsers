@@ -25,7 +25,8 @@
          "metadata" : {
             "shortInfo" : "Protein-coding gene structures result from the integration of a variety of prediction methods and data sources followed by manual review and revison by WormBase curators."
          },
-         "maxExportSpan" : 50000000
+         "maxExportSpan" : 50000000,
+         "maxHeight" : 3000
       }
    ]
 }
