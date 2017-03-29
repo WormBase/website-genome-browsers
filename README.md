@@ -3,7 +3,7 @@ This is the WormBase website-genome-browsers repository.
 It contains the configuration files for GBrowse for the last several releases
 and the build tools and json configuration files for JBrowse.
 
-Typical build procedure:
+==Typical build procedure==
 
 1. After GFF files are available on dev server, create a branch of this repo
 for each JBrowse and GBrowse builds and clone it into a space
@@ -46,4 +46,32 @@ This makes the config for the the gene page instance of jbrowse.
 3d. Update the symlink in /usr/local/wormbase to point at the new jbrowse
     directory.  Generally it's a good idea to keep a copy of the old symlink
     in case something goes south and you want to quickly revert.
+
+==Moving from staging to production==
+
+Before the move, the pull requests should be made from the build-specific
+branches into the staging branches ("staging" for GBrowse, "jbrowse-staging"
+for JBrowse), and those should get pulled into staging with subsequent merges. 
+At some point after that, right before the move to production, there should be
+pull requests from staging into the production branches ("production" for
+GBrowse, "jbrowse-production" for JBrowse), and a subsequent merges.
+
+To implement the move to production, for GBrowse all that needs to happen
+is a pull into the production branch checkout that is set up to serve
+GBrowse and restarting apache.
+
+For JBrowse, it is again, slightly more complicated:
+
+1. The source files for JBrowse and the data files need to be rsynced from 
+the dev machine.  The command will look something like this:
+
+  rsync -av scain@10.0.0.65:/usr/local/wormbase/website/scain/257_new_jbrowse/ .
+
+This should be done in a screen process because it will take a few hours to
+complete.
+
+2. Issue a pull request in the JBrowse production branch checkout.
+
+3. Update the symlink in /usr/local/wormbase to point at the new jbrowse
+directory.  Save the old symlink in case you need to quickly revert.
 
