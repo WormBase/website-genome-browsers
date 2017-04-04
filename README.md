@@ -56,7 +56,7 @@ branches into the staging branches ("staging" for GBrowse, "jbrowse-staging"
 for JBrowse), and those should get pulled into staging with subsequent merges. 
 At some point after that, right before the move to production, there should be
 pull requests from staging into the production branches ("production" for
-GBrowse, "jbrowse-production" for JBrowse), and a subsequent merges.
+GBrowse, "jbrowse-production" for JBrowse), and subsequent merges.
 
 To implement the move to production, for GBrowse all that needs to happen
 is a pull into the production branch checkout that is set up to serve
@@ -73,6 +73,11 @@ This should be done in a screen process because it will take a few hours to
 complete.
 
 2. Issue a pull request in the JBrowse production branch checkout.
+
+2a. One item that is still changed by hand: in the jbrowse index.html file,
+the release number should be updated.  Just search the text for the old
+release number, change it, save it and commit it back to the production
+branch.
 
 3. Update the symlink in /usr/local/wormbase to point at the new jbrowse
 directory.  Save the old symlink in case you need to quickly revert.
