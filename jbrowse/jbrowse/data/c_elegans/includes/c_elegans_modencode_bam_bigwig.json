@@ -494,18 +494,6 @@
     },
     {
       "autoscale": "local",
-      "key": "Young Adult Genelets",
-      "storeClass": "JBrowse/Store/SeqFeature/BAM",
-      "urlTemplate": null,
-      "category": "modENCODE/Waterston Group/Genelets/Genelets",
-      "label": "Young Adult Genelets",
-      "type": "Alignments2",
-      "metadata": {
-        "shortInfo": "Test for confirmed polyA"
-      }
-    },
-    {
-      "autoscale": "local",
       "key": "N2 whole worms",
       "storeClass": "JBrowse/Store/SeqFeature/BAM",
       "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/sam_binaries/Piano/miRNA_young_adult.ws190.sam.gz.bam.sorted.bam",
