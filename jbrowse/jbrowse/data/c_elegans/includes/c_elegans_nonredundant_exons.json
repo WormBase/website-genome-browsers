@@ -11,7 +11,7 @@
       "key": "non-redundant exons from 14 stages",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/non-redundant exons from 14 stages/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/non-redundant exons from 14 stages/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "non-redundant exons from 14 stages",
