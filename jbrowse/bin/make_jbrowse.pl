@@ -383,7 +383,7 @@ if ($only_species_name) {
     }
     push @include, @species_specific;
 }
-if ($species eq $PRIMARY_SPECIES) {
+if ($species eq "c_elegans_$PRIMARY_SPECIES") {
     my @modencode = glob("$INCLUDES/modencode*");
     for (@modencode) {
         $_ = "includes/".basename($_);
