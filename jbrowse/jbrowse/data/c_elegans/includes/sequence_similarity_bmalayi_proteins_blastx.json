@@ -3,18 +3,19 @@
       {
          "style" : {
             "className" : "feature",
-            "label" : false,
             "color" : "orange",
+            "label" : true,
+            "showLabels" : false,
             "height" : 5
-         },
-         "onClick" : {
-            "url" : "{proteinURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
          },
          "metadata" : {
             "shortInfo" : "Matches to WormBase B. malayi proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{ssproteinURL}",
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}"
          },
          "category": "Sequence Similarity/Proteins",
          "key" : "B. malayi proteins",
