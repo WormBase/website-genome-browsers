@@ -14,7 +14,7 @@
       "key": "Green Lab confirmed introns 2008-12-02 set 4",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2008-12-02 set 4/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2008-12-02 set 4/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Green Lab confirmed introns 2008-12-02 set 4"
@@ -33,7 +33,7 @@
       "key": "Green Lab confirmed introns 2008-12-02 set 1",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2008-12-02 set 1/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2008-12-02 set 1/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Green Lab confirmed introns 2008-12-02 set 1"
@@ -52,7 +52,7 @@
       "key": "Green Lab confirmed introns 2009-09-21 Chromosome II",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2009-09-21 Chromosome II/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2009-09-21 Chromosome II/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Green Lab confirmed introns 2009-09-21 Chromosome II"
@@ -71,7 +71,7 @@
       "key": "Green Lab confirmed introns 2008-12-02 set 2",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2008-12-02 set 2/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2008-12-02 set 2/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Green Lab confirmed introns 2008-12-02 set 2"
@@ -90,7 +90,7 @@
       "key": "Green Lab confirmed introns 2008-12-02 set 3",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2008-12-02 set 3/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2008-12-02 set 3/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Green Lab confirmed introns 2008-12-02 set 3"
@@ -109,7 +109,7 @@
       "key": "Green Lab confirmed introns 2010-01-26 set 5",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2010-01-26 set 5/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Green Lab confirmed introns 2010-01-26 set 5/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Green Lab confirmed introns 2010-01-26 set 5"
