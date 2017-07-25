@@ -1,0 +1,20 @@
+{
+   "tracks" : [
+      {
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "urlTemplate" : "http://storage.googleapis.com/elegansvariation.org/releases/20170531/WI.20170531.vcf.gz",
+         "style" : {
+            "color" : "{cendrColor}"
+         },
+
+         "metadata" : {
+            "shortInfo" : "Strain variant data from https://www.elegansvariation.org/.  For more information see Cook DE, Zdraljevic S, Roberts JP, Andersen EC. CeNDR, the Caenorhabditis elegans natural diversity resource. Nucleic Acids Res. 2017 Jan 4;45(D1):D650-D657. doi: 10.1093/nar/gkw893. Epub 2016 Oct 3. PubMed PMID: 27701074; PubMed Central PMCID: PMC5210618. Color codes from annotated severity: red:high, gold (dark yellow):moderate, cyan (light blue): low, purple: modifier, black: no annotation, green: annotation but not in the above list."
+         },
+         "type" : "CanvasVariants",
+         "label" : "CeNDR variation",
+         "chunkSizeLimit" : 5000000,
+         "category" : "Alleles, Variations, RNAi",
+         "key" : "CeNDR variation"
+      }
+   ]
+}
