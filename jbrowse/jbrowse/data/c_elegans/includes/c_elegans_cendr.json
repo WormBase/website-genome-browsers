@@ -2,7 +2,7 @@
    "tracks" : [
       {
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
-         "urlTemplate" : "http://storage.googleapis.com/elegansvariation.org/releases/20170531/WI.20170531.vcf.gz",
+         "urlTemplate" : "https://storage.googleapis.com/elegansvariation.org/releases/current/WI.current.soft-filtered.vcf.gz",
          "style" : {
             "color" : "{cendrColor}"
          },
