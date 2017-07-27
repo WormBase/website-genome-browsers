@@ -8,7 +8,7 @@
          },
 
          "metadata" : {
-            "shortInfo" : "Strain variant data from <a href='https://www.elegansvariation.org/'>https://www.elegansvariation.org/</a>.  For more information see Cook DE, Zdraljevic S, Roberts JP, Andersen EC. CeNDR, the Caenorhabditis elegans natural diversity resource. Nucleic Acids Res. 2017 Jan 4;45(D1):D650-D657. doi: 10.1093/nar/gkw893. Epub 2016 Oct 3. PubMed PMID: 27701074; PubMed Central PMCID: PMC5210618. Color codes from annotated severity: red:high, gold (dark yellow):moderate, cyan (light blue): low, purple: modifier, black: no annotation, green: annotation but not in the above list."
+            "shortInfo" : "Strain variant data from <a href='https://www.elegansvariation.org/'>https://www.elegansvariation.org/</a>.  For more information see Cook DE, Zdraljevic S, Roberts JP, Andersen EC. CeNDR, the Caenorhabditis elegans natural diversity resource. Nucleic Acids Res. 2017 Jan 4;45(D1):D650-D657. doi: 10.1093/nar/gkw893. Epub 2016 Oct 3. PubMed PMID: 27701074; PubMed Central PMCID: PMC5210618. Color codes from annotated severity: <ul><li>red:high</li><li>gold (dark yellow):moderate</li><li>cyan (light blue): low</li><li>purple: modifier</li><li>black: no annotation</li><li>green: annotation but not in the above list</li></ul>"
          },
          "type" : "CanvasVariants",
          "label" : "CeNDR variation",
