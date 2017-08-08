@@ -6,7 +6,7 @@
          "urlTemplate":"../seq/{refseq_dirpath}/{refseq}-",
          "type":"SequenceTrack",
          "label":"DNA",
-         "key":"Reference sequence"
+         "key":"Reference sequence (DNA)"
       }
    ]
 }
