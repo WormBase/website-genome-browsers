@@ -6,6 +6,7 @@
          "urlTemplate":"../seq/{refseq_dirpath}/{refseq}-",
          "type":"SequenceTrack",
          "label":"DNA",
+         "codonStarts" : "[ATG]",
          "key":"Reference sequence (DNA)"
       }
    ]
