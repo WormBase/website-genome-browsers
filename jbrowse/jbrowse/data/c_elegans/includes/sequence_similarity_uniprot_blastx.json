@@ -4,15 +4,16 @@
          "style" : {
             "className" : "feature",
             "color" : "orange",
-            "label" : false,
+            "label" : true,
+            "showLabels" : false,
             "height" : 5
          },
          "key" : "Other UniProt proteins",
          "onClick" : {
-            "url" : "{proteinURL}",
             "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
+            "url" : "{ssproteinURL}",
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",

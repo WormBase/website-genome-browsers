@@ -15,7 +15,7 @@
       "key": "Adult spe-9 Day 0 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Adult spe-9 Day 0 miRNA expression change/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Adult spe-9 Day 0 miRNA expression change/{refseq}/trackData.jsonz",
       "compress": 1,
       "category": "modENCODE/Waterston Group/miRNA",
       "type": "CanvasFeatures",
@@ -40,7 +40,7 @@
       "key": "Adult spe-9 Day 5 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Adult spe-9 Day 5 miRNA expression change/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Adult spe-9 Day 5 miRNA expression change/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "metadata": {
@@ -64,7 +64,7 @@
       "key": "Adult spe-9 Day 8 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Adult spe-9 Day 8 miRNA expression change/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Adult spe-9 Day 8 miRNA expression change/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "metadata": {
@@ -88,7 +88,7 @@
       "key": "mid-L1 Embryo miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/mid-L1 Embryo miRNA expression change/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L1 Embryo miRNA expression change/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "metadata": {
@@ -112,7 +112,7 @@
       "key": "Embryo miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Embryo miRNA expression change/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Embryo miRNA expression change/{refseq}/trackData.jsonz",
       "compress": 1,
       "metadata": {
         "shortInfo": "miRNA expression change N2 embryos. small RNAs (&lt;200bp) were isolated from embryos, and sequenced using Illumina technology. We show changes in expression levels for each miRNA feature."
@@ -136,7 +136,7 @@
       "key": "mid-L2 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/mid-L2 miRNA expression change/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L2 miRNA expression change/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "metadata": {
@@ -160,7 +160,7 @@
       "key": "mid-L3 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/mid-L3 miRNA expression change/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L3 miRNA expression change/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "metadata": {
@@ -184,7 +184,7 @@
       "key": "mid-L4 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/mid-L4 miRNA expression change/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L4 miRNA expression change/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "metadata": {
@@ -208,7 +208,7 @@
       "key": "Young Adult miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Young Adult miRNA expression change/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Young Adult miRNA expression change/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "metadata": {
@@ -232,7 +232,7 @@
       "key": "Young Adult male dpy-5;him-8 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Young Adult male dpy-5;him-8 miRNA expression change/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Young Adult male dpy-5;him-8 miRNA expression change/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "metadata": {
@@ -256,7 +256,7 @@
       "key": "Adult spe-9 Day 12 miRNA expression change",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Adult spe-9 Day 12 miRNA expression change/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Adult spe-9 Day 12 miRNA expression change/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "metadata": {

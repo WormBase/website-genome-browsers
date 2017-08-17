@@ -22,7 +22,7 @@
       "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L2/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L2/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Dev.Stages TransFrags: L2"
@@ -49,7 +49,7 @@
       "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: N2EE/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: N2EE/{refseq}/trackData.jsonz",
       "compress": 1,
       "label": "Dev.Stages TransFrags: N2EE",
       "type": "CanvasFeatures"
@@ -76,7 +76,7 @@
       "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: YA_gonad/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: YA_gonad/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Dev.Stages TransFrags: YA_gonad"
@@ -103,7 +103,7 @@
       "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: N2LE/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: N2LE/{refseq}/trackData.jsonz",
       "compress": 1,
       "label": "Dev.Stages TransFrags: N2LE",
       "type": "CanvasFeatures"
@@ -130,7 +130,7 @@
       "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L4_male/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L4_male/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Dev.Stages TransFrags: L4_male"
@@ -157,7 +157,7 @@
       "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L4_soma/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L4_soma/{refseq}/trackData.jsonz",
       "compress": 1,
       "label": "Dev.Stages TransFrags: L4_soma",
       "type": "CanvasFeatures"
@@ -184,7 +184,7 @@
       "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: YA/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: YA/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Dev.Stages TransFrags: YA"
@@ -211,7 +211,7 @@
       "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L1/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L1/{refseq}/trackData.jsonz",
       "compress": 1,
       "label": "Dev.Stages TransFrags: L1",
       "type": "CanvasFeatures"
@@ -238,7 +238,7 @@
       "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L2_polyA/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L2_polyA/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Dev.Stages TransFrags: L2_polyA"
@@ -265,7 +265,7 @@
       "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L3/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L3/{refseq}/trackData.jsonz",
       "compress": 1,
       "label": "Dev.Stages TransFrags: L3",
       "type": "CanvasFeatures"
@@ -292,7 +292,7 @@
       "category": "modENCODE/Waterston Group/Tiling Array",
       "storeClass": "JBrowse/Store/SeqFeature/NCList",
       "trackType": "CanvasFeatures",
-      "urlTemplate": "http://gbrowse.wormbase.org:8002/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L4/{refseq}/trackData.jsonz",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Dev.Stages TransFrags: L4/{refseq}/trackData.jsonz",
       "compress": 1,
       "type": "CanvasFeatures",
       "label": "Dev.Stages TransFrags: L4"

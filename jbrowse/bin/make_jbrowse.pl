@@ -311,7 +311,7 @@ unless (-e "browser_data") {
 #create several links in the main dir
 if (!-e "$JBROWSEDIR/full.html") {
     unlink  "$JBROWSEDIR/css/faceted_track_selector.css";
-    symlink "$JBROWSEREPO/css/faceted_track_selector.css", "$JBROWSEDIR/faceted_track_selector.css";
+    symlink "$JBROWSEREPO/css/faceted_track_selector.css", "$JBROWSEDIR/css/faceted_track_selector.css";
     symlink "$JBROWSEREPO/full.html",    "$JBROWSEDIR/full.html";
     unlink  "$JBROWSEDIR/index.html";
     symlink "$JBROWSEREPO/index.html",   "$JBROWSEDIR/index.html";
@@ -383,7 +383,7 @@ if ($only_species_name) {
     }
     push @include, @species_specific;
 }
-if ($species eq $PRIMARY_SPECIES) {
+if ($species eq "c_elegans_$PRIMARY_SPECIES") {
     my @modencode = glob("$INCLUDES/modencode*");
     for (@modencode) {
         $_ = "includes/".basename($_);
