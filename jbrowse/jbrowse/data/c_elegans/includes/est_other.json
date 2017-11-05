@@ -6,6 +6,7 @@
             "color" : "lightgray",
             "height" : 6
          },
+         "maxHeight" : 5000,
          "subParts" : "match_part",
          "onClick" : {
             "url" : "{targetURL}",
