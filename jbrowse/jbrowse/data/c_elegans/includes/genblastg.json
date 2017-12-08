@@ -10,7 +10,7 @@
          },
          "onClick" : {
             "action" : "iframeDialog",
-            "url" : "function(track,f) {var name=f.get('Name'); var match = name.match(/_([^_]+)$/); var geneid = match[1]; return '/get?name='+geneid+';class=CDS';}",
+            "url" : "function(track,f) {var name=f.get('Name'); var match = name.match(/_([^_]+)$/); var cleaner = match[1].match(/^[0-9]+\.(.*)$/); if (cleaner) {match[1]=cleaner[1];} var geneid = match[1]; return '/get?name='+geneid+';class=CDS';}",
             "label" : "Link to related gene in C. elegans",
             "title" : "Feature in WormBase"
          },
