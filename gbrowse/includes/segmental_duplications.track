@@ -1,5 +1,9 @@
 [SEGMENTAL_DUPLICATIONS]
 feature       = duplication:segmental_duplication
+link = sub { my $f = shift;
+ my $name   = $f->name;
+ return "/get?name=$name;class=Feature";
+ }
 category      = Genome Structure
 glyph         = box
 bgcolor       = white
