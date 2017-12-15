@@ -8,7 +8,7 @@
             "height" : 6
          },
          "onClick" : {
-            "url" : "{expressionProfileURL}",
+            "url" : "{featureURL}",
             "action" : "iframeDialog",
             "title" : "Feature in WormBase",
             "label" : "Feature in WormBase"
