@@ -1,37 +1,38 @@
-define("JBrowse/View/FeatureGlyph/Gene", [
+define("JBrowse/View/FeatureGlyph/LinkedEST", [
            'dojo/_base/declare',
            'dojo/_base/lang',
            'dojo/_base/array',
-           'JBrowse/View/FeatureGlyph/Box',
+           'JBrowse/View/FeatureGlyph/Segments',
            'JBrowse/View/FeatureGlyph/ProcessedTranscript'
        ],
        function(
            declare,
            lang,
            array,
-           BoxGlyph,
+           SegmentsGlyph,
            ProcessedTranscriptGlyph
        ) {
 
-return declare( BoxGlyph, {
+return declare( SegmentsGlyph, {
 
 _defaultConfig: function() {
     return this._mergeConfigs(
         this.inherited(arguments),
         {
-            transcriptType: 'mRNA',
+            transcriptType: 'expressed_sequence_match',
+            subpart: 'match_part',
             style: {
                 transcriptLabelFont: 'normal 10px Univers,Helvetica,Arial,sans-serif',
                 transcriptLabelColor: 'black',
                 textFont: 'bold 12px Univers,Helvetica,Arial,sans-serif'
             },
-            labelTranscripts: true,
+            labelTranscripts: false,
             marginBottom: 0
         });
 },
 
-_boxGlyph: function() {
-    return this.__boxGlyph || ( this.__boxGlyph = new BoxGlyph({ track: this.track, browser: this.browser, config: this.config }) );
+_segmentsGlyph: function() {
+    return this.__segmentsGlyph || ( this.__segmentsGlyph = new SegmentsGlyph({ track: this.track, browser: this.browser, config: this.config }) );
 },
 _ptGlyph: function() {
     return this.__ptGlyph || ( this.__ptGlyph = new ProcessedTranscriptGlyph({ track: this.track, browser: this.browser, config: this.config }) );
@@ -67,7 +68,7 @@ _getFeatureRectangle: function( viewArgs, feature ) {
         for( var i = 0; i < subfeatures.length; i++ ) {
             var subRect = ( subfeatures[i].get('type') == transcriptType
                             ? this._ptGlyph()
-                            : this._boxGlyph()
+                            : this._segmentsGlyph()
                           )._getFeatureRectangle( subArgs, subfeatures[i] );
 
             padding = i == subfeatures.length-1 ? 0 : 1;
