@@ -57,12 +57,19 @@ _getFeatureRectangle: function( viewArgs, feature ) {
         f: feature,
         glyph: this
     };
+    
+    var EST1 = '';
+    var EST2 = '';
     if( subfeatures && subfeatures.length ) {
-        // sort the children by name
-        subfeatures.sort( function( a, b ) { return (a.get('name') || '').localeCompare( b.get('name')||'' ); } );
+        // sort the children by start
+        //subfeatures.sort( function( a, b ) { return (a.get('name') || '').localeCompare( b.get('name')||'' ); } );
+        subfeatures.sort( function( a, b ) { return (a.get('start') || 0) > ( b.get('start')|| 0 ); } );
 
         fRect.l = Infinity;
         fRect.r = -Infinity;
+
+        var leftESTEnd = 0;
+        var overlaps   = false;
 
         var transcriptType = this.getConfForFeature( 'transcriptType', feature );
         for( var i = 0; i < subfeatures.length; i++ ) {
@@ -71,8 +78,29 @@ _getFeatureRectangle: function( viewArgs, feature ) {
                             : this._segmentsGlyph()
                           )._getFeatureRectangle( subArgs, subfeatures[i] );
 
+            if (subfeatures[i].get('type') == transcriptType) {
+                if (!leftESTEnd) {
+                    leftESTEnd = subfeatures[i].get('end');
+                    EST1 = subfeatures[i];
+                }
+                else if (leftESTEnd > subfeatures[i].get('start')){
+                    overlaps = true;
+                    EST2 = subfeatures[i];
+                }
+                else 
+                {
+                    EST2 = subfeatures[i];
+                }
+                console.log(EST2);
+            }
+
             padding = i == subfeatures.length-1 ? 0 : 1;
-            subRect.t = subRect.rect.t = fRect.h && viewArgs.displayMode != 'collapsed' ? fRect.h+padding : 0;
+
+            //figure out if the forward and reverses overlap
+            subRect.t = 0;
+            if (overlaps) {
+                subRect.t = subRect.rect.t = fRect.h && viewArgs.displayMode != 'collapsed' ? fRect.h+padding : 0;
+            }
 
             if( viewArgs.showLabels && this.getConfForFeature( 'labelTranscripts', subfeatures[i] ) ) {
                 var transcriptLabel = this.makeSideLabel(
@@ -97,6 +125,17 @@ _getFeatureRectangle: function( viewArgs, feature ) {
             fRect.l = Math.min( fRect.l, subRect.l );
             fRect.h = subRect.t+subRect.h+padding;
         }
+        //color differently if they are mated or not
+        console.log(EST1);
+       // if (EST2) {
+       //     EST1.style.color = 'yellow';
+       //     EST2.style.color = 'blue';
+       // }
+       // else {
+       //     EST1.style.color = 'red';
+       // }
+
+
     }
 
     // calculate the width
