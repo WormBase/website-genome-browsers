@@ -21,7 +21,7 @@ _defaultConfig: function() {
     return this._mergeConfigs(
         this.inherited(arguments),
         {
-            transcriptType: 'mRNA,nc_primary_transcript',
+            transcriptType: 'mRNA,nc_primary_transcript,transcript',
             style: {
                 transcriptLabelFont: 'normal 10px Univers,Helvetica,Arial,sans-serif',
                 transcriptLabelColor: 'black',
