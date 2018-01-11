@@ -59,7 +59,7 @@ _getFeatureRectangle: function( viewArgs, feature ) {
     };
     
     var EST1 = '';
-    var EST2 = '';
+    var EST2 = false;
     if( subfeatures && subfeatures.length ) {
         // sort the children by start
         //subfeatures.sort( function( a, b ) { return (a.get('name') || '').localeCompare( b.get('name')||'' ); } );
@@ -68,8 +68,10 @@ _getFeatureRectangle: function( viewArgs, feature ) {
         fRect.l = Infinity;
         fRect.r = -Infinity;
 
-        var leftESTEnd = 0;
         var overlaps   = false;
+
+        var end1 = -1;
+        var start2 = -1;
 
         var transcriptType = this.getConfForFeature( 'transcriptType', feature );
         for( var i = 0; i < subfeatures.length; i++ ) {
@@ -79,24 +81,25 @@ _getFeatureRectangle: function( viewArgs, feature ) {
                           )._getFeatureRectangle( subArgs, subfeatures[i] );
 
             if (subfeatures[i].get('type') == transcriptType) {
-                if (!leftESTEnd) {
-                    leftESTEnd = subfeatures[i].get('end');
+                if (end1 <0) {
                     EST1 = subfeatures[i];
+                    end1 = EST1.get('end');
                 }
-                else if (leftESTEnd > subfeatures[i].get('start')){
+                else if (end1 > subfeatures[i].get('start')){
                     overlaps = true;
                     EST2 = subfeatures[i];
+                    start2 = EST2.get('start');
                 }
                 else 
                 {
                     EST2 = subfeatures[i];
+                    start2 = EST2.get('start');
                 }
-                console.log(EST2);
             }
 
             padding = i == subfeatures.length-1 ? 0 : 1;
 
-            //figure out if the forward and reverses overlap
+            //figure out if the forward and reverse overlap
             subRect.t = 0;
             if (overlaps) {
                 subRect.t = subRect.rect.t = fRect.h && viewArgs.displayMode != 'collapsed' ? fRect.h+padding : 0;
@@ -125,16 +128,6 @@ _getFeatureRectangle: function( viewArgs, feature ) {
             fRect.l = Math.min( fRect.l, subRect.l );
             fRect.h = subRect.t+subRect.h+padding;
         }
-        //color differently if they are mated or not
-        console.log(EST1);
-       // if (EST2) {
-       //     EST1.style.color = 'yellow';
-       //     EST2.style.color = 'blue';
-       // }
-       // else {
-       //     EST1.style.color = 'red';
-       // }
-
 
     }
 
@@ -152,6 +145,17 @@ _getFeatureRectangle: function( viewArgs, feature ) {
     // expand the fRect to accommodate labels if necessary
     this._expandRectangleWithLabels( viewArgs, feature, fRect );
     this._addMasksToRect( viewArgs, feature, fRect );
+
+    //get the canvas coordinates for the introny-thingy
+    if (overlaps) {return fRect};
+    if (!EST2) {return fRect};
+    var viewInfo = fRect.viewInfo;
+    fRect.EST1End = viewInfo.block.bpToX(end1);
+    fRect.ESTgapWidth = viewInfo.block.bpToX(start2) - fRect.EST1End;
+
+    //console.log(fRect);
+
+    
 
     return fRect;
 },
@@ -173,6 +177,28 @@ renderFeature: function( context, fRect ) {
     var subRects = fRect.subRects;
     for( var i = 0; i < subRects.length; i++ ) {
         subRects[i].glyph.renderFeature( context, subRects[i] );
+    }
+
+    //draw the introny-thingy
+    if (fRect.ESTgapWidth) {
+        var viewInfo = fRect.viewInfo;
+        var top = fRect.t;
+                var overallHeight = fRect.rect.h;
+
+                var height = overallHeight / 2 -1;
+                var left = fRect.EST1End;
+                var width = fRect.ESTgapWidth;
+                var mid = width/2;
+
+                // butt line cap (top line)
+                context.beginPath();
+                context.setLineDash([7,12]);
+                context.moveTo(left,top+height);
+                context.lineTo(left+width,top+height);
+                context.lineWidth = 1;
+                context.strokeStyle = '#202020';
+                //context.lineCap = 'square';
+                context.stroke();
     }
 
     this.renderLabel( context, fRect );
