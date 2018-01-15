@@ -3,14 +3,14 @@ define("JBrowse/View/FeatureGlyph/MiRNAGene", [
            'dojo/_base/lang',
            'dojo/_base/array',
            'JBrowse/View/FeatureGlyph/Box',
-           'JBrowse/View/FeatureGlyph/ExonTranscript'
+           'JBrowse/View/FeatureGlyph/miRNATranscript'
        ],
        function(
            declare,
            lang,
            array,
            BoxGlyph,
-           ExonTranscriptGlyph
+           miRNATranscriptGlyph
        ) {
 
 return declare( BoxGlyph, {
@@ -19,7 +19,7 @@ _defaultConfig: function() {
     return this._mergeConfigs(
         this.inherited(arguments),
         {
-            transcriptType: 'miRNA',
+            transcriptType: 'pre_miRNA',
             style: {
                 transcriptLabelFont: 'normal 10px Univers,Helvetica,Arial,sans-serif',
                 transcriptLabelColor: 'black',
@@ -34,7 +34,7 @@ _boxGlyph: function() {
     return this.__boxGlyph || ( this.__boxGlyph = new BoxGlyph({ track: this.track, browser: this.browser, config: this.config }) );
 },
 _ptGlyph: function() {
-    return this.__ptGlyph || ( this.__ptGlyph = new ExonTranscriptGlyph({ track: this.track, browser: this.browser, config: this.config }) );
+    return this.__ptGlyph || ( this.__ptGlyph = new miRNATranscriptGlyph({ track: this.track, browser: this.browser, config: this.config }) );
 },
 
 _getFeatureRectangle: function( viewArgs, feature ) {

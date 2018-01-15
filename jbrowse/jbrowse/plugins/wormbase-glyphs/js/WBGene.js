@@ -1,15 +1,17 @@
-define("JBrowse/View/FeatureGlyph/NoncodingGene", [
+define("plugins/wormbase-glyphs/js/WBGene", [
            'dojo/_base/declare',
            'dojo/_base/lang',
            'dojo/_base/array',
            'JBrowse/View/FeatureGlyph/Box',
-           'JBrowse/View/FeatureGlyph/ExonTranscript'
+           'JBrowse/View/FeatureGlyph/ProcessedTranscript',
+           'plugins/wormbase-glyphs/js/ExonTranscript'
        ],
        function(
            declare,
            lang,
            array,
            BoxGlyph,
+           ProcessedTranscriptGlyph,
            ExonTranscriptGlyph
        ) {
 
@@ -19,7 +21,7 @@ _defaultConfig: function() {
     return this._mergeConfigs(
         this.inherited(arguments),
         {
-            transcriptType: 'transcript,antisense_RNA,pseudogenic_transcript,lincRNA,lnc_RNA,lncRNA,pre_miRNA,ncRNA,piRNA,rRNA,scRNA,snoRNA,snRNA,tRNA',
+            transcriptType: 'mRNA,nc_primary_transcript',
             style: {
                 transcriptLabelFont: 'normal 10px Univers,Helvetica,Arial,sans-serif',
                 transcriptLabelColor: 'black',
@@ -32,6 +34,9 @@ _defaultConfig: function() {
 
 _boxGlyph: function() {
     return this.__boxGlyph || ( this.__boxGlyph = new BoxGlyph({ track: this.track, browser: this.browser, config: this.config }) );
+},
+_ptGlyph: function() {
+    return this.__ptGlyph || ( this.__ptGlyph = new ProcessedTranscriptGlyph({ track: this.track, browser: this.browser, config: this.config }) );
 },
 _exGlyph: function() {
     return this.__exGlyph || ( this.__exGlyph = new ExonTranscriptGlyph({ track: this.track, browser: this.browser, config: this.config }) );
@@ -68,13 +73,18 @@ _getFeatureRectangle: function( viewArgs, feature ) {
         transcriptType = transcriptTypeStr.split(','); 
         
         for( var i = 0; i < subfeatures.length; i++ ) {
+            var ptType = false;
             var exType = false;
             var subRect; 
-            for (var j = 0; j < transcriptType.length; j++) {
+            if (subfeatures[i].get('type') == transcriptType[0]) {ptType = true;}
+            for (var j = 1; j < transcriptType.length; j++) {
                 if (subfeatures[i].get('type') == transcriptType[j]) {exType = true;}
             }
 
-            if (exType) {
+            if (ptType) {
+                subRect = this._ptGlyph()._getFeatureRectangle( subArgs, subfeatures[i] );
+            }
+            else if (exType) {
                 subRect = this._exGlyph()._getFeatureRectangle( subArgs, subfeatures[i] );
             }
             else {
