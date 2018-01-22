@@ -1,0 +1,39 @@
+gff_version: 3
+file: /usr/local/ftp/pub/wormbase/releases/WS263/species/p_pacificus/PRJNA12644/p_pacificus.PRJNA12644.WS263.annotations.gff3.gz
+feature	children	source	method	track	count
+CDS:WormBase		WormBase	CDS	Genes (protein coding) (genes_protein_coding)	324725
+	CDS:WormBase_imported	WormBase_imported	CDS	Genes (protein coding) (genes_protein_coding)	0
+assembly_component:Genomic_canonical		Genomic_canonical	assembly_component	Contig submissions (genomic_canonical)	47
+expressed_sequence_match:BLAT_Caen_EST_BEST		BLAT_Caen_EST_BEST	expressed_sequence_match	WormBase nematode mRNAs/ESTs (best) (sequence_similarity_wormbase_core_ests_and_mrnas_best)	704265
+	expressed_sequence_match:BLAT_Caen_mRNA_BEST	BLAT_Caen_mRNA_BEST	expressed_sequence_match	WormBase nematode mRNAs/ESTs (best) (sequence_similarity_wormbase_core_ests_and_mrnas_best)	19332
+expressed_sequence_match:BLAT_Caen_EST_OTHER		BLAT_Caen_EST_OTHER	expressed_sequence_match	WormBase nematode mRNAs/ESTs (other) (sequence_similarity_wormbase_core_ests_and_mrnas_other)	3205447
+	expressed_sequence_match:BLAT_Caen_mRNA_OTHER	BLAT_Caen_mRNA_OTHER	expressed_sequence_match	WormBase nematode mRNAs/ESTs (other) (sequence_similarity_wormbase_core_ests_and_mrnas_other)	21489
+expressed_sequence_match:BLAT_EST_BEST		BLAT_EST_BEST	expressed_sequence_match	ESTs (best) (est_best)	136295
+expressed_sequence_match:BLAT_EST_OTHER		BLAT_EST_OTHER	expressed_sequence_match	ESTs (other) (est_other)	347187
+expressed_sequence_match:BLAT_mRNA_BEST		BLAT_mRNA_BEST	expressed_sequence_match	mRNAs/ncRNAs (best) (mrna_best)	1038
+	expressed_sequence_match:BLAT_ncRNA_BEST	BLAT_ncRNA_BEST	expressed_sequence_match	mRNAs/ncRNAs (best) (mrna_best)	0
+gene:WormBase		WormBase	gene	Genes (genes)	25517
+	mRNA:WormBase	WormBase	mRNA	Genes (genes)	25546
+	five_prime_UTR:WormBase	WormBase	five_prime_UTR	Genes (genes)	659
+	three_prime_UTR:WormBase	WormBase	three_prime_UTR	Genes (genes)	1728
+intron:RNASeq_splice		RNASeq_splice	intron	RNASeq introns (rnaseq_splice)	328798
+inverted_repeat:inverted		inverted	inverted_repeat	Tandem and Inverted Repeats (repeats_tandem_and_inverted)	20522
+	tandem_repeat:tandem	tandem	tandem_repeat	Tandem and Inverted Repeats (repeats_tandem_and_inverted)	64561
+low_complexity_region:dust		dust	low_complexity_region	Low complextity region (Dust) (repeats_dust)	232210
+polypeptide_motif:translated_feature		translated_feature	polypeptide_motif	Protein motifs (protein_motifs)	546791
+protein_match:UniProt-BLASTX		UniProt-BLASTX	protein_match	Other UniProt proteins (sequence_similarity_uniprot_blastx)	104138
+protein_match:bmalayi_proteins-BLASTX		bmalayi_proteins-BLASTX	protein_match	B. malayi proteins (sequence_similarity_bmalayi_proteins_blastx)	67925
+protein_match:cbrenneri_proteins-BLASTX		cbrenneri_proteins-BLASTX	protein_match	C. brenneri proteins (sequence_similarity_cbrenneri_proteins_blastx)	105316
+protein_match:cbriggsae_proteins-BLASTX		cbriggsae_proteins-BLASTX	protein_match	C. briggsae proteins (sequence_similarity_cbriggsae_proteins_blastx)	100727
+protein_match:celegans_proteins-BLASTX		celegans_proteins-BLASTX	protein_match	C. elegans proteins (sequence_similarity_celegans_proteins_blastx)	112093
+protein_match:cjaponica_proteins-BLASTX		cjaponica_proteins-BLASTX	protein_match	C. japonica proteins (sequence_similarity_cjaponica_proteins_blastx)	113801
+protein_match:cremanei_proteins-BLASTX		cremanei_proteins-BLASTX	protein_match	C. remanei proteins (sequence_similarity_cremanei_proteins_blastx)	110469
+protein_match:dmelanogaster_proteins-BLASTX		dmelanogaster_proteins-BLASTX	protein_match	D. melanogaster proteins (sequence_similarity_dmelanogaster_proteins_blastx)	37425
+protein_match:hsapiens_proteins-BLASTX		hsapiens_proteins-BLASTX	protein_match	H. sapiens proteins (sequence_similarity_hsapiens_proteins_blastx)	85413
+protein_match:ovolvulus_proteins-BLASTX		ovolvulus_proteins-BLASTX	protein_match	O. volvulus proteins (sequence_similarity_ovolvulus_proteins_blastx)	56332
+protein_match:ppacificus_proteins-BLASTX		ppacificus_proteins-BLASTX	protein_match	P. pacificus proteins (sequence_similarity_ppacificus_proteins_blastx)	306710
+protein_match:scerevisiae_proteins-BLASTX		scerevisiae_proteins-BLASTX	protein_match	S. cerevisiae proteins (sequence_similarity_scerevisiae_proteins_blastx)	12583
+protein_match:sratti_proteins-BLASTX		sratti_proteins-BLASTX	protein_match	S. ratti proteins (sequence_similarity_sratti_proteins_blastx)	62617
+transcript_region:RNASeq_F_asymmetry		RNASeq_F_asymmetry	transcript_region	RNASeq Asymmetries (rnaseq_asymmetries)	265264
+	transcript_region:RNASeq_R_asymmetry	RNASeq_R_asymmetry	transcript_region	RNASeq Asymmetries (rnaseq_asymmetries)	255651
+transcript_region:RNASeq_reads		RNASeq_reads	transcript_region	RNASeq (rnaseq)	631576
