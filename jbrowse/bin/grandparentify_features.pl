@@ -7,7 +7,9 @@ use Bio::GFF3::LowLevel qw/ gff3_parse_feature gff3_format_feature /;
 use Storable qw/ dclone /;
 use IO::Handle;
 use Getopt::Long;
-use Data::Dumper;
+use FindBin qw($Bin);
+use File::Copy;
+#use Data::Dumper;
 
 my $SORT = 0;
 my $DISTANCE_CUTOFF = 50000;
@@ -24,8 +26,14 @@ if ($SORT) {
     system("sort -k 9 $FILEIN > $FILEIN.sorted; mv $FILEIN.sorted $FILEIN");
 }
 
+#first run parentify and rename the input file
+system("$Bin/parentify_features.pl", $FILEIN ) == 0 or die $!;
+warn "finished parentification\n";
+copy ("$FILEIN.out", $FILEIN);
+
+#moving on to grandparentification
 my $infh   = new IO::File "< $FILEIN";
-my $outfh   = new IO::File "> $FILEOUT";
+my $outfh  = new IO::File "> $FILEOUT";
 
 
 my %featurehash;
