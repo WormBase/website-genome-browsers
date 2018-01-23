@@ -25,7 +25,7 @@
          "type" : "CanvasFeatures",
          "category": "Genes/Supporting Evidence",
          "label" : "ESTs (best)",
-         "glyph" : "JBrowse/View/FeatureGlyph/LinkedEST",
+         "glyph" : "plugins/wormbase-glyphs/js/LinkedEST",
          "maxExportSpan" : 50000000
       }
    ]
