@@ -324,6 +324,11 @@ if (!-e "$JBROWSEDIR/full.html") {
     #not thrilled about the location of the these plugin locations
     symlink "/home/scain/scain/MotifSearch" ,                  "$JBROWSEDIR/plugins/MotifSearch";
     symlink "/home/scain/FeatureSequence"   ,                  "$JBROWSEDIR/plugins/FeatureSequence";
+    symlink "/home/scain/scain/jbrowse-plugins/HierarchicalCheckboxPlugin",
+                                                               "$JBROWSEDIR/plugins/HierarchicalCheckboxPlugin";
+    symlink "/home/scain/scain/jbrowse-plugins/SwitchTrackSelector",
+                                                               "$JBROWSEDIR/plugins/SwitchTrackSelector";
+    symlink "/home/scain/sc_fork_screenshotplugin",            "$JBROWSEDIR/plugins/sc_fork_screenshotplugin";
 }
 
 
