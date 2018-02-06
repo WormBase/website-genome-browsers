@@ -1,9 +1,9 @@
-define("plugins/wormbase-glyphs/js/TRNAGene", [
+define("wormbase-glyphs/View/FeatureGlyph/TRNAGene", [
            'dojo/_base/declare',
            'dojo/_base/lang',
            'dojo/_base/array',
            'JBrowse/View/FeatureGlyph/Box',
-           'plugins/wormbase-glyphs/js/ExonTranscript'
+           'wormbase-glyphs/View/FeatureGlyph/ExonTranscript'
        ],
        function(
            declare,

@@ -319,10 +319,16 @@ if (!-e "$JBROWSEDIR/full.html") {
     symlink "$JBROWSEREPO/jbrowse.conf", "$JBROWSEDIR/jbrowse.conf";
     symlink "/usr/local/wormbase/website-shared-files/images", "$JBROWSEDIR/images";
     symlink "$JBROWSEREPO/plugins/fullscreen-jbrowse",         "$JBROWSEDIR/plugins/fullscreen-jbrowse";
+    symlink "$JBROWSEREPO/plugins/wormbase-glyphs",            "$JBROWSEDIR/plugins/wormbase-glyphs";
     symlink "$JBROWSEREPO/plugins/HideTrackLabels",            "$JBROWSEDIR/plugins/HideTrackLabels";
     #not thrilled about the location of the these plugin locations
     symlink "/home/scain/scain/MotifSearch" ,                  "$JBROWSEDIR/plugins/MotifSearch";
     symlink "/home/scain/FeatureSequence"   ,                  "$JBROWSEDIR/plugins/FeatureSequence";
+    symlink "/home/scain/scain/jbrowse-plugins/HierarchicalCheckboxPlugin",
+                                                               "$JBROWSEDIR/plugins/HierarchicalCheckboxPlugin";
+    symlink "/home/scain/scain/jbrowse-plugins/SwitchTrackSelector",
+                                                               "$JBROWSEDIR/plugins/SwitchTrackSelector";
+    symlink "/home/scain/sc_fork_screenshotplugin",            "$JBROWSEDIR/plugins/ScreenShotPlugin";
 }
 
 
@@ -425,14 +431,18 @@ print TL $json;
 close TL;
 
 
+##
+## Moving the location of the custom glyphs to the plugin dir
+##which is handled elsewhere in the code
+##
 #make symlinks for custom glyphs
-chdir $GLYPHS;
-my @files = glob("*.js");
-foreach my $file (@files) {
-    unless (-e "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file") {
-        symlink "$GLYPHS/$file", "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file" or $log->error( $!);
-    }
-}
+#chdir $GLYPHS;
+#my @files = glob("*.js");
+#foreach my $file (@files) {
+#    unless (-e "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file") {
+#        symlink "$GLYPHS/$file", "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file" or $log->error( $!);
+#    }
+#}
 
 #if this is elegans make links to the modencode data
 if (!$SIMPLE && $SPECIES =~ /c_elegans_$PRIMARY_SPECIES/) {

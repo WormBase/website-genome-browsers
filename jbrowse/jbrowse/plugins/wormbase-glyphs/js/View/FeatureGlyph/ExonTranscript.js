@@ -1,4 +1,4 @@
-define("plugins/wormbase-glyphs/js/ExonTranscript", [
+define("wormbase-glyphs/View/FeatureGlyph/ExonTranscript", [
            'dojo/_base/declare',
            'JBrowse/View/FeatureGlyph/ProcessedTranscript'
        ],  
