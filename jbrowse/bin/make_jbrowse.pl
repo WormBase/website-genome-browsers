@@ -328,7 +328,7 @@ if (!-e "$JBROWSEDIR/full.html") {
                                                                "$JBROWSEDIR/plugins/HierarchicalCheckboxPlugin";
     symlink "/home/scain/scain/jbrowse-plugins/SwitchTrackSelector",
                                                                "$JBROWSEDIR/plugins/SwitchTrackSelector";
-    symlink "/home/scain/sc_fork_screenshotplugin",            "$JBROWSEDIR/plugins/sc_fork_screenshotplugin";
+    symlink "/home/scain/sc_fork_screenshotplugin",            "$JBROWSEDIR/plugins/ScreenShotPlugin";
 }
 
 

@@ -1,9 +1,9 @@
-define("plugins/wormbase-glyphs/js/SnRNAGene", [
+define("wormbase-glyphs/View/FeatureGlyph/NcRNAGene", [
            'dojo/_base/declare',
            'dojo/_base/lang',
            'dojo/_base/array',
            'JBrowse/View/FeatureGlyph/Box',
-           'plugins/wormbase-glyphs/js/ExonTranscript'
+           'wormbase-glyphs/View/FeatureGlyph/ExonTranscript'
        ],
        function(
            declare,
@@ -19,7 +19,7 @@ _defaultConfig: function() {
     return this._mergeConfigs(
         this.inherited(arguments),
         {
-            transcriptType: 'snRNA',
+            transcriptType: 'ncRNA',
             style: {
                 transcriptLabelFont: 'normal 10px Univers,Helvetica,Arial,sans-serif',
                 transcriptLabelColor: 'black',

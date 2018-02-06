@@ -1,9 +1,9 @@
-define("plugins/wormbase-glyphs/js/PreMiRNAGene", [
+define("wormbase-glyphs/View/FeatureGlyph/AntisenseRNAGene", [
            'dojo/_base/declare',
            'dojo/_base/lang',
            'dojo/_base/array',
            'JBrowse/View/FeatureGlyph/Box',
-           'plugins/wormbase-glyphs/js/ExonTranscript'
+           'wormbase-glyphs/View/FeatureGlyph/ExonTranscript'
        ],
        function(
            declare,
@@ -19,7 +19,7 @@ _defaultConfig: function() {
     return this._mergeConfigs(
         this.inherited(arguments),
         {
-            transcriptType: 'pre_miRNA',
+            transcriptType: 'antisense_RNA',
             style: {
                 transcriptLabelFont: 'normal 10px Univers,Helvetica,Arial,sans-serif',
                 transcriptLabelColor: 'black',
