@@ -329,6 +329,7 @@ if (!-e "$JBROWSEDIR/full.html") {
     symlink "/home/scain/scain/jbrowse-plugins/SwitchTrackSelector",
                                                                "$JBROWSEDIR/plugins/SwitchTrackSelector";
     symlink "/home/scain/sc_fork_screenshotplugin",            "$JBROWSEDIR/plugins/ScreenShotPlugin";
+    symlink "/home/scain/scain/jbrowse-plugins/colorbycds",    "JBROWSEDIR/plugins/colorbycds";
 }
 
 
