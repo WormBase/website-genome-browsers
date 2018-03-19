@@ -1,14 +1,15 @@
 <div style="overflow:hidden;width:100%;height:14px;position:relative" id="jbrowse_frame">didn't load </div>
 
 <script type="text/javascript">
- document.getElementById("jbrowse_frame").innerHTML='<object id="innerJBrowse" type="text/html" style="pointer-events:none;position:absolute;top:0;left:0;width:100%;height:25px;overflow: hidden;" data="full.html?overview=0&tracks=Curated_Genes%2CClassical_alleles%2CYACs_Fosmids_Cosmids&loc=X%3A12392257..12418393&data=data%2Fc_elegans_simple&nav=0&tracklist=0"></object>';
-</script>
+    var preembedURL = "full.html?tracks=Curated_Genes%2CClassical_alleles%2CYACs_Fosmids_Cosmids&loc=X%3A12392257..12418393&data=data%2Fc_elegans_simple";
+    var embed_part = "&nav=0&tracklist=0&overview=0";
+    $("#jbrowse_frame").html('<object id="innerJBrowse" type="text/html" style="pointer-events:none;position:absolute;top:0;left:0;width:100%;height:14px;overflow: hidden;" data="'+preembedURL+embed_part+'"></object>');
 
-<script type="text/javascript">
   $(document).ready(function() {
     setTimeout( function() {
         console.log('starting the resize');
 
+        //can't figure out how to do with with jquery
         var window = document.getElementById('innerJBrowse').contentDocument || document.getElementById('innerJBrowse').contentWindow.document;
 
         var tracks = window.getElementsByClassName('track');
@@ -19,9 +20,6 @@
             if(id == 'gridtrack' || id == 'overviewtrack_overview_loc_track' || id == 'static_track') {
                 continue;
             }
-            //console.log(tracks[t]);
-            //console.log(id);
-            //console.log( tracks[t].offsetHeight);
             h += tracks[i].offsetHeight;
         }
 
@@ -29,18 +27,18 @@
         $('#jbrowse_frame').height(h);
         $('#innerJBrowse') .height(h);
 
-        var jbrowseURL = 'full.html?overview=0&tracks=Curated_Genes%2CClassical_alleles%2CYACs_Fosmids_Cosmids&loc=X%3A12392257..12418393&data=data%2Fc_elegans_simple&nav=0&tracklist=0'
+        //This doesn't seem necessary when using jquery
         //$('#innerJBrowse').load(jbrowseURL);
 
         //create the big invisible button with jquery
-        var invisDiv = $('<div id="jbrowse_link" style="position:absolute;top:0;left:0;width:100%;height:'+h+';pointer-events:auto" ></div>').text(" ");
+        var invisDiv = $('<div id="jbrowse_link" style="cursor:pointer;position:absolute;top:0;left:0;width:100%;height:'+h+';pointer-events:auto" ></div>').text(" ");
         $('#jbrowse_frame').append(invisDiv);
         invisDiv.click(function() {
-            location.assign(jbrowseURL);
+            preembedURL = preembedURL.replace('_simple', '_PRJNA13758');
+            location.assign(preembedURL);
         });
 
-
-     } , 15000);
+     } , 12000);
   });
 </script>
 
