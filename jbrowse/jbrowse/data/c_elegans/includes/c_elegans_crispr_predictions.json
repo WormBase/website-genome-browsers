@@ -16,10 +16,10 @@
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/CRISPR_Cas9 sgRNA predictions/{refseq}/trackData.jsonz",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/CRISPR_Cas9 sgRNA predictions/{refseq}/trackData.jsonz",
          "compress" : 1,
          "metadata" : {
-            "shortInfo" : "sgRNA predictions from <a href='http://genome.sfu.ca/crispr/'>http://genome.sfu.ca/crispr/</a>"
+            "shortInfo" : "sgRNA predictions from <a href='http://genome.sfu.ca/crispr/'>http://genome.sfu.ca/crispr/</a>.  Used by permission."
          },
          "label" : "CRISPR_Cas9 sgRNA predictions",
          "category" : "Externally Sourced Resources",
