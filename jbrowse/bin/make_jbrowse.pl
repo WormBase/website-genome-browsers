@@ -330,6 +330,9 @@ if (!-e "$JBROWSEDIR/full.html") {
                                                                "$JBROWSEDIR/plugins/SwitchTrackSelector";
     symlink "/home/scain/sc_fork_screenshotplugin",            "$JBROWSEDIR/plugins/ScreenShotPlugin";
     symlink "/home/scain/scain/jbrowse-plugins/colorbycds",    "JBROWSEDIR/plugins/colorbycds";
+
+    #rerun setup.sh if jbrowse 1.13 or higher
+    system("./setup.sh") == 0 or die "failed to rerun setup.sh in $JBROWSEDIR for new plugins";
 }
 
 
