@@ -1,40 +1,41 @@
-define("plugins/wormbase-glyphs/js/RRNAGene", [
+define("wormbase-glyphs/View/FeatureGlyph/LinkedEST", [
            'dojo/_base/declare',
            'dojo/_base/lang',
            'dojo/_base/array',
-           'JBrowse/View/FeatureGlyph/Box',
-           'plugins/wormbase-glyphs/js/ExonTranscript'
+           'JBrowse/View/FeatureGlyph/Segments',
+           'JBrowse/View/FeatureGlyph/ProcessedTranscript'
        ],
        function(
            declare,
            lang,
            array,
-           BoxGlyph,
-           ExonTranscriptGlyph
+           SegmentsGlyph,
+           ProcessedTranscriptGlyph
        ) {
 
-return declare( BoxGlyph, {
+return declare( SegmentsGlyph, {
 
 _defaultConfig: function() {
     return this._mergeConfigs(
         this.inherited(arguments),
         {
-            transcriptType: 'rRNA',
+            transcriptType: 'expressed_sequence_match',
+            subpart: 'match_part',
             style: {
                 transcriptLabelFont: 'normal 10px Univers,Helvetica,Arial,sans-serif',
                 transcriptLabelColor: 'black',
                 textFont: 'bold 12px Univers,Helvetica,Arial,sans-serif'
             },
-            labelTranscripts: true,
+            labelTranscripts: false,
             marginBottom: 0
         });
 },
 
-_boxGlyph: function() {
-    return this.__boxGlyph || ( this.__boxGlyph = new BoxGlyph({ track: this.track, browser: this.browser, config: this.config }) );
+_segmentsGlyph: function() {
+    return this.__segmentsGlyph || ( this.__segmentsGlyph = new SegmentsGlyph({ track: this.track, browser: this.browser, config: this.config }) );
 },
 _ptGlyph: function() {
-    return this.__ptGlyph || ( this.__ptGlyph = new ExonTranscriptGlyph({ track: this.track, browser: this.browser, config: this.config }) );
+    return this.__ptGlyph || ( this.__ptGlyph = new ProcessedTranscriptGlyph({ track: this.track, browser: this.browser, config: this.config }) );
 },
 
 _getFeatureRectangle: function( viewArgs, feature ) {
@@ -56,22 +57,53 @@ _getFeatureRectangle: function( viewArgs, feature ) {
         f: feature,
         glyph: this
     };
+    
+    var EST1 = '';
+    var EST2 = false;
     if( subfeatures && subfeatures.length ) {
-        // sort the children by name
-        subfeatures.sort( function( a, b ) { return (a.get('name') || '').localeCompare( b.get('name')||'' ); } );
+        // sort the children by start
+        //subfeatures.sort( function( a, b ) { return (a.get('name') || '').localeCompare( b.get('name')||'' ); } );
+        subfeatures.sort( function( a, b ) { return (a.get('start') || 0) > ( b.get('start')|| 0 ); } );
 
         fRect.l = Infinity;
         fRect.r = -Infinity;
+
+        var overlaps   = false;
+
+        var end1 = -1;
+        var start2 = -1;
 
         var transcriptType = this.getConfForFeature( 'transcriptType', feature );
         for( var i = 0; i < subfeatures.length; i++ ) {
             var subRect = ( subfeatures[i].get('type') == transcriptType
                             ? this._ptGlyph()
-                            : this._boxGlyph()
+                            : this._segmentsGlyph()
                           )._getFeatureRectangle( subArgs, subfeatures[i] );
 
+            if (subfeatures[i].get('type') == transcriptType) {
+                if (end1 <0) {
+                    EST1 = subfeatures[i];
+                    end1 = EST1.get('end');
+                }
+                else if (end1 > subfeatures[i].get('start')){
+                    overlaps = true;
+                    EST2 = subfeatures[i];
+                    start2 = EST2.get('start');
+                }
+                else 
+                {
+                    EST2 = subfeatures[i];
+                    start2 = EST2.get('start');
+                }
+            }
+
             padding = i == subfeatures.length-1 ? 0 : 1;
-            subRect.t = subRect.rect.t = fRect.h && viewArgs.displayMode != 'collapsed' ? fRect.h+padding : 0;
+
+            //figure out if the forward and reverse overlap
+            subRect.t = 0;
+            if (overlaps) {
+                subRect.t = subRect.rect.t = fRect.h && viewArgs.displayMode != 'collapsed' ? fRect.h+padding : 0;
+            }
 
             if( viewArgs.showLabels && this.getConfForFeature( 'labelTranscripts', subfeatures[i] ) ) {
                 var transcriptLabel = this.makeSideLabel(
@@ -96,6 +128,7 @@ _getFeatureRectangle: function( viewArgs, feature ) {
             fRect.l = Math.min( fRect.l, subRect.l );
             fRect.h = subRect.t+subRect.h+padding;
         }
+
     }
 
     // calculate the width
@@ -112,6 +145,17 @@ _getFeatureRectangle: function( viewArgs, feature ) {
     // expand the fRect to accommodate labels if necessary
     this._expandRectangleWithLabels( viewArgs, feature, fRect );
     this._addMasksToRect( viewArgs, feature, fRect );
+
+    //get the canvas coordinates for the introny-thingy
+    if (overlaps) {return fRect};
+    if (!EST2) {return fRect};
+    var viewInfo = fRect.viewInfo;
+    fRect.EST1End = viewInfo.block.bpToX(end1);
+    fRect.ESTgapWidth = viewInfo.block.bpToX(start2) - fRect.EST1End;
+
+    //console.log(fRect);
+
+    
 
     return fRect;
 },
@@ -133,6 +177,28 @@ renderFeature: function( context, fRect ) {
     var subRects = fRect.subRects;
     for( var i = 0; i < subRects.length; i++ ) {
         subRects[i].glyph.renderFeature( context, subRects[i] );
+    }
+
+    //draw the introny-thingy
+    if (fRect.ESTgapWidth) {
+        var viewInfo = fRect.viewInfo;
+        var top = fRect.t;
+                var overallHeight = fRect.rect.h;
+
+                var height = overallHeight / 2 -1;
+                var left = fRect.EST1End;
+                var width = fRect.ESTgapWidth;
+                var mid = width/2;
+
+                // butt line cap (top line)
+                context.beginPath();
+                context.setLineDash([7,12]);
+                context.moveTo(left,top+height);
+                context.lineTo(left+width,top+height);
+                context.lineWidth = 1;
+                context.strokeStyle = '#202020';
+                //context.lineCap = 'square';
+                context.stroke();
     }
 
     this.renderLabel( context, fRect );

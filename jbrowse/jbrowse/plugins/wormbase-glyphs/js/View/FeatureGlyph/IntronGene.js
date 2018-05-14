@@ -1,16 +1,14 @@
-define("plugins/wormbase-glyphs/js/TRNAGene", [
+define("wormbase-glyphs/View/FeatureGlyph/IntronGene", [
            'dojo/_base/declare',
            'dojo/_base/lang',
            'dojo/_base/array',
-           'JBrowse/View/FeatureGlyph/Box',
-           'plugins/wormbase-glyphs/js/ExonTranscript'
+           'JBrowse/View/FeatureGlyph/Box'
        ],
        function(
            declare,
            lang,
            array,
-           BoxGlyph,
-           ExonTranscriptGlyph
+           BoxGlyph
        ) {
 
 return declare( BoxGlyph, {
@@ -19,22 +17,14 @@ _defaultConfig: function() {
     return this._mergeConfigs(
         this.inherited(arguments),
         {
-            transcriptType: 'tRNA',
-            style: {
-                transcriptLabelFont: 'normal 10px Univers,Helvetica,Arial,sans-serif',
-                transcriptLabelColor: 'black',
-                textFont: 'bold 12px Univers,Helvetica,Arial,sans-serif'
-            },
-            labelTranscripts: true,
-            marginBottom: 0
+            marginBottom: 0,
+            label : function(feature) {return feature.get('score');},
+            color : function(feature) {console.log(feature.get('score'));if (feature.get('score') > 1000) {return 'teal';} return 'pink';}
         });
 },
 
 _boxGlyph: function() {
     return this.__boxGlyph || ( this.__boxGlyph = new BoxGlyph({ track: this.track, browser: this.browser, config: this.config }) );
-},
-_ptGlyph: function() {
-    return this.__ptGlyph || ( this.__ptGlyph = new ExonTranscriptGlyph({ track: this.track, browser: this.browser, config: this.config }) );
 },
 
 _getFeatureRectangle: function( viewArgs, feature ) {
@@ -57,39 +47,20 @@ _getFeatureRectangle: function( viewArgs, feature ) {
         glyph: this
     };
     if( subfeatures && subfeatures.length ) {
-        // sort the children by name
-        subfeatures.sort( function( a, b ) { return (a.get('name') || '').localeCompare( b.get('name')||'' ); } );
+        // sort the children by score
+        subfeatures.sort( function( a, b ) { return  -(a.get('score')  -  b.get('score')); } );
 
         fRect.l = Infinity;
         fRect.r = -Infinity;
 
-        var transcriptType = this.getConfForFeature( 'transcriptType', feature );
         for( var i = 0; i < subfeatures.length; i++ ) {
-            var subRect = ( subfeatures[i].get('type') == transcriptType
-                            ? this._ptGlyph()
-                            : this._boxGlyph()
-                          )._getFeatureRectangle( subArgs, subfeatures[i] );
+            var subRect; 
 
-            padding = i == subfeatures.length-1 ? 0 : 1;
+            subRect = this._boxGlyph()._getFeatureRectangle( subArgs, subfeatures[i] );
+
+            //padding = i == subfeatures.length-1 ? 0 : 1;
+            padding = 0;
             subRect.t = subRect.rect.t = fRect.h && viewArgs.displayMode != 'collapsed' ? fRect.h+padding : 0;
-
-            if( viewArgs.showLabels && this.getConfForFeature( 'labelTranscripts', subfeatures[i] ) ) {
-                var transcriptLabel = this.makeSideLabel(
-                    this.getFeatureLabel(subfeatures[i]),
-                    this.getStyle( subfeatures[i], 'transcriptLabelFont'),
-                    subRect
-                );
-                if( transcriptLabel ) {
-                    transcriptLabel.fill = this.getStyle( subfeatures[i], 'transcriptLabelColor' );
-                    subRect.label = transcriptLabel;
-                    subRect.l -= transcriptLabel.w;
-                    subRect.w += transcriptLabel.w;
-                    if( transcriptLabel.h > subRect.h )
-                        subRect.h = transcriptLabel.h;
-                    transcriptLabel.yOffset = Math.floor(subRect.h/2);
-                    transcriptLabel.xOffset = 0;
-                }
-            }
 
             fRect.subRects.push( subRect );
             fRect.r = Math.max( fRect.r, subRect.l+subRect.w-1 );

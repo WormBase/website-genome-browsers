@@ -15,9 +15,10 @@ define([
 return declare( JBrowsePlugin,
 {
     constructor: function( args ) {
-		
-		var thisBrowser = this.browser;
-        var makeFull = this.makeFullscreenButton();
+	
+        var thisBrowser = this.browser;
+        if (thisBrowser.config.show_nav) {	
+                var makeFull = this.makeFullscreenButton();
 		
 
 		thisBrowser.afterMilestone('initView', function() {
@@ -31,7 +32,11 @@ return declare( JBrowsePlugin,
 		})
         
 		console.log( "fullpage plugin added" );
-	},
+	}
+        else {
+            console.log("fullpage plugin not loaded (not a full view)");
+        }
+   },
 
     makeFullscreenButton: function () {
 	

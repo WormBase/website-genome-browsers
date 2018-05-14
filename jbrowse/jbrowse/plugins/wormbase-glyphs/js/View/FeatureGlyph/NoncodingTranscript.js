@@ -3,7 +3,7 @@
 // the more typical in just about every instance, "exon").  This is the
 // style that SGD uses for their noncoding genes like tRNA_gene.
 
-define("plugins/wormbase-glyphs/js/NoncodingTranscript", [
+define("wormbase-glyphs/View/FeatureGlyph/NoncodingTranscript", [
            'dojo/_base/declare',
            'JBrowse/View/FeatureGlyph/ProcessedTranscript'
        ],  

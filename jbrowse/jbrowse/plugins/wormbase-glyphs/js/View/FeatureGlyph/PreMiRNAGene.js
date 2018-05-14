@@ -1,17 +1,15 @@
-define("plugins/wormbase-glyphs/js/WBGene", [
+define("wormbase-glyphs/View/FeatureGlyph/PreMiRNAGene", [
            'dojo/_base/declare',
            'dojo/_base/lang',
            'dojo/_base/array',
            'JBrowse/View/FeatureGlyph/Box',
-           'JBrowse/View/FeatureGlyph/ProcessedTranscript',
-           'plugins/wormbase-glyphs/js/ExonTranscript'
+           'wormbase-glyphs/View/FeatureGlyph/ExonTranscript'
        ],
        function(
            declare,
            lang,
            array,
            BoxGlyph,
-           ProcessedTranscriptGlyph,
            ExonTranscriptGlyph
        ) {
 
@@ -21,7 +19,7 @@ _defaultConfig: function() {
     return this._mergeConfigs(
         this.inherited(arguments),
         {
-            transcriptType: 'mRNA,nc_primary_transcript',
+            transcriptType: 'pre_miRNA',
             style: {
                 transcriptLabelFont: 'normal 10px Univers,Helvetica,Arial,sans-serif',
                 transcriptLabelColor: 'black',
@@ -36,10 +34,7 @@ _boxGlyph: function() {
     return this.__boxGlyph || ( this.__boxGlyph = new BoxGlyph({ track: this.track, browser: this.browser, config: this.config }) );
 },
 _ptGlyph: function() {
-    return this.__ptGlyph || ( this.__ptGlyph = new ProcessedTranscriptGlyph({ track: this.track, browser: this.browser, config: this.config }) );
-},
-_exGlyph: function() {
-    return this.__exGlyph || ( this.__exGlyph = new ExonTranscriptGlyph({ track: this.track, browser: this.browser, config: this.config }) );
+    return this.__ptGlyph || ( this.__ptGlyph = new ExonTranscriptGlyph({ track: this.track, browser: this.browser, config: this.config }) );
 },
 
 _getFeatureRectangle: function( viewArgs, feature ) {
@@ -68,28 +63,12 @@ _getFeatureRectangle: function( viewArgs, feature ) {
         fRect.l = Infinity;
         fRect.r = -Infinity;
 
-        var transcriptType; // will be an array even if most of the time there will be only one element
-        var transcriptTypeStr = this.getConfForFeature( 'transcriptType', feature );
-        transcriptType = transcriptTypeStr.split(','); 
-        
+        var transcriptType = this.getConfForFeature( 'transcriptType', feature );
         for( var i = 0; i < subfeatures.length; i++ ) {
-            var ptType = false;
-            var exType = false;
-            var subRect; 
-            if (subfeatures[i].get('type') == transcriptType[0]) {ptType = true;}
-            for (var j = 1; j < transcriptType.length; j++) {
-                if (subfeatures[i].get('type') == transcriptType[j]) {exType = true;}
-            }
-
-            if (ptType) {
-                subRect = this._ptGlyph()._getFeatureRectangle( subArgs, subfeatures[i] );
-            }
-            else if (exType) {
-                subRect = this._exGlyph()._getFeatureRectangle( subArgs, subfeatures[i] );
-            }
-            else {
-                subRect = this._boxGlyph()._getFeatureRectangle( subArgs, subfeatures[i] );
-            }
+            var subRect = ( subfeatures[i].get('type') == transcriptType
+                            ? this._ptGlyph()
+                            : this._boxGlyph()
+                          )._getFeatureRectangle( subArgs, subfeatures[i] );
 
             padding = i == subfeatures.length-1 ? 0 : 1;
             subRect.t = subRect.rect.t = fRect.h && viewArgs.displayMode != 'collapsed' ? fRect.h+padding : 0;

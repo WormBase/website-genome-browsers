@@ -1,10 +1,10 @@
-define("plugins/wormbase-glyphs/js/LabelFloatBox", [
+define("wormbase-glyphs/View/FeatureGlyph/LabelFloatBox", [
            'dojo/_base/declare',
            'dojo/_base/array',
            'dojo/_base/lang',
            'JBrowse/Util/FastPromise',
            'JBrowse/View/FeatureGlyph',
-           './_FeatureLabelMixin'
+           'JBrowse/View/FeatureGlyph/_FeatureLabelMixin'
        ],
        function(
            declare,
