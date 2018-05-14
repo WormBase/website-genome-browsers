@@ -24,7 +24,7 @@
          "urlTemplate" : "../tracks/Balancers/{refseq}/trackData.jsonz",
          "compress" : 1,
          "type" : "CanvasFeatures",
-         "glyph" : "JBrowse/View/FeatureGlyph/LabelFloatBox",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/LabelFloatBox",
          "label" : "Balancers",
          "maxExportSpan" : 50000000
       }
