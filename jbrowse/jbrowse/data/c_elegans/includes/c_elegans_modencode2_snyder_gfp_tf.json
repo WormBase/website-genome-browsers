@@ -1417,8 +1417,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-62 Combined (GFP ChIP), UNC_62_L4",
-      "max_score": 4,
-      "min_score": -4
+      "max_score":100,
+      "min_score":0 
     },
     {
       "style": {
@@ -1437,8 +1437,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-62 Combined (GFP ChIP), UNC-62_GFP_L1",
-      "max_score": 4,
-      "min_score": -4
+      "max_score":100,
+      "min_score":0 
     },
     {
       "style": {
@@ -1457,8 +1457,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-62 Combined (GFP ChIP), UNC_62_EMB",
-      "max_score": 4,
-      "min_score": -4
+      "max_score":100,
+      "min_score":0 
     },
     {
       "style": {
@@ -1477,8 +1477,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-62 Combined (GFP ChIP), UNC-62_GFP_L2",
-      "max_score": 4,
-      "min_score": -4
+      "max_score":100,
+      "min_score":0 
     },
     {
       "style": {
@@ -1497,8 +1497,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-62 Combined (GFP ChIP), UNC-62_GFP_L3",
-      "max_score": 4,
-      "min_score": -4
+      "max_score":100,
+      "min_score":0 
     },
     {
       "style": {
@@ -1517,8 +1517,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
       "label": "UNC-62 Combined (GFP ChIP), UNC-62_GFP_YA",
-      "max_score": 4,
-      "min_score": -4
+      "max_score":100,
+      "min_score": 0
     },
     {
       "style": {
