@@ -6,6 +6,7 @@ use Getopt::Long;
 use Config::Tiny;
 use FindBin qw($Bin);
 use File::Copy;
+use File::Copy::Recursive qw(dircopy);
 use Cwd;
 use FileHandle;
 use File::Basename;
@@ -42,6 +43,7 @@ make_jbrowse.pl - Creates a JBrowse instance with input GFF and configuration
  --skipprepare Don't run prepare-refseqs.pl
  --allstats   Path to the ALLSPECIES.stats file
  --jbrowsesrc Path to the current JBrowse source zip file
+ --skipname   Skip name indexing (the longest step)
  --simple     Make the C. elegans "simple" config for gene pages
  --quiet      Limit output to errors
 
@@ -149,7 +151,7 @@ my $PRIMARY_SPECIES = "PRJNA13758";
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $JBROWSEREPO, $SKIPPREPARE, $ALLSTATS, $FILEDIR,
     $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES,
-    $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE, $JBROWSESRC);
+    $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE, $JBROWSESRC, $SKIPNAME);
 my %splitfiles;
 
 GetOptions(
@@ -167,6 +169,7 @@ GetOptions(
     'skipprepare' => \$SKIPPREPARE,
     'allstats=s'  => \$ALLSTATS,
     'jbrowsesrc=s'=> \$JBROWSESRC,
+    'skipname'    => \$SKIPNAME,
     'simple'      => \$SIMPLE,
     'quiet'       => \$QUIET,
 ) or ( system( 'pod2text', $0 ), exit -1 );
@@ -312,24 +315,24 @@ unless (-e "browser_data") {
 if (!-e "$JBROWSEDIR/full.html") {
     unlink  "$JBROWSEDIR/css/faceted_track_selector.css";
     copy   ("$JBROWSEREPO/css/faceted_track_selector.css", "$JBROWSEDIR/css/faceted_track_selector.css");
-    symlink "$JBROWSEREPO/full.html",    "$JBROWSEDIR/full.html";
+    copy   ("$JBROWSEREPO/full.html",    "$JBROWSEDIR/full.html");
     unlink  "$JBROWSEDIR/index.html";
-    symlink "$JBROWSEREPO/index.html",   "$JBROWSEDIR/index.html";
+    copy   ("$JBROWSEREPO/index.html",   "$JBROWSEDIR/index.html");
     unlink  "$JBROWSEDIR/jbrowse.conf";
-    symlink "$JBROWSEREPO/jbrowse.conf", "$JBROWSEDIR/jbrowse.conf";
+    copy   ("$JBROWSEREPO/jbrowse.conf", "$JBROWSEDIR/jbrowse.conf");
     symlink "/usr/local/wormbase/website-shared-files/images", "$JBROWSEDIR/images";
-    symlink "$JBROWSEREPO/plugins/fullscreen-jbrowse",         "$JBROWSEDIR/plugins/fullscreen-jbrowse";
-    symlink "$JBROWSEREPO/plugins/wormbase-glyphs",            "$JBROWSEDIR/plugins/wormbase-glyphs";
-    symlink "$JBROWSEREPO/plugins/HideTrackLabels",            "$JBROWSEDIR/plugins/HideTrackLabels";
+    dircopy("$JBROWSEREPO/plugins/fullscreen-jbrowse",         "$JBROWSEDIR/plugins/fullscreen-jbrowse");
+    dircopy("$JBROWSEREPO/plugins/wormbase-glyphs",            "$JBROWSEDIR/plugins/wormbase-glyphs");
+    dircopy("$JBROWSEREPO/plugins/HideTrackLabels",            "$JBROWSEDIR/plugins/HideTrackLabels");
     #not thrilled about the location of the these plugin locations
-    symlink "/home/scain/scain/MotifSearch" ,                  "$JBROWSEDIR/plugins/MotifSearch";
-    symlink "/home/scain/FeatureSequence"   ,                  "$JBROWSEDIR/plugins/FeatureSequence";
-    symlink "/home/scain/scain/jbrowse-plugins/HierarchicalCheckboxPlugin",
-                                                               "$JBROWSEDIR/plugins/HierarchicalCheckboxPlugin";
-    symlink "/home/scain/scain/jbrowse-plugins/SwitchTrackSelector",
-                                                               "$JBROWSEDIR/plugins/SwitchTrackSelector";
-    symlink "/home/scain/sc_fork_screenshotplugin",            "$JBROWSEDIR/plugins/ScreenShotPlugin";
-    symlink "/home/scain/scain/jbrowse-plugins/colorbycds",    "JBROWSEDIR/plugins/colorbycds";
+    dircopy("/home/scain/scain/MotifSearch" ,                  "$JBROWSEDIR/plugins/MotifSearch");
+    dircopy("/home/scain/FeatureSequence"   ,                  "$JBROWSEDIR/plugins/FeatureSequence");
+    dircopy("/home/scain/scain/jbrowse-plugins/HierarchicalCheckboxPlugin",
+                                                               "$JBROWSEDIR/plugins/HierarchicalCheckboxPlugin");
+    dircopy("/home/scain/scain/jbrowse-plugins/SwitchTrackSelector",
+                                                               "$JBROWSEDIR/plugins/SwitchTrackSelector");
+    dircopy("/home/scain/sc_fork_screenshotplugin",            "$JBROWSEDIR/plugins/ScreenShotPlugin");
+    dircopy("/home/scain/scain/jbrowse-plugins/colorbycds",    "$JBROWSEDIR/plugins/colorbycds");
 
     #rerun setup.sh if jbrowse 1.13 or higher
     system("./setup.sh") == 0 or die "failed to rerun setup.sh in $JBROWSEDIR for new plugins";
@@ -366,8 +369,11 @@ for my $section (@config_sections) {
     $speciesdata{$species}{$section} = -1;
 }
 
+#die "quitting before name generation";
+
 #run indexing
-system("$nice bin/generate-names.pl --out $DATADIR --compress");
+system("$nice bin/generate-names.pl --out $DATADIR --compress")
+    unless $SKIPNAME;
 
 #process the rest of the tracks
 
