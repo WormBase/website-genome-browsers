@@ -1,0 +1,88 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "strandArrow" : false,
+            "label" : "function(f) {var score = f.get('score'); var name = f.get('Name'); if (typeof score === undefined) {return name;} return score+' reads';  }",
+            "description" : "none",
+            "height" : "function (f) {var score = f.get('score'); var h = Math.floor(score/2); if (score > 100) {h = 50;} if (h == 0 || h == 1) {h=2;} return h; }"
+         },
+         "onClick" : {
+            "action" : "contentDialog",
+            "content" : "",
+            "label" : "{rnaseqReads}",
+            "title" : "Feature in WormBase"
+         },
+         "key" : "RNASeq introns",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/RNASeq introns/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "RNASeq introns",
+         "category": "Expression",
+         "maxExportSpan" : 50000000,
+         "metadata" : {
+            "shortInfo" : "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. The number of reads spanning the introns is indicated by the thickness of the display."
+         }
+      },
+      {
+         "style" : {
+            "className" : "feature"
+         },
+         "maxHeight" : 5000,
+         "onClick" : {
+            "action" : "contentDialog",
+            "content" : "",
+            "label" : "{rnaseqReads}",
+            "title" : "Feature in WormBase"
+         },
+         "style" : {
+            "className" : "feature",
+            "color" : "{intronColorOther}",
+            "description" : "none",
+            "label" : "function(f) {var score = f.get('score'); var name = f.get('Name'); if (typeof score === undefined) {return name;} return score+' reads';  }",
+            "height" : "function (f) {var score = f.get('logscore'); if(score < 2) {return 2;} var h=Math.floor(score); if (score > 100) {h = 50;} if (h == 0 || h == 1) {h=2;} return h; }",
+            "strandArrow" : false
+         },
+         "key" : "RNASeq Splice Junctions (rare)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/RNASeq Splice Junctions (rare)/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "category": "Expression",
+         "maxExportSpan" : 50000000,
+         "label" : "RNASeq Splice Junctions (rare)"
+      },
+      {
+         "maxHeight" : 5000,
+         "onClick" : {
+            "action" : "contentDialog",
+            "content" : "",
+            "label" : "{rnaseqReads}",
+            "title" : "Feature in WormBase"
+         },
+         "style" : {
+            "className" : "feature",
+            "color" : "{intronColorOther}",
+            "description" : " ",
+            "height" : 10,
+            "labelScale" : 1,
+            "label" : "function(f) {var score = f.get('score'); var name = f.get('Name'); if (typeof score === undefined) {return name;} return score+' reads';  }",
+            "strandArrow" : false
+         },
+         "key" : "RNASeq Splice Junctions (common)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/RNASeq Splice Junctions (common)/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "category": "Expression",
+         "maxExportSpan" : 50000000,
+         "label" : "RNASeq Splice Junctions (common)"
+      }
+   ]
+}
