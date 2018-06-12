@@ -43,6 +43,7 @@
             "className" : "feature",
             "color" : "{intronColorOther}",
             "description" : "none",
+            "labelScale" : 1,
             "label" : "function(f) {var score = f.get('score'); var name = f.get('Name'); if (typeof score === undefined) {return name;} return score+' reads';  }",
             "height" : "function (f) {var score = f.get('logscore'); if(score < 2) {return 2;} var h=Math.floor(score); if (score > 100) {h = 50;} if (h == 0 || h == 1) {h=2;} return h; }",
             "strandArrow" : false
