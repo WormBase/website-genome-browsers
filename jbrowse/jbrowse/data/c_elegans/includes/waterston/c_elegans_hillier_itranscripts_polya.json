@@ -1,0 +1,312 @@
+{
+  "tracks": [
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "Adult spe-9 confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Adult spe-9 confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "Adult spe-9 confirmed polyA (from Integrated Transcripts)"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "dauer daf-2 25dC 91hrs confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/dauer daf-2 25dC 91hrs confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "dauer daf-2 25dC 91hrs confirmed polyA (from Integrated Transcripts)"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "dauer entry daf-2 25dC 48hrs confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/dauer entry daf-2 25dC 48hrs confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "dauer entry daf-2 25dC 48hrs confirmed polyA (from Integrated Transcripts)"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed polyA (from Integrated Transcripts)"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "early embryo confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/early embryo confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "early embryo confirmed polyA (from Integrated Transcripts)"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "embryo him-8 confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/embryo him-8 confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "embryo him-8 confirmed polyA (from Integrated Transcripts)"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "late embryo confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/late embryo confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "late embryo confirmed polyA (from Integrated Transcripts)"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "mid-L1 lin-35 confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L1 lin-35 confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "mid-L1 lin-35 confirmed polyA (from Integrated Transcripts)"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "male mid-L4 dpy28 him-8 25dC 30hrs confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/male mid-L4 dpy28 him-8 25dC 30hrs confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "male mid-L4 dpy28 him-8 25dC 30hrs confirmed polyA (from Integrated Transcripts)"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "mid-L1 confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L1 confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "mid-L1 confirmed polyA (from Integrated Transcripts)"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "mid-L2 confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L2 confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "mid-L2 confirmed polyA (from Integrated Transcripts)"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "mid-L3 confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L3 confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "mid-L3 confirmed polyA (from Integrated Transcripts)"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "mid-L4 confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L4 confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "mid-L4 confirmed polyA (from Integrated Transcripts)"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "red",
+        "height": 5,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/polyA_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var score = this.feature.get('score'); var name = this.feature.get('Id'); if (score) {return name+' (Score:'+score+') '+predstatus; } return name;  }",
+        "title": ""
+      },
+      "key": "Young Adult confirmed polyA (from Integrated Transcripts)",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Young Adult confirmed polyA (from Integrated Transcripts)/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Waterston Group/Integrated Transcripts/PolyA",
+      "type": "CanvasFeatures",
+      "label": "Young Adult confirmed polyA (from Integrated Transcripts)"
+    }
+  ]
+}

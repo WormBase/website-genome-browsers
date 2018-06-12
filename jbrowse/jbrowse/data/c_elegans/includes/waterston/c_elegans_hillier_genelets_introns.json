@@ -1,0 +1,422 @@
+{
+  "tracks": [
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "Adult Harposporium control exp. OP50 2-24hrs confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Adult Harposporium control exp. OP50 2-24hrs confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Adult Harposporium control exp. OP50 2-24hrs confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "Adult Harposporium exp. 2-24hrs confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Adult Harposporium exp. 2-24hrs confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Adult Harposporium exp. 2-24hrs confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "Adult S.macescens control exp. OP50 1-24hrs confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Adult S.macescens control exp. OP50 1-24hrs confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Adult S.macescens control exp. OP50 1-24hrs confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "Adult S.macescens Db10 exp. 1-24hrs confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Adult S.macescens Db10 exp. 1-24hrs confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Adult S.macescens Db10 exp. 1-24hrs confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "Adult spe-9 confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Adult spe-9 confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Adult spe-9 confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "dauer daf-2 25dC 91hrs confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/dauer daf-2 25dC 91hrs confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "dauer daf-2 25dC 91hrs confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "dauer entry daf-2 25dC 48hrs confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/dauer entry daf-2 25dC 48hrs confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "dauer entry daf-2 25dC 48hrs confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "dauer exit daf-2 25dC 91hrs 15dC 12hrs confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "early embryo confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/early embryo confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "early embryo confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "embryo him-8 confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/embryo him-8 confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "embryo him-8 confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "L4 soma no DNAse I confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/L4 soma no DNAse I confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "L4 soma no DNAse I confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "late embryo confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/late embryo confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "late embryo confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "mid-L1 lin-35 confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L1 lin-35 confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "mid-L1 lin-35 confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "male mid-L4 dpy28 him-8 25dC 30hrs confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/male mid-L4 dpy28 him-8 25dC 30hrs confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "male mid-L4 dpy28 him-8 25dC 30hrs confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "mid-L1 confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L1 confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "mid-L1 confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "mid-L2 confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L2 confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "mid-L2 confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "mid-L3 confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L3 confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "mid-L3 confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "mid-L4 confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/mid-L4 confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "mid-L4 confirmed introns"
+    },
+    {
+      "style": {
+        "className": "feature",
+        "color": "lightgrey",
+        "height": 9,
+        "label": "function(f) {var name = f.get('Id'); var clean = name.replace(/intron_/, ''); var cleaner = clean.replace(/_[-+]_wb170/, ''); return cleaner; }"
+      },
+      "onClick": {
+        "action": "contentDialog",
+        "url": "",
+        "label": "function() {var predstatus = this.feature.get('prediction_status'); var name = this.feature.get('Id'); return name+' '+predstatus; }",
+        "title": ""
+      },
+      "category": "modENCODE/Waterston Group/Genelets/Introns",
+      "key": "Young Adult confirmed introns",
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Young Adult confirmed introns/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "Young Adult confirmed introns"
+    }
+  ]
+}
