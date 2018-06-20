@@ -159,6 +159,22 @@ RUN ls -la \
  && ./Build test \
  && ./Build install 
 
+#
+# The contents of the GBrowse diretory in github will have to be modified to use the
+# default directories, and the apache config in conf.d will have to be modified
+# and placed in git (how is it not already!!)
+#
+# Hopefully this will result in a cleaner install.
+#
+#RUN cd / ; \
+#    git clone https://github.com/WormBase/website-genome-browsers.git ; \
+#    cd website-genome-browsers ; \
+#    git checkout dockertest ; \
+#    cp -R gbrowse/* /etc/gbrowse2
+#    cp gbrowse2.conf /etc/httpd/conf.d
+     
+
+
 #this stuff will have to be modified for us
 #COPY gbrowse2.conf /etc/httpd/conf.d/gbrowse2.conf
 #COPY gbrowse_entrypoint.sh /usr/local/bin/gbrowse_entrypoint.sh
