@@ -85,32 +85,19 @@ RUN perl Build.PL \
  && ./Build test \
  && ./Build install 
 
-#not necessary?
-#EXPOSE 80
-
-#shouldn't be necessary
-#RUN a2enmod fcgid
-
-#RUN rm /etc/apache2/conf-enabled/gbrowse.conf 
-#RUN cp /etc/apache2/conf-available/gbrowse.conf  /etc/apache2/conf-enabled/gbrowse.conf 
-
 RUN a2enmod cgid
 
-CMD ["/usr/sbin/apache2ctl","-D", "FOREGROUND"]
-#ENTRYPOINT ["/usr/sbin/apache2"] & CMD ["-D", "FOREGROUND"]
-#
-# The contents of the GBrowse diretory in github will have to be modified to use the
 # default directories, and the apache config in conf.d will have to be modified
 # and placed in git (how is it not already!!)
 #
 # Hopefully this will result in a cleaner install.
 #
-#RUN cd / ; \
-#    git clone https://github.com/WormBase/website-genome-browsers.git ; \
-#    cd website-genome-browsers ; \
-#    git checkout dockertest ; \
-#    cp -R gbrowse/* /etc/gbrowse2
-#    cp gbrowse2.conf /etc/httpd/conf.d
+RUN cd / ; \
+    git clone https://github.com/WormBase/website-genome-browsers.git ; \
+    cd website-genome-browsers ; \
+    git checkout dockertest ; \
+    cp -R gbrowse/* /etc/gbrowse
+    cp gbrowse/gbrowse_apache.conf /etc/apache2/conf-enabled
      
 
 
@@ -119,3 +106,4 @@ CMD ["/usr/sbin/apache2ctl","-D", "FOREGROUND"]
 #COPY gbrowse_entrypoint.sh /usr/local/bin/gbrowse_entrypoint.sh
 #ENTRYPOINT ["/usr/local/bin/gbrowse_entrypoint.sh"]
 
+CMD ["/usr/sbin/apache2ctl","-D", "FOREGROUND"]
