@@ -96,8 +96,9 @@ RUN cd / ; \
     git clone https://github.com/WormBase/website-genome-browsers.git ; \
     cd website-genome-browsers ; \
     git checkout dockertest ; \
-    cp -R gbrowse/* /etc/gbrowse
-    cp gbrowse/gbrowse_apache.conf /etc/apache2/conf-enabled
+    cp -R gbrowse/* /etc/gbrowse ; \
+    cp gbrowse/gbrowse_apache.conf /etc/apache2/conf-enabled/gbrowse.conf ; \
+    rm /etc/apache2/conf-enabled/serve-cgi-bin.conf
      
 
 
