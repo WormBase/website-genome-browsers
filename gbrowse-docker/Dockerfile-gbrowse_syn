@@ -32,8 +32,8 @@ RUN apt-get install -y gbrowse \
                        gbrowse-calign \
                        gbrowse-data \
                        apache2 \
-                       libapache2-mod-fcgid \
-                       libfcgi-perl \
+                #       libapache2-mod-fcgid \
+                #       libfcgi-perl \
                        libssl-dev \
                        libpng-dev \
                        libmysqlclient-dev \
@@ -47,7 +47,7 @@ RUN cd / ; \
     cd website-genome-browsers ; \
     git checkout dockertest ; \
     cp -R gbrowse/* /etc/gbrowse ; \
-    cp gbrowse/gbrowse_apache.conf /etc/apache2/conf-enabled/gbrowse.conf ; \
+    cp gbrowse/gbrowse_syn_apache.conf /etc/apache2/conf-enabled/gbrowse.conf ; \
     rm /etc/apache2/conf-enabled/serve-cgi-bin.conf
 
 CMD ["/usr/sbin/apache2ctl","-D", "FOREGROUND"]
