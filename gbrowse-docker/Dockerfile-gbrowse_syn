@@ -48,6 +48,9 @@ RUN cd / ; \
     git checkout dockertest ; \
     cp -R gbrowse/* /etc/gbrowse ; \
     cp gbrowse/gbrowse_syn_apache.conf /etc/apache2/conf-enabled/gbrowse.conf ; \
-    rm /etc/apache2/conf-enabled/serve-cgi-bin.conf
+    rm /etc/apache2/conf-enabled/serve-cgi-bin.conf ; \
+    mkdir -p /var/cache/gbrowse/images ; \
+    chown -R www-data /var/cache/gbrowse/images ; \
+    chown -R www-data /var/www/html
 
 CMD ["/usr/sbin/apache2ctl","-D", "FOREGROUND"]
