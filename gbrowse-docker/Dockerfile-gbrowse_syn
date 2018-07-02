@@ -2,7 +2,7 @@
 #FROM comics/centos
 #MAINTAINER Ian Merrick <MerrickI@Cardiff.ac.uk>
 #FROM wormbase/website-genome-browsers
-FROM ubuntu:18.10
+FROM ubuntu:14.04
 MAINTAINER Scott Cain <scott.cain@wormbase.org>
 
 ##############################################################
@@ -40,15 +40,20 @@ RUN apt-get install -y gbrowse \
                        libmysql-cil-dev \
                        libmodule-build-perl
 
-RUN a2enmod cgid
+#RUN a2enmod cgid
+
+
+#DON'T do this; it doesn't just turn off mod_perl, it
+#disables cgi perl
+#RUN a2dismod perl
 
 RUN cd / ; \
     git clone https://github.com/WormBase/website-genome-browsers.git ; \
     cd website-genome-browsers ; \
     git checkout dockertest ; \
     cp -R gbrowse/* /etc/gbrowse ; \
-    cp gbrowse/gbrowse_syn_apache.conf /etc/apache2/conf-enabled/gbrowse.conf ; \
-    rm /etc/apache2/conf-enabled/serve-cgi-bin.conf ; \
+    cp gbrowse/gbrowse_syn_apache.conf /etc/apache2/conf-enabled/gbrowse_apache2.conf ; \
+    rm /etc/apache2/conf-enabled/gbrowse_apache2.conf ; \ 
     mkdir -p /var/cache/gbrowse/images ; \
     chown -R www-data /var/cache/gbrowse/images ; \
     chown -R www-data /var/www/html
