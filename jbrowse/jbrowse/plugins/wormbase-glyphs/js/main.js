@@ -18,6 +18,8 @@ function (
 //            }, 25000);
 
 
+         var browser = this.browser;
+         if( browser.config.show_menu && browser.config.show_nav ) {
             JBrowse.afterMilestone('completely initialized', function() {
                 var url    = location.href;
   console.log(url);
@@ -34,6 +36,7 @@ function (
                 parent.innerHTML = wb_logo + mod_str + parent.innerHTML;
                 
             });
+          }
         }
     });
 });
