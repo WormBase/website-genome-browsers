@@ -305,7 +305,7 @@ push @include, "includes/DNA.json";
 
 #make a symlink to the organisms include file
 unless (-e "$DATADIR/../organisms.conf") {
-    symlink $ORGANISMS, "$DATADIR/../organisms.conf" or $log->error( $!);
+    copy( $ORGANISMS, "$DATADIR/../organisms.conf") or $log->error( $!);
 }
 unless (-e "browser_data") {
     symlink $BROWSER_DATA, "browser_data" or $log->error( $!);
@@ -320,7 +320,7 @@ if (!-e "$JBROWSEDIR/full.html") {
     copy   ("$JBROWSEREPO/index.html",   "$JBROWSEDIR/index.html");
     unlink  "$JBROWSEDIR/jbrowse.conf";
     copy   ("$JBROWSEREPO/jbrowse.conf", "$JBROWSEDIR/jbrowse.conf");
-    symlink "/usr/local/wormbase/website-shared-files/images", "$JBROWSEDIR/images";
+    symlink "/home/ubuntu/staging/jbrowse/images", "$JBROWSEDIR/images";
     dircopy("$JBROWSEREPO/plugins/fullscreen-jbrowse",         "$JBROWSEDIR/plugins/fullscreen-jbrowse");
     dircopy("$JBROWSEREPO/plugins/wormbase-glyphs",            "$JBROWSEDIR/plugins/wormbase-glyphs");
     dircopy("$JBROWSEREPO/plugins/HideTrackLabels",            "$JBROWSEDIR/plugins/HideTrackLabels");
@@ -431,7 +431,7 @@ unless (-e "$DATADIR/includes") {
 }
 #make a symlink to the functions
 unless (-e "$DATADIR/../functions.conf") {
-    symlink $FUNCTIONS, "$DATADIR/../functions.conf" or $log->error( $!); 
+    copy( $FUNCTIONS, "$DATADIR/../functions.conf") or $log->error( $!); 
 }
 
 
@@ -471,7 +471,7 @@ if (!-e "$JBROWSEDIR/../jbrowse-simple") {
         symlink "../jbrowse/$file", $file;
     }
     #get the simple jbrowse.conf
-    symlink "$JBROWSEREPO/jbrowse-simple.conf", "jbrowse.conf";
+    copy( "$JBROWSEREPO/jbrowse-simple.conf", "jbrowse.conf");
 }
 
 #clean up temporary gff files
