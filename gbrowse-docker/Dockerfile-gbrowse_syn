@@ -1,0 +1,61 @@
+#based on:
+#FROM comics/centos
+#MAINTAINER Ian Merrick <MerrickI@Cardiff.ac.uk>
+#FROM wormbase/website-genome-browsers
+FROM ubuntu:14.04
+MAINTAINER Scott Cain <scott.cain@wormbase.org>
+
+##############################################################
+# Dockerfile Version:   0.1
+# Software:             gbrowse_syn
+# Software Version:     latest available in CPAN
+# Software Website:     https://github.com/GMOD/GBrowse
+# Description:          the Generic Genome Browser
+##############################################################
+
+RUN apt-get update
+
+#for some reason, this has to be installed by itself
+RUN apt-get install -y tzdata
+
+RUN apt-get install -y apt-utils
+
+RUN apt-get install -y wget \
+                       unzip \
+                       git \
+                       make \
+                       gcc \
+                       vim \
+                       uuid-dev
+
+RUN apt-get install -y gbrowse \
+                       gbrowse-calign \
+                       gbrowse-data \
+                       apache2 \
+                #       libapache2-mod-fcgid \
+                #       libfcgi-perl \
+                       libssl-dev \
+                       libpng-dev \
+                       libmysqlclient-dev \
+                       libmysql-cil-dev \
+                       libmodule-build-perl
+
+#RUN a2enmod cgid
+
+
+#DON'T do this; it doesn't just turn off mod_perl, it
+#disables cgi perl
+#RUN a2dismod perl
+
+RUN cd / ; \
+    git clone https://github.com/WormBase/website-genome-browsers.git ; \
+    cd website-genome-browsers ; \
+    git checkout dockertest ; \
+    cp -R gbrowse/* /etc/gbrowse ; \
+    cp gbrowse/gbrowse_syn_apache.conf /etc/apache2/conf-enabled/gbrowse_apache2.conf ; \
+    rm /etc/apache2/conf-enabled/gbrowse_apache2.conf ; \ 
+    mkdir -p /var/cache/gbrowse/images ; \
+    chown -R www-data /var/cache/gbrowse/images ; \
+    chown -R www-data /var/www/html
+
+CMD ["/usr/sbin/apache2ctl","-D", "FOREGROUND"]
