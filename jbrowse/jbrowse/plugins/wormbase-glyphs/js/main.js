@@ -33,10 +33,11 @@ function (
                 }
                 var parent = document.getElementById('dijit_layout_ContentPane_2');
                 //console.log('parent is '+parent.innerHTML);
-                parent.innerHTML = wb_logo + mod_str + parent.innerHTML;
-                
+                //parent.innerHTML = wb_logo + mod_str + parent.innerHTML;
+                dojo.place(wb_logo + mod_str, parent, "first");
             });
           }
+
         }
     });
 });
