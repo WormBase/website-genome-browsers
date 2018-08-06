@@ -12,18 +12,18 @@ with room to build (currently, a jbrowse build takes about 30GB).
 
 2. Build GBrowse config files:
 
-2a. Run website-admin/update/staging/steps/create_gbrowse_configuration.pl 
+a. Run website-admin/update/staging/steps/create_gbrowse_configuration.pl 
     with --release WSnumber and --path pointing at the new git clone,
     new_gbrowse_release_clone/gbrowse.  This process will take a while
     but generally less than 30 minutes.
 
-2b. Add, commit and push the newly created release directory as well as all
+b. Add, commit and push the newly created release directory as well as all
     of the updated symlinks in the main directory. The remaining tasks
     will take place on the gbrowse.wormbase.org server.
 
 3. Build JBrowse.  This is a much more involved process at the moment.
 
-3a. Create a shell script to run the make_jbrowse.pl script for each species.
+a. Create a shell script to run the make_jbrowse.pl script for each species.
 The lines will look something like
 
       make_jbrowse.pl --conf c_elegans.jbrowse.conf --quiet --species c_japonica_PRJNA12591
@@ -39,38 +39,38 @@ This makes the config for the the gene page instance of jbrowse.
 
 **Add a note about building the 'old modencode' jbrowse too!**
 
-3b. Run the build script inside a screen process.  It will take a while
+b. Run the build script inside a screen process.  It will take a while
     to run, generally in the ballpark of 12 hours.
 
 4. Transfer the GBrowse build results to the gbrowse.wormbase.org
    server's staging section:
 
-4a. In gbrowse.wormbase.org:staging/gbrowse/website-genome-browsers, 
+a. In gbrowse.wormbase.org:staging/gbrowse/website-genome-browsers, 
     checkout the release version branch for gbrowse. Restart apache2
     so that it will reread the config files.
 
-4b. Once you're convinced that this build is good, create a pull request
+b. Once you're convinced that this build is good, create a pull request
     to merge the release version branch into the staging branch.
 
-4c. Checkout the staging branch on the gbrowse server.
+c. Checkout the staging branch on the gbrowse server.
 
 5. Transfer the JBrowse build results to the gbrowse.wormbase.org
    server's staging section:
 
-5a. Use rsync to transfer the JBrowse build directory (from "tools" down)
+a. Use rsync to transfer the JBrowse build directory (from "tools" down)
     to the gbrowse server, like this:
 
-    `rsync -av 10.0.0.172:/home/scain/scain/266_build/jbrowse_build/jbrowse/ .`
+    rsync -av 10.0.0.172:/home/scain/scain/266_build/jbrowse_build/jbrowse/ .
 
-    It should be done into a temp or versioned directory, like '266_jbrowse'.
+It should be done into a temp or versioned directory, like '266_jbrowse'.
 
-5b. Change the 'tools' symlink in /home/ubuntu/staging/jbrowse/ to point
+b. Change the 'tools' symlink in /home/ubuntu/staging/jbrowse/ to point
     at the tools directory just rsync'ed.
 
-5c. Test the JBrowse release in a browser with caching disabled to make
+c. Test the JBrowse release in a browser with caching disabled to make
     sure that the new code and data are used.
 
-5d. Note that most of the time, there is no need to update the jbrowse
+d. Note that most of the time, there is no need to update the jbrowse
     git repo, but be careful to be sure that's true. The only release
     specific thing that needs to be done is to update the release version
     in the index.html file, which is easy to do manually.
