@@ -307,6 +307,9 @@ push @include, "includes/DNA.json";
 unless (-e "$DATADIR/../organisms.conf") {
     copy( $ORGANISMS, "$DATADIR/../organisms.conf") or $log->error( $!);
 }
+unless (-e "$DATADIR/../old-modencode") {
+    symlink "$JBROWSEREPO/data/old-modencode", "old-modencode" or $log->error($!);
+}
 unless (-e "browser_data") {
     symlink $BROWSER_DATA, "browser_data" or $log->error( $!);
 }
