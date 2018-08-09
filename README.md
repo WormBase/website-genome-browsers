@@ -81,3 +81,16 @@ is always only one copy of the JBrowse data on the server, and it's in the
 staging directory.  The only thing that happens for production is to update
 the tools link.
 
+Important paths on the server
+=============================
+
+Obviously, in the ubuntu user's home directory are staging and production
+directories.
+
+/etc/apache2/sites-available - contains apache VIRTUALHOST configs for GBrowse, GBrowse_syn, and JBrowse.  This should be in the repo somewhere but currently are not.
+
+/etc/apache2/conf-available - more apache configs for GBrowse where paths and aliases are set.
+
+/usr/share/perl5/Bio/Graphics/Browser2 - where the perl code for GBrowse resides.  Yes, I have edited this manually to fix bugs even though it's under apt control.
+
+
