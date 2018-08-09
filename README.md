@@ -18,13 +18,13 @@ with room to build (currently, a jbrowse build takes about 30GB).
     but generally less than 30 minutes.
 
    b. Add, commit and push the newly created release directory as well as all
-    of the updated symlinks in the main directory. The remaining tasks
+    of the updated symlinks in the main directory. The remaining GBrowse tasks
     will take place on the gbrowse.wormbase.org server.
 
 3. Build JBrowse.  This is a much more involved process at the moment.
 
    a. Create a shell script to run the make_jbrowse.pl script for each species.
-The lines will look something like ```make_jbrowse.pl --conf c_elegans.jbrowse.conf --quiet --species c_japonica_PRJNA12591``` Note the the the "c_elegans.jbrowse.conf" comes from the repo, at website-genome-browsers/jbrowse/conf/c_elegans.jbrowse.conf. I usually make a local copy to update the path to the fresh jbrowse and the release number.  Don't forget to add a "simple" line to the build shell script, like ```make_jbrowse.pl --conf c_elegans.jbrowse.conf --quiet --simple``` This makes the config for the the gene page instance of jbrowse.  **Add a note about building the 'old modencode' jbrowse too!**
+The lines will look something like ```make_jbrowse.pl --conf c_elegans.jbrowse.conf --quiet --species c_japonica_PRJNA12591``` Note the the the "c_elegans.jbrowse.conf" comes from the repo, at website-genome-browsers/jbrowse/conf/c_elegans.jbrowse.conf. I usually make a local copy to update the path to the fresh jbrowse and the release number.  Don't forget to add a "simple" line to the build shell script, like ```make_jbrowse.pl --conf c_elegans.jbrowse.conf --quiet --simple``` This makes the config for the the gene page instance of jbrowse.
 
    b. Run the build script inside a screen process.  It will take a while
     to run, generally in the ballpark of 12 hours.
