@@ -15,10 +15,12 @@ return declare( JBrowsePlugin,
     constructor: function( args ) {
 		
 		var thisBrowser = this.browser;
-       		var switchSelector = this.makeSelectorButton();
+
+                if (thisBrowser.config.show_menu && thisBrowser.config.show_nav) {
+       		  var switchSelector = this.makeSelectorButton();
 		
 
-		thisBrowser.afterMilestone('initView', function() {
+		  thisBrowser.afterMilestone('initView', function() {
 	
 			var myMenu = thisBrowser.menuBar;
 			
@@ -26,7 +28,8 @@ return declare( JBrowsePlugin,
 
 			myMenu.appendChild(switchSelector);
 		
-		})
+		  })
+                }
         
 		console.log( "switcher plugin added" );
 	},

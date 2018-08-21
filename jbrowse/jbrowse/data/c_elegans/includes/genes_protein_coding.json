@@ -10,6 +10,7 @@
             "shortInfo" : "This track shows protein coding gene transcripts with the CDS portions colored by frame usage. Note that the color coding corresponds to the same color coding in the 'reference sequence' track.  So that, for example, the light blue exons correspond to the the first translation frame in the reference sequence track.  NOTE THAT THIS FEATURE IS STILL IN BETA."
          },
          "category" : "Genes/Curated Genes",
+         "maxHeight" : 2500,
          "glyph" : "ColorByCDS/View/FeatureGlyph/ProcessedTranscript"
       },
       {

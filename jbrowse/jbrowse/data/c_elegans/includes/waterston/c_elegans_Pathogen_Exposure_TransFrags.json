@@ -1,0 +1,166 @@
+{
+  "tracks": [
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "all",
+      "track": "Pathogen Exposure: TransFrags OG1RF_24h",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Pathogen Exposure: TransFrags OG1RF_24h",
+      "feature": [
+        "transcript_region:3706_details"
+      ],
+      "metadata": {
+        "shortInfo": "Pathogen exposure post-adulthood N2 tiling_array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commercially available genome tiling arrays. To understand how bacterial pathogens taken up by C. elegans may affect transcription, we grew young adult worms on various pathogenic bacterial strains for either 24 or 48 hours and measured transcription levels.  Simultaneously, young adult worms were also grown on non-pathogenic bacteria (OP50) as controls."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Pathogen Exposure: TransFrags OG1RF_24h/{refseq}/trackData.json",
+      "compress": 0,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "type": "CanvasFeatures",
+      "label": "Pathogen Exposure: TransFrags OG1RF_24h"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "all",
+      "track": "Pathogen Exposure: TransFrags OP50_48h",
+      "style": {
+        "className": "feature",
+        "color": "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
+        "showLabels": false,
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Pathogen Exposure: TransFrags OP50_48h",
+      "feature": [
+        "transcript_region:3734_details"
+      ],
+      "metadata": {
+        "shortInfo": "Pathogen exposure post-adulthood N2 tiling_array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commercially available genome tiling arrays. To understand how bacterial pathogens taken up by C. elegans may affect transcription, we grew young adult worms on various pathogenic bacterial strains for either 24 or 48 hours and measured transcription levels.  Simultaneously, young adult worms were also grown on non-pathogenic bacteria (OP50) as controls."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Pathogen Exposure: TransFrags OP50_48h/{refseq}/trackData.json",
+      "compress": 0,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "label": "Pathogen Exposure: TransFrags OP50_48h",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "all",
+      "track": "Pathogen Exposure: TransFrags Hb_24h",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Pathogen Exposure: TransFrags Hb_24h",
+      "feature": [
+        "transcript_region:3709_details"
+      ],
+      "metadata": {
+        "shortInfo": "Pathogen exposure post-adulthood N2 tiling_array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commercially available genome tiling arrays. To understand how bacterial pathogens taken up by C. elegans may affect transcription, we grew young adult worms on various pathogenic bacterial strains for either 24 or 48 hours and measured transcription levels.  Simultaneously, young adult worms were also grown on non-pathogenic bacteria (OP50) as controls."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Pathogen Exposure: TransFrags Hb_24h/{refseq}/trackData.json",
+      "compress": 0,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "label": "Pathogen Exposure: TransFrags Hb_24h",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "all",
+      "track": "Pathogen Exposure: TransFrags Db_48h",
+      "style": {
+        "className": "feature",
+        "color": "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
+        "showLabels": false,
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Pathogen Exposure: TransFrags Db_48h",
+      "feature": [
+        "transcript_region:3722_details"
+      ],
+      "metadata": {
+        "shortInfo": "Pathogen exposure post-adulthood N2 tiling_array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commercially available genome tiling arrays. To understand how bacterial pathogens taken up by C. elegans may affect transcription, we grew young adult worms on various pathogenic bacterial strains for either 24 or 48 hours and measured transcription levels.  Simultaneously, young adult worms were also grown on non-pathogenic bacteria (OP50) as controls."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Pathogen Exposure: TransFrags Db_48h/{refseq}/trackData.json",
+      "compress": 0,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "type": "CanvasFeatures",
+      "label": "Pathogen Exposure: TransFrags Db_48h"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "all",
+      "track": "Pathogen Exposure: TransFrags Db_24h",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Pathogen Exposure: TransFrags Db_24h",
+      "feature": [
+        "transcript_region:3723_details"
+      ],
+      "metadata": {
+        "shortInfo": "Pathogen exposure post-adulthood N2 tiling_array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commercially available genome tiling arrays. To understand how bacterial pathogens taken up by C. elegans may affect transcription, we grew young adult worms on various pathogenic bacterial strains for either 24 or 48 hours and measured transcription levels.  Simultaneously, young adult worms were also grown on non-pathogenic bacteria (OP50) as controls."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Pathogen Exposure: TransFrags Db_24h/{refseq}/trackData.json",
+      "compress": 0,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "label": "Pathogen Exposure: TransFrags Db_24h",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "all",
+      "track": "Pathogen Exposure: TransFrags OP50_24h",
+      "style": {
+        "className": "feature",
+        "color": "function(feature) { var score = feature.get('score'); if(score>0.2) {score = 0.2;} if (score <0.01) {score = 0.01;} var blueness = 255*(0.2-score)/0.2; var color = '#' + (Math.round(blueness)).toString(16) + (Math.round(blueness)).toString(16) + 'FF'; return color;  }",
+        "showLabels": false,
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "Pathogen Exposure: TransFrags OP50_24h",
+      "feature": [
+        "transcript_region:3724_details"
+      ],
+      "metadata": {
+        "shortInfo": "Pathogen exposure post-adulthood N2 tiling_array. Our experiments are designed to detect all C. elegans transcripts by hybridizing RNA to commercially available genome tiling arrays. To understand how bacterial pathogens taken up by C. elegans may affect transcription, we grew young adult worms on various pathogenic bacterial strains for either 24 or 48 hours and measured transcription levels.  Simultaneously, young adult worms were also grown on non-pathogenic bacteria (OP50) as controls."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/jbrowse/data/c_elegans/tracks/Pathogen Exposure: TransFrags OP50_24h/{refseq}/trackData.json",
+      "compress": 0,
+      "category": "modENCODE/Waterston Group/Tiling Array",
+      "type": "CanvasFeatures",
+      "label": "Pathogen Exposure: TransFrags OP50_24h"
+    }
+  ]
+}

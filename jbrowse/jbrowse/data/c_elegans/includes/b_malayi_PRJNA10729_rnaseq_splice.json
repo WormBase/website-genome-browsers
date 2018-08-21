@@ -41,7 +41,7 @@
          },
          "style" : {
             "className" : "feature",
-            "color" : "{intronColor}",
+            "color" : "{intronColorOther}",
             "description" : "none",
             "labelScale" : 1,
             "label" : "function(f) {var score = f.get('score'); var name = f.get('Name'); if (typeof score === undefined) {return name;} return score+' reads';  }",
@@ -57,7 +57,7 @@
          "category": "Expression",
          "maxExportSpan" : 50000000,
          "metadata" : {
-            "shortInfo" : "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'rare' in that there are more than 500 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads."
+            "shortInfo" : "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'rare' in that there are fewer than 20 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads."
          },
          "label" : "RNASeq Splice Junctions (rare)"
       },
@@ -71,7 +71,7 @@
          },
          "style" : {
             "className" : "feature",
-            "color" : "{intronColor}",
+            "color" : "{intronColorOther}",
             "description" : " ",
             "height" : 10,
             "labelScale" : 1,
@@ -87,7 +87,7 @@
          "category": "Expression",
          "maxExportSpan" : 50000000,
          "metadata" : {
-            "shortInfo" : "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'common' in that there are more than 500 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads."
+            "shortInfo" : "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'common' in that there are more than 20 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads."
          },
          "label" : "RNASeq Splice Junctions (common)"
       }

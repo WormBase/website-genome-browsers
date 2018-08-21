@@ -1,0 +1,764 @@
+{
+  "tracks": [
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, dauer entry daf-2",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3343_dauer_entry_daf-2_25dC_48hrs_post-L1.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, dauer entry daf-2",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, Young Adult",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3346_Young_Adult_25dC_46hrs_post-L1.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, Young Adult",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, dauer daf-2",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3332_dauer_daf-2_25dC_91hrs_post-L1.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, dauer daf-2",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, Harposporium exp. 2-24hrs",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/5137_Adult_Harposporium_exposed_2_24hrs.raw_covg.ws170.cleaned.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, Harposporium exp. 2-24hrs",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, early embryo",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3276_early_embryo.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, early embryo",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, mid-L4",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/4005_N2_EE_50-720.sam.gz.bam.sorted.minus.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, mid-L4",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, late embryo",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3301_late_embryo.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, late embryo",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, Adult spe-9",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3337_embryo_him-8_20dC_post-L1.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, Adult spe-9",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, Harposporium cntr exp. OP50 2-24hrs",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/5138_Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, Harposporium cntr exp. OP50 2-24hrs",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, mid-L3",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/4006_L1.sam.gz.bam.sorted.minus.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, mid-L3",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, S.macescens cntr exp. OP50 1-24hrs",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/5140_Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.raw_covg.ws170.cleaned.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, S.macescens cntr exp. OP50 1-24hrs",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, mid-L2",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3930_mid-L2_25dC_14hrs_post-L1.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, mid-L2",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, dauer exit daf-2",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3331_dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, dauer exit daf-2",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, male mid-L4 dpy28 him8",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3308_male_mid-L4_25dC_30hrs_post-L1.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, male mid-L4 dpy28 him8",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, Adult spe-9",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3313_Adult_spe-9_23dC_8days_post-L4_molt.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, Adult spe-9",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, S.macescens Db10 exp. 1-24hrs",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/5100_Adult_S_macescens_Db10_exposed_1_24hrs.raw_covg.ws170.cleaned.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, S.macescens Db10 exp. 1-24hrs",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, mid-L1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3319_mid-L1_20dC_4hrs_post-L1.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, mid-L1",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, mid-L1 lin-35",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3315_lin-35.n745._mid-L1_25dC_4.0hrs_post-L1.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, mid-L1 lin-35",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq raw coverage, L4 soma no DNAse I",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/4603_L4_soma_JK1107_no_DNaseI.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq raw coverage, L4 soma no DNAse I",
+      "max_score": 2000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, Young Adult",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3347_Young_Adult_25dC_46hrs_post-L1.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, Young Adult",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, mid-L3",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/4008_mid-L3_25dC_25hrs_post-L1.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, mid-L3",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, dauer daf-2",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3335_dauer_daf-2_25dC_91hrs_post-L1.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, dauer daf-2",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, Harposporium cntr exp. OP50 2-24hrs",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/5141_Adult_Harposporium_control_EcoliOP50_exposed_2_24hrs.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, Harposporium cntr exp. OP50 2-24hrs",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, late embryo",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3309_late_embryo.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, late embryo",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, Harposporium exp. 2-24hrs",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/5139_Adult_Harposporium_exposed_2_24hrs.win_covg.ws170.cleaned.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, Harposporium exp. 2-24hrs",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, mid-L4",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3936_mid-L4_25dC_36hrs_post-L1.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, mid-L4",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, dauer exit daf-2",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3333_dauer_exit_daf-2_25dC_91hrs_15dC_12hrs_post-L1.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, dauer exit daf-2",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, early embryo",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3277_early_embryo.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, early embryo",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, male mid-L4 dpy28 him8",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3310_male_mid-L4_25dC_30hrs_post-L1.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, male mid-L4 dpy28 him8",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, Adult spe-9",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3314_Adult_spe-9_23dC_8days_post-L4_molt.raw_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, Adult spe-9",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, S.macescens cntr exp. OP50 1-24hrs",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/5147_Adult_S_macescens_Db10_control_EcoliOP50_exposed_1_24hrs.win_covg.ws170.cleaned.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, S.macescens cntr exp. OP50 1-24hrs",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, mid-L2",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/4007_N2_L1-1.sam.gz.bam.sorted.minus.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, mid-L2",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, Adult spe-9",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3338_embryo_him-8_20dC_post-L1.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, Adult spe-9",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, L4 soma no DNAse I",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/4604_L4_soma_JK1107_no_DNaseI.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, L4 soma no DNAse I",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, dauer entry daf-2",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3344_dauer_entry_daf-2_25dC_48hrs_post-L1.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, dauer entry daf-2",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base."
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, mid-L1 lin-35",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3317_lin-35.n745._mid-L1_25dC_4.0hrs_post-L1.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, mid-L1 lin-35",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base. "
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, mid-L1",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/3320_mid-L1_20dC_4hrs_post-L1.win_covg.ws170.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, mid-L1",
+      "max_score": 10000,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "C. elegans RNA-Seq sequences and alignments. Using polyA+ RNA isolated from C. elegans N2, we prepared and sheared double-stranded cDNA. A ~200 bp fraction was isolated and used to generate libraries for massively parallel sequencing on the Illumina instrument (36 bp reads). Using maq and cross_match, we aligned the reads to the genome and to splice junction and splice leader databases. Raw alignments show positions of uniquely mapping reads. Raw coverage files represent depth of coverage of read alignments. Windowed coverage represents the sum of the read coverage in a 51bp window surrounding each base. "
+      },
+      "variance_band": 0,
+      "key": "RNA-Seq windowed coverage, S.macescens Db10 exp. 1-24hrs",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "http://wormbase-modencode.s3-website-us-east-1.amazonaws.com/wiggle_binaries/waterston/5101_Adult_S_macescens_Db10_exposed_1_24hrs.win_covg.ws170.cleaned.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Waterston Group/RNA-Seq/Coverage",
+      "label": "RNA-Seq windowed coverage, S.macescens Db10 exp. 1-24hrs",
+      "max_score": 10000,
+      "min_score": 0
+    }
+  ]
+}
