@@ -74,6 +74,10 @@ To implement the move to production, for GBrowse all that needs to happen
 is a pull into the production branch checkout that is set up to serve
 GBrowse and restarting apache.
 
+***I just realized this won't work as described--the symlinks in the jbrowse
+directory will point at the staging branch, which could cause dev problems
+with the following release.  I'm not sure how I'll handle this.  One option 
+would be to write a script that would update all of the symlinks.***
 For JBrowse, all that needs to happen is to update the "tools" link in 
 /home/ubuntu/production/jbrowse to point at the appropriate version of the
 tools directory in /home/ubuntu/staging/jbrowse.  Note that this means there
