@@ -11,7 +11,15 @@
          },
          "category" : "Genes/Curated Genes",
          "maxHeight" : 2500,
-         "glyph" : "ColorByCDS/View/FeatureGlyph/ProcessedTranscript"
+         "glyph" : "ColorByCDS/View/FeatureGlyph/ProcessedTranscript",
+         "menuTemplate" : [
+           {
+           "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+           "iconClass" : "dijitIconDatabase",
+           "action" : "contentDialog",
+           "label" : "View Sequence"
+           }
+         ]
       },
       {
          "style" : {
