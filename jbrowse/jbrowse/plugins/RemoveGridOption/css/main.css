@@ -1,0 +1,10 @@
+.jbrowse.removegrid .gridline {
+	border: none
+}
+
+/* for pre 1.14 compatibility */
+.removegrid .gridline {
+	border: none
+}
+
+
