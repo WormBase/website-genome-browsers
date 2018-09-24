@@ -150,7 +150,7 @@ my $PRIMARY_SPECIES = "PRJNA13758";
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $JBROWSEREPO, $SKIPPREPARE, $ALLSTATS, $FILEDIR,
-    $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES,
+    $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES, $REMOTEREPO,
     $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE, $JBROWSESRC, $SKIPNAME);
 my %splitfiles;
 
@@ -166,6 +166,7 @@ GetOptions(
     'skipfilesplit'=>\$SKIPFILESPLIT,
     'jbrowsedir=s'=> \$JBROWSEDIR,
     'jbrowserepo=s'=>\$JBROWSEREPO,
+    'remoterepo=s'=> \$REMOTEREPO,
     'skipprepare' => \$SKIPPREPARE,
     'allstats=s'  => \$ALLSTATS,
     'jbrowsesrc=s'=> \$JBROWSESRC,
@@ -188,6 +189,7 @@ $FASTAFILE||= $Config->{_}->{fastafile};
 $DATADIR  ||= $Config->{_}->{datadir};
 $SKIPFILESPLIT ||= $Config->{_}->{skipfilesplit};
 $JBROWSEREPO= $Config->{_}->{jbrowserepo};
+$REMOTEREPO = $Config->{_}->{remoterepo};
 $NOSPLITGFF = $Config->{_}->{nosplitgff} unless defined $NOSPLITGFF;
 $USENICE    = $Config->{_}->{usenice}    unless defined $USENICE;
 $SKIPPREPARE= $Config->{_}->{skipprepare} unless defined $SKIPPREPARE;
@@ -308,7 +310,7 @@ unless (-e "$DATADIR/../organisms.conf") {
     copy( $ORGANISMS, "$DATADIR/../organisms.conf") or $log->error( $!);
 }
 unless (-e "$DATADIR/../old-modencode") {
-    symlink "$JBROWSEREPO/data/old-modencode", "old-modencode" or $log->error($!);
+    symlink "$REMOTEREPO/data/old-modencode", "old-modencode" or $log->error($!);
 }
 unless (-e "browser_data") {
     symlink $BROWSER_DATA, "browser_data" or $log->error( $!);
@@ -430,7 +432,7 @@ if (-e "$DATADIR/trackList.json") {
 
 #make a symlink to the includes dir
 unless (-e "$DATADIR/includes") {
-    symlink $INCLUDES, "$DATADIR/includes" or $log->error( $!);
+    symlink $INCLUDES, "$REMOTEREPO/includes" or $log->error( $!);
 }
 #make a symlink to the functions
 unless (-e "$DATADIR/../functions.conf") {
