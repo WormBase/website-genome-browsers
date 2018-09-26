@@ -4,7 +4,7 @@
          "chunkSize":80000,
          "compress":1,
          "storeClass":"JBrowse/Store/Sequence/StaticChunked",
-         "urlTemplate":"https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/b_malayi_PRJNA10729/seq/{refseq_dirpath}/{refseq}-",
+         "urlTemplate":"https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_briggsae_PRJNA10731/seq/{refseq_dirpath}/{refseq}-",
          "type":"SequenceTrack",
          "label":"DNA",
          "codonStarts" : "[ATG]",
