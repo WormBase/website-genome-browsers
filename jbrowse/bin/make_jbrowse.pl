@@ -150,7 +150,7 @@ my $PRIMARY_SPECIES = "PRJNA13758";
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $JBROWSEREPO, $SKIPPREPARE, $ALLSTATS, $FILEDIR,
-    $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES, $REMOTEREPO,
+    $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES, 
     $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE, $JBROWSESRC, $SKIPNAME);
 my %splitfiles;
 
@@ -166,7 +166,6 @@ GetOptions(
     'skipfilesplit'=>\$SKIPFILESPLIT,
     'jbrowsedir=s'=> \$JBROWSEDIR,
     'jbrowserepo=s'=>\$JBROWSEREPO,
-    'remoterepo=s'=> \$REMOTEREPO,
     'skipprepare' => \$SKIPPREPARE,
     'allstats=s'  => \$ALLSTATS,
     'jbrowsesrc=s'=> \$JBROWSESRC,
@@ -189,7 +188,6 @@ $FASTAFILE||= $Config->{_}->{fastafile};
 $DATADIR  ||= $Config->{_}->{datadir};
 $SKIPFILESPLIT ||= $Config->{_}->{skipfilesplit};
 $JBROWSEREPO= $Config->{_}->{jbrowserepo};
-$REMOTEREPO = $Config->{_}->{remoterepo};
 $NOSPLITGFF = $Config->{_}->{nosplitgff} unless defined $NOSPLITGFF;
 $USENICE    = $Config->{_}->{usenice}    unless defined $USENICE;
 $SKIPPREPARE= $Config->{_}->{skipprepare} unless defined $SKIPPREPARE;
@@ -298,6 +296,7 @@ if ($SIMPLE) {
 }
 
 #check to see if the seq directory is present; if not prepare-refseqs
+##TODO: skip this and use S3 sequences
 if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
     my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
     system("$nice $command") == 0 or $log->error( $!);
@@ -310,7 +309,7 @@ unless (-e "$DATADIR/../organisms.conf") {
     copy( $ORGANISMS, "$DATADIR/../organisms.conf") or $log->error( $!);
 }
 unless (-e "$DATADIR/../old-modencode") {
-    symlink "$REMOTEREPO/data/old-modencode", "old-modencode" or $log->error($!);
+    symlink "$JBROWSEREPO/data/old-modencode", "old-modencode" or $log->error($!);
 }
 unless (-e "browser_data") {
     symlink $BROWSER_DATA, "browser_data" or $log->error( $!);
@@ -345,6 +344,7 @@ if (!-e "$JBROWSEDIR/full.html") {
 
 
 #use original or split gff for many tracks
+#Basically, this for loop should probably never be used
 for my $section (@config_sections) {
     next unless $Config->{$section}->{origfile};
 
@@ -392,11 +392,13 @@ for my $section (@config_sections) {
 
 #check for species-specific include files
 my $only_species_name;
-if ($species =~ /^(\w_[a-z]+)_/) {
+my $bioproject;
+if ($species =~ /^(\w_[a-z]+)_(\w+)/) {
     $only_species_name = $1;
+    $bioproject = $2;
     $only_species_name = 'simple' if $SIMPLE;
 }
-if ($only_species_name) {
+if ($only_species_name and $bioproject ne 'PRJNA275000') {
     my @species_specific = glob("$INCLUDES/$only_species_name"."*");
     for (@species_specific) {
         #ack, in place edit of array elements
@@ -432,7 +434,7 @@ if (-e "$DATADIR/trackList.json") {
 
 #make a symlink to the includes dir
 unless (-e "$DATADIR/includes") {
-    symlink $INCLUDES, "$REMOTEREPO/includes" or $log->error( $!);
+    symlink $INCLUDES, "$JBROWSEREPO/includes" or $log->error( $!);
 }
 #make a symlink to the functions
 unless (-e "$DATADIR/../functions.conf") {
@@ -513,6 +515,9 @@ sub process_grep_track {
 
     if ($postprocess) {
         $gffout = $gffout.".out";
+        if (my $suffix = $config->{$section}->{suffix}) {
+            $gffout = "$gffout.$suffix";
+        }
     }
     
 
@@ -579,13 +584,28 @@ unless ($SKIPFILESPLIT) {
     my $greppattern ||= $Config->{$key}->{grep};
     my $postprocess ||= $Config->{$key}->{postprocess};
 
+    if ($postprocess) {
+        my @args = split / /, $postprocess;
+        my $command = $args[0];
+        my $arg   ||= $args[1];
+        if ($arg eq 'species') {
+            $arg = $SPECIES;
+        }
+        if (my $suffix = $Config->{$key}->{suffix}) {
+            $gffout = "$gffout.$suffix";
+        }
+
+        $postprocess = "$command $arg";
+        warn $postprocess;
+    }
+
     next if (-e $gffout);
 
-    $greppattern or next;
-
-    my $grepcommand = "grep -P \"$greppattern\" $GFFFILE > $gffout";
-    $log->warn( $grepcommand) unless $QUIET;
-    system ("$nice $grepcommand") == 0 or $log->error( "$GFFFILE: $!");
+    if ($greppattern) {
+        my $grepcommand = "grep -P \"$greppattern\" $GFFFILE > $gffout";
+        $log->warn( $grepcommand) unless $QUIET;
+        system ("$nice $grepcommand") == 0 or $log->error( "$GFFFILE: $!");
+    }
 
     if ($postprocess) {
         system("$nice $Bin/$postprocess $gffout") == 0 or $log->error( "postpressing $gffout: $!");
