@@ -178,6 +178,8 @@ system( 'pod2text', $0 ) unless $CONFIG;
 
 my $Config = Config::Tiny->read($CONFIG) or die $!;
 
+#print Dumper($Config);
+
 my @config_sections = grep {!/^_/} keys %{$Config}; 
 
 $SPECIES  ||= 'c_elegans';
@@ -369,7 +371,7 @@ for my $section (@config_sections) {
 #first process tracks that will be name indexed
 for my $section (@config_sections) {
     next unless $Config->{$section}->{index} == 1;
-    next unless $speciesdata{$species}{$section};
+    next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
 }
@@ -384,7 +386,7 @@ system("$nice bin/generate-names.pl --out $DATADIR --compress")
 
 for my $section (@config_sections) {
     next if $Config->{$section}->{index} == 1;
-    next unless $speciesdata{$species}{$section};
+    next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
 }
@@ -514,10 +516,11 @@ sub process_grep_track {
     }
 
     if ($postprocess) {
-        $gffout = $gffout.".out";
-        if (my $suffix = $config->{$section}->{suffix}) {
-            $gffout = "$gffout.$suffix";
+        my $suffix = "out";
+        if ($config->{$section}->{suffix}) {
+            $suffix = $config->{$section}->{suffix}; 
         }
+        $gffout = $gffout.".".$suffix;
     }
     
 
@@ -551,7 +554,7 @@ copy("$datapath/$GFFFILE.gz", '.') or $copyfailed = 1;
 copy("$datapath/$FASTAFILE.gz", '.') or $copyfailed = 1;
 
 if ($copyfailed == 1 and !$SIMPLE) {
-    die;
+    die "local copying of data files failed";
     #use ftp to fetch them
 
     my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
@@ -574,29 +577,39 @@ system("gunzip -f $FASTAFILE.gz");
 unless ($SKIPFILESPLIT) {
   for my $section (@config_sections) {
 
-    next unless $speciesdata{$species}{$section};
+    $log->debug($section);
+    if ($section =~ /RNASeq/i) {
+        $log->debug($section);
+        $log->debug("species data ",$speciesdata{$species}{$section});
+    }
 
     my $alt=$Config->{$section}->{altfile};
-
     my $key = $alt ? $alt : $section;
-
     my $gffout      ||= $Config->{$key}->{prefix} . "_$GFFFILE";
     my $greppattern ||= $Config->{$key}->{grep};
     my $postprocess ||= $Config->{$key}->{postprocess};
+    my $suffix      ||= $Config->{$section}->{suffix};
+
+    if ($suffix and -e $gffout) {
+        $postprocess ||= $Config->{$section}->{postprocess};
+    }
+    elsif (!$speciesdata{$species}{$section}) {
+        next;
+    }
 
     if ($postprocess) {
         my @args = split / /, $postprocess;
         my $command = $args[0];
         my $arg   ||= $args[1];
-        if ($arg eq 'species') {
+        if ($arg && $arg eq 'species') {
             $arg = $SPECIES;
         }
-        if (my $suffix = $Config->{$key}->{suffix}) {
+        if ($suffix) {
             $gffout = "$gffout.$suffix";
         }
 
-        $postprocess = "$command $arg";
-        warn $postprocess;
+        $postprocess = $arg ? "$command $arg" : $command;
+        $log->debug( $postprocess );
     }
 
     next if (-e $gffout);

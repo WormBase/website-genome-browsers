@@ -19,7 +19,7 @@ GetOptions(
 
 my $SPECIES = $ARGV[0];
 my $FILEIN = $ARGV[1];
-my $FILEOUT = "$FILEIN.out.high";
+my $FILEOUT = "$FILEIN.high";
 
 unless ($CUTOFF) {
     $CUTOFF = 20;
