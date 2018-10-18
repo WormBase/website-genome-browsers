@@ -501,7 +501,7 @@ sub process_grep_track {
     my $config = shift;
     my $section= shift;
 
-    next if $config->{$section}->{origfile};
+    return if $config->{$section}->{origfile};
 
     my $gffout;
     my $postprocess;
@@ -522,7 +522,8 @@ sub process_grep_track {
         }
         $gffout = $gffout.".".$suffix;
     }
-    
+   
+    return unless -e $gffout;
 
     my $type   = $config->{$section}->{type};
     my $label  = $config->{$section}->{label};
