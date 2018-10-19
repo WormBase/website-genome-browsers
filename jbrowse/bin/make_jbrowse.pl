@@ -151,7 +151,8 @@ my $PRIMARY_SPECIES = "PRJNA13758";
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $JBROWSEREPO, $SKIPPREPARE, $ALLSTATS, $FILEDIR,
     $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES, 
-    $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE, $JBROWSESRC, $SKIPNAME);
+    $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE, $JBROWSESRC, $SKIPNAME,
+    $FASTAMD5);
 my %splitfiles;
 
 GetOptions(
@@ -204,6 +205,7 @@ $JBROWSESRC = $Config->{_}->{jbrowsesrc};
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||=  $Config->{_}->{jbrowsedir};;
 $FTPHOST    = 'ftp://ftp.wormbase.org';
+$FASTAMD5   = "$JBROWSEREPO/../conf/fasta_md5.txt";
 
 if ($SIMPLE) {
     $SPECIES = 'c_elegans_simple';
@@ -299,12 +301,28 @@ if ($SIMPLE) {
 
 #check to see if the seq directory is present; if not prepare-refseqs
 ##TODO: skip this and use S3 sequences
-if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
-    my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
-    system("$nice $command") == 0 or $log->error( $!);
-    unlink $FASTAFILE;
+
+if (new_fasta_md5() ) {
+# the fasta changed from the last release, so update it
+    warn "Doing local update of seq for $SPECIES";
+    if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
+        my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
+        system("$nice $command") == 0 or $log->error( $!);
+        unlink $FASTAFILE;
+    }
+    push @include, "includes/DNA.json";
 }
-push @include, "includes/DNA.json";
+else {
+# fasta didn't change, just make a link to the seq dir.
+    if (!-e 'data') {
+        mkdir 'data';
+    }
+    if (!-e "data/$SPECIES") {
+        mkdir "data/$SPECIES";
+    }
+    symlink "$JBROWSEREPO/data/$SPECIES/seq", "data/$SPECIES/seq";
+    push @include, 'includes/'.$SPECIES.'_DNA.json';
+}
 
 #make a symlink to the organisms include file
 unless (-e "$DATADIR/../organisms.conf") {
@@ -548,11 +566,11 @@ my $speciesdir = $1;
 my $projectdir = $2;
 my $datapath = $FILEDIR . 'WS' . $RELEASE . '/species/' . $speciesdir . '/' . $projectdir;
 $GFFFILE   = "$speciesdir.$projectdir.WS$RELEASE.annotations.gff3";
-$FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
+#$FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
 
 my $copyfailed = 0;
 copy("$datapath/$GFFFILE.gz", '.') or $copyfailed = 1;
-copy("$datapath/$FASTAFILE.gz", '.') or $copyfailed = 1;
+#copy("$datapath/$FASTAFILE.gz", '.') or $copyfailed = 1;
 
 if ($copyfailed == 1 and !$SIMPLE) {
     die "local copying of data files failed";
@@ -569,10 +587,10 @@ if ($copyfailed == 1 and !$SIMPLE) {
 }
 
 system("gunzip -f $GFFFILE.gz");
-system("gunzip -f $FASTAFILE.gz");
+#system("gunzip -f $FASTAFILE.gz");
 
 (-e $GFFFILE)   or die "No GFF file: $GFFFILE";
-(-e $FASTAFILE) or die "No FASTA file: $FASTAFILE";
+#(-e $FASTAFILE) or die "No FASTA file: $FASTAFILE";
 
 #use grep to create type specific gff files
 unless ($SKIPFILESPLIT) {
@@ -663,4 +681,39 @@ else {
 }
 
 return;
+}
+
+sub new_fasta_md5 {
+    $species =~ /(\w_\w+?)_(\w+)$/;
+    my $speciesdir = $1;
+    my $projectdir = $2;
+    my @line = `grep $projectdir $FASTAMD5`; 
+    warn @line;
+    if (scalar @line == 0) {
+        warn "$SPECIES isn't in the MD5 file.  Is it new?";
+        return 1;
+    }
+    else {
+        my ($oldmd5) = split / /, $line[0];
+
+	#calc the md5 sum on the gz fasta file
+        my $datapath = $FILEDIR . 'WS' . $RELEASE . '/species/' . $speciesdir . '/' . $projectdir;
+        $FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
+
+        my ($newmd5) = `md5sum $datapath/$FASTAFILE.gz`;
+        ($newmd5) = split / /, $newmd5;
+        #chomp $newmd5;
+
+        if ($oldmd5 eq $newmd5) {
+            warn "same md5";
+            return 0;
+        }
+        warn "old md5 **$oldmd5**";
+        warn "new md5 **$newmd5**";
+        copy("$datapath/$FASTAFILE.gz", '.') or warn "fetching $datapath/$FASTAFILE.gz failed";        
+        system("gunzip -f $FASTAFILE.gz");
+    }
+
+    die;
+    return 1;
 }
