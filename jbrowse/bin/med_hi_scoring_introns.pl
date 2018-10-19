@@ -15,10 +15,18 @@ GetOptions(
     'cutoff=s' => \$CUTOFF,
 ) or ( system( 'pod2text', $0 ), exit -1 );
 
-die "cutoff required" unless $CUTOFF;
+#die "cutoff required" unless $CUTOFF;
 
-my $FILEIN = $ARGV[0];
-my $FILEOUT = "$FILEIN.hi.out";
+my $SPECIES = $ARGV[0];
+my $FILEIN = $ARGV[1];
+my $FILEOUT = "$FILEIN.high";
+
+unless ($CUTOFF) {
+    $CUTOFF = 20;
+    if ($SPECIES =~ /elegans/) {
+        $CUTOFF = 500;
+    }
+}
 
 if ($SORT) {
     #do a simple unix sort on the ninth column first
