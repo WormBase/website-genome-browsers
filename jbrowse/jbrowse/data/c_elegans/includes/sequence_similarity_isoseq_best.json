@@ -1,0 +1,32 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "color" : "{nematodeColor}",
+            "label" : "{nematodeLabel}",
+            "height" : 4
+         },
+         "subParts" : "match_part",
+         "category": "Sequence Similarity/Nucleotide",
+         "onClick" : {
+            "url" : "{targetURL}",
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "label" : "Feature in WormBase"
+         },
+         "key" : "Non-C. elegans Isoseq collection (best)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Non-C. elegans Isoseq collection (best)/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Non-C. elegans Isoseq collection (best)",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "metadata" : {
+            "shortInfo" : ""
+         },
+         "maxExportSpan" : 50000000
+      }
+   ]
+}
