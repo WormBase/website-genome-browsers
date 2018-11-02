@@ -1,0 +1,25 @@
+[SEQUENCE_SIMILARITY_ISOSEQ_OTHER]
+key      = IsoSeq matches (other)
+category = Sequence Similarity:Nucleotide
+feature  = expressed_sequence_match:BLAT_Caen_IsoSeq_OTHER
+glyph    = segments
+bgcolor = green
+#title = sub {
+#    my $feature = shift;
+#    return $feature->attributes('Species');
+#  }
+fgcolor   = black
+height    = 4
+connector = solid
+label     = 0
+link  = sub {
+    my $f = shift;
+    my $source = $f->source;
+    my $name = $f->name;
+    return "/get?name=$name;class=Sequence";
+  }
+citation =
+
+
+[SEQUENCE_SIMILARITY_ISOSEQ_OTHER:50000]
+glyph = box
