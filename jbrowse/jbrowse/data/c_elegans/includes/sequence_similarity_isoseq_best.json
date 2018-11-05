@@ -24,7 +24,7 @@
          "label" : "Non-C. elegans Isoseq collection (best)",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {
-            "shortInfo" : ""
+            "shortInfo" : "IsoSeq from other WormBase core species aligned to the genome using BLAT <http://genome.cse.ucsc.edu/cgi-bin/hgBlat>. This track shows the best location for each IsoSeqsequence."
          },
          "maxExportSpan" : 50000000
       }
