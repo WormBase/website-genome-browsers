@@ -18,7 +18,7 @@ link  = sub {
     my $name = $f->name;
     return "/get?name=$name;class=Sequence";
   }
-citation =
+citation = IsoSeq from other WormBase core species aligned to the genome using BLAT <http://genome.cse.ucsc.edu/cgi-bin/hgBlat>. This track shows hits other than the best for each IsoSeqsequence.
 
 
 [SEQUENCE_SIMILARITY_ISOSEQ_OTHER:50000]
