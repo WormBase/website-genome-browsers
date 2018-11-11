@@ -150,8 +150,9 @@ my $PRIMARY_SPECIES = "PRJNA13758";
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $JBROWSEREPO, $SKIPPREPARE, $ALLSTATS, $FILEDIR,
-    $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES,
-    $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE, $JBROWSESRC, $SKIPNAME);
+    $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES, 
+    $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE, $JBROWSESRC, $SKIPNAME,
+    $FASTAMD5);
 my %splitfiles;
 
 GetOptions(
@@ -178,6 +179,8 @@ system( 'pod2text', $0 ) unless $CONFIG;
 
 my $Config = Config::Tiny->read($CONFIG) or die $!;
 
+#print Dumper($Config);
+
 my @config_sections = grep {!/^_/} keys %{$Config}; 
 
 $SPECIES  ||= 'c_elegans';
@@ -202,6 +205,7 @@ $JBROWSESRC = $Config->{_}->{jbrowsesrc};
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||=  $Config->{_}->{jbrowsedir};;
 $FTPHOST    = 'ftp://ftp.wormbase.org';
+$FASTAMD5   = "$JBROWSEREPO/../conf/fasta_md5.txt";
 
 if ($SIMPLE) {
     $SPECIES = 'c_elegans_simple';
@@ -296,12 +300,29 @@ if ($SIMPLE) {
 }
 
 #check to see if the seq directory is present; if not prepare-refseqs
-if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
-    my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
-    system("$nice $command") == 0 or $log->error( $!);
-    unlink $FASTAFILE;
+##TODO: skip this and use S3 sequences
+
+if (new_fasta_md5() ) {
+# the fasta changed from the last release, so update it
+    warn "Doing local update of seq for $SPECIES";
+    if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
+        my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
+        system("$nice $command") == 0 or $log->error( $!);
+        unlink $FASTAFILE;
+    }
+    push @include, "includes/DNA.json";
 }
-push @include, "includes/DNA.json";
+else {
+# fasta didn't change, just make a link to the seq dir.
+    if (!-e 'data') {
+        mkdir 'data';
+    }
+    if (!-e "data/$SPECIES") {
+        mkdir "data/$SPECIES";
+    }
+    symlink "$JBROWSEREPO/data/$SPECIES/seq", "data/$SPECIES/seq";
+    push @include, 'includes/'.$SPECIES.'_DNA.json';
+}
 
 #make a symlink to the organisms include file
 unless (-e "$DATADIR/../organisms.conf") {
@@ -343,6 +364,7 @@ if (!-e "$JBROWSEDIR/full.html") {
 
 
 #use original or split gff for many tracks
+#Basically, this for loop should probably never be used
 for my $section (@config_sections) {
     next unless $Config->{$section}->{origfile};
 
@@ -367,7 +389,7 @@ for my $section (@config_sections) {
 #first process tracks that will be name indexed
 for my $section (@config_sections) {
     next unless $Config->{$section}->{index} == 1;
-    next unless $speciesdata{$species}{$section};
+    next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
 }
@@ -382,7 +404,7 @@ system("$nice bin/generate-names.pl --out $DATADIR --compress")
 
 for my $section (@config_sections) {
     next if $Config->{$section}->{index} == 1;
-    next unless $speciesdata{$species}{$section};
+    next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
 }
@@ -390,11 +412,13 @@ for my $section (@config_sections) {
 
 #check for species-specific include files
 my $only_species_name;
-if ($species =~ /^(\w_[a-z]+)_/) {
+my $bioproject;
+if ($species =~ /^(\w_[a-z]+)_(\w+)/) {
     $only_species_name = $1;
+    $bioproject = $2;
     $only_species_name = 'simple' if $SIMPLE;
 }
-if ($only_species_name) {
+if ($only_species_name and $bioproject ne 'PRJNA275000') {
     my @species_specific = glob("$INCLUDES/$only_species_name"."*");
     for (@species_specific) {
         #ack, in place edit of array elements
@@ -430,7 +454,7 @@ if (-e "$DATADIR/trackList.json") {
 
 #make a symlink to the includes dir
 unless (-e "$DATADIR/includes") {
-    symlink $INCLUDES, "$DATADIR/includes" or $log->error( $!);
+    symlink $INCLUDES, "$JBROWSEREPO/includes" or $log->error( $!);
 }
 #make a symlink to the functions
 unless (-e "$DATADIR/../functions.conf") {
@@ -495,7 +519,7 @@ sub process_grep_track {
     my $config = shift;
     my $section= shift;
 
-    next if $config->{$section}->{origfile};
+    return if $config->{$section}->{origfile};
 
     my $gffout;
     my $postprocess;
@@ -510,9 +534,14 @@ sub process_grep_track {
     }
 
     if ($postprocess) {
-        $gffout = $gffout.".out";
+        my $suffix = "out";
+        if ($config->{$section}->{suffix}) {
+            $suffix = $config->{$section}->{suffix}; 
+        }
+        $gffout = $gffout.".".$suffix;
     }
-    
+   
+    return unless -e $gffout;
 
     my $type   = $config->{$section}->{type};
     my $label  = $config->{$section}->{label};
@@ -537,14 +566,14 @@ my $speciesdir = $1;
 my $projectdir = $2;
 my $datapath = $FILEDIR . 'WS' . $RELEASE . '/species/' . $speciesdir . '/' . $projectdir;
 $GFFFILE   = "$speciesdir.$projectdir.WS$RELEASE.annotations.gff3";
-$FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
+#$FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
 
 my $copyfailed = 0;
 copy("$datapath/$GFFFILE.gz", '.') or $copyfailed = 1;
-copy("$datapath/$FASTAFILE.gz", '.') or $copyfailed = 1;
+#copy("$datapath/$FASTAFILE.gz", '.') or $copyfailed = 1;
 
 if ($copyfailed == 1 and !$SIMPLE) {
-    die;
+    die "local copying of data files failed";
     #use ftp to fetch them
 
     my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
@@ -558,32 +587,57 @@ if ($copyfailed == 1 and !$SIMPLE) {
 }
 
 system("gunzip -f $GFFFILE.gz");
-system("gunzip -f $FASTAFILE.gz");
+#system("gunzip -f $FASTAFILE.gz");
 
 (-e $GFFFILE)   or die "No GFF file: $GFFFILE";
-(-e $FASTAFILE) or die "No FASTA file: $FASTAFILE";
+#(-e $FASTAFILE) or die "No FASTA file: $FASTAFILE";
 
 #use grep to create type specific gff files
 unless ($SKIPFILESPLIT) {
   for my $section (@config_sections) {
 
-    next unless $speciesdata{$species}{$section};
+    $log->debug($section);
+    if ($section =~ /RNASeq/i) {
+        $log->debug($section);
+        $log->debug("species data ",$speciesdata{$species}{$section});
+    }
 
     my $alt=$Config->{$section}->{altfile};
-
     my $key = $alt ? $alt : $section;
-
     my $gffout      ||= $Config->{$key}->{prefix} . "_$GFFFILE";
     my $greppattern ||= $Config->{$key}->{grep};
     my $postprocess ||= $Config->{$key}->{postprocess};
+    my $suffix      ||= $Config->{$section}->{suffix};
+
+    if ($suffix and -e $gffout) {
+        $postprocess ||= $Config->{$section}->{postprocess};
+    }
+    elsif (!$speciesdata{$species}{$section}) {
+        next;
+    }
+
+    if ($postprocess) {
+        my @args = split / /, $postprocess;
+        my $command = $args[0];
+        my $arg   ||= $args[1];
+        if ($arg && $arg eq 'species') {
+            $arg = $SPECIES;
+        }
+        if ($suffix) {
+            $gffout = "$gffout.$suffix";
+        }
+
+        $postprocess = $arg ? "$command $arg" : $command;
+        $log->debug( $postprocess );
+    }
 
     next if (-e $gffout);
 
-    $greppattern or next;
-
-    my $grepcommand = "grep -P \"$greppattern\" $GFFFILE > $gffout";
-    $log->warn( $grepcommand) unless $QUIET;
-    system ("$nice $grepcommand") == 0 or $log->error( "$GFFFILE: $!");
+    if ($greppattern) {
+        my $grepcommand = "grep -P \"$greppattern\" $GFFFILE > $gffout";
+        $log->warn( $grepcommand) unless $QUIET;
+        system ("$nice $grepcommand") == 0 or $log->error( "$GFFFILE: $!");
+    }
 
     if ($postprocess) {
         system("$nice $Bin/$postprocess $gffout") == 0 or $log->error( "postpressing $gffout: $!");
@@ -627,4 +681,39 @@ else {
 }
 
 return;
+}
+
+sub new_fasta_md5 {
+    $species =~ /(\w_\w+?)_(\w+)$/;
+    my $speciesdir = $1;
+    my $projectdir = $2;
+    my @line = `grep $projectdir $FASTAMD5`; 
+    warn @line;
+    if (scalar @line == 0) {
+        warn "$SPECIES isn't in the MD5 file.  Is it new?";
+        return 1;
+    }
+    else {
+        my ($oldmd5) = split / /, $line[0];
+
+	#calc the md5 sum on the gz fasta file
+        my $datapath = $FILEDIR . 'WS' . $RELEASE . '/species/' . $speciesdir . '/' . $projectdir;
+        $FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
+
+        my ($newmd5) = `md5sum $datapath/$FASTAFILE.gz`;
+        ($newmd5) = split / /, $newmd5;
+        #chomp $newmd5;
+
+        if ($oldmd5 eq $newmd5) {
+            warn "same md5";
+            return 0;
+        }
+        warn "old md5 **$oldmd5**";
+        warn "new md5 **$newmd5**";
+        copy("$datapath/$FASTAFILE.gz", '.') or warn "fetching $datapath/$FASTAFILE.gz failed";        
+        system("gunzip -f $FASTAFILE.gz");
+    }
+
+    die;
+    return 1;
 }
