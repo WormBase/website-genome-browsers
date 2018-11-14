@@ -1,0 +1,20 @@
+/*
+HideTrackLabels JBrowse plugin CSS
+*/
+/* 
+    Created on : Jul 15, 2015, 7:19:50 PM
+    Author     : EY
+*/
+
+/* hide titles button */
+span[widgetid=downloadfasta-btn] {
+  positiion:relative;
+  top: -1px;
+}
+#downloadfasta-btn{
+  height: 17px;
+  width: 22px;
+  background-image: url("../img/changeme.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
