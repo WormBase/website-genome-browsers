@@ -602,7 +602,7 @@ unless ($SKIPFILESPLIT) {
         $log->debug("species data ",$speciesdata{$species}{$section});
     }
 
-    my $alt=$Config->{$section}->{altfile};
+    my $alt = $Config->{$section}->{altfile};
     my $key = $alt ? $alt : $section;
     my $gffout      ||= $Config->{$key}->{prefix} . "_$GFFFILE";
     my $greppattern ||= $Config->{$key}->{grep};
@@ -611,6 +611,12 @@ unless ($SKIPFILESPLIT) {
 
     if ($suffix and -e $gffout) {
         $postprocess ||= $Config->{$section}->{postprocess};
+        undef $greppattern;
+    }
+    elsif ($suffix and !-e $gffout) {
+        warn       "Suffix is defined but gffout doesn't exist!";
+        $log->warn("Suffix is defined but gffout doesn't exist!");
+        next;
     }
     elsif (!$speciesdata{$species}{$section}) {
         next;
@@ -623,9 +629,11 @@ unless ($SKIPFILESPLIT) {
         if ($arg && $arg eq 'species') {
             $arg = $SPECIES;
         }
-        if ($suffix) {
-            $gffout = "$gffout.$suffix";
-        }
+
+# I'm pretty sure this is wrong and causing problems
+#        if ($suffix) {
+#            $gffout = "$gffout.$suffix";
+#        }
 
         $postprocess = $arg ? "$command $arg" : $command;
         $log->debug( $postprocess );
@@ -690,7 +698,7 @@ sub new_fasta_md5 {
     my @line = `grep $projectdir $FASTAMD5`; 
     warn @line;
     if (scalar @line == 0) {
-        warn "$SPECIES isn't in the MD5 file.  Is it new?";
+        $log->warn( "$SPECIES isn't in the MD5 file.  Is it new?");
         return 1;
     }
     else {
@@ -705,11 +713,11 @@ sub new_fasta_md5 {
         #chomp $newmd5;
 
         if ($oldmd5 eq $newmd5) {
-            warn "same md5";
+            $log->debug("same md5");
             return 0;
         }
-        warn "old md5 **$oldmd5**";
-        warn "new md5 **$newmd5**";
+        $log->warn ("old md5 **$oldmd5**");
+        $log->warn ("new md5 **$newmd5**"0;
         copy("$datapath/$FASTAFILE.gz", '.') or warn "fetching $datapath/$FASTAFILE.gz failed";        
         system("gunzip -f $FASTAFILE.gz");
     }
