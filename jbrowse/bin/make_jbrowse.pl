@@ -533,7 +533,7 @@ sub process_grep_track {
         $postprocess = $config->{$section}->{postprocess};
     }
 
-    if ($postprocess) {
+    if ($postprocess and !$config->{$section}->{altlabel}) {
         my $suffix = "out";
         if ($config->{$section}->{suffix}) {
             $suffix = $config->{$section}->{suffix}; 
@@ -544,12 +544,25 @@ sub process_grep_track {
     return unless -e $gffout;
 
     my $type   = $config->{$section}->{type};
-    my $label  = $config->{$section}->{label};
-    my $command= "$nice bin/flatfile-to-json.pl --compress --gff $gffout --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\"";
-    $log->warn( $command) unless $QUIET;
+    my @label;
+    $label[0]  = $config->{$section}->{label};
+    push @label, split(/,/,$config->{$section}->{altlabel})
+                        if $config->{$section}->{altlabel};
+    my @file;
+    $file[0]  = $gffout;
+    if ($config->{$section}->{altsuffix}) {
+        for my $suffix (split(/,/,$config->{$section}->{altsuffix})) {
+            push @file, "$gffout.$suffix";
+        }
+    }
 
-    system($command)==0 or $log->error( "$gffout: $!\n") ;
 
+    for (my $i=0; $i<(scalar @label); $i++) {
+        my $command= "$nice bin/flatfile-to-json.pl --compress --gff $file[$i] --out $DATADIR --type \"$type\" --trackLabel \"$label[$i]\"  --trackType CanvasFeatures --key \"$label[$i]\"";
+        $log->warn( $command) unless $QUIET;
+
+        system($command)==0 or $log->error( "$gffout: $!\n") ;
+    }
     if (!-e "$INCLUDES/$section.json") {
         $log->error( "\nMISSING INCLUDE FILE: $section.json\n\n");
     }
@@ -614,8 +627,8 @@ unless ($SKIPFILESPLIT) {
         undef $greppattern;
     }
     elsif ($suffix and !-e $gffout) {
-        warn       "Suffix is defined but gffout doesn't exist!";
-        $log->warn("Suffix is defined but gffout doesn't exist!");
+        warn       "Suffix is defined but gffout doesn't exist! $gffout";
+        $log->warn("Suffix is defined but gffout doesn't exist! $gffout");
         next;
     }
     elsif (!$speciesdata{$species}{$section}) {
@@ -717,7 +730,7 @@ sub new_fasta_md5 {
             return 0;
         }
         $log->warn ("old md5 **$oldmd5**");
-        $log->warn ("new md5 **$newmd5**"0;
+        $log->warn ("new md5 **$newmd5**");
         copy("$datapath/$FASTAFILE.gz", '.') or warn "fetching $datapath/$FASTAFILE.gz failed";        
         system("gunzip -f $FASTAFILE.gz");
     }
