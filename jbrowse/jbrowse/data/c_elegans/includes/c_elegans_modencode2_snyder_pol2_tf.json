@@ -17,8 +17,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "MAB-5 Combined (Pol II ChIP)",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -37,8 +37,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "DAF-16 Combined (Pol II ChIP)",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -57,8 +57,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "AMA-1 Combined (Pol II ChIP)",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -77,8 +77,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "EGL-5 Combined (Pol II ChIP)",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -97,8 +97,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "HLH-8 Combined (Pol II ChIP)",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -117,8 +117,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "EOR-1 Combined (Pol II ChIP)",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -137,8 +137,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_FedL1",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -157,8 +157,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_emb",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -177,8 +177,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
       "label": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_StarvedL1",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     }
   ]
 }

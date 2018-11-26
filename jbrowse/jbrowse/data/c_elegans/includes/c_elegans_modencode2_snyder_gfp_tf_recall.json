@@ -17,8 +17,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "ALR-1 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -37,8 +37,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "CEH-14 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -57,8 +57,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "CEH-30 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -77,8 +77,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "DPY-27 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -97,8 +97,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "EGL-5 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -117,8 +117,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "EGL-27 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -137,8 +137,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "EOR-1 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -157,8 +157,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "GEI-11 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -177,8 +177,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "HLH-1 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -197,8 +197,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "LIN-11 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -217,8 +217,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "LIN-13 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -237,8 +237,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "LIN-15B Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -257,8 +257,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "LIN-39 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -277,8 +277,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "MAB-5 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -297,8 +297,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "MDL-1 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -317,8 +317,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "MEP-1 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -337,8 +337,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "PES-1 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -357,8 +357,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "PHA-4 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -377,8 +377,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "PHA-4 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -397,8 +397,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "PHA-4 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -417,8 +417,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "PHA-4 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -437,8 +437,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "PHA-4 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -457,8 +457,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "PHA-4 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -477,8 +477,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "PQM-1 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -497,8 +497,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "SKN-1 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     },
     {
       "style": {
@@ -517,8 +517,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "UNC-130 Combined (GFP ChIP) recalled peaks",
-      "max_score": 4,
-      "min_score": -4
+      "max_score": 100,
+      "min_score": 0
     }
   ]
 }
