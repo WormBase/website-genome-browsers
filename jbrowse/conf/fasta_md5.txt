@@ -10,8 +10,12 @@ d7f907ec3772b5b735299cba9c8c0f58  c_elegans/PRJNA275000/c_elegans.PRJNA275000.WS
 d96a9073b9ccb2a1da86e01dd096cdc3  c_remanei/PRJNA53967/c_remanei.PRJNA53967.WS267.genomic.fa.gz
 4c60b150c67d0bfc70c591f14a6a3714  c_sinica/PRJNA194557/c_sinica.PRJNA194557.WS267.genomic.fa.gz
 6442d522395fc376c14f845f3c06c8dc  c_tropicalis/PRJNA53597/c_tropicalis.PRJNA53597.WS267.genomic.fa.gz
-a417b06c503d1e55fd16c459a0fd49bd  o_volvulus/PRJEB513/o_volvulus.PRJEB513.WS267.genomic.fa.gz
+a9033335833daad79823d542544eabcf  o_volvulus/PRJEB513/o_volvulus.PRJEB513.WS267.genomic.fa.gz
 c364b58ec2b08c45ef080a33f02e1a5b  p_pacificus/PRJNA12644/p_pacificus.PRJNA12644.WS267.genomic.fa.gz
 43c124063e5b3115c8277bb86a2a850d  p_redivivus/PRJNA186477/p_redivivus.PRJNA186477.WS267.genomic.fa.gz
 94edba24c0364399fb05f57a094a3671  s_ratti/PRJEB125/s_ratti.PRJEB125.WS267.genomic.fa.gz
 47e1c756f348c8ed2ba7fa76fb25e53b  t_muris/PRJEB126/t_muris.PRJEB126.WS267.genomic.fa.gz
+11a96d21a0feb1dfc24ae464ac8f0382  c_elegans.PRJEB28388.WS268.genomic.fa
+3d656ae4d91c955849e917362eb9ecc1  c_inopinata.PRJDB5687.WS268.genomic.fa
+c6ecfa67c4fc5508a8b4e16172b20507  c_latens.PRJNA248912.WS268.genomic.fa
+41cbc860082e574fe8dfe82169b35c44  o_tipulae.PRJEB15512.WS268.genomic.fa
