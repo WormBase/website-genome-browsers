@@ -1,0 +1,15 @@
+[VARIATIONS_BALANCERS]
+feature = PCR_product:Variation_PCR
+category     = Alleles, Variations, RNAi
+key          = Variation PCR products
+#label        = sub {
+#description  = sub {
+glyph        = box
+bgcolor      = red
+fgcolor      = black
+font2color   = blue
+height       = 8
+#balloon hover = sub {
+#link          = sub { 
+citation      = 
+
