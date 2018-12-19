@@ -11,5 +11,5 @@ font2color   = blue
 height       = 8
 #balloon hover = sub {
 #link          = sub { 
-citation      = 
+citation      = This track indicates the location of primer pairs that were generated to confirm the existence of indels but the exact size and context of the alteration was not determined. The span feature identifies the broad region where the variation exists. Click on the element to obtain additional information.
 
