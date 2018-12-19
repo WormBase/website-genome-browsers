@@ -1,0 +1,28 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "height" : 8
+         },
+         "key" : "Variation PCR products",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "label" : "{variationsBalloon}",
+            "title" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Variation PCR products/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "category": "Alleles, Variations, RNAi",
+         "type" : "CanvasFeatures",
+         "label" : "Variation PCR products",
+         "metadata" : {
+            "shortInfo" : ""
+         },
+         "maxExportSpan" : 50000000
+      }
+   ]
+}
