@@ -1,6 +1,6 @@
 define(['dojo/_base/declare',
            'dojo/_base/lang',
-           'JBrowse/View/FeatureGlyph/Box'],
+           './Box'],
        function(declare,
            lang,
            Box) {
@@ -27,9 +27,10 @@ return declare(Box, {
         if( bgcolor ) {
             context.fillStyle = bgcolor;
             context.beginPath();
-            context.moveTo(left,top);
+            context.moveTo(left,top+height/2);
+            context.lineTo(left + Math.max(8,width)/2,top);
+            context.lineTo(left+Math.max(8,width),top+height/2);
             context.lineTo(left + Math.max(8,width)/2,top+height);
-            context.lineTo(left + Math.max(8,width),top);
             context.closePath();
             context.fill();
         }
@@ -50,9 +51,10 @@ return declare(Box, {
                 // canvas.  thus the +0.5 and -1 business.
                 //context.stroke();
                 context.beginPath();
-                context.moveTo(left,top);
+                context.moveTo(left,top+height/2);
+                context.lineTo(left + Math.max(8,width)/2,top);
+                context.lineTo(left+Math.max(8,width),top+height/2);
                 context.lineTo(left + Math.max(8,width)/2,top+height);
-                context.lineTo(left + Math.max(8,width),top);
                 context.closePath();
                 context.stroke();
 /*            }
@@ -60,16 +62,16 @@ return declare(Box, {
                 context.globalAlpha = lineWidth*2/width;
                 context.fillStyle = borderColor;
                 context.beginPath();
-                context.moveTo(left,top);
+                context.moveTo(left,top+height/2);
+                context.lineTo(left + Math.max(8,width)/2,top);
+                context.lineTo(left+Math.max(8,width),top+height/2);
                 context.lineTo(left + Math.max(8,width)/2,top+height);
-                context.lineTo(left + Math.max(8,width),top);
                 context.closePath();
                 context.fill();
                 context.globalAlpha = 1;
 
             }
 */
-
         }
     }
 
