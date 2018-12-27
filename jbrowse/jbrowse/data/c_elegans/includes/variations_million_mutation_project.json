@@ -10,6 +10,7 @@
             "height" : 8,
             "description" : "{typeDescription}"
          },
+         "glyph":"{variationGlyph}",
          "key" : "Million Mutation Project",
          "onClick" : {
             "action" : "iframeDialog",

@@ -9,6 +9,7 @@
             "height" : 8,
             "description" : "{typeDescription}"
          },
+         "glyph":"{variationGlyph}",
          "key" : "Change-of-function polymorphisms",
          "onClick" : {
             "action" : "iframeDialog",

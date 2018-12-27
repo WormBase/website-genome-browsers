@@ -9,6 +9,7 @@
             "description" : "{typeDescription}",
             "height" : 8
          },
+         "glyph":"{variationGlyph}",
          "key" : "High-throughput alleles",
          "onClick" : {
             "action" : "iframeDialog",
