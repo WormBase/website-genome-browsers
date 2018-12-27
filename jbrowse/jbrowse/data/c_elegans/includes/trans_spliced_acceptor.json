@@ -5,8 +5,10 @@
             "className" : "feature",
             "color" : "function(f) {var source = f.get('Source'); if (source == 'SL1') {return 'red';} if (source == 'SL2') {return 'green';} return 'black';  }",
             "description" : "function(f) {return f.get('Source');}",
+            "strandArrow" : false,
             "height" : 8
          },
+         "glyph" : "function(f) { var strand = f.get('strand'); if (strand == -1) {return 'wormbase-glyphs/View/FeatureGlyph/LeftTriangle';} if (strand == 1) {return 'wormbase-glyphs/View/FeatureGlyph/RightTriangle';}}",
          "key" : "Trans-spliced acceptor",
          "onClick" : {
             "url" : "{featureURL}",
