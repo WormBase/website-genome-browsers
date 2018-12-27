@@ -4,8 +4,10 @@
          "style" : {
             "className" : "feature",
             "color" : "purple",
+            "strandArrow" : "function(f) {var type = f.get('type'); if (type.match(/signal/)) {return true;} return false;}",
             "description" : "{typeDescription}"
          },
+         "glyph" : "function(f) {var type = f.get('type'); if (type.match(/signal/)) {return 'JBrowse/View/FeatureGlyph/Diamond';} var strand = f.get('strand'); if (strand == -1) {return 'wormbase-glyphs/View/FeatureGlyph/LeftTriangle';} if (strand == 1) {return 'wormbase-glyphs/View/FeatureGlyph/RightTriangle';} return 'JBrowse/View/FeatureGlyph/Box';}",
          "key" : "PolyA sites and signal sequences",
          "onClick" : {
             "url" : "{featureURL}",
@@ -20,7 +22,7 @@
          "label" : "PolyA sites and signal sequences",
          "type" : "CanvasFeatures",
          "metadata" : {
-            "shortInfo" : "High-confidence polyadenylation signal sequences and sites calculated by an algorithm trained with verified sites from full-length mRNAs. Signals are indicated with a diamond; sites with a triangle. (Different glyphs not implemented in JBrowse yet)"
+            "shortInfo" : "High-confidence polyadenylation signal sequences and sites calculated by an algorithm trained with verified sites from full-length mRNAs. Signals are indicated with a diamond; sites with a triangle."
          },
          "category": "Sequence Features/Signals & Motifs",
          "maxExportSpan" : 50000000

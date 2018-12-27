@@ -29,18 +29,18 @@ return declare(Box, {
             context.beginPath();
             context.moveTo(left,top);
             context.lineTo(left,top+height);
-            context.lineTo(left + Math.max(1,width),top+height/2);
+            context.lineTo(left + Math.max(8,width),top+height/2);
             context.closePath();
             context.fill();
         }
         else {
-            context.clearRect( left, top, Math.max(1,width), height );
+            context.clearRect( left, top, Math.max(8,width), height );
         }
 
         // foreground border
         var borderColor, lineWidth;
         if( (borderColor = style( feature, 'borderColor' )) && ( lineWidth = style( feature, 'borderWidth')) ) {
-            if( width > 3 ) {
+//            if( width > 3 ) {
                 context.lineWidth = lineWidth;
                 context.strokeStyle = borderColor;
 
@@ -52,9 +52,10 @@ return declare(Box, {
                 context.beginPath();
                 context.moveTo(left,top);
                 context.lineTo(left,top+height);
-                context.lineTo(left + Math.max(1,width),top+height/2);
+                context.lineTo(left + Math.max(8,width),top+height/2);
                 context.closePath();
                 context.stroke();
+/*
             }
             else {
                 context.globalAlpha = lineWidth*2/width;
@@ -62,13 +63,13 @@ return declare(Box, {
                 context.beginPath();
                 context.moveTo(left,top);
                 context.lineTo(left,top+height);
-                context.lineTo(left + Math.max(1,width),top+height/2);
+                context.lineTo(left + Math.max(8,width),top+height/2);
                 context.closePath();
                 context.fill();
                 context.globalAlpha = 1;
 
             }
-
+*/
         }
     }
 

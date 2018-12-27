@@ -27,20 +27,20 @@ return declare(Box, {
         if( bgcolor ) {
             context.fillStyle = bgcolor;
             context.beginPath();
-            context.moveTo(left + Math.max(1,width),top);
-            context.lineTo(left + Math.max(1,width),top+height);
+            context.moveTo(left + Math.max(8,width),top);
+            context.lineTo(left + Math.max(8,width),top+height);
             context.lineTo(left,top+height/2);
             context.closePath();
             context.fill();
         }
         else {
-            context.clearRect( left, top, Math.max(1,width), height );
+            context.clearRect( left, top, Math.max(8,width), height );
         }
 
         // foreground border
         var borderColor, lineWidth;
         if( (borderColor = style( feature, 'borderColor' )) && ( lineWidth = style( feature, 'borderWidth')) ) {
-            if( width > 3 ) {
+//            if( width > 3 ) {
                 context.lineWidth = lineWidth;
                 context.strokeStyle = borderColor;
 
@@ -50,25 +50,26 @@ return declare(Box, {
                 // canvas.  thus the +0.5 and -1 business.
                 //context.stroke();
                 context.beginPath();
-                context.moveTo(left + Math.max(1,width),top);
-                context.lineTo(left + Math.max(1,width),top+height);
+                context.moveTo(left + Math.max(8,width),top);
+                context.lineTo(left + Math.max(8,width),top+height);
                 context.lineTo(left,top+height/2);
                 context.closePath();
                 context.stroke();
+/*
             }
             else {
                 context.globalAlpha = lineWidth*2/width;
                 context.fillStyle = borderColor;
                 context.beginPath();
-                context.moveTo(left + Math.max(1,width),top);
-                context.lineTo(left + Math.max(1,width),top+height);
+                context.moveTo(left + Math.max(8,width),top);
+                context.lineTo(left + Math.max(8,width),top+height);
                 context.lineTo(left,top+height/2);
                 context.closePath();
                 context.fill();
                 context.globalAlpha = 1;
 
             }
-
+*/
         }
     }
 
