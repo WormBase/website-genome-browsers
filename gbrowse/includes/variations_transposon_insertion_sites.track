@@ -50,6 +50,8 @@ balloon hover = sub {
 		   my ($nt_change) = $f->attributes('substitution') || $f->attributes('insertion');
 		   my ($aa_change) = $f->attributes('aachange');
 		   my ($interpolated_map_position) = $f->attributes('interpolated_map_position');
+                   my @othernames  = $f->attributes('other_name');
+                   my $other_name  = join(",",@othernames);
 
 		   # We might want to be a little fancier with sources, like linking to the resource.
                    my $source = $f->source; 
@@ -65,6 +67,7 @@ balloon hover = sub {
 		   push (@notes,"amino acid change: $aa_change")     if $aa_change;
            	   push (@notes,"consequence: " . lc($consequence)) if $consequence;
            	   push (@notes,"interpolated map position: $interpolated_map_position")   if $interpolated_map_position;
+                   push (@notes,"other names: $other_name") if $other_name;
 		   my ($strains) = $f->attributes('strain');
 		   if ($strains) {
 		      my $strains = join(', ',map { '<a href="http://www.wormbase.org/db/get?class=Strain;name=' . $_ . '">' . $_ . '</a>' } split(',',$strains));
