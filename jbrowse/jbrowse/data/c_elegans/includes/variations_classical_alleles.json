@@ -8,6 +8,7 @@
             "borderColor" : "black",
             "height" : "function(feature) {var rflp = feature.get('rflp'); var status = feature.get('status'); if (rflp && status == 'Confirmed') {return 14;} else {return 8;} }"
          },
+         "glyph":"{variationGlyph}",
          "onClick" : {
             "action" : "iframeDialog",
             "url" : "{variationURL}",

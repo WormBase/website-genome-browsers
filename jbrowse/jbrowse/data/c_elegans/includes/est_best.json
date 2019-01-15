@@ -26,6 +26,14 @@
          "category": "Genes/Supporting Evidence",
          "label" : "ESTs (best)",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/LinkedEST",
+         "menuTemplate" : [
+           {
+           "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+           "iconClass" : "dijitIconDatabase",
+           "action" : "contentDialog",
+           "label" : "View Sequence"
+           }
+         ],
          "maxExportSpan" : 50000000
       }
    ]

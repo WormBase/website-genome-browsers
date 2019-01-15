@@ -25,6 +25,8 @@
          "metadata" : {
             "shortInfo" : "This track shows single nucleotide polymorphisms (SNPs). In this track, the molecular nature of the polymorphism is indicated by its glyph: Boxes are deletions; triangles are insertions; point mutations and substitutions are diamonds. Color reflects the source strain: polymorphisms found in CB4858 (Pasadena) are shown in blue; those found in CB4856 (Hawaii) in yellow, and all others in white."
          },
+         "glyph":"{variationGlyph}",
+         "maxHeight" : 3000,
          "maxExportSpan" : 50000000
       }
    ]

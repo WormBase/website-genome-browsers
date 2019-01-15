@@ -533,7 +533,7 @@ sub process_grep_track {
         $postprocess = $config->{$section}->{postprocess};
     }
 
-    if ($postprocess) {
+    if ($postprocess and !$config->{$section}->{altlabel}) {
         my $suffix = "out";
         if ($config->{$section}->{suffix}) {
             $suffix = $config->{$section}->{suffix}; 
@@ -544,12 +544,25 @@ sub process_grep_track {
     return unless -e $gffout;
 
     my $type   = $config->{$section}->{type};
-    my $label  = $config->{$section}->{label};
-    my $command= "$nice bin/flatfile-to-json.pl --compress --gff $gffout --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\"";
-    $log->warn( $command) unless $QUIET;
+    my @label;
+    $label[0]  = $config->{$section}->{label};
+    push @label, split(/,/,$config->{$section}->{altlabel})
+                        if $config->{$section}->{altlabel};
+    my @file;
+    $file[0]  = $gffout;
+    if ($config->{$section}->{altsuffix}) {
+        for my $suffix (split(/,/,$config->{$section}->{altsuffix})) {
+            push @file, "$gffout.$suffix";
+        }
+    }
 
-    system($command)==0 or $log->error( "$gffout: $!\n") ;
 
+    for (my $i=0; $i<(scalar @label); $i++) {
+        my $command= "$nice bin/flatfile-to-json.pl --compress --gff $file[$i] --out $DATADIR --type \"$type\" --trackLabel \"$label[$i]\"  --trackType CanvasFeatures --key \"$label[$i]\"";
+        $log->warn( $command) unless $QUIET;
+
+        system($command)==0 or $log->error( "$gffout: $!\n") ;
+    }
     if (!-e "$INCLUDES/$section.json") {
         $log->error( "\nMISSING INCLUDE FILE: $section.json\n\n");
     }
@@ -602,7 +615,7 @@ unless ($SKIPFILESPLIT) {
         $log->debug("species data ",$speciesdata{$species}{$section});
     }
 
-    my $alt=$Config->{$section}->{altfile};
+    my $alt = $Config->{$section}->{altfile};
     my $key = $alt ? $alt : $section;
     my $gffout      ||= $Config->{$key}->{prefix} . "_$GFFFILE";
     my $greppattern ||= $Config->{$key}->{grep};
@@ -611,6 +624,12 @@ unless ($SKIPFILESPLIT) {
 
     if ($suffix and -e $gffout) {
         $postprocess ||= $Config->{$section}->{postprocess};
+        undef $greppattern;
+    }
+    elsif ($suffix and !-e $gffout) {
+        warn       "Suffix is defined but gffout doesn't exist! $gffout";
+        $log->warn("Suffix is defined but gffout doesn't exist! $gffout");
+        next;
     }
     elsif (!$speciesdata{$species}{$section}) {
         next;
@@ -623,9 +642,11 @@ unless ($SKIPFILESPLIT) {
         if ($arg && $arg eq 'species') {
             $arg = $SPECIES;
         }
-        if ($suffix) {
-            $gffout = "$gffout.$suffix";
-        }
+
+# I'm pretty sure this is wrong and causing problems
+#        if ($suffix) {
+#            $gffout = "$gffout.$suffix";
+#        }
 
         $postprocess = $arg ? "$command $arg" : $command;
         $log->debug( $postprocess );
@@ -690,7 +711,7 @@ sub new_fasta_md5 {
     my @line = `grep $projectdir $FASTAMD5`; 
     warn @line;
     if (scalar @line == 0) {
-        warn "$SPECIES isn't in the MD5 file.  Is it new?";
+        $log->warn( "$SPECIES isn't in the MD5 file.  Is it new?");
         return 1;
     }
     else {
@@ -705,11 +726,11 @@ sub new_fasta_md5 {
         #chomp $newmd5;
 
         if ($oldmd5 eq $newmd5) {
-            warn "same md5";
+            $log->debug("same md5");
             return 0;
         }
-        warn "old md5 **$oldmd5**";
-        warn "new md5 **$newmd5**";
+        $log->warn ("old md5 **$oldmd5**");
+        $log->warn ("new md5 **$newmd5**");
         copy("$datapath/$FASTAFILE.gz", '.') or warn "fetching $datapath/$FASTAFILE.gz failed";        
         system("gunzip -f $FASTAFILE.gz");
     }

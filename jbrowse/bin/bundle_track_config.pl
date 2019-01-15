@@ -2,11 +2,12 @@
 
 use strict;
 use warnings;
+use Data::Dumper;
 
 use JSON::XS;
 
 my @files = (
-      "includes/DNA.json",
+      "includes/c_elegans_PRJNA13758_DNA.json",
       "includes/transposons.json",
       "includes/promoter_regions.json",
       "includes/genome_sequence_errors_corrected.json",
@@ -50,6 +51,7 @@ my @files = (
       "includes/genomic_canonical.json",
       "includes/sequence_similarity_ovolvulus_proteins_blastx.json",
       "includes/rnaseq_splice.json",
+      "includes/sequence_similarity_isoseq_best.json",
       "includes/orfeome_pcr_products.json",
       "includes/sequence_similarity_hsapiens_proteins_blastx.json",
       "includes/sequence_similarity_cjaponica_proteins_blastx.json",
@@ -68,6 +70,7 @@ my @files = (
       "includes/mass_spec_peptides.json",
       "includes/orfeome_sequence_tags.json",
       "includes/sequence_similarity_sratti_proteins_blastx.json",
+      "includes/sequence_similarity_isoseq_other.json",
       "includes/sequence_similarity_ppacificus_proteins_blastx.json",
       "includes/prediction_mgene.json",
       "includes/est_best.json",
@@ -92,7 +95,7 @@ my @files = (
       "includes/repeats_repeat_masker.json",
       "includes/c_elegans_cendr.json",
       "includes/c_elegans_crispr_predictions.json",
-      "includes/c_elegans_landmarks.json",
+      "includes/landmarks.json",
       "includes/c_elegans_modencode2_henikoff2.json",
       "includes/c_elegans_modencode2_lieb.json",
       "includes/c_elegans_modencode2_lieb_cs_hismods.json",
@@ -111,13 +114,14 @@ my @tracks;
 
 for my $f (@files) {
     local $/ = undef;
-    open (my $F, "<", $f) or die;
+    open (my $F, "<", $f) or die "$!:$f";
     my $data = <$F>;
     close $F;
 
     $json = $XS->decode($data);
 
     for my $a (@{$$json{'tracks'}}){
+        $$a{'urlTemplate'} =~ s/\.\.\/tracks/tracks/g;
         push @tracks, $a;
         #warn %$a;
     }
