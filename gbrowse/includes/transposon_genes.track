@@ -2,7 +2,7 @@
 # EG: CDS:K10E9.2
 key          = Transposon Genes
 category     = Genes:Curated Genes
-feature      = mRNA:WormBase_transposon pseudogenic_transcipt:WormBase_transposon
+feature      = mRNA:WormBase_transposon pseudogenic_transcipt:WormBase_transposon ncRNA:Transposon_ncRNA
 # NOT using the gene glyph since there are no CDS components.
 glyph        = transcript
 bgcolor      = gray
