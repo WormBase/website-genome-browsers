@@ -7,6 +7,7 @@
             "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
             "borderColor" : "black",
             "description" : "{typeDescription}",
+            "strandArrow" : false,
             "height" : 8
          },
          "glyph":"{variationGlyph}",
