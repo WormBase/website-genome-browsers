@@ -14,7 +14,7 @@ balloon hover  = sub {
                       my $f    = shift;
 	              my $name = $f->name;                       
 		      my $t    = $f->type;
-		      my $type = $t =~ /pseudogenic/ ? 'transposon pseudogene' : 'transposon mRNA';
+		      my $type = $t =~ /pseudogenic/ ? 'transposon pseudogene' : $t =~ /mRNA/ ? 'transposon mRNA' : 'transposon ncRNA';
     		      my ($ref,$start,$stop) = ($f->ref,$f->start,$f->stop);
 		      my $notes = $f->notes;
 		      my $string = join('<br />',"<b>$name</b>",$type,"position: $ref:$start..$stop",
@@ -30,7 +30,7 @@ label    = sub {
 description  = sub {	     
                       my $f    = shift;
 		      my $t    = $f->type;
-		      my $type = $t =~ /pseudogenic/ ? 'transposon pseudogene' : 'transposon mRNA';
+		      my $type = $t =~ /pseudogenic/ ? 'transposon pseudogene' : $t =~ /mRNA/ ? 'transposon mRNA' : 'transposon ncRNA';
 		      return $type;
                 }
 link = sub {
