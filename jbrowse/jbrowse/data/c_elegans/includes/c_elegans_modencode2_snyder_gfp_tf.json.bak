@@ -16,7 +16,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8240.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ALY-2 Combined (GFP ChIP)_ ALY-2_GFP_L3",
+      "label": "ALY-2 Combined (GFP ChIP), ALY-2_GFP_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -36,7 +36,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/14857.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ALY-2 Combined (GFP ChIP)_ ALY-2_GFP_L2",
+      "label": "ALY-2 Combined (GFP ChIP), ALY-2_GFP_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -56,7 +56,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8102.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ALY-2 Combined (GFP ChIP)_ ALY-2_GFP_L1",
+      "label": "ALY-2 Combined (GFP ChIP), ALY-2_GFP_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -196,7 +196,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8115.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "CES-1 Combined (GFP ChIP)_ CES-1_GFP_L4",
+      "label": "CES-1 Combined (GFP ChIP), CES-1_GFP_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -216,7 +216,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/9155.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "CES-1 Combined (GFP ChIP)_ CES-1_GFP_L1",
+      "label": "CES-1 Combined (GFP ChIP), CES-1_GFP_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -236,7 +236,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/11327.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "CES-1 Combined (GFP ChIP)_ CES-1_GFP_L3",
+      "label": "CES-1 Combined (GFP ChIP), CES-1_GFP_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -256,7 +256,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8212.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "DAF-12 Combined (GFP ChIP)_ DAF-12_GFP_L4",
+      "label": "DAF-12 Combined (GFP ChIP), DAF-12_GFP_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -276,7 +276,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8225.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "DAF-12 Combined (GFP ChIP)_ DAF-12_GFP_L3 OP222",
+      "label": "DAF-12 Combined (GFP ChIP), DAF-12_GFP_L3 OP222",
       "max_score": 100,
       "min_score": 0
     },
@@ -296,7 +296,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/9252.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "DAF-12 Combined (GFP ChIP)_ DAF-12 GFP L3 OP167",
+      "label": "DAF-12 Combined (GFP ChIP), DAF-12 GFP L3 OP167",
       "max_score": 100,
       "min_score": 0
     },
@@ -376,7 +376,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/20469.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "EGL-27 Combined (GFP ChIP)_ EGL27 L2",
+      "label": "EGL-27 Combined (GFP ChIP), EGL27 L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -396,7 +396,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_EGL-27_GFP_L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "EGL-27 Combined (GFP ChIP)_ EGL27 L1",
+      "label": "EGL-27 Combined (GFP ChIP), EGL27 L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -416,7 +416,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/7987.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "EOR-1 Combined (GFP ChIP)_ EOR-1 GFP L3",
+      "label": "EOR-1 Combined (GFP ChIP), EOR-1 GFP L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -436,7 +436,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8324.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "EOR-1 Combined (GFP ChIP)_ EOR-1 GFP L3.v2",
+      "label": "EOR-1 Combined (GFP ChIP), EOR-1 GFP L3.v2",
       "max_score": 100,
       "min_score": 0
     },
@@ -476,7 +476,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/15178.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "F45C12.2 Combined (GFP ChIP)_ F45C12.2_GFP_L2",
+      "label": "F45C12.2 Combined (GFP ChIP), F45C12.2_GFP_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -496,7 +496,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/13531.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "F45C12.2 Combined (GFP ChIP)_ F45C12.2_GFP_L1",
+      "label": "F45C12.2 Combined (GFP ChIP), F45C12.2_GFP_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -516,7 +516,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8277.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "F45C12.2 Combined (GFP ChIP)_ F45C12.2_GFP_L3",
+      "label": "F45C12.2 Combined (GFP ChIP), F45C12.2_GFP_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -536,7 +536,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8288.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "FOS-1 Combined (GFP ChIP)_ FOS-1 GFP L1",
+      "label": "FOS-1 Combined (GFP ChIP), FOS-1 GFP L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -556,7 +556,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/13459.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "FOS-1 Combined (GFP ChIP)_ FOS-1 GFP L3",
+      "label": "FOS-1 Combined (GFP ChIP), FOS-1 GFP L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -576,7 +576,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/13477.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "FOS-1 Combined (GFP ChIP)_ FOS-1 GFP L4",
+      "label": "FOS-1 Combined (GFP ChIP), FOS-1 GFP L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -596,7 +596,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8168.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "FOS-1 Combined (GFP ChIP)_ FOS-1 GFP L2",
+      "label": "FOS-1 Combined (GFP ChIP), FOS-1 GFP L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -656,7 +656,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/15180.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-15B Combined (GFP ChIP)_ LIN15B_GFP_L1",
+      "label": "LIN-15B Combined (GFP ChIP), LIN15B_GFP_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -676,7 +676,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_LIN-15B_GFP_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-15B Combined (GFP ChIP)_ LIN15B_GFP_L3",
+      "label": "LIN-15B Combined (GFP ChIP), LIN15B_GFP_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -696,7 +696,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/9120.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-15B Combined (GFP ChIP)_ LIN15B_GFP_L4",
+      "label": "LIN-15B Combined (GFP ChIP), LIN15B_GFP_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -796,7 +796,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/9140.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "DPL-1 Combined (GFP ChIP)_ Pdpl1_DPL1_GFP_L1",
+      "label": "DPL-1 Combined (GFP ChIP), Pdpl1_DPL1_GFP_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -816,7 +816,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/15138.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "DPL-1 Combined (GFP ChIP)_ DPL1_GFP_L1",
+      "label": "DPL-1 Combined (GFP ChIP), DPL1_GFP_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -836,7 +836,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/14815.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "DPL-1 Combined (GFP ChIP)_ DPL-1_GFP_L4",
+      "label": "DPL-1 Combined (GFP ChIP), DPL-1_GFP_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -856,7 +856,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/9184.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "DPL-1 Combined (GFP ChIP)_ PIE1_DPL1_GFP_YA",
+      "label": "DPL-1 Combined (GFP ChIP), PIE1_DPL1_GFP_YA",
       "max_score": 100,
       "min_score": 0
     },
@@ -976,7 +976,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8200.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZAG-1 Combined (GFP ChIP)_ ZAG-1_GFP_L3",
+      "label": "ZAG-1 Combined (GFP ChIP), ZAG-1_GFP_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -996,7 +996,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8226.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZAG-1 Combined (GFP ChIP)_ ZAG-1_GFP_L1",
+      "label": "ZAG-1 Combined (GFP ChIP), ZAG-1_GFP_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -1016,7 +1016,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8118.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZAG-1 Combined (GFP ChIP)_ ZAG-1_GFP_L2",
+      "label": "ZAG-1 Combined (GFP ChIP), ZAG-1_GFP_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -1036,7 +1036,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/13375.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZAG-1 Combined (GFP ChIP)_ ZAG-1_GFP_L4",
+      "label": "ZAG-1 Combined (GFP ChIP), ZAG-1_GFP_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -1056,7 +1056,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/13835.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZK377.2 Combined (GFP ChIP)_ ZK377.2_GFP_L4",
+      "label": "ZK377.2 Combined (GFP ChIP), ZK377.2_GFP_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -1076,7 +1076,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/14936.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZK377.2 Combined (GFP ChIP)_ ZK377.2_GFP_L1",
+      "label": "ZK377.2 Combined (GFP ChIP), ZK377.2_GFP_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -1096,7 +1096,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/13514.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZK377.2 Combined (GFP ChIP)_ ZK377.2_GFP_L2",
+      "label": "ZK377.2 Combined (GFP ChIP), ZK377.2_GFP_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -1116,7 +1116,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/13831.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZK377.2 Combined (GFP ChIP)_ ZK377.2_GFP_L3",
+      "label": "ZK377.2 Combined (GFP ChIP), ZK377.2_GFP_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -1136,7 +1136,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/13558.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-77 Combined (GFP ChIP)_ NHR77_GFP_L4",
+      "label": "NHR-77 Combined (GFP ChIP), NHR77_GFP_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -1156,7 +1156,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/13481.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-77 Combined (GFP ChIP)_ NHR77_GFP_L3",
+      "label": "NHR-77 Combined (GFP ChIP), NHR77_GFP_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -1176,7 +1176,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/14974.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-77 Combined (GFP ChIP)_ NHR77_GFP_L1",
+      "label": "NHR-77 Combined (GFP ChIP), NHR77_GFP_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -1196,7 +1196,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/13475.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-77 Combined (GFP ChIP)_ NHR77_GFP_L2",
+      "label": "NHR-77 Combined (GFP ChIP), NHR77_GFP_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -1216,7 +1216,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/14892.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-116 Combined (GFP ChIP)_ NHR116_GFP_L2",
+      "label": "NHR-116 Combined (GFP ChIP), NHR116_GFP_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -1236,7 +1236,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/13527.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-116 Combined (GFP ChIP)_ NHR116_GFP_L1",
+      "label": "NHR-116 Combined (GFP ChIP), NHR116_GFP_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -1316,7 +1316,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18234.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-11 Combined (GFP ChIP)_ NHR-11_L3",
+      "label": "NHR-11 Combined (GFP ChIP), NHR-11_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -1336,7 +1336,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18199.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-11 Combined (GFP ChIP)_ NHR-11_L1",
+      "label": "NHR-11 Combined (GFP ChIP), NHR-11_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -1356,7 +1356,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18232.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-11 Combined (GFP ChIP)_ NHR-11_LEMB",
+      "label": "NHR-11 Combined (GFP ChIP), NHR-11_LEMB",
       "max_score": 100,
       "min_score": 0
     },
@@ -1376,7 +1376,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18201.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-11 Combined (GFP ChIP)_ NHR-11_L4",
+      "label": "NHR-11 Combined (GFP ChIP), NHR-11_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -1396,7 +1396,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/9123.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-11 Combined (GFP ChIP)_ NHR11_GFP_L2",
+      "label": "NHR-11 Combined (GFP ChIP), NHR11_GFP_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -1416,7 +1416,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18182.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "UNC-62 Combined (GFP ChIP)_ UNC_62_L4",
+      "label": "UNC-62 Combined (GFP ChIP), UNC_62_L4",
       "max_score" : 100,
       "min_score" : 0
     },
@@ -1436,7 +1436,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8187.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "UNC-62 Combined (GFP ChIP)_ UNC-62_GFP_L1",
+      "label": "UNC-62 Combined (GFP ChIP), UNC-62_GFP_L1",
       "max_score":100,
       "min_score":0 
     },
@@ -1456,7 +1456,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18274.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "UNC-62 Combined (GFP ChIP)_ UNC_62_EMB",
+      "label": "UNC-62 Combined (GFP ChIP), UNC_62_EMB",
       "max_score":100,
       "min_score":0 
     },
@@ -1476,7 +1476,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8304.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "UNC-62 Combined (GFP ChIP)_ UNC-62_GFP_L2",
+      "label": "UNC-62 Combined (GFP ChIP), UNC-62_GFP_L2",
       "max_score":100,
       "min_score":0 
     },
@@ -1496,7 +1496,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8135.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "UNC-62 Combined (GFP ChIP)_ UNC-62_GFP_L3",
+      "label": "UNC-62 Combined (GFP ChIP), UNC-62_GFP_L3",
       "max_score":100,
       "min_score":0 
     },
@@ -1516,7 +1516,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/13503.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "UNC-62 Combined (GFP ChIP)_ UNC-62_GFP_YA",
+      "label": "UNC-62 Combined (GFP ChIP), UNC-62_GFP_YA",
       "max_score":100,
       "min_score": 0
     },
@@ -1536,7 +1536,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18292.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-28 Combined (GFP ChIP)_ NHR-28_EMB",
+      "label": "NHR-28 Combined (GFP ChIP), NHR-28_EMB",
       "max_score": 100,
       "min_score": 0
     },
@@ -1556,7 +1556,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8266.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-28 Combined (GFP ChIP)_ NHR-28_GFP_L3",
+      "label": "NHR-28 Combined (GFP ChIP), NHR-28_GFP_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -1576,7 +1576,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8157.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-28 Combined (GFP ChIP)_ NHR-28_GFP_L4",
+      "label": "NHR-28 Combined (GFP ChIP), NHR-28_GFP_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -1596,7 +1596,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18323.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-28 Combined (GFP ChIP)_ NHR-28_L1",
+      "label": "NHR-28 Combined (GFP ChIP), NHR-28_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -1616,7 +1616,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18312.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "FKH-10 Combined (GFP ChIP)_ FKH-10_LEMB",
+      "label": "FKH-10 Combined (GFP ChIP), FKH-10_LEMB",
       "max_score": 100,
       "min_score": 0
     },
@@ -1636,7 +1636,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18239.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "FKH-10 Combined (GFP ChIP)_ FKH-10_L4",
+      "label": "FKH-10 Combined (GFP ChIP), FKH-10_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -1696,7 +1696,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_BLMP-1_GFP_L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "BLMP-1 Combined (GFP ChIP)_ BLMP1_GFP_L1",
+      "label": "BLMP-1 Combined (GFP ChIP), BLMP1_GFP_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -1716,7 +1716,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18246.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "BLMP-1 Combined (GFP ChIP)_ BLMP-1_Emb",
+      "label": "BLMP-1 Combined (GFP ChIP), BLMP-1_Emb",
       "max_score": 100,
       "min_score": 0
     },
@@ -1736,7 +1736,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_LIN-39-GFP_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-39 Combined (GFP ChIP)_ LIN39_L3_GFP",
+      "label": "LIN-39 Combined (GFP ChIP), LIN39_L3_GFP",
       "max_score": 100,
       "min_score": 0
     },
@@ -1756,7 +1756,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18261.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-39 Combined (GFP ChIP)_ LIN-39_L1",
+      "label": "LIN-39 Combined (GFP ChIP), LIN-39_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -1776,7 +1776,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18338.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-39 Combined (GFP ChIP)_ LIN-39_L4",
+      "label": "LIN-39 Combined (GFP ChIP), LIN-39_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -1796,7 +1796,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18183.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-39 Combined (GFP ChIP)_ LIN-39_L2",
+      "label": "LIN-39 Combined (GFP ChIP), LIN-39_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -1836,7 +1836,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18589.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ELT-1 Combined (GFP ChIP)_ ELT-1_L3",
+      "label": "ELT-1 Combined (GFP ChIP), ELT-1_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -1856,7 +1856,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17925.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ELT-1 Combined (GFP ChIP)_ ELT-1_L2",
+      "label": "ELT-1 Combined (GFP ChIP), ELT-1_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -1876,7 +1876,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18060.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "JUN-1 Combined (GFP ChIP)_ JUN-1_L4",
+      "label": "JUN-1 Combined (GFP ChIP), JUN-1_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -1896,7 +1896,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17848.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "JUN-1 Combined (GFP ChIP)_ JUN-1_L3",
+      "label": "JUN-1 Combined (GFP ChIP), JUN-1_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -1916,7 +1916,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18013.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "JUN-1 Combined (GFP ChIP)_ JUN-1_L1",
+      "label": "JUN-1 Combined (GFP ChIP), JUN-1_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -1936,7 +1936,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17983.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "UNC-39 Combined (GFP ChIP)_ UNC-39_L2",
+      "label": "UNC-39 Combined (GFP ChIP), UNC-39_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -1956,7 +1956,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18016.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "UNC-39 Combined (GFP ChIP)_ UNC-39_EMB",
+      "label": "UNC-39 Combined (GFP ChIP), UNC-39_EMB",
       "max_score": 100,
       "min_score": 0
     },
@@ -1976,7 +1976,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17957.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ELT-3 Combined (GFP ChIP)_ ELT3 EMB",
+      "label": "ELT-3 Combined (GFP ChIP), ELT3 EMB",
       "max_score": 100,
       "min_score": 0
     },
@@ -1996,7 +1996,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/20327.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ELT-3 Combined (GFP ChIP)_ ELT3 L3",
+      "label": "ELT-3 Combined (GFP ChIP), ELT3 L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -2016,7 +2016,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_ELT-3_GFP_L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ELT-3 Combined (GFP ChIP)_ ELT3 L1",
+      "label": "ELT-3 Combined (GFP ChIP), ELT3 L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -2036,7 +2036,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17875.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-13 Combined (GFP ChIP)_ LIN-13_L2",
+      "label": "LIN-13 Combined (GFP ChIP), LIN-13_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -2056,7 +2056,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17843.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-13 Combined (GFP ChIP)_ LIN-13_L1",
+      "label": "LIN-13 Combined (GFP ChIP), LIN-13_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -2076,7 +2076,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17915.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-13 Combined (GFP ChIP)_ LIN-13_L4",
+      "label": "LIN-13 Combined (GFP ChIP), LIN-13_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -2096,7 +2096,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_LIN-13_GFP_emb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-13 Combined (GFP ChIP)_ LIN13_GFP_emb",
+      "label": "LIN-13 Combined (GFP ChIP), LIN13_GFP_emb",
       "max_score": 100,
       "min_score": 0
     },
@@ -2116,7 +2116,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17893.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-12 Combined (GFP ChIP)_ NHR-12_EMB",
+      "label": "NHR-12 Combined (GFP ChIP), NHR-12_EMB",
       "max_score": 100,
       "min_score": 0
     },
@@ -2136,7 +2136,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18443.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-12 Combined (GFP ChIP)_ NHR-12_L2",
+      "label": "NHR-12 Combined (GFP ChIP), NHR-12_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -2156,7 +2156,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17850.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-12 Combined (GFP ChIP)_ NHR-12_L3",
+      "label": "NHR-12 Combined (GFP ChIP), NHR-12_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -2176,7 +2176,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17949.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZTF-11 Combined (GFP ChIP)_ ZTF-11_L4",
+      "label": "ZTF-11 Combined (GFP ChIP), ZTF-11_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -2196,7 +2196,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18125.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZTF-11 Combined (GFP ChIP)_ ZTF-11_EMB",
+      "label": "ZTF-11 Combined (GFP ChIP), ZTF-11_EMB",
       "max_score": 100,
       "min_score": 0
     },
@@ -2216,7 +2216,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18071.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZTF-11 Combined (GFP ChIP)_ ZTF-11_L3",
+      "label": "ZTF-11 Combined (GFP ChIP), ZTF-11_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -2236,7 +2236,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18047.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "CEH-28 Combined (GFP ChIP)_ CEH-28_L3",
+      "label": "CEH-28 Combined (GFP ChIP), CEH-28_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -2256,7 +2256,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18027.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "CEH-28 Combined (GFP ChIP)_ CEH-28_L4",
+      "label": "CEH-28 Combined (GFP ChIP), CEH-28_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -2336,7 +2336,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18096.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "DVE-1 Combined (GFP ChIP)_ DVE-1_L4",
+      "label": "DVE-1 Combined (GFP ChIP), DVE-1_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -2356,7 +2356,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18197.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "DVE-1 Combined (GFP ChIP)_ DVE-1_LEMB",
+      "label": "DVE-1 Combined (GFP ChIP), DVE-1_LEMB",
       "max_score": 100,
       "min_score": 0
     },
@@ -2376,7 +2376,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18154.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "HLH-30 Combined (GFP ChIP)_ HLH-30_LEMB",
+      "label": "HLH-30 Combined (GFP ChIP), HLH-30_LEMB",
       "max_score": 100,
       "min_score": 0
     },
@@ -2396,7 +2396,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18170.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "HLH-30 Combined (GFP ChIP)_ HLH-30_L4",
+      "label": "HLH-30 Combined (GFP ChIP), HLH-30_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -2436,7 +2436,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18126.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NFYA-1 Combined (GFP ChIP)_ NFYA-1_L3",
+      "label": "NFYA-1 Combined (GFP ChIP), NFYA-1_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -2456,7 +2456,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18149.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NFYA-1 Combined (GFP ChIP)_ NFYA-1_YA",
+      "label": "NFYA-1 Combined (GFP ChIP), NFYA-1_YA",
       "max_score": 100,
       "min_score": 0
     },
@@ -2476,7 +2476,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18095.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NFYA-1 Combined (GFP ChIP)_ NFYA-1_LEMB",
+      "label": "NFYA-1 Combined (GFP ChIP), NFYA-1_LEMB",
       "max_score": 100,
       "min_score": 0
     },
@@ -2796,7 +2796,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18715.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "R02D3.7 Combined (GFP ChIP)_ R02D3.7_L4",
+      "label": "R02D3.7 Combined (GFP ChIP), R02D3.7_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -2816,7 +2816,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/14869.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "R02D3.7 Combined (GFP ChIP)_ R02D3.7_GFP_L3",
+      "label": "R02D3.7 Combined (GFP ChIP), R02D3.7_GFP_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -2836,7 +2836,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/8255.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "R02D3.7 Combined (GFP ChIP)_ R02D3.7_GFP_L2",
+      "label": "R02D3.7 Combined (GFP ChIP), R02D3.7_GFP_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -2856,7 +2856,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/19116.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "PHA-4 Combined (GFP ChIP)_ PHA-4_L3",
+      "label": "PHA-4 Combined (GFP ChIP), PHA-4_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -2876,7 +2876,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18725.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "PHA-4 Combined (GFP ChIP)_ PHA-4 L4",
+      "label": "PHA-4 Combined (GFP ChIP), PHA-4 L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -2896,7 +2896,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_GFP_emb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "PHA-4 Combined (GFP ChIP)_ PHA4_emb_GFP",
+      "label": "PHA-4 Combined (GFP ChIP), PHA4_emb_GFP",
       "max_score": 100,
       "min_score": 0
     },
@@ -2916,7 +2916,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_GFP_FedL1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "PHA-4 Combined (GFP ChIP)_ PHA4_FedL1_GFP",
+      "label": "PHA-4 Combined (GFP ChIP), PHA4_FedL1_GFP",
       "max_score": 100,
       "min_score": 0
     },
@@ -2936,7 +2936,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_GFP_lemb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "PHA-4 Combined (GFP ChIP)_ PHA4_GFP_lemb",
+      "label": "PHA-4 Combined (GFP ChIP), PHA4_GFP_lemb",
       "max_score": 100,
       "min_score": 0
     },
@@ -2956,7 +2956,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_GFP_L2_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "PHA-4 Combined (GFP ChIP)_ PHA4_L2_GFP",
+      "label": "PHA-4 Combined (GFP ChIP), PHA4_L2_GFP",
       "max_score": 100,
       "min_score": 0
     },
@@ -2976,7 +2976,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_GFP_YA_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "PHA-4 Combined (GFP ChIP)_ PHA4_GFP_YA",
+      "label": "PHA-4 Combined (GFP ChIP), PHA4_GFP_YA",
       "max_score": 100,
       "min_score": 0
     },
@@ -2996,7 +2996,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_GFP_Starved-L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "PHA-4 Combined (GFP ChIP)_ PHA4_StarvedL1_GFP",
+      "label": "PHA-4 Combined (GFP ChIP), PHA4_StarvedL1_GFP",
       "max_score": 100,
       "min_score": 0
     },
@@ -3016,7 +3016,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18622.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "HAM-1 Combined (GFP ChIP)_ HAM-1_L4",
+      "label": "HAM-1 Combined (GFP ChIP), HAM-1_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -3036,7 +3036,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18787.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "HAM-1 Combined (GFP ChIP)_ HAM-1_L1",
+      "label": "HAM-1 Combined (GFP ChIP), HAM-1_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -3056,7 +3056,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18635.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "MAB-5 Combined (GFP ChIP)_ MAB-5_EMB",
+      "label": "MAB-5 Combined (GFP ChIP), MAB-5_EMB",
       "max_score": 100,
       "min_score": 0
     },
@@ -3076,7 +3076,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18826.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "MAB-5 Combined (GFP ChIP)_ MAB-5_L2",
+      "label": "MAB-5 Combined (GFP ChIP), MAB-5_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -3096,7 +3096,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_MAB5_GFP_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "MAB-5 Combined (GFP ChIP)_ MAB5_L3_GFP",
+      "label": "MAB-5 Combined (GFP ChIP), MAB5_L3_GFP",
       "max_score": 100,
       "min_score": 0
     },
@@ -3116,7 +3116,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17944.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZTF-4 Combined (GFP ChIP)_ ZTF-4_L1",
+      "label": "ZTF-4 Combined (GFP ChIP), ZTF-4_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -3136,7 +3136,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/19078.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZTF-4 Combined (GFP ChIP)_ ZTF-4_L3",
+      "label": "ZTF-4 Combined (GFP ChIP), ZTF-4_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -3156,7 +3156,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18015.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "ZTF-4 Combined (GFP ChIP)_ ZTF-4_L2",
+      "label": "ZTF-4 Combined (GFP ChIP), ZTF-4_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -3176,7 +3176,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17923.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LSY-2 Combined (GFP ChIP)_ LSY-2_L4",
+      "label": "LSY-2 Combined (GFP ChIP), LSY-2_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -3196,7 +3196,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17883.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LSY-2 Combined (GFP ChIP)_ LSY-2_L2",
+      "label": "LSY-2 Combined (GFP ChIP), LSY-2_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -3216,7 +3216,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18596.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LSY-2 Combined (GFP ChIP)_ LSY-2_EMB",
+      "label": "LSY-2 Combined (GFP ChIP), LSY-2_EMB",
       "max_score": 100,
       "min_score": 0
     },
@@ -3236,7 +3236,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_SKN-1_GFP_L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "SKN-1 Combined (GFP ChIP)_ SKN1_L1",
+      "label": "SKN-1 Combined (GFP ChIP), SKN1_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -3256,7 +3256,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17890.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "SKN-1 Combined (GFP ChIP)_ SKN1_L4",
+      "label": "SKN-1 Combined (GFP ChIP), SKN1_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -3276,7 +3276,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/20859.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "SKN-1 Combined (GFP ChIP)_ SKN1_L2",
+      "label": "SKN-1 Combined (GFP ChIP), SKN1_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -3296,7 +3296,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18687.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "SKN-1 Combined (GFP ChIP)_ SKN1_L3",
+      "label": "SKN-1 Combined (GFP ChIP), SKN1_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -3316,7 +3316,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18660.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-23 Combined (GFP ChIP)_ NHR-23_L3",
+      "label": "NHR-23 Combined (GFP ChIP), NHR-23_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -3336,7 +3336,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18037.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-23 Combined (GFP ChIP)_ NHR-23_L2",
+      "label": "NHR-23 Combined (GFP ChIP), NHR-23_L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -3356,7 +3356,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/9188.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "EFL-1 Combined (GFP ChIP)_ EFL1 L2",
+      "label": "EFL-1 Combined (GFP ChIP), EFL1 L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -3376,7 +3376,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18980.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "EFL-1 Combined (GFP ChIP)_ EFL1 L1",
+      "label": "EFL-1 Combined (GFP ChIP), EFL1 L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -3396,7 +3396,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18847.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "EFL-1 Combined (GFP ChIP)_ N2 EFL1 anti-EFL1 L1",
+      "label": "EFL-1 Combined (GFP ChIP), N2 EFL1 anti-EFL1 L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -3416,7 +3416,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/9107.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "EFL-1 Combined (GFP ChIP)_ EFL1 YA",
+      "label": "EFL-1 Combined (GFP ChIP), EFL1 YA",
       "max_score": 100,
       "min_score": 0
     },
@@ -3436,7 +3436,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/20512.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "GEI-11 Combined (GFP ChIP)_ GEI-11_Emb",
+      "label": "GEI-11 Combined (GFP ChIP), GEI-11_Emb",
       "max_score": 100,
       "min_score": 0
     },
@@ -3456,7 +3456,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/9256.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "GEI-11 Combined (GFP ChIP)_ GEI11_L2_GFP",
+      "label": "GEI-11 Combined (GFP ChIP), GEI11_L2_GFP",
       "max_score": 100,
       "min_score": 0
     },
@@ -3476,7 +3476,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_GEI11_GFP_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "GEI-11 Combined (GFP ChIP)_ GEI11_L3_GFP",
+      "label": "GEI-11 Combined (GFP ChIP), GEI11_L3_GFP",
       "max_score": 100,
       "min_score": 0
     },
@@ -3496,7 +3496,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_GEI11_GFP_L4_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "GEI-11 Combined (GFP ChIP)_ GEI11_L4_GFP",
+      "label": "GEI-11 Combined (GFP ChIP), GEI11_L4_GFP",
       "max_score": 100,
       "min_score": 0
     },
@@ -3516,7 +3516,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18808.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "GEI-11 Combined (GFP ChIP)_ GEI-11_L1",
+      "label": "GEI-11 Combined (GFP ChIP), GEI-11_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -3536,7 +3536,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18895.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "GEI-11 Combined (GFP ChIP)_ GEI-11_YA",
+      "label": "GEI-11 Combined (GFP ChIP), GEI-11_YA",
       "max_score": 100,
       "min_score": 0
     },
@@ -3556,7 +3556,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18488.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-35 Combined (GFP ChIP)_ LIN-35_YL468_YAD",
+      "label": "LIN-35 Combined (GFP ChIP), LIN-35_YL468_YAD",
       "max_score": 100,
       "min_score": 0
     },
@@ -3576,7 +3576,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/15089.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-35 Combined (GFP ChIP)_ LIN-35_YL402_yAd",
+      "label": "LIN-35 Combined (GFP ChIP), LIN-35_YL402_yAd",
       "max_score": 100,
       "min_score": 0
     },
@@ -3596,7 +3596,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/15116.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-35 Combined (GFP ChIP)_ LIN-35_YL398_L1",
+      "label": "LIN-35 Combined (GFP ChIP), LIN-35_YL398_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -3616,7 +3616,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18340.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-35 Combined (GFP ChIP)_ lin-35_n745_EFL-1_Ab_L1",
+      "label": "LIN-35 Combined (GFP ChIP), lin-35_n745_EFL-1_Ab_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -3636,7 +3636,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18398.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "LIN-35 Combined (GFP ChIP)_ LIN-35_L1",
+      "label": "LIN-35 Combined (GFP ChIP), LIN-35_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -3656,7 +3656,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18702.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-76 Combined (GFP ChIP)_ NHR-76_L3",
+      "label": "NHR-76 Combined (GFP ChIP), NHR-76_L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -3676,7 +3676,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/17982.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-76 Combined (GFP ChIP)_ NHR-76_L4",
+      "label": "NHR-76 Combined (GFP ChIP), NHR-76_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -3696,7 +3696,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/15092.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "HPL-2 Combined (GFP ChIP)_ HPL-2_YL416_L1",
+      "label": "HPL-2 Combined (GFP ChIP), HPL-2_YL416_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -3716,7 +3716,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18492.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "HPL-2 Combined (GFP ChIP)_ HPL-2_L1",
+      "label": "HPL-2 Combined (GFP ChIP), HPL-2_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -3736,7 +3736,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18345.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "HPL-2 Combined (GFP ChIP)_ Pmex-5_HPL-2_YL472_yAd",
+      "label": "HPL-2 Combined (GFP ChIP), Pmex-5_HPL-2_YL472_yAd",
       "max_score": 100,
       "min_score": 0
     },
@@ -3756,7 +3756,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/15207.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "AHA-1 Combined (GFP ChIP)_ AHA-1_L4",
+      "label": "AHA-1 Combined (GFP ChIP), AHA-1_L4",
       "max_score": 100,
       "min_score": 0
     },
@@ -3776,7 +3776,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18770.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "AHA-1 Combined (GFP ChIP)_ AHA-1_L1",
+      "label": "AHA-1 Combined (GFP ChIP), AHA-1_L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -3816,7 +3816,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18384.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-237 Combined (GFP ChIP)_ NHR-237 L3",
+      "label": "NHR-237 Combined (GFP ChIP), NHR-237 L3",
       "max_score": 100,
       "min_score": 0
     },
@@ -3836,7 +3836,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18414.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-237 Combined (GFP ChIP)_ NHR-237 L2",
+      "label": "NHR-237 Combined (GFP ChIP), NHR-237 L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -3856,7 +3856,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18623.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-237 Combined (GFP ChIP)_ NHR-237 EMB",
+      "label": "NHR-237 Combined (GFP ChIP), NHR-237 EMB",
       "max_score": 100,
       "min_score": 0
     },
@@ -3876,7 +3876,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/18676.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP",
-      "label": "NHR-237 Combined (GFP ChIP)_ NHR-237 L1",
+      "label": "NHR-237 Combined (GFP ChIP), NHR-237 L1",
       "max_score": 100,
       "min_score": 0
     }
