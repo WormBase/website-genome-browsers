@@ -1930,6 +1930,82 @@
          },
          "variance_band" : 0,
          "autoscale" : "local",
+         "key" : "Histone Modifications in H3Ser10",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_5244.bw",
+         "label" : "Histone Modifications in H3Ser10",
+         "metadata" : {
+            "shortInfo" : "Synchronized C. elegans adult females from strain DH245 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 phosphorylated on serine 10.  The recovered DNA fragments (as well as a sample of input DNA) were sequenced on the Illumina GA-II platform.  The signal graph data track shows the coverage of short reads in each sample.  The alignment files were used to call binding peaks with the MACS algorithm to generate the track showing sequence features."
+         },
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "category" : "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants"
+      },
+      {
+         "style" : {
+            "clip_marker_color" : "red",
+            "pos_color" : "blue",
+            "height" : 30,
+            "neg color" : "orange"
+         },
+         "variance_band" : 0,
+         "autoscale" : "local",
+         "key" : "Histone Modifications in H4K20 (ChIP-seq), Mixed stage N2 embryos",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6210.bw",
+         "label" : "Histone Modifications in H4K20 (ChIP-seq), Mixed stage N2 embryos",
+         "metadata" : {
+            "shortInfo" : "Synchronized C. elegans mixed stage embryos from strains YPT41, N2, and TY1072 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H4 methylated on lysine 20.  The recovered DNA fragments (as well as a sample of input DNA) were sequenced on the Illumina GA-II platform.  The signal graph data track shows the coverage of short reads in each sample.  The alignment files were used to call binding peaks with the MACS algorithm to generate the track showing sequence features."
+         },
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "category" : "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants"
+      },
+      {
+         "style" : {
+            "clip_marker_color" : "red",
+            "pos_color" : "blue",
+            "height" : 30,
+            "neg color" : "orange"
+         },
+         "variance_band" : 0,
+         "autoscale" : "local",
+         "key" : "Histone Modifications in H4K20 (ChIP-seq), Mixed stage TY1072 embryos",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6211.bw",
+         "label" : "Histone Modifications in H4K20 (ChIP-seq), Mixed stage TY1072 embryos",
+         "metadata" : {
+            "shortInfo" : "Synchronized C. elegans mixed stage embryos from strains YPT41, N2, and TY1072 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H4 methylated on lysine 20.  The recovered DNA fragments (as well as a sample of input DNA) were sequenced on the Illumina GA-II platform.  The signal graph data track shows the coverage of short reads in each sample.  The alignment files were used to call binding peaks with the MACS algorithm to generate the track showing sequence features."
+         },
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "category" : "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants"
+      },
+      {
+         "style" : {
+            "clip_marker_color" : "red",
+            "pos_color" : "blue",
+            "height" : 30,
+            "neg color" : "orange"
+         },
+         "variance_band" : 0,
+         "autoscale" : "local",
+         "key" : "Histone Modifications in H4K20 (ChIP-seq), Mixed stage YPT41 embryos",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6011.bw",
+         "label" : "Histone Modifications in H4K20 (ChIP-seq), Mixed stage YPT41 embryos",
+         "metadata" : {
+            "shortInfo" : "Synchronized C. elegans mixed stage embryos from strains YPT41, N2, and TY1072 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H4 methylated on lysine 20.  The recovered DNA fragments (as well as a sample of input DNA) were sequenced on the Illumina GA-II platform.  The signal graph data track shows the coverage of short reads in each sample.  The alignment files were used to call binding peaks with the MACS algorithm to generate the track showing sequence features."
+         },
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "category" : "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants"
+      },
+      {
+         "style" : {
+            "clip_marker_color" : "red",
+            "pos_color" : "blue",
+            "height" : 30,
+            "neg color" : "orange"
+         },
+         "variance_band" : 0,
+         "autoscale" : "local",
          "key" : "Histone Modifications in H4K8 (ChIP-Seq)",
          "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
          "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6210.bw",
@@ -9974,6 +10050,26 @@
          "label" : "UNC-130 Combined (GFP ChIP) recalled peaks",
          "metadata" : {
             "shortInfo" : " Identification of Transcription Factor UNC-130::GFP Binding Regions in L1. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
+         },
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "category" : "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
+         "min_score" : 0
+      },
+      {
+         "style" : {
+            "clip_marker_color" : "red",
+            "pos_color" : "blue",
+            "height" : 30,
+            "neg color" : "orange"
+         },
+         "variance_band" : 0,
+         "key" : "BLMP-1 Combined (GFP ChIP) recalled peaks",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/5426_Snyder_BLMP-1_GFP_L1_combined.bw",
+         "max_score" : 100,
+         "label" : "BLMP-1 Combined (GFP ChIP) recalled peaks",
+         "metadata" : {
+            "shortInfo" : "Identification of Transcription Factor BLMP-1::GFP Binding Regions in L1 (Snyder project,Snyder subgroup) "
          },
          "type" : "JBrowse/View/Track/Wiggle/XYPlot",
          "category" : "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
