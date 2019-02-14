@@ -519,6 +519,26 @@
       "label": "UNC-130 Combined (GFP ChIP) recalled peaks",
       "max_score": 100,
       "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": "Identification of Transcription Factor BLMP-1::GFP Binding Regions in L1 (Snyder project,Snyder subgroup) "
+      },
+      "variance_band": 0,
+      "key": "BLMP-1 Combined (GFP ChIP) recalled peaks",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/5426_Snyder_BLMP-1_GFP_L1_combined.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
+      "label": "BLMP-1 Combined (GFP ChIP) recalled peaks",
+      "max_score": 100,
+      "min_score": 0
     }
   ]
 }
