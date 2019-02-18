@@ -16,7 +16,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_N2_POLII_L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Control N2 ChIP",
-      "label": "Pol II Combined (N2 ChIP)_ N2_POLII_L1",
+      "label": "Pol II Combined (N2 ChIP), N2_POLII_L1",
       "max_score": 4,
       "min_score": -4
     },
@@ -36,7 +36,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_N2_POLII_eemb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Control N2 ChIP",
-      "label": "Pol II Combined (N2 ChIP)_ N2_POLII_eemb",
+      "label": "Pol II Combined (N2 ChIP), N2_POLII_eemb",
       "max_score": 4,
       "min_score": -4
     },
@@ -56,7 +56,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_N2_POLII_lemb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Control N2 ChIP",
-      "label": "Pol II Combined (N2 ChIP)_ N2_POLII_lemb",
+      "label": "Pol II Combined (N2 ChIP), N2_POLII_lemb",
       "max_score": 4,
       "min_score": -4
     },
@@ -76,7 +76,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_N2_POLII_L3_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Control N2 ChIP",
-      "label": "Pol II Combined (N2 ChIP)_ N2_POLII_L3",
+      "label": "Pol II Combined (N2 ChIP), N2_POLII_L3",
       "max_score": 4,
       "min_score": -4
     },
@@ -96,7 +96,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_N2_POLII_L4_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Control N2 ChIP",
-      "label": "Pol II Combined (N2 ChIP)_ N2_POLII_L4",
+      "label": "Pol II Combined (N2 ChIP), N2_POLII_L4",
       "max_score": 4,
       "min_score": -4
     },
@@ -116,7 +116,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_N2_POLII_YA_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Control N2 ChIP",
-      "label": "Pol II Combined (N2 ChIP)_ N2_POLII_YA",
+      "label": "Pol II Combined (N2 ChIP), N2_POLII_YA",
       "max_score": 4,
       "min_score": -4
     },
@@ -136,7 +136,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_N2_POLII_L2_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Control N2 ChIP",
-      "label": "Pol II Combined (N2 ChIP)_ N2_POLII_L2",
+      "label": "Pol II Combined (N2 ChIP), N2_POLII_L2",
       "max_score": 4,
       "min_score": -4
     }

@@ -17,7 +17,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H2AK5 (ChIP-Seq)_ H2AK5ac_YA_germline"
+      "label": "Histone Modifications in H2AK5 (ChIP-Seq), H2AK5ac_YA_germline"
     },
     {
       "style": {
@@ -36,7 +36,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H2AK5 (ChIP-Seq)_ H2AK5ac_YA_F"
+      "label": "Histone Modifications in H2AK5 (ChIP-Seq), H2AK5ac_YA_F"
     },
     {
       "style": {
@@ -55,7 +55,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K27 (ChIP-Seq)_ H3K27me3_AD"
+      "label": "Histone Modifications in H3K27 (ChIP-Seq), H3K27me3_AD"
     },
     {
       "style": {
@@ -74,7 +74,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K27 (ChIP-Seq)_ H3K27me1_Eemb"
+      "label": "Histone Modifications in H3K27 (ChIP-Seq), H3K27me1_Eemb"
     },
     {
       "style": {
@@ -93,7 +93,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K27 (ChIP-Seq)_ H3K27me3_N2_Eemb"
+      "label": "Histone Modifications in H3K27 (ChIP-Seq), H3K27me3_N2_Eemb"
     },
     {
       "style": {
@@ -112,7 +112,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K27 (ChIP-Seq)_ H3K27ac_Eemb"
+      "label": "Histone Modifications in H3K27 (ChIP-Seq), H3K27ac_Eemb"
     },
     {
       "style": {
@@ -131,7 +131,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K27 (ChIP-Seq)_ H3K27ac_AD"
+      "label": "Histone Modifications in H3K27 (ChIP-Seq), H3K27ac_AD"
     },
     {
       "style": {
@@ -150,7 +150,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K36 (ChIP-Seq)_ H3K36me1_AD"
+      "label": "Histone Modifications in H3K36 (ChIP-Seq), H3K36me1_AD"
     },
     {
       "style": {
@@ -169,7 +169,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K36 (ChIP-Seq)_ H3K36me1_Eemb"
+      "label": "Histone Modifications in H3K36 (ChIP-Seq), H3K36me1_Eemb"
     },
     {
       "style": {
@@ -188,7 +188,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K36 (ChIP-Seq)_ H3K36me2 N2 Eemb"
+      "label": "Histone Modifications in H3K36 (ChIP-Seq), H3K36me2 N2 Eemb"
     },
     {
       "style": {
@@ -207,7 +207,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K36 (ChIP-Seq)_ H3K36me3_N2_Eemb"
+      "label": "Histone Modifications in H3K36 (ChIP-Seq), H3K36me3_N2_Eemb"
     },
     {
       "style": {
@@ -226,7 +226,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K36 (ChIP-Seq)_ H3K36me3_AD_F"
+      "label": "Histone Modifications in H3K36 (ChIP-Seq), H3K36me3_AD_F"
     },
     {
       "style": {
@@ -245,7 +245,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K4 (ChIP-Seq)_ H3K4me2_YA"
+      "label": "Histone Modifications in H3K4 (ChIP-Seq), H3K4me2_YA"
     },
     {
       "style": {
@@ -264,7 +264,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K4 (ChIP-Seq)_ H3K4ME2 Eemb"
+      "label": "Histone Modifications in H3K4 (ChIP-Seq), H3K4ME2 Eemb"
     },
     {
       "style": {
@@ -283,7 +283,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K4 (ChIP-Seq)_ H3K4me1_Eemb"
+      "label": "Histone Modifications in H3K4 (ChIP-Seq), H3K4me1_Eemb"
     },
     {
       "style": {
@@ -302,7 +302,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K4 (ChIP-Seq)_ H3K4me1_YA_F"
+      "label": "Histone Modifications in H3K4 (ChIP-Seq), H3K4me1_YA_F"
     },
     {
       "style": {
@@ -321,7 +321,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K4 (ChIP-Seq)_ H3K4me3_Eemb"
+      "label": "Histone Modifications in H3K4 (ChIP-Seq), H3K4me3_Eemb"
     },
     {
       "style": {
@@ -340,7 +340,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K4 (ChIP-Seq)_ H3K4me1_AD_F"
+      "label": "Histone Modifications in H3K4 (ChIP-Seq), H3K4me1_AD_F"
     },
     {
       "style": {
@@ -359,7 +359,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K79 (ChIP-Seq)_ H3K79me3_Eemb"
+      "label": "Histone Modifications in H3K79 (ChIP-Seq), H3K79me3_Eemb"
     },
     {
       "style": {
@@ -378,7 +378,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K79 (ChIP-Seq)_ H3K79me3_AD"
+      "label": "Histone Modifications in H3K79 (ChIP-Seq), H3K79me3_AD"
     },
     {
       "style": {
@@ -397,7 +397,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K79 (ChIP-Seq)_ H3K79me1_Eemb"
+      "label": "Histone Modifications in H3K79 (ChIP-Seq), H3K79me1_Eemb"
     },
     {
       "style": {
@@ -416,7 +416,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K79 (ChIP-Seq)_ H3K79me2_Eemb"
+      "label": "Histone Modifications in H3K79 (ChIP-Seq), H3K79me2_Eemb"
     },
     {
       "style": {
@@ -435,7 +435,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K9 (ChIP-Seq)_ H3K9me3_UP07442_Eemb"
+      "label": "Histone Modifications in H3K9 (ChIP-Seq), H3K9me3_UP07442_Eemb"
     },
     {
       "style": {
@@ -454,7 +454,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K9 (ChIP-Seq)_ H3K9me1_Eemb"
+      "label": "Histone Modifications in H3K9 (ChIP-Seq), H3K9me1_Eemb"
     },
     {
       "style": {
@@ -473,7 +473,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K9 (ChIP-Seq)_ H3K9me3_HK00009_Eemb"
+      "label": "Histone Modifications in H3K9 (ChIP-Seq), H3K9me3_HK00009_Eemb"
     },
     {
       "style": {
@@ -492,7 +492,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K9 (ChIP-Seq)_ H3K9acS10ph_Eemb"
+      "label": "Histone Modifications in H3K9 (ChIP-Seq), H3K9acS10ph_Eemb"
     },
     {
       "style": {
@@ -511,7 +511,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K9 (ChIP-Seq)_ H3K9me2_N2_EEMB"
+      "label": "Histone Modifications in H3K9 (ChIP-Seq), H3K9me2_N2_EEMB"
     },
     {
       "style": {
@@ -530,7 +530,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K9 (ChIP-Seq)_ H3K9ac L3"
+      "label": "Histone Modifications in H3K9 (ChIP-Seq), H3K9ac L3"
     },
     {
       "style": {
@@ -549,7 +549,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K9 (ChIP-Seq)_ H3K9me3_Eemb"
+      "label": "Histone Modifications in H3K9 (ChIP-Seq), H3K9me3_Eemb"
     },
     {
       "style": {
@@ -568,7 +568,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K9 (ChIP-Seq)_ H3K9me2_YA"
+      "label": "Histone Modifications in H3K9 (ChIP-Seq), H3K9me2_YA"
     },
     {
       "style": {
@@ -587,86 +587,8 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H3K9 (ChIP-Seq)_ H3K9acS10_L3"
+      "label": "Histone Modifications in H3K9 (ChIP-Seq), H3K9acS10_L3"
     },
-
-    {
-      "style": {
-        "clip_marker_color": "red",
-        "pos_color": "blue",
-        "neg color": "orange",
-        "height": 30
-      },
-      "metadata": {
-        "shortInfo": "Synchronized C. elegans adult females from strain DH245 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 phosphorylated on serine 10.  The recovered DNA fragments (as well as a sample of input DNA) were sequenced on the Illumina GA-II platform.  The signal graph data track shows the coverage of short reads in each sample.  The alignment files were used to call binding peaks with the MACS algorithm to generate the track showing sequence features."
-      },
-      "variance_band": 0,
-      "key": "Histone Modifications in H3Ser10",
-      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
-      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_5244.bw",
-      "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
-      "autoscale": "local",
-      "label": "Histone Modifications in H3Ser10"
-    },
-    {
-      "style": {
-        "clip_marker_color": "red",
-        "pos_color": "blue",
-        "neg color": "orange",
-        "height": 30
-      },
-      "metadata": {
-        "shortInfo": "Synchronized C. elegans mixed stage embryos from strains YPT41, N2, and TY1072 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H4 methylated on lysine 20.  The recovered DNA fragments (as well as a sample of input DNA) were sequenced on the Illumina GA-II platform.  The signal graph data track shows the coverage of short reads in each sample.  The alignment files were used to call binding peaks with the MACS algorithm to generate the track showing sequence features."
-      },
-      "variance_band": 0,
-      "key": "Histone Modifications in H4K20 (ChIP-seq), Mixed stage N2 embryos",
-      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
-      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6210.bw",
-      "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
-      "autoscale": "local",
-      "label": "Histone Modifications in H4K20 (ChIP-seq), Mixed stage N2 embryos"
-    },
-    {
-      "style": {
-        "clip_marker_color": "red",
-        "pos_color": "blue",
-        "neg color": "orange",
-        "height": 30
-      },
-      "metadata": {
-        "shortInfo": "Synchronized C. elegans mixed stage embryos from strains YPT41, N2, and TY1072 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H4 methylated on lysine 20.  The recovered DNA fragments (as well as a sample of input DNA) were sequenced on the Illumina GA-II platform.  The signal graph data track shows the coverage of short reads in each sample.  The alignment files were used to call binding peaks with the MACS algorithm to generate the track showing sequence features."
-      },
-      "variance_band": 0,
-      "key": "Histone Modifications in H4K20 (ChIP-seq), Mixed stage TY1072 embryos",
-      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
-      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6211.bw",
-      "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
-      "autoscale": "local",
-      "label": "Histone Modifications in H4K20 (ChIP-seq), Mixed stage TY1072 embryos"
-    },
-    {
-      "style": {
-        "clip_marker_color": "red",
-        "pos_color": "blue",
-        "neg color": "orange",
-        "height": 30
-      },
-      "metadata": {
-        "shortInfo": "Synchronized C. elegans mixed stage embryos from strains YPT41, N2, and TY1072 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H4 methylated on lysine 20.  The recovered DNA fragments (as well as a sample of input DNA) were sequenced on the Illumina GA-II platform.  The signal graph data track shows the coverage of short reads in each sample.  The alignment files were used to call binding peaks with the MACS algorithm to generate the track showing sequence features."
-      },
-      "variance_band": 0,
-      "key": "Histone Modifications in H4K20 (ChIP-seq), Mixed stage YPT41 embryos",
-      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
-      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6011.bw",
-      "type": "JBrowse/View/Track/Wiggle/XYPlot",
-      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
-      "autoscale": "local",
-      "label": "Histone Modifications in H4K20 (ChIP-seq), Mixed stage YPT41 embryos"
-    },
-
     {
       "style": {
         "clip_marker_color": "red",

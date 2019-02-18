@@ -137,7 +137,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_POLII_FedL1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
-      "label": "PHA-4 Combined (Pol II ChIP)_ PHA4_POLII_FedL1",
+      "label": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_FedL1",
       "max_score": 100,
       "min_score": 0
     },
@@ -157,7 +157,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_POLII_emb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
-      "label": "PHA-4 Combined (Pol II ChIP)_ PHA4_POLII_emb",
+      "label": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_emb",
       "max_score": 100,
       "min_score": 0
     },
@@ -177,7 +177,7 @@
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_POLII_Starved-L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/PolII ChIP",
-      "label": "PHA-4 Combined (Pol II ChIP)_ PHA4_POLII_StarvedL1",
+      "label": "PHA-4 Combined (Pol II ChIP), PHA4_POLII_StarvedL1",
       "max_score": 100,
       "min_score": 0
     }
