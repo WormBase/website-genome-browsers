@@ -391,12 +391,12 @@
         "shortInfo": "Dosage Compensation and Chromosome Organization. Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track.  "
       },
       "variance_band": 0,
-      "key": "Dosage Compensation ChIP-chip arrays, SDC2_N2_MXEMB",
+      "key": "Dosage Compensation ChIP-chip arrays, SDQ314",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/SDQ314mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
-      "label": "Dosage Compensation ChIP-chip arrays_ SDC2_N2_MXEMB",
+      "label": "Dosage Compensation ChIP-chip arrays_ SDQ314",
       "max_score": 4,
       "min_score": -4
     },
@@ -411,12 +411,32 @@
         "shortInfo": "Dosage Compensation and Chromosome Organization. Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track.  "
       },
       "variance_band": 0,
-      "key": "Dosage Compensation ChIP-chip arrays, SDC2_N2_MXEMB",
+      "key": "Dosage Compensation ChIP-chip arrays, JL00005_SDC2_N2_MXEMB",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/JL00005_SDC2_N2_MXemb_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
-      "label": "Dosage Compensation ChIP-chip arrays_ SDC2_N2_MXEMB",
+      "label": "Dosage Compensation ChIP-chip arrays_ JL00005_SDC2_N2_MXEMB",
+      "max_score": 4,
+      "min_score": -4
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": "Dosage Compensation and Chromosome Organization. Synchronized C. elegans embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with antibodies that recognize the dosage compensation and condensin proteins.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track.  "
+      },
+      "variance_band": 0,
+      "key": "Dosage Compensation ChIP-chip arrays, SDQ3146_SDC2_N2_MXEMB",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/SDQ314mean_WS220.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
+      "label": "Dosage Compensation ChIP-chip arrays_ SDQ3146_SDC2_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
     },
@@ -611,12 +631,12 @@
         "shortInfo": "Cenromere Specificaton and Kinetochore Function. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes the centromere-binding protein HCP-3 (CENP-A).  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track.  "
       },
       "variance_band": 0,
-      "key": "Centromere Specificaton ChIP-chip arrays, OD00079_HCP3_N2_EEMB",
+      "key": "Centromere Specificaton ChIP-chip arrays, OD00079_HCP3_N2_EEMB (15012)",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/15012.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
-      "label": "Centromere Specificaton ChIP-chip arrays_ OD00079_HCP3_N2_EEMB",
+      "label": "Centromere Specificaton ChIP-chip arrays_ OD00079_HCP3_N2_EEMB (15012)",
       "max_score": 4,
       "min_score": -4
     },
@@ -671,12 +691,12 @@
         "shortInfo": "Transcription and Chromatin. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes the chromodomain-containing protein MRG-1.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track. "
       },
       "variance_band": 0,
-      "key": "MES-4 ChIP-chip arrays, MES4_N2_EEMB",
+      "key": "MES-4 ChIP-chip arrays, SGF3165_FLAG_MES4FLAG_EEMB",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/SGF3165_FLAG_MES4FLAG_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
-      "label": "MES-4 ChIP-chip arrays_ MES4_N2_EEMB",
+      "label": "MES-4 ChIP-chip arrays_ SGF3165_FLAG_MES4FLAG_EEMB",
       "max_score": 4,
       "min_score": -4
     },
@@ -691,12 +711,12 @@
         "shortInfo": "Transcription and Chromatin. Synchronized C. elegans early embryos from strain N2 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes the chromodomain-containing protein MRG-1.  After whole genome amplification, NimbleGen genomic tiling microarrays were used in two-color hybridization experiments to compare the signal from the input DNA versus the fragments pulled-down in the ChIP.  Normalized log2(ratios) are shown in this track. "
       },
       "variance_band": 0,
-      "key": "MES-4 ChIP-chip arrays, MES4_N2_EEMB",
+      "key": "MES-4 ChIP-chip arrays, SDQ0791_MES4_N2_EEMB",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/SDQ0791_MES4_N2_EEMB_mean_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
-      "label": "MES-4 ChIP-chip arrays_ MES4_N2_EEMB",
+      "label": "MES-4 ChIP-chip arrays_ SDQ0791_MES4_N2_EEMB",
       "max_score": 4,
       "min_score": -4
     },
@@ -791,12 +811,12 @@
         "shortInfo": "Transcription and Chromatin. Synchronized C. elegans mixed embryos from strains RB774 (which contains a zfp-1 knockout allele) and N2. Immunoprecipitated with an affinity-purified polyclonal antibody that recognizes chromatin-associated protein ZFP-1. The focus of our analysis will be elements that specify nucleosome positioning and occupancy, control domains of gene expression, induce repression of the X chromosome, guide mitotic segregation and genome duplication, govern homolog pairing and recombination during meiosis, and organize chromosome positioning within the nucleus. Our 126 strategically selected targets include RNA polymerase II isoforms, dosage-compensation proteins, centromere components, homolog-pairing facilitators, recombination markers, and nuclear-envelope constituents."
       },
       "variance_band": 0,
-      "key": "ZFP-1 ChIP-chip arrays, ZFP1_N2_MXEMB",
+      "key": "ZFP-1 ChIP-chip arrays, JL00006_ZFP1_N2_MXEMB",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/JL00006_ZFP1_N2_MXEMB_mean.wig_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
-      "label": "ZFP-1 ChIP-chip arrays_ ZFP1_N2_MXEMB",
+      "label": "ZFP-1 ChIP-chip arrays_ JL00006_ZFP1_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
     },
@@ -811,12 +831,12 @@
         "shortInfo": "Transcription and Chromatin. Synchronized C. elegans mixed embryos from strains RB774 (which contains a zfp-1 knockout allele) and N2. Immunoprecipitated with an affinity-purified polyclonal antibody that recognizes chromatin-associated protein ZFP-1. The focus of our analysis will be elements that specify nucleosome positioning and occupancy, control domains of gene expression, induce repression of the X chromosome, guide mitotic segregation and genome duplication, govern homolog pairing and recombination during meiosis, and organize chromosome positioning within the nucleus. Our 126 strategically selected targets include RNA polymerase II isoforms, dosage-compensation proteins, centromere components, homolog-pairing facilitators, recombination markers, and nuclear-envelope constituents."
       },
       "variance_band": 0,
-      "key": "ZFP-1 ChIP-chip arrays, ZFP1_N2_MXEMB",
+      "key": "ZFP-1 ChIP-chip arrays, SDQ3517_ZFP1_N2_MXEMB",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/SDQ3517_ZFP1_N2_MXEMB_mean.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
-      "label": "ZFP-1 ChIP-chip arrays_ ZFP1_N2_MXEMB",
+      "label": "ZFP-1 ChIP-chip arrays_ SDQ3517_ZFP1_N2_MXEMB",
       "max_score": 4,
       "min_score": -4
     },
