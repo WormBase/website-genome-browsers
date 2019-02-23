@@ -678,13 +678,13 @@
         "shortInfo": "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245."
       },
       "variance_band": 0,
-      "key": "Histone Modifications in H4K8 (ChIP-Seq)",
+      "key": "Histone Modifications in H4K8 (ChIP-Seq), L3",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
-      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6210.bw",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6002.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H4K8 (ChIP-Seq)"
+      "label": "Histone Modifications in H4K8 (ChIP-Seq)_ L3"
     },
     {
       "style": {
@@ -697,13 +697,13 @@
         "shortInfo": "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245."
       },
       "variance_band": 0,
-      "key": "Histone Modifications in H4K8 (ChIP-Seq)",
+      "key": "Histone Modifications in H4K8 (ChIP-Seq), Adult",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
-      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6211.bw",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6009.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H4K8 (ChIP-Seq)"
+      "label": "Histone Modifications in H4K8 (ChIP-Seq)_ Adult"
     },
     {
       "style": {
@@ -716,13 +716,13 @@
         "shortInfo": "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245."
       },
       "variance_band": 0,
-      "key": "Histone Modifications in H4K8 (ChIP-Seq)",
+      "key": "Histone Modifications in H4K8 (ChIP-Seq), Embryo",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
-      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6011.bw",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_5162.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H4K8 (ChIP-Seq)"
+      "label": "Histone Modifications in H4K8 (ChIP-Seq)_ Embryo"
     },
     {
       "style": {
