@@ -5683,17 +5683,20 @@
             "height" : 30,
             "neg color" : "orange"
          },
+         "fixBounds" : "false",
          "variance_band" : 0,
          "autoscale" : "local",
          "key" : "Histone Modifications in H4K8 (ChIP-Seq), L3",
          "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
          "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6002.bw",
          "metadata" : {
-            "shortInfo" : "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245.<br/><br/>For more information, see <a target='_blank' href='http://gbrowse.modencode.org/fgb2/gbrowse/worm/?display_citation=LIEB_seq-ab15823_H4K8ac_487128_N2_Eemb_'>modENCODE's track detail page</a>"
+            "shortInfo" : "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245.<br/><br/>For more information, see <a target='_blank' href='http://gbrowse.modencode.org/fgb2/gbrowse/worm/?display_citation=LIEB_seq-ab15823_H4K8ac_487128_N2_Eemb_'>modENCODE's track detail page</a><br/><br/>Note that the default minimum for the graph is the mean plus 1.65 times the standard deviation of the data set and the default maximum is the mean plus 5 times the standard deviation or the data set maximum value, whichever is less."
          },
          "label" : "Histone Modifications in H4K8 (ChIP-Seq)_ L3",
          "category" : "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
-         "type" : "JBrowse/View/Track/Wiggle/XYPlot"
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "min_score" : 123.2342878,
+         "max_score" : 261.79341
       },
       {
          "style" : {
@@ -5702,17 +5705,19 @@
             "height" : 30,
             "neg color" : "orange"
          },
+         "fixBounds" : "false",
          "variance_band" : 0,
-         "autoscale" : "local",
          "key" : "Histone Modifications in H4K8 (ChIP-Seq), Adult",
          "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
          "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6009.bw",
          "metadata" : {
-            "shortInfo" : "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245.<br/><br/>For more information, see <a target='_blank' href='http://gbrowse.modencode.org/fgb2/gbrowse/worm/?display_citation=LIEB_seq-ab15823_H4K8ac_487128_N2_Eemb_'>modENCODE's track detail page</a>"
+            "shortInfo" : "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245.<br/><br/>For more information, see <a target='_blank' href='http://gbrowse.modencode.org/fgb2/gbrowse/worm/?display_citation=LIEB_seq-ab15823_H4K8ac_487128_N2_Eemb_'>modENCODE's track detail page</a><br/><br/>Note that the default minimum for the graph is the mean plus 1.65 times the standard deviation of the data set and the default maximum is the mean plus 5 times the standard deviation or the data set maximum value, whichever is less."
          },
          "label" : "Histone Modifications in H4K8 (ChIP-Seq)_ Adult",
          "category" : "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
-         "type" : "JBrowse/View/Track/Wiggle/XYPlot"
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "min_score" : 92.69767115,
+         "max_score" : 204.712529
       },
       {
          "style" : {
@@ -5721,17 +5726,20 @@
             "height" : 30,
             "neg color" : "orange"
          },
+         "fixBounds" : "false",
          "variance_band" : 0,
          "autoscale" : "local",
          "key" : "Histone Modifications in H4K8 (ChIP-Seq), Embryo",
          "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
          "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_5162.bw",
          "metadata" : {
-            "shortInfo" : "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245.<br/><br/>For more information, see <a target='_blank' href='http://gbrowse.modencode.org/fgb2/gbrowse/worm/?display_citation=LIEB_seq-ab15823_H4K8ac_487128_N2_Eemb_'>modENCODE's track detail page</a>"
+            "shortInfo" : "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245.<br/><br/>For more information, see <a target='_blank' href='http://gbrowse.modencode.org/fgb2/gbrowse/worm/?display_citation=LIEB_seq-ab15823_H4K8ac_487128_N2_Eemb_'>modENCODE's track detail page</a><br/><br/>Note that the default minimum for the graph is the mean plus 1.65 times the standard deviation of the data set and the default maximum is the mean plus 5 times the standard deviation or the data set maximum value, whichever is less."
          },
          "label" : "Histone Modifications in H4K8 (ChIP-Seq)_ Embryo",
          "category" : "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
-         "type" : "JBrowse/View/Track/Wiggle/XYPlot"
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "min_score" : 77.58437595,
+         "max_score" : 174.871937
       },
       {
          "style" : {
