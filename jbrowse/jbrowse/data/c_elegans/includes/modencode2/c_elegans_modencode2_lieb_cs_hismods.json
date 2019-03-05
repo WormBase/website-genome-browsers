@@ -589,6 +589,7 @@
       "autoscale": "local",
       "label": "Histone Modifications in H3K9 (ChIP-Seq)_ H3K9acS10_L3"
     },
+
     {
       "style": {
         "clip_marker_color": "red",
@@ -597,16 +598,35 @@
         "height": 30
       },
       "metadata": {
-        "shortInfo": "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245."
+        "shortInfo": "Synchronized C. elegans adult females from strain DH245 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H3 phosphorylated on serine 10.  The recovered DNA fragments (as well as a sample of input DNA) were sequenced on the Illumina GA-II platform.  The signal graph data track shows the coverage of short reads in each sample.  The alignment files were used to call binding peaks with the MACS algorithm to generate the track showing sequence features."
       },
       "variance_band": 0,
-      "key": "Histone Modifications in H4K8 (ChIP-Seq)",
+      "key": "Histone Modifications in H3Ser10",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_5244.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
+      "autoscale": "local",
+      "label": "Histone Modifications in H3Ser10"
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": "Synchronized C. elegans mixed stage embryos from strains YPT41, N2, and TY1072 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H4 methylated on lysine 20.  The recovered DNA fragments (as well as a sample of input DNA) were sequenced on the Illumina GA-II platform.  The signal graph data track shows the coverage of short reads in each sample.  The alignment files were used to call binding peaks with the MACS algorithm to generate the track showing sequence features."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications in H4K20 (ChIP-seq), Mixed stage N2 embryos",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6210.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H4K8 (ChIP-Seq)"
+      "label": "Histone Modifications in H4K20 (ChIP-seq), Mixed stage N2 embryos"
     },
     {
       "style": {
@@ -616,16 +636,55 @@
         "height": 30
       },
       "metadata": {
-        "shortInfo": "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245."
+        "shortInfo": "Synchronized C. elegans mixed stage embryos from strains YPT41, N2, and TY1072 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H4 methylated on lysine 20.  The recovered DNA fragments (as well as a sample of input DNA) were sequenced on the Illumina GA-II platform.  The signal graph data track shows the coverage of short reads in each sample.  The alignment files were used to call binding peaks with the MACS algorithm to generate the track showing sequence features."
       },
       "variance_band": 0,
-      "key": "Histone Modifications in H4K8 (ChIP-Seq)",
+      "key": "Histone Modifications in H4K20 (ChIP-seq), Mixed stage TY1072 embryos",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6211.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H4K8 (ChIP-Seq)"
+      "label": "Histone Modifications in H4K20 (ChIP-seq), Mixed stage TY1072 embryos"
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": "Synchronized C. elegans mixed stage embryos from strains YPT41, N2, and TY1072 were treated with the cross-linking reagent formaldehyde.  Sonicated chromatin was prepared and immunoprecipitated with an affinity-purified polyclonal antibody that recognizes histone H4 methylated on lysine 20.  The recovered DNA fragments (as well as a sample of input DNA) were sequenced on the Illumina GA-II platform.  The signal graph data track shows the coverage of short reads in each sample.  The alignment files were used to call binding peaks with the MACS algorithm to generate the track showing sequence features."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications in H4K20 (ChIP-seq), Mixed stage YPT41 embryos",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6011.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
+      "autoscale": "local",
+      "label": "Histone Modifications in H4K20 (ChIP-seq), Mixed stage YPT41 embryos"
+    },
+
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications in H4K8 (ChIP-Seq), L3",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6002.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
+      "autoscale": "local",
+      "label": "Histone Modifications in H4K8 (ChIP-Seq)_ L3"
     },
     {
       "style": {
@@ -638,13 +697,32 @@
         "shortInfo": "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245."
       },
       "variance_band": 0,
-      "key": "Histone Modifications in H4K8 (ChIP-Seq)",
+      "key": "Histone Modifications in H4K8 (ChIP-Seq), Adult",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
-      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6011.bw",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_6009.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications in H4K8 (ChIP-Seq)"
+      "label": "Histone Modifications in H4K8 (ChIP-Seq)_ Adult"
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": "Histone Modifications in H4K8 (ChIP-seq). Synchronized C. elegans L3 larvae from strain N2, synchronized C.elegans early embryos from strain N2, and synchronized C.elegans adult females from strain DH245."
+      },
+      "variance_band": 0,
+      "key": "Histone Modifications in H4K8 (ChIP-Seq), Embryo",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/lieb/modencode_5162.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
+      "autoscale": "local",
+      "label": "Histone Modifications in H4K8 (ChIP-Seq)_ Embryo"
     },
     {
       "style": {
