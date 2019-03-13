@@ -8,7 +8,7 @@
         "height": 30
       },
       "metadata": {
-        "shortInfo": " Adult_Mononucleosomes. Staged C. elegans adults were prepared from a worm strain engineered to express biotin-tagged histone H3.3 (note that the transgene was not induced during this particular experiment).  Chromatin isolated from these animals was digested with micrococcal nuclease and extracted with 80 mM NaCl, followed by gel electrophoresis.  The gel-purified fraction was used in two-color hybridization experiments with NimbleGen genomic tiling microarrays.  The hybridization signal from this fraction was compared to the signal from the input DNA.  Scaled log2(ratios) are shown.  "
+        "shortInfo": " Adult_Mononucleosomes. Staged C. elegans adults were prepared from a worm strain engineered to express biotin-tagged histone H3.3 (note that the transgene was not induced during this particular experiment).  Chromatin isolated from these animals was digested with micrococcal nuclease and extracted with 80 mM NaCl, followed by gel electrophoresis.  The gel-purified fraction was used in two-color hybridization experiments with NimbleGen genomic tiling microarrays.  The hybridization signal from this fraction was compared to the signal from the input DNA.  Scaled log2(ratios) are shown. <br/><br/>For more information, see <a target='_blank' href='http://gbrowse.modencode.org/fgb2/gbrowse/worm/?display_citation=HenikoffNUCL'>modENCODE's track detail page</a>  "
       },
       "variance_band": 0,
       "key": "Mononucleosomes 80mM NaCl, Adult Mononucleosomes",
@@ -17,7 +17,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
-      "label": "Mononucleosomes 80mM NaCl, Adult Mononucleosomes"
+      "label": "Mononucleosomes 80mM NaCl_ Adult Mononucleosomes"
     },
     {
       "style": {
@@ -36,7 +36,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
-      "label": "Mononucleosomes 80mM NaCl, Embryo Mononucleosomes"
+      "label": "Mononucleosomes 80mM NaCl_ Embryo Mononucleosomes"
     },
     {
       "style": {
@@ -55,7 +55,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
-      "label": "H3.3 Chromatin fractions extracted with NaCl, 350mM fraction"
+      "label": "H3.3 Chromatin fractions extracted with NaCl_ 350mM fraction"
     },
     {
       "style": {
@@ -74,7 +74,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
-      "label": "H3.3 Chromatin fractions extracted with NaCl, 600mM fraction"
+      "label": "H3.3 Chromatin fractions extracted with NaCl_ 600mM fraction"
     },
     {
       "style": {
@@ -93,7 +93,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
-      "label": "H3.3 Chromatin fractions extracted with NaCl, 80mM fraction"
+      "label": "H3.3 Chromatin fractions extracted with NaCl_ 80mM fraction"
     },
     {
       "style": {
@@ -112,7 +112,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
-      "label": "Chromatin fractions extracted with NaCl, 80mM fraction"
+      "label": "Chromatin fractions extracted with NaCl_ 80mM fraction"
     },
     {
       "style": {
@@ -131,7 +131,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
-      "label": "Chromatin fractions extracted with NaCl, 600mM fraction"
+      "label": "Chromatin fractions extracted with NaCl_ 600mM fraction"
     },
     {
       "style": {
@@ -150,7 +150,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Nucleosome Structure",
       "autoscale": "local",
-      "label": "Chromatin fractions extracted with NaCl, 600mM Pellet"
+      "label": "Chromatin fractions extracted with NaCl_ 600mM Pellet"
     }
   ]
 }

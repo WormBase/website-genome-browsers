@@ -17,7 +17,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "autoscale": "local",
-      "label": "Chromatin Silencing ChIP-chip arrays, FP00001_HPL2_N2_L3_EGS"
+      "label": "Chromatin Silencing ChIP-chip arrays_ FP00001_HPL2_N2_L3_EGS"
     },
     {
       "style": {
@@ -36,7 +36,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "autoscale": "local",
-      "label": "Chromatin Silencing ChIP-chip arrays, SDQ2324_HPL2_N2_LTEMB"
+      "label": "Chromatin Silencing ChIP-chip arrays_ SDQ2324_HPL2_N2_LTEMB"
     },
     {
       "style": {
@@ -55,7 +55,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Chromatin Modifying Enzymes",
       "autoscale": "local",
-      "label": "Chromatin Silencing ChIP-chip arrays, SDQ4129_Y39G10AR18_N2_MXEMB"
+      "label": "Chromatin Silencing ChIP-chip arrays_ SDQ4129_Y39G10AR18_N2_MXEMB"
     },
     {
       "style": {
@@ -93,7 +93,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, SDQ3599_DPL1_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ SDQ3599_DPL1_N2_L3"
     },
     {
       "style": {
@@ -112,7 +112,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, JA00011_LIN35_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ JA00011_LIN35_N2_L3"
     },
     {
       "style": {
@@ -131,7 +131,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, JA00001_HTZ1_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ JA00001_HTZ1_N2_L3"
     },
     {
       "style": {
@@ -150,7 +150,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, SDQ2340_HPL2_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ SDQ2340_HPL2_N2_L3"
     },
     {
       "style": {
@@ -169,7 +169,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, BH00004_LIN54_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ BH00004_LIN54_N2_L3"
     },
     {
       "style": {
@@ -188,7 +188,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, BH00001_LIN52_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ BH00001_LIN52_N2_L3"
     },
     {
       "style": {
@@ -207,7 +207,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, BH00003_LIN37_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ BH00003_LIN37_N2_L3"
     },
     {
       "style": {
@@ -226,7 +226,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, SDQ3528_NURF1_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ SDQ3528_NURF1_N2_L3"
     },
     {
       "style": {
@@ -245,7 +245,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, SDQ2354_HDA1_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ SDQ2354_HDA1_N2_L3"
     },
     {
       "style": {
@@ -264,7 +264,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, SDQ4663_RPC1_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ SDQ4663_RPC1_N2_L3"
     },
     {
       "style": {
@@ -283,7 +283,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, SDQ3861_LET418_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ SDQ3861_LET418_N2_L3"
     },
     {
       "style": {
@@ -302,7 +302,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, HM4077_LIN61_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ HM4077_LIN61_N2_L3"
     },
     {
       "style": {
@@ -321,7 +321,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, SDQ2342_LET418_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ SDQ2342_LET418_N2_L3"
     },
     {
       "style": {
@@ -340,7 +340,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, BH00005_LIN9_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ BH00005_LIN9_N2_L3"
     },
     {
       "style": {
@@ -359,7 +359,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, SDQ2370_LIN53_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ SDQ2370_LIN53_N2_L3"
     },
     {
       "style": {
@@ -378,7 +378,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, SDQ3525_NURF1_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ SDQ3525_NURF1_N2_L3"
     },
     {
       "style": {
@@ -397,7 +397,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, SDQ3520_LIN61_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ SDQ3520_LIN61_N2_L3"
     },
     {
       "style": {
@@ -416,7 +416,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, SDQ2940_NURF1_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ SDQ2940_NURF1_N2_L3"
     },
     {
       "style": {
@@ -435,7 +435,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq L3, SDQ3590_EFL1_N2_L3"
+      "label": "Transcription Factors ChIP-Seq L3_ SDQ3590_EFL1_N2_L3"
     },
     {
       "style": {
@@ -454,7 +454,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Late Embryo, BH00003_LIN37_N2_LEMB"
+      "label": "Transcription Factors ChIP-Seq Late Embryo_ BH00003_LIN37_N2_LEMB"
     },
     {
       "style": {
@@ -473,7 +473,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Late Embryo, SDQ3590_EFL1_N2_LEMB"
+      "label": "Transcription Factors ChIP-Seq Late Embryo_ SDQ3590_EFL1_N2_LEMB"
     },
     {
       "style": {
@@ -492,7 +492,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Late Embryo, SDQ3166_LIN37_N2_LEMB"
+      "label": "Transcription Factors ChIP-Seq Late Embryo_ SDQ3166_LIN37_N2_LEMB"
     },
     {
       "style": {
@@ -511,7 +511,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Late Embryo, BH00004_LIN54_N2_LEMB"
+      "label": "Transcription Factors ChIP-Seq Late Embryo_ BH00004_LIN54_N2_LEMB"
     },
     {
       "style": {
@@ -530,7 +530,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Late Embryo, BH00005_LIN9_N2_LEMB"
+      "label": "Transcription Factors ChIP-Seq Late Embryo_ BH00005_LIN9_N2_LEMB"
     },
     {
       "style": {
@@ -549,7 +549,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Late Embryo, BH00001_LIN52_N2_LEMB"
+      "label": "Transcription Factors ChIP-Seq Late Embryo_ BH00001_LIN52_N2_LEMB"
     },
     {
       "style": {
@@ -568,7 +568,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Late Embryo, SDQ2370_LIN53_N2_LEMB"
+      "label": "Transcription Factors ChIP-Seq Late Embryo_ SDQ2370_LIN53_N2_LEMB"
     },
     {
       "style": {
@@ -587,7 +587,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Late Embryo, SDQ3599_DPL1_N2_LEMB"
+      "label": "Transcription Factors ChIP-Seq Late Embryo_ SDQ3599_DPL1_N2_LEMB"
     },
     {
       "style": {
@@ -606,7 +606,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Late Embryo, JA00011_LIN35_N2_LEMB"
+      "label": "Transcription Factors ChIP-Seq Late Embryo_ JA00011_LIN35_N2_LEMB"
     },
     {
       "style": {
@@ -625,7 +625,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ2357Q2358_AMA1_N2_MXEMB_EE"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ2357Q2358_AMA1_N2_MXEMB_EE"
     },
     {
       "style": {
@@ -644,7 +644,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4663_RPC1_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ4663_RPC1_N2_MXEMB"
     },
     {
       "style": {
@@ -663,7 +663,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4526_TF3C_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ4526_TF3C_N2_MXEMB"
     },
     {
       "style": {
@@ -682,7 +682,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4470_TAG315_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ4470_TAG315_N2_MXEMB"
     },
     {
       "style": {
@@ -701,7 +701,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, AB46540_NIgG_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ AB46540_NIgG_N2_MXEMB"
     },
     {
       "style": {
@@ -720,7 +720,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4585_ASH2_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ4585_ASH2_N2_MXEMB"
     },
     {
       "style": {
@@ -739,7 +739,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4481_PQN85_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ4481_PQN85_N2_MXEMB"
     },
     {
       "style": {
@@ -758,7 +758,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, NBP170893_HTZ1_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ NBP170893_HTZ1_N2_MXEMB"
     },
     {
       "style": {
@@ -777,7 +777,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ3856_SDC1_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ3856_SDC1_N2_MXEMB"
     },
     {
       "style": {
@@ -796,7 +796,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ2966_MIS12_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ2966_MIS12_N2_MXEMB"
     },
     {
       "style": {
@@ -815,7 +815,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, OD0039_SMC4_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ OD0039_SMC4_N2_MXEMB"
     },
     {
       "style": {
@@ -834,7 +834,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ2357Q2358_AMA1_N2_MXEMB_RiIMB1"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ2357Q2358_AMA1_N2_MXEMB_RiIMB1"
     },
     {
       "style": {
@@ -853,7 +853,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4564_DPY28_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ4564_DPY28_N2_MXEMB"
     },
     {
       "style": {
@@ -872,7 +872,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4109_TAF1_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ4109_TAF1_N2_MXEMB"
     },
     {
       "style": {
@@ -891,7 +891,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4640_SWD3_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ4640_SWD3_N2_MXEMB"
     },
     {
       "style": {
@@ -910,7 +910,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4562_SMC6_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ4562_SMC6_N2_MXEMB"
     },
     {
       "style": {
@@ -929,7 +929,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4561_DPY26_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ4561_DPY26_N2_MXEMB"
     },
     {
       "style": {
@@ -948,7 +948,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ3582_CBP1_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ3582_CBP1_N2_MXEMB"
     },
     {
       "style": {
@@ -967,7 +967,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4496_DPY26_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ4496_DPY26_N2_MXEMB"
     },
     {
       "style": {
@@ -986,7 +986,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ3499_DPY30_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ3499_DPY30_N2_MXEMB"
     },
     {
       "style": {
@@ -1005,7 +1005,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4493_MAU2_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ4493_MAU2_N2_MXEMB"
     },
     {
       "style": {
@@ -1024,7 +1024,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ4154_IMB1_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ4154_IMB1_N2_MXEMB"
     },
     {
       "style": {
@@ -1043,7 +1043,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ3892_MIX1_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ3892_MIX1_N2_MXEMB"
     },
     {
       "style": {
@@ -1062,7 +1062,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Mixed embryo, SDQ2946_HCP4_N2_MXEMB"
+      "label": "Transcription Factors ChIP-Seq Mixed embryo_ SDQ2946_HCP4_N2_MXEMB"
     },
     {
       "style": {
@@ -1157,7 +1157,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Chromatin Structure/Histone Modifications and Variants",
       "autoscale": "local",
-      "label": "Histone Modifications (H3K4) ChIP-Seq, WA30534819_H3K4me3_N2_L3"
+      "label": "Histone Modifications (H3K4) ChIP-Seq_ WA30534819_H3K4me3_N2_L3"
     },
     {
       "style": {
@@ -1176,7 +1176,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3972_COH3_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3972_COH3_FEM2_AD"
     },
     {
       "style": {
@@ -1195,7 +1195,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ5421_CEC7_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ5421_CEC7_FEM2_AD"
     },
     {
       "style": {
@@ -1214,7 +1214,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ4068_MRG1_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ4068_MRG1_FEM2_AD"
     },
     {
       "style": {
@@ -1233,7 +1233,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3965_ZIM1_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3965_ZIM1_FEM2_AD"
     },
     {
       "style": {
@@ -1252,7 +1252,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ0811_RAD51_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ0811_RAD51_FEM2_AD"
     },
     {
       "style": {
@@ -1271,7 +1271,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, G0655G0656_HTP3_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ G0655G0656_HTP3_FEM2_AD"
     },
     {
       "style": {
@@ -1290,7 +1290,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3953_REC8_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3953_REC8_FEM2_AD"
     },
     {
       "style": {
@@ -1309,7 +1309,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3989_ASH2_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3989_ASH2_FEM2_AD"
     },
     {
       "style": {
@@ -1328,7 +1328,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3949_ZIM3_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3949_ZIM3_FEM2_AD"
     },
     {
       "style": {
@@ -1347,7 +1347,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3925_ZHP3_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3925_ZHP3_FEM2_AD"
     },
     {
       "style": {
@@ -1366,7 +1366,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ0835_SCC1_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ0835_SCC1_FEM2_AD"
     },
     {
       "style": {
@@ -1385,7 +1385,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ4501_T09A5.8_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ4501_T09A5.8_FEM2_AD"
     },
     {
       "style": {
@@ -1404,7 +1404,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ0809_COH1_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ0809_COH1_FEM2_AD"
     },
     {
       "style": {
@@ -1423,7 +1423,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ2356_MRE11_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ2356_MRE11_FEM2_AD"
     },
     {
       "style": {
@@ -1442,7 +1442,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3942_KLE2_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3942_KLE2_FEM2_AD"
     },
     {
       "style": {
@@ -1461,7 +1461,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3866_MRE11_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3866_MRE11_FEM2_AD"
     },
     {
       "style": {
@@ -1480,7 +1480,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3853_MSH5_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3853_MSH5_FEM2_AD"
     },
     {
       "style": {
@@ -1499,7 +1499,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ4625_T09A5.8_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ4625_T09A5.8_FEM2_AD"
     },
     {
       "style": {
@@ -1518,7 +1518,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ5413_CEC7_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ5413_CEC7_FEM2_AD"
     },
     {
       "style": {
@@ -1537,7 +1537,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ2382_HIM5_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ2382_HIM5_FEM2_AD"
     },
     {
       "style": {
@@ -1556,7 +1556,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3915_MSH5_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3915_MSH5_FEM2_AD"
     },
     {
       "style": {
@@ -1575,7 +1575,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3907_CHD3_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3907_CHD3_FEM2_AD"
     },
     {
       "style": {
@@ -1594,7 +1594,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ0821_SCC1_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ0821_SCC1_FEM2_AD"
     },
     {
       "style": {
@@ -1613,7 +1613,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3898_KLE2_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3898_KLE2_FEM2_AD"
     },
     {
       "style": {
@@ -1632,7 +1632,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3914_REC8_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3914_REC8_FEM2_AD"
     },
     {
       "style": {
@@ -1651,7 +1651,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3849_CHD3_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3849_CHD3_FEM2_AD"
     },
     {
       "style": {
@@ -1670,7 +1670,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ0802_REC8_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ0802_REC8_FEM2_AD"
     },
     {
       "style": {
@@ -1689,7 +1689,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3948_COH3_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3948_COH3_FEM2_AD"
     },
     {
       "style": {
@@ -1708,7 +1708,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ3956_ZHP3_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ3956_ZHP3_FEM2_AD"
     },
     {
       "style": {
@@ -1727,7 +1727,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ0812_COH1_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ0812_COH1_FEM2_AD"
     },
     {
       "style": {
@@ -1746,7 +1746,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq DH245, SDQ1665_1666_MRG1_FEM2_AD"
+      "label": "Transcription Factors ChIP-Seq DH245_ SDQ1665_1666_MRG1_FEM2_AD"
     },
     {
       "style": {
@@ -1765,7 +1765,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Early Embryo, AB1791_H3_377098_N2_EEMB"
+      "label": "Transcription Factors ChIP-Seq Early Embryo_ AB1791_H3_377098_N2_EEMB"
     },
     {
       "style": {
@@ -1784,7 +1784,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Early Embryo, SDQ3927_MRG1_N2_EEMB"
+      "label": "Transcription Factors ChIP-Seq Early Embryo_ SDQ3927_MRG1_N2_EEMB"
     },
     {
       "style": {
@@ -1803,7 +1803,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Early Embryo, SDQ3838_T26A5.5_N2_EEMB"
+      "label": "Transcription Factors ChIP-Seq Early Embryo_ SDQ3838_T26A5.5_N2_EEMB"
     },
     {
       "style": {
@@ -1822,7 +1822,7 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/Transcription and Chromatin",
       "autoscale": "local",
-      "label": "Transcription Factors ChIP-Seq Early Embryo, AB817_8WG16_639746_N2_EEMB"
+      "label": "Transcription Factors ChIP-Seq Early Embryo_ AB817_8WG16_639746_N2_EEMB"
     }
   ]
 }

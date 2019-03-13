@@ -1,6 +1,6 @@
 define(['dojo/_base/declare',
            'dojo/_base/lang',
-           './Box'],
+           'JBrowse/View/FeatureGlyph/Box'],
        function(declare,
            lang,
            Box) {

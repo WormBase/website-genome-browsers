@@ -351,12 +351,12 @@
         "shortInfo": "Identification of Transcription Factor PHA-4::GFP Binding Regions in Embryos. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
       },
       "variance_band": 0,
-      "key": "PHA-4 Combined (GFP ChIP) recalled peaks",
+      "key": "PHA-4 Combined (GFP ChIP) recalled peaks, L2",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_GFP_L2_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
-      "label": "PHA-4 Combined (GFP ChIP) recalled peaks",
+      "label": "PHA-4 Combined (GFP ChIP) recalled peaks_ L2",
       "max_score": 100,
       "min_score": 0
     },
@@ -371,12 +371,12 @@
         "shortInfo": "Identification of Transcription Factor PHA-4::GFP Binding Regions in Embryos. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
       },
       "variance_band": 0,
-      "key": "PHA-4 Combined (GFP ChIP) recalled peaks",
+      "key": "PHA-4 Combined (GFP ChIP) recalled peaks, Embryo",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_GFP_emb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
-      "label": "PHA-4 Combined (GFP ChIP) recalled peaks",
+      "label": "PHA-4 Combined (GFP ChIP) recalled peaks_ Embryo",
       "max_score": 100,
       "min_score": 0
     },
@@ -391,12 +391,12 @@
         "shortInfo": "Identification of Transcription Factor PHA-4::GFP Binding Regions in Embryos. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
       },
       "variance_band": 0,
-      "key": "PHA-4 Combined (GFP ChIP) recalled peaks",
+      "key": "PHA-4 Combined (GFP ChIP) recalled peaks, Late embryo",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_GFP_lemb_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
-      "label": "PHA-4 Combined (GFP ChIP) recalled peaks",
+      "label": "PHA-4 Combined (GFP ChIP) recalled peaks_ Late embryo",
       "max_score": 100,
       "min_score": 0
     },
@@ -411,12 +411,12 @@
         "shortInfo": "Identification of Transcription Factor PHA-4::GFP Binding Regions in Embryos. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
       },
       "variance_band": 0,
-      "key": "PHA-4 Combined (GFP ChIP) recalled peaks",
+      "key": "PHA-4 Combined (GFP ChIP) recalled peaks, YA",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_GFP_YA_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
-      "label": "PHA-4 Combined (GFP ChIP) recalled peaks",
+      "label": "PHA-4 Combined (GFP ChIP) recalled peaks_ YA",
       "max_score": 100,
       "min_score": 0
     },
@@ -431,12 +431,12 @@
         "shortInfo": "Identification of Transcription Factor PHA-4::GFP Binding Regions in Embryos. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
       },
       "variance_band": 0,
-      "key": "PHA-4 Combined (GFP ChIP) recalled peaks",
+      "key": "PHA-4 Combined (GFP ChIP) recalled peaks, Starved L1",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_GFP_Starved-L1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
-      "label": "PHA-4 Combined (GFP ChIP) recalled peaks",
+      "label": "PHA-4 Combined (GFP ChIP) recalled peaks_ Starved L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -451,12 +451,12 @@
         "shortInfo": "Identification of Transcription Factor PHA-4::GFP Binding Regions in Embryos. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology.  "
       },
       "variance_band": 0,
-      "key": "PHA-4 Combined (GFP ChIP) recalled peaks",
+      "key": "PHA-4 Combined (GFP ChIP) recalled peaks, Fed L1",
       "storeClass": "JBrowse/Store/SeqFeature/BigWig",
       "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/Snyder_PHA4_GFP_FedL1_combined_WS220.bw",
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
-      "label": "PHA-4 Combined (GFP ChIP) recalled peaks",
+      "label": "PHA-4 Combined (GFP ChIP) recalled peaks_ Fed L1",
       "max_score": 100,
       "min_score": 0
     },
@@ -517,6 +517,26 @@
       "type": "JBrowse/View/Track/Wiggle/XYPlot",
       "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
       "label": "UNC-130 Combined (GFP ChIP) recalled peaks",
+      "max_score": 100,
+      "min_score": 0
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg color": "orange",
+        "height": 30
+      },
+      "metadata": {
+        "shortInfo": "Identification of Transcription Factor BLMP-1::GFP Binding Regions in L1 (Snyder project,Snyder subgroup) "
+      },
+      "variance_band": 0,
+      "key": "BLMP-1 Combined (GFP ChIP) recalled peaks",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/snyder/5426_Snyder_BLMP-1_GFP_L1_combined.bw",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE data (2014)/Transcription Factors/GFP ChIP (Peak Recall)",
+      "label": "BLMP-1 Combined (GFP ChIP) recalled peaks",
       "max_score": 100,
       "min_score": 0
     }
