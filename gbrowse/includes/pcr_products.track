@@ -1,7 +1,7 @@
 # This is an aggregated track of ALL PCR_products (promoterome, orfeome, GenePair etc)
 [PCR_PRODUCTS]
 key           = PCR Assays
-feature       = PCR_product
+feature       = PCR_product:GenePair_STS PCR_product:Orfeome PCR_product:Promoterome
 bgcolor       = violet
 glyph         = primers
 category      = Reagents
