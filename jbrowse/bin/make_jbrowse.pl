@@ -388,7 +388,7 @@ for my $section (@config_sections) {
 #use grep-created files for specific tracks
 #first process tracks that will be name indexed
 for my $section (@config_sections) {
-    next unless $Config->{$section}->{index} == 1;
+    next unless (defined $Config->{$section}->{index} and $Config->{$section}->{index} == 1);
     next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
@@ -403,7 +403,7 @@ system("$nice bin/generate-names.pl --out $DATADIR --compress")
 #process the rest of the tracks
 
 for my $section (@config_sections) {
-    next if $Config->{$section}->{index} == 1;
+    next if (defined $Config->{$section}->{index} and $Config->{$section}->{index} == 1);
     next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
@@ -709,7 +709,7 @@ sub new_fasta_md5 {
     my $speciesdir = $1;
     my $projectdir = $2;
     my @line = `grep $projectdir $FASTAMD5`; 
-    warn @line;
+    #warn @line;
     if (scalar @line == 0) {
         $log->warn( "$SPECIES isn't in the MD5 file.  Is it new?");
         return 1;
