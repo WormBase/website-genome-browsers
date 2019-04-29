@@ -3,6 +3,8 @@
       {
          "style" : {
             "className" : "feature",
+            "height" : 5,
+            "strandArrow" : false,
             "color" : "green"
          },
          "onClick" : {
