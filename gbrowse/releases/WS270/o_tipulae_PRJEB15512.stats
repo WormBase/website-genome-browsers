@@ -1,0 +1,8 @@
+gff_version: 3
+file: /usr/local/ftp/pub/wormbase/releases/WS270/species/o_tipulae/PRJEB15512/o_tipulae.PRJEB15512.WS270.annotations.gff3.gz
+feature	children	source	method	track	count
+gene:WormBase_imported		WormBase_imported	gene	Genes (genes)	14938
+	mRNA:WormBase_imported	WormBase_imported	mRNA	Genes (genes)	14626
+	five_prime_UTR:WormBase_imported	WormBase_imported	five_prime_UTR	Genes (genes)	0
+	three_prime_UTR:WormBase_imported	WormBase_imported	three_prime_UTR	Genes (genes)	0
+low_complexity_region:dust		dust	low_complexity_region	Low complextity region (Dust) (repeats_dust)	55918
