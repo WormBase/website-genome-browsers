@@ -256,7 +256,10 @@ while (my $line = <AS>) {
         $track = $1;
     }
     else {
-        next; #if there's no config for this track, goto next line
+        next unless ($la[1] =~ /landmark/ or $la[1] =~ /WBPaper00056245/); 
+          #if there's no config for this track, goto next line
+          #current exceptions: gene:landmark, since that's handled diff in gb
+          #lincRNA:WBPaper00056245 since there is currently not a gb track
     }
 
     for (my $i=0;$i<scalar(@la);$i++) {
