@@ -28,7 +28,7 @@ if ($SORT) {
 
 #first run parentify and rename the input file
 system("$Bin/parentify_features.pl", $FILEIN ) == 0 or die $!;
-warn "finished parentification\n";
+#warn "finished parentification\n";
 copy ("$FILEIN.out", $FILEIN);
 
 #moving on to grandparentification
