@@ -1,15 +1,1 @@
-{
-   "tracks" : [
-      {
-         "urlTemplate" : "../seq/{refseq_dirpath}/{refseq}-",
-         "unsafePopup" : true,
-         "key" : "Reference sequence",
-         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
-         "type" : "SequenceTrack",
-         "chunkSize" : 20000,
-         "label" : "DNA",
-         "unsafeMouseover" : true,
-         "category" : "Reference sequence"
-      }
-   ]
-}
+DNA.json
