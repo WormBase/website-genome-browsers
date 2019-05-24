@@ -1,1 +1,30 @@
-dnaseI_hypersensitive_site.json
+{
+   "tracks" : [
+      {
+         "category" : "Sequence Features/Signals & Motifs",
+         "unsafeMouseover" : true,
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "label" : "DNAseI hypersensitive site",
+         "type" : "CanvasFeatures",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "onClick" : {
+            "title" : "Feature in WormBase",
+            "url" : "{featureURL}",
+            "action" : "iframeDialog",
+            "label" : "Feature in WormBase"
+         },
+         "metadata" : {
+            "shortInfo" : "DNAse I hypersensitive sites from the 2009 paper by Shi et al."
+         },
+         "key" : "DNAseI hypersensitive site",
+         "urlTemplate" : "../tracks/DNAseI hypersensitive site/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures"
+      }
+   ]
+}

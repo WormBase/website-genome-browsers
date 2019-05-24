@@ -1,33 +1,35 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "gray",
-            "label" : "{geneLabel}",
-            "height" : 6,
-            "description" : "function(f) {var type = f.get('type'); return type; }"
-         },
-         "subParts" : "exon",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{simpleGeneURL}",
-            "label" : "Feature in WormBase",
-            "title" : "Feature in WormBase"
-         },
-         "key" : "Curated Genes (noncoding)",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Curated Genes (noncoding)/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "category": "Genes",
          "label" : "Curated Genes (noncoding)",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "style" : {
+            "description" : "function(f) {var type = f.get('type'); return type; }",
+            "color" : "gray",
+            "height" : 6,
+            "label" : "{geneLabel}",
+            "className" : "feature"
+         },
          "metadata" : {
             "shortInfo" : "Non-coding curated gene models, including ncRNA, tRNA, miRNA, snRNA, snoRNA, piRNA, lincRNA and antisense RNA."
          },
-         "maxExportSpan" : 50000000
+         "onClick" : {
+            "label" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "url" : "{simpleGeneURL}",
+            "title" : "Feature in WormBase"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "category" : "Genes",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "subParts" : "exon",
+         "key" : "Curated Genes (noncoding)",
+         "urlTemplate" : "../tracks/Curated Genes (noncoding)/{refseq}/trackData.jsonz",
+         "unsafePopup" : true
       }
    ]
 }

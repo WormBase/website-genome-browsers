@@ -1,29 +1,31 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "green",
-            "height" : 6
-         },
-         "onClick" : {
-            "url" : "{featureURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "label" : "Genome sequence corrections",
+         "unsafeMouseover" : true,
+         "category" : "Genome Structure/Assembly & Curation",
+         "urlTemplate" : "../tracks/Genome sequence corrections/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
          "metadata" : {
             "shortInfo" : "Positions within the reference genome sequence that were previously identified as having a base call error. This error has now been corrected."
          },
-         "category": "Genome Structure/Assembly & Curation",
-         "key" : "Genome sequence corrections",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Genome sequence corrections/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "Genome sequence corrections",
-         "maxExportSpan" : 50000000
+         "onClick" : {
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "url" : "{featureURL}",
+            "label" : "Feature in WormBase"
+         },
+         "style" : {
+            "color" : "green",
+            "height" : 6,
+            "className" : "feature"
+         },
+         "key" : "Genome sequence corrections",
+         "type" : "CanvasFeatures"
       }
    ]
 }

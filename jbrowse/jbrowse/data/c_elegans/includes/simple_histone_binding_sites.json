@@ -1,1 +1,30 @@
-histone_binding_sites.json
+{
+   "tracks" : [
+      {
+         "type" : "CanvasFeatures",
+         "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Histone binding sites/{refseq}/trackData.jsonz",
+         "key" : "Histone binding sites",
+         "style" : {
+            "className" : "feature",
+            "color" : "green"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "onClick" : {
+            "label" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "url" : "{featureURL}",
+            "title" : "Feature in WormBase"
+         },
+         "metadata" : {
+            "shortInfo" : "Regions within which there is experimental evidence for one or more binding sites of a histone."
+         },
+         "category" : "Sequence Features/Binding Sites & Regions",
+         "label" : "Histone binding sites",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "unsafeMouseover" : true
+      }
+   ]
+}

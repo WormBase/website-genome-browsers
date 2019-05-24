@@ -1,32 +1,34 @@
 {
    "tracks" : [
       {
+         "unsafeMouseover" : true,
+         "label" : "RNASeq Asymmetries",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
          "displayMode" : "collapsed",
-         "style" : {
-            "className" : "feature",
-            "color" : "function(f) {var source = f.get('source'); if (source == 'RNASeq_R_asymmetry') {return 'red';} if (source == 'RNASeq_F_asymmetry') {return 'green';} return 'black';  }",
-            "label" : "function(f) {var score = f.get('score'); if(typeof score === undefined) {return 'no score'; } return 'Score: '+score;}",
-            "description" : "none",
-            "height" : "function (f) {var score = f.get('score'); var h = Math.floor(score/2); if (score > 100) {h = 50;} if (h == 0 || h == 1) {h=2;} return h; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "content" : "function(track,f) {var wburl = ''; var name = f.get('name'); return 'this doesnt appear to work '+wburl+'/get?name='+name+';class=Feature'; }",
-            "label" : "Feature in WormBase",
-            "title" : "Feature in WormBase"
-         },
+         "category" : "Expression",
          "key" : "RNASeq Asymmetries",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/RNASeq Asymmetries/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category": "Expression",
-         "type" : "CanvasFeatures",
-         "label" : "RNASeq Asymmetries",
          "metadata" : {
             "shortInfo" : "Red boxes indicate regions where there are more than 2 times as many forward sense RNASeq reads aligned to the genome as reverse sense reads."
          },
-         "maxExportSpan" : 50000000
+         "style" : {
+            "label" : "function(f) {var score = f.get('score'); if(typeof score === undefined) {return 'no score'; } return 'Score: '+score;}",
+            "className" : "feature",
+            "height" : "function (f) {var score = f.get('score'); var h = Math.floor(score/2); if (score > 100) {h = 50;} if (h == 0 || h == 1) {h=2;} return h; }",
+            "description" : "none",
+            "color" : "function(f) {var source = f.get('source'); if (source == 'RNASeq_R_asymmetry') {return 'red';} if (source == 'RNASeq_F_asymmetry') {return 'green';} return 'black';  }"
+         },
+         "onClick" : {
+            "label" : "Feature in WormBase",
+            "content" : "function(track,f) {var wburl = ''; var name = f.get('name'); return 'this doesnt appear to work '+wburl+'/get?name='+name+';class=Feature'; }",
+            "action" : "contentDialog",
+            "title" : "Feature in WormBase"
+         },
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/RNASeq Asymmetries/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "type" : "CanvasFeatures"
       }
    ]
 }

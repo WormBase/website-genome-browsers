@@ -1,133 +1,148 @@
 {
-    "tracks" : [
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "black",
-                "height"            : 50
-            },
-            "variance_band" : 0,
-            "key"           : "TSS (Gu) Forward",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Gu.Forward.bw",
-            "max_score"     : 500,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category": "Misc/Transcription Start Sites",
-            "label"         : "TSS (Gu) Forward",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "black",
-                "height"            : 50
-            },
-            "variance_band" : 0,
-            "key"           : "TSS (Gu) Reverse",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Gu.Reverse.bw",
-            "max_score"     : 1000,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category": "Misc/Transcription Start Sites",
-            "label"         : "TSS (Gu) Reverse",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "black",
-                "height"            : 50
-            },
-            "variance_band" : 0,
-            "key"           : "TSS (Chen) Forward",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Chen.Forward.bw",
-            "max_score"     : 25,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category": "Misc/Transcription Start Sites",
-            "label"         : "TSS (Chen) Forward",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "black",
-                "height"            : 50
-            },
-            "variance_band" : 0,
-            "key"           : "TSS (Chen) Reverse",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Chen.Reverse.bw",
-            "max_score"     : 25,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category": "Misc/Transcription Start Sites",
-            "label"         : "TSS (Chen) Reverse",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "black",
-                "height"            : 50
-            },
-            "variance_band" : 0,
-            "key"           : "TSS (Saito) Forward",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Saito.Forward.bw",
-            "max_score"     : 25,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category": "Misc/Transcription Start Sites",
-            "label"         : "TSS (Saito) Forward",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "black",
-                "height"            : 50
-            },
-            "variance_band" : 0,
-            "key"           : "TSS (Saito) Reverse",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Saito.Reverse.bw",
-            "max_score"     : 25,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category": "Misc/Transcription Start Sites",
-            "label"         : "TSS (Saito) Reverse",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "black",
-                "height"            : 50
-            },
-            "variance_band" : 0,
-            "key"           : "TSS (Kruesi) Forward",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Kruesi.Forward.bw",
-            "max_score"     : 25,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category": "Misc/Transcription Start Sites",
-            "label"         : "TSS (Kruesi) Forward",
-            "min_score"     : 0
-        },
-        {
-            "style" : {
-                "clip_marker_color" : "red",
-                "pos_color"         : "black",
-                "height"            : 50
-            },
-            "variance_band" : 0,
-            "key"           : "TSS (Kruesi) Reverse",
-            "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-            "urlTemplate"   : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Kruesi.Reverse.bw",
-            "max_score"     : 25,
-            "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-            "category": "Misc/Transcription Start Sites",
-            "label"         : "TSS (Kruesi) Reverse",
-            "min_score"     : 0
-        }
-      ]
+   "tracks" : [
+      {
+         "key" : "TSS (Gu) Forward",
+         "style" : {
+            "clip_marker_color" : "red",
+            "pos_color" : "black",
+            "height" : 50
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Gu.Forward.bw",
+         "unsafePopup" : true,
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "unsafeMouseover" : true,
+         "variance_band" : 0,
+         "label" : "TSS (Gu) Forward",
+         "max_score" : 500,
+         "min_score" : 0,
+         "category" : "Misc/Transcription Start Sites"
+      },
+      {
+         "category" : "Misc/Transcription Start Sites",
+         "min_score" : 0,
+         "label" : "TSS (Gu) Reverse",
+         "max_score" : 1000,
+         "unsafeMouseover" : true,
+         "variance_band" : 0,
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Gu.Reverse.bw",
+         "key" : "TSS (Gu) Reverse",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "style" : {
+            "clip_marker_color" : "red",
+            "height" : 50,
+            "pos_color" : "black"
+         }
+      },
+      {
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "style" : {
+            "clip_marker_color" : "red",
+            "pos_color" : "black",
+            "height" : 50
+         },
+         "key" : "TSS (Chen) Forward",
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Chen.Forward.bw",
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "variance_band" : 0,
+         "unsafeMouseover" : true,
+         "max_score" : 25,
+         "label" : "TSS (Chen) Forward",
+         "min_score" : 0,
+         "category" : "Misc/Transcription Start Sites"
+      },
+      {
+         "unsafeMouseover" : true,
+         "variance_band" : 0,
+         "max_score" : 25,
+         "label" : "TSS (Chen) Reverse",
+         "min_score" : 0,
+         "category" : "Misc/Transcription Start Sites",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "style" : {
+            "pos_color" : "black",
+            "height" : 50,
+            "clip_marker_color" : "red"
+         },
+         "key" : "TSS (Chen) Reverse",
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Chen.Reverse.bw",
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot"
+      },
+      {
+         "min_score" : 0,
+         "category" : "Misc/Transcription Start Sites",
+         "unsafeMouseover" : true,
+         "variance_band" : 0,
+         "label" : "TSS (Saito) Forward",
+         "max_score" : 25,
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "key" : "TSS (Saito) Forward",
+         "style" : {
+            "clip_marker_color" : "red",
+            "pos_color" : "black",
+            "height" : 50
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Saito.Forward.bw",
+         "unsafePopup" : true
+      },
+      {
+         "category" : "Misc/Transcription Start Sites",
+         "min_score" : 0,
+         "max_score" : 25,
+         "label" : "TSS (Saito) Reverse",
+         "variance_band" : 0,
+         "unsafeMouseover" : true,
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Saito.Reverse.bw",
+         "style" : {
+            "clip_marker_color" : "red",
+            "height" : 50,
+            "pos_color" : "black"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "key" : "TSS (Saito) Reverse"
+      },
+      {
+         "min_score" : 0,
+         "category" : "Misc/Transcription Start Sites",
+         "variance_band" : 0,
+         "unsafeMouseover" : true,
+         "max_score" : 25,
+         "label" : "TSS (Kruesi) Forward",
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "style" : {
+            "pos_color" : "black",
+            "height" : 50,
+            "clip_marker_color" : "red"
+         },
+         "key" : "TSS (Kruesi) Forward",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Kruesi.Forward.bw",
+         "unsafePopup" : true
+      },
+      {
+         "min_score" : 0,
+         "category" : "Misc/Transcription Start Sites",
+         "unsafeMouseover" : true,
+         "variance_band" : 0,
+         "max_score" : 25,
+         "label" : "TSS (Kruesi) Reverse",
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "style" : {
+            "height" : 50,
+            "pos_color" : "black",
+            "clip_marker_color" : "red"
+         },
+         "key" : "TSS (Kruesi) Reverse",
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Kruesi.Reverse.bw"
+      }
+   ]
 }
-

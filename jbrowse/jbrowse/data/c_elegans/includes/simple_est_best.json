@@ -1,31 +1,33 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "limegreen",
-            "height" : 5
-         },
+         "category" : "Genes/Supporting Evidence",
+         "unsafeMouseover" : true,
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "subParts" : "match_part",
          "key" : "ESTs (best)",
+         "urlTemplate" : "../tracks/ESTs (best)/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "label" : "ESTs (best)",
+         "type" : "CanvasFeatures",
          "onClick" : {
-            "url" : "{targetURL}",
             "action" : "iframeDialog",
             "title" : "Feature in WormBase",
+            "url" : "{targetURL}",
             "label" : "Feature in WormBase"
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/ESTs (best)/{refseq}/trackData.jsonz",
-         "compress" : 1,
+         "style" : {
+            "height" : 5,
+            "color" : "limegreen",
+            "className" : "feature"
+         },
          "metadata" : {
             "shortInfo" : "Native (same-species) Expressed Sequence Tags (ESTs), aligned to the genome using BLAT. This track shows the best unique location for each EST."
          },
-         "type" : "CanvasFeatures",
-         "category": "Genes/Supporting Evidence",
-         "label" : "ESTs (best)",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "maxExportSpan" : 50000000
+         "trackType" : "CanvasFeatures"
       }
    ]
 }

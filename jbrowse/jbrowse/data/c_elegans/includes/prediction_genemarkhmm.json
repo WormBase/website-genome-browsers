@@ -1,23 +1,25 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "label" : false,
-            "color" : "palevioletred"
-         },
+         "type" : "CanvasFeatures",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "metadata" : {
             "shortInfo" : "These are GeneMarkHMM gene predictions provided by Mark Borodovsky."
          },
-         "category": "Genes/Ab-initio predictions",
+         "style" : {
+            "label" : false,
+            "className" : "feature",
+            "color" : "palevioletred"
+         },
          "key" : "Prediction: GeneMarkHMM",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Prediction: GeneMarkHMM/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
+         "category" : "Genes/Ab-initio predictions",
+         "unsafeMouseover" : true,
+         "maxExportSpan" : 50000000,
          "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "Prediction: GeneMarkHMM",
-         "maxExportSpan" : 50000000
+         "label" : "Prediction: GeneMarkHMM"
       }
    ]
 }

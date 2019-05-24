@@ -1,33 +1,35 @@
 {
    "tracks" : [
       {
+         "type" : "CanvasFeatures",
          "style" : {
             "className" : "feature",
-            "color" : "orange",
             "label" : true,
             "showLabels" : false,
+            "color" : "orange",
             "height" : 5
          },
-         "key" : "S. cerevisiae proteins",
          "onClick" : {
-            "action" : "iframeDialog",
             "url" : "{ssproteinURL}",
-            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}",
-            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}"
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "action" : "iframeDialog",
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}"
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/S. cerevisiae proteins/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "label" : "S. cerevisiae proteins",
-         "type" : "CanvasFeatures",
-         "subParts" : "match_part",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "category": "Sequence Similarity/Proteins",
          "metadata" : {
             "shortInfo" : "Matches to S. cerevisiae proteins from SGD, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
-         "maxExportSpan" : 50000000
+         "trackType" : "CanvasFeatures",
+         "label" : "S. cerevisiae proteins",
+         "key" : "S. cerevisiae proteins",
+         "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "urlTemplate" : "../tracks/S. cerevisiae proteins/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "category" : "Sequence Similarity/Proteins",
+         "unsafeMouseover" : true,
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments"
       }
    ]
 }

@@ -1,32 +1,34 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "function(f) {var source = f.get('Source'); if (source == 'SL1') {return 'red';} if (source == 'SL2') {return 'green';} return 'black';  }",
-            "description" : "function(f) {return f.get('Source');}",
-            "strandArrow" : false,
-            "height" : 8
-         },
-         "glyph" : "function(f) { var strand = f.get('strand'); if (strand == -1) {return 'wormbase-glyphs/View/FeatureGlyph/LeftTriangle';} if (strand == 1) {return 'wormbase-glyphs/View/FeatureGlyph/RightTriangle';}}",
-         "key" : "Trans-spliced acceptor",
-         "onClick" : {
-            "url" : "{featureURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Trans-spliced acceptor/{refseq}/trackData.jsonz",
-         "compress" : 1,
          "label" : "Trans-spliced acceptor",
-         "type" : "CanvasFeatures",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "glyph" : "function(f) { var strand = f.get('strand'); if (strand == -1) {return 'wormbase-glyphs/View/FeatureGlyph/LeftTriangle';} if (strand == 1) {return 'wormbase-glyphs/View/FeatureGlyph/RightTriangle';}}",
+         "unsafeMouseover" : true,
+         "category" : "Sequence Features/Signals & Motifs",
+         "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Trans-spliced acceptor/{refseq}/trackData.jsonz",
+         "key" : "Trans-spliced acceptor",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "metadata" : {
             "shortInfo" : "This track contains SL1 and SL2 trans-spliced acceptors from a variety of sources: SL1 and SL2 trans-spliced acceptors published by Blumenthal et al, Nature (2002), Trans-Spliced Exon Coupled RNA End Determination (TEC-RED) Hwang et al, PNAS (2004), EST/mRNA sequence data, RNASeq read data from ENA. SL1 acceptors are show in red, SL2 in green. Direction of transcription is indicated by arrow direction."
          },
-         "category": "Sequence Features/Signals & Motifs",
-         "maxExportSpan" : 50000000
+         "style" : {
+            "height" : 8,
+            "color" : "function(f) {var source = f.get('Source'); if (source == 'SL1') {return 'red';} if (source == 'SL2') {return 'green';} return 'black';  }",
+            "description" : "function(f) {return f.get('Source');}",
+            "className" : "feature",
+            "strandArrow" : false
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "url" : "{featureURL}",
+            "label" : "Feature in WormBase"
+         },
+         "type" : "CanvasFeatures"
       }
    ]
 }

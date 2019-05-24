@@ -1,29 +1,31 @@
 {
    "tracks" : [
       {
+         "unsafeMouseover" : true,
+         "label" : "Expression chip profiles",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "category" : "Expression",
+         "key" : "Expression chip profiles",
+         "metadata" : {
+            "shortInfo" : "This track indicates the location of PCR products that have been placed on expression chips produced by the C. elegans Microarray Consortium."
+         },
+         "onClick" : {
+            "label" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "url" : "{expressionProfileURL}",
+            "title" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
             "className" : "feature",
             "color" : "orange",
             "height" : 4
          },
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{expressionProfileURL}",
-            "label" : "Feature in WormBase",
-            "title" : "Feature in WormBase"
-         },
-         "key" : "Expression chip profiles",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Expression chip profiles/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category": "Expression",
-         "label" : "Expression chip profiles",
-         "type" : "CanvasFeatures",
-         "metadata" : {
-            "shortInfo" : "This track indicates the location of PCR products that have been placed on expression chips produced by the C. elegans Microarray Consortium."
-         },
-         "maxExportSpan" : 50000000
+         "unsafePopup" : true,
+         "type" : "CanvasFeatures"
       }
    ]
 }

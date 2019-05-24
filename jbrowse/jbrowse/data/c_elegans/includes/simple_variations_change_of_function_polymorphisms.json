@@ -1,32 +1,34 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "{variationColor}",
-            "borderColor" : "black",
-            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
-            "height" : 8,
-            "description" : "{typeDescription}"
-         },
-         "key" : "Change-of-function polymorphisms",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{variationURL}",
-            "label" : "{variationsBalloon}",
-            "title" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Change-of-function polymorphisms/{refseq}/trackData.jsonz",
+         "category" : "Alleles, Variations, RNAi",
+         "unsafeMouseover" : true,
+         "maxExportSpan" : 50000000,
          "compress" : 1,
          "label" : "Change-of-function polymorphisms",
-         "category": "Alleles, Variations, RNAi",
          "type" : "CanvasFeatures",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "metadata" : {
             "shortInfo" : "This track shows single nucleotide polymorphisms (SNPs) that may generate a change of function."
          },
-         "maxExportSpan" : 50000000
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "title" : "Feature in WormBase",
+            "label" : "{variationsBalloon}"
+         },
+         "style" : {
+            "height" : 8,
+            "description" : "{typeDescription}",
+            "color" : "{variationColor}",
+            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
+            "className" : "feature",
+            "borderColor" : "black"
+         },
+         "key" : "Change-of-function polymorphisms",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Change-of-function polymorphisms/{refseq}/trackData.jsonz",
+         "trackType" : "CanvasFeatures"
       }
    ]
 }

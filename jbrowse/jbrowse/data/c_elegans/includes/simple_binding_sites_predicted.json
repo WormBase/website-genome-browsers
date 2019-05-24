@@ -1,1 +1,30 @@
-binding_sites_predicted.json
+{
+   "tracks" : [
+      {
+         "label" : "Binding sites (predicted)",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "unsafeMouseover" : true,
+         "category" : "Sequence Features/Binding Sites & Regions",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Binding sites (predicted)/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "key" : "Binding sites (predicted)",
+         "style" : {
+            "color" : "function(f) {var source = f.get('source'); if (source == 'PicTar') {return 'blue';} if (source == 'miRanda') {return 'red'; } return 'green'; }",
+            "className" : "feature"
+         },
+         "metadata" : {
+            "shortInfo" : "This track shows curated and predicted binding sites for microRNAs. Binding sites (indicated in green) are extracted from the cisRed database of computationally derived potential bind targets. miRanda predictions -- indicated in red -- are the predicted target sequences for microRNA genes, provided by Anton Enright's group using the miRanda program. PicTar predictions -- indicated in blue -- are the predicted target sequences for microRNA genes from Lall et al; A genome-wide map of conserved microRNA targets in C. elegans. Curr Biol. 2006 Mar 7;16(5):460-71."
+         },
+         "onClick" : {
+            "label" : "Feature's website",
+            "action" : "iframeDialog",
+            "title" : "Feature's website",
+            "url" : "{bindingsiteURL}"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "type" : "CanvasFeatures"
+      }
+   ]
+}

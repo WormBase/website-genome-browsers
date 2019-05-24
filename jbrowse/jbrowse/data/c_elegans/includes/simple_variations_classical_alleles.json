@@ -1,31 +1,33 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "function(feature) { var method = feature.get('type'); if (method=='deletion') {return 'red';} else if (method=='point_mutation') {return 'yellow';} else if (method=='substitution') {return 'yellow';} else if (method=='complex_substitution') {return 'blue';} else {return 'white';} }",
-            "strandArrow" : false,
-            "borderColor" : "black",
-            "height" : "function(feature) {var rflp = feature.get('rflp'); var status = feature.get('status'); if (rflp && status == 'Confirmed') {return 14;} else {return 8;} }"
-         },
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{variationURL}",
-            "label" : "{variationsBalloon}",
-            "title" : "Feature in WormBase"
-         },
-         "key" : "Classical alleles",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Classical_alleles/{refseq}/trackData.jsonz",
-         "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Classical_alleles",
-         "category": "Alleles, Variations, RNAi",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "metadata" : {
             "shortInfo" : "This track shows classical alleles comprised of insertions, deletions, substitutions and complex changes."
          },
-         "maxExportSpan" : 50000000
+         "onClick" : {
+            "label" : "{variationsBalloon}",
+            "url" : "{variationURL}",
+            "title" : "Feature in WormBase",
+            "action" : "iframeDialog"
+         },
+         "style" : {
+            "height" : "function(feature) {var rflp = feature.get('rflp'); var status = feature.get('status'); if (rflp && status == 'Confirmed') {return 14;} else {return 8;} }",
+            "color" : "function(feature) { var method = feature.get('type'); if (method=='deletion') {return 'red';} else if (method=='point_mutation') {return 'yellow';} else if (method=='substitution') {return 'yellow';} else if (method=='complex_substitution') {return 'blue';} else {return 'white';} }",
+            "className" : "feature",
+            "borderColor" : "black",
+            "strandArrow" : false
+         },
+         "key" : "Classical alleles",
+         "urlTemplate" : "../tracks/Classical_alleles/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
+         "category" : "Alleles, Variations, RNAi",
+         "unsafeMouseover" : true,
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "label" : "Classical_alleles"
       }
    ]
 }

@@ -1,29 +1,31 @@
 {
    "tracks" : [
       {
+         "category" : "Sequence Features/Binding Sites & Regions",
+         "label" : "Enhancers",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "unsafeMouseover" : true,
+         "type" : "CanvasFeatures",
+         "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Enhancers/{refseq}/trackData.jsonz",
+         "key" : "Enhancers",
          "style" : {
             "className" : "feature",
-            "color" : "green",
-            "label" : false
+            "label" : false,
+            "color" : "green"
          },
          "onClick" : {
+            "label" : "Feature in WormBase",
             "url" : "{featureURL}",
-            "action" : "iframeDialog",
             "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
+            "action" : "iframeDialog"
          },
-         "key" : "Enhancers",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Enhancers/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "Enhancers",
          "metadata" : {
             "shortInfo" : "There should be better text here for enhancers"
          },
-         "category": "Sequence Features/Binding Sites & Regions",
-         "maxExportSpan" : 50000000
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList"
       }
    ]
 }

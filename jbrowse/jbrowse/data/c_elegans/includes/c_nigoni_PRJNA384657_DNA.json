@@ -1,14 +1,16 @@
 {
    "tracks" : [
       {
-         "chunkSize":80000,
-         "compress":1,
-         "storeClass":"JBrowse/Store/Sequence/StaticChunked",
-         "urlTemplate":"https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_nigoni_PRJNA384657/seq/{refseq_dirpath}/{refseq}-",
-         "type":"SequenceTrack",
-         "label":"DNA",
+         "chunkSize" : 80000,
+         "type" : "SequenceTrack",
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "key" : "Reference sequence (DNA)",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_nigoni_PRJNA384657/seq/{refseq_dirpath}/{refseq}-",
+         "unsafePopup" : true,
+         "unsafeMouseover" : true,
          "codonStarts" : "[ATG]",
-         "key":"Reference sequence (DNA)"
+         "compress" : 1,
+         "label" : "DNA"
       }
    ]
 }
