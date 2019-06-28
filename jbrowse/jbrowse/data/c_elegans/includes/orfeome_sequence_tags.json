@@ -1,31 +1,33 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "cyan",
-            "height" : 5
-         },
-         "subParts" : "match_part",
-         "onClick" : {
-            "url" : "{ostURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "key" : "C. elegans OSTs",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "label" : "C. elegans OSTs",
          "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/C. elegans OSTs/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category": "Genes/Supporting Evidence",
+         "style" : {
+            "height" : 5,
+            "color" : "cyan",
+            "className" : "feature"
+         },
          "metadata" : {
             "shortInfo" : "<a href='http://worfdb.dfci.harvard.edu/'>ORFeome project</a> sequence reads. The ORFeome project designs primer assays for spliced C. elegans mRNAs and then performs sequence reads on rtPCR material, producing 'OSTs.' This track shows ORFeome project OSTs aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each OST."
          },
+         "onClick" : {
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase",
+            "url" : "{ostURL}",
+            "action" : "iframeDialog"
+         },
          "type" : "CanvasFeatures",
-         "label" : "C. elegans OSTs",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "maxExportSpan" : 50000000
+         "unsafeMouseover" : true,
+         "category" : "Genes/Supporting Evidence",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/C. elegans OSTs/{refseq}/trackData.jsonz",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "subParts" : "match_part",
+         "key" : "C. elegans OSTs"
       }
    ]
 }

@@ -1,40 +1,42 @@
 {
    "tracks" : [
       {
+         "key" : "Transposon Genes",
+         "subParts" : "exon",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "urlTemplate" : "../tracks/Transposon Genes/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "unsafeMouseover" : true,
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "category" : "Genes/Curated Genes",
+         "menuTemplate" : [
+            {
+               "label" : "View Sequence",
+               "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+               "iconClass" : "dijitIconDatabase",
+               "action" : "contentDialog"
+            }
+         ],
          "style" : {
-            "className" : "feature",
-            "color" : "gray",
             "description" : "function(f) {var type = f.get('type'); if (type.match('pseudogenic')) {return 'transposon pseudogene';} return 'transposon mRNA';}",
-            "height" : 6
+            "height" : 6,
+            "color" : "gray",
+            "className" : "feature"
          },
          "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{simpleGeneURL}",
             "label" : "Right/Control click for more options",
-            "title" : "Feature in WormBase"
+            "url" : "{simpleGeneURL}",
+            "title" : "Feature in WormBase",
+            "action" : "iframeDialog"
          },
-         "category": "Genes/Curated Genes",
-         "key" : "Transposon Genes",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Transposon Genes/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "Transposon Genes",
-         "subParts" : "exon",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {
             "shortInfo" : "These are transposon spans reviewed by WormBase curators."
          },
-        "menuTemplate" : [
-           {
-           "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
-           "iconClass" : "dijitIconDatabase",
-           "action" : "contentDialog",
-           "label" : "View Sequence"
-           }
-         ],
-         "maxExportSpan" : 50000000
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "label" : "Transposon Genes"
       }
    ]
 }

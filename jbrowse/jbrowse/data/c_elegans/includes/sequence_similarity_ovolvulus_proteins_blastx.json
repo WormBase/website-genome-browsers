@@ -1,33 +1,35 @@
 {
    "tracks" : [
       {
+         "label" : "O. volvulus proteins",
          "style" : {
             "className" : "feature",
-            "color" : "orange",
             "label" : true,
             "showLabels" : false,
-            "height" : 5
+            "height" : 5,
+            "color" : "orange"
          },
-         "key" : "O. volvulus proteins",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{ssproteinURL}",
-            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}",
-            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/O. volvulus proteins/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "label" : "O. volvulus proteins",
-         "type" : "CanvasFeatures",
-         "subParts" : "match_part",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "category": "Sequence Similarity/Proteins",
          "metadata" : {
             "shortInfo" : "Matches to WormBase O. volvulus proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
-         "maxExportSpan" : 50000000
+         "onClick" : {
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "url" : "{ssproteinURL}",
+            "action" : "iframeDialog",
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "category" : "Sequence Similarity/Proteins",
+         "key" : "O. volvulus proteins",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "subParts" : "match_part",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/O. volvulus proteins/{refseq}/trackData.jsonz"
       }
    ]
 }

@@ -1,29 +1,31 @@
 {
    "tracks" : [
       {
+         "unsafeMouseover" : true,
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "label" : "Links and Superlinks",
+         "category" : "Genome Structure/Assembly & Curation",
+         "metadata" : {
+            "shortInfo" : "This track shows the location and coordinates of contigs created during the assembly of the C. elegans genome."
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
             "className" : "feature",
             "height" : 4,
             "color" : "black"
          },
          "onClick" : {
-            "url" : "{expressionProfileURL}",
-            "action" : "iframeDialog",
+            "label" : "Feature in WormBase",
             "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
+            "url" : "{expressionProfileURL}",
+            "action" : "iframeDialog"
          },
-         "metadata" : {
-            "shortInfo" : "This track shows the location and coordinates of contigs created during the assembly of the C. elegans genome."
-         },
-         "category": "Genome Structure/Assembly & Curation",
          "key" : "Links and Superlinks",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Links and Superlinks/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "Links and Superlinks",
-         "maxExportSpan" : 50000000
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures"
       }
    ]
 }
