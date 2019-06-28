@@ -35,7 +35,7 @@
             "action" : "iframeDialog"
          },
          "metadata" : {
-            "shortInfo" : "Predicted  lincRNAs.  See <a href=''>this paper for more</a>."
+            "shortInfo" : "Predicted  lincRNAs.  See <a href='/resources/paper/WBPaper00056245'>this paper for more</a>."
          },
          "type" : "CanvasFeatures"
       }
