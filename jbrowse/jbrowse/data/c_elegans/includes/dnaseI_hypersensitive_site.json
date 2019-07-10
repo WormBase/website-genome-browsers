@@ -1,28 +1,30 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "green"
-         },
-         "onClick" : {
-            "url" : "{featureURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "key" : "DNAseI hypersensitive site",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/DNAseI hypersensitive site/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category": "Sequence Features/Signals & Motifs",
          "metadata" : {
             "shortInfo" : "DNAse I hypersensitive sites from the 2009 paper by Shi et al."
          },
+         "onClick" : {
+            "url" : "{featureURL}",
+            "title" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "label" : "Feature in WormBase"
+         },
+         "style" : {
+            "color" : "green",
+            "className" : "feature"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "DNAseI hypersensitive site",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/DNAseI hypersensitive site/{refseq}/trackData.jsonz",
+         "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
          "label" : "DNAseI hypersensitive site",
-         "maxExportSpan" : 50000000
+         "category" : "Sequence Features/Signals & Motifs"
       }
    ]
 }

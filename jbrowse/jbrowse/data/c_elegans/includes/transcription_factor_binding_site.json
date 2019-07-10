@@ -1,28 +1,30 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "green"
-         },
-         "onClick" : {
-            "url" : "{featureURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "key" : "Transcription factor binding sites",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Transcription factor binding sites/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category": "Sequence Features/Binding Sites & Regions",
+         "type" : "CanvasFeatures",
          "metadata" : {
             "shortInfo" : "Sites where there is experimental evidence of a transcription factor binding site."
          },
-         "type" : "CanvasFeatures",
-         "label" : "Transcription factor binding sites",
-         "maxExportSpan" : 50000000
+         "style" : {
+            "color" : "green",
+            "className" : "feature"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "url" : "{featureURL}",
+            "label" : "Feature in WormBase"
+         },
+         "key" : "Transcription factor binding sites",
+         "urlTemplate" : "../tracks/Transcription factor binding sites/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
+         "category" : "Sequence Features/Binding Sites & Regions",
+         "unsafeMouseover" : true,
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "label" : "Transcription factor binding sites"
       }
    ]
 }

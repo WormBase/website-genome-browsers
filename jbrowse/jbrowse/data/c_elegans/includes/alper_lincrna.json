@@ -1,41 +1,43 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "gray",
-            "label" : "{geneLabel}",
-            "height" : 6,
-            "description" : "function(f) {var type = f.get('type'); return type; }"
-         },
-         "subParts" : "exon",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{transcriptURL}",
-            "label" : "Right/Control click for more options",
-            "title" : "Feature in WormBase"
-         },
-         "key" : "Alper lincRNA (predicted)",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Alper lincRNA (predicted)/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "category": "Genes/Ab-initio predictions",
-         "label" : "Alper lincRNA (predicted)",
+         "maxExportSpan" : 50000000,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "metadata" : {
-            "shortInfo" : "Predicted  lincRNAs.  See <a href=''>this paper for more</a>."
-         },
-        "menuTemplate" : [
-           {
-           "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
-           "iconClass" : "dijitIconDatabase",
-           "action" : "contentDialog",
-           "label" : "View Sequence"
-           }
+         "compress" : 1,
+         "unsafeMouseover" : true,
+         "menuTemplate" : [
+            {
+               "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+               "iconClass" : "dijitIconDatabase",
+               "label" : "View Sequence",
+               "action" : "contentDialog"
+            }
          ],
-         "maxExportSpan" : 50000000
+         "category" : "Genes/Ab-initio predictions",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Alper lincRNA (predicted)/{refseq}/trackData.jsonz",
+         "subParts" : "exon",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "Alper lincRNA (predicted)",
+         "label" : "Alper lincRNA (predicted)",
+         "trackType" : "CanvasFeatures",
+         "style" : {
+            "height" : 6,
+            "description" : "function(f) {var type = f.get('type'); return type; }",
+            "color" : "gray",
+            "className" : "feature",
+            "label" : "{geneLabel}"
+         },
+         "onClick" : {
+            "label" : "Right/Control click for more options",
+            "title" : "Feature in WormBase",
+            "url" : "{transcriptURL}",
+            "action" : "iframeDialog"
+         },
+         "metadata" : {
+            "shortInfo" : "Predicted  lincRNAs.  See <a href='/resources/paper/WBPaper00056245'>this paper for more</a>."
+         },
+         "type" : "CanvasFeatures"
       }
    ]
 }

@@ -1,31 +1,33 @@
 {
    "tracks" : [
       {
+         "category" : "Reagents",
+         "maxExportSpan" : 50000000,
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/LabelFloatBox",
+         "compress" : 1,
+         "label" : "YACs_Fosmids_Cosmids",
+         "unsafeMouseover" : true,
+         "type" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/YACs, Fosmids, & Cosmids/{refseq}/trackData.jsonz",
+         "trackType" : "CanvasFeatures",
          "style" : {
             "className" : "feature",
-            "color" : "black",
             "height" : 3,
-            "description" : false
+            "description" : false,
+            "color" : "black"
          },
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{sequenceURL}",
-            "label" : "Feature in WormBase",
-            "title" : "Feature in WormBase"
-         },
-         "key" : "YACs, Fosmids, & Cosmids",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/YACs, Fosmids, & Cosmids/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "glyph" : "wormbase-glyphs/View/FeatureGlyph/LabelFloatBox",
          "metadata" : {
             "shortInfo" : "This track shows the locations of the cosmids, fosmids, and YACs used for the physical mapping and sequencing of the C. elegans genome.  The clone termini do not necessarily correspond to the termini of submitted GenBank/EMBL entries. In some cases the exact termini of the clones is not known.  For example, YACs were sequenced using PCR amplification across gaps in the cosmid maps.  When a clone end is not known, it is shown as an arrow extending to the end of the display.  Such data is to be treated with caution.  The Vancouver fosmids can be ordered directly from <a href='http://www.geneservice.co.uk/products/clones/Celegans_Fos.jsp'>GeneService</a>."
          },
-         "category": "Reagents",
-         "type" : "CanvasFeatures",
-         "label" : "YACs_Fosmids_Cosmids",
-         "maxExportSpan" : 50000000
+         "onClick" : {
+            "url" : "{sequenceURL}",
+            "title" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "label" : "Feature in WormBase"
+         },
+         "key" : "YACs, Fosmids, & Cosmids"
       }
    ]
 }

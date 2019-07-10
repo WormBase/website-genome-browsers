@@ -1,32 +1,34 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "function(feature) { var method = feature.get('type'); if (method=='deletion') {return 'red';} else if (method=='point_mutation') {return 'yellow';} else if (method=='substitution') {return 'yellow';} else if (method=='complex_substitution') {return 'blue';} else {return 'white';} }",
-            "strandArrow" : false,
-            "borderColor" : "black",
-            "height" : "function(feature) {var rflp = feature.get('rflp'); var status = feature.get('status'); if (rflp && status == 'Confirmed') {return 14;} else {return 8;} }"
-         },
-         "glyph":"{variationGlyph}",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{variationURL}",
-            "label" : "{variationsBalloon}",
-            "title" : "Feature in WormBase"
-         },
-         "key" : "Classical alleles",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Classical_alleles/{refseq}/trackData.jsonz",
+         "category" : "Alleles, Variations, RNAi",
+         "maxExportSpan" : 50000000,
+         "glyph" : "{variationGlyph}",
          "compress" : 1,
-         "type" : "CanvasFeatures",
          "label" : "Classical_alleles",
-         "category": "Alleles, Variations, RNAi",
+         "unsafeMouseover" : true,
+         "type" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Classical_alleles/{refseq}/trackData.jsonz",
+         "trackType" : "CanvasFeatures",
          "metadata" : {
             "shortInfo" : "This track shows classical alleles comprised of insertions, deletions, substitutions and complex changes. These alleles were typically generated during forward genetic screens. Red boxes represent deletions; yellow diamonds represent substitutions; blue boxes represent complex substitutions; and white triangles represent insertions."
          },
-         "maxExportSpan" : 50000000
+         "onClick" : {
+            "label" : "{variationsBalloon}",
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "title" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "height" : "function(feature) {var rflp = feature.get('rflp'); var status = feature.get('status'); if (rflp && status == 'Confirmed') {return 14;} else {return 8;} }",
+            "color" : "function(feature) { var method = feature.get('type'); if (method=='deletion') {return 'red';} else if (method=='point_mutation') {return 'yellow';} else if (method=='substitution') {return 'yellow';} else if (method=='complex_substitution') {return 'blue';} else {return 'white';} }",
+            "strandArrow" : false,
+            "borderColor" : "black"
+         },
+         "key" : "Classical alleles"
       }
    ]
 }

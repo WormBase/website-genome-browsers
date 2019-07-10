@@ -1,31 +1,33 @@
 {
    "tracks" : [
       {
+         "trackType" : "CanvasFeatures",
          "style" : {
             "className" : "feature",
             "color" : "{matchColor}",
             "height" : 5
          },
-         "subParts" : "match_part",
-         "onClick" : {
-            "url" : "{targetURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "key" : "mRNAs/ncRNAs (other)",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/mRNAs_ncRNAs (other)/{refseq}/trackData.jsonz",
-         "compress" : 1,
          "metadata" : {
             "shortInfo" : "Native (same species) full length mRNAs and ncRNAs aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows non-unique matches, which may represent repetitive sequences. For the best single alignment, see the track labeled 'mRNAs/ncRNAs (best)'."
          },
+         "onClick" : {
+            "label" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "url" : "{targetURL}",
+            "title" : "Feature in WormBase"
+         },
          "type" : "CanvasFeatures",
          "label" : "mRNAs_ncRNAs (other)",
-         "category": "Genes/Supporting Evidence",
+         "urlTemplate" : "../tracks/mRNAs_ncRNAs (other)/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "key" : "mRNAs/ncRNAs (other)",
+         "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "maxExportSpan" : 50000000,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "maxExportSpan" : 50000000
+         "compress" : 1,
+         "unsafeMouseover" : true,
+         "category" : "Genes/Supporting Evidence"
       }
    ]
 }

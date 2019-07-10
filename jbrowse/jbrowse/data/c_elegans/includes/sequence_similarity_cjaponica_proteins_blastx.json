@@ -1,33 +1,35 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "orange",
-            "label" : true,
-            "showLabels" : false,
-            "height" : 5
-         },
-         "key" : "C. japonica proteins",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{ssproteinURL}",
-            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}",
-            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/C. japonica proteins/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "label" : "C. japonica proteins",
          "type" : "CanvasFeatures",
-         "category": "Sequence Similarity/Proteins",
-         "subParts" : "match_part",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "trackType" : "CanvasFeatures",
+         "style" : {
+            "color" : "orange",
+            "height" : 5,
+            "showLabels" : false,
+            "label" : true,
+            "className" : "feature"
+         },
          "metadata" : {
             "shortInfo" : "Matches to WormBase C. japonica proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
-         "maxExportSpan" : 50000000
+         "onClick" : {
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "url" : "{ssproteinURL}",
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "action" : "iframeDialog"
+         },
+         "label" : "C. japonica proteins",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/C. japonica proteins/{refseq}/trackData.jsonz",
+         "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "C. japonica proteins",
+         "category" : "Sequence Similarity/Proteins",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "unsafeMouseover" : true
       }
    ]
 }

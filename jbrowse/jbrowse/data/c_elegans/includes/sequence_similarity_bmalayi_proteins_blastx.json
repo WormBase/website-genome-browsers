@@ -1,33 +1,35 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "orange",
-            "label" : true,
-            "showLabels" : false,
-            "height" : 5
-         },
+         "label" : "B. malayi proteins",
+         "type" : "CanvasFeatures",
+         "trackType" : "CanvasFeatures",
          "metadata" : {
             "shortInfo" : "Matches to WormBase B. malayi proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
+         "style" : {
+            "showLabels" : false,
+            "label" : true,
+            "className" : "feature",
+            "height" : 5,
+            "color" : "orange"
+         },
          "onClick" : {
             "action" : "iframeDialog",
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}",
             "url" : "{ssproteinURL}",
-            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}",
-            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}"
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}"
          },
-         "category": "Sequence Similarity/Proteins",
-         "key" : "B. malayi proteins",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/B. malayi proteins/{refseq}/trackData.jsonz",
+         "category" : "Sequence Similarity/Proteins",
          "compress" : 1,
-         "type" : "CanvasFeatures",
-         "subParts" : "match_part",
+         "maxExportSpan" : 50000000,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "label" : "B. malayi proteins",
-         "maxExportSpan" : 50000000
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/B. malayi proteins/{refseq}/trackData.jsonz",
+         "key" : "B. malayi proteins",
+         "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList"
       }
    ]
 }

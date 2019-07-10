@@ -1,24 +1,26 @@
 {
    "tracks" : [
       {
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "compress" : 1,
+         "label" : "Trinity-assembled RNAseq",
+         "unsafeMouseover" : true,
+         "category" : "Genes/Supporting Evidence",
+         "urlTemplate" : "../tracks/Trinity-assembled RNAseq/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
+         "metadata" : {
+            "shortInfo" : "Native (same species) RNAseq data was assembled with Trinity and then aligned to the genome with BLAT"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
-            "className" : "feature",
+            "color" : "mediumpurple",
             "height" : 6,
-            "color" : "mediumpurple"
+            "className" : "feature"
          },
          "subParts" : "match_part",
          "key" : "Trinity-assembled RNAseq",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Trinity-assembled RNAseq/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "label" : "Trinity-assembled RNAseq",
-         "category" : "Genes/Supporting Evidence",
-         "type" : "CanvasFeatures",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "metadata" : {
-            "shortInfo" : "Native (same species) RNAseq data was assembled with Trinity and then aligned to the genome with BLAT"
-         }
+         "type" : "CanvasFeatures"
       }
    ]
 }

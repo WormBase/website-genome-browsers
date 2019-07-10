@@ -1,23 +1,25 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "bisque",
-            "height" : 4
-         },
+         "key" : "Repeat Region (RepeatMasker)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "metadata" : {
             "shortInfo" : "Repetitive regions identified by RepeatMasker."
          },
-         "category": "Genome Structure/Repeats",
-         "key" : "Repeat Region (RepeatMasker)",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "height" : 4,
+            "color" : "bisque"
+         },
          "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
          "urlTemplate" : "../tracks/Repeat Region (RepeatMasker)/{refseq}/trackData.jsonz",
-         "compress" : 1,
          "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
          "label" : "Repeat Region (RepeatMasker)",
-         "maxExportSpan" : 50000000
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "category" : "Genome Structure/Repeats"
       }
    ]
 }

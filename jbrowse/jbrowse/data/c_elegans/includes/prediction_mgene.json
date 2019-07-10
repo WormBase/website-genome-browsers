@@ -1,20 +1,22 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "label" : false,
-            "color" : "palevioletred"
-         },
-         "category": "Genes/Ab-initio predictions",
+         "label" : "Prediction: mGene",
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "unsafeMouseover" : true,
+         "category" : "Genes/Ab-initio predictions",
+         "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Prediction: mGene/{refseq}/trackData.jsonz",
          "key" : "Prediction: mGene",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Prediction: mGene/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "Prediction: mGene",
-         "maxExportSpan" : 50000000
+         "style" : {
+            "label" : false,
+            "className" : "feature",
+            "color" : "palevioletred"
+         },
+         "type" : "CanvasFeatures"
       }
    ]
 }
