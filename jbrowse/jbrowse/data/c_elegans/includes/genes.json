@@ -1,49 +1,51 @@
 {
    "tracks" : [
       {
+         "unsafeMouseover" : true,
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "glyph" : "{geneGlyph}",
+         "menuTemplate" : [
+            {
+               "label" : "View details"
+            },
+            {
+               "label" : "Zoom to this gene"
+            },
+            {
+               "label" : "Highlight this gene"
+            },
+            {
+               "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+               "iconClass" : "dijitIconDatabase",
+               "label" : "View Sequence",
+               "action" : "contentDialog"
+            }
+         ],
+         "maxHeight" : 3000,
+         "category" : "Genes/Curated Genes",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "Curated Genes",
+         "urlTemplate" : "../tracks/Curated_Genes/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "label" : "Curated_Genes",
          "style" : {
-            "className" : "feature",
             "color" : "{geneColor}",
-            "label" : "{geneLabel}",
-            "height" : "function(f) {var type = f.get('type'); if (type == 'CDS') {return 10;} return 6;  }"
+            "height" : "function(f) {var type = f.get('type'); if (type == 'CDS') {return 10;} return 6;  }",
+            "className" : "feature",
+            "label" : "{geneLabel}"
          },
          "onClick" : {
-            "action" : "iframeDialog",
             "url" : "{geneURL}",
-            "label" : "{geneLinkLabel}",
-            "title" : "Feature in WormBase"
+            "title" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "label" : "{geneLinkLabel}"
          },
-         "key" : "Curated Genes",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Curated_Genes/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "category": "Genes/Curated Genes",
-         "label" : "Curated_Genes",
-         "glyph" : "{geneGlyph}",
          "metadata" : {
             "shortInfo" : "Protein-coding gene structures result from the integration of a variety of prediction methods and data sources followed by manual review and revison by WormBase curators. tRNAs are predicted by tRNAscan, and other non-coding RNA transcripts are taken from a variety of literature sources. The purple and blue colors indicate transcripts on the forward and reverse strands respectively. Dark purple areas represent 5' and 3' UTRs of protein-coding transcripts, assigned automatically using the extents of overlapping ESTs and full-length cDNAs. The UTR predictions have not been reviewed by WormBase curators, and some are known to contain artifacts. Grey transcripts represent either non-coding transcripts of protein coding genes or transcripts of non-coding genes."
          },
-         "maxExportSpan" : 50000000,
-         "maxHeight" : 3000,
-         "menuTemplate" : [
-           {   
-              "label" : "View details"
-           },  
-           {
-              "label" : "Zoom to this gene"
-           },
-           {   
-              "label" : "Highlight this gene"
-           },
-           {
-           "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
-           "iconClass" : "dijitIconDatabase",
-           "action" : "contentDialog",
-           "label" : "View Sequence"
-           }
-         ]
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures"
       }
    ]
 }

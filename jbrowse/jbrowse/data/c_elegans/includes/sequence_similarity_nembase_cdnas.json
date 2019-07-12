@@ -1,25 +1,27 @@
 {
    "tracks" : [
       {
+         "label" : "NEMBASE cDNAs",
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "unsafeMouseover" : true,
+         "category" : "Sequence Similarity/Nucleotide",
+         "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/NEMBASE cDNAs/{refseq}/trackData.jsonz",
+         "key" : "NEMBASE cDNAs",
          "style" : {
             "className" : "feature",
             "color" : "gray",
             "height" : 4
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "subParts" : "match_part",
          "metadata" : {
             "shortInfo" : "Clustered cDNAs from this species provided by NEMBASE that have been aligned to the genome using STAR. NEMBASE (http://www.nematodes.org/nembase4/) provides a resource for nematode transcriptome analysis, and a research tool for nematode biology, drug discovery and vaccine design, as part of the University of Edinburgh and Wellcome Trust Sanger Institute parasitic nematode EST programme."
          },
-         "subParts" : "match_part",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "category": "Sequence Similarity/Nucleotide",
-         "key" : "NEMBASE cDNAs",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/NEMBASE cDNAs/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "NEMBASE cDNAs",
-         "maxExportSpan" : 50000000
+         "type" : "CanvasFeatures"
       }
    ]
 }

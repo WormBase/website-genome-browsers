@@ -1,28 +1,30 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "green"
-         },
-         "key" : "Binding regions",
-         "onClick" : {
-            "url" : "{featureURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Binding regions/{refseq}/trackData.jsonz",
-         "compress" : 1,
+         "category" : "Sequence Features/Binding Sites & Regions",
+         "unsafeMouseover" : true,
          "label" : "Binding regions",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
          "type" : "CanvasFeatures",
+         "key" : "Binding regions",
          "metadata" : {
             "shortInfo" : "Regions within which there may be one or more binding sites of a non-TF, non-Histone molecule."
          },
-         "category": "Sequence Features/Binding Sites & Regions",
-         "maxExportSpan" : 50000000
+         "onClick" : {
+            "url" : "{featureURL}",
+            "title" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "label" : "Feature in WormBase"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "color" : "green",
+            "className" : "feature"
+         },
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Binding regions/{refseq}/trackData.jsonz",
+         "unsafePopup" : true
       }
    ]
 }

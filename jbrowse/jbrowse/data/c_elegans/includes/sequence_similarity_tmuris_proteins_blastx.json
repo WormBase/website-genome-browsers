@@ -1,0 +1,35 @@
+{
+   "tracks" : [
+      {
+         "label" : "T. muris proteins",
+         "style" : {
+            "className" : "feature",
+            "label" : true,
+            "showLabels" : false,
+            "height" : 5,
+            "color" : "orange"
+         },
+         "metadata" : {
+            "shortInfo" : "Matches to WormBase T. muris proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
+         },
+         "onClick" : {
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "url" : "{ssproteinURL}",
+            "action" : "iframeDialog",
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "category" : "Sequence Similarity/Proteins",
+         "key" : "T. muris proteins",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "subParts" : "match_part",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/T. muris proteins/{refseq}/trackData.jsonz"
+      }
+   ]
+}

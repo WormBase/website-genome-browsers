@@ -1,33 +1,35 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "orange",
-            "label" : true,
-            "showLabels" : false,
-            "height" : 5
-         },
-         "key" : "H. sapiens proteins",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{ssproteinURL}",
-            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}",
-            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/H. sapiens proteins/{refseq}/trackData.jsonz",
-         "compress" : 1,
          "label" : "H. sapiens proteins",
          "type" : "CanvasFeatures",
-         "subParts" : "match_part",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "category": "Sequence Similarity/Proteins",
+         "onClick" : {
+            "url" : "{ssproteinURL}",
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "action" : "iframeDialog",
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}"
+         },
          "metadata" : {
             "shortInfo" : "Matches to Human proteins from Ensembl, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
-         "maxExportSpan" : 50000000
+         "style" : {
+            "height" : 5,
+            "color" : "orange",
+            "showLabels" : false,
+            "label" : true,
+            "className" : "feature"
+         },
+         "trackType" : "CanvasFeatures",
+         "category" : "Sequence Similarity/Proteins",
+         "unsafeMouseover" : true,
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "H. sapiens proteins",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/H. sapiens proteins/{refseq}/trackData.jsonz"
       }
    ]
 }
