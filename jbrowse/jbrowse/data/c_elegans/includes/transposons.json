@@ -1,29 +1,31 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "gray",
-            "label" : "function(f) {var name = f.get('Name'); return name;}"
-         },
-         "key" : "Transposons",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "function(track,f) {var wburl = ''; var name = f.get('Name'); return wburl+'/get?name='+name+'&class=Transposon';}",
-            "label" : "Feature in WormBase",
-            "title" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Transposons/{refseq}/trackData.jsonz",
-         "compress" : 1,
          "type" : "CanvasFeatures",
-         "category": "Genes/Curated Genes",
-         "label" : "Transposons",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Transposons/{refseq}/trackData.jsonz",
+         "trackType" : "CanvasFeatures",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "metadata" : {
             "shortInfo" : "These are transposon spans reviewed by WormBase curators."
          },
-         "maxExportSpan" : 50000000
+         "onClick" : {
+            "title" : "Feature in WormBase",
+            "url" : "function(track,f) {var wburl = ''; var name = f.get('Name'); return wburl+'/get?name='+name+'&class=Transposon';}",
+            "action" : "iframeDialog",
+            "label" : "Feature in WormBase"
+         },
+         "style" : {
+            "color" : "gray",
+            "className" : "feature",
+            "label" : "function(f) {var name = f.get('Name'); return name;}"
+         },
+         "key" : "Transposons",
+         "category" : "Genes/Curated Genes",
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "label" : "Transposons",
+         "unsafeMouseover" : true
       }
    ]
 }

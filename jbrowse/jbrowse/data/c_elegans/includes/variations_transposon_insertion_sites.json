@@ -1,31 +1,33 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "strandArrow" : false,
-            "color" : "function(f) {var source = f.get('source'); if (source == 'Mos_insertion_allele') {return 'yellow';} if (source == 'NemaGENETAG_consortium') {return 'red'} return 'blue'; }",
-            "height" : 8
-         },
-         "glyph":"{variationGlyph}",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{variationURL}",
-            "label" : "{variationsBalloon}",
-            "title" : "Feature in WormBase"
-         },
-         "key" : "Transposon insert sites",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Transposon insert sites/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "category": "Alleles, Variations, RNAi",
+         "category" : "Alleles, Variations, RNAi",
          "label" : "Transposon insert sites",
+         "glyph" : "{variationGlyph}",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "unsafeMouseover" : true,
+         "type" : "CanvasFeatures",
+         "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Transposon insert sites/{refseq}/trackData.jsonz",
+         "key" : "Transposon insert sites",
          "metadata" : {
             "shortInfo" : "This track shows transposon insertion sites engineered by Laurent Segalat and others [<a href='/get?name=%5Bwm99ab757%5D;class=Paper'>Alvarez et al.</a>, Towards a genome-wide collection of transposon insertions, International C. elegans Meeting 1999 Yellow triangles are Mos-derived transposon insertions; red trangles are NemaGENETAG consortium insertion sites; blue triangles are Tc* derived transposon insertions."
          },
-         "maxExportSpan" : 50000000
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "title" : "Feature in WormBase",
+            "label" : "{variationsBalloon}"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "strandArrow" : false,
+            "className" : "feature",
+            "color" : "function(f) {var source = f.get('source'); if (source == 'Mos_insertion_allele') {return 'yellow';} if (source == 'NemaGENETAG_consortium') {return 'red'} return 'blue'; }",
+            "height" : 8
+         }
       }
    ]
 }

@@ -1,30 +1,32 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "height" : 5,
-            "strandArrow" : false,
-            "color" : "green"
-         },
-         "onClick" : {
-            "url" : "{featureURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "key" : "Transcription factor binding regions",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Transcription factor binding regions/{refseq}/trackData.jsonz",
+         "unsafeMouseover" : true,
+         "label" : "Transcription factor binding regions",
+         "maxExportSpan" : 50000000,
          "compress" : 1,
-         "category": "Sequence Features/Binding Sites & Regions",
+         "category" : "Sequence Features/Binding Sites & Regions",
+         "key" : "Transcription factor binding regions",
          "metadata" : {
             "shortInfo" : "Regions within which there is experimental evidence of one or more binding sites of a transcription factor."
          },
-         "type" : "CanvasFeatures",
-         "label" : "Transcription factor binding regions",
-         "maxExportSpan" : 50000000
+         "style" : {
+            "color" : "green",
+            "height" : 5,
+            "className" : "feature",
+            "strandArrow" : false
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "onClick" : {
+            "label" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "url" : "{featureURL}",
+            "title" : "Feature in WormBase"
+         },
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Transcription factor binding regions/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "type" : "CanvasFeatures"
       }
    ]
 }

@@ -1,74 +1,81 @@
 {
    "tracks" : [
       {
-         "label" : "Conservation for 8 Caenorhabditis species",
          "key" : "Conservation for 8 Caenorhabditis species",
-         "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-         "urlTemplate"   : "../../elegans.phastcons_8.wib",
-         "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-         "min_score"     : 0,
-         "max_score"     : 1,
-         "category": "Conservation",
-         "style" : {
-            "pos_color"  : "black",
-            "height" : 60
-         },
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
          "metadata" : {
             "shortInfo" : "Sequence conservation of the 8 Caenorhabditis species housed at WormBase."
-         }
-      },
-      {
-         "label" : "Conservation all 29 worm species",
-         "key" : "Conservation all 29 worm species",
-         "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-         "urlTemplate"   : "../../elegans_phastcons_29.wib",
-         "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-         "min_score"     : 0,
-         "max_score"     : 1,
-         "category": "Conservation",
+         },
          "style" : {
-            "pos_color"  : "black",
+            "pos_color" : "black",
             "height" : 60
          },
+         "unsafePopup" : true,
+         "urlTemplate" : "../../elegans.phastcons_8.wib",
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "unsafeMouseover" : true,
+         "label" : "Conservation for 8 Caenorhabditis species",
+         "max_score" : 1,
+         "min_score" : 0,
+         "category" : "Conservation"
+      },
+      {
+         "unsafePopup" : true,
+         "urlTemplate" : "../../elegans_phastcons_29.wib",
+         "style" : {
+            "height" : 60,
+            "pos_color" : "black"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
          "metadata" : {
             "shortInfo" : "Sequence conservation of the 29 worm species housed at WormBase."
-         }
+         },
+         "key" : "Conservation all 29 worm species",
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "max_score" : 1,
+         "label" : "Conservation all 29 worm species",
+         "unsafeMouseover" : true,
+         "category" : "Conservation",
+         "min_score" : 0
       },
       {
+         "max_score" : 29,
          "label" : "elegans.align.wib",
-         "key" : "elegans.align.wib",
-         "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-         "urlTemplate"   : "../../elegans.align.wib",
-         "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-         "min_score"     : 0,
-         "max_score"     : 29,
-         "category": "Conservation",
-         "style" : {
-            "pos_color"  : "black",
-            "height" : 60
-         },
+         "unsafeMouseover" : true,
+         "category" : "Conservation",
+         "min_score" : 0,
+         "urlTemplate" : "../../elegans.align.wib",
+         "unsafePopup" : true,
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
          "metadata" : {
             "shortInfo" : "elegans.align.wib"
-         }
-      },
-      {
-         "label" : "elegans.phylop.wib",
-         "key" : "elegans.phylop.wib",
-         "storeClass"    : "JBrowse/Store/SeqFeature/BigWig",
-         "urlTemplate"   : "../../elegans.phylop.wib",
-         "type"          : "JBrowse/View/Track/Wiggle/XYPlot",
-         "min_score"     : -4.9,
-         "max_score"     : 4.9,
-         "category": "Conservation",
+         },
          "style" : {
-            "pos_color"  : "blue",
-            "neg_color"  : "red",
+            "pos_color" : "black",
             "height" : 60
          },
+         "key" : "elegans.align.wib",
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot"
+      },
+      {
+         "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+         "key" : "elegans.phylop.wib",
+         "style" : {
+            "neg_color" : "red",
+            "pos_color" : "blue",
+            "height" : 60
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
          "metadata" : {
             "shortInfo" : "elegans.phylop.wib"
-         }
+         },
+         "unsafePopup" : true,
+         "urlTemplate" : "../../elegans.phylop.wib",
+         "min_score" : -4.9,
+         "category" : "Conservation",
+         "unsafeMouseover" : true,
+         "label" : "elegans.phylop.wib",
+         "max_score" : 4.9
       }
-
    ]
 }

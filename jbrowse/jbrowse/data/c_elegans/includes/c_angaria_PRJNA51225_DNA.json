@@ -1,14 +1,16 @@
 {
    "tracks" : [
       {
-         "chunkSize":80000,
-         "compress":1,
-         "storeClass":"JBrowse/Store/Sequence/StaticChunked",
-         "urlTemplate":"https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_angaria_PRJNA51225/seq/{refseq_dirpath}/{refseq}-",
-         "type":"SequenceTrack",
-         "label":"DNA",
+         "type" : "SequenceTrack",
+         "chunkSize" : 80000,
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_angaria_PRJNA51225/seq/{refseq_dirpath}/{refseq}-",
+         "unsafePopup" : true,
+         "key" : "Reference sequence (DNA)",
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "label" : "DNA",
+         "compress" : 1,
          "codonStarts" : "[ATG]",
-         "key":"Reference sequence (DNA)"
+         "unsafeMouseover" : true
       }
    ]
 }

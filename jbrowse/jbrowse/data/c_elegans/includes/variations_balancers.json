@@ -1,32 +1,34 @@
 {
    "tracks" : [
       {
+         "type" : "CanvasFeatures",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
-            "className" : "feature",
-            "height" : 8,
-            "color" : "gray",
             "description" : "function(f) {var type = f.get('balancer_type'); if (typeof type === 'undefined') {return 'rearrangement'; } return type;  }",
-            "label" : "function(f) {var balancer = f.get('balancer'); if(typeof balancer === 'undefined') {balancer = f.get('Name'); } var name = balancer.replace('Rearrangement:','');  return name;  }"
-         },
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "function(track,f) {var wburl = ''; var balancer = f.get('balancer'); var name = balancer.replace('Rearrangement:','');  return wburl+'/db/get?name='+name+';class=Rearrangement';  }",
-            "label" : "function() { var balancer = this.feature.get('balancer'); if(typeof balancer === 'undefined') {balancer = this.feature.get('Name'); } var name = balancer.replace('Rearrangement:',''); var type = this.feature.get('balancer_type'); if (typeof type === 'undefined') {type = 'rearrangement'; } var ref = this.feature.get('seq_id'); var start = this.feature.get('start'); var end = this.feature.get('end'); var locStr = ref+':'+start+'..'+end; var labelStr = '<b>Balancer: '+name+'</b><br /><b>type:</b>'+type+'<br/><b>location:</b> '+locStr; var notes = this.feature.get('Note'); if (!(typeof notes ==='undefined' )) {labelStr = labelStr+'<br/><b>Notes:</b> '+notes; } return labelStr;  }",
-            "title" : "Feature in WormBase"
+            "color" : "gray",
+            "height" : 8,
+            "label" : "function(f) {var balancer = f.get('balancer'); if(typeof balancer === 'undefined') {balancer = f.get('Name'); } var name = balancer.replace('Rearrangement:','');  return name;  }",
+            "className" : "feature"
          },
          "metadata" : {
             "shortInfo" : "This track shows the approximate location of balancers."
          },
-         "category": "Alleles, Variations, RNAi",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "url" : "function(track,f) {var wburl = ''; var balancer = f.get('balancer'); var name = balancer.replace('Rearrangement:','');  return wburl+'/db/get?name='+name+';class=Rearrangement';  }",
+            "label" : "function() { var balancer = this.feature.get('balancer'); if(typeof balancer === 'undefined') {balancer = this.feature.get('Name'); } var name = balancer.replace('Rearrangement:',''); var type = this.feature.get('balancer_type'); if (typeof type === 'undefined') {type = 'rearrangement'; } var ref = this.feature.get('seq_id'); var start = this.feature.get('start'); var end = this.feature.get('end'); var locStr = ref+':'+start+'..'+end; var labelStr = '<b>Balancer: '+name+'</b><br /><b>type:</b>'+type+'<br/><b>location:</b> '+locStr; var notes = this.feature.get('Note'); if (!(typeof notes ==='undefined' )) {labelStr = labelStr+'<br/><b>Notes:</b> '+notes; } return labelStr;  }"
+         },
          "key" : "Balancers",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
          "urlTemplate" : "../tracks/Balancers/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
+         "trackType" : "CanvasFeatures",
+         "category" : "Alleles, Variations, RNAi",
+         "unsafeMouseover" : true,
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/LabelFloatBox",
-         "label" : "Balancers",
-         "maxExportSpan" : 50000000
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "label" : "Balancers"
       }
    ]
 }

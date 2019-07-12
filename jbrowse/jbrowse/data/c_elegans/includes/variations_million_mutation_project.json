@@ -1,34 +1,36 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "strandArrow" : false,
-            "color" : "{variationColor}",
-            "borderColor" : "black",
-            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
-            "height" : 8,
-            "description" : "{typeDescription}"
-         },
-         "glyph":"{variationGlyph}",
-         "key" : "Million Mutation Project",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{variationURL}",
-            "label" : "{variationsBalloon}",
-            "title" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Million Mutation Project/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
+         "category" : "Alleles, Variations, RNAi",
+         "unsafeMouseover" : true,
          "label" : "Million Mutation Project",
-         "category": "Alleles, Variations, RNAi",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "glyph" : "{variationGlyph}",
+         "type" : "CanvasFeatures",
+         "key" : "Million Mutation Project",
          "metadata" : {
             "shortInfo" : "This track shows SNPs from the The Million Mutation Project (Waterston/Moerman). The color of the SNP represents its potental effect on a gene. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else."
          },
-         "maxExportSpan" : 50000000
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
+            "color" : "{variationColor}",
+            "description" : "{typeDescription}",
+            "height" : 8,
+            "strandArrow" : false,
+            "borderColor" : "black"
+         },
+         "onClick" : {
+            "url" : "{variationURL}",
+            "title" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "label" : "{variationsBalloon}"
+         },
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Million Mutation Project/{refseq}/trackData.jsonz",
+         "unsafePopup" : true
       }
    ]
 }

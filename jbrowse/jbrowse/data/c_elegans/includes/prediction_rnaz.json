@@ -1,24 +1,26 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "white",
-            "label" : false,
-            "borderColor" : "black"
-         },
+         "type" : "CanvasFeatures",
          "metadata" : {
             "shortInfo" : "RNAz-derived ncRNAs were predicted using the <a href='http://www.tbi.univie.ac.at/~wash/RNAz/'>RNAz algorithm</a>. Please select the RNA for more details."
          },
-         "category": "Genes/Ab-initio predictions",
-         "key" : "RNAz non-coding RNA genes",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
+         "style" : {
+            "borderColor" : "black",
+            "label" : false,
+            "className" : "feature",
+            "color" : "white"
+         },
+         "key" : "RNAz non-coding RNA genes",
+         "unsafePopup" : true,
          "urlTemplate" : "../tracks/RNAz non-coding RNA genes/{refseq}/trackData.jsonz",
+         "trackType" : "CanvasFeatures",
+         "category" : "Genes/Ab-initio predictions",
+         "unsafeMouseover" : true,
          "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "RNAz non-coding RNA genes",
-         "maxExportSpan" : 50000000
+         "maxExportSpan" : 50000000,
+         "label" : "RNAz non-coding RNA genes"
       }
    ]
 }

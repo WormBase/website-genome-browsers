@@ -1,32 +1,34 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "{nematodeColor}",
-            "label" : "{nematodeLabel}",
-            "height" : 4
-         },
-         "subParts" : "match_part",
-         "category": "Sequence Similarity/Nucleotide",
-         "onClick" : {
-            "url" : "{targetURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "key" : "Non-C. elegans Isoseq collection (best)",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Non-C. elegans Isoseq collection (best)/{refseq}/trackData.jsonz",
+         "category" : "Sequence Similarity/Nucleotide",
+         "unsafeMouseover" : true,
          "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "Non-C. elegans Isoseq collection (best)",
+         "maxExportSpan" : 50000000,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "Non-C. elegans Isoseq collection (best)",
+         "urlTemplate" : "../tracks/Non-C. elegans Isoseq collection (best)/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "label" : "Non-C. elegans Isoseq collection (best)",
+         "type" : "CanvasFeatures",
          "metadata" : {
             "shortInfo" : "IsoSeq from other WormBase core species aligned to the genome using BLAT <http://genome.cse.ucsc.edu/cgi-bin/hgBlat>. This track shows the best location for each IsoSeqsequence."
          },
-         "maxExportSpan" : 50000000
+         "style" : {
+            "label" : "{nematodeLabel}",
+            "className" : "feature",
+            "color" : "{nematodeColor}",
+            "height" : 4
+         },
+         "onClick" : {
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase",
+            "url" : "{targetURL}",
+            "action" : "iframeDialog"
+         },
+         "trackType" : "CanvasFeatures"
       }
    ]
 }

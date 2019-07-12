@@ -1,33 +1,35 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "orange",
-            "label" : true,
-            "showLabels" : false,
-            "height" : 5
-         },
-         "key" : "C. elegans proteins",
+         "label" : "C. elegans proteins",
+         "type" : "CanvasFeatures",
+         "trackType" : "CanvasFeatures",
          "onClick" : {
             "action" : "iframeDialog",
             "url" : "{ssproteinURL}",
-            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}",
-            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}"
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}"
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/C. elegans proteins/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "label" : "C. elegans proteins",
-         "type" : "CanvasFeatures",
-         "category": "Sequence Similarity/Proteins",
-         "subParts" : "match_part",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "style" : {
+            "showLabels" : false,
+            "className" : "feature",
+            "label" : true,
+            "color" : "orange",
+            "height" : 5
+         },
          "metadata" : {
             "shortInfo" : "Matches to WormBase C. elegans proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
-         "maxExportSpan" : 50000000
+         "category" : "Sequence Similarity/Proteins",
+         "maxExportSpan" : 50000000,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "compress" : 1,
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/C. elegans proteins/{refseq}/trackData.jsonz",
+         "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "C. elegans proteins"
       }
    ]
 }
