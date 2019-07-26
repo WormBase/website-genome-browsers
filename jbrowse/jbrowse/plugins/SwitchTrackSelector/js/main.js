@@ -35,6 +35,12 @@ return declare( JBrowsePlugin,
 	},
 
     makeSelectorButton: function () {
+
+        var fullurl = document.location;
+        var selector = 'faceted';
+        if (String(fullurl).match('jbrowse-simple')) {
+            selector = 'checkboxes';
+        }
 	
 	var switchSelector = function(){
 		var ele = document.getElementById("GenomeBrowser");
@@ -43,9 +49,8 @@ return declare( JBrowsePlugin,
 		console.log("entering switcher");
 
                 var url;
-                var fullurl = document.location;
 
-		if (String(fullurl).match('jbrowse-simple')) {
+		if (selector == 'checkboxes') {
 			if (String(fullurl).match('full.html')) {
 				url = '/tools/genome/jbrowse/full.html';
 			}
@@ -74,7 +79,7 @@ return declare( JBrowsePlugin,
 	var selectSelectorButton = new dijitButton({
 		className :"switcher-button",
 		innerHTML:"Track selector",
-		title: "Switch to a different track selector",
+		title: "Open a new window with the "+selector+" track selector",
 		onClick : function(){
 	
 			switchSelector();
