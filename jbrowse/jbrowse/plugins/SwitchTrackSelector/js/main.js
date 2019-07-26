@@ -38,8 +38,10 @@ return declare( JBrowsePlugin,
 
         var fullurl = document.location;
         var selector = 'faceted';
+        var otherSelector = 'checkboxes';
         if (String(fullurl).match('jbrowse-simple')) {
             selector = 'checkboxes';
+            otherSelector = 'faceted';
         }
 	
 	var switchSelector = function(){
@@ -72,14 +74,15 @@ return declare( JBrowsePlugin,
                 var get3 = get2.replace(/overview=0/, 'overview=1');
                 var get4 = get3.replace(/tracklist=0/, 'tracklist=1');
                 var get5 = get4.replace(/c_elegans_simple/, 'c_elegans_PRJNA13758');
-                var newWindow = window.open(url+get5, "WormBase JBrowse");
+                //var newWindow = window.open(url+get5, "WormBase JBrowse");
+                var newWindow = window.open(url+get5, "");
 
 	};
 
 	var selectSelectorButton = new dijitButton({
 		className :"switcher-button",
 		innerHTML:"Track selector",
-		title: "Open a new window with the "+selector+" track selector",
+		title: "Open a new window with the "+otherSelector+" track selector",
 		onClick : function(){
 	
 			switchSelector();
