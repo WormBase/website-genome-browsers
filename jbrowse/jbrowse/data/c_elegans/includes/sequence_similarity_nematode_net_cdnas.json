@@ -1,25 +1,27 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "gray",
-            "height" : 4
-         },
+         "type" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Nematode.net cDNAs/{refseq}/trackData.jsonz",
+         "trackType" : "CanvasFeatures",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "subParts" : "match_part",
          "metadata" : {
             "shortInfo" : "Clustered cDNAs from this species provided by Nematode.net that have been aligned to the genome using STAR.  Nematode.net (http://nematode.net/) is a part of the parasitic nematode EST project at The Genome Institute at Washington University in St. Louis. The site was established in 2000 as a component of the NIH-NIAID grant 'A Genomic Approach to Parasites from the Phylum Nematoda'."
          },
-         "subParts" : "match_part",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "category": "Sequence Similarity/Nucleotide",
+         "style" : {
+            "height" : 4,
+            "color" : "gray",
+            "className" : "feature"
+         },
          "key" : "Nematode.net cDNAs",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Nematode.net cDNAs/{refseq}/trackData.jsonz",
+         "category" : "Sequence Similarity/Nucleotide",
          "compress" : 1,
-         "type" : "CanvasFeatures",
+         "maxExportSpan" : 50000000,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "label" : "Nematode.net cDNAs",
-         "maxExportSpan" : 50000000
+         "unsafeMouseover" : true
       }
    ]
 }

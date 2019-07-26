@@ -1,31 +1,33 @@
 {
    "tracks" : [
       {
-         "displayMode" : "collapsed",
-         "style" : {
-            "className" : "feature",
-            "color" : "black",
-            "label" : "function(f) {var score = f.get('score'); if(typeof score === undefined) {return 'no score'; } return 'Score: '+score;}",
-            "height" : "function (f) {var score = f.get('score'); var h = Math.floor(score/2); if (score > 100) {h = 50;} if (h == 0 || h == 1) {h=2;} return h; }"
-         },
-         "onClick" : {
-            "action" : "contentDialog",
-            "content" : "",
-            "label" : "{rnaseqReads}",
-            "title" : "Feature in WormBase"
-         },
-         "key" : "RNASeq",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/RNASeq/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "category": "Expression",
-         "label" : "RNASeq",
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
          "metadata" : {
             "shortInfo" : "These boxes indicate alignments of short read sequences from all available RNASeq projects. The number of reads has been normalised by averaging over the number of libraries. The height of all boxes indicates the relative score of the feature."
          },
-         "maxExportSpan" : 50000000
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "label" : "function(f) {var score = f.get('score'); if(typeof score === undefined) {return 'no score'; } return 'Score: '+score;}",
+            "className" : "feature",
+            "color" : "black",
+            "height" : "function (f) {var score = f.get('score'); var h = Math.floor(score/2); if (score > 100) {h = 50;} if (h == 0 || h == 1) {h=2;} return h; }"
+         },
+         "onClick" : {
+            "title" : "Feature in WormBase",
+            "action" : "contentDialog",
+            "content" : "",
+            "label" : "{rnaseqReads}"
+         },
+         "key" : "RNASeq",
+         "type" : "CanvasFeatures",
+         "displayMode" : "collapsed",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "label" : "RNASeq",
+         "unsafeMouseover" : true,
+         "category" : "Expression"
       }
    ]
 }

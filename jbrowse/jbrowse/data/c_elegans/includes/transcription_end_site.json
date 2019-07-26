@@ -1,23 +1,25 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "white",
-            "borderColor" : "black"
-         },
-         "key" : "Transcription end site",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Transcription end site/{refseq}/trackData.jsonz",
+         "category" : "Sequence Features/Signals & Motifs",
          "compress" : 1,
-         "category": "Sequence Features/Signals & Motifs",
+         "maxExportSpan" : 50000000,
+         "label" : "Transcription end site",
+         "unsafeMouseover" : true,
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Transcription end site/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
+         "style" : {
+            "borderColor" : "black",
+            "color" : "white",
+            "className" : "feature"
+         },
          "metadata" : {
             "shortInfo" : "Transcription_end_site defined by analysis of RNASeq short read datasets (example Hillier et al.)"
          },
-         "label" : "Transcription end site",
-         "type" : "CanvasFeatures",
-         "maxExportSpan" : 50000000
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "Transcription end site"
       }
    ]
 }

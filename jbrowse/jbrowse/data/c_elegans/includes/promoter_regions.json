@@ -1,28 +1,30 @@
 {
    "tracks" : [
       {
+         "type" : "CanvasFeatures",
+         "key" : "Promoter regions",
+         "onClick" : {
+            "label" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "url" : "{featureURL}",
+            "title" : "Feature in WormBase"
+         },
+         "metadata" : {
+            "shortInfo" : "Regions within which there is experimental evidence for a promoter."
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
             "className" : "feature",
             "color" : "green"
          },
-         "key" : "Promoter regions",
-         "onClick" : {
-            "url" : "{featureURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Promoter regions/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category": "Sequence Features/Binding Sites & Regions",
-         "metadata" : {
-            "shortInfo" : "Regions within which there is experimental evidence for a promoter."
-         },
+         "unsafePopup" : true,
+         "category" : "Sequence Features/Binding Sites & Regions",
+         "unsafeMouseover" : true,
          "label" : "Promoter regions",
-         "type" : "CanvasFeatures",
-         "maxExportSpan" : 50000000
+         "maxExportSpan" : 50000000,
+         "compress" : 1
       }
    ]
 }

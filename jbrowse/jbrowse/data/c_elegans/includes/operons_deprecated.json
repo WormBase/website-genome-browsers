@@ -1,23 +1,25 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "green",
-            "height" : 10
-         },
-         "key" : "Deprecated operons",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Deprecated operons/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category": "Genes/Curated Genes",
-         "label" : "Deprecated operons",
          "type" : "CanvasFeatures",
          "metadata" : {
             "shortInfo" : "These are historical operon predictions."
          },
-         "maxExportSpan" : 50000000
+         "style" : {
+            "height" : 10,
+            "color" : "green",
+            "className" : "feature"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "Deprecated operons",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Deprecated operons/{refseq}/trackData.jsonz",
+         "trackType" : "CanvasFeatures",
+         "category" : "Genes/Curated Genes",
+         "unsafeMouseover" : true,
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "label" : "Deprecated operons"
       }
    ]
 }

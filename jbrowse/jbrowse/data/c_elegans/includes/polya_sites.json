@@ -1,31 +1,33 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "purple",
-            "strandArrow" : "function(f) {var type = f.get('type'); if (type.match(/signal/)) {return true;} return false;}",
-            "description" : "{typeDescription}"
-         },
-         "glyph" : "function(f) {var type = f.get('type'); if (type.match(/signal/)) {return 'JBrowse/View/FeatureGlyph/Diamond';} var strand = f.get('strand'); if (strand == -1) {return 'wormbase-glyphs/View/FeatureGlyph/LeftTriangle';} if (strand == 1) {return 'wormbase-glyphs/View/FeatureGlyph/RightTriangle';} return 'JBrowse/View/FeatureGlyph/Box';}",
-         "key" : "PolyA sites and signal sequences",
-         "onClick" : {
-            "url" : "{featureURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/PolyA sites and signal sequences/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "label" : "PolyA sites and signal sequences",
          "type" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/PolyA sites and signal sequences/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
+         "style" : {
+            "color" : "purple",
+            "description" : "{typeDescription}",
+            "className" : "feature",
+            "strandArrow" : "function(f) {var type = f.get('type'); if (type.match(/signal/)) {return true;} return false;}"
+         },
          "metadata" : {
             "shortInfo" : "High-confidence polyadenylation signal sequences and sites calculated by an algorithm trained with verified sites from full-length mRNAs. Signals are indicated with a diamond; sites with a triangle."
          },
-         "category": "Sequence Features/Signals & Motifs",
-         "maxExportSpan" : 50000000
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "url" : "{featureURL}",
+            "label" : "Feature in WormBase"
+         },
+         "key" : "PolyA sites and signal sequences",
+         "category" : "Sequence Features/Signals & Motifs",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "glyph" : "function(f) {var type = f.get('type'); if (type.match(/signal/)) {return 'JBrowse/View/FeatureGlyph/Diamond';} var strand = f.get('strand'); if (strand == -1) {return 'wormbase-glyphs/View/FeatureGlyph/LeftTriangle';} if (strand == 1) {return 'wormbase-glyphs/View/FeatureGlyph/RightTriangle';} return 'JBrowse/View/FeatureGlyph/Box';}",
+         "label" : "PolyA sites and signal sequences",
+         "unsafeMouseover" : true
       }
    ]
 }

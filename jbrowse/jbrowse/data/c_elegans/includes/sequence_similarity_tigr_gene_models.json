@@ -1,25 +1,27 @@
 {
    "tracks" : [
       {
+         "subParts" : "match_part",
          "style" : {
-            "className" : "feature",
+            "height" : 4,
             "color" : "orange",
-            "height" : 4
+            "className" : "feature"
          },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "metadata" : {
             "shortInfo" : "These are B.malayi gene models from TIGR"
          },
-         "category": "Genes",
          "key" : "TIGR genes models",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
          "urlTemplate" : "../tracks/TIGR genes models/{refseq}/trackData.jsonz",
-         "compress" : 1,
+         "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "subParts" : "match_part",
+         "unsafeMouseover" : true,
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "label" : "TIGR genes models",
-         "maxExportSpan" : 50000000
+         "category" : "Genes"
       }
    ]
 }

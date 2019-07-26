@@ -1,20 +1,22 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "label" : false,
-            "color" : "palevioletred"
-         },
-         "category": "Genes/Ab-initio predictions",
-         "key" : "Prediction: Twinscan",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
          "urlTemplate" : "../tracks/Prediction: Twinscan/{refseq}/trackData.jsonz",
-         "compress" : 1,
+         "trackType" : "CanvasFeatures",
+         "style" : {
+            "color" : "palevioletred",
+            "className" : "feature",
+            "label" : false
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "Prediction: Twinscan",
          "type" : "CanvasFeatures",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
          "label" : "Prediction: Twinscan",
-         "maxExportSpan" : 50000000
+         "unsafeMouseover" : true,
+         "category" : "Genes/Ab-initio predictions"
       }
    ]
 }

@@ -1,29 +1,31 @@
 {
    "tracks" : [
       {
+         "unsafeMouseover" : true,
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "label" : "SAGE tags",
+         "category" : "Expression",
+         "metadata" : {
+            "shortInfo" : "This track indicates the location of Serial Analysis of Gene Expression (SAGE) patterns associated with a tag and its associated genes.  Tags shown in grey are either unambiguously mapped to a gene elsewhere or are ambigous due to multiple occurences in genomic or trascript sequences.  Colored tags are mapped unambiguously to a single gene or genomic location.  Violet and turquoise refer to the plus strand and minus strands, respectively.  The number shown above tags is the total number of times this tag was observed in all SAGE experiments."
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "url" : "function(track,f) {var wburl = ''; var name = f.get('sequence'); if (typeof name ==='undefined') {return;} return wburl+'/db/seq/sage?name='+name+';class=SAGE_tag'; }",
+            "label" : "Feature in WormBase"
+         },
          "style" : {
             "className" : "feature",
             "color" : "lightgray",
             "height" : 7
          },
          "key" : "SAGE tags",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "function(track,f) {var wburl = ''; var name = f.get('sequence'); if (typeof name ==='undefined') {return;} return wburl+'/db/seq/sage?name='+name+';class=SAGE_tag'; }",
-            "label" : "Feature in WormBase",
-            "title" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/SAGE tags/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "SAGE tags",
-         "category": "Expression",
-         "metadata" : {
-            "shortInfo" : "This track indicates the location of Serial Analysis of Gene Expression (SAGE) patterns associated with a tag and its associated genes.  Tags shown in grey are either unambiguously mapped to a gene elsewhere or are ambigous due to multiple occurences in genomic or trascript sequences.  Colored tags are mapped unambiguously to a single gene or genomic location.  Violet and turquoise refer to the plus strand and minus strands, respectively.  The number shown above tags is the total number of times this tag was observed in all SAGE experiments."
-         },
-         "maxExportSpan" : 50000000
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures"
       }
    ]
 }

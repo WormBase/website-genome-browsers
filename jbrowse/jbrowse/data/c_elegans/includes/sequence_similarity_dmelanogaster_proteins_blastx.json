@@ -1,33 +1,35 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "orange",
-            "label" : true,
-            "showLabels" : false,
-            "height" : 5
-         },
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/D. melanogaster proteins/{refseq}/trackData.jsonz",
+         "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "key" : "D. melanogaster proteins",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "unsafeMouseover" : true,
+         "category" : "Sequence Similarity/Proteins",
+         "trackType" : "CanvasFeatures",
+         "style" : {
+            "showLabels" : false,
+            "label" : true,
+            "className" : "feature",
+            "height" : 5,
+            "color" : "orange"
+         },
          "onClick" : {
             "action" : "iframeDialog",
             "url" : "{ssproteinURL}",
-            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}",
-            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}"
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}"
          },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/D. melanogaster proteins/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "label" : "D. melanogaster proteins",
-         "type" : "CanvasFeatures",
-         "subParts" : "match_part",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "category": "Sequence Similarity/Proteins",
          "metadata" : {
             "shortInfo" : "Matches to Drosophila melanogaster proteins from FlyBase, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
-         "maxExportSpan" : 50000000
+         "type" : "CanvasFeatures",
+         "label" : "D. melanogaster proteins"
       }
    ]
 }
