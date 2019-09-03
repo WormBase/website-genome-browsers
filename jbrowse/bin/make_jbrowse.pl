@@ -385,7 +385,7 @@ for my $section (@config_sections) {
 
     for my $file (keys %splitfiles) {
         my $gfffile = $INITIALDIR ."/". $file;
-        my $command = "$nice bin/flatfile-to-json.pl --compress --gff $gfffile --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\" --maxLookback 1000000";
+        my $command = "$nice bin/flatfile-to-json.pl --nameAttributes \"name,alias,id,other_name,variation,public_name\" --compress --gff $gfffile --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\" --maxLookback 1000000";
         $log->warn( $command) unless $QUIET;
         system($command) ==0 or $log->error( $!);
     }
@@ -569,7 +569,7 @@ sub process_grep_track {
 
 
     for (my $i=0; $i<(scalar @label); $i++) {
-        my $command= "$nice bin/flatfile-to-json.pl --compress --gff $file[$i] --out $DATADIR --type \"$type\" --trackLabel \"$label[$i]\"  --trackType CanvasFeatures --key \"$label[$i]\"";
+        my $command= "$nice bin/flatfile-to-json.pl --nameAttributes \"name,alias,id,other_name,variation,public_name\" --compress --gff $file[$i] --out $DATADIR --type \"$type\" --trackLabel \"$label[$i]\"  --trackType CanvasFeatures --key \"$label[$i]\"";
         $log->warn( $command) unless $QUIET;
 
         system($command)==0 or $log->error( "$gffout: $!\n") ;

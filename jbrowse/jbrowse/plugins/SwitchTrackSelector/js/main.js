@@ -35,6 +35,14 @@ return declare( JBrowsePlugin,
 	},
 
     makeSelectorButton: function () {
+
+        var fullurl = document.location;
+        var selector = 'faceted';
+        var otherSelector = 'checkboxes';
+        if (String(fullurl).match('jbrowse-simple')) {
+            selector = 'checkboxes';
+            otherSelector = 'faceted';
+        }
 	
 	var switchSelector = function(){
 		var ele = document.getElementById("GenomeBrowser");
@@ -43,9 +51,8 @@ return declare( JBrowsePlugin,
 		console.log("entering switcher");
 
                 var url;
-                var fullurl = document.location;
 
-		if (String(fullurl).match('jbrowse-simple')) {
+		if (selector == 'checkboxes') {
 			if (String(fullurl).match('full.html')) {
 				url = '/tools/genome/jbrowse/full.html';
 			}
@@ -67,14 +74,15 @@ return declare( JBrowsePlugin,
                 var get3 = get2.replace(/overview=0/, 'overview=1');
                 var get4 = get3.replace(/tracklist=0/, 'tracklist=1');
                 var get5 = get4.replace(/c_elegans_simple/, 'c_elegans_PRJNA13758');
-                var newWindow = window.open(url+get5, "WormBase JBrowse");
+                //var newWindow = window.open(url+get5, "WormBase JBrowse");
+                var newWindow = window.open(url+get5, "");
 
 	};
 
 	var selectSelectorButton = new dijitButton({
 		className :"switcher-button",
 		innerHTML:"Track selector",
-		title: "Switch to a different track selector",
+		title: "Open a new window with the "+otherSelector+" track selector",
 		onClick : function(){
 	
 			switchSelector();

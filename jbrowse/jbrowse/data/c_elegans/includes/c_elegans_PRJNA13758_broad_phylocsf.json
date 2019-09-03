@@ -1,0 +1,112 @@
+{
+   "tracks" : [
+{
+    "label" : "Broad Smoothed PhyloCSF_ plus1 strand",
+    "unsafeMouseover" : true,
+    "unsafePopup" : true,
+    "category" : "Externally Sourced Resources/Broad Smoothed PhyloCSF",
+    "variance_band" : 0,
+    "autoscale" : "local",
+    "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+    "urlTemplate" : "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF+1.bw",
+    "key" : "+1 strand",
+    "style" : {
+       "height" : 50
+    },
+    "metadata" : {
+       "shortInfo" : "Smoothed PhyloCSF analysis of 26 worm species from their trackhub at <a href='https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt'>https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt</a>.  For more information about PhyloCSF, see the documentation at <a href='https://github.com/mlin/PhyloCSF/wiki'>GitHub</a>."
+    },
+    "storeClass" : "JBrowse/Store/SeqFeature/BigWig"
+},
+{
+    "label" : "Broad Smoothed PhyloCSF_ plus2 strand",
+    "unsafeMouseover" : true,
+    "unsafePopup" : true,
+    "category" : "Externally Sourced Resources/Broad Smoothed PhyloCSF",
+    "variance_band" : 0,
+    "autoscale" : "local",
+    "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+    "urlTemplate" : "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF+2.bw",
+    "key" : "+2 strand",
+    "style" : {
+       "height" : 50
+    },
+    "metadata" : {
+       "shortInfo" : "Smoothed PhyloCSF analysis of 26 worm species from their trackhub at <a href='https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt'>https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt</a>.  For more information about PhyloCSF, see the documentation at <a href='https://github.com/mlin/PhyloCSF/wiki'>GitHub</a>."
+    },
+    "storeClass" : "JBrowse/Store/SeqFeature/BigWig"
+},
+{
+    "label" : "Broad Smoothed PhyloCSF_ plus3 strand",
+    "unsafeMouseover" : true,
+    "unsafePopup" : true,
+    "category" : "Externally Sourced Resources/Broad Smoothed PhyloCSF",
+    "variance_band" : 0,
+    "autoscale" : "local",
+    "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+    "urlTemplate" : "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF+3.bw",
+    "key" : "+3 strand",
+    "style" : {
+       "height" : 50
+    },
+    "metadata" : {
+       "shortInfo" : "Smoothed PhyloCSF analysis of 26 worm species from their trackhub at <a href='https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt'>https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt</a>.  For more information about PhyloCSF, see the documentation at <a href='https://github.com/mlin/PhyloCSF/wiki'>GitHub</a>."
+    },
+    "storeClass" : "JBrowse/Store/SeqFeature/BigWig"
+},
+{
+    "label" : "Broad Smoothed PhyloCSF_ minus1 strand",
+    "unsafeMouseover" : true,
+    "unsafePopup" : true,
+    "category" : "Externally Sourced Resources/Broad Smoothed PhyloCSF",
+    "variance_band" : 0,
+    "autoscale" : "local",
+    "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+    "urlTemplate" : "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF-1.bw",
+    "key" : "-1 strand",
+    "style" : {
+       "height" : 50
+    },
+    "metadata" : {
+       "shortInfo" : "Smoothed PhyloCSF analysis of 26 worm species from their trackhub at <a href='https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt'>https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt</a>.  For more information about PhyloCSF, see the documentation at <a href='https://github.com/mlin/PhyloCSF/wiki'>GitHub</a>."
+    },
+    "storeClass" : "JBrowse/Store/SeqFeature/BigWig"
+},
+{
+    "label" : "Broad Smoothed PhyloCSF_ minus2 strand",
+    "unsafeMouseover" : true,
+    "unsafePopup" : true,
+    "category" : "Externally Sourced Resources/Broad Smoothed PhyloCSF",
+    "variance_band" : 0,
+    "autoscale" : "local",
+    "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+    "urlTemplate" : "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF-2.bw",
+    "key" : "-2 strand",
+    "style" : {
+       "height" : 50
+    },
+    "metadata" : {
+       "shortInfo" : "Smoothed PhyloCSF analysis of 26 worm species from their trackhub at <a href='https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt'>https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt</a>.  For more information about PhyloCSF, see the documentation at <a href='https://github.com/mlin/PhyloCSF/wiki'>GitHub</a>."
+    },
+    "storeClass" : "JBrowse/Store/SeqFeature/BigWig"
+},
+{
+    "label" : "Broad Smoothed PhyloCSF_ minus3 strand",
+    "unsafeMouseover" : true,
+    "unsafePopup" : true,
+    "category" : "Externally Sourced Resources/Broad Smoothed PhyloCSF",
+    "variance_band" : 0,
+    "autoscale" : "local",
+    "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+    "urlTemplate" : "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF-3.bw",
+    "key" : "-3 strand",
+    "style" : {
+       "height" : 50
+    },
+    "metadata" : {
+       "shortInfo" : "Smoothed PhyloCSF analysis of 26 worm species from their trackhub at <a href='https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt'>https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt</a>.  For more information about PhyloCSF, see the documentation at <a href='https://github.com/mlin/PhyloCSF/wiki'>GitHub</a>."
+    },
+    "storeClass" : "JBrowse/Store/SeqFeature/BigWig"
+}
+   ]
+}
