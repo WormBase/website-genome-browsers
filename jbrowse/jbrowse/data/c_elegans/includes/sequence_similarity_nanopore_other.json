@@ -1,0 +1,34 @@
+{
+   "tracks" : [
+      {
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "subParts" : "match_part",
+         "key" : "Nanopore match (other)",
+         "urlTemplate" : "../tracks/Nanopore\ match\ (other)/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "unsafeMouseover" : true,
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "category" : "Sequence Similarity/Nucleotide",
+         "style" : {
+            "color" : "{nematodeColor}",
+            "height" : 4,
+            "label" : "{nematodeLabel}",
+            "className" : "feature"
+         },
+         "onClick" : {
+            "url" : "{targetURL}",
+            "title" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "label" : "Feature in WormBase"
+         },
+         "metadata" : {
+            "shortInfo" : "Something about where these sequences came from"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "label" : "Nanopore match (other)"
+      }
+   ]
+}
