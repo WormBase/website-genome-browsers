@@ -4,6 +4,11 @@ category = Genes:Supporting Evidence
 feature    = expressed_sequence_match:BLAT_mRNA_BEST 
              expressed_sequence_match:BLAT_ncRNA_BEST
 glyph = segments
+link = sub {
+  my $f = shift;
+  my $clone = $f->name;
+  return "/get?name=$clone;class=Sequence";
+  }
 label = sub {
     my $f = shift;
     my $label = ($f->source =~ /BLAT_mRNA_BEST/) ? 'mRNA' : 'ncRNA';
