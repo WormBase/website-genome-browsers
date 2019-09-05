@@ -265,6 +265,12 @@ while (my $line = <AS>) {
         elsif ($la[1] =~ /WBPaper00056245/) {
             $track = 'alper_lincrna';
         } 
+        elsif ($la[1] eq 'BLAT_Caen_Nanopore_BEST') {
+            $track = 'sequence_similarity_nanopore_best';
+        }
+        elsif ($la[1] eq 'BLAT_Caen_Nanopore_OTHER') {
+            $track = 'sequence_similarity_nanopore_other';
+        }
         else {
             next;
         }
