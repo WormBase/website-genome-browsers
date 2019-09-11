@@ -1,0 +1,17 @@
+{
+   "tracks" : [
+         "key" : "Regions not lifted over to N2",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature"
+         },
+         "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Regions not lifted over to N2/{refseq}/trackData.jsonz",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "label" : "Regions not lifted over to N2",
+         "glyph" : "JBrowse/View/FeatureGlyph/Box",
+         "compress" : 1
+   ]
+}
