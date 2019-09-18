@@ -4,6 +4,7 @@
          "category" : "Externally Sourced Resources",
          "chunkSizeLimit" : 5000000,
          "label" : "CeNDR variation",
+         "glyph" : "{variationGlyph}",
          "unsafeMouseover" : true,
          "type" : "CanvasVariants",
          "unsafePopup" : true,
