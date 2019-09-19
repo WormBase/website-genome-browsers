@@ -7,7 +7,7 @@
             "height" : 5
          },
          "metadata" : {
-            "shortInfo" : "Something about mapping N2 genes to the VC2010."
+            "shortInfo" : "Regions present in the VC2010 assembly that are not in the N2 assembly."
          },
          "type" : "CanvasFeatures",
          "label" : "N2 Genes (minimap)",
