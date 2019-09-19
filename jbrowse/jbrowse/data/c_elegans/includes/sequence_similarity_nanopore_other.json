@@ -3,8 +3,8 @@
       {
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "subParts" : "match_part",
-         "key" : "Nanopore match (other)",
-         "urlTemplate" : "../tracks/Nanopore\ match\ (other)/{refseq}/trackData.jsonz",
+         "key" : "Nanopore matches (other)",
+         "urlTemplate" : "../tracks/Nanopore\ matches\ (other)/{refseq}/trackData.jsonz",
          "unsafePopup" : true,
          "unsafeMouseover" : true,
          "compress" : 1,
@@ -28,7 +28,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "label" : "Nanopore match (other)"
+         "label" : "Nanopore matches (other)"
       }
    ]
 }
