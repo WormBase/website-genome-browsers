@@ -1,0 +1,104 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "height":6,
+            "color" : "deeppink",
+            "label" : false
+         },
+         "metadata" : {
+            "shortInfo" : "MiRanda prediction with stringent filters (score>=156 and energy <-7). This file contains the best predictions and is the reference file. From <a href='http://utrome.org'>UTRome.org</a>."
+         },
+         "unsafePopup" : true,
+         "key" : "miRanda predicted binding site (restricted)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/miRanda predicted binding site (stringent)/{refseq}/trackData.jsonz",
+         "category" : "Externally Sourced Resources/UTRome v2",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "miRanda predicted binding site (restricted)"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "height":6,
+            "color" : "pink",
+            "label" : false
+         },
+         "metadata" : {
+            "shortInfo" : "All MiRanda predictions (a lot of predictions, also with very low scores, but informative). From <a href='http://utrome.org'>UTRome.org</a>."
+         },
+         "unsafePopup" : true,
+         "key" : "miRanda predicted binding site (generic)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/miRanda predicted binding site (all)/{refseq}/trackData.jsonz",
+         "category" : "Externally Sourced Resources/UTRome v2",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "miRanda predicted binding site (generic)"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "height":6,
+            "color" : "deepskyblue",
+            "label" : false
+         },
+         "metadata" : {
+            "shortInfo" : "3’UTRs we have identified using filtered by score. From <a href='http://utrome.org'>UTRome.org</a>."
+         },
+         "unsafePopup" : true,
+         "key" : "Predicted 3prime UTR (filtered)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/Predicted 3prime UTR (filtered)/{refseq}/trackData.jsonz",
+         "category" : "Externally Sourced Resources/UTRome v2",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Predicted 3prime UTR (filtered)"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "height":6,
+            "color" : "skyblue",
+            "label" : false
+         },
+         "metadata" : {
+            "shortInfo" : "Database with all the 3’UTRs we have identified using relaxed filters (a lot of 3’UTR isoforms for each gene). From <a href='http://utrome.org'>UTRome.org</a>."
+         },
+         "unsafePopup" : true,
+         "key" : "Predicted 3prime UTR (mild)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/Predicted 3prime UTR (all)/{refseq}/trackData.jsonz",
+         "category" : "Externally Sourced Resources/UTRome v2",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Predicted 3prime UTR (mild)"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "height":6,
+            "color" : "skyblue",
+            "label" : false
+         },
+         "metadata" : {
+            "shortInfo" : "Predictions of 3’UTRs from a previous version of UTRome. From <a href='http://utrome.org'>UTRome.org</a>."
+         },
+         "unsafePopup" : true,
+         "key" : "Predicted 3prime UTR (v1-historical)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/Predicted 3prime UTR (v1-historical)/{refseq}/trackData.jsonz",
+         "category" : "Externally Sourced Resources/UTRome v2",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Predicted 3prime UTR (v1-historical)"
+      }
+   ]
+}
