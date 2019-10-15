@@ -5,7 +5,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "subParts" : "match_part",
          "key" : "Nanopore matches (best)",
-         "urlTemplate" : "../tracks/Nanopore\ matches\ (best)/{refseq}/trackData.jsonz",
+         "urlTemplate" : "../tracks/Nanopore matches (best)/{refseq}/trackData.jsonz",
          "unsafePopup" : true,
          "unsafeMouseover" : true,
          "compress" : 1,
