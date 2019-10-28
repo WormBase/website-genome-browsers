@@ -1,10 +1,11 @@
 {
    "tracks" : [
       {
+         "maxHeight" : 5000,
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "subParts" : "match_part",
-         "key" : "Nanopore match (best)",
-         "urlTemplate" : "../tracks/Nanopore\ match\ (best)/{refseq}/trackData.jsonz",
+         "key" : "Nanopore matches (best)",
+         "urlTemplate" : "../tracks/Nanopore matches (best)/{refseq}/trackData.jsonz",
          "unsafePopup" : true,
          "unsafeMouseover" : true,
          "compress" : 1,
@@ -24,11 +25,11 @@
             "label" : "Feature in WormBase"
          },
          "metadata" : {
-            "shortInfo" : "Something about where these sequences came from"
+            "shortInfo" : "This Nanopore transcript data is from the paper 'The full-length transcriptome of <i>C. elegans </i>using direct RNA sequencing' <a href='https://doi.org/10.1101/598763'>Roach et al. https://doi.org/10.1101/598763</a> Where several transcripts are nearly identical, they are represented by a single transcript and the number of transcripts is recorded in the read coverage. Sequencing is from 3' to 5' and randomly terminates, so the 5' end of transcripts is often incomplete. This data represents the best alignment of Nanopore transcripts to the reference genome."
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "label" : "Nanopore match (best)"
+         "label" : "Nanopore matches (best)"
       }
    ]
 }

@@ -11,6 +11,7 @@
          },
          "style" : {
             "description" : "{typeDescription}",
+            "height" : 8,
             "color" : "function(feature) { var strain = feature.get('strain'); if (strain=='CB4858' || strain=='AF16') {return 'blue';} else if (strain=='CB4856' || strain=='HK104') {return 'yellow';} else {return 'white';} }",
             "className" : "feature",
             "borderColor" : "black",
