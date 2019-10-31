@@ -12,6 +12,7 @@
             }
          ],
          "label" : "Protein-coding genes (frame usage)",
+         "key"   : "Protein-coding genes (frame usage)",
          "compress" : 1,
          "glyph" : "ColorByCDS/View/FeatureGlyph/ProcessedTranscript",
          "unsafeMouseover" : true,

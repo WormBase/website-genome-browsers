@@ -1,0 +1,16 @@
+{
+   "tracks" : [
+      {
+         "category" : "Externally Sourced Resources",
+         "chunkSizeLimit" : 5000000,
+         "glyph" : "{variationGlyph}",
+         "unsafeMouseover" : true,
+         "type" : "CanvasVariants",
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_briggsae_PRJNA10731/c.briggsae_snps.vcf.gz",
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "key" : "C. briggsae variation",
+         "label" : "C. briggsae variation"
+      }
+   ]
+}
