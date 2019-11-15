@@ -13,7 +13,7 @@ d7f907ec3772b5b735299cba9c8c0f58  c_elegans/PRJNA275000/c_elegans.PRJNA275000.WS
 a9033335833daad79823d542544eabcf  o_volvulus/PRJEB513/o_volvulus.PRJEB513.WS267.genomic.fa.gz
 0234d4f8747bfd848f78b7e60134a4e7  p_pacificus/PRJNA12644/p_pacificus.PRJNA12644.WS267.genomic.fa.gz
 43c124063e5b3115c8277bb86a2a850d  p_redivivus/PRJNA186477/p_redivivus.PRJNA186477.WS267.genomic.fa.gz
-94edba24c0364399fb05f57a094a3671  s_ratti/PRJEB125/s_ratti.PRJEB125.WS267.genomic.fa.gz
+91c3422046cee14d609e6215b4bc16f0  s_ratti/PRJEB125/s_ratti.PRJEB125.WS267.genomic.fa.gz
 47e1c756f348c8ed2ba7fa76fb25e53b  t_muris/PRJEB126/t_muris.PRJEB126.WS267.genomic.fa.gz
 0bca0d8ac0545545bcc0f98b14953b40  c_elegans/PRJEB28388/c_elegans.PRJEB28388.WS268.genomic.fa.gz
 5f1cdebeaec4c28f32ee7cad10a7897b  c_inopinata/PRJDB5687/c_inopinata.PRJDB5687.WS268.genomic.fa.gz
