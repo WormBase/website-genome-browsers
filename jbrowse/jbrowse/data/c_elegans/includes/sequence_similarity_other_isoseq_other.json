@@ -1,0 +1,34 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "label" : "{nematodeLabel}",
+            "className" : "feature",
+            "color" : "{nematodeColor}",
+            "height" : 4
+         },
+         "metadata" : {
+            "shortInfo" : ""
+         },
+         "onClick" : {
+            "label" : "Feature in WormBase",
+            "url" : "{targetURL}",
+            "title" : "Feature in WormBase",
+            "action" : "iframeDialog"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "label" : "Isoseq collection (other)",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "subParts" : "match_part",
+         "key" : "Isoseq collection (other)",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Isoseq collection (other)/{refseq}/trackData.jsonz",
+         "unsafeMouseover" : true,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "category" : "Sequence Similarity/Nucleotide"
+      }
+   ]
+}
