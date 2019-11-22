@@ -1,17 +1,17 @@
 {
    "tracks" : [
       {
-         "category" : "Sequence Similarity/Nucleotide",
+         "category" : "Genes/Supporting Evidence",
          "unsafeMouseover" : true,
          "compress" : 1,
          "maxExportSpan" : 50000000,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "subParts" : "match_part",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "key" : "Isoseq collection (best)",
+         "key" : "Collapsed IsoSeq structures",
          "urlTemplate" : "../tracks/Isoseq collection (best)/{refseq}/trackData.jsonz",
          "unsafePopup" : true,
-         "label" : "Isoseq collection (best)",
+         "label" : "Collapsed IsoSeq structures",
          "type" : "CanvasFeatures",
          "metadata" : {
             "shortInfo" : ""
