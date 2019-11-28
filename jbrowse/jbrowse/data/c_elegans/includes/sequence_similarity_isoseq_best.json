@@ -8,7 +8,7 @@
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "subParts" : "match_part",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "key" : "Non-C. elegans Isoseq collection (best)",
+         "key" : "Non-C. elegans Isoseq collection",
          "urlTemplate" : "../tracks/Non-C. elegans Isoseq collection (best)/{refseq}/trackData.jsonz",
          "unsafePopup" : true,
          "label" : "Non-C. elegans Isoseq collection (best)",

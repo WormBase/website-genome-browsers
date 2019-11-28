@@ -16,6 +16,7 @@
             "title" : "Feature in WormBase",
             "action" : "iframeDialog"
          },
+         "maxHeight" : 3000,
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "label" : "Isoseq collection (other)",

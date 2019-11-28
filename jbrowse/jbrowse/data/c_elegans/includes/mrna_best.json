@@ -23,7 +23,7 @@
          "compress" : 1,
          "maxExportSpan" : 50000000,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "key" : "mRNAs/ncRNAs (best)",
+         "key" : "mRNAs/ncRNAs",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "subParts" : "match_part",
          "urlTemplate" : "../tracks/mRNAs_ncRNAs (best)/{refseq}/trackData.jsonz",
