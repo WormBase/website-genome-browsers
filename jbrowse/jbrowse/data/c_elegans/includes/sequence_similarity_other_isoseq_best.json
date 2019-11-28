@@ -14,7 +14,7 @@
          "label" : "Collapsed IsoSeq structures",
          "type" : "CanvasFeatures",
          "metadata" : {
-            "shortInfo" : ""
+            "shortInfo" : "Aligned and filtered full-length non-chimeric IsoSeq reads with similar alignments collapsed into one representative structure."
          },
          "style" : {
             "label" : "{nematodeLabel}",

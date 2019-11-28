@@ -24,7 +24,7 @@
          "type" : "CanvasFeatures",
          "trackType" : "CanvasFeatures",
          "metadata" : {
-            "shortInfo" : "Native (same-species) Expressed Sequence Tags (ESTs), aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each EST. Other EST matches, some of which may represent repetitive elements, are shown in the track labeled 'ESTs (other)'. The paired 5' and 3' ESTs from the same cDNA clone are connected by a dashed line and a colored light green. ESTs with no mate are yellow, and ESTs with a mate that is 'far away' are dark green."
+            "shortInfo" : "Native (same-species) Expressed Sequence Tags (ESTs), aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each EST. The paired 5' and 3' ESTs from the same cDNA clone are connected by a dashed line and a colored light green. ESTs with no mate are yellow, and ESTs with a mate that is 'far away' are dark green."
          },
          "style" : {
             "color" : "function(f) {var mate = f._parent._parent.get('has_mate'); if (mate == 1) {return 'limegreen';} else if (mate == 2) {return 'green';} else if (mate==0) {return 'gold';} return 'black';}",
