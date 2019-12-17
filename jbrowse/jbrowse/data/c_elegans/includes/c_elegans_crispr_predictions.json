@@ -25,7 +25,7 @@
          "unsafeMouseover" : true,
          "compress" : 1,
          "label" : "CRISPR_Cas9 sgRNA predictions",
-         "category" : "Externally Sourced Resources"
+         "category" : "Externally Sourced Resources/Other"
       }
    ]
 }

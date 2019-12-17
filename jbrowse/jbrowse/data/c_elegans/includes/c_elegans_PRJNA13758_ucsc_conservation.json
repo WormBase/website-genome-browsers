@@ -1,7 +1,7 @@
 {
    "tracks" : [
       {
-         "category" : "Externally Sourced Resources",
+         "category" : "Externally Sourced Resources/Other",
          "label" : "UCSC Conservation",
          "variance_band" : 0,
          "unsafeMouseover" : true,
