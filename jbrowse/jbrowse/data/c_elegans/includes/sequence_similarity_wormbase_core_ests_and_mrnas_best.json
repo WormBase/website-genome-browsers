@@ -3,7 +3,7 @@
       {
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "subParts" : "match_part",
-         "key" : "WormBase nematode mRNAs/ESTs (best)",
+         "key" : "WormBase nematode mRNAs/ESTs",
          "urlTemplate" : "../tracks/WormBase nematode mRNAs_ESTs (best)/{refseq}/trackData.jsonz",
          "unsafePopup" : true,
          "unsafeMouseover" : true,

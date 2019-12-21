@@ -267,11 +267,13 @@ while (my $line = <AS>) {
         } 
         elsif ($la[1] eq 'BLAT_Caen_Nanopore_BEST') {
             $track = 'sequence_similarity_nanopore_best';
-            warn "getting nanopore best";
         }
-        elsif ($la[1] eq 'BLAT_Caen_Nanopore_OTHER') {
-            $track = 'sequence_similarity_nanopore_other';
-            warn "getting nanopore other";
+        elsif ($la[1] eq ' Nanopore_BEST') {
+            $track = 'sequence_similarity_nanopore_best';
+        }
+        elsif ($la[1] eq 'BLAT_IsoSeq_BEST') {
+            $track = 'sequence_similarity_other_isoseq_best';
+            warn 'getting BLAT_IsoSeq_BEST';
         }
         elsif ($la[1] eq 'minimap') {
             $track = 'minimap';

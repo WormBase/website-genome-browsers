@@ -1,20 +1,20 @@
 {
    "tracks" : [
       {
-         "category" : "Sequence Similarity/Nucleotide",
+         "category" : "Genes/Supporting Evidence",
          "unsafeMouseover" : true,
          "compress" : 1,
          "maxExportSpan" : 50000000,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "subParts" : "match_part",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "key" : "Non-C. elegans Isoseq collection",
-         "urlTemplate" : "../tracks/Non-C. elegans Isoseq collection (best)/{refseq}/trackData.jsonz",
+         "key" : "Collapsed IsoSeq structures",
+         "urlTemplate" : "../tracks/Isoseq collection (best)/{refseq}/trackData.jsonz",
          "unsafePopup" : true,
-         "label" : "Non-C. elegans Isoseq collection (best)",
+         "label" : "Collapsed IsoSeq structures",
          "type" : "CanvasFeatures",
          "metadata" : {
-            "shortInfo" : "IsoSeq from other WormBase core species aligned to the genome using BLAT <http://genome.cse.ucsc.edu/cgi-bin/hgBlat>. This track shows the best location for each IsoSeqsequence."
+            "shortInfo" : "Aligned and filtered full-length non-chimeric IsoSeq reads with similar alignments collapsed into one representative structure."
          },
          "style" : {
             "label" : "{nematodeLabel}",
