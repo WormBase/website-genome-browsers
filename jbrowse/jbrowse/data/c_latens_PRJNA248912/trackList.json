@@ -1,0 +1,158 @@
+{
+   "tracks" : [
+      {
+         "label" : "Protein-coding genes (frame usage)",
+         "metadata" : {
+            "shortInfo" : "This track shows protein coding gene transcripts with the CDS portions colored by frame usage. Note that the color coding corresponds to the same color coding in the 'reference sequence' track.  So that, for example, the light blue exons correspond to the the first translation frame in the reference sequence track.  NOTE THAT THIS FEATURE IS STILL IN BETA."
+         },
+         "key" : "Protein-coding genes (frame usage)",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/docker/WS274/c_latens_PRJNA248912/tracks/Curated Genes (protein coding)/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "menuTemplate" : [
+            {
+               "label" : "View Sequence",
+               "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+               "action" : "contentDialog",
+               "iconClass" : "dijitIconDatabase"
+            }
+         ],
+         "unsafeMouseover" : true,
+         "type" : "CanvasFeatures",
+         "glyph" : "ColorByCDS/View/FeatureGlyph/ProcessedTranscript",
+         "category" : "Genes/Curated Genes",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "maxHeight" : 2500,
+         "unsafePopup" : true
+      },
+      {
+         "key" : "Curated Genes (protein coding)",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/docker/WS274/c_latens_PRJNA248912/tracks/Curated Genes (protein coding)/{refseq}/trackData.jsonz",
+         "metadata" : {
+            "shortInfo" : "A subset of the full Curated Genes set limited to protein-coding genes only. Only the CDS is represented. Full models (with UTRs) can be seen on the 'Curated Genes' track."
+         },
+         "type" : "CanvasFeatures",
+         "compress" : 1,
+         "menuTemplate" : [
+            {
+               "label" : "View Sequence",
+               "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+               "iconClass" : "dijitIconDatabase",
+               "action" : "contentDialog"
+            }
+         ],
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "label" : "{geneLabel}",
+            "className" : "feature",
+            "color" : "{geneColor}"
+         },
+         "onClick" : {
+            "url" : "{transcriptURL}",
+            "title" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "label" : "Right/Control click for more options"
+         },
+         "category" : "Genes/Curated Genes",
+         "maxHeight" : 2500,
+         "trackType" : "CanvasFeatures",
+         "label" : "Curated Genes (protein coding)",
+         "unsafeMouseover" : true,
+         "maxExportSpan" : 50000000,
+         "unsafePopup" : true
+      },
+      {
+         "style" : {
+            "height" : "function(f) {var type = f.get('type'); if (type == 'CDS') {return 10;} return 6;  }",
+            "label" : "{geneLabel}",
+            "color" : "{geneColor}",
+            "className" : "feature"
+         },
+         "onClick" : {
+            "label" : "{geneLinkLabel}",
+            "url" : "{geneURL}",
+            "title" : "Feature in WormBase",
+            "action" : "iframeDialog"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "category" : "Genes/Curated Genes",
+         "maxHeight" : 3000,
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/docker/WS274/c_latens_PRJNA248912/tracks/Curated_Genes/{refseq}/trackData.jsonz",
+         "key" : "Curated Genes",
+         "metadata" : {
+            "shortInfo" : "Protein-coding gene structures result from the integration of a variety of prediction methods and data sources followed by manual review and revison by WormBase curators. tRNAs are predicted by tRNAscan, and other non-coding RNA transcripts are taken from a variety of literature sources. The purple and blue colors indicate transcripts on the forward and reverse strands respectively. Dark purple areas represent 5' and 3' UTRs of protein-coding transcripts, assigned automatically using the extents of overlapping ESTs and full-length cDNAs. The UTR predictions have not been reviewed by WormBase curators, and some are known to contain artifacts. Grey transcripts represent either non-coding transcripts of protein coding genes or transcripts of non-coding genes."
+         },
+         "type" : "CanvasFeatures",
+         "menuTemplate" : [
+            {
+               "label" : "View details"
+            },
+            {
+               "label" : "Zoom to this gene"
+            },
+            {
+               "label" : "Highlight this gene"
+            },
+            {
+               "action" : "contentDialog",
+               "iconClass" : "dijitIconDatabase",
+               "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+               "label" : "View Sequence"
+            }
+         ],
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
+         "label" : "Curated_Genes",
+         "glyph" : "{geneGlyph}",
+         "unsafeMouseover" : true
+      },
+      {
+         "unsafeMouseover" : true,
+         "type" : "CanvasFeatures",
+         "compress" : 1,
+         "trackType" : "CanvasFeatures",
+         "key" : "Low complextity region (Dust)",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/docker/WS274/c_latens_PRJNA248912/tracks/Low complextity region (Dust)/{refseq}/trackData.jsonz",
+         "label" : "Low complextity region (Dust)",
+         "metadata" : {
+            "shortInfo" : "Low-complexity regions identified by Dust."
+         },
+         "unsafePopup" : true,
+         "maxExportSpan" : 50000000,
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "color" : "bisque",
+            "className" : "feature",
+            "height" : 4
+         },
+         "category" : "Genome Structure/Repeats"
+      },
+      {
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "codonStarts" : "[ATG]",
+         "unsafePopup" : true,
+         "label" : "DNA",
+         "key" : "Reference sequence (DNA)",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_latens_PRJNA248912/seq/{refseq_dirpath}/{refseq}-",
+         "chunkSize" : 80000,
+         "compress" : 1,
+         "unsafeMouseover" : true,
+         "type" : "SequenceTrack"
+      }
+   ],
+   "plugins" : {
+      "FeatureSequence" : {
+         "location" : "./plugins/FeatureSequence"
+      }
+   },
+   "include" : [
+      "../functions.conf"
+   ],
+   "dataset_id" : "c_latens_PRJNA248912",
+   "names" : {
+      "url" : "https://s3.amazonaws.com/wormbase-modencode/docker/WS274/c_latens_PRJNA248912/names/",
+      "type" : "Hash"
+   },
+   "formatVersion" : 1
+}
