@@ -53,20 +53,10 @@ return declare( JBrowsePlugin,
                 var url;
 
 		if (selector == 'checkboxes') {
-			if (String(fullurl).match('full.html')) {
-				url = '/tools/genome/jbrowse/full.html';
-			}
-			else {
-				url = '/tools/genome/jbrowse/';
-			}
+			url = '/tools/genome/jbrowse/';
                 }
 		else {
-			if (String(fullurl).match('full.html')) {
-				url = '/tools/genome/jbrowse-simple/full.html';
-			}
-			else {
-				url = '/tools/genome/jbrowse-simple/';
-			}
+			url = '/tools/genome/jbrowse-simple/';
 		}
 
                 var get = document.location.search;
