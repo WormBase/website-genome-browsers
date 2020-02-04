@@ -17,6 +17,11 @@ GetOptions(
 
 die unless $BIOPROJECT && $RELEASE && $FILE;
 
+#The idea is that the 'simple' config will just be using the N2 data
+if ($BIOPROJECT =~ /simple/) {
+    $BIOPROJECT = 'c_elegans_PRJNA13758';
+}
+
 my $S3URL = "https://s3.amazonaws.com/wormbase-modencode/docker/$RELEASE/$BIOPROJECT";
 
 my $FILEIN = $FILE;
@@ -43,7 +48,7 @@ for my $i (@{$$trackList{'include'}}) {
 
 for my $f (@includes) {
     local $/ = undef;
-    open (my $F, "<", $f) or die "$!:$f";
+    open (my $F, "<", "$BIOPROJECT/$f") or die "$!:$f";
     my $data = <$F>;
     close $F;
 
