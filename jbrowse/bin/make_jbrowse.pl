@@ -268,7 +268,7 @@ while (my $line = <AS>) {
         elsif ($la[1] eq 'BLAT_Caen_Nanopore_BEST') {
             $track = 'sequence_similarity_nanopore_best';
         }
-        elsif ($la[1] eq ' Nanopore_BEST') {
+        elsif ($la[1] eq ' BLAT_Nanopore_BEST') {
             $track = 'sequence_similarity_nanopore_best';
         }
         elsif ($la[1] eq 'BLAT_IsoSeq_BEST') {
