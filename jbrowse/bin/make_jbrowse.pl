@@ -454,13 +454,14 @@ if ($only_species_name and $bioproject ne 'PRJNA275000') {
     }
     push @include, @species_specific;
 }
-if ($species eq "c_elegans_$PRIMARY_SPECIES") {
-    my @modencode = glob("$INCLUDES/modencode*");
-    for (@modencode) {
-        $_ = "includes/".basename($_);
-    }
-    push @include, @modencode;
-}
+
+#if ($species eq "c_elegans_$PRIMARY_SPECIES") {
+#    my @modencode = glob("$INCLUDES/modencode*");
+#    for (@modencode) {
+#        $_ = "includes/".basename($_);
+#    }
+#    push @include, @modencode;
+#}
 
 
 #create trackList data structure:
