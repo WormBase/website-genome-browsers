@@ -29,7 +29,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "label" : "Nanopore matches (best)"
+         "label" : "Nanopore matches"
       }
    ]
 }
