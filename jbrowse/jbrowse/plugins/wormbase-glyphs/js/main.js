@@ -17,7 +17,7 @@ function (
                 var url    = location.href;
   console.log(url);
                 var mod_str ='';
-                var wb_ver = '<h3 style="margin:2px">Version: WS272</h3>';
+                var wb_ver = '<h3 style="margin:2px">Version: WS275</h3>';
                 var br     = '';
                 if (url.match('jbrowse-simple')) {
                     br = '</br>';
