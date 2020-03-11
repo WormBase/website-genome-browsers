@@ -37,14 +37,14 @@ return declare(Box, {
             if( bgcolor ) {
                 context.fillStyle = bgcolor;
                 context.beginPath();
-                context.moveTo(left-minwdith/2,top);
+                context.moveTo(left-minwidth/2,top);
                 context.lineTo(left,top+height);
-                context.lineTo(left + minwdith/2 ,top);
+                context.lineTo(left + minwidth/2 ,top);
                 context.closePath();
                 context.fill();
             }
             else {
-                context.clearRect( left-minwdith/2, top, left+minwdith/2, height );
+                context.clearRect( left-minwidth/2, top, left+minwidth/2, height );
             }
         } 
         else {
