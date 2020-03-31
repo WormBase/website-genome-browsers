@@ -9,7 +9,7 @@
 
 FROM nginx:latest as linux
 
-ARG RELEASE=275
+ARG RELEASE=276
 
 ENV DEBIAN_FRONTEND noninteractive
 
