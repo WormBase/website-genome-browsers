@@ -7,20 +7,9 @@
 # and it uses multistage builds, so after the build is done, the first image can be deleted and the second, usually much
 # smaller (200MB or so) can be used for production
 
-FROM nginx:latest as linux
+FROM gmod/jbrowse-buildenv:latest as build
 
 ARG RELEASE=276
-
-ENV DEBIAN_FRONTEND noninteractive
-
-RUN mkdir -p /usr/share/man/man1 /usr/share/man/man7
-
-RUN apt-get -qq update --fix-missing
-RUN apt-get --no-install-recommends -y install vim curl software-properties-common git build-essential zlib1g-dev libpng-dev perl-doc ca-certificates
-
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
-
-RUN apt-get -y install nodejs
 
 # JBrowse source
 RUN git clone --single-branch --branch 1.16.8-release https://github.com/GMOD/jbrowse.git
@@ -70,7 +59,8 @@ RUN rm /usr/share/nginx/html/index.html && rm /usr/share/nginx/html/50x.html && 
     cp -r /jbrowse/* /usr/share/nginx/html/tools/genome/jbrowse && \
     cp -r /jbrowse/.htaccess /usr/share/nginx/html/tools/genome/jbrowse/.htaccess && \
     ln -s /usr/share/nginx/html/tools/genome/jbrowse/index.html /usr/share/nginx/html/tools/genome/jbrowse/full.html && \
-    cp /website-genome-browsers/jbrowse/jbrowse/jbrowse-simple.conf /usr/share/nginx/html/tools/genome/jbrowse-simple/jbrowse.conf
+    cp /website-genome-browsers/jbrowse/jbrowse/jbrowse-simple.conf /usr/share/nginx/html/tools/genome/jbrowse-simple/jbrowse.conf && \
+    cp /website-genome-browsers/jbrowse/jbrowse/jbrowse.conf /usr/share/nginx/html/tools/genome/jbrowse/jbrowse.conf
     
 WORKDIR /usr/share/nginx/html/tools/genome/jbrowse
 
@@ -82,20 +72,20 @@ RUN ./setup.sh
 
 
 FROM nginx:latest as production
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse/dist /usr/share/nginx/html/tools/genome/jbrowse/dist
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse/browser /usr/share/nginx/html/tools/genome/jbrowse/browser
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse/css /usr/share/nginx/html/tools/genome/jbrowse/css
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse/data /usr/share/nginx/html/tools/genome/jbrowse/data
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse/full.html /usr/share/nginx/html/tools/genome/jbrowse/full.html
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse/img /usr/share/nginx/html/tools/genome/jbrowse/img
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse/index.html /usr/share/nginx/html/tools/genome/jbrowse/index.html
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse/jbrowse_conf.json /usr/share/nginx/html/tools/genome/jbrowse/jbrowse_conf.json
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse/jbrowse.conf /usr/share/nginx/html/tools/genome/jbrowse/jbrowse.conf
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse/LICENSE /usr/share/nginx/html/tools/genome/jbrowse/LICENSE
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse/plugins /usr/share/nginx/html/tools/genome/jbrowse/plugins
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse/site.webmanifest /usr/share/nginx/html/tools/genome/jbrowse/site.webmanifest
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse/.htaccess /usr/share/nginx/html/tools/genome/jbrowse/.htaccess
-COPY --from=linux /usr/share/nginx/html/tools/genome/jbrowse-simple/jbrowse.conf /usr/share/nginx/html/tools/genome/jbrowse-simple/jbrowse.conf
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/dist /usr/share/nginx/html/tools/genome/jbrowse/dist
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/browser /usr/share/nginx/html/tools/genome/jbrowse/browser
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/css /usr/share/nginx/html/tools/genome/jbrowse/css
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/data /usr/share/nginx/html/tools/genome/jbrowse/data
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/full.html /usr/share/nginx/html/tools/genome/jbrowse/full.html
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/img /usr/share/nginx/html/tools/genome/jbrowse/img
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/index.html /usr/share/nginx/html/tools/genome/jbrowse/index.html
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/jbrowse_conf.json /usr/share/nginx/html/tools/genome/jbrowse/jbrowse_conf.json
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/jbrowse.conf /usr/share/nginx/html/tools/genome/jbrowse/jbrowse.conf
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/LICENSE /usr/share/nginx/html/tools/genome/jbrowse/LICENSE
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/plugins /usr/share/nginx/html/tools/genome/jbrowse/plugins
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/site.webmanifest /usr/share/nginx/html/tools/genome/jbrowse/site.webmanifest
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/.htaccess /usr/share/nginx/html/tools/genome/jbrowse/.htaccess
+COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse-simple/jbrowse.conf /usr/share/nginx/html/tools/genome/jbrowse-simple/jbrowse.conf
 
 #the "jbrowse-simple" stuff is required to make the SwitchTrackSelector plugin work
 RUN ln -s /usr/share/nginx/html/tools/genome/jbrowse/dist /usr/share/nginx/html/tools/genome/jbrowse-simple/dist && \
