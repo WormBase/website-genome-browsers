@@ -2,7 +2,7 @@
 #FROM comics/centos
 #MAINTAINER Ian Merrick <MerrickI@Cardiff.ac.uk>
 #FROM wormbase/website-genome-browsers
-FROM ubuntu:18.10
+FROM ubuntu:18.04
 MAINTAINER Scott Cain <scott.cain@wormbase.org>
 
 ##############################################################
@@ -26,7 +26,8 @@ RUN apt-get install -y wget \
                        make \
                        gcc \
                        vim \
-                       uuid-dev
+                       uuid-dev \
+                       s3fs
 
 RUN apt-get install -y gbrowse \
                        gbrowse-calign \
@@ -93,9 +94,8 @@ RUN a2enmod cgid
 # Hopefully this will result in a cleaner install.
 #
 RUN cd / ; \
-    git clone https://github.com/WormBase/website-genome-browsers.git ; \
+    git clone --single-branch --branch gbrowse-docker  https://github.com/WormBase/website-genome-browsers.git ; \
     cd website-genome-browsers ; \
-    git checkout dockertest ; \
     cp -R gbrowse/* /etc/gbrowse ; \
     cp gbrowse/gbrowse_apache.conf /etc/apache2/conf-enabled/gbrowse.conf ; \
     rm /etc/apache2/conf-enabled/serve-cgi-bin.conf
