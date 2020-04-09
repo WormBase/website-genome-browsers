@@ -14,6 +14,8 @@ function (
          var browser = this.browser;
          if( browser.config.show_menu && browser.config.show_nav ) {
             JBrowse.afterMilestone('completely initialized', function() {
+     /* This shouldn't be doing anything for AGR
+            JBrowse.afterMilestone('completely initialized', function() {
                 var url    = location.href;
   console.log(url);
                 var mod_str ='';
@@ -32,7 +34,7 @@ function (
                 //add logo to menubar
                 var bluebar = browser.menuBar;
                 bluebar.appendChild(domConstruct.toDom('<a href="/"><img src="https://wormbase.org/img/logo/logo_wormbase_gradient.svg" width="100px" style="padding-top: 5px"></a>'));
-
+     */
 
 
 // reset top of trackSelectGrid to 64 or 63
