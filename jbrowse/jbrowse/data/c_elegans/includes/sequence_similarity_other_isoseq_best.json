@@ -9,7 +9,7 @@
          "subParts" : "match_part",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "key" : "Collapsed IsoSeq structures",
-         "urlTemplate" : "../tracks/Isoseq collection (best)/{refseq}/trackData.jsonz",
+         "urlTemplate" : "../tracks/Collapsed IsoSeq structures/{refseq}/trackData.jsonz",
          "unsafePopup" : true,
          "label" : "Collapsed IsoSeq structures",
          "type" : "CanvasFeatures",
