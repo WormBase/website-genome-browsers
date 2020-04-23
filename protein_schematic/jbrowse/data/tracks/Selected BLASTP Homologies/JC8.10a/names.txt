@@ -1,0 +1,6 @@
+[["RP48638"],"Selected BLASTP Homologies","RP48638","JC8.10a",0,1093]
+[["JA49247"],"Selected BLASTP Homologies","JA49247","JC8.10a",0,1091]
+[["OVP14010"],"Selected BLASTP Homologies","OVP14010","JC8.10a",0,1082]
+[["CE51333"],"Selected BLASTP Homologies","CE51333","JC8.10a",59,479]
+[["SGD:YNL106C"],"Selected BLASTP Homologies","SGD:YNL106C","JC8.10a",117,839]
+[["MSP:HGFFYSMGK"],"Selected BLASTP Homologies","MSP:HGFFYSMGK","JC8.10a",351,368]

@@ -1,0 +1,4 @@
+[["Features-seg-1"],"Features-seg","Features-seg-1","JC8.10a",983,1002]
+[["Features-seg-2"],"Features-seg","Features-seg-2","JC8.10a",1041,1056]
+[["Features-seg-3"],"Features-seg","Features-seg-3","JC8.10a",1057,1082]
+[["Features-seg-4"],"Features-seg","Features-seg-4","JC8.10a",1080,1110]
