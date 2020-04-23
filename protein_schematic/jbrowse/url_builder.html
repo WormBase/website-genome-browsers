@@ -1,0 +1,70 @@
+<html>
+<head>
+
+<script>
+ async function buildURL(protein, length) {
+  //let protein = 'CE28239';
+  //let length = 1113;
+  let baseURL = 'http://dev.wormbase.org:9018/';
+  let urlTemplate = baseURL+'data/tracks/';
+
+  let trackPart = 'Exon%20boundaries';
+  
+  let response = await fetch(urlTemplate+'seg/'+protein+'/trackData.jsonz');
+
+  if (response.ok) { // if HTTP-status is 200-299
+    trackPart = trackPart + '%2Cseg';
+  }
+
+  response = await fetch(urlTemplate+'signalp/'+protein+'/trackData.jsonz');
+
+  if (response.ok) { // if HTTP-status is 200-299
+    trackPart = trackPart + '%2Csignalp';
+  }
+
+  response = await fetch(urlTemplate+'tmhmm/'+protein+'/trackData.jsonz');
+
+  if (response.ok) { // if HTTP-status is 200-299
+    trackPart = trackPart + '%2Ctmhmm';
+  }
+
+  response = await fetch(urlTemplate+'ncoils/'+protein+'/trackData.jsonz');
+
+  if (response.ok) { // if HTTP-status is 200-299
+    trackPart = trackPart + '%2Cncoils';
+  }
+
+  response = await fetch(urlTemplate+'Motifs/'+protein+'/trackData.jsonz');
+
+  if (response.ok) { // if HTTP-status is 200-299
+    trackPart = trackPart + '%2CMotifs';
+  }
+
+  response = await fetch(urlTemplate+'Selected%20BLASTP%20Homologies/'+protein+'/trackData.jsonz');
+
+  if (response.ok) { // if HTTP-status is 200-299
+    trackPart = trackPart + '%2CSelected%20BLASTP%20Homologies';
+  }  
+
+  let fullJBrowseURL = baseURL+'?tracklabels=0&nav=0&tracklist=0&overview=0&loc='+protein+'%3A1..'+length+'&tracks='+trackPart;
+  //alert(fullJBrowseURL);
+
+  document.getElementById("replaceme").innerHTML='<object id="innerJBrowse" type="text/html" style="width:100%;height:400px;overflow: auto;" data="'+fullJBrowseURL+'" ></object>';  
+
+  return ;
+ }
+</script>
+
+</head>
+<body>
+
+<div id="replaceme" style="width:100%;height:400px;background-color:#fff;resize: vertical;overflow: auto;">hello</div>
+
+<button type="button" onclick="buildURL('CE28239', 1113)">CE28239</button>
+<button type="button" onclick="buildURL('MAA-1', 266)">MAA-1</button>
+<button type="button" onclick="buildURL('VAP-1', 424)">VAP-1</button>
+
+
+
+</body>
+</html>
