@@ -66,6 +66,48 @@
       },
       {
          "compress" : 1,
+         "key" : "Catalytic residue",
+         "label" : "Catalytic residue",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "black",
+            "height" : 5
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Catalytic residue/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "Metal binding site",
+         "label" : "Metal binding site",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "black",
+            "height" : 5
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Metal binding site/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "Post transcriptionally modified site",
+         "label" : "Post transcriptionally modified site",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "black",
+            "height" : 5
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/Post transcriptionally modified site/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
          "key" : "seg",
          "label" : "seg",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
