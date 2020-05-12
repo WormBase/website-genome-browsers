@@ -24,7 +24,8 @@ RUN rm /usr/share/nginx/html/index.html && rm /usr/share/nginx/html/50x.html && 
     cp -r /jbplugin-screenshot /jbrowse/plugins/ScreenShotPlugin && \
     cp -r /jbrowse/* /usr/share/nginx/html/tools/protein_schematic && \
     cp -r /jbrowse/.htaccess /usr/share/nginx/html/tools/protein_schematic/.htaccess && \
-    cp /website-genome-browsers/protein_schematic/jbrowse/jbrowse.conf /usr/share/nginx/html/tools/protein_schematic/jbrowse.conf
+    cp /website-genome-browsers/protein_schematic/jbrowse/jbrowse.conf /usr/share/nginx/html/tools/protein_schematic/jbrowse.conf && \
+    cp /website-genome-browsers/protein_schematic/jbrowse/url_builder.html /usr/share/nginx/html/tools/protein_schematic/url_builder.html
     
 WORKDIR /usr/share/nginx/html/tools/protein_schematic
 
@@ -48,6 +49,8 @@ COPY --from=build /usr/share/nginx/html/tools/protein_schematic/LICENSE /usr/sha
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/plugins /usr/share/nginx/html/tools/protein_schematic/plugins
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/site.webmanifest /usr/share/nginx/html/tools/protein_schematic/site.webmanifest
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/.htaccess /usr/share/nginx/html/tools/protein_schematic/.htaccess
+
+COPY --from=build /usr/share/nginx/html/tools/protein_schematic/url_builder.html /usr/share/nginx/html/tools/protein_schematic/url_builder.html
 
 VOLUME /data
 COPY docker-entrypoint.sh /
