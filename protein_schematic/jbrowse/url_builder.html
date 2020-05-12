@@ -5,8 +5,13 @@
  async function buildURL(protein, length) {
   //let protein = 'CE28239';
   //let length = 1113;
-  let baseURL = 'https://staging.wormbase.org/tools/protein_schematic/';
-  let urlTemplate = baseURL+'data/tracks/';
+  //let url = window.location.href;
+  
+  let jbrowseBaseURL = 'https://staging.wormbase.org/tools/protein_schematic/';
+
+  //let baseURL = 'https://staging.wormbase.org/tools/protein_schematic/';
+  let baseURL = 'https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/';
+  let urlTemplate = baseURL+'tracks/';
 
   let trackPart = 'Exon%20boundaries';
   
@@ -64,7 +69,7 @@
     trackPart = trackPart + '%2CSelected%20BLASTP%20Homologies';
   }  
 
-  let fullJBrowseURL = baseURL+'?tracklabels=0&nav=0&tracklist=0&overview=0&loc='+protein+'%3A1..'+length+'&tracks='+trackPart;
+  let fullJBrowseURL = jbrowseBaseURL+'?tracklabels=0&nav=0&tracklist=0&overview=0&loc='+protein+'%3A1..'+length+'&tracks='+trackPart;
   //alert(fullJBrowseURL);
 
   document.getElementById("replaceme").innerHTML='<object id="innerJBrowse" type="text/html" style="width:100%;height:400px;overflow: auto;" data="'+fullJBrowseURL+'" ></object>';  
