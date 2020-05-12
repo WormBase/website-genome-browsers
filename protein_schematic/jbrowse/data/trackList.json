@@ -76,7 +76,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "tracks/Catalytic residue/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/tracks/Catalytic residue/{refseq}/trackData.jsonz"
       },
       {
          "compress" : 1,
@@ -90,7 +90,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "tracks/Metal binding site/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/tracks/Metal binding site/{refseq}/trackData.jsonz"
       },
       {
          "compress" : 1,
@@ -104,7 +104,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "tracks/Post transcriptionally modified site/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/tracks/Post transcriptionally modified site/{refseq}/trackData.jsonz"
       },
       {
          "compress" : 1,
