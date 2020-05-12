@@ -5,7 +5,7 @@
  async function buildURL(protein, length) {
   //let protein = 'CE28239';
   //let length = 1113;
-  let baseURL = 'http://dev.wormbase.org:9019/tools/protein_schematic/';
+  let baseURL = 'http://staging.wormbase.org/tools/protein_schematic/';
   let urlTemplate = baseURL+'data/tracks/';
 
   let trackPart = 'Exon%20boundaries';
@@ -32,6 +32,24 @@
 
   if (response.ok) { // if HTTP-status is 200-299
     trackPart = trackPart + '%2Cncoils';
+  }
+
+  response = await fetch(urlTemplate+'Catalytic%20residue/'+protein+'/trackData.jsonz');
+
+  if (response.ok) { // if HTTP-status is 200-299
+    trackPart = trackPart + '%2CCatalytic%20residue';
+  }
+
+  response = await fetch(urlTemplate+'Metal%20binding%20site/'+protein+'/trackData.jsonz');
+
+  if (response.ok) { // if HTTP-status is 200-299
+    trackPart = trackPart + '%2CMetal%20binding%20site';
+  }
+
+  response = await fetch(urlTemplate+'Post%20transcriptionally%20modified%20site/'+protein+'/trackData.jsonz');
+
+  if (response.ok) { // if HTTP-status is 200-299
+    trackPart = trackPart + '%2CPost%20transcriptionally%20modified%20site';
   }
 
   response = await fetch(urlTemplate+'Motifs/'+protein+'/trackData.jsonz');
