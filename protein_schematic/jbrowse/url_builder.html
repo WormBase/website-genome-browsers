@@ -5,12 +5,27 @@
  async function buildURL(protein, length) {
   //let protein = 'CE28239';
   //let length = 1113;
-  //let url = window.location.href;
+  let proto    = window.location.protocol;
+  let hostname = window.location.hostname;
+  let port     = window.location.port;
+  let path     = '/tools/protein_schematic/';
+
+  if (port != 80) {
+      port = ':'+port;
+  }
+  else {
+      port = '';
+  }
   
-  let jbrowseBaseURL = 'https://staging.wormbase.org/tools/protein_schematic/';
+  let releaseVersion = 'WS274';
+
+  //let releaseVersionPromise = fetch(' version rest');
+  
+  
+  let jbrowseBaseURL = proto+'//' + hostname + port + path';
 
   //let baseURL = 'https://staging.wormbase.org/tools/protein_schematic/';
-  let baseURL = 'https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/';
+  let baseURL = 'https://s3.amazonaws.com/wormbase-modencode/protein_schematic/'+ releaseVersion + '/';
   let urlTemplate = baseURL+'tracks/';
 
   let trackPart = 'Exon%20boundaries';
