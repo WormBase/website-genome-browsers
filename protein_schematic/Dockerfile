@@ -10,7 +10,10 @@
 FROM gmod/jbrowse-buildenv:latest as build
 
 # JBrowse source
-RUN git clone --single-branch --branch 1.16.8-release https://github.com/GMOD/jbrowse.git
+#RUN git clone --single-branch --branch 1.16.8-release https://github.com/GMOD/jbrowse.git
+
+#this is using a branch specifically to support faster builds--needs to be incorporated into main jbrowse build
+RUN git clone --single-branch --branch setup_arg https://github.com/GMOD/jbrowse.git
 
 RUN git clone --single-branch --branch protein_schematic_staging https://github.com/WormBase/website-genome-browsers.git
 
@@ -33,7 +36,7 @@ WORKDIR /usr/share/nginx/html/tools/protein_schematic
 #RUN ./node_modules/.bin/yarn
 #RUN JBROWSE_BUILD_MIN=1 ./node_modules/.bin/yarn build
 
-RUN ./setup.sh
+RUN ./setup.sh -f
 
 
 FROM nginx:latest as production
