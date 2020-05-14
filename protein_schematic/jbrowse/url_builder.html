@@ -24,10 +24,15 @@
   let releaseVersionURL = 'https://wormbase.org/rest/version';
   let releaseVersionResponse = await fetch(releaseVersionURL);
   if (releaseVersionResponse.ok) {
-    releaseVersionJson =  releaseVersionResponse.json();
-    console.log(releaseVersionJson);
-    console.log(releaseVersionJson.data);
-    releaseVersion = releaseVersionJson.data;
+    releaseVersionJson =  await releaseVersionResponse.json();
+    if (releaseVersionJson.ok) {
+      console.log(releaseVersionJson);
+      console.log(releaseVersionJson.version);
+      releaseVersion = releaseVersionJson.version;
+    }
+    else {
+      alert('fetching version json failed');
+    }
   }
   else {
     alert('fetching version via rest failed');
