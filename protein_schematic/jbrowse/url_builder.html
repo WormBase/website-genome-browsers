@@ -25,14 +25,9 @@
   let releaseVersionResponse = await fetch(releaseVersionURL);
   if (releaseVersionResponse.ok) {
     releaseVersionJson =  await releaseVersionResponse.json();
-    if (releaseVersionJson.ok) {
-      console.log(releaseVersionJson);
-      console.log(releaseVersionJson.version);
-      releaseVersion = releaseVersionJson.version;
-    }
-    else {
-      alert('fetching version json failed');
-    }
+    console.log(releaseVersionJson);
+    console.log(releaseVersionJson.version);
+    releaseVersion = releaseVersionJson.version;
   }
   else {
     alert('fetching version via rest failed');
