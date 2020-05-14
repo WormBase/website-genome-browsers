@@ -96,6 +96,9 @@
   let fullJBrowseURL = jbrowseBaseURL+'?tracklabels=0&nav=0&tracklist=0&overview=0&loc='+protein+'%3A1..'+length+'&tracks='+trackPart;
   //alert(fullJBrowseURL);
 
+  let linkoutJBrowseURL = jbrowseBaseURL+'?loc='protein+'%3A1..'+length+'&tracks='+trackPart;
+  console.log(linkoutJBrowseURL);
+
   document.getElementById("replaceme").innerHTML='<object id="innerJBrowse" type="text/html" style="width:100%;height:400px;overflow: auto;" data="'+fullJBrowseURL+'" ></object>';  
 
   return ;
