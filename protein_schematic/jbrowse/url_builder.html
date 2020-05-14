@@ -23,7 +23,7 @@
   let releaseVersionURL = proto + '//' + hostname + port + '/rest/version';
   let releaseVersionResponse = await fetch(releaseVersionURL);
   if (releaseVersionResponse.ok) {
-    releaseVersionJson = await releaseVersionResponse.json;
+    releaseVersionJson = await releaseVersionResponse.json.then(releaseVersionResponse => releaseVersionResponse.json());
     console.log(releaseVersionJson);
     console.log(releaseVersionJson.data);
     releaseVersion = releaseVersionJson.data;
