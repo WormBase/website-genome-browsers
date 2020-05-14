@@ -20,10 +20,11 @@
   let releaseVersion = 'WS274';
 
   let releaseVersionJson = '';
-  let releaseVersionURL = proto + '//' + hostname + port + '/rest/version';
+  //let releaseVersionURL = proto + '//' + hostname + port + '/rest/version';
+  let releaseVersionURL = 'https://wormbase.org/rest/version';
   let releaseVersionResponse = await fetch(releaseVersionURL);
   if (releaseVersionResponse.ok) {
-    releaseVersionJson = await releaseVersionResponse.json.then(releaseVersionResponse => releaseVersionResponse.json());
+    releaseVersionJson =  releaseVersionResponse.json();
     console.log(releaseVersionJson);
     console.log(releaseVersionJson.data);
     releaseVersion = releaseVersionJson.data;
