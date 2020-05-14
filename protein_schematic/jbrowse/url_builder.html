@@ -20,7 +20,9 @@
   let releaseVersionJson = '';
 
   //this will be what's needed when it goes into staging/production
-  let releaseVersionURL = protocol + '//' + hostname + port + '/rest/version';
+  //this can probably be a relative url too
+  //let releaseVersionURL = protocol + '//' + hostname + port + '/rest/version';
+  let releaseVersionURL = '/rest/version';
   //let releaseVersionURL = 'https://wormbase.org/rest/version';
   let releaseVersionResponse = await fetch(releaseVersionURL);
   if (releaseVersionResponse.ok) {
