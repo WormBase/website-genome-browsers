@@ -35,8 +35,10 @@
  // this line will have to go away when this goes into production
  // it's just here for testing
   releaseVersion = 'WS274';
- 
-  let jbrowseBaseURL = protocol +'//' + hostname + port + path;
+
+ //probably could make this a relative url when it gets incorporated into the webiste 
+//  let jbrowseBaseURL = protocol +'//' + hostname + port + path;
+  let jbrowseBaseURL = path;
 
   let baseURL = 'https://s3.amazonaws.com/wormbase-modencode/protein_schematic/'+ releaseVersion + '/';
   let urlTemplate = baseURL+'tracks/';
