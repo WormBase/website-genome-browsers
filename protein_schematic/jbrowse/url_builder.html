@@ -19,7 +19,23 @@
   
   let releaseVersion = 'WS274';
 
-  //let releaseVersionPromise = fetch(' version rest');
+  let releaseVersionJson = '';
+  let releaseVersionResponse = await fetch('http://rest.wormbase.org/index.html#!/database/get_rest_database_version');
+  if (releaseVersionResponse.ok) {
+    releaseVersionJson = await releaseVersionResponse.json;
+    alert(releaseVersionJson.data);
+    releaseVersion = releaseVersionJson.data;
+  }
+  else {
+    alert('fetching version via rest failed');
+  }
+
+
+  if (hostname.indexOf('staging') >-1) {
+    let prodVersion = releaseVersion.substring(2);   
+    prodVersion++;
+    releaseVersion = 'WS' + prodVersion;
+  }
   
   
   let jbrowseBaseURL = proto+'//' + hostname + port + path;
