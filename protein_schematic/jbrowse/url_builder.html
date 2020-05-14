@@ -24,6 +24,7 @@
   let releaseVersionResponse = await fetch(releaseVersionURL);
   if (releaseVersionResponse.ok) {
     releaseVersionJson = await releaseVersionResponse.json;
+    console.log(releaseVersionJson);
     console.log(releaseVersionJson.data);
     releaseVersion = releaseVersionJson.data;
   }
