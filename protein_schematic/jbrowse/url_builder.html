@@ -5,7 +5,7 @@
  async function buildURL(protein, length) {
   //let protein = 'CE28239';
   //let length = 1113;
-  let proto    = window.location.protocol;
+  let protocol = window.location.protocol;
   let hostname = window.location.hostname;
   let port     = window.location.port;
   let path     = '/tools/protein_schematic/';
@@ -20,8 +20,10 @@
   let releaseVersion = 'WS274';
 
   let releaseVersionJson = '';
-  //let releaseVersionURL = proto + '//' + hostname + port + '/rest/version';
-  let releaseVersionURL = 'https://wormbase.org/rest/version';
+
+  //this will be what's needed when it goes into staging/production
+  let releaseVersionURL = protocol + '//' + hostname + port + '/rest/version';
+  //let releaseVersionURL = 'https://wormbase.org/rest/version';
   let releaseVersionResponse = await fetch(releaseVersionURL);
   if (releaseVersionResponse.ok) {
     releaseVersionJson =  await releaseVersionResponse.json();
@@ -43,7 +45,7 @@
  
   releaseVersion = 'WS274';
  
-  let jbrowseBaseURL = proto+'//' + hostname + port + path;
+  let jbrowseBaseURL = protocol +'//' + hostname + port + path;
 
   //let baseURL = 'https://staging.wormbase.org/tools/protein_schematic/';
   let baseURL = 'https://s3.amazonaws.com/wormbase-modencode/protein_schematic/'+ releaseVersion + '/';
