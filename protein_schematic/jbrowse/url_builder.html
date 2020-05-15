@@ -100,6 +100,7 @@
   console.log(linkoutJBrowseURL);
 
   document.getElementById("replaceme").innerHTML='<object id="innerJBrowse" type="text/html" style="width:100%;height:400px;overflow: auto;" data="'+fullJBrowseURL+'" ></object>';  
+  document.getElementById("linkout").href = linkoutJBrowseURL;
 
   return ;
  }
@@ -117,7 +118,7 @@
 <button type="button" onclick="buildURL('T09D3.4a', 490)">NHR-216, isoform a</button>
 <button type="button" onclick="buildURL('M7.7', 370)">M7.7</button>
 
-
+<a id="linkout" href="">linkout<a/>
 
 </body>
 </html>
