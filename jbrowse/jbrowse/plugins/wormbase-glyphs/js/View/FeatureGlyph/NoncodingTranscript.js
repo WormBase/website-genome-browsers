@@ -18,7 +18,7 @@ _defaultConfig: function() {
     return this._mergeConfigs(
         this.inherited(arguments),
         {   
-            subParts: 'noncoding_exon'
+            subParts: 'noncoding_exon, exon'
         }); 
 }
 
