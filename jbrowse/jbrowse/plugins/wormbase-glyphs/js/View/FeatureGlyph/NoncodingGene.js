@@ -14,7 +14,7 @@ _defaultConfig: function() {
     return this._mergeConfigs(
         this.inherited(arguments),
         {
-            transcriptType: 'pseudogenic_transcript',
+            transcriptType: 'pseudogenic_transcript, ncRNA',
         });
 },
 
