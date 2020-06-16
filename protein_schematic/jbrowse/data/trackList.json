@@ -2,7 +2,7 @@
    "formatVersion" : 1,
    "names" : {
       "type" : "Hash",
-      "url" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/names/"
+      "url" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS277/names/"
    },
    "tracks" : [
       {
@@ -20,7 +20,7 @@
          "subParts" : "exon",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/tracks/Exon boundaries/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS277/tracks/Exon boundaries/{refseq}/trackData.jsonz"
       },
       {
          "compress" : 1,
@@ -34,7 +34,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/tracks/signalp/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS277/tracks/signalp/{refseq}/trackData.jsonz"
       },
       {
          "compress" : 1,
@@ -48,7 +48,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/tracks/ncoils/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS277/tracks/ncoils/{refseq}/trackData.jsonz"
       },
       {
          "compress" : 1,
@@ -62,7 +62,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/tracks/tmhmm/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS277/tracks/tmhmm/{refseq}/trackData.jsonz"
       },
       {
          "compress" : 1,
@@ -76,7 +76,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/tracks/Catalytic residue/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS277/tracks/Catalytic residue/{refseq}/trackData.jsonz"
       },
       {
          "compress" : 1,
@@ -90,7 +90,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/tracks/Metal binding site/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS277/tracks/Metal binding site/{refseq}/trackData.jsonz"
       },
       {
          "compress" : 1,
@@ -104,7 +104,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/tracks/Post transcriptionally modified site/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS277/tracks/Post transcriptionally modified site/{refseq}/trackData.jsonz"
       },
       {
          "compress" : 1,
@@ -118,7 +118,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/tracks/seg/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS277/tracks/seg/{refseq}/trackData.jsonz"
       },
       {
          "compress" : 1,
@@ -132,25 +132,21 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/tracks/Motifs/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS277/tracks/Motifs/{refseq}/trackData.jsonz"
       },
       {
          "compress" : 1,
-         "key" : "Selected BLASTP Homologies",
-         "label" : "Selected BLASTP Homologies",
-         "onClick" : {
-            "label" : "Find this feature in WormBase",
-            "url" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/https://wormbase.org/search/protein/{name}"
-         },
+         "key" : "Mass spec peptides",
+         "label" : "Mass spec peptides",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
             "className" : "feature",
-            "color" : "function(f) {var score=f.get('score'); if (score < 1e-40) {return 'blue';} if (score < 1e-20) {return 'deepskyblue';} return 'lightblue';}",
+            "color" : "blue",
             "height" : 5
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/tracks/Selected BLASTP Homologies/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS277/tracks/Mass spec peptides/{refseq}/trackData.jsonz"
       },
       {
          "category" : "Reference sequence",
@@ -163,7 +159,7 @@
          "showTranslation" : 0,
          "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
          "type" : "SequenceTrack",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS274/seq/{refseq_dirpath}/{refseq}-"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS277/seq/{refseq_dirpath}/{refseq}-"
       }
    ]
 }
