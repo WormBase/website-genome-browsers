@@ -1,4 +1,5 @@
-bin/prepare-refseqs.pl --fasta ../build/all.fa --compress
+bin/prepare-refseqs.pl --fasta ../build/all.fa --compress  --seqType protein
+
 bin/flatfile-to-json.pl --gff ../build/all.gff --nameAttributes "wormbase_geneid,wormbase_genename,wormbase_protein" --type CDS --key "Exon boundaries" --trackLabel "Exon boundaries" --trackType CanvasFeatures --compress
 bin/flatfile-to-json.pl --gff ../build/all.gff --type compositionally_biased_region_of_peptide --key "seg" --tracklabel "seg" --trackType CanvasFeatures --compress
 bin/flatfile-to-json.pl --gff ../build/all.gff --type coiled_coil --key "ncoils" --tracklabel "ncoils" --trackType CanvasFeatures --compress
