@@ -93,6 +93,7 @@
     trackPart = trackPart + '%2CSelected%20BLASTP%20Homologies';
   }  
 
+console.log(urlTemplate+'Mass%20spec%20peptides/'+protein+'/trackData.jsonz');
 response = await fetch(urlTemplate+'Mass%20spec%20peptides/'+protein+'/trackData.jsonz');
   if (response.ok) { // if HTTP-status is 200-299
     trackPart = trackPart + '%2CMass%20spec%20peptides';
