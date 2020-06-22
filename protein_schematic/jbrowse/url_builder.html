@@ -36,7 +36,7 @@
 
  // this line will have to go away when this goes into production
  // it's just here for testing
-  releaseVersion = 'WS274';
+ // releaseVersion = 'WS274';
 
  //probably could make this a relative url when it gets incorporated into the webiste 
 //  let jbrowseBaseURL = protocol +'//' + hostname + port + path;
@@ -93,7 +93,7 @@
     trackPart = trackPart + '%2CSelected%20BLASTP%20Homologies';
   }  
 
-console.log(urlTemplate+'Mass%20spec%20peptides/'+protein+'/trackData.jsonz');
+//console.log(urlTemplate+'Mass%20spec%20peptides/'+protein+'/trackData.jsonz');
 response = await fetch(urlTemplate+'Mass%20spec%20peptides/'+protein+'/trackData.jsonz');
   if (response.ok) { // if HTTP-status is 200-299
     trackPart = trackPart + '%2CMass%20spec%20peptides';
