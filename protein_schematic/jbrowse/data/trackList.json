@@ -142,6 +142,7 @@
          "style" : {
             "className" : "feature",
             "color" : "blue",
+            "labelScale" : 1,
             "height" : 5
          },
          "trackType" : "CanvasFeatures",
