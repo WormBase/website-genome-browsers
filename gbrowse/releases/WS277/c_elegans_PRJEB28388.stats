@@ -1,16 +1,18 @@
 gff_version: 3
 file: /usr/local/ftp/pub/wormbase/releases/WS277/species/c_elegans/PRJEB28388/c_elegans.PRJEB28388.WS277.annotations.gff3.gz
 feature	children	source	method	track	count
-CDS:WormBase		WormBase	CDS	Genes (protein coding) (genes_protein_coding)	193095
+CDS:WormBase		WormBase	CDS	Genes (protein coding) (genes_protein_coding)	193118
 	CDS:WormBase_imported	WormBase_imported	CDS	Genes (protein coding) (genes_protein_coding)	187328
-gene:WormBase		WormBase	gene	Genes (genes)	19978
-	mRNA:WormBase	WormBase	mRNA	Genes (genes)	28311
+assembly_component:Genomic_canonical		Genomic_canonical	assembly_component	Contig submissions (genomic_canonical)	6
+gene:WormBase		WormBase	gene	Genes (genes)	22209
+	mRNA:WormBase	WormBase	mRNA	Genes (genes)	28315
 	five_prime_UTR:WormBase	WormBase	five_prime_UTR	Genes (genes)	0
 	three_prime_UTR:WormBase	WormBase	three_prime_UTR	Genes (genes)	0
 gene:WormBase_imported		WormBase_imported	gene	Genes (genes)	21070
 	mRNA:WormBase_imported	WormBase_imported	mRNA	Genes (genes)	29387
 	five_prime_UTR:WormBase_imported	WormBase_imported	five_prime_UTR	Genes (genes)	0
 	three_prime_UTR:WormBase_imported	WormBase_imported	three_prime_UTR	Genes (genes)	0
+gene:WormBase_transposon		WormBase_transposon	gene	Transposon Genes (transposon_genes)	334
 low_complexity_region:dust		dust	low_complexity_region	Low complextity region (Dust) (repeats_dust)	308720
 ncRNA:WormBase		WormBase	ncRNA	Curated Genes (noncoding) (genes_noncoding)	139
 	miRNA:WormBase	WormBase	miRNA	Curated Genes (noncoding) (genes_noncoding)	114
@@ -18,9 +20,9 @@ ncRNA:WormBase		WormBase	ncRNA	Curated Genes (noncoding) (genes_noncoding)	139
 	scRNA:WormBase	WormBase	scRNA	Curated Genes (noncoding) (genes_noncoding)	0
 	snRNA:WormBase	WormBase	snRNA	Curated Genes (noncoding) (genes_noncoding)	155
 	snoRNA:WormBase	WormBase	snoRNA	Curated Genes (noncoding) (genes_noncoding)	13
-	tRNA:WormBase	WormBase	tRNA	Curated Genes (noncoding) (genes_noncoding)	629
-	exon:WormBase	WormBase	exon	Curated Genes (noncoding) (genes_noncoding)	194316
-	intron:WormBase	WormBase	intron	Curated Genes (noncoding) (genes_noncoding)	164784
+	tRNA:WormBase	WormBase	tRNA	Curated Genes (noncoding) (genes_noncoding)	627
+	exon:WormBase	WormBase	exon	Curated Genes (noncoding) (genes_noncoding)	194351
+	intron:WormBase	WormBase	intron	Curated Genes (noncoding) (genes_noncoding)	164803
 	piRNA:WormBase	WormBase	piRNA	Curated Genes (noncoding) (genes_noncoding)	0
 	lincRNA:WormBase	WormBase	lincRNA	Curated Genes (noncoding) (genes_noncoding)	0
 	antisense_RNA:WormBase	WormBase	antisense_RNA	Curated Genes (noncoding) (genes_noncoding)	0
@@ -38,3 +40,4 @@ protein_match:ppacificus_proteins-BLASTX		ppacificus_proteins-BLASTX	protein_mat
 protein_match:scerevisiae_proteins-BLASTX		scerevisiae_proteins-BLASTX	protein_match	S. cerevisiae proteins (sequence_similarity_scerevisiae_proteins_blastx)	12016
 protein_match:sratti_proteins-BLASTX		sratti_proteins-BLASTX	protein_match	S. ratti proteins (sequence_similarity_sratti_proteins_blastx)	46942
 pseudogenic_transcript:WormBase		WormBase	pseudogenic_transcript	Genes (pseudogenes) (genes_pseudogenes)	22
+transposable_element:WormBase_transposon		WormBase_transposon	transposable_element	Transposons (transposons)	292
