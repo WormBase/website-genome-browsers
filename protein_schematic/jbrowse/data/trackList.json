@@ -142,7 +142,7 @@
          "style" : {
             "className" : "feature",
             "color" : "blue",
-            "labelScale" : 1,
+            "labelScale" : 0.01,
             "height" : 5
          },
          "onClick" : {
