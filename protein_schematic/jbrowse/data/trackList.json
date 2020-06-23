@@ -145,6 +145,10 @@
             "labelScale" : 1,
             "height" : 5
          },
+         "onClick" : {
+            "label" : "Find this feature in WormBase",
+            "url" : "/species/all/protein/{name}" 
+         },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS277/tracks/Mass spec peptides/{refseq}/trackData.jsonz"
