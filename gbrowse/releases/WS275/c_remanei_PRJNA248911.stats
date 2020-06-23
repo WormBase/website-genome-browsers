@@ -1,0 +1,8 @@
+gff_version: 3
+file: /usr/local/ftp/pub/wormbase/releases/WS275/species/c_remanei/PRJNA248911/c_remanei.PRJNA248911.WS275.annotations.gff3.gz
+feature	children	source	method	track	count
+gene:WormBase_imported		WormBase_imported	gene	Genes (genes)	24867
+	mRNA:WormBase_imported	WormBase_imported	mRNA	Genes (genes)	25568
+	five_prime_UTR:WormBase_imported	WormBase_imported	five_prime_UTR	Genes (genes)	6688
+	three_prime_UTR:WormBase_imported	WormBase_imported	three_prime_UTR	Genes (genes)	6086
+low_complexity_region:dust		dust	low_complexity_region	Low complextity region (Dust) (repeats_dust)	245820
