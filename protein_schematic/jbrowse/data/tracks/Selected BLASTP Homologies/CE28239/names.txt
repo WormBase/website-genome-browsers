@@ -1,6 +1,0 @@
-[["RP48638"],"Selected BLASTP Homologies","RP48638","CE28239",0,1093]
-[["JA49247"],"Selected BLASTP Homologies","JA49247","CE28239",0,1091]
-[["OVP14010"],"Selected BLASTP Homologies","OVP14010","CE28239",0,1082]
-[["CE51333"],"Selected BLASTP Homologies","CE51333","CE28239",59,479]
-[["SGD:YNL106C"],"Selected BLASTP Homologies","SGD:YNL106C","CE28239",117,839]
-[["MSP:HGFFYSMGK"],"Selected BLASTP Homologies","MSP:HGFFYSMGK","CE28239",351,368]

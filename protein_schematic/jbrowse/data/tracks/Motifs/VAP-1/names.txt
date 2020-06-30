@@ -1,4 +1,0 @@
-[["CAP superfamily (INTERPRO:IPRO035940)"],"Motifs","CAP superfamily (INTERPRO:IPRO035940)","VAP-1",0,217]
-[["SUPERFAMILY:SSF55797"],"Motifs","SUPERFAMILY:SSF55797","VAP-1",1,188]
-[["Venom allergen 5-like (INTERPRO:IPR002413)"],"Motifs","Venom allergen 5-like (INTERPRO:IPR002413)","VAP-1",229,247]
-[["Cysteine-rich secretory protein family (PFAM:PF****)"],"Motifs","Cysteine-rich secretory protein family (PFAM:PF****)","VAP-1",239,385]

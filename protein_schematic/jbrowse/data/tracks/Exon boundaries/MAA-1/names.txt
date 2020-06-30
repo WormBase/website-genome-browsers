@@ -1,1 +1,0 @@
-[["MAA-1 exon boundaries"],"Exon boundaries","MAA-1 exon boundaries","MAA-1",0,266]
