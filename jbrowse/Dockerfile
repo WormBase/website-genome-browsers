@@ -12,7 +12,7 @@ FROM gmod/jbrowse-buildenv:latest as build
 ARG RELEASE=276
 
 # JBrowse source
-RUN git clone --single-branch --branch 1.16.8-release https://github.com/GMOD/jbrowse.git
+RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
 
 #this pulls in several things:
 #  * the config files for all of the species
@@ -68,7 +68,7 @@ WORKDIR /usr/share/nginx/html/tools/genome/jbrowse
 #RUN ./node_modules/.bin/yarn
 #RUN JBROWSE_BUILD_MIN=1 ./node_modules/.bin/yarn build
 
-RUN ./setup.sh
+RUN ./setup.sh -f
 
 
 FROM nginx:latest as production
