@@ -5,6 +5,7 @@ use warnings;
 use Getopt::Long;
 use Data::Dumper;
 use JSON;
+use FindBin qw($Bin);
 
 my ($BIOPROJECT, $RELEASE, $FILE, $PRETTY);
 
@@ -45,10 +46,11 @@ for my $i (@{$$trackList{'include'}}) {
     push @includes, $i unless $i =~ /function/; 
 }
 
+my $includedir = "$Bin/../jbrowse/data/c_elegans";
 
 for my $f (@includes) {
     local $/ = undef;
-    open (my $F, "<", "$BIOPROJECT/$f") or die "$!:$f";
+    open (my $F, "<", "$includedir/$f") or die "$!:$f";
     my $data = <$F>;
     close $F;
 
