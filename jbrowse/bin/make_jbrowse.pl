@@ -268,8 +268,9 @@ while (my $line = <AS>) {
         elsif ($la[1] eq 'BLAT_Caen_Nanopore_BEST') {
             $track = 'sequence_similarity_nanopore_best';
         }
-        elsif ($la[1] eq ' Nanopore_BEST') {
+        elsif ($la[1] eq 'BLAT_Nanopore_BEST') {
             $track = 'sequence_similarity_nanopore_best';
+            #warn "getting BLAT_Nanopore_BEST";
         }
         elsif ($la[1] eq 'BLAT_IsoSeq_BEST') {
             $track = 'sequence_similarity_other_isoseq_best';
@@ -453,13 +454,14 @@ if ($only_species_name and $bioproject ne 'PRJNA275000') {
     }
     push @include, @species_specific;
 }
-if ($species eq "c_elegans_$PRIMARY_SPECIES") {
-    my @modencode = glob("$INCLUDES/modencode*");
-    for (@modencode) {
-        $_ = "includes/".basename($_);
-    }
-    push @include, @modencode;
-}
+
+#if ($species eq "c_elegans_$PRIMARY_SPECIES") {
+#    my @modencode = glob("$INCLUDES/modencode*");
+#    for (@modencode) {
+#        $_ = "includes/".basename($_);
+#    }
+#    push @include, @modencode;
+#}
 
 
 #create trackList data structure:

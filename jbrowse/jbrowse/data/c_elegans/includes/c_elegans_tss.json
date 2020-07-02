@@ -52,6 +52,9 @@
          "max_score" : 25,
          "label" : "TSS (Chen) Forward",
          "min_score" : 0,
+         "metadata" : {
+            "shortInfo": "This is a set of Transcription Start Sites (TSS) in the Forward sense identified in short read data from the paper:<br><b>The landscape of RNA polymerase II transcription initiation in C. elegans reveals promoter and enhancer architectures.</b>Chen RA, Down TA, Stempor P, Chen QB, Egelhofer TA, Hillier LW, Jeffers TE, Ahringer J. Genome Res. 2013 Jun 20.<br>PubMed 23550086 <br>WBPaper00042246.<p> The RNASeq data was obtained from the NCBI Sequence Read Archive (SRA) (<a href='http://www.ncbi.nlm.nih.gov/sra' target='_new'> http://www.ncbi.nlm.nih.gov/sra</a>) under accession number SRA062711.  This was aligned to the current version of the assembly and the number of reads aligned to the forward sense of the genome were counted at the genomic position of the 5' end of the aligned read. The count at each genomic position was then normalised by dividing by the number of millions of aligned reads, giving a value in units of Reads Per Million (RPM)."
+         },
          "category" : "Misc/Transcription Start Sites"
       },
       {
@@ -70,6 +73,9 @@
          "key" : "TSS (Chen) Reverse",
          "unsafePopup" : true,
          "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Chen.Reverse.bw",
+         "metadata" : {
+            "shortInfo" : "This is a set of Transcription Start Sites (TSS) in the Reverse sense identified in short read data from the paper:<br><b>The landscape of RNA polymerase II transcription initiation in C. elegans reveals promoter and enhancer architectures.</b>Chen RA, Down TA, Stempor P, Chen QB, Egelhofer TA, Hillier LW, Jeffers TE, Ahringer J. Genome Res. 2013 Jun 20.<br>PubMed 23550086 <br>WBPaper00042246.<p> The RNASeq data was obtained from the NCBI Sequence Read Archive (SRA) (<a href='http://www.ncbi.nlm.nih.gov/sra' target='_new'> http://www.ncbi.nlm.nih.gov/sra</a>) under accession number SRA062711.  This was aligned to the current version of the assembly and the number of reads aligned to the reverse sense of the genome were counted at the genomic position of the 5' end of the aligned read. The count at each genomic position was then normalised by dividing by the number of millions of aligned reads, giving a value in units of Reads Per Million (RPM)."
+         },
          "type" : "JBrowse/View/Track/Wiggle/XYPlot"
       },
       {
@@ -88,6 +94,9 @@
          },
          "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
          "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Saito.Forward.bw",
+         "metadata" : {
+            "shortInfo" : "This is a set of Transcription Start Sites (TSS) in the Forward sense identified in short read data from the paper:<br><b>The transcription start site landscape of C. elegans</b> Saito TL, Hashimoto S, Gu SG, Morton JJ, Stadler M, Blumenthal T, Fire A, Morishita S. Genome Res. 2013 Aug;23(8):1348-61.<br>PubMed 23636945<br>WBPaper00042354.<p> The RNASeq data was obtained from the NCBI Sequence Read Archive (SRA) (<a href='http://www.ncbi.nlm.nih.gov/sra' target='_new'> http://www.ncbi.nlm.nih.gov/sra</a>) under accession number SRA060670.  This was aligned to the current version of the assembly and the number of reads aligned to the forward sense of the genome were counted at the genomic position of the 5' end of the aligned read. The count at each genomic position was then normalised by dividing by the number of millions of aligned reads, giving a value in units of Reads Per Million (RPM).<p> The paper describes a <a href='http://wormtss.utgenome.org/' target='_new'> genome browser</a> showing further analyses of this data."
+         },
          "unsafePopup" : true
       },
       {
@@ -106,6 +115,9 @@
             "pos_color" : "black"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "metadata" : {
+            "shortInfo" : "This is a set of Transcription Start Sites (TSS) in the Reverse sense identified in short read data from the paper:<br><b>The transcription start site landscape of C. elegans</b> Saito TL, Hashimoto S, Gu SG, Morton JJ, Stadler M, Blumenthal T, Fire A, Morishita S. Genome Res. 2013 Aug;23(8):1348-61.<br>PubMed 23636945<br>WBPaper00042354.<p> The RNASeq data was obtained from the NCBI Sequence Read Archive (SRA) (<a href='http://www.ncbi.nlm.nih.gov/sra' target='_new'> http://www.ncbi.nlm.nih.gov/sra</a>) under accession number SRA060670.  This was aligned to the current version of the assembly and the number of reads aligned to the reverse sense of the genome were counted at the genomic position of the 5' end of the aligned read. The count at each genomic position was then normalised by dividing by the number of millions of aligned reads, giving a value in units of Reads Per Million (RPM).<p> The paper describes a <a href='http://wormtss.utgenome.org/' target='_new'> genome browser</a> showing further analyses of this data."
+         },
          "key" : "TSS (Saito) Reverse"
       },
       {
@@ -124,6 +136,9 @@
          },
          "key" : "TSS (Kruesi) Forward",
          "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Kruesi.Forward.bw",
+         "metadata" : {
+            "shortInfo" : "This is a set of Transcription Start Sites (TSS) in the Forward sense identified in short read data from the paper:<br><b>Condensin controls recruitment of RNA polymerase II to achieve nematode X-chromosome dosage compensation.</b>Kruesi WS, Core LJ, Waters CT, Lis JT, Meyer BJ. Elife. 2013 Jun 18;2:e00808.<br>PubMed 23795297 <br>WBPaper00042529.<p> The RNASeq data was obtained from the NCBI Sequence Read Archive (SRA) (<a href='http://www.ncbi.nlm.nih.gov/sra' target='_new'> http://www.ncbi.nlm.nih.gov/sra</a>) under accession number SRP017636.  The TAP+ and TAP- reads were aligned to the current version of the assembly and the number of reads aligned to the forward sense of the genome were counted at the genomic position of the 5' end of the aligned read. The number of TAP- (control) reads were subtracted from the TAP+ reads at each position. The count at each genomic position was then normalised by dividing by the number of millions of aligned reads, giving a value in units of Reads Per Million (RPM)."
+         },
          "unsafePopup" : true
       },
       {
@@ -142,6 +157,9 @@
          },
          "key" : "TSS (Kruesi) Reverse",
          "unsafePopup" : true,
+         "metadata" : {
+            "shortInfo" : "This is a set of Transcription Start Sites (TSS) in the Reverse sense identified in short read data from the paper:<br><b>Condensin controls recruitment of RNA polymerase II to achieve nematode X-chromosome dosage compensation.</b>Kruesi WS, Core LJ, Waters CT, Lis JT, Meyer BJ. Elife. 2013 Jun 18;2:e00808.<br>PubMed 23795297 <br>WBPaper00042529.<p> The RNASeq data was obtained from the NCBI Sequence Read Archive (SRA) (<a href='http://www.ncbi.nlm.nih.gov/sra' target='_new'> http://www.ncbi.nlm.nih.gov/sra</a>) under accession number SRP017636.  The TAP+ and TAP- reads were aligned to the current version of the assembly and the number of reads aligned to the reverse sense of the genome were counted at the genomic position of the 5' end of the aligned read. The number of TAP- (control) reads were subtracted from the TAP+ reads at each position. The count at each genomic position was then normalised by dividing by the number of millions of aligned reads, giving a value in units of Reads Per Million (RPM)."
+         },
          "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Kruesi.Reverse.bw"
       }
    ]
