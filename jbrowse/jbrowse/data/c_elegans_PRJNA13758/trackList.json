@@ -10,7 +10,7 @@
             "color" : "blue"
          },
          "onClick" : {
-            "url" : "http://sorfs.org/database/{ID}",
+            "url" : "function(f) {var id = f.get('id'); id = id.replace('sORF', ''); return 'http://sorfs.org/database/'+id;}",
             "title" : "Featuree at sORFs.org",
             "action" : "iframeDialog",
             "label" : ""
