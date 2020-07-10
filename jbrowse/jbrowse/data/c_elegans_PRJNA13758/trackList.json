@@ -5,7 +5,15 @@
          "label" : "sORF.org",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
-            "className" : "feature"
+            "className" : "feature",
+            "height" : 5,
+            "color" : "blue"
+         },
+         "onClick" : {
+            "url" : "http://sorfs.org/database/{ID}",
+            "title" : "Featuree at sORFs.org",
+            "action" : "iframeDialog",
+            "label" : ""
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
@@ -17,7 +25,9 @@
          "label" : "AnaBlast sORFs",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
-            "className" : "feature"
+            "className" : "feature",
+            "height" : 5,
+            "color" : "blue"
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
