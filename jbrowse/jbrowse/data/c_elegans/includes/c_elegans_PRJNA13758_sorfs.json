@@ -1,0 +1,46 @@
+{
+   "tracks" : [
+      {
+         "compress" : 1,
+         "category" : "Genes/Ab-initio predictions",
+         "key" : "sORF.org",
+         "label" : "sORF.org",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "height" : 5,
+            "color" : "blue"
+         },
+         "onClick" : {
+            "url" : "function(t,f) {var id = f.get('id'); id = id.replace('sORF', ''); return 'http://sorfs.org/database/'+id;}",
+            "title" : "Featuree at sORFs.org",
+            "action" : "iframeDialog",
+            "label" : ""
+         },
+         "metadata" : {
+            "shortInfo" : "sORF.org - Experimentally confirmed and predicted sORFs collected from the sORF C. elegans database (July 2020). Small open reading frames (sORFs) are open reading frames in the reference genome that are =<300 nucleoticed (100 amino acids)."
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/sORF.org/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "category" : "Genes/Ab-initio predictions",
+         "key" : "AnaBlast sORFs",
+         "label" : "AnaBlast sORFs",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "height" : 5,
+            "color" : "blue"
+         },
+         "metadata" : {
+            "shortInfo" : "AnABlast - AnABlast peak calls integrated from http://www.bioinfocabd.upo.es/celegans (July 2020) for potential Small open reading frames (sORFs), these are in the <300 nucleotide range and potentially encode peptides up to 100 amino acids in length."
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/AnaBlast sORFs/{refseq}/trackData.jsonz"
+      }
+   ]
+}
