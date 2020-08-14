@@ -90,13 +90,10 @@ for my $section (@config_sections) {
     $GFFFILE ||= $GENUS . "_" . "$species.$BIOPROJECT.WS$RELEASE.protein_annotation.gff3";
     my $gff_fullpath = $FILEDIR.$GENUS."_$species/$BIOPROJECT/$GFFFILE.gz";
 
-    warn $gff_fullpath;
-
     copy($gff_fullpath, '.') unless -e $GFFFILE;
     system("gzip -d $GFFFILE") unless -e $GFFFILE;;
 
     my $command ="bin/flatfile-to-json.pl --gff $GFFFILE --out $DATADIR --type \"$type\" --key \"$label\" --tracklabel \"$label\" --trackType CanvasFeatures --compress";
-    warn $command;
     $log->warn( $command) unless $QUIET;
     system("$nice $command") ==0 or $log->error( $!);
 }
