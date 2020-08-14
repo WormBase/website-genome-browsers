@@ -44,15 +44,15 @@ my $Config = Config::Tiny->read($CONFIG) or die $!;
 my @config_sections = grep {!/^_/} keys %{$Config};
 
 $SPECIES  ||= 'c_elegans';
-$FILEDIR  ||= $Config->{_}->{filedir} ||='/usr/local/ftp/pub/wormbase/releases/';
 $RELEASE  ||= $Config->{_}->{release};
+$FILEDIR  ||= $Config->{_}->{filedir} ||="/usr/local/ftp/pub/wormbase/releases/WS$RELEASE/species/";
 $JBROWSEREPO= $Config->{_}->{jbrowserepo};
 $USENICE    = $Config->{_}->{usenice}    unless defined $USENICE;
 $JBROWSESRC = $Config->{_}->{jbrowsesrc};
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||=  $Config->{_}->{jbrowsedir};;
 
-$DATADIR  ||= "$JBROWSEDIR/data/$species";
+$DATADIR  ||= "$JBROWSEDIR/data/$SPECIES";
 
 #check of $JBROWSEDIR exists, and if not, create it and build jbrowse
 if (!-e $JBROWSEDIR) {
@@ -76,7 +76,7 @@ chdir $JBROWSEDIR or die $!." $JBROWSEDIR\n";
 
 my ($GENUS,$species,$BIOPROJECT) = split('_', $SPECIES);
 $FASTAFILE ||= $GENUS . "_" . "$species.$BIOPROJECT.WS$RELEASE.protein.fa.gz";
-my $fasta_fullpath = $FILEDIR."WS$RELELASE/$SPECIES/$BIOPROJECT/$FASTAFILE";
+my $fasta_fullpath = $FILEDIR.$GENUS."_$species/$BIOPROJECT/$FASTAFILE";
 my $command = "bin/prepare-refseqs.pl --fasta $fasta_fullpath --out $DATADIR";
 system("$nice $command") == 0 or $log->error( $!);
 
@@ -87,10 +87,16 @@ for my $section (@config_sections) {
     my $type   = $Config->{$section}->{type};
     my $label  = $Config->{$section}->{label};
 
-    $GFFFILE ||= $GENUS . "_" . "$species.$BIOPROJECT.WS$RELEASE.protein_annotation.gff3.gz";
-    my $gff_fullpath = $FILEDIR."WS$RELELASE/$SPECIES/$BIOPROJECT/$GFFFILE";
+    $GFFFILE ||= $GENUS . "_" . "$species.$BIOPROJECT.WS$RELEASE.protein_annotation.gff3";
+    my $gff_fullpath = $FILEDIR.$GENUS."_$species/$BIOPROJECT/$GFFFILE.gz";
 
-    my $command =""bin/flatfile-to-json.pl --gff $gff_fullpath  --type \"$type\" --key \"$label\" --tracklabel \"$label\" --trackType CanvasFeatures --compress"
+    warn $gff_fullpath;
+
+    copy($gff_fullpath, '.') unless -e $GFFFILE;
+    system("gzip -d $GFFFILE") unless -e $GFFFILE;;
+
+    my $command ="bin/flatfile-to-json.pl --gff $GFFFILE --out $DATADIR --type \"$type\" --key \"$label\" --tracklabel \"$label\" --trackType CanvasFeatures --compress";
+    warn $command;
     $log->warn( $command) unless $QUIET;
     system("$nice $command") ==0 or $log->error( $!);
 }
