@@ -2,7 +2,7 @@
 <head>
 
 <script>
- async function buildURL(protein, length) {
+ async function buildURL(protein, length, bioproject) {
   //let protocol = window.location.protocol;
   //let hostname = window.location.hostname;
   //let port     = window.location.port;
@@ -15,23 +15,23 @@
   //    port = '';
   //}
   
-  let releaseVersion = 'WS277';
+  let releaseVersion = 'WS278';
 
   let releaseVersionJson = '';
 
   //this will be what's needed when it goes into staging/production
   //this can probably be a relative url too
   //let releaseVersionURL = protocol + '//' + hostname + port + '/rest/version';
-  let releaseVersionURL = '/rest/version';
+//  let releaseVersionURL = '/rest/version';
   //let releaseVersionURL = 'https://wormbase.org/rest/version';
-  let releaseVersionResponse = await fetch(releaseVersionURL);
-  if (releaseVersionResponse.ok) {
-    releaseVersionJson =  await releaseVersionResponse.json();
-    releaseVersion = releaseVersionJson.version;
-  }
-  else {
-    alert('fetching version via rest failed');
-  }
+//  let releaseVersionResponse = await fetch(releaseVersionURL);
+//  if (releaseVersionResponse.ok) {
+//    releaseVersionJson =  await releaseVersionResponse.json();
+//    releaseVersion = releaseVersionJson.version;
+//  }
+//  else {
+//    alert('fetching version via rest failed');
+//  }
 
 
  // this line will have to go away when this goes into production
@@ -40,9 +40,9 @@
 
  //probably could make this a relative url when it gets incorporated into the webiste 
 //  let jbrowseBaseURL = protocol +'//' + hostname + port + path;
-  let jbrowseBaseURL = path;
+  let jbrowseBaseURL = path ;
 
-  let baseURL = 'https://s3.amazonaws.com/wormbase-modencode/protein_schematic/'+ releaseVersion + '/';
+  let baseURL = 'https://s3.amazonaws.com/wormbase-modencode/protein_schematic/'+ releaseVersion + '/' +bioproject + '/';
   let urlTemplate = baseURL+'tracks/';
 
   let trackPart = 'Exon%20boundaries';
@@ -99,7 +99,7 @@ response = await fetch(urlTemplate+'Mass%20spec%20peptides/'+protein+'/trackData
     trackPart = trackPart + '%2CMass%20spec%20peptides';
   }
 
-  let fullJBrowseURL = jbrowseBaseURL+'?tracklabels=0&nav=0&tracklist=0&overview=0&loc='+protein+'%3A1..'+length+'&tracks='+trackPart;
+  let fullJBrowseURL = jbrowseBaseURL+'?data=data/'+bioproject+'&tracklabels=0&nav=0&tracklist=0&overview=0&loc='+protein+'%3A1..'+length+'&tracks='+trackPart;
   //alert(fullJBrowseURL);
 
   let linkoutJBrowseURL = jbrowseBaseURL+'?loc='+protein+'%3A1..'+length+'&tracks='+trackPart;
