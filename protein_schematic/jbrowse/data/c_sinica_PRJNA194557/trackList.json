@@ -1,0 +1,170 @@
+{
+   "formatVersion" : 1,
+   "names" : {
+      "type" : "Hash",
+      "url" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_sinica_PRJNA194557/names/"
+   },
+   "tracks" : [
+      {
+         "compress" : 1,
+         "key" : "Exon boundaries",
+         "label" : "Exon boundaries",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "borderColor" : "black",
+            "borderWidth" : 1.5,
+            "className" : "feature",
+            "color" : "cyan",
+            "height" : 7
+         },
+         "subParts" : "exon",
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_sinica_PRJNA194557/tracks/Exon boundaries/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "signalp",
+         "label" : "signalp",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "grey",
+            "height" : 5
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_sinica_PRJNA194557/tracks/signalp/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "ncoils",
+         "label" : "ncoils",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "height" : 5
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_sinica_PRJNA194557/tracks/ncoils/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "tmhmm",
+         "label" : "tmhmm",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "height" : 5
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_sinica_PRJNA194557/tracks/tmhmm/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "Catalytic residue",
+         "label" : "Catalytic residue",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "black",
+            "height" : 5
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_sinica_PRJNA194557/tracks/Catalytic residue/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "Metal binding site",
+         "label" : "Metal binding site",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "black",
+            "height" : 5
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_sinica_PRJNA194557/tracks/Metal binding site/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "Post transcriptionally modified site",
+         "label" : "Post transcriptionally modified site",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "black",
+            "height" : 5
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_sinica_PRJNA194557/tracks/Post transcriptionally modified site/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "seg",
+         "label" : "seg",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "lightgrey",
+            "height" : 5
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_sinica_PRJNA194557/tracks/seg/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "Motifs",
+         "label" : "Motifs",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "height" : 5
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_sinica_PRJNA194557/tracks/Motifs/{refseq}/trackData.jsonz"
+      },
+      {
+         "compress" : 1,
+         "key" : "Mass spec peptides",
+         "label" : "Mass spec peptides",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "blue",
+            "labelScale" : 0.01,
+            "height" : 5
+         },
+         "onClick" : {
+            "label" : "Find this feature in WormBase",
+            "url" : "/species/all/protein/{name}" 
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_sinica_PRJNA194557/tracks/Mass spec peptides/{refseq}/trackData.jsonz"
+      },
+      {
+         "category" : "Reference sequence",
+         "chunkSize" : 80000,
+         "compress" : 1,
+         "key" : "Reference sequence",
+         "label" : "protein",
+         "seqType" : "protein",
+         "showReverseStrand" : 0,
+         "showTranslation" : 0,
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "type" : "SequenceTrack",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_sinica_PRJNA194557/seq/{refseq_dirpath}/{refseq}-"
+      }
+   ]
+}
