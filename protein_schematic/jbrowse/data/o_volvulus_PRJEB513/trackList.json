@@ -1,5 +1,6 @@
 {
    "formatVersion" : 1,
+   "dataset_id":"o_volvulus_PRJEB513",
    "names" : {
       "type" : "Hash",
       "url" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/o_volvulus_PRJEB513/names/"

@@ -1,5 +1,6 @@
 {
    "formatVersion" : 1,
+   "dataset_id":"c_sinica_PRJNA194557",
    "names" : {
       "type" : "Hash",
       "url" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_sinica_PRJNA194557/names/"

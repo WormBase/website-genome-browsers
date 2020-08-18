@@ -1,5 +1,6 @@
 {
    "formatVersion" : 1,
+   "dataset_id":"p_pacificus_PRJNA12644",
    "names" : {
       "type" : "Hash",
       "url" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/p_pacificus_PRJNA12644/names/"

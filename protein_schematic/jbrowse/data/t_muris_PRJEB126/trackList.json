@@ -1,5 +1,6 @@
 {
    "formatVersion" : 1,
+   "dataset_id":"t_muris_PRJEB126",
    "names" : {
       "type" : "Hash",
       "url" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/t_muris_PRJEB126/names/"

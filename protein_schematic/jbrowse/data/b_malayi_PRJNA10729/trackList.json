@@ -1,5 +1,6 @@
 {
    "formatVersion" : 1,
+   "dataset_id":"b_malayi_PRJNA10729",
    "names" : {
       "type" : "Hash",
       "url" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/b_malayi_PRJNA10729/names/"

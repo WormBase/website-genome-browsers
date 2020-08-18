@@ -1,5 +1,6 @@
 {
    "formatVersion" : 1,
+   "dataset_id":"c_inopinata_PRJDB5687",
    "names" : {
       "type" : "Hash",
       "url" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_inopinata_PRJDB5687/names/"

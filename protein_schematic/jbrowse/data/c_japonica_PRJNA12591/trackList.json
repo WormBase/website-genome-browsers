@@ -1,5 +1,6 @@
 {
    "formatVersion" : 1,
+   "dataset_id":"c_japonica_PRJNA12591",
    "names" : {
       "type" : "Hash",
       "url" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/c_japonica_PRJNA12591/names/"

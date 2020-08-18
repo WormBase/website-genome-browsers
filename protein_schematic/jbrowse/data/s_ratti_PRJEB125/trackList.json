@@ -1,5 +1,6 @@
 {
    "formatVersion" : 1,
+   "dataset_id":"s_ratti_PRJEB125",
    "names" : {
       "type" : "Hash",
       "url" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS278/s_ratti_PRJEB125/names/"
