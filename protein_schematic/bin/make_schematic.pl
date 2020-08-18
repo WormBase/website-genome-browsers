@@ -77,7 +77,7 @@ chdir $JBROWSEDIR or die $!." $JBROWSEDIR\n";
 my ($GENUS,$species,$BIOPROJECT) = split('_', $SPECIES);
 $FASTAFILE ||= $GENUS . "_" . "$species.$BIOPROJECT.WS$RELEASE.protein.fa.gz";
 my $fasta_fullpath = $FILEDIR.$GENUS."_$species/$BIOPROJECT/$FASTAFILE";
-my $command = "bin/prepare-refseqs.pl --fasta $fasta_fullpath --out $DATADIR";
+my $command = "bin/prepare-refseqs.pl --compress --fasta $fasta_fullpath --out $DATADIR";
 system("$nice $command") == 0 or $log->error( $!);
 
 
