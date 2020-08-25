@@ -16,6 +16,7 @@ define([
 
 return declare( BoxGlyph, {
 _defaultConfig: function() {
+    console.log('in defaultConfig');
     return this._mergeConfigs(
         this.inherited(arguments),
         {
@@ -28,6 +29,69 @@ _defaultConfig: function() {
         });
 },
 
+renderFeature: function( context, fRect ) {
+    console.log('in renderFeature');
+    if( this.track.displayMode != 'collapsed' )
+        context.clearRect( Math.floor(fRect.l), fRect.t, Math.ceil(fRect.w), fRect.h );
+
+    this.renderConnector( context,  fRect );
+    this.renderSegments( context, fRect );
+    this.renderLabel( context, fRect );
+    this.renderDescription( context, fRect );
+    this.renderArrowhead( context, fRect );
+},
+
+renderConnector: function( context, fRect ) {
+    console.log('in renderConnector');
+    // connector
+    var connectorColor = this.getStyle( fRect.f, 'connectorColor' );
+    if( connectorColor ) {
+        context.fillStyle = connectorColor;
+        var connectorThickness = this.getStyle( fRect.f, 'connectorThickness' );
+
+        var viewInfo = fRect.viewInfo;
+        var top = fRect.t;
+        var overallHeight = fRect.rect.h;
+
+        var height = overallHeight / 2 -1;
+        var left = fRect.l;
+        var width = Math.ceil(fRect.w);
+
+        context.beginPath();
+        context.setLineDash([7,12]);
+        context.moveTo(left,top+height);
+        context.lineTo(left+width,top+height);
+        context.lineWidth = 1;
+        context.strokeStyle = '#202020';
+        context.stroke();
+
+        context.setLineDash([]);
+    }
+},
+
+renderSegments( context, fRect ) {
+    let subparts = fRect.f.children();
+    if (!subparts.length) return;
+
+    let parentFeature = fRect.f;
+    let styleFunc = (feature, stylename) => {
+        if (stylename === 'height')
+            return this._getFeatureHeight( fRect.viewInfo, feature );
+
+        return this.getStyle(feature, stylename) || this.getStyle(parentFeature, stylename);
+    }
+
+    for(let i = 0; i < subparts.length; ++i) {
+        this.renderSegment(context, fRect.viewInfo, subparts[i], fRect.t, fRect.rect.h, fRect.f, styleFunc);
+    }
+},
+
+renderSegment(context, viewInfo, segmentFeature, topPx, heightPx, parentFeature, styleFunc) {
+    this.renderBox(context, viewInfo, segmentFeature, topPx, heightPx, parentFeature, styleFunc);
+}
+
+
+/*
 _boxGlyph: function() {
     return this.__boxGlyph || ( this.__boxGlyph = new BoxGlyph({ track: this.track, browser: this.browser, config: this.config }) );
 },
@@ -40,6 +104,7 @@ _dtGlyph: function() {
 
 _getFeatureRectangle: function( viewArgs, feature ) {
 
+    console.log('in _getFeatureRectangle');
     // lay out rects for each of the subfeatures
     var subArgs = lang.mixin( {}, viewArgs );
     subArgs.showDescriptions = subArgs.showLabels = false;
@@ -133,6 +198,7 @@ _getFeatureRectangle: function( viewArgs, feature ) {
 },
 
 layoutFeature: function( viewInfo, layout, feature ) {
+    console.log('in layoutFeature');
     var fRect = this.inherited( arguments );
     if( fRect )
         array.forEach( fRect.subRects, function( subrect ) {
@@ -142,60 +208,7 @@ layoutFeature: function( viewInfo, layout, feature ) {
     return fRect;
 },
 
-/* look more closely from here to end */
-renderFeature: function( context, fRect ) {
-    if( this.track.displayMode != 'collapsed' )
-        context.clearRect( Math.floor(fRect.l), fRect.t, Math.ceil(fRect.w), fRect.h );
-
-    this.renderConnector( context,  fRect );
-    this.renderSegments( context, fRect );
-    this.renderLabel( context, fRect );
-    this.renderDescription( context, fRect );
-},
-
-renderConnector: function( context, fRect ) {
-    // connector
-    var connectorColor = this.getStyle( fRect.f, 'connectorColor' );
-    if( connectorColor ) {
-        context.fillStyle = connectorColor;
-        var connectorThickness = this.getStyle( fRect.f, 'connectorThickness' );
-        context.setLineDash([7,12]);
-        context.fillRect(
-            fRect.rect.l, // left
-            Math.round(fRect.rect.t+(fRect.rect.h-connectorThickness)/2), // top
-            fRect.rect.w, // width
-            connectorThickness
-        );
-        context.setLineDash([]);
-    }
-},
-
-renderSegments( context, fRect ) {
-    let subparts = this._getSubparts( fRect.f );
-    if (!subparts.length) return;
-
-    let parentFeature = fRect.f;
-    let styleFunc = (feature, stylename) => {
-        if (stylename === 'height')
-            return this._getFeatureHeight( fRect.viewInfo, feature );
-
-        return this.getStyle(feature, stylename) || this.getStyle(parentFeature, stylename);
-    }
-
-    for(let i = 0; i < subparts.length; ++i) {
-        this.renderSegment(context, fRect.viewInfo, subparts[i], fRect.t, fRect.rect.h, fRect.f, styleFunc);
-    }
-},
-
-renderSegment(context, viewInfo, segmentFeature, topPx, heightPx, parentFeature, styleFunc) {
-    // this is where the decision for what shape to use will have to happen
-    this.renderBox(context, viewInfo, segmentFeature, topPx, heightPx, parentFeature, styleFunc);
-},
-
-_getSubparts( feature ) {
-    let children = feature.children() || [];
-    return children;
-}
+*/
 
 });
 });
