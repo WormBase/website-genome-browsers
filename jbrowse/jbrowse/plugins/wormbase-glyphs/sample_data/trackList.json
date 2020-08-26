@@ -1,0 +1,19 @@
+{
+   "formatVersion" : 1,
+   "tracks" : [
+      {
+         "compress" : 0,
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/MultipleVariantAllele",
+         "key" : "test",
+         "label" : "test",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature"
+         },
+         "subParts" : "point_mutation,deletion",
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "tracks/test/{refseq}/trackData.json"
+      }
+   ]
+}
