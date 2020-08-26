@@ -16,7 +16,6 @@ define([
 
 return declare( BoxGlyph, {
 _defaultConfig: function() {
-    console.log('in defaultConfig');
     return this._mergeConfigs(
         this.inherited(arguments),
         {
@@ -30,7 +29,6 @@ _defaultConfig: function() {
 },
 
 renderFeature: function( context, fRect ) {
-    console.log('in renderFeature');
     if( this.track.displayMode != 'collapsed' )
         context.clearRect( Math.floor(fRect.l), fRect.t, Math.ceil(fRect.w), fRect.h );
 
@@ -42,7 +40,6 @@ renderFeature: function( context, fRect ) {
 },
 
 renderConnector: function( context, fRect ) {
-    console.log('in renderConnector');
     // connector
     var connectorColor = this.getStyle( fRect.f, 'connectorColor' );
     if( connectorColor ) {
@@ -86,129 +83,30 @@ renderSegments( context, fRect ) {
     }
 },
 
-renderSegment(context, viewInfo, segmentFeature, topPx, heightPx, parentFeature, styleFunc) {
-    this.renderBox(context, viewInfo, segmentFeature, topPx, heightPx, parentFeature, styleFunc);
-}
 
-
-/*
-_boxGlyph: function() {
-    return this.__boxGlyph || ( this.__boxGlyph = new BoxGlyph({ track: this.track, browser: this.browser, config: this.config }) );
-},
 _diaGlyph: function() {
+    console.log('in dia');
+    console.log(this.track);
+    console.log(this.browser);
+    console.log(this.config);
     return this.__diaGlyph || ( this.__diaGlyph = new DiamondGlyph({ track: this.track, browser: this.browser, config: this.config }) );
 },
+
 _dtGlyph: function() {
     return this.__dtGlyph || ( this.__dtGlyph = new DownTriangleGlyph({ track: this.track, browser: this.browser, config: this.config }) );
 },
 
-_getFeatureRectangle: function( viewArgs, feature ) {
-
-    console.log('in _getFeatureRectangle');
-    // lay out rects for each of the subfeatures
-    var subArgs = lang.mixin( {}, viewArgs );
-    subArgs.showDescriptions = subArgs.showLabels = false;
-    var subfeatures = feature.children();
-
-    // get the rects for the children
-    var padding = 1;
-    var fRect = {
-        l: 0,
-        h: 0,
-        r: 0,
-        w: 0,
-        subRects: [],
-        viewInfo: viewArgs,
-        f: feature,
-        glyph: this
-    };
-    if( subfeatures && subfeatures.length ) {
-        // sort the children by name
-        subfeatures.sort( function( a, b ) { return (a.get('name') || '').localeCompare( b.get('name')||'' ); } );
-
-        fRect.l = Infinity;
-        fRect.r = -Infinity;
-
-        var transcriptType; // will be an array even if most of the time there will be only one element
-        var transcriptTypeStr = this.getConfForFeature( 'transcriptType', feature );
-        transcriptType = transcriptTypeStr.split(',');
-
-        for( var i = 0; i < subfeatures.length; i++ ) {
-            var diaType = false;
-            var dtType = false;
-            var subRect;
-            if (subfeatures[i].get('type') == 'point_mutation' ||
-                subfeatures[i].get('type') == 'SNV')                 {diaType = true;}
-            else if (subfeatures[i].get('type') == 'insertion')      {dtType  = true;}
-
-            if (diaType) {
-                subRect = this._diaGlyph()._getFeatureRectangle( subArgs, subfeatures[i] );
-            }
-            else if (dtType) {
-                subRect = this._dtGlyph()._getFeatureRectangle( subArgs, subfeatures[i] );
-            }
-            else {
-                subRect = this._boxGlyph()._getFeatureRectangle( subArgs, subfeatures[i] );
-            }
-
-            padding = i == subfeatures.length-1 ? 0 : 1;
-            subRect.t = subRect.rect.t = fRect.h && viewArgs.displayMode != 'collapsed' ? fRect.h+padding : 0;
-
-            if( viewArgs.showLabels && this.getConfForFeature( 'labelTranscripts', subfeatures[i] ) ) {
-                var transcriptLabel = this.makeSideLabel(
-                    this.getFeatureLabel(subfeatures[i]),
-                    this.getStyle( subfeatures[i], 'transcriptLabelFont'),
-                    subRect
-                );
-                if( transcriptLabel ) {
-                    transcriptLabel.fill = this.getStyle( subfeatures[i], 'transcriptLabelColor' );
-                    subRect.label = transcriptLabel;
-                    subRect.l -= transcriptLabel.w;
-                    subRect.w += transcriptLabel.w;
-                    if( transcriptLabel.h > subRect.h )
-                        subRect.h = transcriptLabel.h;
-                    transcriptLabel.yOffset = Math.floor(subRect.h/2);
-                    transcriptLabel.xOffset = 0;
-                }
-            }
-
-            fRect.subRects.push( subRect );
-            fRect.r = Math.max( fRect.r, subRect.l+subRect.w-1 );
-            fRect.l = Math.min( fRect.l, subRect.l );
-            fRect.h = subRect.t+subRect.h+padding;
-        } // closes subfeature for loop
-   } //closes if subfeatures block
-
-    // calculate the width
-    fRect.w = Math.max( fRect.r - fRect.l + 1, 2 );
-    delete fRect.r;
-    fRect.rect = { l: fRect.l, h: fRect.h, w: fRect.w };
-    if( viewArgs.displayMode != 'compact' )
-        fRect.h += this.getStyle( feature, 'marginBottom' ) || 0;
-
-    // no labels or descriptions if displayMode is collapsed, so stop here
-    if( viewArgs.displayMode == "collapsed")
-        return fRect;
-
-    // expand the fRect to accommodate labels if necessary
-    this._expandRectangleWithLabels( viewArgs, feature, fRect );
-    this._addMasksToRect( viewArgs, feature, fRect );
-
-    return fRect;
-},
-
-layoutFeature: function( viewInfo, layout, feature ) {
-    console.log('in layoutFeature');
-    var fRect = this.inherited( arguments );
-    if( fRect )
-        array.forEach( fRect.subRects, function( subrect ) {
-                           subrect.t += fRect.t;
-                           subrect.rect.t += fRect.t;
-                       });
-    return fRect;
-},
-
-*/
+renderSegment(context, viewInfo, segmentFeature, topPx, heightPx, parentFeature, styleFunc) {
+    if (true ) {
+        this._diaGlyph();
+    }
+    else if (false) {
+        this._dtGlyph();
+    }
+    else {
+        this.renderBox(context, viewInfo, segmentFeature, topPx, heightPx, parentFeature, styleFunc);
+    }
+}
 
 });
 });
