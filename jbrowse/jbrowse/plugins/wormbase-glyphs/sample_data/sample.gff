@@ -2,6 +2,7 @@
 # sample data for testing View/FeatureGlyph/MultipleVariantAllele.js
 # The goal would be for this data to display a diamond (for the point mutation)
 # and a box (for the deletion) joined by a dashed line
-3R	.	biological_region	13032785	13032888	.	.	.	ID=FB:FBal0015072;symbol_text=ry<5204>;
-3R	.	point_mutation	13032785	13032785	.	.	.	Parent=FB:FBal0015072;impact=MODERATE;hgvs_nomenclature=NT_033777.3:g.13032785T>G;description=SNV T -> G
-3R	.	deletion	13032887	13032888	.	.	.	Parent=FB:FBal0015072;impact=HIGH;hgvs_nomenclature=NT_033777.3:g.13032788_13032788del;description=deletion TT -> T
+3R	.	biological_region	13032785	13032897	.	.	.	ID=FB:FBal0015072;symbol_text=ry<5204>;
+3R	.	point_mutation	13032785	13032785	.	.	.	Parent=FB:FBal0015072;geneImpact=LOW,MODERATE,LOW;hgvs_nomenclature=NT_033777.3:g.13032785T>G;description=SNV T -> G
+3R	.	deletion	13032887	13032888	.	.	.	Parent=FB:FBal0015072;geneImpact=LOW,HIGH,LOW;hgvs_nomenclature=NT_033777.3:g.13032788_13032788del;description=deletion TT -> T
+3R	.	insertion	13032897	13032897	.	.	.	Parent=FB:FBal0015072;geneImpact=LOW,MODIFIER,LOW;description=fake
