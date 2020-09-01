@@ -39,6 +39,7 @@ renderConnector: function( context, fRect ) {
     // connector
     var connectorColor = this.getStyle( fRect.f, 'connectorColor' );
     if( connectorColor ) {
+
         context.fillStyle = connectorColor;
         var connectorThickness = this.getStyle( fRect.f, 'connectorThickness' );
 
@@ -47,11 +48,12 @@ renderConnector: function( context, fRect ) {
         var overallHeight = fRect.rect.h;
 
         var height = overallHeight / 2 -1;
-        var left = fRect.l;
-        var width = Math.ceil(fRect.w);
+        var negBuffer = 2
+        var left = fRect.rect.l + negBuffer;
+        var width = Math.floor(fRect.rect.w) - negBuffer;
 
         context.beginPath();
-        context.setLineDash([7,12]);
+        context.setLineDash([3,5]);
         context.moveTo(left,top+height);
         context.lineTo(left+width,top+height);
         context.lineWidth = 1;
