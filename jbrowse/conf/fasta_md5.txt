@@ -4,7 +4,7 @@ eaeb43da065192186e371fda80a18d33  b_malayi/PRJNA10729/b_malayi.PRJNA10729.WS277.
 5546b9f0656867bafaa7033e38ab530a  c_briggsae/PRJNA10731/c_briggsae.PRJNA10731.WS277.genomic.fa.gz
 6259542da4c35355f6ea41bc5972b39b  c_elegans/PRJNA13758/c_elegans.PRJNA13758.WS267.genomic.fa.gz
 d7f907ec3772b5b735299cba9c8c0f58  c_elegans/PRJNA275000/c_elegans.PRJNA275000.WS267.genomic.fa.gz
-698ad7a8c5bd9a710174c2aa29ce0b36  c_japonica/PRJNA12591/c_japonica.PRJNA12591.WS277.genomic.fa.gz
+9db481099140be8df71836ce17a4b909  c_japonica/PRJNA12591/c_japonica.PRJNA12591.WS277.genomic.fa.gz
 7db747ac76b71eec6311064594dd2f75  c_nigoni/PRJNA384657/c_nigoni.PRJNA384657.WS267.genomic.fa.gz
 707feea8eeb0443067bdaea69159856a  c_remanei/PRJNA248909/c_remanei.PRJNA248909.WS267.genomic.fa.gz
 84acfc6d987ace6a59b268d00807468b  c_remanei/PRJNA53967/c_remanei.PRJNA53967.WS267.genomic.fa.gz
