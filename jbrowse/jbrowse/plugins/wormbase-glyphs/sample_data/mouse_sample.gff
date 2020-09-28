@@ -2,7 +2,7 @@
 # sample data for testing View/FeatureGlyph/MultipleVariantAllele.js
 # The goal would be for this data to display a diamond (for the point mutation)
 # and a box (for the deletion) joined by a dashed line
-17	.	biological_region	35200879	35201087	.	.	.	ID=MGI:3578747;symbol_text=Tnf<tm2Jods>
-17	.	point_mutation	35200879	35200879	.	.	.	Parent=MGI:3578747;geneImpact=MODERATE;hgvs_nomenclature=NC_000083.6:g.35200879T>C;description=SNV T -> C
-17	.	deletion	35200882	35200905	.	.	.	Parent=MGI:3578747;geneImpact=HIGH;hgvs_nomenclature=NC_000083.6:g.35200883_35200905del;description=deletion cACTCGA...GATGATC -> c
-17	.	deletion	35201083	35201087	.	.	.	Parent=MGI:3578747;geneImpact=HIGH;hgvs_nomenclature=NC_000083.6:g.35201084_35201087del;description=deletion cTGAG -> c
+17	.	biological_region	35200879	35201087	.	.	.	ID=MGI:3578747;Name=Tnf<tm2Jods>;symbol_text=Tnf<tm2Jods>
+17	.	point_mutation	35200879	35200879	.	.	.	Parent=MGI:3578747;geneImpact=LOW,MODERATE;hgvs_nomenclature=NC_000083.6:g.35200879T>C;description=SNV T -> C
+17	.	deletion	35200882	35200905	.	.	.	Parent=MGI:3578747;geneImpact=LOW,HIGH;hgvs_nomenclature=NC_000083.6:g.35200883_35200905del;description=deletion cACTCGA...GATGATC -> c
+17	.	deletion	35201083	35201087	.	.	.	Parent=MGI:3578747;geneImpact=LOW,HIGH;hgvs_nomenclature=NC_000083.6:g.35201084_35201087del;description=deletion cTGAG -> c
