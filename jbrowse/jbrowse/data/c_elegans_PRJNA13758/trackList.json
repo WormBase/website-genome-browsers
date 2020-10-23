@@ -2,7 +2,7 @@
          "label" : "indexed DNA",
          "unsafeMouseover" : true,
          "codonStarts" : "[ATG]",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA13758.WS278.genomic.fa.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA13758.current.genomic.fa.gz",
          "key" : "indexed DNA",
          "storeClass" : "JBrowse/Store/SeqFeature/BgzipIndexedFasta",
          "type" : "Sequence"
