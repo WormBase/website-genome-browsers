@@ -2,7 +2,7 @@
 <head>
 
 <script>
- async function buildURL(protein, length) {
+ async function buildURL(protein, length, bioproject) {
   //let protocol = window.location.protocol;
   //let hostname = window.location.hostname;
   //let port     = window.location.port;
@@ -15,23 +15,23 @@
   //    port = '';
   //}
   
-  let releaseVersion = 'WS277';
+  let releaseVersion = 'WS278';
 
   let releaseVersionJson = '';
 
   //this will be what's needed when it goes into staging/production
   //this can probably be a relative url too
   //let releaseVersionURL = protocol + '//' + hostname + port + '/rest/version';
-  let releaseVersionURL = '/rest/version';
+//  let releaseVersionURL = '/rest/version';
   //let releaseVersionURL = 'https://wormbase.org/rest/version';
-  let releaseVersionResponse = await fetch(releaseVersionURL);
-  if (releaseVersionResponse.ok) {
-    releaseVersionJson =  await releaseVersionResponse.json();
-    releaseVersion = releaseVersionJson.version;
-  }
-  else {
-    alert('fetching version via rest failed');
-  }
+//  let releaseVersionResponse = await fetch(releaseVersionURL);
+//  if (releaseVersionResponse.ok) {
+//    releaseVersionJson =  await releaseVersionResponse.json();
+//    releaseVersion = releaseVersionJson.version;
+//  }
+//  else {
+//    alert('fetching version via rest failed');
+//  }
 
 
  // this line will have to go away when this goes into production
@@ -40,9 +40,9 @@
 
  //probably could make this a relative url when it gets incorporated into the webiste 
 //  let jbrowseBaseURL = protocol +'//' + hostname + port + path;
-  let jbrowseBaseURL = path;
+  let jbrowseBaseURL = path ;
 
-  let baseURL = 'https://s3.amazonaws.com/wormbase-modencode/protein_schematic/'+ releaseVersion + '/';
+  let baseURL = 'https://s3.amazonaws.com/wormbase-modencode/protein_schematic/'+ releaseVersion + '/' +bioproject + '/';
   let urlTemplate = baseURL+'tracks/';
 
   let trackPart = 'Exon%20boundaries';
@@ -99,7 +99,7 @@ response = await fetch(urlTemplate+'Mass%20spec%20peptides/'+protein+'/trackData
     trackPart = trackPart + '%2CMass%20spec%20peptides';
   }
 
-  let fullJBrowseURL = jbrowseBaseURL+'?tracklabels=0&nav=0&tracklist=0&overview=0&loc='+protein+'%3A1..'+length+'&tracks='+trackPart;
+  let fullJBrowseURL = jbrowseBaseURL+'?data=data/'+bioproject+'&tracklabels=0&nav=0&tracklist=0&overview=0&loc='+protein+'%3A1..'+length+'&tracks='+trackPart;
   //alert(fullJBrowseURL);
 
   let linkoutJBrowseURL = jbrowseBaseURL+'?loc='+protein+'%3A1..'+length+'&tracks='+trackPart;
@@ -117,12 +117,12 @@ response = await fetch(urlTemplate+'Mass%20spec%20peptides/'+protein+'/trackData
 
 <div id="replaceme" style="width:100%;height:400px;background-color:#fff;resize: vertical;overflow: auto;">hello</div>
 
-<button type="button" onclick="buildURL('JC8.10a', 1113)">UNC-26, isoform a</button>
-<button type="button" onclick="buildURL('C18D11.2', 266)">MAA-1</button>
-<button type="button" onclick="buildURL('F11C7.3', 424)">VAP-1</button>
-<button type="button" onclick="buildURL('Y48B6A.11', 922)">JMJD-2</button>
-<button type="button" onclick="buildURL('T09D3.4a', 490)">NHR-216, isoform a</button>
-<button type="button" onclick="buildURL('M7.7', 370)">M7.7</button>
+<button type="button" onclick="buildURL('JC8.10a', 1113, 'c_elegans_PRJNA13758')">UNC-26, isoform a</button>
+<button type="button" onclick="buildURL('C18D11.2', 266, 'c_elegans_PRJNA13758')">MAA-1</button>
+<button type="button" onclick="buildURL('F11C7.3', 424, 'c_elegans_PRJNA13758')">VAP-1</button>
+<button type="button" onclick="buildURL('Y48B6A.11', 922, 'c_elegans_PRJNA13758')">JMJD-2</button>
+<button type="button" onclick="buildURL('T09D3.4a', 490, 'c_elegans_PRJNA13758')">NHR-216, isoform a</button>
+<button type="button" onclick="buildURL('M7.7', 370, 'c_elegans_PRJNA13758')">M7.7</button>
 
 <a id="linkout" href="">linkout<a/>
 
