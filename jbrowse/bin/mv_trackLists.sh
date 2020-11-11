@@ -36,5 +36,5 @@ PATH="$PATH1$RELEASE$PATH2"
 /bin/mv p_pacificus_PRJNA12644_trackList.json  "$PATH/p_pacificus_PRJNA12644/trackList.json"
 /bin/mv p_redivivus_PRJNA186477_trackList.json "$PATH/p_redivivus_PRJNA186477/trackList.json"
 /bin/mv s_ratti_PRJEB125_trackList.json        "$PATH/s_ratti_PRJEB125/trackList.json"
-/bin/mv t_muris_PRJEB126_trackList.json        "$PATH/data/t_muris_PRJEB126/trackList.json"
+/bin/mv t_muris_PRJEB126_trackList.json        "$PATH/t_muris_PRJEB126/trackList.json"
 
