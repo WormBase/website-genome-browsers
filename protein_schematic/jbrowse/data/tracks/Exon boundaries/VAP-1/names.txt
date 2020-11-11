@@ -1,1 +1,0 @@
-[["VAP-1 exon boundaries"],"Exon boundaries","VAP-1 exon boundaries","VAP-1",0,424]

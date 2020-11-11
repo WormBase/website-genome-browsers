@@ -1,3 +1,0 @@
-[["CN20378"],"Selected BLASTP Homologies","CN20378","VAP-1",0,424]
-[["BM46953"],"Selected BLASTP Homologies","BM46953","VAP-1",232,421]
-[["SGD:YJL079C"],"Selected BLASTP Homologies","SGD:YJL079C","VAP-1",327,395]

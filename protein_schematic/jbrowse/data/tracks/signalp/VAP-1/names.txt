@@ -1,1 +1,0 @@
-[["signalp"],"signalp","signalp","VAP-1",0,19]
