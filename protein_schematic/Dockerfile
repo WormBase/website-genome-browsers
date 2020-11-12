@@ -15,7 +15,7 @@ FROM gmod/jbrowse-buildenv:latest as build
 #this is using a branch specifically to support faster builds--needs to be incorporated into main jbrowse build
 RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
 
-RUN git clone --single-branch --branch protein-277 https://github.com/WormBase/website-genome-browsers.git
+RUN git clone --single-branch --branch protein-279 https://github.com/WormBase/website-genome-browsers.git
 
 # Provides the phantomJS powered screenshot plugin
 RUN git clone https://github.com/WormBase/jbplugin-screenshot.git
