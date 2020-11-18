@@ -15,7 +15,7 @@
             "className" : "feature"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "key" : "DNAseI hypersensitive site",
+         "key" : "DNaseI hypersensitive site",
          "unsafePopup" : true,
          "urlTemplate" : "../tracks/DNaseI hypersensitive site/{refseq}/trackData.jsonz",
          "trackType" : "CanvasFeatures",
