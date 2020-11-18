@@ -15,7 +15,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "key" : "DNaseI hypersensitive site",
          "unsafePopup" : true,
-         "urlTemplate" : "../tracks/DNaseI hypersensitive site/{refseq}/trackData.jsonz",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/docker/WS279/c_elegans_PRJNA13758/tracks/DNaseI hypersensitive site/{refseq}/trackData.jsonz",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,
