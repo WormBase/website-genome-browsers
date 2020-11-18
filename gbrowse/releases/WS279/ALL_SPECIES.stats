@@ -11,7 +11,7 @@ CDS:mGene	mGene	CDS	Prediction: mGene (prediction_mgene)	0	0	0	0	0	134050	0	0	0	
 CDS:mSplicer_orf	mSplicer_orf	CDS	Prediction: mSplicer-ORF (prediction_msplicer_orf)	0	0	0	0	0	168585	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 CDS:mSplicer_transcript	mSplicer_transcript	CDS	Prediction: mSplicer (prediction_msplicer_transcript)	0	0	0	0	0	171688	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 CDS:twinscan	twinscan	CDS	NO CONFIG AVAILABLE	0	0	0	0	0	124073	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-DNaseI_hypersensitive_site:DNAseI_hypersensitive_site	DNAseI_hypersensitive_site	DNaseI_hypersensitive_site	NO CONFIG AVAILABLE	0	0	0	0	0	49823	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+DNaseI_hypersensitive_site:DNAseI_hypersensitive_site	DNAseI_hypersensitive_site	DNaseI_hypersensitive_site	DNAseI hypersensitive site (dnaseI_hypersensitive_site)	0	0	0	0	0	49823	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 G_quartet:pmid18538569	pmid18538569	G_quartet	G4 Motif (g4_motif)	0	0	0	0	0	2907	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 PCR_product:GenePair_STS	GenePair_STS	PCR_product	PCR Assays (pcr_products)	0	0	0	0	0	54350	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 PCR_product:Orfeome	Orfeome	PCR_product	ORFeome PCR Products (orfeome_pcr_products)	0	0	0	0	0	22176	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
@@ -131,7 +131,7 @@ expressed_sequence_match:NEMBASE_cDNAs-BLAT	NEMBASE_cDNAs-BLAT	expressed_sequenc
 expressed_sequence_match:NEMBASE_cDNAs-STAR	NEMBASE_cDNAs-STAR	expressed_sequence_match	NEMBASE cDNAs (sequence_similarity_nembase_cdnas)	0	0	0	0	0	0	0	0	0	0	0	8354	0	0	2178	0	0	0	0	0	0	0
 five_prime_UTR:WormBase	WormBase	five_prime_UTR	Genes (genes)	9796	0	3200	17177	0	27314	0	0	9504	0	0	0	0	2534	0	0	0	10554	703	0	1414	11648
 five_prime_UTR:WormBase_imported	WormBase_imported	five_prime_UTR	Genes (genes)	0	0	0	0	0	0	0	0	0	6753	0	8559	6688	0	0	0	0	0	0	0	0	0
-gene:WormBase	WormBase	gene	Genes (genes)	11672	0	33291	23176	19978	47658	0	0	32410	0	0	0	0	32936	0	0	0	12605	26344	0	12973	15754
+gene:WormBase	WormBase	gene	Genes (genes)	11673	0	33291	23176	19978	47658	0	0	32410	0	0	0	0	32936	0	0	0	12605	26344	0	12973	15754
 gene:WormBase_imported	WormBase_imported	gene	Genes (genes)	0	27970	0	0	21070	0	0	21609	0	24855	29167	26226	24867	0	34696	22326	14938	0	0	24249	0	0
 gene:WormBase_transposon	WormBase_transposon	gene	Transposon Genes (transposon_genes)	58	0	0	254	0	364	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 gene:absolute_pmap_position	absolute_pmap_position	gene	Genetic limits (genetic_limits)	0	0	0	0	0	27515	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0

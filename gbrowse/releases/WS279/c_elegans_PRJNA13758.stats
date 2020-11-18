@@ -8,6 +8,7 @@ CDS:WormBase		WormBase	CDS	Genes (protein coding) (genes_protein_coding)	193252
 CDS:mGene		mGene	CDS	Prediction: mGene (prediction_mgene)	134050
 CDS:mSplicer_orf		mSplicer_orf	CDS	Prediction: mSplicer-ORF (prediction_msplicer_orf)	168585
 CDS:mSplicer_transcript		mSplicer_transcript	CDS	Prediction: mSplicer (prediction_msplicer_transcript)	171688
+DNaseI_hypersensitive_site:DNAseI_hypersensitive_site		DNAseI_hypersensitive_site	DNaseI_hypersensitive_site	DNAseI hypersensitive site (dnaseI_hypersensitive_site)	49823
 G_quartet:pmid18538569		pmid18538569	G_quartet	G4 Motif (g4_motif)	2907
 PCR_product:GenePair_STS		GenePair_STS	PCR_product	PCR Assays (pcr_products)	54350
 PCR_product:Orfeome		Orfeome	PCR_product	ORFeome PCR Products (orfeome_pcr_products)	22176
