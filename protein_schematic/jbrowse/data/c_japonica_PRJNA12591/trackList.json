@@ -167,7 +167,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS279/c_elegans_PRJNA13758/tracks/MobiDB-lite/{refseq}/trackData.jsonz"
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS279/c_japonica_PRJNA12591/tracks/MobiDB-lite/{refseq}/trackData.jsonz"
       },
       {
          "category" : "Reference sequence",
