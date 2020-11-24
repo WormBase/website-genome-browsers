@@ -161,7 +161,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
             "className" : "feature",
-            "color" : "green",
+            "color" : "#5325A8",
             "labelScale" : 0.01,
             "height" : 5
          },
