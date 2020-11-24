@@ -155,6 +155,21 @@
          "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS279/b_malayi_PRJNA10729/tracks/Mass spec peptides/{refseq}/trackData.jsonz"
       },
       {
+         "compress" : 1,
+         "key" : "MobiDB-lite",
+         "label" : "MobiDB-lite",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "color" : "green",
+            "labelScale" : 0.01,
+            "height" : 5
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS279/c_elegans_PRJNA13758/tracks/MobiDB-lite/{refseq}/trackData.jsonz"
+      },
+      {
          "category" : "Reference sequence",
          "chunkSize" : 80000,
          "compress" : 1,
