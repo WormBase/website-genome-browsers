@@ -27,7 +27,8 @@ RUN apt-get install -y wget \
                        gcc \
                        vim \
                        uuid-dev \
-                       s3fs
+                       s3fs \
+                       libncurses5-dev libncursesw5-dev
 
 RUN apt-get install -y gbrowse \
                        gbrowse-calign \
@@ -61,18 +62,27 @@ RUN make CXXFLAGS=-fPIC CFLAGS=-fPIC CPPFLAGS=-fPIC
 WORKDIR /usr/local/kent/src/htslib
 RUN make CXXFLAGS=-fPIC CFLAGS=-fPIC CPPFLAGS=-fPIC
 
-#WORKDIR /usr/local
+WORKDIR /usr/local
 #RUN wget https://github.com/samtools/htslib/releases/download/1.3.2/htslib-1.3.2.tar.bz2 -O htslib.tar.bz2
 #RUN tar -xjvf htslib.tar.bz2
+
+#RUN git clone --single-branch --branch 0.1.20 https://github.com/samtools/samtools.git
+#WORKDIR /usr/local/samtools
+#RUN make
+#RUN cp samtools /usr/local/bin
+
+WORKDIR /tmp
+RUN wget https://cpan.metacpan.org/authors/id/L/LD/LDS/Bio-SamTools-1.43.tar.gz
+RUN tar zxvf Bio-SamTools-1.43.tar.gz
+WORKDIR /tmp/Bio-SamTools-1.43
+#huh, this just works. Nice.
+RUN perl INSTALL.pl
 
 #WORKDIR /usr/local/htslib-1.3.2
 #RUN make
 #RUN make install
 
 WORKDIR /tmp
-#RUN wget http://cpan.metacpan.org/authors/id/L/LD/LDS/Bio-BigFile-1.07.tar.gz
-#RUN tar xzf Bio-BigFile-1.07.tar.gz
-#WORKDIR /tmp/Bio-BigFile-1.07
 RUN git clone https://github.com/GMOD/GBrowse-Adaptors.git
 WORKDIR /tmp/GBrowse-Adaptors/Bio-BigFile
 
