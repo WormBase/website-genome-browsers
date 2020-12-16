@@ -4,7 +4,7 @@ curl https://rclone.org/install.sh | sudo bash
 
 mkdir -p .config/rclone
 
-git clone --single-branch --branch gbrowse-docker
+git clone --single-branch --branch gbrowse-docker  https://github.com/WormBase/website-genome-browsers.git
 cp website-genome-browsers/gbrowse-docker/rclone.conf .config/rclone/
 
 sudo mkdir -p /browser_data/worm
