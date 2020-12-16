@@ -15,4 +15,4 @@ sudo ln -s /s3fs/sam_binaries  /browser_data/worm/sam_binaries
 sudo ln -s /s3fs/wiggle_binaries/ /browser_data/worm/wiggle_binaries
 
 #probably have to run this in the docker cmd script
-sudo rclone mount wormbase:wormbase-modencode/ s3fs/ --daemon --allow-other
+sudo rclone mount wormbase:wormbase-modencode/ /s3fs/ --daemon --allow-other
