@@ -1,3 +1,12 @@
+sudo apt-get install curl
+
+curl https://rclone.org/install.sh | sudo bash
+
+mkdir -p .config/rclone
+
+git clone --single-branch --branch gbrowse-docker
+cp website-genome-browsers/gbrowse-docker/rclone.conf .config/rclone/
+
 sudo mkdir -p /browser_data/worm
 
 sudo ln -s /s3fs/fasta  /browser_data/worm/fasta
