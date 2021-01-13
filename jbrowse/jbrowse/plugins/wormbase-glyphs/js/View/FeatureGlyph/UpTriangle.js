@@ -71,7 +71,7 @@ return declare(Box, {
 
                 context.beginPath();
                 context.moveTo(left ,top+height);
-                context.lineTo(left - minwidth/2,top;
+                context.lineTo(left - minwidth/2,top);
                 context.lineTo(left + minwidth/2,top);
                 context.closePath();
                 context.stroke();
