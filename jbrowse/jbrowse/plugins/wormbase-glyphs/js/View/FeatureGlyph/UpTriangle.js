@@ -9,12 +9,12 @@ return declare(Box, {
 
     renderBox: function( context, viewInfo, feature, top, overallHeight, parentFeature, style ) {
 
-        var minwidth = 8;
+        var minwidth = 5;
         var center_on_left = false;
         var left  = viewInfo.block.bpToX( feature.get('start') );
         var width = viewInfo.block.bpToX( feature.get('end') ) - left;
 
-        if (width < minwidth) {
+        if (width < minwidth ) {
             width = minwidth;
             center_on_left = true;
         }
