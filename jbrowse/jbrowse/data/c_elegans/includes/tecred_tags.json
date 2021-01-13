@@ -16,6 +16,8 @@
             "height" : 5,
             "color" : "red"
          },
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/UpTriangle",
+         "strandArrow" : false,
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/TEC-RED tags/{refseq}/trackData.jsonz",
          "unsafePopup" : true,
