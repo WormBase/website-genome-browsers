@@ -37,9 +37,9 @@ return declare(Box, {
             if( bgcolor ) {
                 context.fillStyle = bgcolor;
                 context.beginPath();
-                context.moveTo(left,top+height);
-                context.lineTo(left-minwidth/2,top);
-                context.lineTo(left + minwidth/2 ,top);
+                context.moveTo(left,top);
+                context.lineTo(left-minwidth/2,top+height);
+                context.lineTo(left + minwidth/2 ,top+height);
                 context.closePath();
                 context.fill();
             }
@@ -51,9 +51,9 @@ return declare(Box, {
             if( bgcolor ) {
                 context.fillStyle = bgcolor;
                 context.beginPath();
-                context.moveTo(left+Math.max(minwidth,width)/2,top+height);
-                context.lineTo(left ,top);
-                context.lineTo(left + Math.max(minwidth,width),top);
+                context.moveTo(left+Math.max(minwidth,width)/2,top);
+                context.lineTo(left ,top+height);
+                context.lineTo(left + Math.max(minwidth,width),top+height);
                 context.closePath();
                 context.fill();
             }
@@ -70,9 +70,9 @@ return declare(Box, {
                 context.strokeStyle = borderColor;
 
                 context.beginPath();
-                context.moveTo(left ,top+height);
-                context.lineTo(left - minwidth/2,top);
-                context.lineTo(left + minwidth/2,top);
+                context.moveTo(left ,top);
+                context.lineTo(left - minwidth/2,top+height);
+                context.lineTo(left + minwidth/2,top+height);
                 context.closePath();
                 context.stroke();
             }
@@ -81,9 +81,9 @@ return declare(Box, {
                 context.strokeStyle = borderColor;
 
                 context.beginPath();
-                context.moveTo(left+ Math.max(minwidth,width),top+height);
-                context.lineTo(left ,top);
-                context.lineTo(left + Math.max(minwidth,width),top);
+                context.moveTo(left+ Math.max(minwidth,width),top);
+                context.lineTo(left ,top+height);
+                context.lineTo(left + Math.max(minwidth,width),top+height);
                 context.closePath();
                 context.stroke();
             }
