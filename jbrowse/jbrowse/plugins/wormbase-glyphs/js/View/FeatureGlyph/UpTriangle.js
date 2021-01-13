@@ -9,7 +9,7 @@ return declare(Box, {
 
     renderBox: function( context, viewInfo, feature, top, overallHeight, parentFeature, style ) {
 
-        var minwidth = 5;
+        var minwidth = 8;
         var center_on_left = false;
         var left  = viewInfo.block.bpToX( feature.get('start') );
         var width = viewInfo.block.bpToX( feature.get('end') ) - left;
@@ -51,9 +51,9 @@ return declare(Box, {
             if( bgcolor ) {
                 context.fillStyle = bgcolor;
                 context.beginPath();
-                context.moveTo(left,top+height);
-                context.lineTo(left - Math.max(minwidth,width)/2,top);
-                context.lineTo(left + Math.max(minwidth,width)/2,top);
+                context.moveTo(left+Math.max(minwidth,width)/2,top+height);
+                context.lineTo(left ,top);
+                context.lineTo(left + Math.max(minwidth,width),top);
                 context.closePath();
                 context.fill();
             }
@@ -81,9 +81,9 @@ return declare(Box, {
                 context.strokeStyle = borderColor;
 
                 context.beginPath();
-                context.moveTo(left,top+height);
-                context.lineTo(left - Math.max(minwidth,width)/2,top);
-                context.lineTo(left + Math.max(minwidth,width)/2,top);
+                context.moveTo(left+ Math.max(minwidth,width),top+height);
+                context.lineTo(left ,top);
+                context.lineTo(left + Math.max(minwidth,width),top);
                 context.closePath();
                 context.stroke();
             }
