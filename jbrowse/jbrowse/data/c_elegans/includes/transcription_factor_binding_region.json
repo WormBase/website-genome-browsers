@@ -4,6 +4,7 @@
          "unsafeMouseover" : true,
          "label" : "Transcription factor binding regions",
          "maxExportSpan" : 50000000,
+         "maxHeight": 1200,
          "compress" : 1,
          "category" : "Sequence Features/Binding Sites & Regions",
          "key" : "Transcription factor binding regions",
