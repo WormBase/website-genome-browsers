@@ -18,12 +18,6 @@
             "strandArrow" : false
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "onClick" : {
-            "label" : "Feature in WormBase",
-            "action" : "iframeDialog",
-            "url" : "{featureURL}",
-            "title" : "Feature in WormBase"
-         },
          "trackType" : "CanvasFeatures",
          "urlTemplate" : "../tracks/Transcription factor binding regions/{refseq}/trackData.jsonz",
          "unsafePopup" : true,
