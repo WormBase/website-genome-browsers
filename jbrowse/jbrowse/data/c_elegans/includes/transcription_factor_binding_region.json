@@ -15,6 +15,7 @@
             "color" : "green",
             "height" : 5,
             "className" : "feature",
+            "label" : "function(f) {var name=f.get('Name');var tf_name = f.get('tf_name'); if (typeof tf_name ==='undefined') {return name;} return name +' ('+tf_name+')'; }",
             "strandArrow" : false
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
