@@ -4,7 +4,7 @@
          "unsafeMouseover" : true,
          "label" : "Transcription factor binding regions",
          "maxExportSpan" : 50000000,
-         "maxHeight": 1200,
+         "maxHeight": 2400,
          "compress" : 1,
          "category" : "Sequence Features/Binding Sites & Regions",
          "key" : "Transcription factor binding regions",
@@ -15,6 +15,7 @@
             "color" : "green",
             "height" : 5,
             "className" : "feature",
+            "label" : "function(f) {var name=f.get('Name');var tf_name = f.get('tf_name'); if (typeof tf_name ==='undefined') {return name;} return name +' ('+tf_name+')'; }",
             "strandArrow" : false
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
