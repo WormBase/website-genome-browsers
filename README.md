@@ -6,12 +6,12 @@ and the build tools and json configuration files for JBrowse.
 Typical build procedure
 =======================
 
-1. After GFF files are available on dev server, create a branch of this repo
+1. After GFF files are available on dev server, create branches of this repo
 for each JBrowse (jbrowse-$RELEASE), GBrowse ($RELEASE-gbrowse), and 
-protein-schematic (protein-$RELEASE)builds and clone it into a space
-with room to build (currently, a jbrowse build takes about 30GB and protein
-schematic takes about 15GB). Note that references to $RELEASE in this document
-means the release numeral (ie, without the "WS").
+protein-schematic (protein-$RELEASE) off of their "staging" branches and
+clone it into a space with room to build (currently, a jbrowse build takes
+about 30GB and protein schematic takes about 15GB). Note that references to
+$RELEASE in this document means the release numeral (ie, without the "WS").
 
 2. Build GBrowse config files:
 
@@ -28,7 +28,7 @@ means the release numeral (ie, without the "WS").
 
    a. Run website-genome-browsers/jbrowse/bin/build.sh -r $RELEASE in
       the jbrowse_build/build directory in a screen process.  It will
-      take a long time run, generally in the ballpark of 12 hours.
+      take a long time run, generally in the ballpark of 24 hours.
 
    b. Run website-genome-browsers/jbrowse/bin/upload2s3.sh -r $RELEASE
       This will also take a long time and should be done in a screen.
@@ -57,7 +57,14 @@ means the release numeral (ie, without the "WS").
       docker commit -m "WormBase JBrowse release $RELEASE" -a "Scott Cain" <container name> gmod/wormbase-jbrowse:WS$RELEASE;
       docker login; docker push gmod/wormbase-jbrowse:WS$RELEASE
 
-new 4: add docs for building protein_schematic.
+4. Building the JBrowse-based protein_schematic tool.
+
+   a. Copy the build.sh script from the previous build and update
+      the release numbers (this should be converted to a "real" bash
+      script like is used for JBrowse building). Run build.sh
+      in a screen process since it will take a long time.
+
+   b. upload data to S3, build/run docker container 
 
 5. Transfer the GBrowse build results to the gbrowse.wormbase.org
    server's staging section:
