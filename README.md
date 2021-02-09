@@ -7,14 +7,14 @@ for JBrowse and the JBrowse-based protein schematic tool.
 Important Git branches
 ======================
 
-The master branch isn't used for anthing other than housing README.
+The master branch isn't used for anthing other than housing this README.
 
 For GBrowse and gbrowse_syn:
 * gbrowse-production is the current production config
 * staging (NOT gbrowse-staging) is the current staging config
 * ###-gbrowse is the branch for building a specific release
 
-Since gbrowse_syn doesnt' change from release to release, it uses 
+Since gbrowse_syn doesn't change from release to release, it uses 
 the same branches as GBrowse.
 
 For JBrowse:
@@ -56,25 +56,30 @@ $RELEASE in this document means the release numeral (ie, without the "WS").
 
 3. Build JBrowse.  This is a much more involved process at the moment.
 
-   a. Run website-genome-browsers/jbrowse/bin/build.sh -r $RELEASE in
+   a. Copy the c_elegans.jbrowse.conf (the controling config file for
+      the build) and update the release number and pathes (basically,
+      do `:% s/oldreleasenumber/newreleasenumber/g in the file) and 
+      log4perl.conf to the jbrowse_build/build directory.
+
+   b. Run website-genome-browsers/jbrowse/bin/build.sh -r $RELEASE in
       the jbrowse_build/build directory in a screen process.  It will
       take a long time run, generally in the ballpark of 24 hours.
 
-   b. Run website-genome-browsers/jbrowse/bin/upload2s3.sh -r $RELEASE
+   c. Run website-genome-browsers/jbrowse/bin/upload2s3.sh -r $RELEASE
       This will also take a long time and should be done in a screen.
 
-   c. In parallel with "b", run website-genome-browsers/jbrowse/bin/s3ify_trackList.sh -r $RELEASE
+   d. In parallel with "b", run website-genome-browsers/jbrowse/bin/s3ify_trackList.sh -r $RELEASE
       in the jbrowse_build/jbrowse/tools/genome/jbrowse/data/ directory.
       This "unrolls" the includes in the trackList.json files and
       changes the relative urlTemplate entries to use absolute S3 URLs.
 
-   d. Also in the jbrowse_build/jbrowse/tools/genome/jbrowse/data/ directory,
+   e. Also in the jbrowse_build/jbrowse/tools/genome/jbrowse/data/ directory,
       run website-genome-browsers/jbrowse/bin/mv_trackLists.sh -r $RELEASE
       which will take the results of the s3ify_trackList.sh script and 
       move them into the place in the checked out git branch for 
       this jbrowse release. Git add, commit and push these files.
 
-   e. Build the jbrowse docker image. In website-genome-browsers/jbrowse/
+   f. Build the jbrowse docker image. In website-genome-browsers/jbrowse/
       run docker build --no-cache -t ws$RELEASE_jbrowse . --build-arg RELEASE=$RELEASE
       and then run a container of the image to test it:
       docker run docker run -d -p 9020:80 ws$RELEASE_jbrowse. Note that
@@ -83,7 +88,7 @@ $RELEASE in this document means the release numeral (ie, without the "WS").
       newly built image.  This instance, running on dev.wormbase.org
       port 9020 is the JBrowse instance for staging.wormbase.org.
 
-   f. Push the docker container to the GMOD account at Docker Hub:
+   g. Push the docker container to the GMOD account at Docker Hub:
       docker commit -m "WormBase JBrowse release $RELEASE" -a "Scott Cain" <container name> gmod/wormbase-jbrowse:WS$RELEASE;
       docker login; docker push gmod/wormbase-jbrowse:WS$RELEASE
 
