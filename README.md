@@ -36,12 +36,13 @@ AGR logo above the track selector list.
 Typical build procedure
 =======================
 
-1. After GFF files are available on dev server, create branches of this repo
-for each JBrowse (jbrowse-$RELEASE), GBrowse ($RELEASE-gbrowse), and 
-protein-schematic (protein-$RELEASE) off of their "staging" branches and
-clone it into a space with room to build (currently, a jbrowse build takes
-about 30GB and protein schematic takes about 15GB). Note that references to
-$RELEASE in this document means the release numeral (ie, without the "WS").
+1. After GFF files are available on dev server at `/usr/local/ftp/pub/wormbase/releases/`,
+create branches of this repo for each JBrowse (jbrowse-$RELEASE),
+GBrowse ($RELEASE-gbrowse), and protein-schematic (protein-$RELEASE)
+off of their "staging" branches and clone it into a space with room to
+build (currently, a jbrowse build takes about 30GB and protein schematic
+takes about 15GB). Note that references to $RELEASE in this document means
+the release numeral (ie, without the "WS").
 
 2. Build GBrowse config files:
 
@@ -57,8 +58,8 @@ $RELEASE in this document means the release numeral (ie, without the "WS").
 3. Build JBrowse.  This is a much more involved process at the moment.
 
    a. Copy the c_elegans.jbrowse.conf (the controling config file for
-      the build) and update the release number and pathes (basically,
-      do `:% s/oldreleasenumber/newreleasenumber/g in the file) and 
+      the build) and update the release number and paths (basically,
+      do `:% s/oldreleasenumber/newreleasenumber/g` (vim) in the file) and 
       log4perl.conf to the jbrowse_build/build directory.
 
    b. Run website-genome-browsers/jbrowse/bin/build.sh -r $RELEASE in
