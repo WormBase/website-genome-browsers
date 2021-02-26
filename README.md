@@ -80,7 +80,10 @@ the release numeral (ie, without the "WS").
       move them into the place in the checked out git branch for 
       this jbrowse release. Git add, commit and push these files.
 
-   f. Build the jbrowse docker image. In website-genome-browsers/jbrowse/
+   f. Edit website-genome-browsers/jbrowse/jbrowse/plugins/wormbase-glyphs/js/main.js
+      to bump the version number (this drives the displayed version in JBrowse)
+
+   g. Build the jbrowse docker image. In website-genome-browsers/jbrowse/
       run docker build --no-cache -t ws$RELEASE_jbrowse . --build-arg RELEASE=$RELEASE
       and then run a container of the image to test it:
       docker run docker run -d -p 9020:80 ws$RELEASE_jbrowse. Note that
@@ -89,7 +92,7 @@ the release numeral (ie, without the "WS").
       newly built image.  This instance, running on dev.wormbase.org
       port 9020 is the JBrowse instance for staging.wormbase.org.
 
-   g. Push the docker container to the GMOD account at Docker Hub:
+   h. Push the docker container to the GMOD account at Docker Hub:
       docker commit -m "WormBase JBrowse release $RELEASE" -a "Scott Cain" <container name> gmod/wormbase-jbrowse:WS$RELEASE;
       docker login; docker push gmod/wormbase-jbrowse:WS$RELEASE
 
