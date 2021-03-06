@@ -1,0 +1,44 @@
+{
+   "tracks" : [
+      {
+         "category" : "Externally Sourced Resources/Atlas",
+         "chunkSizeLimit" : 5000000,
+         "label" : "polyA clusters plus strand",
+         "unsafeMouseover" : true,
+         "type" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/atlas_plus.2.0.ce11.bw",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/RightTriangle",
+         "style" : {
+            "color" : "purple",
+            "className" : "feature",
+            "strandArrow" : false
+         },
+         "metadata" : {
+            "shortInfo" : "https://polyasite.unibas.ch/atlas - Clusters of polyA sites using a bespoke clustering procedure which groups together closely-spaced poly(A) sites, that most likely are due to imprecision in cleavage or processing. Construction of the clusters was broadened to include sites with lower read support that were located from -12 to +12 nucleotides around sites with strong support. In another pass, sites that were located within 25 nucleotides of each other were clustered together, and finally, for clusters with no annotated poly(A) signals a more permissive distance of 50 nucleotides was used in clustering."
+         },
+         "key" : "polyA clusters plus strand"
+      },
+      {
+         "category" : "Externally Sourced Resources/Atlas",
+         "chunkSizeLimit" : 5000000,
+         "label" : "polyA clusters minus strand",
+         "unsafeMouseover" : true,
+         "type" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/atlas_minus.2.0.ce11.bw",
+         "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/LeftTriangle",
+         "style" : {
+            "color" : "purple",
+            "className" : "feature",
+            "strandArrow" : false
+         },
+         "metadata" : {
+            "shortInfo" : "https://polyasite.unibas.ch/atlas - Clusters of polyA sites using a bespoke clustering procedure which groups together closely-spaced poly(A) sites, that most likely are due to imprecision in cleavage or processing. Construction of the clusters was broadened to include sites with lower read support that were located from -12 to +12 nucleotides around sites with strong support. In another pass, sites that were located within 25 nucleotides of each other were clustered together, and finally, for clusters with no annotated poly(A) signals a more permissive distance of 50 nucleotides was used in clustering."
+         },
+         "key" : "polyA clusters minus strand"
+      }
+   ]
+}
