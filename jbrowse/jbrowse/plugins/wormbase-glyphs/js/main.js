@@ -16,7 +16,6 @@ function (
             JBrowse.afterMilestone('completely initialized', function() {
                 var url    = location.href;
   //console.log(url);
-                console.log('WS280');
                 var mod_str ='';
                 var wb_ver = '<h3 style="margin:2px">Version: WS280</h3>';
                 var br     = '';
