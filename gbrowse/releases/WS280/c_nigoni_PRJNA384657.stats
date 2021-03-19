@@ -1,0 +1,18 @@
+gff_version: 3
+file: /usr/local/ftp/pub/wormbase/releases/WS280/species/c_nigoni/PRJNA384657/c_nigoni.PRJNA384657.WS280.annotations.gff3.gz
+feature	children	source	method	track	count
+gene:WormBase_imported		WormBase_imported	gene	Genes (genes)	29167
+	mRNA:WormBase_imported	WormBase_imported	mRNA	Genes (genes)	44605
+	five_prime_UTR:WormBase_imported	WormBase_imported	five_prime_UTR	Genes (genes)	0
+	three_prime_UTR:WormBase_imported	WormBase_imported	three_prime_UTR	Genes (genes)	0
+low_complexity_region:dust		dust	low_complexity_region	Low complextity region (Dust) (repeats_dust)	306784
+protein_match:UniProt-BLASTX		UniProt-BLASTX	protein_match	Other UniProt proteins (sequence_similarity_uniprot_blastx)	105098
+protein_match:cbrenneri_proteins-BLASTX		cbrenneri_proteins-BLASTX	protein_match	C. brenneri proteins (sequence_similarity_cbrenneri_proteins_blastx)	166576
+protein_match:cbriggsae_proteins-BLASTX		cbriggsae_proteins-BLASTX	protein_match	C. briggsae proteins (sequence_similarity_cbriggsae_proteins_blastx)	235732
+protein_match:celegans_proteins-BLASTX		celegans_proteins-BLASTX	protein_match	C. elegans proteins (sequence_similarity_celegans_proteins_blastx)	159097
+protein_match:cjaponica_proteins-BLASTX		cjaponica_proteins-BLASTX	protein_match	C. japonica proteins (sequence_similarity_cjaponica_proteins_blastx)	140823
+protein_match:cremanei_proteins-BLASTX		cremanei_proteins-BLASTX	protein_match	C. remanei proteins (sequence_similarity_cremanei_proteins_blastx)	197050
+protein_match:dmelanogaster_proteins-BLASTX		dmelanogaster_proteins-BLASTX	protein_match	D. melanogaster proteins (sequence_similarity_dmelanogaster_proteins_blastx)	36740
+protein_match:hsapiens_proteins-BLASTX		hsapiens_proteins-BLASTX	protein_match	H. sapiens proteins (sequence_similarity_hsapiens_proteins_blastx)	90763
+protein_match:ppacificus_proteins-BLASTX		ppacificus_proteins-BLASTX	protein_match	P. pacificus proteins (sequence_similarity_ppacificus_proteins_blastx)	74372
+protein_match:scerevisiae_proteins-BLASTX		scerevisiae_proteins-BLASTX	protein_match	S. cerevisiae proteins (sequence_similarity_scerevisiae_proteins_blastx)	12971
