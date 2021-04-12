@@ -23,7 +23,7 @@ RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
 #    * RemoveGridOption    - provides a menu item to remove the background grid lines
 #    * wormbase-glyphs     - provides some glyphs and places a logo in the page
 #RUN git clone --single-branch --branch jbrowse-${RELEASE} https://github.com/WormBase/website-genome-browsers.git
-RUN git clone --single-branch --branch jbrowse-staging https://github.com/WormBase/website-genome-browsers.git
+RUN git clone --single-branch --branch jbrowse-production https://github.com/WormBase/website-genome-browsers.git
 
 # Provides the PWM motif search plugin
 RUN git clone --single-branch --branch 1.0 https://github.com/scottcain/MotifSearch.git
