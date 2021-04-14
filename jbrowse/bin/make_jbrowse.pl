@@ -303,33 +303,17 @@ print "Processing $species ...\n";
 
 process_data_files() unless $SIMPLE;
 
-#check of $JBROWSEDIR exists, and if not, create it and build jbrowse
-if (!-e $JBROWSEDIR) {
-    print "Building JBrowse from source...\n";
-    -e $JBROWSESRC or die "JBROWSESRC isn't specified; can't continue";
-    make_path( $JBROWSEDIR );
-    copy($JBROWSESRC, "$JBROWSEDIR/..");
-    chdir("$JBROWSEDIR/..");
-    my @zipfile = <*.zip>;
-    system("unzip", $zipfile[0]) == 0 or die "failed to unzip jbrowse src";
-    remove($zipfile[0]);
-    my @jbrowsesrc = <JB*>;
-    move($jbrowsesrc[0], $JBROWSEDIR);
-    chdir($JBROWSEDIR);
-    system("./setup.sh") == 0 or die "failed to run setup.sh in $JBROWSEDIR";
-}
-
 chdir $JBROWSEDIR or die $!." $JBROWSEDIR\n";
 
-if ($SIMPLE) {
-    mkdir $DATADIR unless -e $DATADIR;
-    #make a bunch of symlinks to the main elegans site
-    symlink "../c_elegans_$PRIMARY_SPECIES/includes"   , "$DATADIR/includes";
-    symlink "../c_elegans_$PRIMARY_SPECIES/names"      , "$DATADIR/names";
-    symlink "../c_elegans_$PRIMARY_SPECIES/seq"        , "$DATADIR/seq";
-    symlink "../c_elegans_$PRIMARY_SPECIES/tracks"     , "$DATADIR/tracks";
-    symlink "../c_elegans_$PRIMARY_SPECIES/tracks.conf", "$DATADIR/tracks.conf";
-}
+#if ($SIMPLE) {
+#    mkdir $DATADIR unless -e $DATADIR;
+#    #make a bunch of symlinks to the main elegans site
+#    symlink "../c_elegans_$PRIMARY_SPECIES/includes"   , "$DATADIR/includes";
+#    symlink "../c_elegans_$PRIMARY_SPECIES/names"      , "$DATADIR/names";
+#    symlink "../c_elegans_$PRIMARY_SPECIES/seq"        , "$DATADIR/seq";
+#    symlink "../c_elegans_$PRIMARY_SPECIES/tracks"     , "$DATADIR/tracks";
+#    symlink "../c_elegans_$PRIMARY_SPECIES/tracks.conf", "$DATADIR/tracks.conf";
+#}
 
 #Don't check any more--we should be aware of when new assemblies come along!
 #check to see if the seq directory is present; if not prepare-refseqs
@@ -358,66 +342,15 @@ if ($SIMPLE) {
 #}
 
 #make a symlink to the organisms include file
-unless (-e "$DATADIR/../organisms.conf") {
-    copy( $ORGANISMS, "$DATADIR/../organisms.conf") or $log->error( $!);
-}
-unless (-e "$DATADIR/../old-modencode") {
-    symlink "$JBROWSEREPO/data/old-modencode", "old-modencode" or $log->error($!);
-}
-unless (-e "browser_data") {
-    symlink $BROWSER_DATA, "browser_data" or $log->error( $!);
-}
-
-### TODO: all of this symlink making is no longer needed and should be culled
-#create several links in the main dir
-if (!-e "$JBROWSEDIR/full.html") {
-#    unlink  "$JBROWSEDIR/css/faceted_track_selector.css";
-#    copy   ("$JBROWSEREPO/css/faceted_track_selector.css", "$JBROWSEDIR/css/faceted_track_selector.css");
-#    copy   ("$JBROWSEREPO/full.html",    "$JBROWSEDIR/full.html");
-#    unlink  "$JBROWSEDIR/index.html";
-#    copy   ("$JBROWSEREPO/index.html",   "$JBROWSEDIR/index.html");
-#    unlink  "$JBROWSEDIR/jbrowse.conf";
-#    copy   ("$JBROWSEREPO/jbrowse.conf", "$JBROWSEDIR/jbrowse.conf");
-#    symlink "/home/ubuntu/staging/jbrowse/images", "$JBROWSEDIR/images";
-#    dircopy("$JBROWSEREPO/plugins/fullscreen-jbrowse",         "$JBROWSEDIR/plugins/fullscreen-jbrowse");
-#    dircopy("$JBROWSEREPO/plugins/wormbase-glyphs",            "$JBROWSEDIR/plugins/wormbase-glyphs");
-#    dircopy("$JBROWSEREPO/plugins/HideTrackLabels",            "$JBROWSEDIR/plugins/HideTrackLabels");
-    #not thrilled about the location of the these plugin locations
-#    dircopy("/home/scain/scain/MotifSearch" ,                  "$JBROWSEDIR/plugins/MotifSearch");
-#    dircopy("/home/scain/FeatureSequence"   ,                  "$JBROWSEDIR/plugins/FeatureSequence");
-#    dircopy("/home/scain/scain/jbrowse-plugins/HierarchicalCheckboxPlugin",
-#                                                               "$JBROWSEDIR/plugins/HierarchicalCheckboxPlugin");
-#    dircopy("/home/scain/scain/jbrowse-plugins/SwitchTrackSelector",
-#                                                               "$JBROWSEDIR/plugins/SwitchTrackSelector");
-#    dircopy("/home/scain/sc_fork_screenshotplugin",            "$JBROWSEDIR/plugins/ScreenShotPlugin");
-#    dircopy("/home/scain/scain/jbrowse-plugins/colorbycds",    "$JBROWSEDIR/plugins/colorbycds");
-
-    #rerun setup.sh if jbrowse 1.13 or higher
-#    system("./setup.sh") == 0 or die "failed to rerun setup.sh in $JBROWSEDIR for new plugins";
-}
-
-
-#use original or split gff for many tracks
-#Basically, this for loop should probably never be used
-for my $section (@config_sections) {
-    next unless $Config->{$section}->{origfile};
-
-    $log->warn( $section) unless $QUIET;
-    my $type   = $Config->{$section}->{type};
-    my $label  = $Config->{$section}->{label};
-
-    for my $file (keys %splitfiles) {
-        my $gfffile = $INITIALDIR ."/". $file;
-        my $command = "$nice bin/flatfile-to-json.pl --nameAttributes \"name,alias,id,other_name,variation,public_name\" --compress --gff $gfffile --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\" --maxLookback 1000000";
-        $log->warn( $command) unless $QUIET;
-        system($command) ==0 or $log->error( $!);
-    }
-
-    if (!-e "$INCLUDES/$section.json") {
-        $log->error( "\nMISSING INCLUDE FILE: $section.json");
-    }
-    push @include, "includes/$section.json";
-}
+#unless (-e "$DATADIR/../organisms.conf") {
+#    copy( $ORGANISMS, "$DATADIR/../organisms.conf") or $log->error( $!);
+#}
+#unless (-e "$DATADIR/../old-modencode") {
+#    symlink "$JBROWSEREPO/data/old-modencode", "old-modencode" or $log->error($!);
+#}
+#unless (-e "browser_data") {
+#    symlink $BROWSER_DATA, "browser_data" or $log->error( $!);
+#}
 
 #use grep-created files for specific tracks
 #first process tracks that will be name indexed
@@ -461,15 +394,6 @@ if ($only_species_name and $bioproject) {
     push @include, @species_specific;
 }
 
-#if ($species eq "c_elegans_$PRIMARY_SPECIES") {
-#    my @modencode = glob("$INCLUDES/modencode*");
-#    for (@modencode) {
-#        $_ = "includes/".basename($_);
-#    }
-#    push @include, @modencode;
-#}
-
-
 #create trackList data structure:
 my $struct = {
     "plugins" => {"FeatureSequence" => {"location" => "./plugins/FeatureSequence" }  },
@@ -501,40 +425,6 @@ unless (-e "$DATADIR/../functions.conf") {
 open TL, ">$DATADIR/trackList.json" or die $!;
 print TL $json; 
 close TL;
-
-
-##
-## Moving the location of the custom glyphs to the plugin dir
-##which is handled elsewhere in the code
-##
-#make symlinks for custom glyphs
-#chdir $GLYPHS;
-#my @files = glob("*.js");
-#foreach my $file (@files) {
-#    unless (-e "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file") {
-#        symlink "$GLYPHS/$file", "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file" or $log->error( $!);
-#    }
-#}
-
-#if this is elegans make links to the modencode data
-if (!$SIMPLE && $SPECIES =~ /c_elegans_$PRIMARY_SPECIES/) {
-    chdir "$DATADIR/tracks" or $log->error( "changing to tracks dir didn't work");    
-    system("$Bin/track_links.sh") == 0 or $log->error( "creating track symlinks didn't work");
-}
-
-#make "jbrowse-simple" dir with symlinks
-if (!-e "$JBROWSEDIR/../jbrowse-simple") {
-    chdir $JBROWSEDIR;
-    my @file_list = <*>;
-    mkdir "../jbrowse-simple";
-    chdir "../jbrowse-simple";
-    for my $file (@file_list) {
-        next if $file eq 'jbrowse.conf';
-        symlink "../jbrowse/$file", $file;
-    }
-    #get the simple jbrowse.conf
-    copy( "$JBROWSEREPO/jbrowse-simple.conf", "jbrowse.conf");
-}
 
 #clean up temporary gff files
 chdir $INITIALDIR;
