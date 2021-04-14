@@ -220,7 +220,10 @@ die "JBROWSEREPO must be defined" unless (-e $JBROWSEREPO);
 #parse all stats
 die "allstats must be defined" unless (-e $ALLSTATS);
 
-open AS, $ALLSTATS or die $!;
+system("wget https://raw.githubusercontent.com/WormBase/website-genome-browsers/$RELEASE-gbrowse/gbrowse/releases/WS$RELEASE/ALL_SPECIES.stats") == 0 or die;
+
+#open AS, $ALLSTATS or die $!;
+open AS, 'ALL_SPECIES.stats' or die $!;
 my $firstline = <AS>;
 chomp $firstline;
 my @columnnames = split /\t/, $firstline;
@@ -608,26 +611,28 @@ sub process_data_files {
 $species =~ /(\w_\w+?)_(\w+)$/;
 my $speciesdir = $1;
 my $projectdir = $2;
-my $datapath = $FILEDIR . 'WS' . $RELEASE . '/species/' . $speciesdir . '/' . $projectdir;
-$GFFFILE   = "$speciesdir.$projectdir.WS$RELEASE.annotations.gff3";
-#$FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
 
-my $copyfailed = 0;
-copy("$datapath/$GFFFILE.gz", '.') or $copyfailed = 1;
+#switch to using the ftp site to make docker builds easier
+##my $datapath = $FILEDIR . 'WS' . $RELEASE . '/species/' . $speciesdir . '/' . $projectdir;
+$GFFFILE   = "$speciesdir.$projectdir.WS$RELEASE.annotations.gff3";
+###$FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
+
+my $copyfailed = 1;
+#copy("$datapath/$GFFFILE.gz", '.') or $copyfailed = 1;
 #copy("$datapath/$FASTAFILE.gz", '.') or $copyfailed = 1;
 
 if ($copyfailed == 1 and !$SIMPLE) {
-    die "local copying of data files failed";
+##    die "local copying of data files failed";
     #use ftp to fetch them
 
     my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
 
     my $gff = "$ftpgffpath/$GFFFILE.gz";
-    my $fasta = "$ftpgffpath/$FASTAFILE.gz";
+##    my $fasta = "$ftpgffpath/$FASTAFILE.gz";
 
     my $quiet = $QUIET ? '-q' : '';
     system("wget $quiet $FTPHOST$gff");
-    system("wget $quiet $FTPHOST$fasta");
+##    system("wget $quiet $FTPHOST$fasta");
 }
 
 system("gunzip -f $GFFFILE.gz");
