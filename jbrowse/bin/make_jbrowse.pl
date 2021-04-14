@@ -541,7 +541,7 @@ my @tmp_gffs = glob("*_$GFFFILE*") if $GFFFILE;
 foreach my $file (@tmp_gffs) {unlink $file;} 
 
 #check for tracks that have data but didn't get processed
-for my $key (keys $speciesdata{$species}) {
+for my $key (keys %{ $speciesdata{$species} }) {
     next if $speciesdata{$species}{$key} == -1;
     $log->error( "\n\nWARNING: TRACK WITH DATA BUT NO CONFIG: $key\n\n");
 }
