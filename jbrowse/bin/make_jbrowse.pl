@@ -13,7 +13,7 @@ use File::Basename;
 use File::Path qw( make_path );
 use File::Remove qw( remove );
 use JSON;
-use Data::Dumper;
+#use Data::Dumper;
 use Log::Log4perl;
 Log::Log4perl->init("log4perl.conf");
 my $log = Log::Log4perl->get_logger('build.log');
@@ -274,7 +274,7 @@ while (my $line = <AS>) {
         }
         elsif ($la[1] eq 'BLAT_IsoSeq_BEST') {
             $track = 'sequence_similarity_other_isoseq_best';
-            warn 'getting BLAT_IsoSeq_BEST';
+            #warn 'getting BLAT_IsoSeq_BEST';
         }
         elsif ($la[1] eq 'minimap') {
             $track = 'minimap';
@@ -327,20 +327,21 @@ if ($SIMPLE) {
     symlink "../c_elegans_$PRIMARY_SPECIES/tracks.conf", "$DATADIR/tracks.conf";
 }
 
+#Don't check any more--we should be aware of when new assemblies come along!
 #check to see if the seq directory is present; if not prepare-refseqs
-##TODO: skip this and use S3 sequences
+## skip this and use S3 sequences
 
-if (new_fasta_md5() ) {
+#if (new_fasta_md5() ) {
 # the fasta changed from the last release, so update it
-    warn "Doing local update of seq for $SPECIES";
-    if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
-        my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
-        system("$nice $command") == 0 or $log->error( $!);
-        unlink $FASTAFILE;
-    }
+#    warn "Doing local update of seq for $SPECIES";
+#    if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
+#        my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
+#        system("$nice $command") == 0 or $log->error( $!);
+#        unlink $FASTAFILE;
+#    }
 #    push @include, "includes/DNA.json";
-}
-else {
+#}
+#else {
 # fasta didn't change, just make a link to the seq dir.
     if (!-e 'data') {
         mkdir 'data';
@@ -350,7 +351,7 @@ else {
     }
     symlink "$JBROWSEREPO/data/$SPECIES/seq", "data/$SPECIES/seq";
 #    push @include, 'includes/'.$SPECIES.'_DNA.json';
-}
+#}
 
 #make a symlink to the organisms include file
 unless (-e "$DATADIR/../organisms.conf") {
@@ -366,29 +367,29 @@ unless (-e "browser_data") {
 ### TODO: all of this symlink making is no longer needed and should be culled
 #create several links in the main dir
 if (!-e "$JBROWSEDIR/full.html") {
-    unlink  "$JBROWSEDIR/css/faceted_track_selector.css";
-    copy   ("$JBROWSEREPO/css/faceted_track_selector.css", "$JBROWSEDIR/css/faceted_track_selector.css");
-    copy   ("$JBROWSEREPO/full.html",    "$JBROWSEDIR/full.html");
-    unlink  "$JBROWSEDIR/index.html";
-    copy   ("$JBROWSEREPO/index.html",   "$JBROWSEDIR/index.html");
-    unlink  "$JBROWSEDIR/jbrowse.conf";
-    copy   ("$JBROWSEREPO/jbrowse.conf", "$JBROWSEDIR/jbrowse.conf");
-    symlink "/home/ubuntu/staging/jbrowse/images", "$JBROWSEDIR/images";
-    dircopy("$JBROWSEREPO/plugins/fullscreen-jbrowse",         "$JBROWSEDIR/plugins/fullscreen-jbrowse");
-    dircopy("$JBROWSEREPO/plugins/wormbase-glyphs",            "$JBROWSEDIR/plugins/wormbase-glyphs");
-    dircopy("$JBROWSEREPO/plugins/HideTrackLabels",            "$JBROWSEDIR/plugins/HideTrackLabels");
+#    unlink  "$JBROWSEDIR/css/faceted_track_selector.css";
+#    copy   ("$JBROWSEREPO/css/faceted_track_selector.css", "$JBROWSEDIR/css/faceted_track_selector.css");
+#    copy   ("$JBROWSEREPO/full.html",    "$JBROWSEDIR/full.html");
+#    unlink  "$JBROWSEDIR/index.html";
+#    copy   ("$JBROWSEREPO/index.html",   "$JBROWSEDIR/index.html");
+#    unlink  "$JBROWSEDIR/jbrowse.conf";
+#    copy   ("$JBROWSEREPO/jbrowse.conf", "$JBROWSEDIR/jbrowse.conf");
+#    symlink "/home/ubuntu/staging/jbrowse/images", "$JBROWSEDIR/images";
+#    dircopy("$JBROWSEREPO/plugins/fullscreen-jbrowse",         "$JBROWSEDIR/plugins/fullscreen-jbrowse");
+#    dircopy("$JBROWSEREPO/plugins/wormbase-glyphs",            "$JBROWSEDIR/plugins/wormbase-glyphs");
+#    dircopy("$JBROWSEREPO/plugins/HideTrackLabels",            "$JBROWSEDIR/plugins/HideTrackLabels");
     #not thrilled about the location of the these plugin locations
-    dircopy("/home/scain/scain/MotifSearch" ,                  "$JBROWSEDIR/plugins/MotifSearch");
-    dircopy("/home/scain/FeatureSequence"   ,                  "$JBROWSEDIR/plugins/FeatureSequence");
-    dircopy("/home/scain/scain/jbrowse-plugins/HierarchicalCheckboxPlugin",
-                                                               "$JBROWSEDIR/plugins/HierarchicalCheckboxPlugin");
-    dircopy("/home/scain/scain/jbrowse-plugins/SwitchTrackSelector",
-                                                               "$JBROWSEDIR/plugins/SwitchTrackSelector");
-    dircopy("/home/scain/sc_fork_screenshotplugin",            "$JBROWSEDIR/plugins/ScreenShotPlugin");
-    dircopy("/home/scain/scain/jbrowse-plugins/colorbycds",    "$JBROWSEDIR/plugins/colorbycds");
+#    dircopy("/home/scain/scain/MotifSearch" ,                  "$JBROWSEDIR/plugins/MotifSearch");
+#    dircopy("/home/scain/FeatureSequence"   ,                  "$JBROWSEDIR/plugins/FeatureSequence");
+#    dircopy("/home/scain/scain/jbrowse-plugins/HierarchicalCheckboxPlugin",
+#                                                               "$JBROWSEDIR/plugins/HierarchicalCheckboxPlugin");
+#    dircopy("/home/scain/scain/jbrowse-plugins/SwitchTrackSelector",
+#                                                               "$JBROWSEDIR/plugins/SwitchTrackSelector");
+#    dircopy("/home/scain/sc_fork_screenshotplugin",            "$JBROWSEDIR/plugins/ScreenShotPlugin");
+#    dircopy("/home/scain/scain/jbrowse-plugins/colorbycds",    "$JBROWSEDIR/plugins/colorbycds");
 
     #rerun setup.sh if jbrowse 1.13 or higher
-    system("./setup.sh") == 0 or die "failed to rerun setup.sh in $JBROWSEDIR for new plugins";
+#    system("./setup.sh") == 0 or die "failed to rerun setup.sh in $JBROWSEDIR for new plugins";
 }
 
 
