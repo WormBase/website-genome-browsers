@@ -218,7 +218,8 @@ my @include = ("../functions.conf");
 die "JBROWSEREPO must be defined" unless (-e $JBROWSEREPO);
 
 #parse all stats
-die "allstats must be defined" unless (-e $ALLSTATS);
+#since fetching allstats from git, it doesnt need to be defined here
+#die "allstats must be defined" unless (-e $ALLSTATS);
 
 system("wget https://raw.githubusercontent.com/WormBase/website-genome-browsers/$RELEASE-gbrowse/gbrowse/releases/WS$RELEASE/ALL_SPECIES.stats") == 0 or die;
 
