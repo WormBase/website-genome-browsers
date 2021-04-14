@@ -3,7 +3,7 @@
 set -e
 
 RELEASE=280
-while getopts r:s:a:k option
+while getopts r:s:a:k: option
 do
 case "${option}"
 in
