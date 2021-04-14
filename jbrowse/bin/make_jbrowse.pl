@@ -338,7 +338,7 @@ if (new_fasta_md5() ) {
         system("$nice $command") == 0 or $log->error( $!);
         unlink $FASTAFILE;
     }
-    push @include, "includes/DNA.json";
+#    push @include, "includes/DNA.json";
 }
 else {
 # fasta didn't change, just make a link to the seq dir.
@@ -349,7 +349,7 @@ else {
         mkdir "data/$SPECIES";
     }
     symlink "$JBROWSEREPO/data/$SPECIES/seq", "data/$SPECIES/seq";
-    push @include, 'includes/'.$SPECIES.'_DNA.json';
+#    push @include, 'includes/'.$SPECIES.'_DNA.json';
 }
 
 #make a symlink to the organisms include file
@@ -363,6 +363,7 @@ unless (-e "browser_data") {
     symlink $BROWSER_DATA, "browser_data" or $log->error( $!);
 }
 
+### TODO: all of this symlink making is no longer needed and should be culled
 #create several links in the main dir
 if (!-e "$JBROWSEDIR/full.html") {
     unlink  "$JBROWSEDIR/css/faceted_track_selector.css";
@@ -446,6 +447,10 @@ if ($species =~ /^(\w_[a-z]+)_(\w+)/) {
     $bioproject = $2;
     $only_species_name = 'simple' if $SIMPLE;
 }
+#
+## Get rid of this: it is for files with only species
+## name and not the bioprogject; those should go away ASAP
+#
 if ($only_species_name and $bioproject ne 'PRJNA275000') {
     my @species_specific = glob("$INCLUDES/$only_species_name"."*");
     for (@species_specific) {
