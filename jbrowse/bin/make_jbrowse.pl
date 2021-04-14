@@ -447,12 +447,8 @@ if ($species =~ /^(\w_[a-z]+)_(\w+)/) {
     $bioproject = $2;
     $only_species_name = 'simple' if $SIMPLE;
 }
-#
-## Get rid of this: it is for files with only species
-## name and not the bioprogject; those should go away ASAP
-#
-if ($only_species_name and $bioproject ne 'PRJNA275000') {
-    my @species_specific = glob("$INCLUDES/$only_species_name"."*");
+if ($only_species_name and $bioproject) {
+    my @species_specific = glob("$INCLUDES/$only_species_name"."_$bioproject"."*");
     for (@species_specific) {
         #ack, in place edit of array elements
         $_ = "includes/".basename($_);
