@@ -22,6 +22,38 @@ k)
 esac
 done
 
+if [ -z "$RELEASE" ]
+then
+    RELEASE=${WB_RELEASE}
+fi
+
+if [ -z "$SPECIES" ]
+then
+    SPECIES=${WB_SPECIES}
+fi
+
+if [ -z "$AWSACCESS" ]
+then
+    AWSACCESS=${AWS_ACCESS_KEY}
+fi
+
+if [ -z "$AWSSECRET" ]
+then
+    AWSSECRET=${AWS_SECRET_KEY}
+fi
+
+if [ -z "$AWSBUCKET" ]
+then
+    if [ -z "${AWS_S3_BUCKET}" ]
+    then
+        AWSBUCKET=${AWS_S3_BUCKET}
+    else
+        AWSBUCKET="agrjbrowse"
+    fi
+fi
+
+
+
 MAKEPATH=/website-genome-browsers/jbrowse/bin/make_jbrowse.pl
 
 CONFPATH=/website-genome-browsers/jbrowse/conf/c_elegans.jbrowse.conf
@@ -45,7 +77,7 @@ UPLOADTOS3PATH=/agr_jbrowse_config/scripts/upload_to_S3.pl
 
 REMOTEPATH="test/WS$RELEASE/$SPECIES"
 
-$UPLOADTOS3PATH --bucket agrjbrowse --local "$SPECIES/" --remote $REMOTEPATH --AWSACCESS $AWSACCESS --AWSSECRET $AWSSECRET
+$UPLOADTOS3PATH --bucket $AWSBUCKET --local "$SPECIES/" --remote $REMOTEPATH --AWSACCESS $AWSACCESS --AWSSECRET $AWSSECRET
  
 
 
