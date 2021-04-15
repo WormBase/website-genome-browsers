@@ -1,0 +1,43 @@
+#Note that for the upload command to work, the AWS access key and the AWS
+# secret key must be args in the docker run command as the arguments in that order
+# (so that they'll be passed to the ENTRYPOINT as first and second arguments).
+# Example invocation:
+
+#     docker build --no-cache -f Dockerfile.processgff -t test-gff . 
+#     docker run --rm test-gff <RELEASE> <FULLSPECIES> <AWSACCESS> <AWSSECRET>
+
+# The script "simple-command.sh" is currently hard coded to do the processing
+# and assumes that the target S3 bucket is the one used for AGR's main JBrowse
+# instance, agrjbrowse, and the path is /mod-jbrowses/zfin, which is what the 
+# trackList.json (JBrowse's track config file) assumes as well.  So, if you want
+# to use a different bucket or path, it needs to be changed both in the simple-command.sh
+# script as well as in /jbrowse/data/trackList.json file (basically, all of the
+# urlTemplate entries for NCList tracks).
+
+# Obviously the simple-command.sh processing script could and probably should be
+# generalized to use a config file to control what gets processed, but since
+# the zfin JBrowse instance is currently pretty simple, there isn't much need to do that.
+
+# Also note that this image only processes GFF files into NCList json and does
+# not deal with processing FASTA data (since it changes relatively infrequently,
+# that is the sort of thing that ought to be done "by hand").  It also doesn't deal
+# with any other file times like BigWig or VCF.
+
+FROM gmod/jbrowse-gff-base:latest 
+
+LABEL maintainer="scott@scottcain.net"
+
+RUN git clone --single-branch --branch jbrowse-gff-docker https://github.com/WormBase/website-genome-browsers.git
+RUN git clone --single-branch --branch master https://github.com/alliance-genome/agr_jbrowse_config.git
+
+RUN cp  /website-genome-browsers/jbrowse/bin/docker-wrapper.sh / && \
+    cp  /website-genome-browsers/jbrowse/bin/single_species_build.sh / && \
+    cp  /website-genome-browsers/jbrowse/conf/log4perl.conf / && \
+    mkdir -p /jbrowse/data/ && \
+    cp -r /website-genome-browsers/jbrowse/jbrowse/data /jbrowse/data
+
+
+VOLUME /data
+#ENTRYPOINT ["/bin/sh", "/docker-wrapper.sh"]
+
+CMD ["/bin/bash", "/single_species_build.sh"]
