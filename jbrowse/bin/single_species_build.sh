@@ -48,7 +48,7 @@ then
     then
         AWSBUCKET=${AWS_S3_BUCKET}
     else
-        AWSBUCKET="agrjbrowse"
+        AWSBUCKET=agrjbrowse
     fi
 fi
 
