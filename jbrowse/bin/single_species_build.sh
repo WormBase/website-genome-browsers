@@ -52,8 +52,6 @@ then
     fi
 fi
 
-echo $AWSBUCKET
-
 MAKEPATH=/website-genome-browsers/jbrowse/bin/make_jbrowse.pl
 
 CONFPATH=/website-genome-browsers/jbrowse/conf/c_elegans.jbrowse.conf
