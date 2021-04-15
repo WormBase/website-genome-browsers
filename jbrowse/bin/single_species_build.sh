@@ -52,7 +52,7 @@ then
     fi
 fi
 
-
+echo $AWSBUCKET
 
 MAKEPATH=/website-genome-browsers/jbrowse/bin/make_jbrowse.pl
 
