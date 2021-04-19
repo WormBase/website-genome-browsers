@@ -93,7 +93,7 @@ sub print_feature {
     
     my $type = $parent->{type};
 
-    for my $key (keys ($parent->{attributes})) {
+    for my $key (keys %{ $parent->{attributes} }) {
         if ($key eq 'ID') {
             my $id = @{ $parent->{attributes}->{ID}}[0];
             $parent->{attributes}->{Name} = $id unless $parent->{type} =~ /[UR]ST_match/;
