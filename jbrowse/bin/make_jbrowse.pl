@@ -207,6 +207,10 @@ $JBROWSEDIR ||=  $Config->{_}->{jbrowsedir};;
 $FTPHOST    = 'ftp://ftp.wormbase.org';
 $FASTAMD5   = "$JBROWSEREPO/../conf/fasta_md5.txt";
 
+if ($SPECIES == 'c_elegans_simple') {
+    $SIMPLE =1;
+}
+
 if ($SIMPLE) {
     $SPECIES = 'c_elegans_simple';
 }
@@ -305,15 +309,15 @@ process_data_files() unless $SIMPLE;
 
 chdir $JBROWSEDIR or die $!." $JBROWSEDIR\n";
 
-#if ($SIMPLE) {
-#    mkdir $DATADIR unless -e $DATADIR;
-#    #make a bunch of symlinks to the main elegans site
-#    symlink "../c_elegans_$PRIMARY_SPECIES/includes"   , "$DATADIR/includes";
-#    symlink "../c_elegans_$PRIMARY_SPECIES/names"      , "$DATADIR/names";
-#    symlink "../c_elegans_$PRIMARY_SPECIES/seq"        , "$DATADIR/seq";
-#    symlink "../c_elegans_$PRIMARY_SPECIES/tracks"     , "$DATADIR/tracks";
-#    symlink "../c_elegans_$PRIMARY_SPECIES/tracks.conf", "$DATADIR/tracks.conf";
-#}
+if ($SIMPLE) {
+    mkdir $DATADIR unless -e $DATADIR;
+    #make a bunch of symlinks to the main elegans site
+    symlink "../c_elegans_$PRIMARY_SPECIES/includes"   , "$DATADIR/includes";
+    symlink "../c_elegans_$PRIMARY_SPECIES/names"      , "$DATADIR/names";
+    symlink "../c_elegans_$PRIMARY_SPECIES/seq"        , "$DATADIR/seq";
+    symlink "../c_elegans_$PRIMARY_SPECIES/tracks"     , "$DATADIR/tracks";
+    symlink "../c_elegans_$PRIMARY_SPECIES/tracks.conf", "$DATADIR/tracks.conf";
+}
 
 #Don't check any more--we should be aware of when new assemblies come along!
 #check to see if the seq directory is present; if not prepare-refseqs
@@ -392,6 +396,13 @@ if ($only_species_name and $bioproject) {
         $_ = "includes/".basename($_);
     }
     push @include, @species_specific;
+}
+if ($SIMPLE) {
+    my @simple_includes = glob("$INCLUDES/simple*");
+    for (@simple_includes) {
+        $_ = "includes/".basename($_);
+    }
+    push @include, @simple_includes;
 }
 
 #create trackList data structure:
