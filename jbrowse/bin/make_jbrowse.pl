@@ -207,7 +207,7 @@ $JBROWSEDIR ||=  $Config->{_}->{jbrowsedir};;
 $FTPHOST    = 'ftp://ftp.wormbase.org';
 $FASTAMD5   = "$JBROWSEREPO/../conf/fasta_md5.txt";
 
-if ($SPECIES == 'c_elegans_simple') {
+if ($SPECIES eq 'c_elegans_simple') {
     $SIMPLE =1;
 }
 
