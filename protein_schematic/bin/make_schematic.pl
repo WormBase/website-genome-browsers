@@ -36,6 +36,7 @@ GetOptions(
     'jbrowsedir=s'=> \$JBROWSEDIR,
     'jbrowserepo=s'=>\$JBROWSEREPO,
     'jbrowsesrc=s'=> \$JBROWSESRC,
+    'release=s'   => \$RELEASE,
     'quiet'       => \$QUIET,
 ) or ( system( 'pod2text', $0 ), exit -1 );
 
