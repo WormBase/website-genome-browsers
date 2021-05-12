@@ -113,5 +113,5 @@ for my $section (@config_sections) {
     system("$nice $command") ==0 or $log->error( $!);
 }
 
-system("$nice bin/generate-names.pl --out $DATADIR --compress")
+system("$nice bin/generate-names.pl --out $DATADIR --compress");
 
