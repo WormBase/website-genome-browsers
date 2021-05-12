@@ -89,6 +89,8 @@ my $command = "bin/prepare-refseqs.pl --compress --fasta $FASTAFILE --out $DATAD
 system("$nice $command") == 0 or $log->error( $!);
 unlink $FASTAFILE;
 
+#only generate names on the protein names
+system("$nice bin/generate-names.pl --out $DATADIR --compress");
 
 #fetch GFF file from ftp
 $GFFFILE ||= $GENUS . "_" . "$species.$BIOPROJECT.WS$RELEASE.protein_annotation.gff3";
@@ -113,5 +115,7 @@ for my $section (@config_sections) {
     system("$nice $command") ==0 or $log->error( $!);
 }
 
-system("$nice bin/generate-names.pl --out $DATADIR --compress");
+#only generate names on the protein names
+#see above
+#system("$nice bin/generate-names.pl --out $DATADIR --compress");
 
