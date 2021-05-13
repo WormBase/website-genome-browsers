@@ -189,9 +189,9 @@
          "seqType" : "protein",
          "showReverseStrand" : 0,
          "showTranslation" : 0,
-         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "storeClass" : "JBrowse/Store/Sequence/IndexedFasta",
          "type" : "SequenceTrack",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/protein_schematic/WS279/c_elegans_PRJNA13758/seq/{refseq_dirpath}/{refseq}-"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/c_elegans.PRJNA13758.WS280.protein.fa"
       }
    ]
 }
