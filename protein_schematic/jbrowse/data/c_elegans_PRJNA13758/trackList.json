@@ -191,7 +191,7 @@
          "showTranslation" : 0,
          "storeClass" : "JBrowse/Store/Sequence/IndexedFasta",
          "type" : "SequenceTrack",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/c_elegans.PRJNA13758.WS280.protein.fa"
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/c_elegans.PRJNA13758.WS280.protein.fa.gz"
       }
    ]
 }
