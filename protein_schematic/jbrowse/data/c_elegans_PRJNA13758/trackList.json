@@ -10,7 +10,7 @@
          "compress" : 1,
          "key" : "Exon boundaries",
          "label" : "Exon boundaries",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "style" : {
             "borderColor" : "black",
             "borderWidth" : 1.5,
@@ -28,7 +28,7 @@
          "compress" : 1,
          "key" : "signalp",
          "label" : "signalp",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "style" : {
             "className" : "feature",
             "color" : "grey",
@@ -43,7 +43,7 @@
          "compress" : 1,
          "key" : "ncoils",
          "label" : "ncoils",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "style" : {
             "className" : "feature",
             "color" : "green",
@@ -58,7 +58,7 @@
          "compress" : 1,
          "key" : "tmhmm",
          "label" : "tmhmm",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "style" : {
             "className" : "feature",
             "color" : "green",
@@ -73,7 +73,7 @@
          "compress" : 1,
          "key" : "Catalytic residue",
          "label" : "Catalytic residue",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "style" : {
             "className" : "feature",
             "color" : "black",
@@ -88,7 +88,7 @@
          "compress" : 1,
          "key" : "Metal binding site",
          "label" : "Metal binding site",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "style" : {
             "className" : "feature",
             "color" : "black",
@@ -103,7 +103,7 @@
          "compress" : 1,
          "key" : "Post transcriptionally modified site",
          "label" : "Post transcriptionally modified site",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "style" : {
             "className" : "feature",
             "color" : "black",
@@ -118,7 +118,7 @@
          "compress" : 1,
          "key" : "seg",
          "label" : "seg",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "style" : {
             "className" : "feature",
             "color" : "lightgrey",
@@ -133,7 +133,7 @@
          "compress" : 1,
          "key" : "Motifs",
          "label" : "Motifs",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "style" : {
             "className" : "feature",
             "color" : "green",
@@ -148,7 +148,7 @@
          "compress" : 1,
          "key" : "Mass spec peptides",
          "label" : "Mass spec peptides",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "style" : {
             "className" : "feature",
             "color" : "blue",
@@ -168,7 +168,7 @@
          "compress" : 1,
          "key" : "MobiDB-lite",
          "label" : "MobiDB-lite",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "storeClass" : "JBrowse/Store/SeqFeature/GFF3Tabix",
          "style" : {
             "className" : "feature",
             "color" : "#5325A8",
