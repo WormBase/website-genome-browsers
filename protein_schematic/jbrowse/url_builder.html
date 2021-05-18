@@ -3,8 +3,8 @@
 
 <script>
  async function buildURL(protein, length, bioproject) {
-  import {TabixIndexedFile} from '@gmod/tabix';
-  import {LocalFile,RemoteFile,BlobFile} from '@gmod/generic-filehandle';
+  const {TabixIndexedFile} = require('@gmod/tabix');
+  const {LocalFile,RemoteFile,BlobFile} = require('@gmod/generic-filehandle');
 
   // use a remote file or other filehandle, note RemoteFile comes from https://github.com/GMOD/generic-filehandle
   //const {RemoteFile} = require('generic-filehandle');
