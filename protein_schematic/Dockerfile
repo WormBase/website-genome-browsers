@@ -17,7 +17,9 @@ ARG RELEASE=279
 #this is using a branch specifically to support faster builds--needs to be incorporated into main jbrowse build
 RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
 
-RUN git clone --single-branch --branch protein-${RELEASE} https://github.com/WormBase/website-genome-browsers.git
+#RUN git clone --single-branch --branch protein-${RELEASE} https://github.com/WormBase/website-genome-browsers.git
+#test-tabix-protein
+RUN git clone --single-branch --branch test-tabix-protein https://github.com/WormBase/website-genome-browsers.git
 
 # Provides the phantomJS powered screenshot plugin
 RUN git clone https://github.com/WormBase/jbplugin-screenshot.git
@@ -38,10 +40,13 @@ WORKDIR /usr/share/nginx/html/tools/protein_schematic
 #RUN ./node_modules/.bin/yarn
 #RUN JBROWSE_BUILD_MIN=1 ./node_modules/.bin/yarn build
 
+RUN npm install generic-filehandle
+RUN npm install @gmod/tabix
+
 RUN ./setup.sh -f
 
-
 FROM nginx:latest as production
+COPY --from=build /usr/share/nginx/html/tools/protein_schematic/node_modules /usr/share/nginx/html/tools/protein_schematic/node_modules
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/dist /usr/share/nginx/html/tools/protein_schematic/dist
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/browser /usr/share/nginx/html/tools/protein_schematic/browser
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/css /usr/share/nginx/html/tools/protein_schematic/css
