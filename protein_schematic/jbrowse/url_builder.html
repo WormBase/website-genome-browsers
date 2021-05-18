@@ -3,101 +3,29 @@
 
 <script>
  async function buildURL(protein, length, bioproject) {
-  //let protocol = window.location.protocol;
-  //let hostname = window.location.hostname;
-  //let port     = window.location.port;
-  let path     = '/tools/protein_schematic/';
+  import {TabixIndexedFile} from '@gmod/tabix';
+  import {LocalFile,RemoteFile,BlobFile} from '@gmod/generic-filehandle';
 
-  //if (port != 80) {
-  //    port = ':'+port;
-  //}
-  //else {
-  //    port = '';
-  //}
-  
-  let releaseVersion = 'WS278';
+  // use a remote file or other filehandle, note RemoteFile comes from https://github.com/GMOD/generic-filehandle
+  //const {RemoteFile} = require('generic-filehandle');
+  const remoteTbiIndexed = new TabixIndexedFile({
+    filehandle: new RemoteFile('https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz'),
+    tbiFilehandle: new RemoteFile('https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz.tbi') // can also be csiFilehandle
+  });
 
-  let releaseVersionJson = '';
-
-  //this will be what's needed when it goes into staging/production
-  //this can probably be a relative url too
-  //let releaseVersionURL = protocol + '//' + hostname + port + '/rest/version';
-//  let releaseVersionURL = '/rest/version';
-  //let releaseVersionURL = 'https://wormbase.org/rest/version';
-//  let releaseVersionResponse = await fetch(releaseVersionURL);
-//  if (releaseVersionResponse.ok) {
-//    releaseVersionJson =  await releaseVersionResponse.json();
-//    releaseVersion = releaseVersionJson.version;
-//  }
-//  else {
-//    alert('fetching version via rest failed');
-//  }
+   // iterate over lines in the specified region
+  const lines = [];
+  await tbiIndexed.getLines(protein,0,undefined, function(line, fileOffset) {
+      console.log(line);
+      lines.push(line);
+  })
 
 
- // this line will have to go away when this goes into production
- // it's just here for testing
- // releaseVersion = 'WS274';
 
- //probably could make this a relative url when it gets incorporated into the webiste 
-//  let jbrowseBaseURL = protocol +'//' + hostname + port + path;
-  let jbrowseBaseURL = path ;
-
-  let baseURL = 'https://s3.amazonaws.com/wormbase-modencode/protein_schematic/'+ releaseVersion + '/' +bioproject + '/';
-  let urlTemplate = baseURL+'tracks/';
 
   let trackPart = 'Exon%20boundaries';
  
-//yes, the next four lines could be wrapped in a function since I'm doing the same thing over and over 
-  let response = await fetch(urlTemplate+'seg/'+protein+'/trackData.jsonz');
-  if (response.ok) { // if HTTP-status is 200-299
-    trackPart = trackPart + '%2Cseg';
-  }
-
-  response = await fetch(urlTemplate+'signalp/'+protein+'/trackData.jsonz');
-  if (response.ok) { // if HTTP-status is 200-299
-    trackPart = trackPart + '%2Csignalp';
-  }
-
-  response = await fetch(urlTemplate+'tmhmm/'+protein+'/trackData.jsonz');
-  if (response.ok) { // if HTTP-status is 200-299
-    trackPart = trackPart + '%2Ctmhmm';
-  }
-
-  response = await fetch(urlTemplate+'ncoils/'+protein+'/trackData.jsonz');
-  if (response.ok) { // if HTTP-status is 200-299
-    trackPart = trackPart + '%2Cncoils';
-  }
-
-  response = await fetch(urlTemplate+'Catalytic%20residue/'+protein+'/trackData.jsonz');
-  if (response.ok) { // if HTTP-status is 200-299
-    trackPart = trackPart + '%2CCatalytic%20residue';
-  }
-
-  response = await fetch(urlTemplate+'Metal%20binding%20site/'+protein+'/trackData.jsonz');
-  if (response.ok) { // if HTTP-status is 200-299
-    trackPart = trackPart + '%2CMetal%20binding%20site';
-  }
-
-  response = await fetch(urlTemplate+'Post%20transcriptionally%20modified%20site/'+protein+'/trackData.jsonz');
-  if (response.ok) { // if HTTP-status is 200-299
-    trackPart = trackPart + '%2CPost%20transcriptionally%20modified%20site';
-  }
-
-  response = await fetch(urlTemplate+'Motifs/'+protein+'/trackData.jsonz');
-  if (response.ok) { // if HTTP-status is 200-299
-    trackPart = trackPart + '%2CMotifs';
-  }
-
-  response = await fetch(urlTemplate+'Selected%20BLASTP%20Homologies/'+protein+'/trackData.jsonz');
-  if (response.ok) { // if HTTP-status is 200-299
-    trackPart = trackPart + '%2CSelected%20BLASTP%20Homologies';
-  }  
-
-//console.log(urlTemplate+'Mass%20spec%20peptides/'+protein+'/trackData.jsonz');
-response = await fetch(urlTemplate+'Mass%20spec%20peptides/'+protein+'/trackData.jsonz');
-  if (response.ok) { // if HTTP-status is 200-299
-    trackPart = trackPart + '%2CMass%20spec%20peptides';
-  }
+  let jbrowseBaseURL = '/';
 
   let fullJBrowseURL = jbrowseBaseURL+'?data=data/'+bioproject+'&tracklabels=0&nav=0&tracklist=0&overview=0&loc='+protein+'%3A1..'+length+'&tracks='+trackPart;
   //alert(fullJBrowseURL);
