@@ -1,31 +1,36 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "function(feature) { var strain = feature.get('strain'); if (strain=='CB4858' || strain=='AF16') {return 'blue';} else if (strain=='CB4856' || strain=='HK104') {return 'yellow';} else {return 'white';} }",
-            "strandArrow" : false,
-            "borderColor" : "black",
-            "description" : "{typeDescription}"
-         },
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{variationURL}",
-            "label" : "{variationsBalloon}",
-            "title" : "Feature in WormBase"
-         },
-         "key" : "Polymorphisms",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Polymorphisms/{refseq}/trackData.jsonz",
-         "compress" : 1,
          "type" : "CanvasFeatures",
-         "label" : "Polymorphisms",
-         "category": "Alleles, Variations, RNAi",
+         "trackType" : "CanvasFeatures",
+         "onClick" : {
+            "label" : "{variationsBalloon}",
+            "url" : "{variationURL}",
+            "title" : "Feature in WormBase",
+            "action" : "iframeDialog"
+         },
+         "style" : {
+            "description" : "{typeDescription}",
+            "height" : 8,
+            "color" : "function(feature) { var strain = feature.get('strain'); if (strain=='CB4858' || strain=='AF16') {return 'blue';} else if (strain=='CB4856' || strain=='HK104') {return 'yellow';} else {return 'white';} }",
+            "className" : "feature",
+            "borderColor" : "black",
+            "strandArrow" : false
+         },
          "metadata" : {
             "shortInfo" : "This track shows single nucleotide polymorphisms (SNPs). In this track, the molecular nature of the polymorphism is indicated by its glyph: Boxes are deletions; triangles are insertions; point mutations and substitutions are diamonds. Color reflects the source strain: polymorphisms found in CB4858 (Pasadena) are shown in blue; those found in CB4856 (Hawaii) in yellow, and all others in white."
          },
-         "maxExportSpan" : 50000000
+         "label" : "Polymorphisms",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Polymorphisms/{refseq}/trackData.jsonz",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "Polymorphisms",
+         "maxHeight" : 3000,
+         "category" : "Alleles, Variations, RNAi",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "glyph" : "{variationGlyph}",
+         "unsafeMouseover" : true
       }
    ]
 }

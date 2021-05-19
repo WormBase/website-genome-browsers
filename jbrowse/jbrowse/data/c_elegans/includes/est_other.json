@@ -1,31 +1,34 @@
 {
    "tracks" : [
       {
+         "trackType" : "CanvasFeatures",
          "style" : {
             "className" : "feature",
-            "color" : "lightgray",
-            "height" : 6
+            "height" : 6,
+            "color" : "lightgray"
          },
-         "subParts" : "match_part",
          "onClick" : {
-            "url" : "{targetURL}",
+            "label" : "Feature in WormBase",
             "action" : "iframeDialog",
             "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
+            "url" : "{targetURL}"
          },
-         "key" : "ESTs (other)",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/ESTs (other)/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "category": "Genes/Supporting Evidence",
-         "label" : "ESTs (other)",
          "metadata" : {
             "shortInfo" : "Native (same-species) Expressed Sequence Tags (ESTs), aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows ESTs that align multiple times, some of which represent repetitive regions. For the 'best' match, see the track labeled 'ESTs (best)'. The paired 5' and 3' ESTs from the same cDNA clone are connected by a dashed line."
          },
+         "type" : "CanvasFeatures",
+         "label" : "ESTs (other)",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/ESTs (other)/{refseq}/trackData.jsonz",
+         "key" : "ESTs (other)",
+         "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "maxExportSpan" : 50000000
+         "unsafeMouseover" : true,
+         "maxHeight" : 5000,
+         "category" : "Genes/Supporting Evidence"
       }
    ]
 }

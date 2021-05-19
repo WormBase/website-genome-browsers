@@ -1,0 +1,30 @@
+{
+   "tracks" : [
+      {
+         "category" : "Alleles, Variations, RNAi",
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "label" : "Variation PCR products",
+         "unsafeMouseover" : true,
+         "type" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Variation PCR products/{refseq}/trackData.jsonz",
+         "trackType" : "CanvasFeatures",
+         "metadata" : {
+            "shortInfo" : "This track indicates the location of primer pairs that were generated to confirm the existence of indels but the exact size and context of the alteration was not determined. The span feature identifies the broad region where the variation exists. Click on the element to obtain additional information."
+         },
+         "style" : {
+            "className" : "feature",
+            "height" : 8
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "onClick" : {
+            "label" : "{variationsBalloon}",
+            "action" : "iframeDialog",
+            "url" : "{variationURL}",
+            "title" : "Feature in WormBase"
+         },
+         "key" : "Variation PCR products"
+      }
+   ]
+}

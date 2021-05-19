@@ -1,0 +1,21 @@
+{
+   "tracks" : [
+      {
+         "key" : "Landmarks",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "label" : "function(f) {var name = f.get('locus'); return name;}"
+         },
+         "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Landmarks/{refseq}/trackData.jsonz",
+         "pinned" : true,
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "label" : "Landmarks",
+         "glyph" : "JBrowse/View/FeatureGlyph/Box",
+         "compress" : 1
+      }
+   ]
+}

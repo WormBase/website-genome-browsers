@@ -1,0 +1,166 @@
+{
+  "tracks": [
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "PHA-4 (GFP ChIP): Binding Sites: PHA4_L2_GFP",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "PHA-4 (GFP ChIP): Binding Sites: PHA4_L2_GFP",
+      "feature": [
+        "binding_site:4190_details"
+      ],
+      "metadata": {
+        "shortInfo": "Identification of Binding Regions for transcription factors in C. elegans. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_L2_GFP/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "PHA-4 (GFP ChIP): Binding Sites: PHA4_L2_GFP",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "PHA-4 (GFP ChIP): Binding Sites: PHA4_FedL1_GFP",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "PHA-4 (GFP ChIP): Binding Sites: PHA4_FedL1_GFP",
+      "feature": [
+        "binding_site:4235_details"
+      ],
+      "metadata": {
+        "shortInfo": "Identification of Binding Regions for transcription factors in C. elegans. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_FedL1_GFP/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "PHA-4 (GFP ChIP): Binding Sites: PHA4_FedL1_GFP",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "PHA-4 (GFP ChIP): Binding Sites: PHA4_emb_GFP",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "PHA-4 (GFP ChIP): Binding Sites: PHA4_emb_GFP",
+      "feature": [
+        "binding_site:4241_details"
+      ],
+      "metadata": {
+        "shortInfo": "Identification of Binding Regions for transcription factors in C. elegans. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_emb_GFP/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "PHA-4 (GFP ChIP): Binding Sites: PHA4_emb_GFP",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "PHA-4 (GFP ChIP): Binding Sites: PHA4_StarvedL1_GFP",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "PHA-4 (GFP ChIP): Binding Sites: PHA4_StarvedL1_GFP",
+      "feature": [
+        "binding_site:4240_details"
+      ],
+      "metadata": {
+        "shortInfo": "Identification of Binding Regions for transcription factors in C. elegans. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_StarvedL1_GFP/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "PHA-4 (GFP ChIP): Binding Sites: PHA4_StarvedL1_GFP",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_YA",
+      "style": {
+        "className": "feature",
+        "showLabels": false,
+        "color": "{snyderHeatMap}",
+        "borderColor": "black",
+        "label": false,
+        "description": false
+      },
+      "key": "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_YA",
+      "feature": [
+        "binding_site:5397_details"
+      ],
+      "metadata": {
+        "shortInfo": "Identification of Binding Regions for transcription factors in C. elegans. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_YA/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites",
+      "label": "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_YA",
+      "type": "CanvasFeatures"
+    },
+    {
+      "displayMode": "collapsed",
+      "autocomplete": "none",
+      "track": "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_lemb",
+      "style": {
+        "className": "feature",
+        "color": "{snyderHeatMap}",
+        "showLabels": false,
+        "label": false,
+        "borderColor": "black",
+        "description": false
+      },
+      "key": "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_lemb",
+      "feature": [
+        "binding_site:5401_details"
+      ],
+      "metadata": {
+        "shortInfo": "Identification of Binding Regions for transcription factors in C. elegans. We are identifying the DNA binding sites for 300 transcription factors in C. elegans. Each transcription factor gene is tagged with the same GFP fusion protein, permitting validation of the gene's correct spatio-temporal expression pattern in transgenic animals.  Chromatin immunoprecipitation on each strain is peformed using an anti-GFP antibody, and any bound DNA is deep-sequenced using Solexa GA2 technology."
+      },
+      "storeClass": "JBrowse/Store/SeqFeature/NCList",
+      "trackType": "CanvasFeatures",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_lemb/{refseq}/trackData.jsonz",
+      "compress": 1,
+      "type": "CanvasFeatures",
+      "label": "PHA-4 (GFP ChIP): Binding Sites: PHA4_GFP_lemb",
+      "category": "modENCODE/Snyder Group/GFP ChIP/Binding Sites"
+    }
+  ]
+}

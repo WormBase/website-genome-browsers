@@ -15,11 +15,14 @@ define([
 return declare( JBrowsePlugin,
 {
     constructor: function( args ) {
+	
+        var thisBrowser = this.browser;
+        var url  = window.location.pathname;
+        var patt = new RegExp("full.html");
+        var inFull = patt.test(url); 
+        if (!inFull && thisBrowser.config.show_nav) {	
+                var makeFull = this.makeFullscreenButton();
 		
-		var thisBrowser = this.browser;
-        var makeFull = this.makeFullscreenButton();
-		
-
 		thisBrowser.afterMilestone('initView', function() {
 	
 			var myMenu = thisBrowser.menuBar;
@@ -31,7 +34,8 @@ return declare( JBrowsePlugin,
 		})
         
 		console.log( "fullpage plugin added" );
-	},
+	}
+   },
 
     makeFullscreenButton: function () {
 	

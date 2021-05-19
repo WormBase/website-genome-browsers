@@ -1,31 +1,33 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "function(f) {var source = f.get('source'); if (source == 'interpolated_pmap_position') {return 'red';} return 'turquoise';  }",
-            "label" : "function(f) {var status = f.get('status'); var gmap = f.get('gmap'); return gmap+' ('+status+')';  }",
-            "height" : 3
-         },
-         "key" : "Genetic limits",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "function(track,f) {var wburl = ''; var name = f.get('gmap'); return wburl+'/get?name='+name+';class=Gene';}",
-            "label" : "Feature in WormBase",
-            "title" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Genetic limits/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category": "Genes/Curated Genes",
-         "label" : "Genetic limits",
-         "type" : "CanvasFeatures",
+         "category" : "Genes/Curated Genes",
          "glyph" : "JBrowse/View/FeatureGlyph/Box",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "label" : "Genetic limits",
+         "unsafeMouseover" : true,
+         "type" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Genetic limits/{refseq}/trackData.jsonz",
+         "trackType" : "CanvasFeatures",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "metadata" : {
             "shortInfo" : "This track shows the maximal extents for genetic loci. Loci that have been interpolated onto the physical map (and whose precise location is unknown) are shown as a thin black span.  The physical extent of such loci are determined by interpolating their genetic position onto the physical map using 95% confidence limits.  Please note that the actual location of such loci may lay outside of the span depicted. Loci with known sequence connections are shown in turquoise and depicted using the physical span of the gene."
          },
-         "maxExportSpan" : 50000000
+         "onClick" : {
+            "label" : "Feature in WormBase",
+            "title" : "Feature in WormBase",
+            "url" : "function(track,f) {var wburl = ''; var name = f.get('gmap'); return wburl+'/get?name='+name+';class=Gene';}",
+            "action" : "iframeDialog"
+         },
+         "style" : {
+            "color" : "function(f) {var source = f.get('source'); if (source == 'interpolated_pmap_position') {return 'red';} return 'turquoise';  }",
+            "height" : 3,
+            "className" : "feature",
+            "label" : "function(f) {var status = f.get('status'); var gmap = f.get('gmap'); return gmap+' ('+status+')';  }"
+         },
+         "key" : "Genetic limits"
       }
    ]
 }

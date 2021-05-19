@@ -1,0 +1,16 @@
+{
+   "tracks" : [
+      {
+         "unsafeMouseover" : true,
+         "codonStarts" : "[ATG]",
+         "label" : "DNA",
+         "compress" : 1,
+         "chunkSize" : 80000,
+         "type" : "SequenceTrack",
+         "key" : "Reference sequence (DNA)",
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/p_redivivus_PRJNA186477/seq/{refseq_dirpath}/{refseq}-"
+      }
+   ]
+}

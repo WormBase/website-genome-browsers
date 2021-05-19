@@ -1,0 +1,58 @@
+<html>
+<head>
+
+<script>
+ async function buildURL(protein, length, bioproject) {
+  const {TabixIndexedFile} = require('@gmod/tabix');
+  const {LocalFile,RemoteFile,BlobFile} = require('@gmod/generic-filehandle');
+
+  // use a remote file or other filehandle, note RemoteFile comes from https://github.com/GMOD/generic-filehandle
+  //const {RemoteFile} = require('generic-filehandle');
+  const remoteTbiIndexed = new TabixIndexedFile({
+    filehandle: new RemoteFile('https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz'),
+    tbiFilehandle: new RemoteFile('https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz.tbi') // can also be csiFilehandle
+  });
+
+   // iterate over lines in the specified region
+  const lines = [];
+  await tbiIndexed.getLines(protein,0,undefined, function(line, fileOffset) {
+      console.log(line);
+      lines.push(line);
+  })
+
+
+
+
+  let trackPart = 'Exon%20boundaries';
+ 
+  let jbrowseBaseURL = '/';
+
+  let fullJBrowseURL = jbrowseBaseURL+'?data=data/'+bioproject+'&tracklabels=0&nav=0&tracklist=0&overview=0&loc='+protein+'%3A1..'+length+'&tracks='+trackPart;
+  //alert(fullJBrowseURL);
+
+  let linkoutJBrowseURL = jbrowseBaseURL+'?loc='+protein+'%3A1..'+length+'&tracks='+trackPart;
+  console.log(linkoutJBrowseURL);
+
+  document.getElementById("replaceme").innerHTML='<object id="innerJBrowse" type="text/html" style="width:100%;height:400px;overflow: auto;" data="'+fullJBrowseURL+'" ></object>';  
+  document.getElementById("linkout").href = linkoutJBrowseURL;
+
+  return ;
+ }
+</script>
+
+</head>
+<body>
+
+<div id="replaceme" style="width:100%;height:400px;background-color:#fff;resize: vertical;overflow: auto;">hello</div>
+
+<button type="button" onclick="buildURL('JC8.10a', 1113, 'c_elegans_PRJNA13758')">UNC-26, isoform a</button>
+<button type="button" onclick="buildURL('C18D11.2', 266, 'c_elegans_PRJNA13758')">MAA-1</button>
+<button type="button" onclick="buildURL('F11C7.3', 424, 'c_elegans_PRJNA13758')">VAP-1</button>
+<button type="button" onclick="buildURL('Y48B6A.11', 922, 'c_elegans_PRJNA13758')">JMJD-2</button>
+<button type="button" onclick="buildURL('T09D3.4a', 490, 'c_elegans_PRJNA13758')">NHR-216, isoform a</button>
+<button type="button" onclick="buildURL('M7.7', 370, 'c_elegans_PRJNA13758')">M7.7</button>
+
+<a id="linkout" href="">linkout<a/>
+
+</body>
+</html>

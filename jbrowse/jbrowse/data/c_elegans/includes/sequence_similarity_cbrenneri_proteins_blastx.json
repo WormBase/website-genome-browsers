@@ -1,32 +1,35 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "orange",
-            "label" : false,
-            "height" : 5
-         },
-         "key" : "C. brenneri proteins",
-         "onClick" : {
-            "url" : "{proteinURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/C. brenneri proteins/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "label" : "C. brenneri proteins",
-         "type" : "CanvasFeatures",
          "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "C. brenneri proteins",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/C. brenneri proteins/{refseq}/trackData.jsonz",
+         "unsafeMouseover" : true,
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "category": "Sequence Similarity/Proteins",
+         "category" : "Sequence Similarity/Proteins",
+         "onClick" : {
+            "url" : "{ssproteinURL}",
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "action" : "iframeDialog",
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}"
+         },
          "metadata" : {
             "shortInfo" : "Matches to WormBase C. brenneri proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
-         "maxExportSpan" : 50000000
+         "style" : {
+            "showLabels" : false,
+            "label" : true,
+            "className" : "feature",
+            "height" : 5,
+            "color" : "orange"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "label" : "C. brenneri proteins"
       }
    ]
 }

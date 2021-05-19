@@ -15,10 +15,12 @@ return declare( JBrowsePlugin,
     constructor: function( args ) {
 		
 		var thisBrowser = this.browser;
-       		var switchSelector = this.makeSelectorButton();
+
+                if (thisBrowser.config.show_menu && thisBrowser.config.show_nav) {
+       		  var switchSelector = this.makeSelectorButton();
 		
 
-		thisBrowser.afterMilestone('initView', function() {
+		  thisBrowser.afterMilestone('initView', function() {
 	
 			var myMenu = thisBrowser.menuBar;
 			
@@ -26,12 +28,21 @@ return declare( JBrowsePlugin,
 
 			myMenu.appendChild(switchSelector);
 		
-		})
+		  })
+                }
         
 		console.log( "switcher plugin added" );
 	},
 
     makeSelectorButton: function () {
+
+        var fullurl = document.location;
+        var selector = 'faceted';
+        var otherSelector = 'checkboxes';
+        if (String(fullurl).match('jbrowse-simple')) {
+            selector = 'checkboxes';
+            otherSelector = 'faceted';
+        }
 	
 	var switchSelector = function(){
 		var ele = document.getElementById("GenomeBrowser");
@@ -40,23 +51,12 @@ return declare( JBrowsePlugin,
 		console.log("entering switcher");
 
                 var url;
-                var fullurl = document.location;
 
-		if (String(fullurl).match('jbrowse-simple')) {
-			if (String(fullurl).match('full.html')) {
-				url = '/tools/genome/jbrowse/full.html';
-			}
-			else {
-				url = '/tools/genome/jbrowse/';
-			}
+		if (selector == 'checkboxes') {
+			url = '/tools/genome/jbrowse/';
                 }
 		else {
-			if (String(fullurl).match('full.html')) {
-				url = '/tools/genome/jbrowse-simple/full.html';
-			}
-			else {
-				url = '/tools/genome/jbrowse-simple/';
-			}
+			url = '/tools/genome/jbrowse-simple/';
 		}
 
                 var get = document.location.search;
@@ -64,14 +64,15 @@ return declare( JBrowsePlugin,
                 var get3 = get2.replace(/overview=0/, 'overview=1');
                 var get4 = get3.replace(/tracklist=0/, 'tracklist=1');
                 var get5 = get4.replace(/c_elegans_simple/, 'c_elegans_PRJNA13758');
-                var newWindow = window.open(url+get5, "WormBase JBrowse");
+                //var newWindow = window.open(url+get5, "WormBase JBrowse");
+                var newWindow = window.open(url+get5, "");
 
 	};
 
 	var selectSelectorButton = new dijitButton({
 		className :"switcher-button",
 		innerHTML:"Track selector",
-		title: "Switch to a different track selector",
+		title: "Open a new window with the "+otherSelector+" track selector",
 		onClick : function(){
 	
 			switchSelector();

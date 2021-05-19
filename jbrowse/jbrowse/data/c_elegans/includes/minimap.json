@@ -1,0 +1,26 @@
+{
+   "tracks" : [
+      {
+         "trackType" : "CanvasFeatures",
+         "style" : {
+            "className" : "feature",
+            "height" : 5
+         },
+         "metadata" : {
+            "shortInfo" : "Regions present in the VC2010 assembly that are not in the N2 assembly."
+         },
+         "type" : "CanvasFeatures",
+         "label" : "N2 Genes (minimap)",
+         "urlTemplate" : "../tracks/N2 Genes (minimap)/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "key" : "N2 Genes (minimap)",
+         "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "maxExportSpan" : 50000000,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "compress" : 1,
+         "unsafeMouseover" : true,
+         "category" : "Genes/Supporting Evidence"
+      }
+   ]
+}

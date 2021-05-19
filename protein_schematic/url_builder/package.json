@@ -1,0 +1,36 @@
+{
+  "name": "url_builder",
+  "version": "1.0.0",
+  "description": "dynamically builds JBrowse url list of tracks",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "test": "mocha test -u bdd -R spec",
+    "prestart": "npm run webpack",
+    "start": "node dist/main.js",
+    "start:dev": "node dist/main.js 9017",
+    "lint": "jshint *.js **/*.js",
+    "precompile": "npm run clean",
+    "clean": "rimraf lib/*",
+    "compile": "npm run compile:ts",
+    "compile:ts": "tsc --outDir ./lib --module commonjs ./src/typescript/app.ts",
+    "webpack": "webpack --mode=development"
+  },
+  "author": "Scott Cain",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.12.0",
+    "mocha": "^8.4.0",
+    "rimraf": "^3.0.2",
+    "should": "^13.2.3",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "@gmod/tabix": "^1.5.0",
+    "cross-fetch": "^3.1.4",
+    "file-uri-to-path": "^2.0.0",
+    "generic-filehandle": "^2.1.0",
+    "node-fetch": "^2.6.1",
+    "webpack": "^4.46.0"
+  }
+}

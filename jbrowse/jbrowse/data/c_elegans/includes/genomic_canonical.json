@@ -1,29 +1,31 @@
 {
    "tracks" : [
       {
+         "key" : "Contig submissions",
          "style" : {
             "className" : "feature",
-            "color" : "sienna",
-            "height" : 7
+            "height" : 7,
+            "color" : "sienna"
          },
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "function(track,f) {var url = 'http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Search&db=Nucleotide&doptcmdl=GenBank&term='; var accn = f.get('Genbank'); if (typeof accn === 'undefined') {return;} return url + accn;}",
-            "label" : "Feature at Genbank",
-            "title" : "Feature at Genbank"
-         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "metadata" : {
             "shortInfo" : "This track shows the location and coordinates of contigs (mostly cosmids) submitted to GenBank/EMBL."
          },
-         "category": "Genome Structure/Assembly & Curation",
-         "key" : "Contig submissions",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "onClick" : {
+            "label" : "Feature at Genbank",
+            "action" : "newWindow",
+            "url" : "function(track,f) {var url = 'http://www.ncbi.nlm.nih.gov:80/entrez/query.fcgi?cmd=Search&db=Nucleotide&doptcmdl=GenBank&term='; var accn; var note = f.get('note'); if (note.match('GenBank:')) {accn = note.substring(8);} if (typeof accn === 'undefined') {note = f.get('note2'); if (note.match('GenBank:')) {accn = note.substring(8);} } if (typeof accn === 'undefined') {return;} return url + accn;}",
+            "title" : "Feature at Genbank"
+         },
          "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
          "urlTemplate" : "../tracks/Contig submissions/{refseq}/trackData.jsonz",
-         "compress" : 1,
          "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
          "label" : "Contig submissions",
-         "maxExportSpan" : 50000000
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "category" : "Genome Structure/Assembly & Curation"
       }
    ]
 }

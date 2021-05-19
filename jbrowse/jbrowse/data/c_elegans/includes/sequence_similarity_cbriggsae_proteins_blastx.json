@@ -1,32 +1,35 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "orange",
-            "label" : false,
-            "height" : 5
-         },
-         "onClick" : {
-            "url" : "{proteinURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
          "key" : "C. briggsae proteins",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/C. briggsae proteins/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "C. briggsae proteins",
-         "category": "Sequence Similarity/Proteins",
          "subParts" : "match_part",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/C. briggsae proteins/{refseq}/trackData.jsonz",
+         "category" : "Sequence Similarity/Proteins",
+         "unsafeMouseover" : true,
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "type" : "CanvasFeatures",
+         "onClick" : {
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "action" : "iframeDialog",
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "url" : "{ssproteinURL}"
+         },
+         "style" : {
+            "showLabels" : false,
+            "className" : "feature",
+            "label" : true,
+            "color" : "orange",
+            "height" : 5
+         },
          "metadata" : {
             "shortInfo" : "Matches to WormBase C. briggsae proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
-         "maxExportSpan" : 50000000
+         "trackType" : "CanvasFeatures",
+         "label" : "C. briggsae proteins"
       }
    ]
 }

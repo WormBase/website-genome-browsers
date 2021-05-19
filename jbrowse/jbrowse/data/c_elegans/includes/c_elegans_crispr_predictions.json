@@ -1,0 +1,31 @@
+{
+   "tracks" : [
+      {
+         "metadata" : {
+            "shortInfo" : "sgRNA predictions from <a href='http://genome.sfu.ca/crispr/'>http://genome.sfu.ca/crispr/</a>.  Used by permission."
+         },
+         "onClick" : {
+            "label" : "{crisprBalloon}",
+            "title" : "sgRNA",
+            "action" : "defaultDialog"
+         },
+         "style" : {
+            "height" : 5,
+            "color" : "gold",
+            "className" : "feature",
+            "label" : true,
+            "showLabels" : false
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "CRISPR_Cas9 sgRNA predictions",
+         "unsafePopup" : true,
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/CRISPR_Cas9 sgRNA predictions/{refseq}/trackData.jsonz",
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "unsafeMouseover" : true,
+         "compress" : 1,
+         "label" : "CRISPR_Cas9 sgRNA predictions",
+         "category" : "Externally Sourced Resources/Other"
+      }
+   ]
+}

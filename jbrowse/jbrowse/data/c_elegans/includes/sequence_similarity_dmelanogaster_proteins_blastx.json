@@ -1,32 +1,35 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "orange",
-            "label" : false,
-            "height" : 5
-         },
-         "key" : "D. melanogaster proteins",
-         "onClick" : {
-            "url" : "{proteinURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
          "urlTemplate" : "../tracks/D. melanogaster proteins/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "label" : "D. melanogaster proteins",
-         "type" : "CanvasFeatures",
          "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "D. melanogaster proteins",
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "category": "Sequence Similarity/Proteins",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "unsafeMouseover" : true,
+         "category" : "Sequence Similarity/Proteins",
+         "trackType" : "CanvasFeatures",
+         "style" : {
+            "showLabels" : false,
+            "label" : true,
+            "className" : "feature",
+            "height" : 5,
+            "color" : "orange"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "{ssproteinURL}",
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}"
+         },
          "metadata" : {
             "shortInfo" : "Matches to Drosophila melanogaster proteins from FlyBase, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
-         "maxExportSpan" : 50000000
+         "type" : "CanvasFeatures",
+         "label" : "D. melanogaster proteins"
       }
    ]
 }

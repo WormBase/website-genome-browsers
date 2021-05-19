@@ -1,33 +1,36 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "{variationColor}",
-            "strandArrow" : false,
-            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
-            "borderColor" : "black",
-            "height" : 8,
-            "description" : "{typeDescription}"
-         },
-         "key" : "Change-of-function alleles",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{variationURL}",
-            "label" : "{variationsBalloon}",
-            "title" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Change-of-function alleles/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "category": "Alleles, Variations, RNAi",
          "type" : "CanvasFeatures",
-         "label" : "Change-of-function alleles",
          "metadata" : {
             "shortInfo" : "This track shows alleles that generate a putative change-of-function. In this track, the type of mutation is indicated by its glyph: Boxes are deletions. Triangles are insertions. Point mutations and substitutions are diamonds. Color shows the potential effect on coding regions. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else. Mouse over the feature for details."
          },
-         "maxExportSpan" : 50000000
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "borderColor" : "black",
+            "strandArrow" : false,
+            "color" : "{variationColor}",
+            "description" : "{typeDescription}",
+            "height" : 8,
+            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
+            "className" : "feature"
+         },
+         "onClick" : {
+            "label" : "{variationsBalloon}",
+            "title" : "Feature in WormBase",
+            "url" : "{variationURL}",
+            "action" : "iframeDialog"
+         },
+         "key" : "Change-of-function alleles",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Change-of-function alleles/{refseq}/trackData.jsonz",
+         "trackType" : "CanvasFeatures",
+         "category" : "Alleles, Variations, RNAi",
+         "unsafeMouseover" : true,
+         "glyph" : "{variationGlyph}",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "label" : "Change-of-function alleles"
       }
    ]
 }

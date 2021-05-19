@@ -1,0 +1,16 @@
+{
+   "tracks" : [
+      {
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/o_volvulus_PRJEB513/seq/{refseq_dirpath}/{refseq}-",
+         "unsafePopup" : true,
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "key" : "Reference sequence (DNA)",
+         "type" : "SequenceTrack",
+         "chunkSize" : 80000,
+         "compress" : 1,
+         "label" : "DNA",
+         "codonStarts" : "[ATG]",
+         "unsafeMouseover" : true
+      }
+   ]
+}

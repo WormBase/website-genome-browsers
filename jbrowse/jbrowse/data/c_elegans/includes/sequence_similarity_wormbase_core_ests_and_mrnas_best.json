@@ -1,32 +1,34 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "{nematodeColor}",
-            "label" : "{nematodeLabel}",
-            "height" : 4
-         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "subParts" : "match_part",
-         "category": "Sequence Similarity/Nucleotide",
+         "key" : "WormBase nematode mRNAs/ESTs",
+         "urlTemplate" : "../tracks/WormBase nematode mRNAs_ESTs (best)/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "unsafeMouseover" : true,
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "category" : "Sequence Similarity/Nucleotide",
+         "style" : {
+            "color" : "{nematodeColor}",
+            "height" : 4,
+            "label" : "{nematodeLabel}",
+            "className" : "feature"
+         },
          "onClick" : {
             "url" : "{targetURL}",
-            "action" : "iframeDialog",
             "title" : "Feature in WormBase",
+            "action" : "iframeDialog",
             "label" : "Feature in WormBase"
          },
-         "key" : "WormBase nematode mRNAs/ESTs (best)",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/WormBase nematode mRNAs_ESTs (best)/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
-         "label" : "WormBase nematode mRNAs/ESTs (best)",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
          "metadata" : {
             "shortInfo" : "ESTs and mRNAs from other WormBase core species aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best location for each cDNA sequence. <p> mRNAs are shown in light blue; ESTs in green."
          },
-         "maxExportSpan" : 50000000
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures",
+         "label" : "WormBase nematode mRNAs/ESTs (best)"
       }
    ]
 }

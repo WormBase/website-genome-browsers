@@ -1,0 +1,16 @@
+{
+   "tracks" : [
+      {
+         "unsafeMouseover" : true,
+         "codonStarts" : "[ATG]",
+         "label" : "DNA",
+         "compress" : 1,
+         "key" : "Reference sequence (DNA)",
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_remanei_PRJNA248911/seq/{refseq_dirpath}/{refseq}-",
+         "unsafePopup" : true,
+         "chunkSize" : 80000,
+         "type" : "SequenceTrack"
+      }
+   ]
+}

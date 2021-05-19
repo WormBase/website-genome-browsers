@@ -1,13 +1,15 @@
 {
    "tracks" : [
       {
-         "chunkSize":20000,
-         "storeClass":"JBrowse/Store/Sequence/StaticChunked",
-         "urlTemplate":"../seq/{refseq_dirpath}/{refseq}-",
-         "category": "Reference sequence",
-         "type":"SequenceTrack",
-         "label":"DNA",
-         "key":"Reference sequence"
+         "unsafeMouseover" : true,
+         "codonStarts" : "[ATG]",
+         "label" : "DNA",
+         "chunkSize" : 20000,
+         "type" : "SequenceTrack",
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "key" : "Reference sequence (DNA)",
+         "urlTemplate" : "../seq/{refseq_dirpath}/{refseq}-",
+         "unsafePopup" : true
       }
    ]
 }

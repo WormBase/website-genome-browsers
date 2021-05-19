@@ -1,32 +1,36 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "{variationColor}",
-            "borderColor" : "black",
-            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
-            "height" : 8,
-            "description" : "{typeDescription}"
-         },
-         "key" : "Change-of-function polymorphisms",
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "{variationURL}",
-            "label" : "{variationsBalloon}",
-            "title" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/Change-of-function polymorphisms/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "label" : "Change-of-function polymorphisms",
-         "category": "Alleles, Variations, RNAi",
          "type" : "CanvasFeatures",
+         "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/Change-of-function polymorphisms/{refseq}/trackData.jsonz",
+         "key" : "Change-of-function polymorphisms",
          "metadata" : {
             "shortInfo" : "This track shows single nucleotide polymorphisms (SNPs) that may generate a change of function. In this track, the molecular nature of the polymorphism is indicated by its glyph: Boxes are deletions; triangles are insertions; point mutations and substitutions are diamonds. Color shows the potential effect on coding regions. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else. Mouse over the feature for details."
          },
-         "maxExportSpan" : 50000000
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "borderColor" : "black",
+            "height" : 8,
+            "description" : "{typeDescription}",
+            "color" : "{variationColor}",
+            "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
+            "className" : "feature",
+            "strandArrow" : false
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "url" : "{variationURL}",
+            "label" : "{variationsBalloon}"
+         },
+         "category" : "Alleles, Variations, RNAi",
+         "label" : "Change-of-function polymorphisms",
+         "glyph" : "{variationGlyph}",
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "unsafeMouseover" : true
       }
    ]
 }

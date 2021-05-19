@@ -1,32 +1,35 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "orange",
-            "label" : false,
-            "height" : 5
-         },
-         "key" : "S. ratti proteins",
-         "onClick" : {
-            "url" : "{proteinURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/S. ratti proteins/{refseq}/trackData.jsonz",
+         "category" : "Sequence Similarity/Proteins",
+         "unsafeMouseover" : true,
+         "maxExportSpan" : 50000000,
          "compress" : 1,
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "key" : "S. ratti proteins",
+         "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/S. ratti proteins/{refseq}/trackData.jsonz",
          "label" : "S. ratti proteins",
          "type" : "CanvasFeatures",
-         "subParts" : "match_part",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "category": "Sequence Similarity/Proteins",
+         "style" : {
+            "label" : true,
+            "className" : "feature",
+            "showLabels" : false,
+            "color" : "orange",
+            "height" : 5
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "url" : "{ssproteinURL}",
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}"
+         },
          "metadata" : {
             "shortInfo" : "Matches to WormBase S. ratti proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
-         "maxExportSpan" : 50000000
+         "trackType" : "CanvasFeatures"
       }
    ]
 }

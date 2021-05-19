@@ -1,31 +1,33 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "{matchColor}",
-            "height" : 6
-         },
-         "subParts" : "match_part",
-         "key" : "mRNAs/ncRNAs (best)",
-         "onClick" : {
-            "url" : "{targetURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/mRNAs_ncRNAs (best)/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "metadata" : {
-            "shortInfo" : "Native (same species) full length cDNAs and ncRNAs aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each cDNA. Other cDNA matches, some of which may represent repetitive elements, are shown in the track labeled 'mRNAs/ncRNAs (other)'"
-         },
          "label" : "mRNAs_ncRNAs (best)",
          "type" : "CanvasFeatures",
-         "category": "Genes/Supporting Evidence",
+         "onClick" : {
+            "action" : "iframeDialog",
+            "title" : "Feature in WormBase",
+            "url" : "{targetURL}",
+            "label" : "Feature in WormBase"
+         },
+         "metadata" : {
+            "shortInfo" : "Native (same species) full length cDNAs and ncRNAs aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each cDNA.'"
+         },
+         "style" : {
+            "color" : "{matchColor}",
+            "height" : 6,
+            "className" : "feature"
+         },
+         "trackType" : "CanvasFeatures",
+         "category" : "Genes/Supporting Evidence",
+         "unsafeMouseover" : true,
+         "compress" : 1,
+         "maxExportSpan" : 50000000,
          "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "maxExportSpan" : 50000000
+         "key" : "mRNAs/ncRNAs",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "subParts" : "match_part",
+         "urlTemplate" : "../tracks/mRNAs_ncRNAs (best)/{refseq}/trackData.jsonz",
+         "unsafePopup" : true
       }
    ]
 }

@@ -1,32 +1,35 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "orange",
-            "label" : false,
-            "height" : 5
-         },
-         "key" : "P. pacificus proteins",
-         "onClick" : {
-            "url" : "{proteinURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/P. pacificus proteins/{refseq}/trackData.jsonz",
+         "category" : "Sequence Similarity/Proteins",
+         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
+         "maxExportSpan" : 50000000,
          "compress" : 1,
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/P. pacificus proteins/{refseq}/trackData.jsonz",
+         "key" : "P. pacificus proteins",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "subParts" : "match_part",
          "label" : "P. pacificus proteins",
          "type" : "CanvasFeatures",
-         "subParts" : "match_part",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "category": "Sequence Similarity/Proteins",
+         "trackType" : "CanvasFeatures",
          "metadata" : {
             "shortInfo" : "Matches to WormBase P. pacificus proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation)."
          },
-         "maxExportSpan" : 50000000
+         "style" : {
+            "showLabels" : false,
+            "label" : true,
+            "className" : "feature",
+            "color" : "orange",
+            "height" : 5
+         },
+         "onClick" : {
+            "url" : "{ssproteinURL}",
+            "title" : "function(track,f) {var clone = f.get('clone'); return clone;}",
+            "action" : "iframeDialog",
+            "label" : "function(track,f) {var clone = f.get('clone'); return clone;}"
+         }
       }
    ]
 }

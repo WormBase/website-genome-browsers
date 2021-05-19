@@ -1,31 +1,42 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "limegreen",
-            "height" : 5
-         },
-         "subParts" : "match_part",
-         "key" : "ESTs (best)",
-         "onClick" : {
-            "url" : "{targetURL}",
-            "action" : "iframeDialog",
-            "title" : "Feature in WormBase",
-            "label" : "Feature in WormBase"
-         },
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/ESTs (best)/{refseq}/trackData.jsonz",
+         "maxHeight" : 5000,
+         "category" : "Genes/Supporting Evidence",
+         "menuTemplate" : [
+            {
+               "iconClass" : "dijitIconDatabase",
+               "content" : "function(track,feature){return track.browser.plugins.FeatureSequence.callFxn(track, feature); }",
+               "label" : "View Sequence",
+               "action" : "contentDialog"
+            }
+         ],
+         "glyph" : "wormbase-glyphs/View/FeatureGlyph/LinkedEST",
+         "maxExportSpan" : 50000000,
          "compress" : 1,
-         "metadata" : {
-            "shortInfo" : "Native (same-species) Expressed Sequence Tags (ESTs), aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each EST. Other EST matches, some of which may represent repetitive elements, are shown in the track labeled 'ESTs (other)'. The paired 5' and 3' ESTs from the same cDNA clone are connected by a dashed line."
-         },
-         "type" : "CanvasFeatures",
-         "category": "Genes/Supporting Evidence",
+         "unsafeMouseover" : true,
+         "unsafePopup" : true,
+         "urlTemplate" : "../tracks/ESTs (best)/{refseq}/trackData.jsonz",
+         "key" : "ESTs",
+         "subParts" : "match_part",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "label" : "ESTs (best)",
-         "glyph" : "JBrowse/View/FeatureGlyph/Segments",
-         "maxExportSpan" : 50000000
+         "type" : "CanvasFeatures",
+         "trackType" : "CanvasFeatures",
+         "metadata" : {
+            "shortInfo" : "Native (same-species) Expressed Sequence Tags (ESTs), aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each EST. The paired 5' and 3' ESTs from the same cDNA clone are connected by a dashed line and a colored light green. ESTs with no mate are yellow, and ESTs with a mate that is 'far away' are dark green."
+         },
+         "style" : {
+            "color" : "function(f) {var mate = f._parent._parent.get('has_mate'); if (mate == 1) {return 'limegreen';} else if (mate == 2) {return 'green';} else if (mate==0) {return 'gold';} return 'black';}",
+            "height" : 5,
+            "className" : "feature"
+         },
+         "onClick" : {
+            "action" : "iframeDialog",
+            "url" : "function(track,f) { var clone = f.get('Name'); return '/get?name='+clone+';class=Clone'; }",
+            "title" : "Feature in WormBase",
+            "label" : "function(track,f) {var clone = f.get('Name'); var has_mate = f.get('has_mate'); if (has_mate ==1) { return clone;} if (has_mate ==0) {return clone +'<br>Singleton EST'; } var child = f.children(); var distant_mate = child[0].get('distant_mate'); return clone + '<br>Mate at '+distant_mate; }"
+         }
       }
    ]
 }

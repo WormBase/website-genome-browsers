@@ -1,29 +1,31 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "violet",
-            "height" : 3
-         },
-         "onClick" : {
-            "action" : "iframeDialog",
-            "url" : "function(track,f) {var wburl = ''; var name = f.get('Name'); return wburl+'/species/all/pcr_oligo/'+name;  }",
-            "label" : "Feature in WormBase",
-            "title" : "Feature in WormBase"
-         },
-         "key" : "PCR Assays",
-         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
-         "trackType" : "CanvasFeatures",
-         "urlTemplate" : "../tracks/PCR Assays/{refseq}/trackData.jsonz",
+         "maxExportSpan" : 50000000,
          "compress" : 1,
-         "category": "Reagents",
+         "label" : "PCR Assays",
+         "unsafeMouseover" : true,
+         "category" : "Reagents",
+         "urlTemplate" : "../tracks/PCR Assays/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "metadata" : {
             "shortInfo" : "This track indicates the location of primer pairs that have been created by a number of groups.  Click on the element to obtain the left and right oligo sequences, information about the amplification information, and ordering information (if available)."
          },
-         "type" : "CanvasFeatures",
-         "label" : "PCR Assays",
-         "maxExportSpan" : 50000000
+         "style" : {
+            "color" : "violet",
+            "height" : 3,
+            "className" : "feature"
+         },
+         "onClick" : {
+            "label" : "Feature in WormBase",
+            "action" : "iframeDialog",
+            "url" : "function(track,f) {var wburl = ''; var name = f.get('Name'); return wburl+'/species/all/pcr_oligo/'+name;  }",
+            "title" : "Feature in WormBase"
+         },
+         "key" : "PCR Assays",
+         "type" : "CanvasFeatures"
       }
    ]
 }

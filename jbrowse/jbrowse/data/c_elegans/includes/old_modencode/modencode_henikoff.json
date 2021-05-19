@@ -1,0 +1,164 @@
+{
+  "tracks": [
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg_color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Adult_Mononucleosomes. Staged C. elegans adults were prepared from a worm strain engineered to express biotin-tagged histone H3.3 (note that the transgene was not induced during this particular experiment).  Chromatin isolated from these animals was digested with micrococcal nuclease and extracted with 80 mM NaCl, followed by gel electrophoresis.  The gel-purified fraction was used in two-color hybridization experiments with NimbleGen genomic tiling microarrays.  The hybridization signal from this fraction was compared to the signal from the input DNA.  Scaled log2(ratios) are shown."
+      },
+      "variance_band": 0,
+      "key": "Mononucleosomes, Adt Mononucleosomes",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/henikoff/4432_SOH34_80g_WS220.mean.bw",
+      "max_score": 3,
+      "min_score": -3,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Henikoff Group",
+      "label": "Mononucleosomes, Adt Mononucleosomes"
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg_color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Adult_Mononucleosomes. Staged C. elegans adults were prepared from a worm strain engineered to express biotin-tagged histone H3.3 (note that the transgene was not induced during this particular experiment).  Chromatin isolated from these animals was digested with micrococcal nuclease and extracted with 80 mM NaCl, followed by gel electrophoresis.  The gel-purified fraction was used in two-color hybridization experiments with NimbleGen genomic tiling microarrays.  The hybridization signal from this fraction was compared to the signal from the input DNA.  Scaled log2(ratios) are shown."
+      },
+      "variance_band": 0,
+      "key": "Mononucleosomes, Emb Mononucleosomes",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/henikoff/4431_SOH52_80g_WS220.mean.bw",
+      "max_score": 3,
+      "min_score": -3,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Henikoff Group",
+      "label": "Mononucleosomes, Emb Mononucleosomes"
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg_color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Adult_Mononucleosomes. Staged C. elegans adults were prepared from a worm strain engineered to express biotin-tagged histone H3.3 (note that the transgene was not induced during this particular experiment).  Chromatin isolated from these animals was digested with micrococcal nuclease and extracted with 80 mM NaCl, followed by gel electrophoresis.  The gel-purified fraction was used in two-color hybridization experiments with NimbleGen genomic tiling microarrays.  The hybridization signal from this fraction was compared to the signal from the input DNA.  Scaled log2(ratios) are shown."
+      },
+      "variance_band": 0,
+      "key": "H3.3 Chromatin fractions extracted with NaCl, 350mM fraction",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/henikoff/4427_SOH_WS220.mean.bw",
+      "max_score": 3,
+      "min_score": -3,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Henikoff Group",
+      "label": "H3.3 Chromatin fractions extracted with NaCl, 350mM fraction"
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg_color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Adult_Mononucleosomes. Staged C. elegans adults were prepared from a worm strain engineered to express biotin-tagged histone H3.3 (note that the transgene was not induced during this particular experiment).  Chromatin isolated from these animals was digested with micrococcal nuclease and extracted with 80 mM NaCl, followed by gel electrophoresis.  The gel-purified fraction was used in two-color hybridization experiments with NimbleGen genomic tiling microarrays.  The hybridization signal from this fraction was compared to the signal from the input DNA.  Scaled log2(ratios) are shown."
+      },
+      "variance_band": 0,
+      "key": "H3.3 Chromatin fractions extracted with NaCl, 600mM fraction",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/henikoff/4428_SOH41_p6PD_WS220.mean.bw",
+      "max_score": 3,
+      "min_score": -3,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Henikoff Group",
+      "label": "H3.3 Chromatin fractions extracted with NaCl, 600mM fraction"
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg_color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Adult_Mononucleosomes. Staged C. elegans adults were prepared from a worm strain engineered to express biotin-tagged histone H3.3 (note that the transgene was not induced during this particular experiment).  Chromatin isolated from these animals was digested with micrococcal nuclease and extracted with 80 mM NaCl, followed by gel electrophoresis.  The gel-purified fraction was used in two-color hybridization experiments with NimbleGen genomic tiling microarrays.  The hybridization signal from this fraction was compared to the signal from the input DNA.  Scaled log2(ratios) are shown."
+      },
+      "variance_band": 0,
+      "key": "H3.3 Chromatin fractions extracted with NaCl, 80mM fraction",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/henikoff/4422_SOH25_80PD_WS220.mean.bw",
+      "max_score": 3,
+      "min_score": -3,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Henikoff Group",
+      "label": "H3.3 Chromatin fractions extracted with NaCl, 80mM fraction"
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg_color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Adult_Mononucleosomes. Staged C. elegans adults were prepared from a worm strain engineered to express biotin-tagged histone H3.3 (note that the transgene was not induced during this particular experiment).  Chromatin isolated from these animals was digested with micrococcal nuclease and extracted with 80 mM NaCl, followed by gel electrophoresis.  The gel-purified fraction was used in two-color hybridization experiments with NimbleGen genomic tiling microarrays.  The hybridization signal from this fraction was compared to the signal from the input DNA.  Scaled log2(ratios) are shown."
+      },
+      "variance_band": 0,
+      "key": "Chromatin fractions extracted with NaCl, 80mM fraction",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/henikoff/4416_SOH18_80g_WS220.mean.bw",
+      "max_score": 3,
+      "min_score": -3,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Henikoff Group",
+      "label": "Chromatin fractions extracted with NaCl, 80mM fraction"
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg_color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Adult_Mononucleosomes. Staged C. elegans adults were prepared from a worm strain engineered to express biotin-tagged histone H3.3 (note that the transgene was not induced during this particular experiment).  Chromatin isolated from these animals was digested with micrococcal nuclease and extracted with 80 mM NaCl, followed by gel electrophoresis.  The gel-purified fraction was used in two-color hybridization experiments with NimbleGen genomic tiling microarrays.  The hybridization signal from this fraction was compared to the signal from the input DNA.  Scaled log2(ratios) are shown."
+      },
+      "variance_band": 0,
+      "key": "Chromatin fractions extracted with NaCl, 600mM fraction",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/henikoff/4417_SOH20_p6_WS220.mean.bw",
+      "max_score": 3,
+      "min_score": -3,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Henikoff Group",
+      "label": "Chromatin fractions extracted with NaCl, 600mM fraction"
+    },
+    {
+      "style": {
+        "clip_marker_color": "red",
+        "pos_color": "blue",
+        "neg_color": "orange",
+        "height": 40
+      },
+      "metadata": {
+        "shortInfo": "Adult_Mononucleosomes. Staged C. elegans adults were prepared from a worm strain engineered to express biotin-tagged histone H3.3 (note that the transgene was not induced during this particular experiment).  Chromatin isolated from these animals was digested with micrococcal nuclease and extracted with 80 mM NaCl, followed by gel electrophoresis.  The gel-purified fraction was used in two-color hybridization experiments with NimbleGen genomic tiling microarrays.  The hybridization signal from this fraction was compared to the signal from the input DNA.  Scaled log2(ratios) are shown."
+      },
+      "variance_band": 0,
+      "key": "Chromatin fractions extracted with NaCl, 600mM Pellet",
+      "storeClass": "JBrowse/Store/SeqFeature/BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/henikoff/4418_SOH44_p6p_WS220.mean.bw",
+      "max_score": 3,
+      "min_score": -3,
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "category": "modENCODE/Henikoff Group",
+      "label": "Chromatin fractions extracted with NaCl, 600mM Pellet"
+    }
+  ]
+}

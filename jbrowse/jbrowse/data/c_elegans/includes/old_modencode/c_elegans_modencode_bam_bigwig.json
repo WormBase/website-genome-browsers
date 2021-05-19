@@ -1,0 +1,1228 @@
+{
+  "tracks": [
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool H (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_H.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool H (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool E (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_E.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool E (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L3(3RACE pilot) (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L3_pilot.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 sequencing pilot (alignments)",
+      "label": "L3(3RACE pilot) (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 emb-thru-adult 454 alignments pilot. In this pilot study, 3UTRs were isolated from specific stages of C. elegans N2 worms, including embryos, L1, L2, L3, and L4 larva, and adults, and RNA isolated using a poly-A capturing technique. RNAs were barcoded, mixed together, and amplified, prior to sequencing on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "daf-9 Dauer (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/daf9.ws190.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "daf-9 Dauer (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": ". : "
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool D",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_D.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool D",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "daf-11 Dauer (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/daf11.ws190.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "daf-11 Dauer (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture  daf-11 dauer 454 alignments. The 3 untranslated region (3UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3RACE cloning-sequencing stragety to identify the 3UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "daf-9 Dauer",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/daf9.ws190.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "daf-9 Dauer",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": ". : "
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool C",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_C.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool C",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool G",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_G.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool G",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "pool G",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/G_bowtie.map.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+      "label": "pool G",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE Illumina sequencing & alignment. Minipools containing 3'UTRs were amplified from mixed-stage N2 animals with target-specific primers.  These minipools may contain potentially different 3'UTR isoforms and were generated from cloning 3'RACE products for each targeted gene. Illumina generated sequences were aligned to the WS190 genome using Bowtie."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "pool D (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/D_bowtie.map.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+      "label": "pool D (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE Illumina sequencing & alignment. Minipools containing 3'UTRs were amplified from mixed-stage N2 animals with target-specific primers.  These minipools may contain potentially different 3'UTR isoforms and were generated from cloning 3'RACE products for each targeted gene. Illumina generated sequences were aligned to the WS190 genome using Bowtie."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L1",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L1.ws190.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "L1",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 L1 454 alignments. 3UTRs were isolated from L1 larva of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, hermaphrodite adult stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "fer-1 unfertilized oocytes (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_oocytes_solexa.ws190.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/miRNAs Illumina sequencing (alignments)",
+      "label": "fer-1 unfertilized oocytes (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": ". : "
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L4(3RACE pilot) (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L4_pilot.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 sequencing pilot (alignments)",
+      "label": "L4(3RACE pilot) (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 emb-thru-adult 454 alignments pilot. In this pilot study, 3UTRs were isolated from specific stages of C. elegans N2 worms, including embryos, L1, L2, L3, and L4 larva, and adults, and RNA isolated using a poly-A capturing technique. RNAs were barcoded, mixed together, and amplified, prior to sequencing on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "him-8 (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_spermatids.ws190.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/miRNAs 454 sequencing (alignments)",
+      "label": "him-8 (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "miRNA isolation and 454 sequencing from him-8 male spermatids. small RNAs (&lt;200 bp) were isolated from him-8 spermatids and sequenced on the Roche 454 platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool E",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_E.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool E",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool H (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_H.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool H (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "daf-7 Dauer (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/daf7.ws190.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "daf-7 Dauer (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture daf-7 dauer 454 alignments. 3UTRs were isolated from dauer larva of C. elegans daf-7 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, dauer stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L2(3RACE pilot) (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L2_pilot.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 sequencing pilot (alignments)",
+      "label": "L2(3RACE pilot) (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 emb-thru-adult 454 alignments pilot. In this pilot study, 3UTRs were isolated from specific stages of C. elegans N2 worms, including embryos, L1, L2, L3, and L4 larva, and adults, and RNA isolated using a poly-A capturing technique. RNAs were barcoded, mixed together, and amplified, prior to sequencing on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "eri-1 (mg366)",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_eri-1_solexa.ws190.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/miRNAs Illumina sequencing (alignments)",
+      "label": "eri-1 (mg366)",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "miRNA isolation and Illumina sequencing from eri-1. small RNAs (&lt;200 bp) were isolated from eri-(mg366) young adults and sequenced on the Illumina platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "glp-4 (bn2)",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA-glp-4_solexa.ws190.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/miRNAs Illumina sequencing (alignments)",
+      "label": "glp-4 (bn2)",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "miRNA isolation and Illumina sequencing from glp-4. small RNAs (&lt;200 bp) were isolated from glp-4(bn2) young adults and sequenced on the Illumina platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool F (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_F.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool F (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "N2 whole worms (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_young_adult.ws190.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/miRNAs 454 sequencing (alignments)",
+      "label": "N2 whole worms (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "miRNA isolation and 454 sequencing from N2 whole worms. small RNAs (&lt;200 bp) were isolated from N2 whole worms and sequenced on the Roche 454 platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "eri-1 (mg366) (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_eri-1_solexa.ws190.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/miRNAs Illumina sequencing (alignments)",
+      "label": "eri-1 (mg366) (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "miRNA isolation and Illumina sequencing from eri-1. small RNAs (&lt;200 bp) were isolated from eri-(mg366) young adults and sequenced on the Illumina platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "daf-2 Dauer (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/daf2.ws190.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "daf-2 Dauer (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture daf-2 dauer 454 alignments. 3UTRs were isolated from dauer larva of C. elegans daf-2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, dauer stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool D (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_D.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool D (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "fer-1 unfertilized oocytes",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_oocytes.ws190.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/miRNAs 454 sequencing (alignments)",
+      "label": "fer-1 unfertilized oocytes",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "miRNA isolation and 454 sequencing from fer-1 unfertilized oocytes. small RNAs (&lt;200 bp) were isolated from unfertilized oocytes derived from fer-1 fertilization-defective adults and sequenced on the Roche 454 platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "pool C",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/C_bowtie.map.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+      "label": "pool C",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE Illumina sequencing & alignment. Minipools containing 3'UTRs were amplified from mixed-stage N2 animals with target-specific primers.  These minipools may contain potentially different 3'UTR isoforms and were generated from cloning 3'RACE products for each targeted gene. Illumina generated sequences were aligned to the WS190 genome using Bowtie."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool G",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_G.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool G",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool C (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_C.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool C (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool B",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_B.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool B",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "Embryo(3RACE pilot)",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/emb_pilot.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 sequencing pilot (alignments)",
+      "label": "Embryo(3RACE pilot)",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 emb-thru-adult 454 alignments pilot. In this pilot study, 3UTRs were isolated from specific stages of C. elegans N2 worms, including embryos, L1, L2, L3, and L4 larva, and adults, and RNA isolated using a poly-A capturing technique. RNAs were barcoded, mixed together, and amplified, prior to sequencing on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "N2 whole worms",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_young_adult.ws190.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/miRNAs 454 sequencing (alignments)",
+      "label": "N2 whole worms",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "miRNA isolation and 454 sequencing from N2 whole worms. small RNAs (&lt;200 bp) were isolated from N2 whole worms and sequenced on the Roche 454 platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "N2 mixed stages",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_mixed_stage_solexa.ws190.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/miRNAs Illumina sequencing (alignments)",
+      "label": "N2 mixed stages",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "miRNA isolation and Illumina sequencing from N2 mixed-stage whole worms. small RNAs (&lt;200 bp) were isolated from mixed-stage N2 whole worms and sequenced on the Illumina platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "pool H (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/H_bowtie.map.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+      "label": "pool H (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE Illumina sequencing & alignment. Minipools containing 3'UTRs were amplified from mixed-stage N2 animals with target-specific primers.  These minipools may contain potentially different 3'UTR isoforms and were generated from cloning 3'RACE products for each targeted gene. Illumina generated sequences were aligned to the WS190 genome using Bowtie."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool A",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_A.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool A",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "pool C (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/C_bowtie.map.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+      "label": "pool C (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE Illumina sequencing & alignment. Minipools containing 3'UTRs were amplified from mixed-stage N2 animals with target-specific primers.  These minipools may contain potentially different 3'UTR isoforms and were generated from cloning 3'RACE products for each targeted gene. Illumina generated sequences were aligned to the WS190 genome using Bowtie."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "pool A",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/A_bowtie.map.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+      "label": "pool A",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE Illumina sequencing & alignment. Minipools containing 3'UTRs were amplified from mixed-stage N2 animals with target-specific primers.  These minipools may contain potentially different 3'UTR isoforms and were generated from cloning 3'RACE products for each targeted gene. Illumina generated sequences were aligned to the WS190 genome using Bowtie."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool G (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_G.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool G (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "Embryo(3RACE pilot) (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/emb_pilot.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 sequencing pilot (alignments)",
+      "label": "Embryo(3RACE pilot) (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 emb-thru-adult 454 alignments pilot. In this pilot study, 3UTRs were isolated from specific stages of C. elegans N2 worms, including embryos, L1, L2, L3, and L4 larva, and adults, and RNA isolated using a poly-A capturing technique. RNAs were barcoded, mixed together, and amplified, prior to sequencing on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "Adult Male",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/male.ws190.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "Adult Male",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 male 454 alignments. 3UTRs were isolated from male adults of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, male adult stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "him-8 (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_spermatids_solexa.ws190.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/miRNAs Illumina sequencing (alignments)",
+      "label": "him-8 (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "miRNA isolation and Illumina sequencing from him-8 male spermatids. small RNAs (&lt;200 bp) were isolated from spermatids from him-8 male worms and sequenced on the Illumina platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool F",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_F.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool F",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool A",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_A.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool A",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool V1 (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_V1.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool V1 (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "glp-4 (bn2)",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA-glp-4.ws190.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/miRNAs 454 sequencing (alignments)",
+      "label": "glp-4 (bn2)",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "miRNA isolation and 454 sequencing from glp-4. small RNAs (&lt;200 bp) were isolated from glp-4(bn2) young adult whole worms and sequenced on the Roche 454 platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool A (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_A.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool A (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool A (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_A.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool A (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool E",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_E.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool E",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "glp-4 (bn2) (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA-glp-4.ws190.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/miRNAs 454 sequencing (alignments)",
+      "label": "glp-4 (bn2) (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "miRNA isolation and 454 sequencing from glp-4. small RNAs (&lt;200 bp) were isolated from glp-4(bn2) young adult whole worms and sequenced on the Roche 454 platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool C (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_C.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool C (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "eri-1 (mg366) (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_eri-1.ws190.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/miRNAs 454 sequencing (alignments)",
+      "label": "eri-1 (mg366) (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "miRNA isolation and 454 sequencing from eri-1. small RNAs (&lt;200 bp) were isolated from eri-1(mg366) young adult whole worms and sequenced on the Roche 454 platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "pool H",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/H_bowtie.map.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+      "label": "pool H",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE Illumina sequencing & alignment. Minipools containing 3'UTRs were amplified from mixed-stage N2 animals with target-specific primers.  These minipools may contain potentially different 3'UTR isoforms and were generated from cloning 3'RACE products for each targeted gene. Illumina generated sequences were aligned to the WS190 genome using Bowtie."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "Adult Male (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/male.ws190.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "Adult Male (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 male 454 alignments. 3UTRs were isolated from male adults of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, male adult stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool H",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_H.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool H",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "Adult Hermaphrodite",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/herm.ws190.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "Adult Hermaphrodite",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 hermaphrodite 454 alignments. 3UTRs were isolated from adult hermaphrodites of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, hermaphrodite adult stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool V1",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_V1.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool V1",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L4(3RACE pilot)",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L4_pilot.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 sequencing pilot (alignments)",
+      "label": "L4(3RACE pilot)",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 emb-thru-adult 454 alignments pilot. In this pilot study, 3UTRs were isolated from specific stages of C. elegans N2 worms, including embryos, L1, L2, L3, and L4 larva, and adults, and RNA isolated using a poly-A capturing technique. RNAs were barcoded, mixed together, and amplified, prior to sequencing on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L3",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L3.ws190.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "L3",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 L3 454 alignments. 3UTRs were isolated from L3 larva of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, L3 stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "pool A (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/A_bowtie.map.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+      "label": "pool A (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE Illumina sequencing & alignment. Minipools containing 3'UTRs were amplified from mixed-stage N2 animals with target-specific primers.  These minipools may contain potentially different 3'UTR isoforms and were generated from cloning 3'RACE products for each targeted gene. Illumina generated sequences were aligned to the WS190 genome using Bowtie."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool D (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_D.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool D (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool G (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_G.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool G (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "daf-2 Dauer",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/daf2.ws190.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "daf-2 Dauer",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture daf-2 dauer 454 alignments. 3UTRs were isolated from dauer larva of C. elegans daf-2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, dauer stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "fer-1 unfertilized oocytes (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_oocytes.ws190.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/miRNAs 454 sequencing (alignments)",
+      "label": "fer-1 unfertilized oocytes (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "miRNA isolation and 454 sequencing from fer-1 unfertilized oocytes. small RNAs (&lt;200 bp) were isolated from unfertilized oocytes derived from fer-1 fertilization-defective adults and sequenced on the Roche 454 platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool H",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_H.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool H",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L2(3RACE pilot)",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L2_pilot.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 sequencing pilot (alignments)",
+      "label": "L2(3RACE pilot)",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 emb-thru-adult 454 alignments pilot. In this pilot study, 3UTRs were isolated from specific stages of C. elegans N2 worms, including embryos, L1, L2, L3, and L4 larva, and adults, and RNA isolated using a poly-A capturing technique. RNAs were barcoded, mixed together, and amplified, prior to sequencing on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L2 (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L2.ws190.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "L2 (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 L2 454 alignments. 3UTRs were isolated from L2 larva of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, L2 stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool F (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_F.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool F (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "daf-7 Dauer",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/daf7.ws190.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "daf-7 Dauer",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture daf-7 dauer 454 alignments. 3UTRs were isolated from dauer larva of C. elegans daf-7 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, dauer stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "Embryo (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/emb.ws190.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "Embryo (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 embryo 454 alignments. 3UTRs were isolated from embryos of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, hermaphrodite adult stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "Embryo",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/emb.ws190.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "Embryo",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 embryo 454 alignments. 3UTRs were isolated from embryos of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, hermaphrodite adult stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "pool G (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/G_bowtie.map.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+      "label": "pool G (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE Illumina sequencing & alignment. Minipools containing 3'UTRs were amplified from mixed-stage N2 animals with target-specific primers.  These minipools may contain potentially different 3'UTR isoforms and were generated from cloning 3'RACE products for each targeted gene. Illumina generated sequences were aligned to the WS190 genome using Bowtie."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool B",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_B.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool B",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "Adult Hermaphrodite (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/herm.ws190.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "Adult Hermaphrodite (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 hermaphrodite 454 alignments. 3UTRs were isolated from adult hermaphrodites of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, hermaphrodite adult stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L2",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L2.ws190.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "L2",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 L2 454 alignments. 3UTRs were isolated from L2 larva of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, L2 stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "pool F",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/F_bowtie.map.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+      "label": "pool F",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE Illumina sequencing & alignment. Minipools containing 3'UTRs were amplified from mixed-stage N2 animals with target-specific primers.  These minipools may contain potentially different 3'UTR isoforms and were generated from cloning 3'RACE products for each targeted gene. Illumina generated sequences were aligned to the WS190 genome using Bowtie."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "glp-4 (bn2) (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA-glp-4_solexa.ws190.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/miRNAs Illumina sequencing (alignments)",
+      "label": "glp-4 (bn2) (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "miRNA isolation and Illumina sequencing from glp-4. small RNAs (&lt;200 bp) were isolated from glp-4(bn2) young adults and sequenced on the Illumina platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "him-8",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_spermatids_solexa.ws190.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/miRNAs Illumina sequencing (alignments)",
+      "label": "him-8",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "miRNA isolation and Illumina sequencing from him-8 male spermatids. small RNAs (&lt;200 bp) were isolated from spermatids from him-8 male worms and sequenced on the Illumina platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool F",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_F.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool F",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "N2 mixed stages (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_mixed_stage_solexa.ws190.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/miRNAs Illumina sequencing (alignments)",
+      "label": "N2 mixed stages (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "miRNA isolation and Illumina sequencing from N2 mixed-stage whole worms. small RNAs (&lt;200 bp) were isolated from mixed-stage N2 whole worms and sequenced on the Illumina platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool B (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_B.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool B (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool C",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_C.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool C",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "pool F (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/F_bowtie.map.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+      "label": "pool F (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE Illumina sequencing & alignment. Minipools containing 3'UTRs were amplified from mixed-stage N2 animals with target-specific primers.  These minipools may contain potentially different 3'UTR isoforms and were generated from cloning 3'RACE products for each targeted gene. Illumina generated sequences were aligned to the WS190 genome using Bowtie."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "N2 embryos (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_embryos_solexa.ws190.sam.gz.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/miRNAs Illumina sequencing (alignments)",
+      "label": "N2 embryos (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "miRNA isolation and Illumina sequencing from N2 embryos. small RNAs (&lt;200 bp) were isolated from N2 embryos and sequenced on the Illumina platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "him-8",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_spermatids.ws190.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/miRNAs 454 sequencing (alignments)",
+      "label": "him-8",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "miRNA isolation and 454 sequencing from him-8 male spermatids. small RNAs (&lt;200 bp) were isolated from him-8 spermatids and sequenced on the Roche 454 platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L3 (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L3.ws190.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "L3 (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 L3 454 alignments. 3UTRs were isolated from L3 larva of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, L3 stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L1 (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L1.ws190.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "L1 (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 L1 454 alignments. 3UTRs were isolated from L1 larva of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, hermaphrodite adult stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "eri-1 (mg366)",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_eri-1.ws190.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/miRNAs 454 sequencing (alignments)",
+      "label": "eri-1 (mg366)",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "miRNA isolation and 454 sequencing from eri-1. small RNAs (&lt;200 bp) were isolated from eri-1(mg366) young adult whole worms and sequenced on the Roche 454 platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "daf-11 Dauer",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/daf11.ws190.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "daf-11 Dauer",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture  daf-11 dauer 454 alignments. The 3 untranslated region (3UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3RACE cloning-sequencing stragety to identify the 3UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool E (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_E.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool E (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "N2 embryos",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_embryos_solexa.ws190.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/miRNAs Illumina sequencing (alignments)",
+      "label": "N2 embryos",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "miRNA isolation and Illumina sequencing from N2 embryos. small RNAs (&lt;200 bp) were isolated from N2 embryos and sequenced on the Illumina platform, and aligned to the WS190 genome using MegaBlast."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "large RACE products -pool B (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco2_B.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "large RACE products -pool B (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "pool D",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/D_bowtie.map.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR Illumina sequencing (alignments)",
+      "label": "pool D",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE Illumina sequencing & alignment. Minipools containing 3'UTRs were amplified from mixed-stage N2 animals with target-specific primers.  These minipools may contain potentially different 3'UTR isoforms and were generated from cloning 3'RACE products for each targeted gene. Illumina generated sequences were aligned to the WS190 genome using Bowtie."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L4 (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L4.ws190.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "L4 (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 L4 454 alignments. 3UTRs were isolated from L4 larva of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, L4 stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L1(3RACE pilot)",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L1_pilot.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 sequencing pilot (alignments)",
+      "label": "L1(3RACE pilot)",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 emb-thru-adult 454 alignments pilot. In this pilot study, 3UTRs were isolated from specific stages of C. elegans N2 worms, including embryos, L1, L2, L3, and L4 larva, and adults, and RNA isolated using a poly-A capturing technique. RNAs were barcoded, mixed together, and amplified, prior to sequencing on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "Adult Hermaphroditte(3RACE pilot) (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/herm_pilot.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 sequencing pilot (alignments)",
+      "label": "Adult Hermaphroditte(3RACE pilot) (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 emb-thru-adult 454 alignments pilot. In this pilot study, 3UTRs were isolated from specific stages of C. elegans N2 worms, including embryos, L1, L2, L3, and L4 larva, and adults, and RNA isolated using a poly-A capturing technique. RNAs were barcoded, mixed together, and amplified, prior to sequencing on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "Adult Hermaphroditte(3RACE pilot)",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/herm_pilot.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 sequencing pilot (alignments)",
+      "label": "Adult Hermaphroditte(3RACE pilot)",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 emb-thru-adult 454 alignments pilot. In this pilot study, 3UTRs were isolated from specific stages of C. elegans N2 worms, including embryos, L1, L2, L3, and L4 larva, and adults, and RNA isolated using a poly-A capturing technique. RNAs were barcoded, mixed together, and amplified, prior to sequencing on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L3(3RACE pilot)",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L3_pilot.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 sequencing pilot (alignments)",
+      "label": "L3(3RACE pilot)",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 emb-thru-adult 454 alignments pilot. In this pilot study, 3UTRs were isolated from specific stages of C. elegans N2 worms, including embryos, L1, L2, L3, and L4 larva, and adults, and RNA isolated using a poly-A capturing technique. RNAs were barcoded, mixed together, and amplified, prior to sequencing on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L1(3RACE pilot) (bigwig)",
+      "storeClass": "BigWig",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L1_pilot.sam.bam.sorted.bw",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 sequencing pilot (alignments)",
+      "label": "L1(3RACE pilot) (bigwig)",
+      "type": "JBrowse/View/Track/Wiggle/XYPlot",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 emb-thru-adult 454 alignments pilot. In this pilot study, 3UTRs were isolated from specific stages of C. elegans N2 worms, including embryos, L1, L2, L3, and L4 larva, and adults, and RNA isolated using a poly-A capturing technique. RNAs were barcoded, mixed together, and amplified, prior to sequencing on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "fer-1 unfertilized oocytes",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/miRNA_oocytes_solexa.ws190.sam.gz.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/miRNAs Illumina sequencing (alignments)",
+      "label": "fer-1 unfertilized oocytes",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": ". : "
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "L4",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/L4.ws190.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/3RACE polyA-capture 3-UTR 454 alignments",
+      "label": "L4",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "3RACE polyA-capture N2 L4 454 alignments. 3UTRs were isolated from L4 larva of C. elegans N2 worms using a poly-A capturing technique. RNAs were sequenced on the Roche 454 platform. This submission reflects the alignments of the deconvoluted, L4 stage-specific reads to WS190 genome using BLAT."
+      }
+    },
+    {
+      "autoscale": "local",
+      "key": "small RACE products -pool D",
+      "storeClass": "JBrowse/Store/SeqFeature/BAM",
+      "urlTemplate": "https://s3.amazonaws.com/wormbase-modencode/sam_binaries/Piano/marco1_D.sam.bam.sorted.bam",
+      "category": "modENCODE/Piano Group/Mixed-stage 3RACE 3-UTR 454 sequencing (alignments)",
+      "label": "small RACE products -pool D",
+      "type": "Alignments2",
+      "metadata": {
+        "shortInfo": "Mixed-stage 3'RACE 454 sequencing & alignment. The 3' untranslated region (3'UTR) constitutes a major site of post-transcriptional regulation of gene expression. Sequence elements in the 3'UTR interact with trans-acting regulators such as microRNAs that affect translation and stability. The overall aim is to use a 3'RACE cloning-sequencing stragety to identify the 3'UTRs of C. elegans transcripts and explore their heterogeneity in different developmental stages and tissues."
+      }
+    }
+  ]
+}

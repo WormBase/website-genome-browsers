@@ -1,0 +1,24 @@
+{
+   "tracks" : [
+      {
+         "category" : "Externally Sourced Resources/Other",
+         "chunkSizeLimit" : 5000000,
+         "label" : "CeNDR variation",
+         "glyph" : "{variationGlyph}",
+         "unsafeMouseover" : true,
+         "type" : "CanvasVariants",
+         "unsafePopup" : true,
+         "urlTemplate" : "https://storage.googleapis.com/elegansvariation.org/releases/current/WI.current.soft-filtered.vcf.gz",
+         "style" : {
+            "color" : "{cendrColor}",
+            "borderColor" : "black",
+            "height" : 8
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
+         "metadata" : {
+            "shortInfo" : "Strain variant data from <a href='https://www.elegansvariation.org/'>https://www.elegansvariation.org/</a>.  For more information see Cook DE, Zdraljevic S, Roberts JP, Andersen EC. CeNDR, the Caenorhabditis elegans natural diversity resource. Nucleic Acids Res. 2017 Jan 4;45(D1):D650-D657. doi: 10.1093/nar/gkw893. Epub 2016 Oct 3. PubMed PMID: 27701074; PubMed Central PMCID: PMC5210618. Colors follow the same scheme as ENSEMBL for <a href='https://uswest.ensembl.org/info/genome/variation/prediction/predicted_data.html'>predicted variants</a>, and variants with no predicted impact are white and variants that don't have recognized predicted consequence are peachpuff (a pale pink-orange). Variants with more than one predicted consequences are colored by the first annotation."
+         },
+         "key" : "CeNDR variation"
+      }
+   ]
+}

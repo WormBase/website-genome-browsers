@@ -1,19 +1,21 @@
 {
    "tracks" : [
       {
-         "style" : {
-            "className" : "feature",
-            "color" : "palevioletred",
-            "label" : false
-         },
-         "category": "Genes/Ab-initio predictions",
+         "type" : "CanvasFeatures",
          "key" : "Prediction: GeneFinder",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "style" : {
+            "className" : "feature",
+            "label" : false,
+            "color" : "palevioletred"
+         },
          "trackType" : "CanvasFeatures",
+         "unsafePopup" : true,
          "urlTemplate" : "../tracks/Prediction: GeneFinder/{refseq}/trackData.jsonz",
-         "compress" : 1,
-         "type" : "CanvasFeatures",
+         "category" : "Genes/Ab-initio predictions",
+         "unsafeMouseover" : true,
          "label" : "Prediction: GeneFinder",
+         "compress" : 1,
          "maxExportSpan" : 50000000
       }
    ]
