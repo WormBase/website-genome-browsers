@@ -6,6 +6,7 @@
   "scripts": {
     "pretest": "npm run lint",
     "test": "mocha test -u bdd -R spec",
+    "prestart": "npm run webpack",
     "start": "node dist/main.js",
     "start:dev": "node dist/main.js 9017",
     "lint": "jshint *.js **/*.js",
@@ -26,6 +27,7 @@
   },
   "dependencies": {
     "@gmod/tabix": "^1.5.0",
+    "cross-fetch": "^3.1.4",
     "file-uri-to-path": "^2.0.0",
     "generic-filehandle": "^2.1.0",
     "node-fetch": "^2.6.1",
