@@ -21,7 +21,7 @@
          "subParts" : "exon",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/exon_boundaries.gff.gz",
          "topLevelFeatures" : "CDS"
       },
       {
@@ -36,7 +36,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/exon_boundaries.gff.gz",
          "topLevelFeatures" : "signal_peptide"
       },
       {
@@ -51,7 +51,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/ncoils.gff.gz",
          "topLevelFeatures" : "coiled_coil"
       },
       {
@@ -66,7 +66,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/tmhmm.gff.gz",
          "topLevelFeatures" : "transmembrane_helix"
       },
       {
@@ -81,7 +81,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/catalytic_residue.gff.gz",
          "topLevelFeatures" : "catalytic_residue"
       },
       {
@@ -96,7 +96,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/metal_binding_site.gff.gz",
          "topLevelFeatures" : "metal_binding_site"
       },
       {
@@ -111,7 +111,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/post_translationally_modified_region.gff.gz",
          "topLevelFeatures" : "post_translationally_modified_region"
       },
       {
@@ -126,7 +126,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/seg.gff.gz",
          "topLevelFeatures" : "compositionally_biased_region_of_peptide"
       },
       {
@@ -141,7 +141,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/motif.gff.gz",
          "topLevelFeatures" : "motif"
       },
       {
@@ -161,7 +161,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/massspec.gff.gz",
          "topLevelFeatures" : "match:Mass_spec_peptide"
       },
       {
@@ -177,7 +177,7 @@
          },
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
-         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/c_elegans.PRJNA13758.WS280.protein_annotation.sorted.gff3.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/test/worm/mobidb.gff.gz",
          "topLevelFeatures" : "intrinsically_unstructured_polypeptide_region"
       },
       {
