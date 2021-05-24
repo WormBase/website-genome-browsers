@@ -40,8 +40,8 @@ WORKDIR /usr/share/nginx/html/tools/protein_schematic
 #RUN ./node_modules/.bin/yarn
 #RUN JBROWSE_BUILD_MIN=1 ./node_modules/.bin/yarn build
 
-RUN npm install generic-filehandle
-RUN npm install @gmod/tabix
+#RUN npm install generic-filehandle
+#RUN npm install @gmod/tabix
 
 RUN ./setup.sh -f
 
