@@ -9,7 +9,7 @@
 
 FROM gmod/jbrowse-buildenv:latest as build
 
-ARG RELEASE=279
+ARG RELEASE=281
 
 # JBrowse source
 #RUN git clone --single-branch --branch 1.16.8-release https://github.com/GMOD/jbrowse.git
@@ -42,7 +42,7 @@ RUN ./setup.sh -f
 
 
 FROM nginx:latest as production
-COPY --from=build /usr/share/nginx/html/tools/protein_schematic/dist /usr/share/nginx/html/tools/protein_schematic/dist
+#COPY --from=build /usr/share/nginx/html/tools/protein_schematic/dist /usr/share/nginx/html/tools/protein_schematic/dist
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/browser /usr/share/nginx/html/tools/protein_schematic/browser
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/css /usr/share/nginx/html/tools/protein_schematic/css
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/data /usr/share/nginx/html/tools/protein_schematic/data
