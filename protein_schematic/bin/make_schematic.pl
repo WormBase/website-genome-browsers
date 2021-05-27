@@ -36,6 +36,7 @@ GetOptions(
     'jbrowsedir=s'=> \$JBROWSEDIR,
     'jbrowserepo=s'=>\$JBROWSEREPO,
     'jbrowsesrc=s'=> \$JBROWSESRC,
+    'release=s'   => \$RELEASE,
     'quiet'       => \$QUIET,
 ) or ( system( 'pod2text', $0 ), exit -1 );
 
@@ -73,13 +74,29 @@ if (!-e $JBROWSEDIR) {
 chdir $JBROWSEDIR or die $!." $JBROWSEDIR\n";
 
 #prepare refseqs
+#fetch fasta file from ftp
+my $FTPHOST    = 'ftp://ftp.wormbase.org';
+
 
 my ($GENUS,$species,$BIOPROJECT) = split('_', $SPECIES);
 $FASTAFILE ||= $GENUS . "_" . "$species.$BIOPROJECT.WS$RELEASE.protein.fa.gz";
-my $fasta_fullpath = $FILEDIR.$GENUS."_$species/$BIOPROJECT/$FASTAFILE";
-my $command = "bin/prepare-refseqs.pl --compress --fasta $fasta_fullpath --out $DATADIR";
+my $FTPPATH = "/pub/wormbase/releases/WS$RELEASE/species/$GENUS" . "_" . "$species/$BIOPROJECT";
+my $ftpfastapath = "$FTPPATH/$FASTAFILE";
+system("wget $FTPHOST/$ftpfastapath");
+#my $fasta_fullpath = $FILEDIR.$GENUS."_$species/$BIOPROJECT/$FASTAFILE";
+my $command = "bin/prepare-refseqs.pl --compress --fasta $FASTAFILE --out $DATADIR";
 
 system("$nice $command") == 0 or $log->error( $!);
+unlink $FASTAFILE;
+
+#only generate names on the protein names
+system("$nice bin/generate-names.pl --out $DATADIR --compress");
+
+#fetch GFF file from ftp
+$GFFFILE ||= $GENUS . "_" . "$species.$BIOPROJECT.WS$RELEASE.protein_annotation.gff3";
+my $ftpgffpath = "$FTPPATH/$GFFFILE.gz";
+system("wget $FTPHOST/$ftpgffpath");
+system("gzip -d $GFFFILE.gz");
 
 #process GFF file
 for my $section (@config_sections) {
@@ -87,16 +104,18 @@ for my $section (@config_sections) {
     my $type   = $Config->{$section}->{type};
     my $label  = $Config->{$section}->{label};
 
-    $GFFFILE ||= $GENUS . "_" . "$species.$BIOPROJECT.WS$RELEASE.protein_annotation.gff3";
-    my $gff_fullpath = $FILEDIR.$GENUS."_$species/$BIOPROJECT/$GFFFILE.gz";
+#    $GFFFILE ||= $GENUS . "_" . "$species.$BIOPROJECT.WS$RELEASE.protein_annotation.gff3";
+#    my $gff_fullpath = $FILEDIR.$GENUS."_$species/$BIOPROJECT/$GFFFILE.gz";
 
-    copy($gff_fullpath, '.') unless -e $GFFFILE;
-    system("gzip -d $GFFFILE") unless -e $GFFFILE;;
+#    copy($gff_fullpath, '.') unless -e $GFFFILE;
+#    system("gzip -d $GFFFILE") unless -e $GFFFILE;;
 
-    my $command ="bin/flatfile-to-json.pl --gff $GFFFILE --out $DATADIR --type \"$type\" --key \"$label\" --tracklabel \"$label\" --trackType CanvasFeatures --compress";
+    $command ="bin/flatfile-to-json.pl --gff $GFFFILE --out $DATADIR --type \"$type\" --key \"$label\" --tracklabel \"$label\" --trackType CanvasFeatures --compress";
     $log->warn( $command) unless $QUIET;
     system("$nice $command") ==0 or $log->error( $!);
 }
 
-system("$nice bin/generate-names.pl --out $DATADIR --compress")
+#only generate names on the protein names
+#see above
+#system("$nice bin/generate-names.pl --out $DATADIR --compress");
 
