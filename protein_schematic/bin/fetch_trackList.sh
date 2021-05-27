@@ -50,12 +50,12 @@ URLBIT='https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase'
 
 for SPECIES in "${SPECIESLIST[@]}" ; do
     echo "getting $SPECIES trackList"
-    wget -O "$SPECIES/trackList.json" "$URLBIT/$RELEASE/protein/$SPECIES/trackList.json"
+    wget -O "data/$SPECIES/trackList.json" "$URLBIT/$RELEASE/protein/$SPECIES/trackList.json"
 done
 
 for SPECIES in "${SPECIESLIST[@]}" ; do
     echo "getting $SPECIES refSeqs"
-    wget -O "$SPECIES/seq/refSeqs.json" "$URLBIT/$RELEASE/protein/$SPECIES/seq/refSeqs.json"
+    wget -O "data/$SPECIES/seq/refSeqs.json" "$URLBIT/$RELEASE/protein/$SPECIES/seq/refSeqs.json"
 done
 
 
