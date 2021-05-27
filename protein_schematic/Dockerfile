@@ -34,6 +34,10 @@ RUN rm /usr/share/nginx/html/index.html && rm /usr/share/nginx/html/50x.html && 
     
 WORKDIR /usr/share/nginx/html/tools/protein_schematic
 
+RUN cp /website-genome-browsers/protein_schematic/bin/fetch_trackList.sh .
+
+RUN ./fetch_trackList.sh -r WS${RELEASE}
+
 #RUN npm install yarn
 #RUN ./node_modules/.bin/yarn
 #RUN JBROWSE_BUILD_MIN=1 ./node_modules/.bin/yarn build
@@ -42,7 +46,7 @@ RUN ./setup.sh -f
 
 
 FROM nginx:latest as production
-#COPY --from=build /usr/share/nginx/html/tools/protein_schematic/dist /usr/share/nginx/html/tools/protein_schematic/dist
+COPY --from=build /usr/share/nginx/html/tools/protein_schematic/dist /usr/share/nginx/html/tools/protein_schematic/dist
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/browser /usr/share/nginx/html/tools/protein_schematic/browser
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/css /usr/share/nginx/html/tools/protein_schematic/css
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/data /usr/share/nginx/html/tools/protein_schematic/data
