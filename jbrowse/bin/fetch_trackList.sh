@@ -50,7 +50,8 @@ for SPECIES in "${SPECIESLIST[@]}" ; do
     wget -O "$SPECIES/trackList.json" "$URLBIT/$RELEASE/protein/$SPECIES/trackList.json"
 done
 
-for SPECIES in "${SPECIESLIST[@]}" ; do
-    echo "getting $SPECIES refSeqs"
-    wget -O "$SPECIES/seq/refSeqs.json" "$URLBIT/$RELEASE/protein/$SPECIES/seq/refSeqs.json"
-done
+#should not be fetching refseqs here as this step shouldn't be processing sequence
+#for SPECIES in "${SPECIESLIST[@]}" ; do
+#    echo "getting $SPECIES refSeqs"
+#    wget -O "$SPECIES/seq/refSeqs.json" "$URLBIT/$RELEASE/protein/$SPECIES/seq/refSeqs.json"
+#done
