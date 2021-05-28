@@ -225,29 +225,30 @@ die "JBROWSEREPO must be defined" unless (-e $JBROWSEREPO);
 #since fetching allstats from git, it doesnt need to be defined here
 #die "allstats must be defined" unless (-e $ALLSTATS);
 
-system("wget https://raw.githubusercontent.com/WormBase/website-genome-browsers/$RELEASE-gbrowse/gbrowse/releases/WS$RELEASE/ALL_SPECIES.stats") == 0 or die;
+#system("wget https://raw.githubusercontent.com/WormBase/website-genome-browsers/$RELEASE-gbrowse/gbrowse/releases/WS$RELEASE/ALL_SPECIES.stats") == 0 or die;
 
 #open AS, $ALLSTATS or die $!;
-open AS, 'ALL_SPECIES.stats' or die $!;
-my $firstline = <AS>;
-chomp $firstline;
-my @columnnames = split /\t/, $firstline;
+#open AS, 'ALL_SPECIES.stats' or die $!;
+#my $firstline = <AS>;
+#chomp $firstline;
+#my @columnnames = split /\t/, $firstline;
 
-my @fullspecies_id = grep { /^$SPECIES/ } @columnnames;
+#my @fullspecies_id = grep { /^$SPECIES/ } @columnnames;
 
-if (@fullspecies_id > 1) {
-    print STDERR <<END
-
-The species you specified on the command line has more than
-one data set associated with it. Please rerun the command
-and specify one of these:
-END
-;
-
-    print STDERR "  ".join("\n  ",@fullspecies_id)."\n\n";
-    exit(1);
-}
-my $species = $fullspecies_id[0];
+#if (@fullspecies_id > 1) {
+#    print STDERR <<END
+#
+#The species you specified on the command line has more than
+#one data set associated with it. Please rerun the command
+#and specify one of these:
+#END
+#;
+#
+#    print STDERR "  ".join("\n  ",@fullspecies_id)."\n\n";
+#    exit(1);
+#}
+#my $species = $fullspecies_id[0];
+my $species = $SPECIES;
 $species    = 'c_elegans_simple' if $SIMPLE;
 die "No matching species found: $SPECIES\n" unless $species;
 
@@ -255,57 +256,57 @@ $DATADIR  ||= "$JBROWSEDIR/data/$species";
 my %speciesdata;
 
 #parse the rest of the file
-while (my $line = <AS>) {
-    chomp $line;
-    my @la = split /\t/, $line;
+#while (my $line = <AS>) {
+#    chomp $line;
+#    my @la = split /\t/, $line;
 
-    my $track;
-    if($la[3] =~ /\((\S+?)\)$/ ) {
-        $track = $1;
-    }
-    else {
+#    my $track;
+#    if($la[3] =~ /\((\S+?)\)$/ ) {
+#        $track = $1;
+#    }
+#    else {
         #if there's no config for this track, goto next line
           #current exceptions: gene:landmark, since that's handled diff in gb
           #lincRNA:WBPaper00056245 since there is currently not a gb track
-        if ($la[1] =~ /landmark/) {
-            $track = 'landmarks';
-        }
-        elsif ($la[1] =~ /WBPaper00056245/) {
-            $track = 'alper_lincrna';
-        } 
-        elsif ($la[1] eq 'BLAT_Caen_Nanopore_BEST') {
-            $track = 'sequence_similarity_nanopore_best';
-        }
-        elsif ($la[1] eq 'BLAT_Nanopore_BEST') {
-            $track = 'sequence_similarity_nanopore_best';
-            #warn "getting BLAT_Nanopore_BEST";
-        }
-        elsif ($la[1] eq 'BLAT_IsoSeq_BEST') {
-            $track = 'sequence_similarity_other_isoseq_best';
-            #warn 'getting BLAT_IsoSeq_BEST';
-        }
-        elsif ($la[1] eq 'minimap') {
-            $track = 'minimap';
-        }
-        elsif ($la[1] eq 'not_lifted_over') {
-            $track = 'not_lifted_over';
-        }
-        else {
-            next;
-        }
-    }
+#        if ($la[1] =~ /landmark/) {
+#            $track = 'landmarks';
+#        }
+#        elsif ($la[1] =~ /WBPaper00056245/) {
+#            $track = 'alper_lincrna';
+#        } 
+#        elsif ($la[1] eq 'BLAT_Caen_Nanopore_BEST') {
+#            $track = 'sequence_similarity_nanopore_best';
+#        }
+#        elsif ($la[1] eq 'BLAT_Nanopore_BEST') {
+#            $track = 'sequence_similarity_nanopore_best';
+#            #warn "getting BLAT_Nanopore_BEST";
+#        }
+#        elsif ($la[1] eq 'BLAT_IsoSeq_BEST') {
+#            $track = 'sequence_similarity_other_isoseq_best';
+#            #warn 'getting BLAT_IsoSeq_BEST';
+#        }
+#        elsif ($la[1] eq 'minimap') {
+#            $track = 'minimap';
+#        }
+#        elsif ($la[1] eq 'not_lifted_over') {
+#            $track = 'not_lifted_over';
+#        }
+#        else {
+#            next;
+#        }
+#    }
 
-    for (my $i=0;$i<scalar(@la);$i++) {
-        next unless $la[$i];
-        $speciesdata{$columnnames[$i]}{$track} = $la[$i];
-    }
-}
-close AS;
+#    for (my $i=0;$i<scalar(@la);$i++) {
+#        next unless $la[$i];
+#        $speciesdata{$columnnames[$i]}{$track} = $la[$i];
+#    }
+#}
+#close AS;
 
 print "Processing $species ...\n";
 
 
-process_data_files() unless $SIMPLE;
+process_data_files($Config) unless $SIMPLE;
 
 chdir $JBROWSEDIR or die $!." $JBROWSEDIR\n";
 
@@ -358,9 +359,10 @@ if ($SIMPLE) {
 
 #use grep-created files for specific tracks
 #first process tracks that will be name indexed
-for my $section (@config_sections) {
+for my $section (keys %{$Config}) {
     next unless (defined $Config->{$section}->{index} and $Config->{$section}->{index} == 1);
-    next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
+    #just process all of them
+    #next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
 }
@@ -375,7 +377,8 @@ system("$nice bin/generate-names.pl --out $DATADIR --compress")
 
 for my $section (@config_sections) {
     next if (defined $Config->{$section}->{index} and $Config->{$section}->{index} == 1);
-    next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
+    #just process all of them
+    #next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
 }
@@ -476,8 +479,9 @@ sub process_grep_track {
         }
         $gffout = $gffout.".".$suffix;
     }
-   
+  
     return unless -e $gffout;
+    return if -z $gffout;
 
     my $type   = $config->{$section}->{type};
     my @label;
@@ -508,6 +512,7 @@ sub process_grep_track {
 }
 
 sub process_data_files {
+my $config=shift;
 
 #fetch the GFF and fasta files
 $species =~ /(\w_\w+?)_(\w+)$/;
@@ -545,7 +550,7 @@ system("gunzip -f $GFFFILE.gz");
 
 #use grep to create type specific gff files
 unless ($SKIPFILESPLIT) {
-  for my $section (@config_sections) {
+  for my $section (keys %{$config}) {
 
     $log->debug($section);
     if ($section =~ /RNASeq/i) {
@@ -555,6 +560,7 @@ unless ($SKIPFILESPLIT) {
 
     my $alt = $Config->{$section}->{altfile};
     my $key = $alt ? $alt : $section;
+
     my $gffout      ||= $Config->{$key}->{prefix} . "_$GFFFILE";
     my $greppattern ||= $Config->{$key}->{grep};
     my $postprocess ||= $Config->{$key}->{postprocess};
@@ -569,9 +575,10 @@ unless ($SKIPFILESPLIT) {
         $log->warn("Suffix is defined but gffout doesn't exist! $gffout");
         next;
     }
-    elsif (!$speciesdata{$species}{$section}) {
-        next;
-    }
+#  I don't think this is necessary now
+#    elsif (!$speciesdata{$species}{$section}) {
+#        next;
+#    }
 
     if ($postprocess) {
         my @args = split / /, $postprocess;
@@ -597,6 +604,8 @@ unless ($SKIPFILESPLIT) {
         $log->warn( $grepcommand) unless $QUIET;
         system ("$nice $grepcommand") == 0 or $log->error( "$GFFFILE: $!");
     }
+
+    next if (-z $gffout);
 
     if ($postprocess) {
         system("$nice $Bin/$postprocess $gffout") == 0 or $log->error( "postpressing $gffout: $!");
