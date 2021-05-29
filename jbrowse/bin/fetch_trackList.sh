@@ -47,7 +47,7 @@ URLBIT='https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase'
 
 for SPECIES in "${SPECIESLIST[@]}" ; do
     echo "getting $SPECIES trackList"
-    wget -O "$SPECIES/trackList.json" "$URLBIT/$RELEASE/$SPECIES/trackList.json"
+    wget -O "data/$SPECIES/trackList.json" "$URLBIT/$RELEASE/$SPECIES/trackList.json"
 done
 
 #should not be fetching refseqs here as this step shouldn't be processing sequence
