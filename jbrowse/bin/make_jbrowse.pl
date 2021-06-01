@@ -13,7 +13,7 @@ use File::Basename;
 use File::Path qw( make_path );
 use File::Remove qw( remove );
 use JSON;
-use Data::Dumper;
+#use Data::Dumper;
 use Log::Log4perl;
 Log::Log4perl->init("log4perl.conf");
 my $log = Log::Log4perl->get_logger('build.log');
@@ -207,6 +207,10 @@ $JBROWSEDIR ||=  $Config->{_}->{jbrowsedir};;
 $FTPHOST    = 'ftp://ftp.wormbase.org';
 $FASTAMD5   = "$JBROWSEREPO/../conf/fasta_md5.txt";
 
+if ($SPECIES eq 'c_elegans_simple') {
+    $SIMPLE =1;
+}
+
 if ($SIMPLE) {
     $SPECIES = 'c_elegans_simple';
 }
@@ -218,28 +222,33 @@ my @include = ("../functions.conf");
 die "JBROWSEREPO must be defined" unless (-e $JBROWSEREPO);
 
 #parse all stats
-die "allstats must be defined" unless (-e $ALLSTATS);
+#since fetching allstats from git, it doesnt need to be defined here
+#die "allstats must be defined" unless (-e $ALLSTATS);
 
-open AS, $ALLSTATS or die $!;
-my $firstline = <AS>;
-chomp $firstline;
-my @columnnames = split /\t/, $firstline;
+#system("wget https://raw.githubusercontent.com/WormBase/website-genome-browsers/$RELEASE-gbrowse/gbrowse/releases/WS$RELEASE/ALL_SPECIES.stats") == 0 or die;
 
-my @fullspecies_id = grep { /^$SPECIES/ } @columnnames;
+#open AS, $ALLSTATS or die $!;
+#open AS, 'ALL_SPECIES.stats' or die $!;
+#my $firstline = <AS>;
+#chomp $firstline;
+#my @columnnames = split /\t/, $firstline;
 
-if (@fullspecies_id > 1) {
-    print STDERR <<END
+#my @fullspecies_id = grep { /^$SPECIES/ } @columnnames;
 
-The species you specified on the command line has more than
-one data set associated with it. Please rerun the command
-and specify one of these:
-END
-;
-
-    print STDERR "  ".join("\n  ",@fullspecies_id)."\n\n";
-    exit(1);
-}
-my $species = $fullspecies_id[0];
+#if (@fullspecies_id > 1) {
+#    print STDERR <<END
+#
+#The species you specified on the command line has more than
+#one data set associated with it. Please rerun the command
+#and specify one of these:
+#END
+#;
+#
+#    print STDERR "  ".join("\n  ",@fullspecies_id)."\n\n";
+#    exit(1);
+#}
+#my $species = $fullspecies_id[0];
+my $species = $SPECIES;
 $species    = 'c_elegans_simple' if $SIMPLE;
 die "No matching species found: $SPECIES\n" unless $species;
 
@@ -247,73 +256,57 @@ $DATADIR  ||= "$JBROWSEDIR/data/$species";
 my %speciesdata;
 
 #parse the rest of the file
-while (my $line = <AS>) {
-    chomp $line;
-    my @la = split /\t/, $line;
+#while (my $line = <AS>) {
+#    chomp $line;
+#    my @la = split /\t/, $line;
 
-    my $track;
-    if($la[3] =~ /\((\S+?)\)$/ ) {
-        $track = $1;
-    }
-    else {
+#    my $track;
+#    if($la[3] =~ /\((\S+?)\)$/ ) {
+#        $track = $1;
+#    }
+#    else {
         #if there's no config for this track, goto next line
           #current exceptions: gene:landmark, since that's handled diff in gb
           #lincRNA:WBPaper00056245 since there is currently not a gb track
-        if ($la[1] =~ /landmark/) {
-            $track = 'landmarks';
-        }
-        elsif ($la[1] =~ /WBPaper00056245/) {
-            $track = 'alper_lincrna';
-        } 
-        elsif ($la[1] eq 'BLAT_Caen_Nanopore_BEST') {
-            $track = 'sequence_similarity_nanopore_best';
-        }
-        elsif ($la[1] eq 'BLAT_Nanopore_BEST') {
-            $track = 'sequence_similarity_nanopore_best';
-            #warn "getting BLAT_Nanopore_BEST";
-        }
-        elsif ($la[1] eq 'BLAT_IsoSeq_BEST') {
-            $track = 'sequence_similarity_other_isoseq_best';
-            warn 'getting BLAT_IsoSeq_BEST';
-        }
-        elsif ($la[1] eq 'minimap') {
-            $track = 'minimap';
-        }
-        elsif ($la[1] eq 'not_lifted_over') {
-            $track = 'not_lifted_over';
-        }
-        else {
-            next;
-        }
-    }
+#        if ($la[1] =~ /landmark/) {
+#            $track = 'landmarks';
+#        }
+#        elsif ($la[1] =~ /WBPaper00056245/) {
+#            $track = 'alper_lincrna';
+#        } 
+#        elsif ($la[1] eq 'BLAT_Caen_Nanopore_BEST') {
+#            $track = 'sequence_similarity_nanopore_best';
+#        }
+#        elsif ($la[1] eq 'BLAT_Nanopore_BEST') {
+#            $track = 'sequence_similarity_nanopore_best';
+#            #warn "getting BLAT_Nanopore_BEST";
+#        }
+#        elsif ($la[1] eq 'BLAT_IsoSeq_BEST') {
+#            $track = 'sequence_similarity_other_isoseq_best';
+#            #warn 'getting BLAT_IsoSeq_BEST';
+#        }
+#        elsif ($la[1] eq 'minimap') {
+#            $track = 'minimap';
+#        }
+#        elsif ($la[1] eq 'not_lifted_over') {
+#            $track = 'not_lifted_over';
+#        }
+#        else {
+#            next;
+#        }
+#    }
 
-    for (my $i=0;$i<scalar(@la);$i++) {
-        next unless $la[$i];
-        $speciesdata{$columnnames[$i]}{$track} = $la[$i];
-    }
-}
-close AS;
+#    for (my $i=0;$i<scalar(@la);$i++) {
+#        next unless $la[$i];
+#        $speciesdata{$columnnames[$i]}{$track} = $la[$i];
+#    }
+#}
+#close AS;
 
 print "Processing $species ...\n";
 
 
-process_data_files() unless $SIMPLE;
-
-#check of $JBROWSEDIR exists, and if not, create it and build jbrowse
-if (!-e $JBROWSEDIR) {
-    print "Building JBrowse from source...\n";
-    -e $JBROWSESRC or die "JBROWSESRC isn't specified; can't continue";
-    make_path( $JBROWSEDIR );
-    copy($JBROWSESRC, "$JBROWSEDIR/..");
-    chdir("$JBROWSEDIR/..");
-    my @zipfile = <*.zip>;
-    system("unzip", $zipfile[0]) == 0 or die "failed to unzip jbrowse src";
-    remove($zipfile[0]);
-    my @jbrowsesrc = <JB*>;
-    move($jbrowsesrc[0], $JBROWSEDIR);
-    chdir($JBROWSEDIR);
-    system("./setup.sh") == 0 or die "failed to run setup.sh in $JBROWSEDIR";
-}
+process_data_files($Config) unless $SIMPLE;
 
 chdir $JBROWSEDIR or die $!." $JBROWSEDIR\n";
 
@@ -327,20 +320,21 @@ if ($SIMPLE) {
     symlink "../c_elegans_$PRIMARY_SPECIES/tracks.conf", "$DATADIR/tracks.conf";
 }
 
+#Don't check any more--we should be aware of when new assemblies come along!
 #check to see if the seq directory is present; if not prepare-refseqs
-##TODO: skip this and use S3 sequences
+## skip this and use S3 sequences
 
-if (new_fasta_md5() ) {
+#if (new_fasta_md5() ) {
 # the fasta changed from the last release, so update it
-    warn "Doing local update of seq for $SPECIES";
-    if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
-        my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
-        system("$nice $command") == 0 or $log->error( $!);
-        unlink $FASTAFILE;
-    }
-    push @include, "includes/DNA.json";
-}
-else {
+#    warn "Doing local update of seq for $SPECIES";
+#    if (!-e $DATADIR."/seq" and !$SKIPPREPARE) {
+#        my $command = "bin/prepare-refseqs.pl --fasta $INITIALDIR"."/"."$FASTAFILE --out $DATADIR";
+#        system("$nice $command") == 0 or $log->error( $!);
+#        unlink $FASTAFILE;
+#    }
+#    push @include, "includes/DNA.json";
+#}
+#else {
 # fasta didn't change, just make a link to the seq dir.
     if (!-e 'data') {
         mkdir 'data';
@@ -349,75 +343,26 @@ else {
         mkdir "data/$SPECIES";
     }
     symlink "$JBROWSEREPO/data/$SPECIES/seq", "data/$SPECIES/seq";
-    push @include, 'includes/'.$SPECIES.'_DNA.json';
-}
+#    push @include, 'includes/'.$SPECIES.'_DNA.json';
+#}
 
 #make a symlink to the organisms include file
-unless (-e "$DATADIR/../organisms.conf") {
-    copy( $ORGANISMS, "$DATADIR/../organisms.conf") or $log->error( $!);
-}
-unless (-e "$DATADIR/../old-modencode") {
-    symlink "$JBROWSEREPO/data/old-modencode", "old-modencode" or $log->error($!);
-}
-unless (-e "browser_data") {
-    symlink $BROWSER_DATA, "browser_data" or $log->error( $!);
-}
-
-#create several links in the main dir
-if (!-e "$JBROWSEDIR/full.html") {
-    unlink  "$JBROWSEDIR/css/faceted_track_selector.css";
-    copy   ("$JBROWSEREPO/css/faceted_track_selector.css", "$JBROWSEDIR/css/faceted_track_selector.css");
-    copy   ("$JBROWSEREPO/full.html",    "$JBROWSEDIR/full.html");
-    unlink  "$JBROWSEDIR/index.html";
-    copy   ("$JBROWSEREPO/index.html",   "$JBROWSEDIR/index.html");
-    unlink  "$JBROWSEDIR/jbrowse.conf";
-    copy   ("$JBROWSEREPO/jbrowse.conf", "$JBROWSEDIR/jbrowse.conf");
-    symlink "/home/ubuntu/staging/jbrowse/images", "$JBROWSEDIR/images";
-    dircopy("$JBROWSEREPO/plugins/fullscreen-jbrowse",         "$JBROWSEDIR/plugins/fullscreen-jbrowse");
-    dircopy("$JBROWSEREPO/plugins/wormbase-glyphs",            "$JBROWSEDIR/plugins/wormbase-glyphs");
-    dircopy("$JBROWSEREPO/plugins/HideTrackLabels",            "$JBROWSEDIR/plugins/HideTrackLabels");
-    #not thrilled about the location of the these plugin locations
-    dircopy("/home/scain/scain/MotifSearch" ,                  "$JBROWSEDIR/plugins/MotifSearch");
-    dircopy("/home/scain/FeatureSequence"   ,                  "$JBROWSEDIR/plugins/FeatureSequence");
-    dircopy("/home/scain/scain/jbrowse-plugins/HierarchicalCheckboxPlugin",
-                                                               "$JBROWSEDIR/plugins/HierarchicalCheckboxPlugin");
-    dircopy("/home/scain/scain/jbrowse-plugins/SwitchTrackSelector",
-                                                               "$JBROWSEDIR/plugins/SwitchTrackSelector");
-    dircopy("/home/scain/sc_fork_screenshotplugin",            "$JBROWSEDIR/plugins/ScreenShotPlugin");
-    dircopy("/home/scain/scain/jbrowse-plugins/colorbycds",    "$JBROWSEDIR/plugins/colorbycds");
-
-    #rerun setup.sh if jbrowse 1.13 or higher
-    system("./setup.sh") == 0 or die "failed to rerun setup.sh in $JBROWSEDIR for new plugins";
-}
-
-
-#use original or split gff for many tracks
-#Basically, this for loop should probably never be used
-for my $section (@config_sections) {
-    next unless $Config->{$section}->{origfile};
-
-    $log->warn( $section) unless $QUIET;
-    my $type   = $Config->{$section}->{type};
-    my $label  = $Config->{$section}->{label};
-
-    for my $file (keys %splitfiles) {
-        my $gfffile = $INITIALDIR ."/". $file;
-        my $command = "$nice bin/flatfile-to-json.pl --nameAttributes \"name,alias,id,other_name,variation,public_name\" --compress --gff $gfffile --out $DATADIR --type \"$type\" --trackLabel \"$label\"  --trackType CanvasFeatures --key \"$label\" --maxLookback 1000000";
-        $log->warn( $command) unless $QUIET;
-        system($command) ==0 or $log->error( $!);
-    }
-
-    if (!-e "$INCLUDES/$section.json") {
-        $log->error( "\nMISSING INCLUDE FILE: $section.json");
-    }
-    push @include, "includes/$section.json";
-}
+#unless (-e "$DATADIR/../organisms.conf") {
+#    copy( $ORGANISMS, "$DATADIR/../organisms.conf") or $log->error( $!);
+#}
+#unless (-e "$DATADIR/../old-modencode") {
+#    symlink "$JBROWSEREPO/data/old-modencode", "old-modencode" or $log->error($!);
+#}
+#unless (-e "browser_data") {
+#    symlink $BROWSER_DATA, "browser_data" or $log->error( $!);
+#}
 
 #use grep-created files for specific tracks
 #first process tracks that will be name indexed
-for my $section (@config_sections) {
+for my $section (keys %{$Config}) {
     next unless (defined $Config->{$section}->{index} and $Config->{$section}->{index} == 1);
-    next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
+    #just process all of them
+    #next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
 }
@@ -432,7 +377,8 @@ system("$nice bin/generate-names.pl --out $DATADIR --compress")
 
 for my $section (@config_sections) {
     next if (defined $Config->{$section}->{index} and $Config->{$section}->{index} == 1);
-    next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
+    #just process all of them
+    #next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
 }
@@ -446,23 +392,21 @@ if ($species =~ /^(\w_[a-z]+)_(\w+)/) {
     $bioproject = $2;
     $only_species_name = 'simple' if $SIMPLE;
 }
-if ($only_species_name and $bioproject ne 'PRJNA275000') {
-    my @species_specific = glob("$INCLUDES/$only_species_name"."*");
+if ($only_species_name and $bioproject) {
+    my @species_specific = glob("$INCLUDES/$only_species_name"."_$bioproject"."*");
     for (@species_specific) {
         #ack, in place edit of array elements
         $_ = "includes/".basename($_);
     }
     push @include, @species_specific;
 }
-
-#if ($species eq "c_elegans_$PRIMARY_SPECIES") {
-#    my @modencode = glob("$INCLUDES/modencode*");
-#    for (@modencode) {
-#        $_ = "includes/".basename($_);
-#    }
-#    push @include, @modencode;
-#}
-
+if ($SIMPLE) {
+    my @simple_includes = glob("$INCLUDES/simple*");
+    for (@simple_includes) {
+        $_ = "includes/".basename($_);
+    }
+    push @include, @simple_includes;
+}
 
 #create trackList data structure:
 my $struct = {
@@ -496,47 +440,13 @@ open TL, ">$DATADIR/trackList.json" or die $!;
 print TL $json; 
 close TL;
 
-
-##
-## Moving the location of the custom glyphs to the plugin dir
-##which is handled elsewhere in the code
-##
-#make symlinks for custom glyphs
-#chdir $GLYPHS;
-#my @files = glob("*.js");
-#foreach my $file (@files) {
-#    unless (-e "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file") {
-#        symlink "$GLYPHS/$file", "$JBROWSEDIR/src/JBrowse/View/FeatureGlyph/$file" or $log->error( $!);
-#    }
-#}
-
-#if this is elegans make links to the modencode data
-if (!$SIMPLE && $SPECIES =~ /c_elegans_$PRIMARY_SPECIES/) {
-    chdir "$DATADIR/tracks" or $log->error( "changing to tracks dir didn't work");    
-    system("$Bin/track_links.sh") == 0 or $log->error( "creating track symlinks didn't work");
-}
-
-#make "jbrowse-simple" dir with symlinks
-if (!-e "$JBROWSEDIR/../jbrowse-simple") {
-    chdir $JBROWSEDIR;
-    my @file_list = <*>;
-    mkdir "../jbrowse-simple";
-    chdir "../jbrowse-simple";
-    for my $file (@file_list) {
-        next if $file eq 'jbrowse.conf';
-        symlink "../jbrowse/$file", $file;
-    }
-    #get the simple jbrowse.conf
-    copy( "$JBROWSEREPO/jbrowse-simple.conf", "jbrowse.conf");
-}
-
 #clean up temporary gff files
 chdir $INITIALDIR;
 my @tmp_gffs = glob("*_$GFFFILE*") if $GFFFILE;
 foreach my $file (@tmp_gffs) {unlink $file;} 
 
 #check for tracks that have data but didn't get processed
-for my $key (keys $speciesdata{$species}) {
+for my $key (keys %{ $speciesdata{$species} }) {
     next if $speciesdata{$species}{$key} == -1;
     $log->error( "\n\nWARNING: TRACK WITH DATA BUT NO CONFIG: $key\n\n");
 }
@@ -569,8 +479,9 @@ sub process_grep_track {
         }
         $gffout = $gffout.".".$suffix;
     }
-   
+  
     return unless -e $gffout;
+    return if -z $gffout;
 
     my $type   = $config->{$section}->{type};
     my @label;
@@ -601,31 +512,34 @@ sub process_grep_track {
 }
 
 sub process_data_files {
+my $config=shift;
 
 #fetch the GFF and fasta files
 $species =~ /(\w_\w+?)_(\w+)$/;
 my $speciesdir = $1;
 my $projectdir = $2;
-my $datapath = $FILEDIR . 'WS' . $RELEASE . '/species/' . $speciesdir . '/' . $projectdir;
-$GFFFILE   = "$speciesdir.$projectdir.WS$RELEASE.annotations.gff3";
-#$FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
 
-my $copyfailed = 0;
-copy("$datapath/$GFFFILE.gz", '.') or $copyfailed = 1;
+#switch to using the ftp site to make docker builds easier
+##my $datapath = $FILEDIR . 'WS' . $RELEASE . '/species/' . $speciesdir . '/' . $projectdir;
+$GFFFILE   = "$speciesdir.$projectdir.WS$RELEASE.annotations.gff3";
+###$FASTAFILE = "$speciesdir.$projectdir.WS$RELEASE.genomic.fa";
+
+my $copyfailed = 1;
+#copy("$datapath/$GFFFILE.gz", '.') or $copyfailed = 1;
 #copy("$datapath/$FASTAFILE.gz", '.') or $copyfailed = 1;
 
 if ($copyfailed == 1 and !$SIMPLE) {
-    die "local copying of data files failed";
+##    die "local copying of data files failed";
     #use ftp to fetch them
 
     my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
 
     my $gff = "$ftpgffpath/$GFFFILE.gz";
-    my $fasta = "$ftpgffpath/$FASTAFILE.gz";
+##    my $fasta = "$ftpgffpath/$FASTAFILE.gz";
 
     my $quiet = $QUIET ? '-q' : '';
     system("wget $quiet $FTPHOST$gff");
-    system("wget $quiet $FTPHOST$fasta");
+##    system("wget $quiet $FTPHOST$fasta");
 }
 
 system("gunzip -f $GFFFILE.gz");
@@ -636,7 +550,7 @@ system("gunzip -f $GFFFILE.gz");
 
 #use grep to create type specific gff files
 unless ($SKIPFILESPLIT) {
-  for my $section (@config_sections) {
+  for my $section (keys %{$config}) {
 
     $log->debug($section);
     if ($section =~ /RNASeq/i) {
@@ -646,6 +560,7 @@ unless ($SKIPFILESPLIT) {
 
     my $alt = $Config->{$section}->{altfile};
     my $key = $alt ? $alt : $section;
+
     my $gffout      ||= $Config->{$key}->{prefix} . "_$GFFFILE";
     my $greppattern ||= $Config->{$key}->{grep};
     my $postprocess ||= $Config->{$key}->{postprocess};
@@ -660,9 +575,10 @@ unless ($SKIPFILESPLIT) {
         $log->warn("Suffix is defined but gffout doesn't exist! $gffout");
         next;
     }
-    elsif (!$speciesdata{$species}{$section}) {
-        next;
-    }
+#  I don't think this is necessary now
+#    elsif (!$speciesdata{$species}{$section}) {
+#        next;
+#    }
 
     if ($postprocess) {
         my @args = split / /, $postprocess;
@@ -688,6 +604,8 @@ unless ($SKIPFILESPLIT) {
         $log->warn( $grepcommand) unless $QUIET;
         system ("$nice $grepcommand") == 0 or $log->error( "$GFFFILE: $!");
     }
+
+    next if (-z $gffout);
 
     if ($postprocess) {
         system("$nice $Bin/$postprocess $gffout") == 0 or $log->error( "postpressing $gffout: $!");
