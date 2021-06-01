@@ -1,0 +1,8 @@
+gff_version: 3
+file: /usr/local/ftp/pub/wormbase/releases/WS281/species/c_becei/PRJEB28243/c_becei.PRJEB28243.WS281.annotations.gff3.gz
+feature	children	source	method	track	count
+gene:WormBase_imported		WormBase_imported	gene	Genes (genes)	23926
+	mRNA:WormBase_imported	WormBase_imported	mRNA	Genes (genes)	25451
+	five_prime_UTR:WormBase_imported	WormBase_imported	five_prime_UTR	Genes (genes)	0
+	three_prime_UTR:WormBase_imported	WormBase_imported	three_prime_UTR	Genes (genes)	0
+low_complexity_region:dust		dust	low_complexity_region	Low complextity region (Dust) (repeats_dust)	152594
