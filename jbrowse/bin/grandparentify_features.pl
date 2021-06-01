@@ -70,7 +70,7 @@ while (<$infh>) {
 #warn keys $featurehash{'yk1181f08'};
 
 for my $clone (keys %featurehash) {
-    my @parents = keys $featurehash{$clone};
+    my @parents = keys %{ $featurehash{$clone} };
     
     if (scalar @parents == 1) {
         #create grandparent
