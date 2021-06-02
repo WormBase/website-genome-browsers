@@ -4,6 +4,7 @@ use warnings;
 
 use Getopt::Long;
 use Config::Tiny;
+use Capture::Tiny 'capture';
 use FindBin qw($Bin);
 use File::Copy;
 use File::Copy::Recursive qw(dircopy);
@@ -496,17 +497,24 @@ sub process_grep_track {
         }
     }
 
+    my %empty_result;
 
     for (my $i=0; $i<(scalar @label); $i++) {
         my $command= "$nice bin/flatfile-to-json.pl --nameAttributes \"name,alias,id,other_name,variation,public_name\" --compress --gff $file[$i] --out $DATADIR --type \"$type\" --trackLabel \"$label[$i]\"  --trackType CanvasFeatures --key \"$label[$i]\"";
         $log->warn( $command) unless $QUIET;
 
-        system($command)==0 or $log->error( "$gffout: $!\n") ;
+        my ($stdout, $stderr, @result) = capture{
+            system($command)
+        } ;
+
+        if ($stdout =~ /No matching features/) {
+            $empty_result{$section}=1;
+        }
     }
     if (!-e "$INCLUDES/$section.json") {
         $log->error( "\nMISSING INCLUDE FILE: $section.json\n\n");
     }
-    push @include, "includes/$section.json";
+    push @include, "includes/$section.json" unless $empty_result{$section};
 
     return;
 }
