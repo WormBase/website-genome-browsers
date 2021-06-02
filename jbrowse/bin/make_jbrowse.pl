@@ -507,7 +507,7 @@ sub process_grep_track {
             system($command)
         } ;
 
-        if ($stdout =~ /No matching features/) {
+        if ($stderr =~ /No matching features/) {
             $empty_result{$section}=1;
         }
     }
