@@ -8,12 +8,13 @@ use File::Copy;
 use JSON;
 use FindBin qw($Bin);
 
-my ($BIOPROJECT, $RELEASE, $FILE, $PRETTY);
+my ($BIOPROJECT, $RELEASE, $FILE, $PRETTY, $UPDATE);
 
 GetOptions(
     'bioproject=s'   => \$BIOPROJECT,
     'release=s'      => \$RELEASE,
     'file=s'         => \$FILE,
+    'update'         => \$UPDATE,
     'pretty=s'       => \$PRETTY,
 ) or ( system( 'pod2text', $0 ), exit -1 );
 
@@ -27,6 +28,9 @@ if ($BIOPROJECT =~ /simple/) {
 my $S3URL = "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/$RELEASE/$BIOPROJECT";
 
 my $FILEIN = $FILE;
+
+#fetch the old trackList.json from S3 and place it where it will get inlined
+fetch_old_trackList() if ($UPDATE);
 
 copy($FILEIN, "$FILEIN.old");
 
@@ -82,7 +86,15 @@ else {
     print JSON->new->encode($trackList);
 }
 
+exit(0);
 
+sub fetch_old_trackList {
+    my $old_tL_url = "$S3URL/trackList.json.old";
+
+    copy("$BIOPROJECT/trackList.json", "$BIOPROJECT/trackList.json.orig");
+
+    system("wget -O $BIOPROJECT/trackList.json $old_tL_url");  
+}
 
 
 
