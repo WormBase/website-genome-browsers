@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use Getopt::Long;
 use Data::Dumper;
+use File::Copy;
 use JSON;
 use FindBin qw($Bin);
 
@@ -26,6 +27,9 @@ if ($BIOPROJECT =~ /simple/) {
 my $S3URL = "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/$RELEASE/$BIOPROJECT";
 
 my $FILEIN = $FILE;
+
+copy($FILEIN, "$FILEIN.old");
+
 my $blob;
 {
 local $/ = undef;
