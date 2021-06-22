@@ -8,6 +8,64 @@ use File::Copy;
 use JSON;
 use FindBin qw($Bin);
 
+=head1 NAME
+
+inline_includes.pl - takes a trackList.json and subs in full json for includes 
+
+=head1 SYNOPSYS
+
+  % inline_includes.pl --bioproject <proj> --release <rel> --file <path> [options]
+
+=head1 OPTIONS
+
+=over
+
+bioproject - The "full" bioproject (ie, species plus bioproject, like "c_elegans_PRJNA13758"). Required.
+
+=back
+
+=over
+
+release - The WormBase release, without the leading "WS". Required.
+
+=back
+
+=over
+
+file - The path to the trackList.json; usually something like "c_elegans_PRJNA13758/trackList.json". Required.
+
+=back
+
+=over
+
+update - An option to update a trackList.json file. It fetches the "old" trackList.json (the one with the includes) 
+and redoes the inlining. The reason to have this is for when include files have changed but the data
+hasn't.
+
+=back
+
+=over
+
+pretty - An option to make the json generated human-readable. Generally this option should not be used,
+since it adds unnecessary size to the resulting file.
+
+=back
+
+=head1 DESCRIPTION
+
+
+=head1 AUTHOR
+
+Scott Cain E<lt>scott@scottcain.netE<gt>
+
+Copyright (c) 2021
+
+This script is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=cut
+
+
 my ($BIOPROJECT, $RELEASE, $FILE, $PRETTY, $UPDATE);
 
 GetOptions(
@@ -18,7 +76,7 @@ GetOptions(
     'pretty=s'       => \$PRETTY,
 ) or ( system( 'pod2text', $0 ), exit -1 );
 
-die unless $BIOPROJECT && $RELEASE && $FILE;
+( system( 'pod2text', $0 ), exit -1 ) unless $BIOPROJECT && $RELEASE && $FILE;
 
 #The idea is that the 'simple' config will just be using the N2 data
 if ($BIOPROJECT =~ /simple/) {
