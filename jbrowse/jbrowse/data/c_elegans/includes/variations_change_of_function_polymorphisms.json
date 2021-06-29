@@ -14,7 +14,7 @@
             "borderColor" : "black",
             "height" : 8,
             "description" : "{typeDescription}",
-            "color" : "{variationColor}",
+            "color" : "{agrVariationColor}",
             "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",
             "className" : "feature",
             "strandArrow" : false

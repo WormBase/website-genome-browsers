@@ -9,7 +9,7 @@
          "style" : {
             "borderColor" : "black",
             "strandArrow" : false,
-            "color" : "{variationColor}",
+            "color" : "{agrVariationColor}",
             "description" : "{typeDescription}",
             "height" : 8,
             "label" : "function(f) {var name = f.get('public_name'); var other_name = f.get('other_name'); if (typeof other_name === 'undefined') {return name;} return name+'-'+other_name; }",

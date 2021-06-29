@@ -24,7 +24,7 @@
          "style" : {
             "className" : "feature",
             "height" : "function(feature) {var rflp = feature.get('rflp'); var status = feature.get('status'); if (rflp && status == 'Confirmed') {return 14;} else {return 8;} }",
-            "color" : "function(feature) { var method = feature.get('type'); if (method=='deletion') {return 'red';} else if (method=='point_mutation') {return 'yellow';} else if (method=='substitution') {return 'yellow';} else if (method=='complex_substitution') {return 'blue';} else {return 'white';} }",
+            "color" : "{agrVariationColor}",
             "strandArrow" : false,
             "borderColor" : "black"
          },
