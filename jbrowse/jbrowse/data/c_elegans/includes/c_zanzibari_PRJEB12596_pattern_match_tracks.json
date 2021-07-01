@@ -5,7 +5,7 @@
     "unsafeMouseover" : true,
     "unsafePopup" : true,
     "type":"CanvasFeatures",
-    "category" : "Externally Sourced Resources/CRISPR",
+    "category" : "Externally Sourced Resources/CRISPR predictions",
     "key" : "SpCas9 NGG PAM sites",
     "style" : {
        "color" : "RebeccaPurple",
@@ -22,7 +22,7 @@
     "unsafeMouseover" : true,
     "unsafePopup" : true,
     "type":"CanvasFeatures",
-    "category" : "Externally Sourced Resources/CRISPR",
+    "category" : "Externally Sourced Resources/CRISPR predictions",
     "key" : "SaCas9 NNGRRT PAM sites",
     "style" : {
        "color" : "DarkViolet",
@@ -39,7 +39,7 @@
     "unsafeMouseover" : true,
     "unsafePopup" : true,
     "type":"CanvasFeatures",
-    "category" : "Externally Sourced Resources/CRISPR",
+    "category" : "Externally Sourced Resources/CRISPR predictions",
     "key" : "Cas12a TTN PAM sites",
     "style" : {
        "color" : "Indigo",
@@ -56,7 +56,7 @@
     "unsafeMouseover" : true,
     "unsafePopup" : true,
     "type":"CanvasFeatures",
-    "category" : "Externally Sourced Resources/CRISPR",
+    "category" : "Externally Sourced Resources/CRISPR predictions",
     "key" : "Cas12e TTCN PAM sites",
     "style" : {
        "color" : "SlateBlue",
