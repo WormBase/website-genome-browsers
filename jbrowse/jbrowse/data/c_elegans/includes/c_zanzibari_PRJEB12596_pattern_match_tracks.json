@@ -1,0 +1,17 @@
+{
+   "tracks" : [
+{
+    "label" : "SpCas9 NGG PAM sites",
+    "unsafeMouseover" : true,
+    "unsafePopup" : true,
+    "category" : "1testing",
+    "type" : "JBrowse/View/Track/Wiggle/XYPlot",
+    "key" : "SpCas9 NGG PAM sites",
+    "metadata" : {
+       "shortInfo" : "Streptococcus pyogenes Cas9 PAM sites based on NGG motif."
+    },
+    "storeClass" : "RegexSequenceSearch/Store/SeqFeature/RegexSearch",
+    "searchParams" :{"expr":".GG"}
+}
+   ]
+}
