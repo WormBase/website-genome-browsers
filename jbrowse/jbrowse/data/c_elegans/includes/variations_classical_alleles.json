@@ -12,7 +12,7 @@
          "urlTemplate" : "../tracks/Classical_alleles/{refseq}/trackData.jsonz",
          "trackType" : "CanvasFeatures",
          "metadata" : {
-            "shortInfo" : "This track shows classical alleles comprised of insertions, deletions, substitutions and complex changes. These alleles were typically generated during forward genetic screens. Red boxes represent deletions; yellow diamonds represent substitutions; blue boxes represent complex substitutions; and white triangles represent insertions."
+            "shortInfo" : "This track shows classical alleles comprised of insertions, deletions, substitutions and complex changes. These alleles were typically generated during forward genetic screens. Boxes represent deletions or substitutions; and white triangles represent insertions. Color signifies the severity of impact predicted by Ensembl's Variant Effect Predictor. 'HIGH' impacts are red, 'MEDIUM' are yellow, 'LOW' are cyan (light blue), and 'MODIFIER' are purple. This is the same color scheme as is used at the Alliance of Genome Resources."
          },
          "onClick" : {
             "label" : "{variationsBalloon}",

@@ -10,7 +10,7 @@
          "type" : "CanvasFeatures",
          "key" : "Million Mutation Project",
          "metadata" : {
-            "shortInfo" : "This track shows SNPs from the The Million Mutation Project (Waterston/Moerman). The color of the SNP represents its potental effect on a gene. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else."
+            "shortInfo" : "This track shows SNPs from the The Million Mutation Project (Waterston/Moerman). Color signifies the severity of impact predicted by Ensembl's Variant Effect Predictor. 'HIGH' impacts are red, 'MEDIUM' are yellow, 'LOW' are cyan (light blue), and 'MODIFIER' are purple. This is the same color scheme as is used at the Alliance of Genome Resources."
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {

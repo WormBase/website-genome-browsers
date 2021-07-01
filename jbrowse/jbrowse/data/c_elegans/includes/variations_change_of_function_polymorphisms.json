@@ -8,7 +8,7 @@
          "urlTemplate" : "../tracks/Change-of-function polymorphisms/{refseq}/trackData.jsonz",
          "key" : "Change-of-function polymorphisms",
          "metadata" : {
-            "shortInfo" : "This track shows single nucleotide polymorphisms (SNPs) that may generate a change of function. In this track, the molecular nature of the polymorphism is indicated by its glyph: Boxes are deletions; triangles are insertions; point mutations and substitutions are diamonds. Color shows the potential effect on coding regions. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else. Mouse over the feature for details."
+            "shortInfo" : "This track shows single nucleotide polymorphisms (SNPs) that may generate a change of function. In this track, the molecular nature of the polymorphism is indicated by its glyph: Boxes are deletions or substitutions; triangles are insertions; point mutations are diamonds. Color signifies the severity of impact predicted by Ensembl's Variant Effect Predictor. 'HIGH' impacts are red, 'MEDIUM' are yellow, 'LOW' are cyan (light blue), and 'MODIFIER' are purple. This is the same color scheme as is used at the Alliance of Genome Resources."
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "style" : {
