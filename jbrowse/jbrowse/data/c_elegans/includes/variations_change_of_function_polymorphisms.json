@@ -2,6 +2,7 @@
    "tracks" : [
       {
          "type" : "CanvasFeatures",
+         "maxHeight" : 5000,
          "trackType" : "CanvasFeatures",
          "unsafePopup" : true,
          "urlTemplate" : "../tracks/Change-of-function polymorphisms/{refseq}/trackData.jsonz",

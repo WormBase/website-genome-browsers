@@ -2,6 +2,7 @@
    "tracks" : [
       {
          "type" : "CanvasFeatures",
+         "maxHeight" : 5000,
          "metadata" : {
             "shortInfo" : "This track shows alleles that generate a putative change-of-function. In this track, the type of mutation is indicated by its glyph: Boxes are deletions. Triangles are insertions. Point mutations and substitutions are diamonds. Color shows the potential effect on coding regions. Green indicates a possible missense; red a possible nonsense; blue a frameshift; yellow a disruption of a coding exon(s); and white for everything else. Mouse over the feature for details."
          },
