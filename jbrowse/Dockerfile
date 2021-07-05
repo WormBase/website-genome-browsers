@@ -9,7 +9,7 @@
 
 FROM gmod/jbrowse-buildenv:latest as build
 
-ARG RELEASE=WS281
+ARG RELEASE=281
 
 # JBrowse source
 RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
@@ -22,8 +22,8 @@ RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
 #    * SwitchTrackSelector - provides a button to switch between faceted and hierarchical selectors
 #    * RemoveGridOption    - provides a menu item to remove the background grid lines
 #    * wormbase-glyphs     - provides some glyphs and places a logo in the page
-#RUN git clone --single-branch --branch jbrowse-${RELEASE} https://github.com/WormBase/website-genome-browsers.git
-RUN git clone --single-branch --branch jbrowse-staging https://github.com/WormBase/website-genome-browsers.git
+RUN git clone --single-branch --branch jbrowse-${RELEASE} https://github.com/WormBase/website-genome-browsers.git
+#RUN git clone --single-branch --branch jbrowse-staging https://github.com/WormBase/website-genome-browsers.git
 
 # Provides the PWM motif search plugin
 RUN git clone --single-branch --branch 1.0 https://github.com/scottcain/MotifSearch.git
@@ -67,7 +67,7 @@ WORKDIR /usr/share/nginx/html/tools/genome/jbrowse
 
 RUN cp /website-genome-browsers/jbrowse/bin/fetch_trackList.sh .
 
-RUN ./fetch_trackList.sh -r ${RELEASE}
+RUN ./fetch_trackList.sh -r WS${RELEASE}
 
 #RUN npm install yarn
 #RUN ./node_modules/.bin/yarn

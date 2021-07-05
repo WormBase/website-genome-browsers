@@ -83,7 +83,7 @@ if ($BIOPROJECT =~ /simple/) {
     $BIOPROJECT = 'c_elegans_PRJNA13758';
 }
 
-my $S3URL = "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/$RELEASE/$BIOPROJECT";
+my $S3URL = "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$BIOPROJECT";
 
 my $FILEIN = $FILE;
 
@@ -109,7 +109,7 @@ my $trackList = JSON->new->decode($blob);
 
 my @includes;
 for my $i (@{$$trackList{'include'}}) {
-    push @includes, $i unless $i =~ /function/; 
+    push @includes, $i unless $i =~ /functions.conf/; 
 }
 
 my $includedir = "$Bin/../jbrowse/data/c_elegans";
