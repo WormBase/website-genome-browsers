@@ -1,0 +1,72 @@
+{
+   "tracks" : [
+{
+    "label" : "SpCas9 NGG PAM sites",
+    "unsafeMouseover" : true,
+    "unsafePopup" : true,
+    "type":"CanvasFeatures",
+    "category" : "Externally Sourced Resources/CRISPR predictions",
+    "key" : "SpCas9 NGG PAM sites",
+    "style" : {
+       "color" : "RebeccaPurple",
+       "height" : 5
+    },
+    "metadata" : {
+       "shortInfo" : "Streptococcus pyogenes Cas9 PAM sites based on NGG motif. Computed on the fly at load time."
+    },
+    "storeClass" : "RegexSequenceSearch/Store/SeqFeature/RegexSearch",
+    "searchParams" :{"expr":".GG","regex":true,"caseIgnore":true,"fwdStrand":true,"revStrand":true}
+},
+{
+    "label" : "SaCas9 NNGRRT PAM sites",
+    "unsafeMouseover" : true,
+    "unsafePopup" : true,
+    "type":"CanvasFeatures",
+    "category" : "Externally Sourced Resources/CRISPR predictions",
+    "key" : "SaCas9 NNGRRT PAM sites",
+    "style" : {
+       "color" : "DarkViolet",
+       "height" : 5
+    },
+    "metadata" : {
+       "shortInfo" : "Staphylococcus aureus Cas9 PAM sites based on NNGRRT motif. Computed on the fly at load time."
+    },
+    "storeClass" : "RegexSequenceSearch/Store/SeqFeature/RegexSearch",
+    "searchParams" :{"expr":"..G[AG][AG]T","regex":true,"caseIgnore":true,"fwdStrand":true,"revStrand":true}
+},
+{
+    "label" : "Cas12a TTN PAM sites",
+    "unsafeMouseover" : true,
+    "unsafePopup" : true,
+    "type":"CanvasFeatures",
+    "category" : "Externally Sourced Resources/CRISPR predictions",
+    "key" : "Cas12a TTN PAM sites",
+    "style" : {
+       "color" : "Indigo",
+       "height" : 5
+    },
+    "metadata" : {
+       "shortInfo" : "Cas12a (Cpf1) PAM sites based on TTN motif. Computed on the fly at load time."
+    },
+    "storeClass" : "RegexSequenceSearch/Store/SeqFeature/RegexSearch",
+    "searchParams" :{"expr":"TT.","regex":true,"caseIgnore":true,"fwdStrand":true,"revStrand":true}
+},
+{
+    "label" : "Cas12e TTCN PAM sites",
+    "unsafeMouseover" : true,
+    "unsafePopup" : true,
+    "type":"CanvasFeatures",
+    "category" : "Externally Sourced Resources/CRISPR predictions",
+    "key" : "Cas12e TTCN PAM sites",
+    "style" : {
+       "color" : "SlateBlue",
+       "height" : 5
+    },
+    "metadata" : {
+       "shortInfo" : "Cas12e (CasX) PAM sites based on TTCN motif. Computed on the fly at load time."
+    },
+    "storeClass" : "RegexSequenceSearch/Store/SeqFeature/RegexSearch",
+    "searchParams" :{"expr":"TTC.","regex":true,"caseIgnore":true,"fwdStrand":true,"revStrand":true}
+}
+   ]
+}

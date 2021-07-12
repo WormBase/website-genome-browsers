@@ -2,6 +2,7 @@
    "tracks" : [
       {
          "maxExportSpan" : 50000000,
+         "maxHeight" : 3000,
          "compress" : 1,
          "label" : "Binding sites (predicted)",
          "unsafeMouseover" : true,

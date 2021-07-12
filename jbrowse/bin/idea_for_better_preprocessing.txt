@@ -1,0 +1,16 @@
+Here's the idea:
+
+Rather than getting the AllSpecies.stats file that is generated 
+during GBrowse's creation, I could write a script that would read
+in the config file (which contains the regex patterns for creating
+the GFF "sub-files" for different tracks) and instead just goes
+the main GFF file line by line and decides which "sub-file(s)" to write
+the line to.  After one pass through the GFF file (which will probably
+take a long time) all of the required GFF files will be created.
+
+This will almost certainly be faster than the current process that uses
+command line grep to create the files, with one execution of grep per 
+needed file (one grep would be faster than a script, but I'm not so sure
+two or more would be).  In addition to likely being faster, this has the added
+benefit of removing the dependency on GBrowse, which is something I've
+been thinking about for a while.
