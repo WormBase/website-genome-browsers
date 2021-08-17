@@ -13,9 +13,10 @@
          "chunkSize" : 80000
       },
       {
-         "storeClass" : "JBrowse/Store/SeqFeature/SequenceChunks",
          "type": "GCContent/View/Track/GCContentXY",
          "label" : "GCContentXY",
+         "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
+         "compress" : 1,
          "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans_PRJNA13758/seq/{refseq_dirpath}/{refseq}-",
          "bicolor_pivot": 0.5
       }
