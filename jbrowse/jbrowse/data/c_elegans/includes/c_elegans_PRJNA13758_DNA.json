@@ -14,9 +14,11 @@
       },
       {
          "type": "GCContent/View/Track/GCContentXY",
-         "label" : "GCContentXY",
+         "label" : "CRISPR-friendly GC content",
          "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
          "compress" : 1,
+         "windowSize": 10,
+         "windowDelta": 2,
          "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans_PRJNA13758/seq/{refseq_dirpath}/{refseq}-",
          "bicolor_pivot": 0.5
       }
