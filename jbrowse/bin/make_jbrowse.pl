@@ -153,10 +153,11 @@ my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $JBROWSEREPO, $SKIPPREPARE, $ALLSTATS, $FILEDIR,
     $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES, 
     $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE, $JBROWSESRC, $SKIPNAME,
-    $FASTAMD5);
+    $FASTAMD5, $SKIPFLATFILE);
 my %splitfiles;
 
 GetOptions(
+    'skipflatfile'=> \$SKIPFLATFILE,
     'gfffile=s'   => \$GFFFILE,
     'species=s'   => \$SPECIES,
     'filedir=s'   => \$FILEDIR,
@@ -499,7 +500,8 @@ sub process_grep_track {
 
     my %empty_result;
 
-    for (my $i=0; $i<(scalar @label); $i++) {
+    unless ($SKIPFLATFILE) {
+      for (my $i=0; $i<(scalar @label); $i++) {
         my $command= "$nice bin/flatfile-to-json.pl --nameAttributes \"name,alias,id,other_name,variation,public_name\" --compress --gff $file[$i] --out $DATADIR --type \"$type\" --trackLabel \"$label[$i]\"  --trackType CanvasFeatures --key \"$label[$i]\"";
         $log->warn( $command) unless $QUIET;
 
@@ -510,6 +512,7 @@ sub process_grep_track {
         if ($stderr =~ /No matching features/) {
             $empty_result{$section}=1;
         }
+      }
     }
     if (!-e "$INCLUDES/$section.json") {
         $log->error( "\nMISSING INCLUDE FILE: $section.json\n\n");
