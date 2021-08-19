@@ -361,30 +361,31 @@ if ($SIMPLE) {
 
 #use grep-created files for specific tracks
 #first process tracks that will be name indexed
-for my $section (keys %{$Config}) {
+unless ($SKIPFLATFILE) {
+  for my $section (keys %{$Config}) {
     next unless (defined $Config->{$section}->{index} and $Config->{$section}->{index} == 1);
     #just process all of them
     #next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
-}
+  }
 
 #die "quitting before name generation";
 
 #run indexing
-system("$nice bin/generate-names.pl --out $DATADIR --compress")
+  system("$nice bin/generate-names.pl --out $DATADIR --compress")
     unless $SKIPNAME;
 
 #process the rest of the tracks
 
-for my $section (@config_sections) {
+  for my $section (@config_sections) {
     next if (defined $Config->{$section}->{index} and $Config->{$section}->{index} == 1);
     #just process all of them
     #next if (!$speciesdata{$species}{$section} and !$Config->{$section}->{suffix});
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
+  }
 }
-
 
 #check for species-specific include files
 my $only_species_name;
