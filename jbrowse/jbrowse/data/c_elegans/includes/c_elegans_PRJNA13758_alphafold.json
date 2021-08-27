@@ -1,10 +1,10 @@
 {
    "tracks" : [
       {
-         "category" : "Sequence Features/Signals & Motifs",
+         "category" : "Sequence Features/Translated Features",
          "maxHeight" : 2500,
-         "label" : "AlphaFold2links",
-         "key"   : "AlphaFold2links",
+         "label" : "AlphaFold 2 links",
+         "key"   : "AlphaFold 2 links",
          "compress" : 1,
          "unsafeMouseover" : true,
          "type" : "CanvasFeatures",
@@ -12,9 +12,9 @@
          "unsafePopup" : true,
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "onClick" : {
-            "label" : "Click for AlphaFold in a popup window",
+            "label" : "Click for AlphaFold 2 in a popup window",
             "action" : "iframeDialog",
-            "title" : "AlphaFold",
+            "title" : "AlphaFold 2",
             "url" : "function(track,f) {var uniprot = f.get('uniprot_id'); return 'https://alphafold.ebi.ac.uk/entry/'+uniprot; }"
          },
          "metadata" : {
