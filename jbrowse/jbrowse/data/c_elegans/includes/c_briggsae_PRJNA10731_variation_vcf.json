@@ -1,7 +1,7 @@
 {
    "tracks" : [
       {
-         "category" : "Externally Sourced Resources",
+         "category" : "Externally Sourced Resources/Other",
          "chunkSizeLimit" : 5000000,
          "glyph" : "{variationGlyph}",
          "unsafeMouseover" : true,
