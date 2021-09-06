@@ -102,6 +102,7 @@
       "includes/c_elegans_PRJNA13758_polya_clusters.json",
       "includes/c_elegans_PRJNA13758_tss.json",
       "includes/c_elegans_PRJNA13758_ucsc_conservation.json",
+      "includes/c_elegans_PRJNA13758_alphafold.json",
       "includes/c_elegans_PRJNA13758_utrome.json"
    ],
    "tracks" : [],
