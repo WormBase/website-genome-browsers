@@ -9,7 +9,7 @@
 
 FROM gmod/jbrowse-buildenv:latest as build
 
-ARG RELEASE=279
+ARG RELEASE=281
 
 # JBrowse source
 #RUN git clone --single-branch --branch 1.16.8-release https://github.com/GMOD/jbrowse.git
@@ -33,6 +33,10 @@ RUN rm /usr/share/nginx/html/index.html && rm /usr/share/nginx/html/50x.html && 
     cp /website-genome-browsers/protein_schematic/jbrowse/url_builder.html /usr/share/nginx/html/tools/protein_schematic/url_builder.html
     
 WORKDIR /usr/share/nginx/html/tools/protein_schematic
+
+RUN cp /website-genome-browsers/protein_schematic/bin/fetch_trackList.sh .
+
+RUN ./fetch_trackList.sh -r WS${RELEASE}
 
 #RUN npm install yarn
 #RUN ./node_modules/.bin/yarn
