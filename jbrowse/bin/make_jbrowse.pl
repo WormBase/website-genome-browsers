@@ -153,7 +153,7 @@ my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
     $SKIPFILESPLIT, $JBROWSEDIR, $JBROWSEREPO, $SKIPPREPARE, $ALLSTATS, $FILEDIR,
     $QUIET, $INCLUDES, $FUNCTIONS, $ORGANISMS, $GLYPHS,$SPECIES, 
     $RELEASE, $BROWSER_DATA, $FTPHOST, $SIMPLE, $JBROWSESRC, $SKIPNAME,
-    $FASTAMD5);
+    $FASTAMD5 );
 my %splitfiles;
 
 GetOptions(
@@ -383,7 +383,6 @@ for my $section (@config_sections) {
     process_grep_track($Config, $section);
     $speciesdata{$species}{$section} = -1;
 }
-
 
 #check for species-specific include files
 my $only_species_name;

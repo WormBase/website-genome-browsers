@@ -1,0 +1,25 @@
+{
+   "tracks" : [
+      {
+         "category" : "Sequence Features/Translated Features",
+         "maxHeight" : 2500,
+         "label" : "AlphaFold 2 links",
+         "key"   : "AlphaFold 2 links",
+         "compress" : 1,
+         "unsafeMouseover" : true,
+         "type" : "CanvasFeatures",
+         "urlTemplate" : "../tracks/Curated Genes (protein coding)/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "onClick" : {
+            "label" : "Click for AlphaFold 2 in a popup window",
+            "action" : "iframeDialog",
+            "title" : "AlphaFold 2",
+            "url" : "function(track,f) {var uniprot = f.get('uniprot_id'); return 'https://alphafold.ebi.ac.uk/entry/'+uniprot; }"
+         },
+         "metadata" : {
+            "shortInfo" : "Clicking on features in this track will open a popup window that has the AlphaFold page for the protein that results from the translation of the CDS in the transcript."
+         }
+      }
+   ]
+}

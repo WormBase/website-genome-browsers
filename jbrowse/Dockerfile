@@ -9,7 +9,7 @@
 
 FROM gmod/jbrowse-buildenv:latest as build
 
-ARG RELEASE=281
+ARG RELEASE=282
 
 # JBrowse source
 RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
@@ -23,8 +23,9 @@ RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
 #    * RemoveGridOption    - provides a menu item to remove the background grid lines
 #    * wormbase-glyphs     - provides some glyphs and places a logo in the page
 
+RUN git clone --single-branch --branch jbrowse-282 https://github.com/WormBase/website-genome-browsers.git
 #RUN git clone --single-branch --branch jbrowse-${RELEASE} https://github.com/WormBase/website-genome-browsers.git
-RUN git clone --single-branch --branch jbrowse-production https://github.com/WormBase/website-genome-browsers.git
+#RUN git clone --single-branch --branch jbrowse-production https://github.com/WormBase/website-genome-browsers.git
 
 # Provides the PWM motif search plugin
 RUN git clone --single-branch --branch 1.0 https://github.com/scottcain/MotifSearch.git
@@ -44,6 +45,9 @@ RUN git clone https://github.com/cmdcolin/wigglehighlighter.git
 # Provides the View Sequence right click menu option
 RUN git clone https://github.com/twsaari/FeatureSequence.git
 
+#gc content plugin from Elsik Lab
+RUN git clone https://github.com/elsiklab/gccontent.git GCContent
+
 RUN mkdir -p /usr/share/nginx/html/tools/genome/jbrowse
 RUN mkdir /usr/share/nginx/html/tools/genome/jbrowse-simple
 
@@ -52,6 +56,7 @@ RUN rm /usr/share/nginx/html/index.html && rm /usr/share/nginx/html/50x.html && 
     cp -r /website-genome-browsers/jbrowse/jbrowse/plugins/RemoveGridOption /jbrowse/plugins && \
     cp -r /website-genome-browsers/jbrowse/jbrowse/plugins/SwitchTrackSelector /jbrowse/plugins && \
     cp -r /website-genome-browsers/jbrowse/jbrowse/plugins/wormbase-glyphs /jbrowse/plugins && \
+    cp -r /GCContent /jbrowse/plugins && \
     cp -r /MotifSearch /jbrowse/plugins && \
     cp -r /jbplugin-hierarchicalcheckbox /jbrowse/plugins/HierarchicalCheckboxPlugin && \
     cp -r /jbplugin-screenshot /jbrowse/plugins/ScreenShotPlugin && \
