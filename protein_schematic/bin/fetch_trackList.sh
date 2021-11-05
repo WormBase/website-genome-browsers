@@ -3,7 +3,7 @@
 #fetches trackList.json and seq/refSeqs.json from s3
 # (they are put there during the GFF processing)
 
-RELEASE='WS281'
+RELEASE='WS283'
 while getopts r: option
 do
 case "${option}"
