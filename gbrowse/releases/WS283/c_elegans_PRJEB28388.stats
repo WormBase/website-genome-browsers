@@ -1,0 +1,41 @@
+gff_version: 3
+file: /usr/local/ftp/pub/wormbase/releases/WS283/species/c_elegans/PRJEB28388/c_elegans.PRJEB28388.WS283.annotations.gff3.gz
+feature	children	source	method	track	count
+CDS:WormBase		WormBase	CDS	Genes (protein coding) (genes_protein_coding)	193095
+	CDS:WormBase_imported	WormBase_imported	CDS	Genes (protein coding) (genes_protein_coding)	187328
+gene:WormBase		WormBase	gene	Genes (genes)	20929
+	mRNA:WormBase	WormBase	mRNA	Genes (genes)	28311
+	five_prime_UTR:WormBase	WormBase	five_prime_UTR	Genes (genes)	0
+	three_prime_UTR:WormBase	WormBase	three_prime_UTR	Genes (genes)	0
+gene:WormBase_imported		WormBase_imported	gene	Genes (genes)	21070
+	mRNA:WormBase_imported	WormBase_imported	mRNA	Genes (genes)	29387
+	five_prime_UTR:WormBase_imported	WormBase_imported	five_prime_UTR	Genes (genes)	0
+	three_prime_UTR:WormBase_imported	WormBase_imported	three_prime_UTR	Genes (genes)	0
+gene:WormBase_transposon		WormBase_transposon	gene	Transposon Genes (transposon_genes)	336
+low_complexity_region:dust		dust	low_complexity_region	Low complextity region (Dust) (repeats_dust)	308720
+ncRNA:WormBase		WormBase	ncRNA	Curated Genes (noncoding) (genes_noncoding)	139
+	miRNA:WormBase	WormBase	miRNA	Curated Genes (noncoding) (genes_noncoding)	114
+	rRNA:WormBase	WormBase	rRNA	Curated Genes (noncoding) (genes_noncoding)	56
+	scRNA:WormBase	WormBase	scRNA	Curated Genes (noncoding) (genes_noncoding)	0
+	snRNA:WormBase	WormBase	snRNA	Curated Genes (noncoding) (genes_noncoding)	155
+	snoRNA:WormBase	WormBase	snoRNA	Curated Genes (noncoding) (genes_noncoding)	13
+	tRNA:WormBase	WormBase	tRNA	Curated Genes (noncoding) (genes_noncoding)	629
+	exon:WormBase	WormBase	exon	Curated Genes (noncoding) (genes_noncoding)	194316
+	intron:WormBase	WormBase	intron	Curated Genes (noncoding) (genes_noncoding)	164784
+	piRNA:WormBase	WormBase	piRNA	Curated Genes (noncoding) (genes_noncoding)	0
+	lincRNA:WormBase	WormBase	lincRNA	Curated Genes (noncoding) (genes_noncoding)	0
+	antisense_RNA:WormBase	WormBase	antisense_RNA	Curated Genes (noncoding) (genes_noncoding)	0
+protein_match:UniProt-BLASTX		UniProt-BLASTX	protein_match	Other UniProt proteins (sequence_similarity_uniprot_blastx)	92506
+protein_match:bmalayi_proteins-BLASTX		bmalayi_proteins-BLASTX	protein_match	B. malayi proteins (sequence_similarity_bmalayi_proteins_blastx)	56274
+protein_match:cbrenneri_proteins-BLASTX		cbrenneri_proteins-BLASTX	protein_match	C. brenneri proteins (sequence_similarity_cbrenneri_proteins_blastx)	131757
+protein_match:cbriggsae_proteins-BLASTX		cbriggsae_proteins-BLASTX	protein_match	C. briggsae proteins (sequence_similarity_cbriggsae_proteins_blastx)	128849
+protein_match:celegans_proteins-BLASTX		celegans_proteins-BLASTX	protein_match	C. elegans proteins (sequence_similarity_celegans_proteins_blastx)	168528
+protein_match:cjaponica_proteins-BLASTX		cjaponica_proteins-BLASTX	protein_match	C. japonica proteins (sequence_similarity_cjaponica_proteins_blastx)	116450
+protein_match:cremanei_proteins-BLASTX		cremanei_proteins-BLASTX	protein_match	C. remanei proteins (sequence_similarity_cremanei_proteins_blastx)	129986
+protein_match:dmelanogaster_proteins-BLASTX		dmelanogaster_proteins-BLASTX	protein_match	D. melanogaster proteins (sequence_similarity_dmelanogaster_proteins_blastx)	35253
+protein_match:hsapiens_proteins-BLASTX		hsapiens_proteins-BLASTX	protein_match	H. sapiens proteins (sequence_similarity_hsapiens_proteins_blastx)	81982
+protein_match:ovolvulus_proteins-BLASTX		ovolvulus_proteins-BLASTX	protein_match	O. volvulus proteins (sequence_similarity_ovolvulus_proteins_blastx)	42445
+protein_match:ppacificus_proteins-BLASTX		ppacificus_proteins-BLASTX	protein_match	P. pacificus proteins (sequence_similarity_ppacificus_proteins_blastx)	65492
+protein_match:scerevisiae_proteins-BLASTX		scerevisiae_proteins-BLASTX	protein_match	S. cerevisiae proteins (sequence_similarity_scerevisiae_proteins_blastx)	12016
+protein_match:sratti_proteins-BLASTX		sratti_proteins-BLASTX	protein_match	S. ratti proteins (sequence_similarity_sratti_proteins_blastx)	46942
+pseudogenic_transcript:WormBase		WormBase	pseudogenic_transcript	Genes (pseudogenes) (genes_pseudogenes)	22
