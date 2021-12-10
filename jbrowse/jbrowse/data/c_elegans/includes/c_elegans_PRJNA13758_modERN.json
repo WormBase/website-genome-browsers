@@ -13,7 +13,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for eyg-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF172ORC/'>this page</a> and for more information on this eyg-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR604KUU/'>ENCSR604KUU</a>"
       },
       "label" : "eyg-1-ENCFF172ORC",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -30,7 +30,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for unc-86 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF361ROR/'>this page</a> and for more information on this unc-86 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR693VPE/'>ENCSR693VPE</a>"
       },
       "label" : "unc-86-ENCFF361ROR",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -47,7 +47,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for lin-14 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF693ZCG/'>this page</a> and for more information on this lin-14 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR714ALL/'>ENCSR714ALL</a>"
       },
       "label" : "lin-14-ENCFF693ZCG",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -64,7 +64,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F57A8.1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF450VLL/'>this page</a> and for more information on this F57A8.1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR857HWD/'>ENCSR857HWD</a>"
       },
       "label" : "F57A8.1-ENCFF450VLL",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -81,7 +81,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for lsl-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF427HQJ/'>this page</a> and for more information on this lsl-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR969MNX/'>ENCSR969MNX</a>"
       },
       "label" : "lsl-1-ENCFF427HQJ",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -98,7 +98,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for elt-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF694KVR/'>this page</a> and for more information on this elt-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR955ZJN/'>ENCSR955ZJN</a>"
       },
       "label" : "elt-2-ENCFF694KVR",
-      "category" : "modERN",
+      "category" : "modERN/L3 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -115,7 +115,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for let-607 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF069WTX/'>this page</a> and for more information on this let-607 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR914MJK/'>ENCSR914MJK</a>"
       },
       "label" : "let-607-ENCFF069WTX",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -132,7 +132,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for tbx-8 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF002ILG/'>this page</a> and for more information on this tbx-8 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR549VKC/'>ENCSR549VKC</a>"
       },
       "label" : "tbx-8-ENCFF002ILG",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -149,7 +149,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-19 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF644ZEN/'>this page</a> and for more information on this ceh-19 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR281LRS/'>ENCSR281LRS</a>"
       },
       "label" : "ceh-19-ENCFF644ZEN",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -166,7 +166,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for pax-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF713SRM/'>this page</a> and for more information on this pax-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR518WKG/'>ENCSR518WKG</a>"
       },
       "label" : "pax-3-ENCFF713SRM",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -183,7 +183,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ttx-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF738TXH/'>this page</a> and for more information on this ttx-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR233MSN/'>ENCSR233MSN</a>"
       },
       "label" : "ttx-3-ENCFF738TXH",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -200,7 +200,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ahr-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF224RLI/'>this page</a> and for more information on this ahr-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR050PRW/'>ENCSR050PRW</a>"
       },
       "label" : "ahr-1-ENCFF224RLI",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -217,7 +217,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for somi-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF552MLZ/'>this page</a> and for more information on this somi-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR360VOG/'>ENCSR360VOG</a>"
       },
       "label" : "somi-1-ENCFF552MLZ",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -234,7 +234,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hmg-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF909GPQ/'>this page</a> and for more information on this hmg-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR306UKE/'>ENCSR306UKE</a>"
       },
       "label" : "hmg-4-ENCFF909GPQ",
-      "category" : "modERN",
+      "category" : "modERN/early embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -251,7 +251,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for unc-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF927WYT/'>this page</a> and for more information on this unc-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR246TDY/'>ENCSR246TDY</a>"
       },
       "label" : "unc-3-ENCFF927WYT",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -268,7 +268,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-13 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF163BSC/'>this page</a> and for more information on this ceh-13 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR389SSP/'>ENCSR389SSP</a>"
       },
       "label" : "ceh-13-ENCFF163BSC",
-      "category" : "modERN",
+      "category" : "modERN/early embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -285,7 +285,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for alr-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF994HKK/'>this page</a> and for more information on this alr-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR961TXR/'>ENCSR961TXR</a>"
       },
       "label" : "alr-1-ENCFF994HKK",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -302,7 +302,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for efl-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF224KZR/'>this page</a> and for more information on this efl-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR209ZYI/'>ENCSR209ZYI</a>"
       },
       "label" : "efl-3-ENCFF224KZR",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -319,7 +319,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-8 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF960PMB/'>this page</a> and for more information on this ceh-8 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR953PJS/'>ENCSR953PJS</a>"
       },
       "label" : "ceh-8-ENCFF960PMB",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -336,7 +336,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for elt-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF188GID/'>this page</a> and for more information on this elt-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR266NAT/'>ENCSR266NAT</a>"
       },
       "label" : "elt-2-ENCFF188GID",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -353,7 +353,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for tlf-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF213LJM/'>this page</a> and for more information on this tlf-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR049FHU/'>ENCSR049FHU</a>"
       },
       "label" : "tlf-1-ENCFF213LJM",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -370,7 +370,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hlh-13 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF631NJO/'>this page</a> and for more information on this hlh-13 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR457RNA/'>ENCSR457RNA</a>"
       },
       "label" : "hlh-13-ENCFF631NJO",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -387,7 +387,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for lin-32 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF624RSH/'>this page</a> and for more information on this lin-32 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR264HFB/'>ENCSR264HFB</a>"
       },
       "label" : "lin-32-ENCFF624RSH",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -404,7 +404,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for elt-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF801JKF/'>this page</a> and for more information on this elt-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR697MUB/'>ENCSR697MUB</a>"
       },
       "label" : "elt-2-ENCFF801JKF",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -421,7 +421,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F57C9.4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF709ESK/'>this page</a> and for more information on this F57C9.4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR823IAC/'>ENCSR823IAC</a>"
       },
       "label" : "F57C9.4-ENCFF709ESK",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -438,7 +438,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for tra-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF100SUQ/'>this page</a> and for more information on this tra-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR928FFW/'>ENCSR928FFW</a>"
       },
       "label" : "tra-4-ENCFF100SUQ",
-      "category" : "modERN",
+      "category" : "modERN/early embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -455,7 +455,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for K02D7.2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF155VRT/'>this page</a> and for more information on this K02D7.2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR565YWG/'>ENCSR565YWG</a>"
       },
       "label" : "K02D7.2-ENCFF155VRT",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -472,7 +472,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ztf-26 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF545QTX/'>this page</a> and for more information on this ztf-26 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR869PRN/'>ENCSR869PRN</a>"
       },
       "label" : "ztf-26-ENCFF545QTX",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -489,7 +489,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for repo-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF224YHJ/'>this page</a> and for more information on this repo-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR809IFM/'>ENCSR809IFM</a>"
       },
       "label" : "repo-1-ENCFF224YHJ",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -506,7 +506,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for atf-7 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF660RQT/'>this page</a> and for more information on this atf-7 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR411OOP/'>ENCSR411OOP</a>"
       },
       "label" : "atf-7-ENCFF660RQT",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -523,7 +523,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for C34B4.2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF194JSG/'>this page</a> and for more information on this C34B4.2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR180ETP/'>ENCSR180ETP</a>"
       },
       "label" : "C34B4.2-ENCFF194JSG",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -540,7 +540,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for vab-15 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF628XNQ/'>this page</a> and for more information on this vab-15 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR757OPC/'>ENCSR757OPC</a>"
       },
       "label" : "vab-15-ENCFF628XNQ",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -557,7 +557,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-79 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF583KQW/'>this page</a> and for more information on this ceh-79 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR388MJH/'>ENCSR388MJH</a>"
       },
       "label" : "ceh-79-ENCFF583KQW",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -574,7 +574,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for dpff-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF723NIR/'>this page</a> and for more information on this dpff-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR447OYJ/'>ENCSR447OYJ</a>"
       },
       "label" : "dpff-1-ENCFF723NIR",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -591,7 +591,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hif-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF629RSP/'>this page</a> and for more information on this hif-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR991HIA/'>ENCSR991HIA</a>"
       },
       "label" : "hif-1-ENCFF629RSP",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -608,7 +608,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ccch-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF837OBP/'>this page</a> and for more information on this ccch-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR514BBN/'>ENCSR514BBN</a>"
       },
       "label" : "ccch-3-ENCFF837OBP",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -625,7 +625,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for pha-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF897MUW/'>this page</a> and for more information on this pha-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR164CYL/'>ENCSR164CYL</a>"
       },
       "label" : "pha-2-ENCFF897MUW",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -642,7 +642,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for sox-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF183LPX/'>this page</a> and for more information on this sox-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR204WOO/'>ENCSR204WOO</a>"
       },
       "label" : "sox-4-ENCFF183LPX",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -659,7 +659,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for spr-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF791MYR/'>this page</a> and for more information on this spr-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR810BRE/'>ENCSR810BRE</a>"
       },
       "label" : "spr-3-ENCFF791MYR",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -676,7 +676,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hlh-17 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF784HDR/'>this page</a> and for more information on this hlh-17 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR895KXK/'>ENCSR895KXK</a>"
       },
       "label" : "hlh-17-ENCFF784HDR",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -693,7 +693,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for mxl-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF700GAN/'>this page</a> and for more information on this mxl-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR416GJW/'>ENCSR416GJW</a>"
       },
       "label" : "mxl-3-ENCFF700GAN",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -710,7 +710,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F13C5.2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF072XKZ/'>this page</a> and for more information on this F13C5.2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR387HSD/'>ENCSR387HSD</a>"
       },
       "label" : "F13C5.2-ENCFF072XKZ",
-      "category" : "modERN",
+      "category" : "modERN/early embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -727,7 +727,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for athp-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF087FOX/'>this page</a> and for more information on this athp-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR875XJL/'>ENCSR875XJL</a>"
       },
       "label" : "athp-1-ENCFF087FOX",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -744,7 +744,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for K12H6.12 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF760UFU/'>this page</a> and for more information on this K12H6.12 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR500LPZ/'>ENCSR500LPZ</a>"
       },
       "label" : "K12H6.12-ENCFF760UFU",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -761,7 +761,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for sdz-12 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF887VOL/'>this page</a> and for more information on this sdz-12 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR122TLF/'>ENCSR122TLF</a>"
       },
       "label" : "sdz-12-ENCFF887VOL",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -778,7 +778,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for Y55F3AM.14 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF668OZF/'>this page</a> and for more information on this Y55F3AM.14 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR872HBZ/'>ENCSR872HBZ</a>"
       },
       "label" : "Y55F3AM.14-ENCFF668OZF",
-      "category" : "modERN",
+      "category" : "modERN/L2 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -795,7 +795,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hlh-15 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF617WQM/'>this page</a> and for more information on this hlh-15 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR155UEF/'>ENCSR155UEF</a>"
       },
       "label" : "hlh-15-ENCFF617WQM",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -812,7 +812,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ztf-22 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF214PKJ/'>this page</a> and for more information on this ztf-22 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR684PHU/'>ENCSR684PHU</a>"
       },
       "label" : "ztf-22-ENCFF214PKJ",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -829,7 +829,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for tbp1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF239AFZ/'>this page</a> and for more information on this tbp1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR260AKX/'>ENCSR260AKX</a>"
       },
       "label" : "tbp1-ENCFF239AFZ",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -846,7 +846,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for lin-11 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF759MFC/'>this page</a> and for more information on this lin-11 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR656RPB/'>ENCSR656RPB</a>"
       },
       "label" : "lin-11-ENCFF759MFC",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -863,7 +863,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for lin-54 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF900QWR/'>this page</a> and for more information on this lin-54 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR117TRB/'>ENCSR117TRB</a>"
       },
       "label" : "lin-54-ENCFF900QWR",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -880,7 +880,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for cebp-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF119DMY/'>this page</a> and for more information on this cebp-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR993GFS/'>ENCSR993GFS</a>"
       },
       "label" : "cebp-1-ENCFF119DMY",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -897,7 +897,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-43 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF420MPO/'>this page</a> and for more information on this ceh-43 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR479XCM/'>ENCSR479XCM</a>"
       },
       "label" : "ceh-43-ENCFF420MPO",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -914,7 +914,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for bed-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF163VAD/'>this page</a> and for more information on this bed-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR239IAH/'>ENCSR239IAH</a>"
       },
       "label" : "bed-3-ENCFF163VAD",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -931,7 +931,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for M03D4.4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF719VFM/'>this page</a> and for more information on this M03D4.4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR766ULH/'>ENCSR766ULH</a>"
       },
       "label" : "M03D4.4-ENCFF719VFM",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -948,7 +948,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for madf-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF674NWC/'>this page</a> and for more information on this madf-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR442XYW/'>ENCSR442XYW</a>"
       },
       "label" : "madf-2-ENCFF674NWC",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -965,7 +965,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for sptf-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF667MVT/'>this page</a> and for more information on this sptf-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR956TMJ/'>ENCSR956TMJ</a>"
       },
       "label" : "sptf-2-ENCFF667MVT",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -982,7 +982,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for sptf-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF528CSQ/'>this page</a> and for more information on this sptf-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR823LPZ/'>ENCSR823LPZ</a>"
       },
       "label" : "sptf-1-ENCFF528CSQ",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -999,7 +999,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for drap-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF847KEQ/'>this page</a> and for more information on this drap-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR617PLK/'>ENCSR617PLK</a>"
       },
       "label" : "drap-1-ENCFF847KEQ",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -1016,7 +1016,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hlh-11 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF047SMD/'>this page</a> and for more information on this hlh-11 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR862DMN/'>ENCSR862DMN</a>"
       },
       "label" : "hlh-11-ENCFF047SMD",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1033,7 +1033,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for T20F7.1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF155SFZ/'>this page</a> and for more information on this T20F7.1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR371ICA/'>ENCSR371ICA</a>"
       },
       "label" : "T20F7.1-ENCFF155SFZ",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1050,7 +1050,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ham-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF221SHQ/'>this page</a> and for more information on this ham-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR575DJF/'>ENCSR575DJF</a>"
       },
       "label" : "ham-2-ENCFF221SHQ",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -1067,7 +1067,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-63 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF763IRW/'>this page</a> and for more information on this ceh-63 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR182HOA/'>ENCSR182HOA</a>"
       },
       "label" : "ceh-63-ENCFF763IRW",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1084,7 +1084,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for T23F11.4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF163FKK/'>this page</a> and for more information on this T23F11.4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR434ALY/'>ENCSR434ALY</a>"
       },
       "label" : "T23F11.4-ENCFF163FKK",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1101,7 +1101,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for flh-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF177AWS/'>this page</a> and for more information on this flh-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR811ZML/'>ENCSR811ZML</a>"
       },
       "label" : "flh-1-ENCFF177AWS",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -1118,7 +1118,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-27 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF973XHS/'>this page</a> and for more information on this ceh-27 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR951SLK/'>ENCSR951SLK</a>"
       },
       "label" : "ceh-27-ENCFF973XHS",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1135,7 +1135,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ztf-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF647UFX/'>this page</a> and for more information on this ztf-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR565RZD/'>ENCSR565RZD</a>"
       },
       "label" : "ztf-3-ENCFF647UFX",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1152,7 +1152,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for pat-9 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF586TMB/'>this page</a> and for more information on this pat-9 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR572AWO/'>ENCSR572AWO</a>"
       },
       "label" : "pat-9-ENCFF586TMB",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1169,7 +1169,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for attf-5 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF649ZBL/'>this page</a> and for more information on this attf-5 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR677TRQ/'>ENCSR677TRQ</a>"
       },
       "label" : "attf-5-ENCFF649ZBL",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1186,7 +1186,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for sem-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF579FLI/'>this page</a> and for more information on this sem-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR641VZA/'>ENCSR641VZA</a>"
       },
       "label" : "sem-2-ENCFF579FLI",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -1203,7 +1203,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ztf-16 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF319DZY/'>this page</a> and for more information on this ztf-16 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR647GMY/'>ENCSR647GMY</a>"
       },
       "label" : "ztf-16-ENCFF319DZY",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1220,7 +1220,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F10E7.11 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF124YBY/'>this page</a> and for more information on this F10E7.11 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR541RUY/'>ENCSR541RUY</a>"
       },
       "label" : "F10E7.11-ENCFF124YBY",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1237,7 +1237,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for zim-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF451OFD/'>this page</a> and for more information on this zim-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR406NQK/'>ENCSR406NQK</a>"
       },
       "label" : "zim-3-ENCFF451OFD",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1254,7 +1254,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for cnd-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF507KJW/'>this page</a> and for more information on this cnd-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR296BKT/'>ENCSR296BKT</a>"
       },
       "label" : "cnd-1-ENCFF507KJW",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -1271,7 +1271,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for pqm-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF679YEI/'>this page</a> and for more information on this pqm-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR778ETM/'>ENCSR778ETM</a>"
       },
       "label" : "pqm-1-ENCFF679YEI",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1288,7 +1288,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for C38D4.7 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF478POU/'>this page</a> and for more information on this C38D4.7 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR626LGN/'>ENCSR626LGN</a>"
       },
       "label" : "C38D4.7-ENCFF478POU",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1305,7 +1305,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for gei-8 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF574OHJ/'>this page</a> and for more information on this gei-8 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR729RHJ/'>ENCSR729RHJ</a>"
       },
       "label" : "gei-8-ENCFF574OHJ",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1322,7 +1322,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-83 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF263UCR/'>this page</a> and for more information on this ceh-83 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR579XVH/'>ENCSR579XVH</a>"
       },
       "label" : "ceh-83-ENCFF263UCR",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -1339,7 +1339,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-27 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF325DWU/'>this page</a> and for more information on this nhr-27 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR542ICA/'>ENCSR542ICA</a>"
       },
       "label" : "nhr-27-ENCFF325DWU",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1356,7 +1356,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-111 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF073WLL/'>this page</a> and for more information on this nhr-111 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR487OER/'>ENCSR487OER</a>"
       },
       "label" : "nhr-111-ENCFF073WLL",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1373,7 +1373,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-6 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF038FYU/'>this page</a> and for more information on this ceh-6 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR994CUJ/'>ENCSR994CUJ</a>"
       },
       "label" : "ceh-6-ENCFF038FYU",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1390,7 +1390,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for zip-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF785UNB/'>this page</a> and for more information on this zip-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR992JPS/'>ENCSR992JPS</a>"
       },
       "label" : "zip-4-ENCFF785UNB",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1407,7 +1407,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for akir-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF463LGJ/'>this page</a> and for more information on this akir-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR154LSU/'>ENCSR154LSU</a>"
       },
       "label" : "akir-1-ENCFF463LGJ",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1424,7 +1424,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for Y5F2A.4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF478AHO/'>this page</a> and for more information on this Y5F2A.4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR374WWP/'>ENCSR374WWP</a>"
       },
       "label" : "Y5F2A.4-ENCFF478AHO",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1441,7 +1441,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for gei-17 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF473GZW/'>this page</a> and for more information on this gei-17 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR041LFH/'>ENCSR041LFH</a>"
       },
       "label" : "gei-17-ENCFF473GZW",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1458,7 +1458,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for sup-37 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF093DLG/'>this page</a> and for more information on this sup-37 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR115ZDZ/'>ENCSR115ZDZ</a>"
       },
       "label" : "sup-37-ENCFF093DLG",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1475,7 +1475,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ets-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF507MBR/'>this page</a> and for more information on this ets-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR919QDM/'>ENCSR919QDM</a>"
       },
       "label" : "ets-4-ENCFF507MBR",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1492,7 +1492,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ets-7 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF991KTZ/'>this page</a> and for more information on this ets-7 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR475ZYS/'>ENCSR475ZYS</a>"
       },
       "label" : "ets-7-ENCFF991KTZ",
-      "category" : "modERN",
+      "category" : "modERN/early embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1509,7 +1509,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for snpc-3.4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF035KKA/'>this page</a> and for more information on this snpc-3.4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR726OQC/'>ENCSR726OQC</a>"
       },
       "label" : "snpc-3.4-ENCFF035KKA",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1526,7 +1526,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for rpc-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF928HPS/'>this page</a> and for more information on this rpc-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR668OMI/'>ENCSR668OMI</a>"
       },
       "label" : "rpc-1-ENCFF928HPS",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1543,7 +1543,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for Y116A8C.19 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF009BRG/'>this page</a> and for more information on this Y116A8C.19 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR334YYP/'>ENCSR334YYP</a>"
       },
       "label" : "Y116A8C.19-ENCFF009BRG",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1560,7 +1560,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for zfp-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF315LVT/'>this page</a> and for more information on this zfp-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR603SRL/'>ENCSR603SRL</a>"
       },
       "label" : "zfp-2-ENCFF315LVT",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1577,7 +1577,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for unc-86 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF772OWV/'>this page</a> and for more information on this unc-86 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR807UTG/'>ENCSR807UTG</a>"
       },
       "label" : "unc-86-ENCFF772OWV",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1594,7 +1594,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hif-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF555FAQ/'>this page</a> and for more information on this hif-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR517OZM/'>ENCSR517OZM</a>"
       },
       "label" : "hif-1-ENCFF555FAQ",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1611,7 +1611,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hlh-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF868RBU/'>this page</a> and for more information on this hlh-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR498FBJ/'>ENCSR498FBJ</a>"
       },
       "label" : "hlh-4-ENCFF868RBU",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1628,7 +1628,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hlh-8 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF872QZC/'>this page</a> and for more information on this hlh-8 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR748QMA/'>ENCSR748QMA</a>"
       },
       "label" : "hlh-8-ENCFF872QZC",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1645,7 +1645,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F10B5.3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF693NLH/'>this page</a> and for more information on this F10B5.3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR154XWT/'>ENCSR154XWT</a>"
       },
       "label" : "F10B5.3-ENCFF693NLH",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1662,7 +1662,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F22D6.2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF903FEW/'>this page</a> and for more information on this F22D6.2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR166DXK/'>ENCSR166DXK</a>"
       },
       "label" : "F22D6.2-ENCFF903FEW",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1679,7 +1679,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-48 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF066GNC/'>this page</a> and for more information on this nhr-48 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR176TET/'>ENCSR176TET</a>"
       },
       "label" : "nhr-48-ENCFF066GNC",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1696,7 +1696,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for snpc-1.1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF381NRD/'>this page</a> and for more information on this snpc-1.1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR032CWX/'>ENCSR032CWX</a>"
       },
       "label" : "snpc-1.1-ENCFF381NRD",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1713,7 +1713,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for sdc-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF005ETH/'>this page</a> and for more information on this sdc-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR438PSB/'>ENCSR438PSB</a>"
       },
       "label" : "sdc-2-ENCFF005ETH",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1730,7 +1730,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ref-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF320ZRR/'>this page</a> and for more information on this ref-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR320EEP/'>ENCSR320EEP</a>"
       },
       "label" : "ref-2-ENCFF320ZRR",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1747,7 +1747,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-179 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF697CAP/'>this page</a> and for more information on this nhr-179 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR710GXZ/'>ENCSR710GXZ</a>"
       },
       "label" : "nhr-179-ENCFF697CAP",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1764,7 +1764,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for syd-9 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF058IGA/'>this page</a> and for more information on this syd-9 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR447EUI/'>ENCSR447EUI</a>"
       },
       "label" : "syd-9-ENCFF058IGA",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1781,7 +1781,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hrde-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF986COB/'>this page</a> and for more information on this hrde-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR548OPZ/'>ENCSR548OPZ</a>"
       },
       "label" : "hrde-1-ENCFF986COB",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1798,7 +1798,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for aly-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF092GJQ/'>this page</a> and for more information on this aly-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR836LVI/'>ENCSR836LVI</a>"
       },
       "label" : "aly-1-ENCFF092GJQ",
-      "category" : "modERN",
+      "category" : "modERN/early embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1815,7 +1815,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for elt-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF118UUK/'>this page</a> and for more information on this elt-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR714ZDK/'>ENCSR714ZDK</a>"
       },
       "label" : "elt-4-ENCFF118UUK",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1832,7 +1832,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for fax-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF333ESJ/'>this page</a> and for more information on this fax-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR517JNQ/'>ENCSR517JNQ</a>"
       },
       "label" : "fax-1-ENCFF333ESJ",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1849,7 +1849,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for xnd-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF214IKK/'>this page</a> and for more information on this xnd-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR327NRA/'>ENCSR327NRA</a>"
       },
       "label" : "xnd-1-ENCFF214IKK",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1866,7 +1866,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for B0035.1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF829GJL/'>this page</a> and for more information on this B0035.1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR450GPA/'>ENCSR450GPA</a>"
       },
       "label" : "B0035.1-ENCFF829GJL",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -1883,7 +1883,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-232 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF270KYW/'>this page</a> and for more information on this nhr-232 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR182IGG/'>ENCSR182IGG</a>"
       },
       "label" : "nhr-232-ENCFF270KYW",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1900,7 +1900,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF736OZW/'>this page</a> and for more information on this ceh-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR534TFA/'>ENCSR534TFA</a>"
       },
       "label" : "ceh-2-ENCFF736OZW",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1917,7 +1917,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hlh-6 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF266AXA/'>this page</a> and for more information on this hlh-6 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR632XME/'>ENCSR632XME</a>"
       },
       "label" : "hlh-6-ENCFF266AXA",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1934,7 +1934,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for mes-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF085YJC/'>this page</a> and for more information on this mes-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR977VOU/'>ENCSR977VOU</a>"
       },
       "label" : "mes-2-ENCFF085YJC",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1951,7 +1951,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for unc-42 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF733JRA/'>this page</a> and for more information on this unc-42 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR124XUB/'>ENCSR124XUB</a>"
       },
       "label" : "unc-42-ENCFF733JRA",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -1968,7 +1968,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F49E8.2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF059PKB/'>this page</a> and for more information on this F49E8.2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR013JXG/'>ENCSR013JXG</a>"
       },
       "label" : "F49E8.2-ENCFF059PKB",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -1985,7 +1985,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for die-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF167BVE/'>this page</a> and for more information on this die-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR962KSG/'>ENCSR962KSG</a>"
       },
       "label" : "die-1-ENCFF167BVE",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2002,7 +2002,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for sma-9 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF209LPE/'>this page</a> and for more information on this sma-9 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR639CLM/'>ENCSR639CLM</a>"
       },
       "label" : "sma-9-ENCFF209LPE",
-      "category" : "modERN",
+      "category" : "modERN/L2 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2019,7 +2019,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for efl-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF127YXL/'>this page</a> and for more information on this efl-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR130CZH/'>ENCSR130CZH</a>"
       },
       "label" : "efl-1-ENCFF127YXL",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2036,7 +2036,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for rec-8 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF523SUS/'>this page</a> and for more information on this rec-8 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR689UBU/'>ENCSR689UBU</a>"
       },
       "label" : "rec-8-ENCFF523SUS",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2053,7 +2053,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-31 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF473DVC/'>this page</a> and for more information on this ceh-31 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR420ATF/'>ENCSR420ATF</a>"
       },
       "label" : "ceh-31-ENCFF473DVC",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2070,7 +2070,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-43 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF792BGX/'>this page</a> and for more information on this nhr-43 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR394KNZ/'>ENCSR394KNZ</a>"
       },
       "label" : "nhr-43-ENCFF792BGX",
-      "category" : "modERN",
+      "category" : "modERN/L3 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2087,7 +2087,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for dsc-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF639WNE/'>this page</a> and for more information on this dsc-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR489SGT/'>ENCSR489SGT</a>"
       },
       "label" : "dsc-1-ENCFF639WNE",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2104,7 +2104,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for rbr-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF823YFY/'>this page</a> and for more information on this rbr-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR274WQG/'>ENCSR274WQG</a>"
       },
       "label" : "rbr-2-ENCFF823YFY",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2121,7 +2121,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for snpc-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF867CXG/'>this page</a> and for more information on this snpc-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR032FII/'>ENCSR032FII</a>"
       },
       "label" : "snpc-4-ENCFF867CXG",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2138,7 +2138,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for elt-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF806XPK/'>this page</a> and for more information on this elt-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR715MIV/'>ENCSR715MIV</a>"
       },
       "label" : "elt-1-ENCFF806XPK",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -2155,7 +2155,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for lir-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF178NLM/'>this page</a> and for more information on this lir-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR258OFT/'>ENCSR258OFT</a>"
       },
       "label" : "lir-3-ENCFF178NLM",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2172,7 +2172,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for let-607 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF588EOS/'>this page</a> and for more information on this let-607 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR701SBA/'>ENCSR701SBA</a>"
       },
       "label" : "let-607-ENCFF588EOS",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2189,7 +2189,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for rnt-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF354YVJ/'>this page</a> and for more information on this rnt-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR427JJZ/'>ENCSR427JJZ</a>"
       },
       "label" : "rnt-1-ENCFF354YVJ",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2206,7 +2206,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-102 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF790EIG/'>this page</a> and for more information on this nhr-102 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR735XWN/'>ENCSR735XWN</a>"
       },
       "label" : "nhr-102-ENCFF790EIG",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2223,7 +2223,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for tbx-7 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF137ZAX/'>this page</a> and for more information on this tbx-7 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR536VXP/'>ENCSR536VXP</a>"
       },
       "label" : "tbx-7-ENCFF137ZAX",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2240,7 +2240,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-47 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF979GYO/'>this page</a> and for more information on this nhr-47 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR321VWM/'>ENCSR321VWM</a>"
       },
       "label" : "nhr-47-ENCFF979GYO",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2257,7 +2257,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-90 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF321GQG/'>this page</a> and for more information on this nhr-90 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR750IEF/'>ENCSR750IEF</a>"
       },
       "label" : "nhr-90-ENCFF321GQG",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2274,7 +2274,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for pag-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF787ISK/'>this page</a> and for more information on this pag-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR813WNF/'>ENCSR813WNF</a>"
       },
       "label" : "pag-3-ENCFF787ISK",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2291,7 +2291,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for C04F5.9 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF491BYF/'>this page</a> and for more information on this C04F5.9 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR917KLO/'>ENCSR917KLO</a>"
       },
       "label" : "C04F5.9-ENCFF491BYF",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2308,7 +2308,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for snpc-1.3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF810EMI/'>this page</a> and for more information on this snpc-1.3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR192NDP/'>ENCSR192NDP</a>"
       },
       "label" : "snpc-1.3-ENCFF810EMI",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2325,7 +2325,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-18 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF733HIQ/'>this page</a> and for more information on this ceh-18 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR252OVI/'>ENCSR252OVI</a>"
       },
       "label" : "ceh-18-ENCFF733HIQ",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2342,7 +2342,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-14 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF440MQK/'>this page</a> and for more information on this ceh-14 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR673WIC/'>ENCSR673WIC</a>"
       },
       "label" : "ceh-14-ENCFF440MQK",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2359,7 +2359,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-34 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF154WQK/'>this page</a> and for more information on this ceh-34 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR507XRY/'>ENCSR507XRY</a>"
       },
       "label" : "ceh-34-ENCFF154WQK",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2376,7 +2376,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for dve-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF986MWK/'>this page</a> and for more information on this dve-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR774DUH/'>ENCSR774DUH</a>"
       },
       "label" : "dve-1-ENCFF986MWK",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2393,7 +2393,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for spr-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF452EXF/'>this page</a> and for more information on this spr-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR256CRR/'>ENCSR256CRR</a>"
       },
       "label" : "spr-1-ENCFF452EXF",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2410,7 +2410,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ztf-18 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF394SEY/'>this page</a> and for more information on this ztf-18 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR943FFC/'>ENCSR943FFC</a>"
       },
       "label" : "ztf-18-ENCFF394SEY",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2427,7 +2427,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for mec-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF727NQQ/'>this page</a> and for more information on this mec-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR957OLT/'>ENCSR957OLT</a>"
       },
       "label" : "mec-3-ENCFF727NQQ",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2444,7 +2444,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for lim-6 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF940KUE/'>this page</a> and for more information on this lim-6 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR753PGF/'>ENCSR753PGF</a>"
       },
       "label" : "lim-6-ENCFF940KUE",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2461,7 +2461,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for cey-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF971JYG/'>this page</a> and for more information on this cey-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR456YDF/'>ENCSR456YDF</a>"
       },
       "label" : "cey-2-ENCFF971JYG",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2478,7 +2478,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for madf-10 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF363QUH/'>this page</a> and for more information on this madf-10 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR133RTP/'>ENCSR133RTP</a>"
       },
       "label" : "madf-10-ENCFF363QUH",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2495,7 +2495,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for med-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF487CDH/'>this page</a> and for more information on this med-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR397XGG/'>ENCSR397XGG</a>"
       },
       "label" : "med-1-ENCFF487CDH",
-      "category" : "modERN",
+      "category" : "modERN/midembryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2512,7 +2512,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for fkh-6 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF530CJD/'>this page</a> and for more information on this fkh-6 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR695HLU/'>ENCSR695HLU</a>"
       },
       "label" : "fkh-6-ENCFF530CJD",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2529,7 +2529,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F13H6.1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF575RXU/'>this page</a> and for more information on this F13H6.1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR111LGE/'>ENCSR111LGE</a>"
       },
       "label" : "F13H6.1-ENCFF575RXU",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2546,7 +2546,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-25 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF650GUI/'>this page</a> and for more information on this nhr-25 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR338HCL/'>ENCSR338HCL</a>"
       },
       "label" : "nhr-25-ENCFF650GUI",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2563,7 +2563,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for T07F8.4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF204OYH/'>this page</a> and for more information on this T07F8.4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR955ZWH/'>ENCSR955ZWH</a>"
       },
       "label" : "T07F8.4-ENCFF204OYH",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2580,7 +2580,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-71 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF832PRA/'>this page</a> and for more information on this nhr-71 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR266SPL/'>ENCSR266SPL</a>"
       },
       "label" : "nhr-71-ENCFF832PRA",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2597,7 +2597,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for K09A11.1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF833CMT/'>this page</a> and for more information on this K09A11.1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR898ATP/'>ENCSR898ATP</a>"
       },
       "label" : "K09A11.1-ENCFF833CMT",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2614,7 +2614,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for lir-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF147OSA/'>this page</a> and for more information on this lir-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR408FDZ/'>ENCSR408FDZ</a>"
       },
       "label" : "lir-3-ENCFF147OSA",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2631,7 +2631,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-20 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF528QQP/'>this page</a> and for more information on this nhr-20 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR620JQF/'>ENCSR620JQF</a>"
       },
       "label" : "nhr-20-ENCFF528QQP",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2648,7 +2648,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nfya-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF567OHA/'>this page</a> and for more information on this nfya-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR653IDD/'>ENCSR653IDD</a>"
       },
       "label" : "nfya-1-ENCFF567OHA",
-      "category" : "modERN",
+      "category" : "modERN/L3 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2665,7 +2665,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F49E8.2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF333QZX/'>this page</a> and for more information on this F49E8.2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR529PIJ/'>ENCSR529PIJ</a>"
       },
       "label" : "F49E8.2-ENCFF333QZX",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2682,7 +2682,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for dpl-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF404BSG/'>this page</a> and for more information on this dpl-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR768FFN/'>ENCSR768FFN</a>"
       },
       "label" : "dpl-1-ENCFF404BSG",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2699,7 +2699,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for xbp-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF827YCQ/'>this page</a> and for more information on this xbp-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR470XFF/'>ENCSR470XFF</a>"
       },
       "label" : "xbp-1-ENCFF827YCQ",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2716,7 +2716,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for dmd-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF449UDD/'>this page</a> and for more information on this dmd-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR379UPR/'>ENCSR379UPR</a>"
       },
       "label" : "dmd-4-ENCFF449UDD",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2733,7 +2733,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for swsn-7 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF153GRE/'>this page</a> and for more information on this swsn-7 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR406IHG/'>ENCSR406IHG</a>"
       },
       "label" : "swsn-7-ENCFF153GRE",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2750,7 +2750,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for snpc-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF786HUM/'>this page</a> and for more information on this snpc-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR623HHL/'>ENCSR623HHL</a>"
       },
       "label" : "snpc-4-ENCFF786HUM",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2767,7 +2767,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for sox-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF185TQQ/'>this page</a> and for more information on this sox-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR345JIR/'>ENCSR345JIR</a>"
       },
       "label" : "sox-4-ENCFF185TQQ",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2784,7 +2784,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F37D6.2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF916IJO/'>this page</a> and for more information on this F37D6.2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR905YIL/'>ENCSR905YIL</a>"
       },
       "label" : "F37D6.2-ENCFF916IJO",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2801,7 +2801,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ZK185.1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF526KTZ/'>this page</a> and for more information on this ZK185.1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR543FLP/'>ENCSR543FLP</a>"
       },
       "label" : "ZK185.1-ENCFF526KTZ",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2818,7 +2818,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hlh-30 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF283COC/'>this page</a> and for more information on this hlh-30 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR246PQU/'>ENCSR246PQU</a>"
       },
       "label" : "hlh-30-ENCFF283COC",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2835,7 +2835,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for daf-16 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF738DCR/'>this page</a> and for more information on this daf-16 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR946AUI/'>ENCSR946AUI</a>"
       },
       "label" : "daf-16-ENCFF738DCR",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2852,7 +2852,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for efl-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF814OEZ/'>this page</a> and for more information on this efl-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR622QSS/'>ENCSR622QSS</a>"
       },
       "label" : "efl-1-ENCFF814OEZ",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2869,7 +2869,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for egl-13 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF171PAS/'>this page</a> and for more information on this egl-13 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR522TSE/'>ENCSR522TSE</a>"
       },
       "label" : "egl-13-ENCFF171PAS",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2886,7 +2886,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for dve-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF808FTE/'>this page</a> and for more information on this dve-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR694VLW/'>ENCSR694VLW</a>"
       },
       "label" : "dve-1-ENCFF808FTE",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2903,7 +2903,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for daf-16 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF626HBN/'>this page</a> and for more information on this daf-16 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR081BBL/'>ENCSR081BBL</a>"
       },
       "label" : "daf-16-ENCFF626HBN",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2920,7 +2920,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for unc-130 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF026EGR/'>this page</a> and for more information on this unc-130 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR968HCJ/'>ENCSR968HCJ</a>"
       },
       "label" : "unc-130-ENCFF026EGR",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2937,7 +2937,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-32 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF712XFS/'>this page</a> and for more information on this ceh-32 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR329YGE/'>ENCSR329YGE</a>"
       },
       "label" : "ceh-32-ENCFF712XFS",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -2954,7 +2954,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ets-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF453AMX/'>this page</a> and for more information on this ets-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR260GEE/'>ENCSR260GEE</a>"
       },
       "label" : "ets-4-ENCFF453AMX",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -2971,7 +2971,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for unc-130 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF800ALO/'>this page</a> and for more information on this unc-130 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR435FDM/'>ENCSR435FDM</a>"
       },
       "label" : "unc-130-ENCFF800ALO",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -2988,7 +2988,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hlh-30 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF206SEQ/'>this page</a> and for more information on this hlh-30 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR091KQX/'>ENCSR091KQX</a>"
       },
       "label" : "hlh-30-ENCFF206SEQ",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3005,7 +3005,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for rnt-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF184OQV/'>this page</a> and for more information on this rnt-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR597WQR/'>ENCSR597WQR</a>"
       },
       "label" : "rnt-1-ENCFF184OQV",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3022,7 +3022,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for duxl-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF165NJP/'>this page</a> and for more information on this duxl-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR674PDL/'>ENCSR674PDL</a>"
       },
       "label" : "duxl-1-ENCFF165NJP",
-      "category" : "modERN",
+      "category" : "modERN/L4 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3039,7 +3039,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for odd-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF388KLR/'>this page</a> and for more information on this odd-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR426MPH/'>ENCSR426MPH</a>"
       },
       "label" : "odd-2-ENCFF388KLR",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3056,7 +3056,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-90 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF222AUT/'>this page</a> and for more information on this nhr-90 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR311NAQ/'>ENCSR311NAQ</a>"
       },
       "label" : "nhr-90-ENCFF222AUT",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3073,7 +3073,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for lsy-27 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF005QGG/'>this page</a> and for more information on this lsy-27 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR158PGO/'>ENCSR158PGO</a>"
       },
       "label" : "lsy-27-ENCFF005QGG",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3090,7 +3090,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nfya-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF173AEU/'>this page</a> and for more information on this nfya-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR859SHA/'>ENCSR859SHA</a>"
       },
       "label" : "nfya-1-ENCFF173AEU",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3107,7 +3107,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F23B12.7 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF154LUL/'>this page</a> and for more information on this F23B12.7 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR076LYI/'>ENCSR076LYI</a>"
       },
       "label" : "F23B12.7-ENCFF154LUL",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3124,7 +3124,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for sma-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF055GQP/'>this page</a> and for more information on this sma-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR992FVB/'>ENCSR992FVB</a>"
       },
       "label" : "sma-3-ENCFF055GQP",
-      "category" : "modERN",
+      "category" : "modERN/L2 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3141,7 +3141,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-80 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF737MUB/'>this page</a> and for more information on this nhr-80 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR557ZYT/'>ENCSR557ZYT</a>"
       },
       "label" : "nhr-80-ENCFF737MUB",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3158,7 +3158,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for lin-40 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF470MYD/'>this page</a> and for more information on this lin-40 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR133PLZ/'>ENCSR133PLZ</a>"
       },
       "label" : "lin-40-ENCFF470MYD",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3175,7 +3175,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for tbx-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF903HOE/'>this page</a> and for more information on this tbx-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR344UEX/'>ENCSR344UEX</a>"
       },
       "label" : "tbx-2-ENCFF903HOE",
-      "category" : "modERN",
+      "category" : "modERN/L3 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3192,7 +3192,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ztf-11 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF524NZN/'>this page</a> and for more information on this ztf-11 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR185SVY/'>ENCSR185SVY</a>"
       },
       "label" : "ztf-11-ENCFF524NZN",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3209,7 +3209,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for tbx-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF811JTQ/'>this page</a> and for more information on this tbx-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR162MNX/'>ENCSR162MNX</a>"
       },
       "label" : "tbx-2-ENCFF811JTQ",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3226,7 +3226,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for blmp-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF494PRR/'>this page</a> and for more information on this blmp-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR744BON/'>ENCSR744BON</a>"
       },
       "label" : "blmp-1-ENCFF494PRR",
-      "category" : "modERN",
+      "category" : "modERN/L2 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3243,7 +3243,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hmg-11 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF170SNE/'>this page</a> and for more information on this hmg-11 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR376OYD/'>ENCSR376OYD</a>"
       },
       "label" : "hmg-11-ENCFF170SNE",
-      "category" : "modERN",
+      "category" : "modERN/L3 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3260,7 +3260,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F13H6.1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF724VTZ/'>this page</a> and for more information on this F13H6.1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR359GJP/'>ENCSR359GJP</a>"
       },
       "label" : "F13H6.1-ENCFF724VTZ",
-      "category" : "modERN",
+      "category" : "modERN/L2 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3277,7 +3277,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for tbx-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF852JBM/'>this page</a> and for more information on this tbx-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR238YNR/'>ENCSR238YNR</a>"
       },
       "label" : "tbx-2-ENCFF852JBM",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3294,7 +3294,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for rec-8 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF836TTN/'>this page</a> and for more information on this rec-8 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR806QUX/'>ENCSR806QUX</a>"
       },
       "label" : "rec-8-ENCFF836TTN",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3311,7 +3311,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-90 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF655GFG/'>this page</a> and for more information on this ceh-90 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR891WMQ/'>ENCSR891WMQ</a>"
       },
       "label" : "ceh-90-ENCFF655GFG",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3328,7 +3328,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for fkh-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF104JOE/'>this page</a> and for more information on this fkh-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR371DPT/'>ENCSR371DPT</a>"
       },
       "label" : "fkh-4-ENCFF104JOE",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3345,7 +3345,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for mxl-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF078KCE/'>this page</a> and for more information on this mxl-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR264JKE/'>ENCSR264JKE</a>"
       },
       "label" : "mxl-1-ENCFF078KCE",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3362,7 +3362,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for pag-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF038IUP/'>this page</a> and for more information on this pag-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR680ZDH/'>ENCSR680ZDH</a>"
       },
       "label" : "pag-3-ENCFF038IUP",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3379,7 +3379,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for irx-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF545QMO/'>this page</a> and for more information on this irx-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR938NRX/'>ENCSR938NRX</a>"
       },
       "label" : "irx-1-ENCFF545QMO",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3396,7 +3396,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nfya-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF174GXE/'>this page</a> and for more information on this nfya-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR581THE/'>ENCSR581THE</a>"
       },
       "label" : "nfya-1-ENCFF174GXE",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3413,7 +3413,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F55B11.4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF506QZK/'>this page</a> and for more information on this F55B11.4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR698RXJ/'>ENCSR698RXJ</a>"
       },
       "label" : "F55B11.4-ENCFF506QZK",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3430,7 +3430,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for fkh-8 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF538UTT/'>this page</a> and for more information on this fkh-8 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR435RXY/'>ENCSR435RXY</a>"
       },
       "label" : "fkh-8-ENCFF538UTT",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3447,7 +3447,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for fkh-3 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF139YOY/'>this page</a> and for more information on this fkh-3 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR717JMX/'>ENCSR717JMX</a>"
       },
       "label" : "fkh-3-ENCFF139YOY",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3464,7 +3464,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for lsy-12 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF238OZR/'>this page</a> and for more information on this lsy-12 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR272KZJ/'>ENCSR272KZJ</a>"
       },
       "label" : "lsy-12-ENCFF238OZR",
-      "category" : "modERN",
+      "category" : "modERN/L3 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3481,7 +3481,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for cog-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF859IPZ/'>this page</a> and for more information on this cog-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR422XRE/'>ENCSR422XRE</a>"
       },
       "label" : "cog-1-ENCFF859IPZ",
-      "category" : "modERN",
+      "category" : "modERN/midembryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3498,7 +3498,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for mls-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF573LMJ/'>this page</a> and for more information on this mls-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR668BTV/'>ENCSR668BTV</a>"
       },
       "label" : "mls-2-ENCFF573LMJ",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -3515,7 +3515,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for tbx-9 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF755JFG/'>this page</a> and for more information on this tbx-9 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR819NBT/'>ENCSR819NBT</a>"
       },
       "label" : "tbx-9-ENCFF755JFG",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3532,7 +3532,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for Y22D7AL.16 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF329QXX/'>this page</a> and for more information on this Y22D7AL.16 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR643BKM/'>ENCSR643BKM</a>"
       },
       "label" : "Y22D7AL.16-ENCFF329QXX",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3549,7 +3549,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for B0310.2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF945LXL/'>this page</a> and for more information on this B0310.2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR806JUF/'>ENCSR806JUF</a>"
       },
       "label" : "B0310.2-ENCFF945LXL",
-      "category" : "modERN",
+      "category" : "modERN/early embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3566,7 +3566,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for nhr-85 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF976HPP/'>this page</a> and for more information on this nhr-85 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR107BQR/'>ENCSR107BQR</a>"
       },
       "label" : "nhr-85-ENCFF976HPP",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3583,7 +3583,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for gmeb-2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF824NMH/'>this page</a> and for more information on this gmeb-2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR057TFD/'>ENCSR057TFD</a>"
       },
       "label" : "gmeb-2-ENCFF824NMH",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3600,7 +3600,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for zip-5 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF786EDH/'>this page</a> and for more information on this zip-5 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR686FKU/'>ENCSR686FKU</a>"
       },
       "label" : "zip-5-ENCFF786EDH",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3617,7 +3617,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for npax-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF725IHQ/'>this page</a> and for more information on this npax-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR980XNE/'>ENCSR980XNE</a>"
       },
       "label" : "npax-4-ENCFF725IHQ",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3634,7 +3634,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for B0261.1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF158IBD/'>this page</a> and for more information on this B0261.1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR316ASH/'>ENCSR316ASH</a>"
       },
       "label" : "B0261.1-ENCFF158IBD",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3651,7 +3651,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for che-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF482GOQ/'>this page</a> and for more information on this che-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR598GFQ/'>ENCSR598GFQ</a>"
       },
       "label" : "che-1-ENCFF482GOQ",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3668,7 +3668,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for sdz-38 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF052YIV/'>this page</a> and for more information on this sdz-38 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR505TSF/'>ENCSR505TSF</a>"
       },
       "label" : "sdz-38-ENCFF052YIV",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3685,7 +3685,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hnd-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF967ZEP/'>this page</a> and for more information on this hnd-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR374HBD/'>ENCSR374HBD</a>"
       },
       "label" : "hnd-1-ENCFF967ZEP",
-      "category" : "modERN",
+      "category" : "modERN/early embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3702,7 +3702,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for mel-28 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF226OII/'>this page</a> and for more information on this mel-28 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR518VJU/'>ENCSR518VJU</a>"
       },
       "label" : "mel-28-ENCFF226OII",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3719,7 +3719,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for him-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF253FRD/'>this page</a> and for more information on this him-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR607BSL/'>ENCSR607BSL</a>"
       },
       "label" : "him-1-ENCFF253FRD",
-      "category" : "modERN",
+      "category" : "modERN/L4_young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3736,7 +3736,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for snu-23 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF877FHQ/'>this page</a> and for more information on this snu-23 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR320MVY/'>ENCSR320MVY</a>"
       },
       "label" : "snu-23-ENCFF877FHQ",
-      "category" : "modERN",
+      "category" : "modERN/L1 larva",
       "type" : "CanvasFeatures"
    },
    {
@@ -3753,7 +3753,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for dao-5 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF034WER/'>this page</a> and for more information on this dao-5 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR213XFQ/'>ENCSR213XFQ</a>"
       },
       "label" : "dao-5-ENCFF034WER",
-      "category" : "modERN",
+      "category" : "modERN/L4_young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3770,7 +3770,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-24 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF773RLK/'>this page</a> and for more information on this ceh-24 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR282OTW/'>ENCSR282OTW</a>"
       },
       "label" : "ceh-24-ENCFF773RLK",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3787,7 +3787,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for chd-7 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF814XNV/'>this page</a> and for more information on this chd-7 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR010MNU/'>ENCSR010MNU</a>"
       },
       "label" : "chd-7-ENCFF814XNV",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3804,7 +3804,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for mes-4 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF048AAE/'>this page</a> and for more information on this mes-4 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR665UXV/'>ENCSR665UXV</a>"
       },
       "label" : "mes-4-ENCFF048AAE",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3821,7 +3821,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for C08G9.2 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF215SBJ/'>this page</a> and for more information on this C08G9.2 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR101QFW/'>ENCSR101QFW</a>"
       },
       "label" : "C08G9.2-ENCFF215SBJ",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3838,7 +3838,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-36 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF524NXN/'>this page</a> and for more information on this ceh-36 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR002FCO/'>ENCSR002FCO</a>"
       },
       "label" : "ceh-36-ENCFF524NXN",
-      "category" : "modERN",
+      "category" : "modERN/early embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3855,7 +3855,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hlh-12 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF845OMA/'>this page</a> and for more information on this hlh-12 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR292NVQ/'>ENCSR292NVQ</a>"
       },
       "label" : "hlh-12-ENCFF845OMA",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3872,7 +3872,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for unc-120 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF370PQI/'>this page</a> and for more information on this unc-120 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR456GSL/'>ENCSR456GSL</a>"
       },
       "label" : "unc-120-ENCFF370PQI",
-      "category" : "modERN",
+      "category" : "modERN/mixed stage (embryonic)",
       "type" : "CanvasFeatures"
    },
    {
@@ -3889,7 +3889,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for hmbx-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF558HLP/'>this page</a> and for more information on this hmbx-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR889PUP/'>ENCSR889PUP</a>"
       },
       "label" : "hmbx-1-ENCFF558HLP",
-      "category" : "modERN",
+      "category" : "modERN/early embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3906,7 +3906,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for pop-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF939TKO/'>this page</a> and for more information on this pop-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR880RBB/'>ENCSR880RBB</a>"
       },
       "label" : "pop-1-ENCFF939TKO",
-      "category" : "modERN",
+      "category" : "modERN/early embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3923,7 +3923,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-48 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF784CKU/'>this page</a> and for more information on this ceh-48 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR844VCY/'>ENCSR844VCY</a>"
       },
       "label" : "ceh-48-ENCFF784CKU",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3940,7 +3940,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for ceh-9 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF590HHF/'>this page</a> and for more information on this ceh-9 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR432MSI/'>ENCSR432MSI</a>"
       },
       "label" : "ceh-9-ENCFF590HHF",
-      "category" : "modERN",
+      "category" : "modERN/late embryonic",
       "type" : "CanvasFeatures"
    },
    {
@@ -3957,7 +3957,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for T26A5.8 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF928KWT/'>this page</a> and for more information on this T26A5.8 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR537QPX/'>ENCSR537QPX</a>"
       },
       "label" : "T26A5.8-ENCFF928KWT",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3974,7 +3974,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for him-1 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF007GWU/'>this page</a> and for more information on this him-1 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR110CKX/'>ENCSR110CKX</a>"
       },
       "label" : "him-1-ENCFF007GWU",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    },
    {
@@ -3991,7 +3991,7 @@
          "shortInfo" : "Data from the modERN project hosted at the <a href='https://www.encodeproject.org/'>ENCODE project</a>. Data for F52B5.7 was generated at the Kevin White, UChicago lab. For more information on the data specifically for this track, see <a href='https://www.encodeproject.org/files/ENCFF613YIZ/'>this page</a> and for more information on this F52B5.7 experiment, see <a href='https://www.encodeproject.org/experiments/ENCSR323LIQ/'>ENCSR323LIQ</a>"
       },
       "label" : "F52B5.7-ENCFF613YIZ",
-      "category" : "modERN",
+      "category" : "modERN/young adult",
       "type" : "CanvasFeatures"
    }
 ]
