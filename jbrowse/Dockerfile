@@ -9,7 +9,7 @@
 
 FROM gmod/jbrowse-buildenv:latest as build
 
-ARG RELEASE=282
+ARG RELEASE=283
 
 # JBrowse source
 RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
@@ -23,8 +23,8 @@ RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
 #    * RemoveGridOption    - provides a menu item to remove the background grid lines
 #    * wormbase-glyphs     - provides some glyphs and places a logo in the page
 
-RUN git clone --single-branch --branch jbrowse-282 https://github.com/WormBase/website-genome-browsers.git
-#RUN git clone --single-branch --branch jbrowse-${RELEASE} https://github.com/WormBase/website-genome-browsers.git
+
+RUN git clone --single-branch --branch jbrowse-${RELEASE} https://github.com/WormBase/website-genome-browsers.git
 #RUN git clone --single-branch --branch jbrowse-production https://github.com/WormBase/website-genome-browsers.git
 
 # Provides the PWM motif search plugin
