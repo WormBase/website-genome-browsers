@@ -1,0 +1,25 @@
+{
+   "tracks" : [
+      {
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "label" : "Dicistronic mRNAs",
+         "unsafeMouseover" : true,
+         "category" : "Genes/Curated Genes",
+         "urlTemplate" : "../tracks/Dicistronic mRNAs/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
+         "style" : {
+            "height" : 10,
+            "color" : "green",
+            "className" : "feature"
+         },
+         "metadata" : {
+            "shortInfo" : "Dicistronic mRNA operons - manually observed by curators"
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "Dicistronic mRNAs",
+         "type" : "CanvasFeatures"
+      }
+   ]
+}

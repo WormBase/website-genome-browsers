@@ -1,0 +1,25 @@
+{
+   "tracks" : [
+      {
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "label" : "Operons",
+         "unsafeMouseover" : true,
+         "category" : "Genes/Curated Genes",
+         "urlTemplate" : "../tracks/Operons/{refseq}/trackData.jsonz",
+         "unsafePopup" : true,
+         "trackType" : "CanvasFeatures",
+         "style" : {
+            "height" : 10,
+            "color" : "green",
+            "className" : "feature"
+         },
+         "metadata" : {
+            "shortInfo" : "These are operons published by Blumenthal et al, Nature 417: 851-854 (2002)."
+         },
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "Operons",
+         "type" : "CanvasFeatures"
+      }
+   ]
+}
