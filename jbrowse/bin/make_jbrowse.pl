@@ -158,6 +158,7 @@ my %splitfiles;
 
 GetOptions(
     'gfffile=s'   => \$GFFFILE,
+    'release=s'   => \$RELEASE,
     'species=s'   => \$SPECIES,
     'filedir=s'   => \$FILEDIR,
     'fastafile=s' => \$FASTAFILE,
