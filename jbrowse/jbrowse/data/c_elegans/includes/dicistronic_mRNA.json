@@ -11,7 +11,7 @@
          "trackType" : "CanvasFeatures",
          "style" : {
             "height" : 10,
-            "color" : "green",
+            "color" : "darkgreen",
             "className" : "feature"
          },
          "metadata" : {

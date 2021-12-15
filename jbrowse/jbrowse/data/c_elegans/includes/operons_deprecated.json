@@ -7,7 +7,7 @@
          },
          "style" : {
             "height" : 10,
-            "color" : "green",
+            "color" : "lightgreen",
             "className" : "feature"
          },
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
