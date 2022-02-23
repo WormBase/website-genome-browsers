@@ -1,4 +1,5 @@
-[
+{
+  "tracks": [
    {
       "unsafePopup" : true,
       "style" : {
@@ -3995,4 +3996,5 @@
       "type" : "CanvasFeatures"
    }
 ]
+}
 
