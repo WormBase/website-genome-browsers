@@ -514,7 +514,7 @@ sub process_grep_track {
     if (!-e "$INCLUDES/$section.json") {
         $log->error( "\nMISSING INCLUDE FILE: $section.json\n\n");
     }
-    push @include, "includes/$section.json" unless $empty_result{$section};
+    push @include, "includes/$section.json" unless ($empty_result{$section} or $config->{$section}->{no_config});
 
     return;
 }
