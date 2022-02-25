@@ -569,6 +569,10 @@ unless ($SKIPFILESPLIT) {
     my $alt = $Config->{$section}->{altfile};
     my $key = $alt ? $alt : $section;
 
+    if (!$Config->{$key}->{prefix}) {
+        $log->warn("tracking down single undef warning: section:$section, alt:$alt, key:$key");
+        warn       "tracking down single undef warning: section:$section, alt:$alt, key:$key";
+    }
     my $gffout      ||= $Config->{$key}->{prefix} . "_$GFFFILE";
     my $greppattern ||= $Config->{$key}->{grep};
     my $postprocess ||= $Config->{$key}->{postprocess};
