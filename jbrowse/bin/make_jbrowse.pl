@@ -559,6 +559,7 @@ system("gunzip -f $GFFFILE.gz");
 #use grep to create type specific gff files
 unless ($SKIPFILESPLIT) {
   for my $section (keys %{$config}) {
+    next if $section == '_';
 
     $log->debug($section);
     if ($section =~ /RNASeq/i) {
@@ -571,7 +572,6 @@ unless ($SKIPFILESPLIT) {
 
     if (!$Config->{$key}->{prefix}) {
         $log->warn("tracking down single undef warning: section:$section, alt:$alt, key:$key");
-        warn       "tracking down single undef warning: section:$section, alt:$alt, key:$key";
     }
     my $gffout      ||= $Config->{$key}->{prefix} . "_$GFFFILE";
     my $greppattern ||= $Config->{$key}->{grep};
