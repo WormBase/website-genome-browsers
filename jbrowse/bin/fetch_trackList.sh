@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RELEASE='WS283'
+RELEASE='WS284'
 while getopts r: option
 do
 case "${option}"
