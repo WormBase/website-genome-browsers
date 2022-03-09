@@ -5,7 +5,7 @@
             "shortInfo" : "DNase I hypersensitive sites from the 2009 paper by Shi et al."
          },
          "onClick" : {
-            "url" : "{featureURL}",
+            "url" : "/species/c_elegans/feature/{name}",
             "title" : "Feature in WormBase",
             "action" : "iframeDialog",
             "label" : "Feature in WormBase"
