@@ -559,7 +559,7 @@ system("gunzip -f $GFFFILE.gz");
 #use grep to create type specific gff files
 unless ($SKIPFILESPLIT) {
   for my $section (keys %{$config}) {
-    next if $section == '_';
+    next if $section eq '_';
 
     $log->debug($section);
     if ($section =~ /RNASeq/i) {
