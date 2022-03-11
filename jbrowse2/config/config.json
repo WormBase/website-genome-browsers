@@ -1,7 +1,7 @@
 {
   "configuration": {
     "rpc": {
-      "defaultDriver": "WebWorkerRpcDriver",
+      "defaultDriver": "MainThreadRpcDriver",
       "drivers": {
         "MainThreadRpcDriver": {},
         "WebWorkerRpcDriver": {}
@@ -12,7 +12,11 @@
       "uri": ""
     }
   },
-  "plugins": [],
+  "plugins": [
+    {
+      "esmUrl": "hex_plugin.js"
+    }
+  ],
   "assemblies": [
     {
       "name": "c_elegans.PRJNA13758",
@@ -1782,15 +1786,50 @@
         {
           "type": "LinearBasicDisplay",
           "displayId": "rnaseq_asymmetries-1646947435566-LinearBasicDisplay",
+          "mouseover": "jexl:'Score: '+get(feature,'score')",
           "renderer": {
             "type": "SvgFeatureRenderer",
-            "color1": "jexl:get(feature,'source')=='RNASeq_R_asymmetry'?'red':get(feature,'source')=='RNASeq_F_asymmetry'?'green':'black'",
-            "height": 2
+            "color1": "jexl:get(feature,'source')=='RNASeq_R_asymmetry'?'red': get(feature,'source')=='RNASeq_F_asymmetry'?'green':'black'",
+            "height": 24,
+            "showLabels": false,
+            "displayMode": "collapse"
           }
         },
         {
           "type": "LinearArcDisplay",
           "displayId": "rnaseq_asymmetries-1646947435566-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rnaseq_splice_junctions_(common)-1647020009494",
+      "name": "RNASeq Splice Junctions (common)",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'common' in that there are more than 500 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/RNASeq Splice Junctions (common)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq_splice_junctions_(common)-1647020009494-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'score')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'score')>20000?(get(feature,'strand')>0?'#730073':'#007373'):get(feature,'strand')>0?'#'+hex(round(255-(140*(get(feature,'score')/20000))))+'00'+hex(round(255-(140*(get(feature,'score')/20000)))):'#00'+hex(round(255-(140*(get(feature,'score')/20000))))+hex(round(255-(140*(get(feature,'score')/20000))))",
+            "showLabels": false
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "rnaseq_splice_junctions_(common)-1647020009494-LinearArcDisplay"
         }
       ]
     }
