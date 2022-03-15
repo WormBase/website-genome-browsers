@@ -1,7 +1,6 @@
 {
   "configuration": {
     "rpc": {
-      "defaultDriver": "MainThreadRpcDriver",
       "drivers": {
         "MainThreadRpcDriver": {},
         "WebWorkerRpcDriver": {}
@@ -1830,6 +1829,76 @@
         {
           "type": "LinearArcDisplay",
           "displayId": "rnaseq_splice_junctions_(common)-1647020009494-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rnaseq_splice_junctions_(rare)-1647271824500",
+      "name": "RNASeq Splice Junctions (rare)",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'rare' in that there are fewer than 500 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/RNASeq Splice Junctions (rare)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq_splice_junctions_(rare)-1647271824500-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'score')+' reads'",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'score')>20000?(get(feature,'strand')>0?'#730073':'#007373'):get(feature,'strand')>0?'#'+hex(round(255-(140*(get(feature,'score')/20000))))+'00'+hex(round(255-(140*(get(feature,'score')/20000)))):'#00'+hex(round(255-(140*(get(feature,'score')/20000))))+hex(round(255-(140*(get(feature,'score')/20000))))",
+            "height": "jexl:get(feature,'logscore')<4?4:get(feature,'logscore')>100?50:flooget(feature,'score')",
+            "showLabels": false,
+            "labels": {
+              "fontSize": "jexl:get(feature,'logscore')<3?3:get(feature,'logscore')>100?50:floor(get(feature,'logscore'))"
+            }
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "rnaseq_splice_junctions_(rare)-1647271824500-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rnaseq-1647300891588",
+      "name": "RNASeq",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "These boxes indicate alignments of short read sequences from all available RNASeq projects. The number of reads has been normalised by averaging over the number of libraries. The height of all boxes indicates the relative score of the feature.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/RNASeq/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq-1647300891588-LinearBasicDisplay",
+          "mouseover": "jexl:'Score: '+get(feature,'score')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "black",
+            "height": "jexl:get(feature,'score')>100?50:floor(get(feature,'score')/2)>4?floor(get(feature,'score')/2):4",
+            "showLabels": false,
+            "displayMode": "collapse"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "rnaseq-1647300891588-LinearArcDisplay"
         }
       ]
     }
