@@ -517,6 +517,8 @@ sub process_grep_track {
         #add tabix indexing here (since this is where 
         #individual files are getting processed)
 
+        next if -e $file[$i].tidy.gz;
+
         #first sort with genometools
         system("gt gff3 -tidy -sortlines -retainids $file[$i] > $file[$i].tidy")
             or die "genometools failed: $!"; 
