@@ -443,8 +443,10 @@ close TL;
 
 #clean up temporary gff files
 chdir $INITIALDIR;
-my @tmp_gffs = glob("*_$GFFFILE*") if $GFFFILE;
-foreach my $file (@tmp_gffs) {unlink $file;} 
+
+#stopping this clean up while tabix is being worked on
+#my @tmp_gffs = glob("*_$GFFFILE*") if $GFFFILE;
+#foreach my $file (@tmp_gffs) {unlink $file;} 
 
 #check for tracks that have data but didn't get processed
 for my $key (keys %{ $speciesdata{$species} }) {
@@ -509,7 +511,30 @@ sub process_grep_track {
 
         if ($stderr =~ /No matching features/) {
             $empty_result{$section}=1;
+            next;
         }
+
+        #add tabix indexing here (since this is where 
+        #individual files are getting processed)
+
+        #first sort with genometools
+        system("gt gff3 -tidy -sortlines -retainids $file[$i] > $file[$i].tidy")
+            or die "genometools failed: $!"; 
+
+        #then bgzip
+        system("bgzip $file[$i].tidy")
+            or die "bgzip failed $file[$i].tidy: $!";
+
+        #finally tabix
+        system("tabix $file[$i].tidy.gz")
+            or die "tabix failed $file[$i].tidy.gz: $!";
+
+        #then move them to the out dir so they'll get picked up for transfer
+        system("mv $file[$i].tidy.gz     $DATADIR/tracks") 
+            or die "mv failed $file[$i].tidy.gz: $!";
+        system("mv $file[$i].tidy.gz.tbi $DATADIR/tracks")
+            or die "mv failed $file[$i].tidy.gz.tbi: $!";
+
     }
     if (!-e "$INCLUDES/$section.json") {
         $log->error( "\nMISSING INCLUDE FILE: $section.json\n\n");
