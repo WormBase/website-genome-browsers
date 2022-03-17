@@ -533,7 +533,7 @@ sub process_grep_track {
         system("tabix $file[$i].tidy.gz") == 0
             or die "tabix failed $file[$i].tidy.gz: $!";
 
-        mkdir "$DATADIR/gff-tabix" unless -e "$DATADIR/gff-tabix"
+        mkdir "$DATADIR/gff-tabix" unless -e "$DATADIR/gff-tabix";
 
         #then move them to the out dir so they'll get picked up for transfer
         system("mv $file[$i].tidy.gz     $DATADIR/gff-tabix") == 0
