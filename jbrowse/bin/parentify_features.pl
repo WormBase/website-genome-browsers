@@ -49,7 +49,7 @@ while (<$infh>) {
         }
         die "no ID and no Target; I don't know what to do" unless $targetname;
 
-        if ($targetname ne $oldtargetname) {
+        if (($targetname ne $oldtargetname) or ($oldseq_id ne $seq_id) ) {
             $idlessfeature{$targetname}++;
             $oldtargetname = $targetname; 
         }
