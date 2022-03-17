@@ -522,21 +522,21 @@ sub process_grep_track {
         (next && warn $file[$i]) if !-e "$file[$i]";
 
         #first sort with genometools
-        system("/usr/bin/gt gff3 -tidy -sortlines -retainids $file[$i] > $file[$i].tidy")
+        system("/usr/bin/gt gff3 -tidy -sortlines -retainids $file[$i] > $file[$i].tidy") == 0
             or die "genometools failed $file[$i]: $!"; 
 
         #then bgzip
-        system("bgzip $file[$i].tidy")
+        system("bgzip $file[$i].tidy") == 0
             or die "bgzip failed $file[$i].tidy: $!";
 
         #finally tabix
-        system("tabix $file[$i].tidy.gz")
+        system("tabix $file[$i].tidy.gz") == 0
             or die "tabix failed $file[$i].tidy.gz: $!";
 
         #then move them to the out dir so they'll get picked up for transfer
-        system("mv $file[$i].tidy.gz     $DATADIR/tracks") 
+        system("mv $file[$i].tidy.gz     $DATADIR/tracks") == 0
             or die "mv failed $file[$i].tidy.gz: $!";
-        system("mv $file[$i].tidy.gz.tbi $DATADIR/tracks")
+        system("mv $file[$i].tidy.gz.tbi $DATADIR/tracks") == 0
             or die "mv failed $file[$i].tidy.gz.tbi: $!";
 
     }
