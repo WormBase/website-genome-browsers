@@ -522,8 +522,12 @@ sub process_grep_track {
         (warn $file[$i] && next) if !-e "$file[$i]";
 
         #first sort with genometools
-        system("/usr/bin/gt gff3 -tidy -sortlines -retainids -force -o $file[$i].tidy $file[$i]") == 0
-            or $log->warn( "genometools failed $file[$i]: $!" ) and die; 
+        #system("/usr/bin/gt gff3 -tidy -sortlines -retainids -force -o $file[$i].tidy $file[$i]") == 0
+        #    or $log->warn( "genometools failed $file[$i]: $!" ) and die; 
+        #
+        #    Bug in genometools means fall back on gnu sort for now
+        system("sort -k1,1 -k4,4n -k5,5n $file[$i] > $file[$i].tidy")
+            or $log->warn( "sort failed $file[$i]: $!") and die;
 
         #then bgzip
         system("bgzip $file[$i].tidy") == 0
