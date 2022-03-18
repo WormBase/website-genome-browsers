@@ -519,19 +519,19 @@ sub process_grep_track {
         #individual files are getting processed)
 
         next if -e "$file[$i].tidy.gz";
-        (next && warn $file[$i]) if !-e "$file[$i]";
+        (warn $file[$i] && next) if !-e "$file[$i]";
 
         #first sort with genometools
         system("/usr/bin/gt gff3 -tidy -sortlines -retainids -force -o $file[$i].tidy $file[$i]") == 0
-            or die "genometools failed $file[$i]: $!"; 
+            or $log->warn( "genometools failed $file[$i]: $!" ) and die; 
 
         #then bgzip
         system("bgzip $file[$i].tidy") == 0
-            or die "bgzip failed $file[$i].tidy: $!";
+            or $log->warn( "bgzip failed $file[$i].tidy: $!" ) and die;
 
         #finally tabix
         system("tabix $file[$i].tidy.gz") == 0
-            or die "tabix failed $file[$i].tidy.gz: $!";
+            or $log->warn( "tabix failed $file[$i].tidy.gz: $! " ) and die;
 
         mkdir "$DATADIR/gff-tabix" unless -e "$DATADIR/gff-tabix";
 
