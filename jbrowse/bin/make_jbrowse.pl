@@ -147,7 +147,7 @@ it under the same terms as Perl itself.
 
 
 my $INITIALDIR = cwd();
-$INITIALDIR = '' if $INITIALDIR == '/';
+$INITIALDIR = '' if $INITIALDIR eq '/';
 my $PRIMARY_SPECIES = "PRJNA13758";
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
