@@ -107,6 +107,11 @@ sub print_feature {
             }
             next;
         }
+        if ($key eq 'Family') {
+            $parent->{attributes}->{family} = $parent->{attributes}->{Family};
+            undef $parent->{attributes}->{Family};
+            next;
+        }
         next if $key eq 'Name';
         next if $key eq 'clone';
         next if $key eq 'species';
