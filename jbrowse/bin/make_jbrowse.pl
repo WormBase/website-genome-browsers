@@ -522,7 +522,7 @@ sub process_grep_track {
         (next && warn $file[$i]) if !-e "$file[$i]";
 
         #first sort with genometools
-        system("/usr/bin/gt gff3 -tidy -sortlines -retainids $file[$i] > $file[$i].tidy") == 0
+        system("/usr/bin/gt gff3 -tidy -sortlines -retainids -force -o $file[$i].tidy $file[$i]") == 0
             or die "genometools failed $file[$i]: $!"; 
 
         #then bgzip
