@@ -526,7 +526,7 @@ sub process_grep_track {
         #    or $log->warn( "genometools failed $file[$i]: $!" ) and die; 
         #
         #    Bug in genometools means fall back on gnu sort for now
-        system("sort -k1,1 -k4,4n -k5,5n $file[$i] > $file[$i].tidy")
+        system("sort -k1,1 -k4,4n -k5,5n $file[$i] > $file[$i].tidy") == 0
             or $log->warn( "sort failed $file[$i]: $!") and die;
 
         #then bgzip
