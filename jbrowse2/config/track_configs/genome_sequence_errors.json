@@ -1,0 +1,31 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_genome_sequence_errors",
+      "name": "Genome sequence errors",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Positions within the reference genome sequence that have been identified as having a base call error. This error has not yet been corrected.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Genome sequence errors/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "genome_sequence_errors-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "red",
+            "height": 6
+          }
+        }
+      ]
+    }
+  ]
+}

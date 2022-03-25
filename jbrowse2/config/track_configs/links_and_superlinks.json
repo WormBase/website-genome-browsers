@@ -1,0 +1,31 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_links_and_superlinks",
+      "name": "Links and Superlinks",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "This track shows the location and coordinates of contigs created during the assembly of the C. elegans genome.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Links and Superlinks/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "links_and_superlinks-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "black",
+            "height": 4
+          }
+        }
+      ]
+    }
+  ]
+}

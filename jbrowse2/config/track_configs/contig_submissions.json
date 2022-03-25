@@ -1,0 +1,31 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_contig_submissions",
+      "name": "Contig submissions",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "This track shows the location and coordinates of contigs (mostly cosmids) submitted to GenBank/EMBL.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Contig submissions/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "contig_submissions-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "sienna",
+            "height": 7
+          }
+        }
+      ]
+    }
+  ]
+}
