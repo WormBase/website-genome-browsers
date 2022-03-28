@@ -83,7 +83,7 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "$ASSEMBLY_curated_genes_(protein_coding)",
+      "trackId": "$ASSEMBLY_curated_genes_protein_coding",
       "name": "Curated Genes (protein coding)",
       "assemblyNames": [
         "$ASSEMBLY"
@@ -110,7 +110,7 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "$ASSEMBLY_curated_genes_(noncoding)",
+      "trackId": "$ASSEMBLY_curated_genes_noncoding",
       "name": "Curated Genes (noncoding)",
       "assemblyNames": [
         "$ASSEMBLY"
@@ -137,7 +137,7 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "$ASSEMBLY_curated_genes_(pseudogenes)",
+      "trackId": "$ASSEMBLY_curated_genes_pseudogenes",
       "name": "Curated Genes (pseudogenes)",
       "assemblyNames": [
         "$ASSEMBLY"
@@ -216,7 +216,7 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "$ASSEMBLY_yacs,_fosmids,_&_cosmids",
+      "trackId": "$ASSEMBLY_yacs_fosmids_cosmids",
       "name": "YACs, Fosmids, & Cosmids",
       "assemblyNames": [
         "$ASSEMBLY"
@@ -243,7 +243,7 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "$ASSEMBLY_binding_sites_(curated)",
+      "trackId": "$ASSEMBLY_binding_sites_curated",
       "name": "Binding sites (curated)",
       "assemblyNames": [
         "$ASSEMBLY"
@@ -269,7 +269,7 @@
     },
     {
       "type": "FeatureTrack",
-      "trackId": "$ASSEMBLY_binding_sites_(predicted)",
+      "trackId": "$ASSEMBLY_binding_sites_predicted",
       "name": "Binding sites (predicted)",
       "assemblyNames": [
         "$ASSEMBLY"

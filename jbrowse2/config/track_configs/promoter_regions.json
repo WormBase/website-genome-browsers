@@ -1,0 +1,30 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_promoter_regions",
+      "name": "Promoter regions",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Regions within which there is experimental evidence for a promoter.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Promoter regions/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "promoter_regions-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        }
+      ]
+    }
+  ]
+}

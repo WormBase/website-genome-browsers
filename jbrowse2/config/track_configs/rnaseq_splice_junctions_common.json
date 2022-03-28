@@ -1,0 +1,32 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_rnaseq_splice_junctions_(common)",
+      "name": "RNASeq Splice Junctions (common)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'common' in that there are more than 500 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/RNASeq Splice Junctions (common)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq_splice_junctions_(common)-$ASSEMBLY-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'score')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'strand')>0?'#730073':'#007373'",
+            "showLabels": false
+          }
+        }
+      ]
+    }
+  ]
+}

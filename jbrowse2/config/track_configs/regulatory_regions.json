@@ -1,0 +1,30 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_regulatory_regions",
+      "name": "Regulatory regions",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Assorted or unspecified regulatory elements with experimental evidence.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Regulatory regions/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "regulatory_regions-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        }
+      ]
+    }
+  ]
+}
