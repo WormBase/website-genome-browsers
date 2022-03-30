@@ -27,6 +27,7 @@ my $outfh   = new IO::File "> $FILEOUT";
 
 
 my $oldid;
+my $oldseq_id;
 my %featurehash;
 my @featurearray;
 my %idlessfeature;
@@ -34,6 +35,7 @@ my $oldtargetname = '';
 while (<$infh>) {
     next if /^#/;
     my $f = gff3_parse_feature($_);
+    my $seq_id = $f->{seq_id};
 
     my $id = @{$f->{attributes}->{ID}}[0];
     #warn $$id[0];
@@ -47,7 +49,7 @@ while (<$infh>) {
         }
         die "no ID and no Target; I don't know what to do" unless $targetname;
 
-        if ($targetname ne $oldtargetname) {
+        if (($targetname ne $oldtargetname) or ($oldseq_id ne $seq_id) ) {
             $idlessfeature{$targetname}++;
             $oldtargetname = $targetname; 
         }
@@ -56,7 +58,8 @@ while (<$infh>) {
         $f->{attributes}->{ID} = [$id];
     }
 
-    if ($oldid && ($oldid ne $id)) {
+    if (($oldid && ($oldid ne $id)) or ($oldseq_id &&($oldseq_id ne $seq_id))) {
+
         print_feature();
         @featurearray = ();
         %featurehash  = ();
@@ -72,6 +75,7 @@ while (<$infh>) {
     push @featurearray, $f;
 
     $oldid = $id;
+    $oldseq_id = $seq_id;
 }
 
 print_feature();
@@ -103,6 +107,7 @@ sub print_feature {
             }
             next;
         }
+
         next if $key eq 'Name';
         next if $key eq 'clone';
         next if $key eq 'species';
