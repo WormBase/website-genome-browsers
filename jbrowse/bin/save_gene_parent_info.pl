@@ -23,6 +23,10 @@ my $outfh  = new IO::File "> $FILEOUT";
 
 while (<$infh>) {
     next if /^#/;
+
+    #fix bad "Family" attributes on transposon genes
+    $_ =~ s/Family=/family=/;
+
     if ($_ !~ /\t(mRNA|miRNA_primary_transcript|miRNA|ncRNA|rRNA|scRNA|snoRNA|tRNA|piRNA|lincRNA|antisense_RNA)\t/) { 
         print $outfh $_; 
         next;
