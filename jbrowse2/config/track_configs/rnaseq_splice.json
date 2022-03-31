@@ -27,7 +27,7 @@
             "showLabels": false,
             "showDescriptions": false
           }
-        },
+        }
       ]
     },
     {
@@ -49,7 +49,7 @@
         {
           "type": "LinearBasicDisplay",
           "displayId": "rnaseq_splice_junctions_(common)-$ASSEMBLY-LinearBasicDisplay",
-          "mouseover": "jexl:get(feature,'score')+' reads",
+          "mouseover": "jexl:get(feature,'score')+' reads'",
           "renderer": {
             "type": "SvgFeatureRenderer",
             "color1": "jexl:get(feature,'strand')>0?'#730073':'#007373'",
@@ -82,7 +82,7 @@
             "type": "SvgFeatureRenderer",
             "color1": "jexl:get(feature,'strand')>0?'#730073':'#007373'",
             "height": "jexl:get(feature,'logscore')<4?4:get(feature,'logscore')>100?50:floor(get(feature,'logscore'))",
-            "showLabels": false,
+            "showLabels": false
           }
         }
       ]
