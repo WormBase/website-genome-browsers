@@ -1,8 +1,8 @@
-  export default  {
-      "name": "c_elegans.PRJNA13758",
+    export default {
+      "name": "c_elegans_PRJNA13758",
       "sequence": {
         "type": "ReferenceSequenceTrack",
-        "trackId": "c_elegans.PRJNA13758-1645387701624",
+        "trackId": "c_elegans_PRJNA13758-1645387701624",
         "adapter": {
           "type": "BgzipFastaAdapter",
           "fastaLocation": {
