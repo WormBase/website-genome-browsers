@@ -1,0 +1,53 @@
+{
+   "include" : [
+      "../functions.conf",
+      "includes/clones.json",
+      "includes/genes.json",
+      "includes/mrna_best.json",
+      "includes/genes_noncoding.json",
+      "includes/historical_genes.json",
+      "includes/protein_motifs.json",
+      "includes/genes_protein_coding.json",
+      "includes/repeats_dust.json",
+      "includes/repeats_tandem_and_inverted.json",
+      "includes/links_and_superlinks.json",
+      "includes/sequence_similarity_cremanei_proteins_blastx.json",
+      "includes/rnaseq.json",
+      "includes/sequence_similarity_other_isoseq_best.json",
+      "includes/sequence_similarity_uniprot_blastx.json",
+      "includes/sequence_similarity_hsapiens_proteins_blastx.json",
+      "includes/sequence_similarity_dmelanogaster_proteins_blastx.json",
+      "includes/sequence_similarity_ovolvulus_proteins_blastx.json",
+      "includes/sequence_similarity_cbrenneri_proteins_blastx.json",
+      "includes/rnaseq_splice.json",
+      "includes/est_best.json",
+      "includes/sequence_similarity_scerevisiae_proteins_blastx.json",
+      "includes/sequence_similarity_celegans_proteins_blastx.json",
+      "includes/sequence_similarity_trinity_rnaseq.json",
+      "includes/sequence_similarity_sratti_proteins_blastx.json",
+      "includes/sequence_similarity_tmuris_proteins_blastx.json",
+      "includes/sequence_similarity_cjaponica_proteins_blastx.json",
+      "includes/sequence_similarity_ppacificus_proteins_blastx.json",
+      "includes/repeats_repeat_masker.json",
+      "includes/genomic_canonical.json",
+      "includes/sequence_similarity_bmalayi_proteins_blastx.json",
+      "includes/rnaseq_asymmetries.json",
+      "includes/sequence_similarity_cbriggsae_proteins_blastx.json",
+      "includes/t_muris_PRJEB126_DNA.json",
+      "includes/t_muris_PRJEB126_isoseq_bam.json",
+      "includes/t_muris_PRJEB126_pattern_match_tracks.json",
+      "includes/t_muris_PRJEB126_rnaseq_splice.json"
+   ],
+   "names" : {
+      "type" : "Hash",
+      "url" : "names/"
+   },
+   "formatVersion" : 1,
+   "plugins" : {
+      "FeatureSequence" : {
+         "location" : "./plugins/FeatureSequence"
+      }
+   },
+   "dataset_id" : "t_muris_PRJEB126",
+   "tracks" : []
+}

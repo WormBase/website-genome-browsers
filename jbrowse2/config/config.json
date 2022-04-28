@@ -2357,6 +2357,39 @@
           "displayId": "c_briggsae_PRJNA10731rnaseq-1647300891588-LinearArcDisplay"
         }
       ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rnaseq_introns-1648487734844",
+      "name": "RNASeq introns",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. The number of reads spanning the introns is indicated by the thickness of the display.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/RNASeq introns/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq_introns-1648487734844-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green",
+            "height": "jexl:get(feature,'score')>100?50:get(feature,'score')<8?4:floor(get(feature,'score')/2)",
+            "showLabels": false,
+            "showDescriptions": false
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "rnaseq_introns-1648487734844-LinearArcDisplay"
+        }
+      ]
     }
   ],
   "internetAccounts": [],
