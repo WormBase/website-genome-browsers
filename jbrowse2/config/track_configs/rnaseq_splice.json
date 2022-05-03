@@ -19,7 +19,7 @@
         {
           "type": "LinearBasicDisplay",
           "displayId": "rnaseq_introns-$ASSEMBLY-LinearBasicDisplay",
-          "mouseover": "jexl:get(feature,'score')+' reads",
+          "mouseover": "jexl:get(feature,'score')+' reads'",
           "renderer": {
             "type": "SvgFeatureRenderer",
             "color1": "green",
