@@ -1,0 +1,44 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "className" : "feature",
+            "height":6,
+            "color" : "green",
+            "label" : false
+         },
+         "metadata" : {
+            "shortInfo" : "hyper divergent regions"
+         },
+         "unsafePopup" : true,
+         "category" : "Alleles, Variations, RNAi",
+         "key" : "Hyper-divergent regions",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/Hyper-divergent regions/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Hyper-divergent regions"
+      },
+      {
+         "style" : {
+            "className" : "feature",
+            "height":6,
+            "color" : "blue",
+            "label" : false
+         },
+         "metadata" : {
+            "shortInfo" : "hyper divergent clusters"
+         },
+         "unsafePopup" : true,
+         "category" : "Alleles, Variations, RNAi",
+         "key" : "Hyper-divergent clusters",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/Hyper-divergent clusters/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Hyper-divergent clusters"
+      }
+   ]
+}
