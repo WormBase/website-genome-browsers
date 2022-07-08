@@ -1,0 +1,31 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_classical_alleles",
+      "name": "Classical Alleles",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Classical_alleles/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "classical_alleles-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'vep_impact')=='HIGH'?'red':get(feature,'vep_impact')=='MODIFIER'?'purple':get(feature,'vep_impact')=='MODERATE'?'gold':get(feature,'vep_impact')=='LOW'?'cyan':'white'",
+            "showLabels": false,
+            "showDescriptions": false
+          }
+        }
+      ]
+    }
+  ]
+}
