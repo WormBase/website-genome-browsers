@@ -1,0 +1,31 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_curated_genes_protein_coding",
+      "name": "Curated Genes (protein coding)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "A subset of the full Curated Genes set limited to protein-coding genes only. Only the CDS is represented. Full models (with UTRs) can be seen on the 'Curated Genes' track.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Curated Genes (protein coding)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "curated_genes_(protein_coding)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'strand')>0?'violet':'turquoise'",
+            "color3": "#965567"
+          }
+        }
+      ]
+    }
+  ]
+}

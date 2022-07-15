@@ -1,0 +1,31 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_microarray_oligo_probes",
+      "name": "Microarray oligo probes",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "This track contains Affymetrix GeneChip and Washington University GSC microarray probe sets.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Microarray oligo probes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "microarray_oligo_probes-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "black",
+            "height": 4
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_dnasei_hypersensitive_site",
+      "name": "DNaseI hypersensitive site",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "DNase I hypersensitive sites from the 2009 paper by Shi et al.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/DNaseI hypersensitive site/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "dnasei_hypersensitive_site-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        }
+      ]
+    }
+  ]
+}

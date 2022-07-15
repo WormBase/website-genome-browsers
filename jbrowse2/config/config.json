@@ -1,0 +1,2675 @@
+{
+  "configuration": {
+    "rpc": {
+      "defaultDriver": "MainThreadRpcDriver",
+      "drivers": {
+        "MainThreadRpcDriver": {},
+        "WebWorkerRpcDriver": {}
+      }
+    },
+    "logoPath": {
+      "locationType": "UriLocation",
+      "uri": ""
+    }
+  },
+  "plugins": [
+    {
+      "esmUrl": "hex_plugin.js"
+    }
+  ],
+  "assemblies": [
+    {
+      "name": "c_elegans.PRJNA13758",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_elegans.PRJNA13758-1645387701624",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA13758.WS278.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA13758.WS278.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA13758.WS278.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_elegans.PRJNA13758-1645387701624-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "C. elegans N2"
+    },
+    {
+      "name": "c_briggsae_PRJNA10731",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_briggsae_PRJNA10731-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_briggsae.PRJNA10731.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_briggsae.PRJNA10731.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_briggsae.PRJNA10731.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_briggsae_PRJNA10731-1646426635733-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "C. briggsae"
+    },
+    {
+      "name": "b_malayi_PRJNA10729",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "b_malayi_PRJNA10729-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/b_malayi.PRJNA10729.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/b_malayi.PRJNA10729.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/b_malayi.PRJNA10729.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "b_malayi_PRJNA10729-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "b_malayi_PRJNA10729"
+    },
+    {
+      "name": "c_angaria_PRJNA51225",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_angaria_PRJNA51225-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_angaria.PRJNA51225.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_angaria.PRJNA51225.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_angaria.PRJNA51225.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_angaria_PRJNA51225-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_angaria_PRJNA51225"
+    },
+    {
+      "name": "c_becei_PRJEB28243",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_becei_PRJEB28243-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_becei.PRJEB28243.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_becei.PRJEB28243.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_becei.PRJEB28243.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_becei_PRJEB28243-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_becei_PRJEB28243"
+    },
+    {
+      "name": "c_bovis_PRJEB34497",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_bovis_PRJEB34497-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_bovis.PRJEB34497.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_bovis.PRJEB34497.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_bovis.PRJEB34497.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_bovis_PRJEB34497-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_bovis_PRJEB34497"
+    },
+    {
+      "name": "c_brenneri_PRJNA20035",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_brenneri_PRJNA20035-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_brenneri.PRJNA20035.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_brenneri.PRJNA20035.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_brenneri.PRJNA20035.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_brenneri_PRJNA20035-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_brenneri_PRJNA20035"
+    },
+    {
+      "name": "c_elegans_PRJEB28388",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_elegans_PRJEB28388-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJEB28388.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJEB28388.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJEB28388.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_elegans_PRJEB28388-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_elegans_PRJEB28388"
+    },
+    {
+      "name": "c_elegans_PRJNA275000",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_elegans_PRJNA275000-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA275000.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA275000.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA275000.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_elegans_PRJNA275000-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_elegans_PRJNA275000"
+    },
+    {
+      "name": "c_inopinata_PRJDB5687",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_inopinata_PRJDB5687-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_inopinata.PRJDB5687.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_inopinata.PRJDB5687.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_inopinata.PRJDB5687.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_inopinata_PRJDB5687-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_inopinata_PRJDB5687"
+    },
+    {
+      "name": "c_japonica_PRJNA12591",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_japonica_PRJNA12591-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_japonica.PRJNA12591.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_japonica.PRJNA12591.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_japonica.PRJNA12591.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_japonica_PRJNA12591-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_japonica_PRJNA12591"
+    },
+    {
+      "name": "c_latens_PRJNA248912",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_latens_PRJNA248912-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_latens.PRJNA248912.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_latens.PRJNA248912.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_latens.PRJNA248912.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_latens_PRJNA248912-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_latens_PRJNA248912"
+    },
+    {
+      "name": "c_nigoni_PRJNA384657",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_nigoni_PRJNA384657-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_nigoni.PRJNA384657.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_nigoni.PRJNA384657.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_nigoni.PRJNA384657.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_nigoni_PRJNA384657-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_nigoni_PRJNA384657"
+    },
+    {
+      "name": "c_panamensis_PRJEB28259",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_panamensis_PRJEB28259-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_panamensis.PRJEB28259.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_panamensis.PRJEB28259.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_panamensis.PRJEB28259.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_panamensis_PRJEB28259-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_panamensis_PRJEB28259"
+    },
+    {
+      "name": "c_parvicauda_PRJEB12595",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_parvicauda_PRJEB12595-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_parvicauda.PRJEB12595.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_parvicauda.PRJEB12595.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_parvicauda.PRJEB12595.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_parvicauda_PRJEB12595-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_parvicauda_PRJEB12595"
+    },
+    {
+      "name": "c_quiockensis_PRJEB11354",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_quiockensis_PRJEB11354-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_quiockensis.PRJEB11354.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_quiockensis.PRJEB11354.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_quiockensis.PRJEB11354.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_quiockensis_PRJEB11354-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_quiockensis_PRJEB11354"
+    },
+    {
+      "name": "c_remanei_PRJNA53967",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_remanei_PRJNA53967-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_remanei.PRJNA53967.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_remanei.PRJNA53967.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_remanei.PRJNA53967.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_remanei_PRJNA53967-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_remanei_PRJNA53967"
+    },
+    {
+      "name": "c_remanei_PRJNA577507",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_remanei_PRJNA577507-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_remanei.PRJNA577507.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_remanei.PRJNA577507.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_remanei.PRJNA577507.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_remanei_PRJNA577507-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_remanei_PRJNA577507"
+    },
+    {
+      "name": "c_sinica_PRJNA194557",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_sinica_PRJNA194557-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_sinica.PRJNA194557.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_sinica.PRJNA194557.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_sinica.PRJNA194557.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_sinica_PRJNA194557-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_sinica_PRJNA194557"
+    },
+    {
+      "name": "c_sulstoni_PRJEB12601",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_sulstoni_PRJEB12601-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_sulstoni.PRJEB12601.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_sulstoni.PRJEB12601.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_sulstoni.PRJEB12601.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_sulstoni_PRJEB12601-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_sulstoni_PRJEB12601"
+    },
+    {
+      "name": "c_tribulationis_PRJEB12608",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_tribulationis_PRJEB12608-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_tribulationis.PRJEB12608.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_tribulationis.PRJEB12608.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_tribulationis.PRJEB12608.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_tribulationis_PRJEB12608-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_tribulationis_PRJEB12608"
+    },
+    {
+      "name": "c_tropicalis_PRJNA53597",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_tropicalis_PRJNA53597-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_tropicalis.PRJNA53597.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_tropicalis.PRJNA53597.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_tropicalis.PRJNA53597.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_tropicalis_PRJNA53597-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_tropicalis_PRJNA53597"
+    },
+    {
+      "name": "c_uteleia_PRJEB12600",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_uteleia_PRJEB12600-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_uteleia.PRJEB12600.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_uteleia.PRJEB12600.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_uteleia.PRJEB12600.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_uteleia_PRJEB12600-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_uteleia_PRJEB12600"
+    },
+    {
+      "name": "c_waitukubuli_PRJEB12602",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_waitukubuli_PRJEB12602-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_waitukubuli.PRJEB12602.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_waitukubuli.PRJEB12602.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_waitukubuli.PRJEB12602.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_waitukubuli_PRJEB12602-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_waitukubuli_PRJEB12602"
+    },
+    {
+      "name": "c_zanzibari_PRJEB12596",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "c_zanzibari_PRJEB12596-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_zanzibari.PRJEB12596.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_zanzibari.PRJEB12596.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_zanzibari.PRJEB12596.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "c_zanzibari_PRJEB12596-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "c_zanzibari_PRJEB12596"
+    },
+    {
+      "name": "o_tipulae_PRJEB15512",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "o_tipulae_PRJEB15512-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/o_tipulae.PRJEB15512.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/o_tipulae.PRJEB15512.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/o_tipulae.PRJEB15512.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "o_tipulae_PRJEB15512-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "o_tipulae_PRJEB15512"
+    },
+    {
+      "name": "o_volvulus_PRJEB513",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "o_volvulus_PRJEB513-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/o_volvulus.PRJEB513.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/o_volvulus.PRJEB513.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/o_volvulus.PRJEB513.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "o_volvulus_PRJEB513-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "o_volvulus_PRJEB513"
+    },
+    {
+      "name": "p_pacificus_PRJNA12644",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "p_pacificus_PRJNA12644-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/p_pacificus.PRJNA12644.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/p_pacificus.PRJNA12644.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/p_pacificus.PRJNA12644.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "p_pacificus_PRJNA12644-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "p_pacificus_PRJNA12644"
+    },
+    {
+      "name": "p_redivivus_PRJNA186477",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "p_redivivus_PRJNA186477-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/p_redivivus.PRJNA186477.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/p_redivivus.PRJNA186477.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/p_redivivus.PRJNA186477.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "p_redivivus_PRJNA186477-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "p_redivivus_PRJNA186477"
+    },
+    {
+      "name": "s_ratti_PRJEB125",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "s_ratti_PRJEB125-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/s_ratti.PRJEB125.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/s_ratti.PRJEB125.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/s_ratti.PRJEB125.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "s_ratti_PRJEB125-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "s_ratti_PRJEB125"
+    },
+    {
+      "name": "t_muris_PRJEB126",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "t_muris_PRJEB126-1646426635733",
+        "adapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/t_muris.PRJEB126.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/t_muris.PRJEB126.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/t_muris.PRJEB126.WS284.genomic.fa.gz.gzi"
+          }
+        },
+        "displays": [
+          {
+            "type": "LinearReferenceSequenceDisplay",
+            "displayId": "t_muris_PRJEB126-LinearReferenceSequenceDisplay"
+          }
+        ]
+      },
+      "displayName": "t_muris_PRJEB126"
+    }
+  ],
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "curated_genes-1645387763069",
+      "name": "Curated Genes",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "Protein-coding gene structures result from the integration of a variety of prediction methods and data sources followed by manual review and revison by WormBase curators. tRNAs are predicted by tRNAscan, and other non-coding RNA transcripts are taken from a variety of literature sources. The purple and blue colors indicate transcripts on the forward and reverse strands respectively. Dark purple areas represent 5' and 3' UTRs of protein-coding transcripts, assigned automatically using the extents of overlapping ESTs and full-length cDNAs. The UTR predictions have not been reviewed by WormBase curators, and some are known to contain artifacts. Grey transcripts represent either non-coding transcripts of protein coding genes or transcripts of non-coding genes.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_elegans_PRJNA13758/tracks/Curated_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "curated_genes-1645387763069-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'type')!='CDS'?'gray':get(feature,'strand')>0?'violet':'turquoise'",
+            "color3": "#965567",
+            "labels": {
+              "name": "jexl:get(feature,'locus') || get(feature,'sequence_name')"
+            }
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "curated_genes-1645387763069-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "operons-1645468358464",
+      "name": "Operons",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "These are operons published by Blumenthal et al, Nature 417: 851-854 (2002).",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_elegans_PRJNA13758/tracks/Operons/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "operons-1645468358464-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "operons-1645468358464-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "trans-spliced_acceptor-1645468834426",
+      "name": "Trans-spliced acceptor",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "This track contains SL1 and SL2 trans-spliced acceptors from a variety of sources: SL1 and SL2 trans-spliced acceptors published by Blumenthal et al, Nature (2002), Trans-Spliced Exon Coupled RNA End Determination (TEC-RED) Hwang et al, PNAS (2004), EST/mRNA sequence data, RNASeq read data from ENA. SL1 acceptors are show in red, SL2 in green. Direction of transcription is indicated by arrow direction.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_elegans_PRJNA13758/tracks/Trans-spliced acceptor/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "trans-spliced_acceptor-1645468834426-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'source')=='SL1'?'red':'green'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "trans-spliced_acceptor-1645468834426-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "curated_genes-1646426816971",
+      "name": "Curated Genes",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_briggsae_PRJNA10731/tracks/Curated_Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "curated_genes-1646426816971-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'strand')>0?'violet':'turquoise'",
+            "color3": "#965567",
+            "labels": {
+              "name": "jexl:get(feature,'locus') || get(feature,'sequence_name')"
+            }
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "curated_genes-1646426816971-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "operons-1646427285586",
+      "name": "Operons",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_briggsae_PRJNA10731/tracks/Operons/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "operons-1646427285586-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "operons-1646427285586-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "trans-spliced_acceptor-1646427527916",
+      "name": "Trans-spliced acceptor",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_briggsae_PRJNA10731/tracks/Trans-spliced acceptor/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "trans-spliced_acceptor-1646427527916-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'source')=='SL1'?'red':'green'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "trans-spliced_acceptor-1646427527916-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "curated_genes_(protein_coding)-1646768713520",
+      "name": "Curated Genes (protein coding)",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "A subset of the full Curated Genes set limited to protein-coding genes only. Only the CDS is represented. Full models (with UTRs) can be seen on the 'Curated Genes' track.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_elegans_PRJNA13758/tracks/Curated Genes (protein coding)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "curated_genes_(protein_coding)-1646768713520-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'strand')>0?'violet':'turquoise'",
+            "color3": "#965567"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "curated_genes_(protein_coding)-1646768713520-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "curated_genes_(noncoding)-1646768882496",
+      "name": "Curated Genes (noncoding)",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "Non-coding curated gene models, including ncRNA, tRNA, miRNA, snRNA, snoRNA, piRNA, lincRNA and antisense RNA.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_elegans_PRJNA13758/tracks/Curated Genes (noncoding)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "curated_genes_(noncoding)-1646768882496-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "gray",
+            "height": 6
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "curated_genes_(noncoding)-1646768882496-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "curated_genes_(pseudogenes)-1646771868646",
+      "name": "Curated Genes (pseudogenes)",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "A subset of the full Curated Genes set limited to pseudogenes only. Pseudogenes of tRNA are lighter gray and pseudogenes of rRNA are darker gray than pseudogenes of protein coding genes.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_elegans_PRJNA13758/tracks/Curated Genes (pseudogenes)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "curated_genes_(pseudogenes)-1646771868646-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "gray",
+            "height": 6
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "curated_genes_(pseudogenes)-1646771868646-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "ests-1646772288252",
+      "name": "ESTs",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "Native (same-species) Expressed Sequence Tags (ESTs), aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each EST. The paired 5' and 3' ESTs from the same cDNA clone are connected by a dashed line and a colored light green. ESTs with no mate are yellow, and ESTs with a mate that is 'far away' are dark green.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_elegans_PRJNA13758/tracks/ESTs (best)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "ests-1646772288252-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:parent(feature)=='undefined'?'red':get(parent(feature),'has_mate')==1?'limegreen':get(parent(feature),'has_mate')==2?'green':get(parent(feature),'has_mate')==0?'gold':'black'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "ests-1646772288252-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "binding_regions-1646772651112",
+      "name": "Binding regions",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "Regions within which there may be one or more binding sites of a non-TF, non-Histone molecule.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_elegans_PRJNA13758/tracks/Binding regions/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "binding_regions-1646772651112-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "binding_regions-1646772651112-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "yacs,_fosmids,_&_cosmids-1646772875564",
+      "name": "YACs, Fosmids, & Cosmids",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "This track shows the locations of the cosmids, fosmids, and YACs used for the physical mapping and sequencing of the C. elegans genome.  The clone termini do not necessarily correspond to the termini of submitted GenBank/EMBL entries. In some cases the exact termini of the clones is not known.  For example, YACs were sequenced using PCR amplification across gaps in the cosmid maps.  When a clone end is not known, it is shown as an arrow extending to the end of the display.  Such data is to be treated with caution.  The Vancouver fosmids can be ordered directly from <a href='http://www.geneservice.co.uk/products/clones/Celegans_Fos.jsp'>GeneService</a>.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_elegans_PRJNA13758/tracks/YACs, Fosmids, & Cosmids/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "yacs,_fosmids,_&_cosmids-1646772875564-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "black",
+            "height": 3
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "yacs,_fosmids,_&_cosmids-1646772875564-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "binding_sites_(curated)-1646786066250",
+      "name": "Binding sites (curated)",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "Sites where there is experimental evidence of a non-TF, non-Histone molecule binding.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_elegans_PRJNA13758/tracks/Binding sites (curated)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "binding_sites_(curated)-1646786066250-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "binding_sites_(curated)-1646786066250-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "binding_sites_(predicted)-1646786178751",
+      "name": "Binding sites (predicted)",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "This track shows curated and predicted binding sites for microRNAs. Binding sites (indicated in green) are extracted from the cisRed database of computationally derived potential bind targets. miRanda predictions -- indicated in red -- are the predicted target sequences for microRNA genes, provided by Anton Enright's group using the miRanda program. PicTar predictions -- indicated in blue -- are the predicted target sequences for microRNA genes from Lall et al; A genome-wide map of conserved microRNA targets in C. elegans. Curr Biol. 2006 Mar 7;16(5):460-71.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_elegans_PRJNA13758/tracks/Binding sites (predicted)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "binding_sites_(predicted)-1646786178751-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'source')=='PicTar'?'blue':get(feature,'source')=='miRanda'?'red':'green'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "binding_sites_(predicted)-1646786178751-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "dnasei_hypersensitive_site-1646852694859",
+      "name": "DNaseI hypersensitive site",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "DNase I hypersensitive sites from the 2009 paper by Shi et al.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/DNaseI hypersensitive site/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "dnasei_hypersensitive_site-1646852694859-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "dnasei_hypersensitive_site-1646852694859-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "expression_chip_profiles-1646852915258",
+      "name": "Expression chip profiles",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "This track indicates the location of PCR products that have been placed on expression chips produced by the C. elegans Microarray Consortium [ http://cmgm.stanford.edu/~kimlab/wmdirectorybig.html]. The genes corresponding to these products have been clustered by their expression patterns. Click on the profile to get more information about the expression profile of its corresponding gene.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Expression chip profiles/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "expression_chip_profiles-1646852915258-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "orange",
+            "height": 5
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "expression_chip_profiles-1646852915258-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "genome_sequence_errors-1646853105670",
+      "name": "Genome sequence errors",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "Positions within the reference genome sequence that have been identified as having a base call error. This error has not yet been corrected.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Genome sequence errors/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "genome_sequence_errors-1646853105670-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "red",
+            "height": 6
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "genome_sequence_errors-1646853105670-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "contig_submissions-1646853302490",
+      "name": "Contig submissions",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "This track shows the location and coordinates of contigs (mostly cosmids) submitted to GenBank/EMBL.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Contig submissions/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "contig_submissions-1646853302490-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "sienna",
+            "height": 7
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "contig_submissions-1646853302490-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "histone_binding_sites-1646853447501",
+      "name": "Histone binding sites",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "Regions within which there is experimental evidence for one or more binding sites of a histone.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Histone binding sites/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "histone_binding_sites-1646853447501-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "histone_binding_sites-1646853447501-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "links_and_superlinks-1646853631136",
+      "name": "Links and Superlinks",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "This track shows the location and coordinates of contigs created during the assembly of the C. elegans genome.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Links and Superlinks/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "links_and_superlinks-1646853631136-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "black",
+            "height": 4
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "links_and_superlinks-1646853631136-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "microarray_oligo_probes-1646856711050",
+      "name": "Microarray oligo probes",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "This track contains Affymetrix GeneChip and Washington University GSC microarray probe sets.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Microarray oligo probes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "microarray_oligo_probes-1646856711050-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "black",
+            "height": 4
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "microarray_oligo_probes-1646856711050-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "mrnas/ncrnas-1646857087883",
+      "name": "mRNAs/ncRNAs",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "Native (same species) full length cDNAs and ncRNAs aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each cDNA.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/mRNAs_ncRNAs (best)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mrnas/ncrnas-1646857087883-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'source')=='BLAT_mRNA_BEST'?'yellow':'gray'",
+            "height": 6
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "mrnas/ncrnas-1646857087883-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "orfeome_pcr_products-1646857922559",
+      "name": "ORFeome PCR Products",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "This track contains Orfeome Project primer pairs and RACE tags.  These primers were used to amplify C. elegans cDNAs.  A positive amplification, shown in green, is evidence that the region between the two primers is transcribed.  Failure to amplify, shown in red, suggests either that the gene model is incorrect, or that the gene is expressed at very low levels. Detailed gene models derived from ORFeome sequencing will be added to this display in the future.  See <i>Reboul et al. Nat. Genet. 2003 Apr 7.</i> and <a href='http://worfdb.dfci.harvard.edu' target='_blank'>WORFdb</a> for further information.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/ORFeome PCR Products/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "orfeome_pcr_products-1646857922559-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'amplified')==1?'green':'red'",
+            "height": 4
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "orfeome_pcr_products-1646857922559-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "pcr_assays-1646858227449",
+      "name": "PCR Assays",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "This track indicates the location of primer pairs that have been created by a number of groups.  Click on the element to obtain the left and right oligo sequences, information about the amplification information, and ordering information (if available).",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/PCR Assays/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "pcr_assays-1646858227449-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "violet",
+            "height": 4
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "pcr_assays-1646858227449-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "polysomes-1646858382777",
+      "name": "Polysomes",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "This data is from the The Lamm et al. (2011) PMID: 21177965 paper finding regions bound by the polysome fraction of RNAs being actively translated.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Polysomes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "polysomes-1646858382777-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "polysomes-1646858382777-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "promoter_regions-1646858571045",
+      "name": "Promoter regions",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "Regions within which there is experimental evidence for a promoter.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Promoter regions/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "promoter_regions-1646858571045-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "promoter_regions-1646858571045-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "protein_motifs-1646858824893",
+      "name": "Protein motifs",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "This track shows the extent of predicted protein motifs. Note these spans correspond to amino acid coordinates interpolated onto the physical map.  Included are signal peptide (signalp), coiled coil (ncoils) and transmembrane (tmhmm) domains, regions of low complexity (seg), and Pfam annotated motif homologies.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Protein motifs/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "protein_motifs-1646858824893-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:parent(feature)=='undefined'?'purple':get(parent(feature),'predictiontype')=='tmhmm'?'magenta':get(parent(feature),'predictiontype')=='seg'?'lightseagreen':get(parent(feature),'predictiontype')=='signalp'?'aquamarine':get(parent(feature),'predictiontype')=='ncoils'?'chartreuse':\nget(parent(feature),'predictiontype')=='pfam'?'lightsalmon':'purple'",
+            "height": 7
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "protein_motifs-1646858824893-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "regulatory_regions-1646859709346",
+      "name": "Regulatory regions",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "Assorted or unspecified regulatory elements with experimental evidence.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/Regulatory regions/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "regulatory_regions-1646859709346-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "regulatory_regions-1646859709346-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rnaseq_asymmetries-1646947435566",
+      "name": "RNASeq Asymmetries",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "Red boxes indicate regions where there are more than 2 times as many forward sense RNASeq reads aligned to the genome as reverse sense reads. This asymmetrical signal has been found empirically to be a sensitive marker for the ends of transcripts. Green boxes indicate regions where there are more than 2 times as many reverse sense RNASeq reads aligned to the genome as forward sense reads. This asymmetrical signal has been found empirically to be sensitive marker for the ends of transcripts. The height of all boxes indicates the relative score of the feature.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/RNASeq Asymmetries/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq_asymmetries-1646947435566-LinearBasicDisplay",
+          "mouseover": "jexl:'Score: '+get(feature,'score')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'source')=='RNASeq_R_asymmetry'?'red': get(feature,'source')=='RNASeq_F_asymmetry'?'green':'black'",
+            "height": 24,
+            "showLabels": false,
+            "displayMode": "collapse"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "rnaseq_asymmetries-1646947435566-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rnaseq_splice_junctions_(common)-1647020009494",
+      "name": "RNASeq Splice Junctions (common)",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'common' in that there are more than 500 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/RNASeq Splice Junctions (common)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq_splice_junctions_(common)-1647020009494-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'score')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'score')>20000?(get(feature,'strand')>0?'#730073':'#007373'):get(feature,'strand')>0?'#'+hex(round(255-(140*(get(feature,'score')/20000))))+'00'+hex(round(255-(140*(get(feature,'score')/20000)))):'#00'+hex(round(255-(140*(get(feature,'score')/20000))))+hex(round(255-(140*(get(feature,'score')/20000))))",
+            "showLabels": false
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "rnaseq_splice_junctions_(common)-1647020009494-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rnaseq_splice_junctions_(rare)-1647271824500",
+      "name": "RNASeq Splice Junctions (rare)",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'rare' in that there are fewer than 500 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/RNASeq Splice Junctions (rare)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq_splice_junctions_(rare)-1647271824500-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'score')+' reads'",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'score')>20000?(get(feature,'strand')>0?'#730073':'#007373'):get(feature,'strand')>0?'#'+hex(round(255-(140*(get(feature,'score')/20000))))+'00'+hex(round(255-(140*(get(feature,'score')/20000)))):'#00'+hex(round(255-(140*(get(feature,'score')/20000))))+hex(round(255-(140*(get(feature,'score')/20000))))",
+            "height": "jexl:get(feature,'logscore')<4?4:get(feature,'logscore')>100?50:floor(get(feature,'logscore'))",
+            "showLabels": false,
+            "labels": {
+              "fontSize": "jexl:get(feature,'logscore')<3?3:get(feature,'logscore')>100?50:floor(get(feature,'logscore'))"
+            }
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "rnaseq_splice_junctions_(rare)-1647271824500-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rnaseq-1647300891588",
+      "name": "RNASeq",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "These boxes indicate alignments of short read sequences from all available RNASeq projects. The number of reads has been normalised by averaging over the number of libraries. The height of all boxes indicates the relative score of the feature.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/RNASeq/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq-1647300891588-LinearBasicDisplay",
+          "mouseover": "jexl:'Score: '+get(feature,'score')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "black",
+            "height": "jexl:get(feature,'score')>100?50:floor(get(feature,'score')/2)>4?floor(get(feature,'score')/2):4",
+            "showLabels": false,
+            "displayMode": "collapse"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "rnaseq-1647300891588-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731curated_genes_(noncoding)-1646768882496",
+      "name": "Curated Genes (noncoding)",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "Non-coding curated gene models, including ncRNA, tRNA, miRNA, snRNA, snoRNA, piRNA, lincRNA and antisense RNA.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_briggsae_PRJNA10731/tracks/Curated Genes (noncoding)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731curated_genes_(noncoding)-1646768882496-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "gray",
+            "height": 6
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731curated_genes_(noncoding)-1646768882496-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731curated_genes_(pseudogenes)-1646771868646",
+      "name": "Curated Genes (pseudogenes)",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "A subset of the full Curated Genes set limited to pseudogenes only. Pseudogenes of tRNA are lighter gray and pseudogenes of rRNA are darker gray than pseudogenes of protein coding genes.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_briggsae_PRJNA10731/tracks/Curated Genes (pseudogenes)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731curated_genes_(pseudogenes)-1646771868646-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "gray",
+            "height": 6
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731curated_genes_(pseudogenes)-1646771868646-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731ests-1646772288252",
+      "name": "ESTs",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "Native (same-species) Expressed Sequence Tags (ESTs), aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each EST. The paired 5' and 3' ESTs from the same cDNA clone are connected by a dashed line and a colored light green. ESTs with no mate are yellow, and ESTs with a mate that is 'far away' are dark green.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_briggsae_PRJNA10731/tracks/ESTs (best)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731ests-1646772288252-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:parent(feature)=='undefined'?'red':get(parent(feature),'has_mate')==1?'limegreen':get(parent(feature),'has_mate')==2?'green':get(parent(feature),'has_mate')==0?'gold':'black'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731ests-1646772288252-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731yacs,_fosmids,_&_cosmids-1646772875564",
+      "name": "YACs, Fosmids, & Cosmids",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "This track shows the locations of the cosmids, fosmids, and YACs used for the physical mapping and sequencing of the C. elegans genome.  The clone termini do not necessarily correspond to the termini of submitted GenBank/EMBL entries. In some cases the exact termini of the clones is not known.  For example, YACs were sequenced using PCR amplification across gaps in the cosmid maps.  When a clone end is not known, it is shown as an arrow extending to the end of the display.  Such data is to be treated with caution.  The Vancouver fosmids can be ordered directly from <a href='http://www.geneservice.co.uk/products/clones/Celegans_Fos.jsp'>GeneService</a>.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS283/c_briggsae_PRJNA10731/tracks/YACs, Fosmids, & Cosmids/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731yacs,_fosmids,_&_cosmids-1646772875564-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "black",
+            "height": 3
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731yacs,_fosmids,_&_cosmids-1646772875564-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731genome_sequence_errors-1646853105670",
+      "name": "Genome sequence errors",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "Positions within the reference genome sequence that have been identified as having a base call error. This error has not yet been corrected.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_briggsae_PRJNA10731/tracks/Genome sequence errors/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731genome_sequence_errors-1646853105670-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "red",
+            "height": 6
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731genome_sequence_errors-1646853105670-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731contig_submissions-1646853302490",
+      "name": "Contig submissions",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "This track shows the location and coordinates of contigs (mostly cosmids) submitted to GenBank/EMBL.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_briggsae_PRJNA10731/tracks/Contig submissions/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731contig_submissions-1646853302490-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "sienna",
+            "height": 7
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731contig_submissions-1646853302490-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731links_and_superlinks-1646853631136",
+      "name": "Links and Superlinks",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "This track shows the location and coordinates of contigs created during the assembly of the C. elegans genome.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_briggsae_PRJNA10731/tracks/Links and Superlinks/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731links_and_superlinks-1646853631136-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "black",
+            "height": 4
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731links_and_superlinks-1646853631136-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731microarray_oligo_probes-1646856711050",
+      "name": "Microarray oligo probes",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "This track contains Affymetrix GeneChip and Washington University GSC microarray probe sets.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_briggsae_PRJNA10731/tracks/Microarray oligo probes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731microarray_oligo_probes-1646856711050-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "black",
+            "height": 4
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731microarray_oligo_probes-1646856711050-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731mrnas/ncrnas-1646857087883",
+      "name": "mRNAs/ncRNAs",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "Native (same species) full length cDNAs and ncRNAs aligned to the genome using <a href='http://genome.cse.ucsc.edu/cgi-bin/hgBlat'>BLAT</a>. This track shows the best unique location for each cDNA.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_briggsae_PRJNA10731/tracks/mRNAs_ncRNAs (best)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731mrnas/ncrnas-1646857087883-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'source')=='BLAT_mRNA_BEST'?'yellow':'gray'",
+            "height": 6
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731mrnas/ncrnas-1646857087883-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731protein_motifs-1646858824893",
+      "name": "Protein motifs",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "This track shows the extent of predicted protein motifs. Note these spans correspond to amino acid coordinates interpolated onto the physical map.  Included are signal peptide (signalp), coiled coil (ncoils) and transmembrane (tmhmm) domains, regions of low complexity (seg), and Pfam annotated motif homologies.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_briggsae_PRJNA10731/tracks/Protein motifs/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731protein_motifs-1646858824893-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:parent(feature)=='undefined'?'purple':get(parent(feature),'predictiontype')=='tmhmm'?'magenta':get(parent(feature),'predictiontype')=='seg'?'lightseagreen':get(parent(feature),'predictiontype')=='signalp'?'aquamarine':get(parent(feature),'predictiontype')=='ncoils'?'chartreuse':\nget(parent(feature),'predictiontype')=='pfam'?'lightsalmon':'purple'",
+            "height": 7
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731protein_motifs-1646858824893-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731rnaseq_asymmetries-1646947435566",
+      "name": "RNASeq Asymmetries",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "Red boxes indicate regions where there are more than 2 times as many forward sense RNASeq reads aligned to the genome as reverse sense reads. This asymmetrical signal has been found empirically to be a sensitive marker for the ends of transcripts. Green boxes indicate regions where there are more than 2 times as many reverse sense RNASeq reads aligned to the genome as forward sense reads. This asymmetrical signal has been found empirically to be sensitive marker for the ends of transcripts. The height of all boxes indicates the relative score of the feature.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_briggsae_PRJNA10731/tracks/RNASeq Asymmetries/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731rnaseq_asymmetries-1646947435566-LinearBasicDisplay",
+          "mouseover": "jexl:'Score: '+get(feature,'score')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'source')=='RNASeq_R_asymmetry'?'red': get(feature,'source')=='RNASeq_F_asymmetry'?'green':'black'",
+            "height": 24,
+            "showLabels": false,
+            "displayMode": "collapse"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731rnaseq_asymmetries-1646947435566-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731rnaseq_splice_junctions_(common)-1647020009494",
+      "name": "RNASeq Splice Junctions (common)",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'common' in that there are more than 500 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_briggsae_PRJNA10731/tracks/RNASeq Splice Junctions (common)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731rnaseq_splice_junctions_(common)-1647020009494-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'score')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'score')>20000?(get(feature,'strand')>0?'#730073':'#007373'):get(feature,'strand')>0?'#'+hex(round(255-(140*(get(feature,'score')/20000))))+'00'+hex(round(255-(140*(get(feature,'score')/20000)))):'#00'+hex(round(255-(140*(get(feature,'score')/20000))))+hex(round(255-(140*(get(feature,'score')/20000))))",
+            "showLabels": false
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731rnaseq_splice_junctions_(common)-1647020009494-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731rnaseq_splice_junctions_(rare)-1647271824500",
+      "name": "RNASeq Splice Junctions (rare)",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'rare' in that there are fewer than 500 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_briggsae_PRJNA10731/tracks/RNASeq Splice Junctions (rare)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731rnaseq_splice_junctions_(rare)-1647271824500-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'score')+' reads'",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'score')>20000?(get(feature,'strand')>0?'#730073':'#007373'):get(feature,'strand')>0?'#'+hex(round(255-(140*(get(feature,'score')/20000))))+'00'+hex(round(255-(140*(get(feature,'score')/20000)))):'#00'+hex(round(255-(140*(get(feature,'score')/20000))))+hex(round(255-(140*(get(feature,'score')/20000))))",
+            "height": "jexl:get(feature,'logscore')<4?4:get(feature,'logscore')>100?50:floor(get(feature,'logscore'))",
+            "showLabels": false,
+            "labels": {
+              "fontSize": "jexl:get(feature,'logscore')<3?3:get(feature,'logscore')>100?50:floor(get(feature,'logscore'))"
+            }
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731rnaseq_splice_junctions_(rare)-1647271824500-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731rnaseq-1647300891588",
+      "name": "RNASeq",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "These boxes indicate alignments of short read sequences from all available RNASeq projects. The number of reads has been normalised by averaging over the number of libraries. The height of all boxes indicates the relative score of the feature.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_briggsae_PRJNA10731/tracks/RNASeq/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731rnaseq-1647300891588-LinearBasicDisplay",
+          "mouseover": "jexl:'Score: '+get(feature,'score')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "black",
+            "height": "jexl:get(feature,'score')>100?50:floor(get(feature,'score')/2)>4?floor(get(feature,'score')/2):4",
+            "showLabels": false,
+            "displayMode": "collapse"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "c_briggsae_PRJNA10731rnaseq-1647300891588-LinearArcDisplay"
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "rnaseq_introns-1648487734844",
+      "name": "RNASeq introns",
+      "assemblyNames": [
+        "c_elegans.PRJNA13758"
+      ],
+      "description": "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. The number of reads spanning the introns is indicated by the thickness of the display.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS284/c_elegans_PRJNA13758/tracks/RNASeq introns/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq_introns-1648487734844-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green",
+            "height": "jexl:get(feature,'score')>100?50:get(feature,'score')<8?4:floor(get(feature,'score')/2)",
+            "showLabels": false,
+            "showDescriptions": false
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "rnaseq_introns-1648487734844-LinearArcDisplay"
+        }
+      ]
+    }
+  ],
+  "internetAccounts": [],
+  "aggregateTextSearchAdapters": [],
+  "connections": [],
+  "defaultSession": {
+    "id": "VzRDZTQKX",
+    "name": "New Session 2/20/2022, 12:06:17 PM",
+    "margin": 0,
+    "drawerWidth": 384,
+    "views": [
+      {
+        "id": "EHdh25BYf",
+        "type": "LinearGenomeView",
+        "offsetPx": 423057,
+        "bpPerPx": 11.953881814344054,
+        "displayedRegions": [
+          {
+            "refName": "I",
+            "start": 0,
+            "end": 15072434,
+            "reversed": false,
+            "assemblyName": "c_elegans.PRJNA13758"
+          }
+        ],
+        "tracks": [
+          {
+            "id": "eCUntyS9N",
+            "type": "FeatureTrack",
+            "configuration": "curated_genes-1645387763069",
+            "displays": [
+              {
+                "id": "aTqxfesIhQ",
+                "type": "LinearBasicDisplay",
+                "height": 200,
+                "configuration": "curated_genes-1645387763069-LinearBasicDisplay"
+              }
+            ]
+          }
+        ],
+        "hideHeader": false,
+        "hideHeaderOverview": false,
+        "trackSelectorType": "hierarchical",
+        "trackLabels": "offset",
+        "showCenterLine": false,
+        "showCytobandsSetting": true
+      }
+    ],
+    "widgets": {
+      "hierarchicalTrackSelector": {
+        "id": "hierarchicalTrackSelector",
+        "type": "HierarchicalTrackSelectorWidget",
+        "collapsed": {
+          "curated_genes-1645387763069": false
+        },
+        "filterText": "",
+        "view": "EHdh25BYf"
+      },
+      "addTrackWidget": {
+        "id": "addTrackWidget",
+        "type": "AddTrackWidget",
+        "view": "EHdh25BYf"
+      },
+      "configEditor": {
+        "id": "configEditor",
+        "type": "ConfigurationEditorWidget",
+        "target": "curated_genes-1645387763069"
+      },
+      "baseFeature": {
+        "id": "baseFeature",
+        "type": "BaseFeatureWidget",
+        "featureData": {
+          "uniqueId": "2040356185-I,0,27,21",
+          "start": 5335191,
+          "end": 5338027,
+          "strand": -1,
+          "alias": "F48C1.8",
+          "biotype": "protein_coding",
+          "curie": "WB:WBGene00018600",
+          "id": "Gene:WBGene00018600",
+          "interpolated_map_position": "-0.107798",
+          "name": "WBGene00018600",
+          "refName": "I",
+          "sequence_name": "F48C1.8",
+          "so_term_name": "protein_coding_gene",
+          "source": "WormBase",
+          "subfeatures": [
+            {
+              "strand": -1,
+              "uniqueId": "I,0,27,21-0",
+              "start": 5335191,
+              "end": 5338027,
+              "id": "Transcript:F48C1.8.1",
+              "jbrowse_parent": "Gene:WBGene00018600",
+              "name": "F48C1.8.1",
+              "refName": "I",
+              "source": "WormBase",
+              "subfeatures": [
+                {
+                  "strand": -1,
+                  "uniqueId": "I,0,27,21-0-0",
+                  "start": 5335191,
+                  "end": 5335401,
+                  "refName": "I",
+                  "source": "WormBase",
+                  "type": "exon",
+                  "parentId": "I,0,27,21-0"
+                },
+                {
+                  "strand": -1,
+                  "uniqueId": "I,0,27,21-0-1",
+                  "start": 5335191,
+                  "end": 5335291,
+                  "refName": "I",
+                  "source": "WormBase",
+                  "type": "three_prime_UTR",
+                  "parentId": "I,0,27,21-0"
+                },
+                {
+                  "strand": -1,
+                  "uniqueId": "I,0,27,21-0-2",
+                  "start": 5335291,
+                  "end": 5335401,
+                  "id": "CDS:F48C1.8",
+                  "name": "F48C1.8",
+                  "phase": 2,
+                  "prediction_status": "Confirmed",
+                  "protein_id": "CCD62477.1",
+                  "refName": "I",
+                  "source": "WormBase",
+                  "type": "CDS",
+                  "uniprot_id": "O01575",
+                  "wormpep": "CE45198",
+                  "parentId": "I,0,27,21-0"
+                },
+                {
+                  "strand": -1,
+                  "uniqueId": "I,0,27,21-0-3",
+                  "start": 5335443,
+                  "end": 5335553,
+                  "id": "CDS:F48C1.8",
+                  "name": "F48C1.8",
+                  "phase": 1,
+                  "prediction_status": "Confirmed",
+                  "protein_id": "CCD62477.1",
+                  "refName": "I",
+                  "source": "WormBase",
+                  "type": "CDS",
+                  "uniprot_id": "O01575",
+                  "wormpep": "CE45198",
+                  "parentId": "I,0,27,21-0"
+                },
+                {
+                  "strand": -1,
+                  "uniqueId": "I,0,27,21-0-4",
+                  "start": 5337231,
+                  "end": 5337469,
+                  "id": "CDS:F48C1.8",
+                  "name": "F48C1.8",
+                  "phase": 2,
+                  "prediction_status": "Confirmed",
+                  "protein_id": "CCD62477.1",
+                  "refName": "I",
+                  "source": "WormBase",
+                  "type": "CDS",
+                  "uniprot_id": "O01575",
+                  "wormpep": "CE45198",
+                  "parentId": "I,0,27,21-0"
+                },
+                {
+                  "strand": -1,
+                  "uniqueId": "I,0,27,21-0-5",
+                  "start": 5337909,
+                  "end": 5337955,
+                  "id": "CDS:F48C1.8",
+                  "name": "F48C1.8",
+                  "phase": 0,
+                  "prediction_status": "Confirmed",
+                  "protein_id": "CCD62477.1",
+                  "refName": "I",
+                  "source": "WormBase",
+                  "type": "CDS",
+                  "uniprot_id": "O01575",
+                  "wormpep": "CE45198",
+                  "parentId": "I,0,27,21-0"
+                },
+                {
+                  "strand": -1,
+                  "uniqueId": "I,0,27,21-0-6",
+                  "start": 5335401,
+                  "end": 5335443,
+                  "note": "Confirmed_EST FN875204 ; Confirmed_EST male_Nanopore_Roach_110202 ; ",
+                  "refName": "I",
+                  "source": "WormBase",
+                  "type": "intron",
+                  "parentId": "I,0,27,21-0"
+                },
+                {
+                  "strand": -1,
+                  "uniqueId": "I,0,27,21-0-7",
+                  "start": 5335443,
+                  "end": 5335553,
+                  "refName": "I",
+                  "source": "WormBase",
+                  "type": "exon",
+                  "parentId": "I,0,27,21-0"
+                },
+                {
+                  "strand": -1,
+                  "uniqueId": "I,0,27,21-0-8",
+                  "start": 5335553,
+                  "end": 5337231,
+                  "note": "Confirmed_EST FN875204 ; Confirmed_EST L3_Nanopore_Roach_30630 ; ",
+                  "refName": "I",
+                  "source": "WormBase",
+                  "type": "intron",
+                  "parentId": "I,0,27,21-0"
+                },
+                {
+                  "strand": -1,
+                  "uniqueId": "I,0,27,21-0-9",
+                  "start": 5337231,
+                  "end": 5337469,
+                  "refName": "I",
+                  "source": "WormBase",
+                  "type": "exon",
+                  "parentId": "I,0,27,21-0"
+                },
+                {
+                  "strand": -1,
+                  "uniqueId": "I,0,27,21-0-10",
+                  "start": 5337469,
+                  "end": 5337909,
+                  "note": "Confirmed_EST FN664878 ; Confirmed_EST L3_Nanopore_Roach_30630 ; ",
+                  "refName": "I",
+                  "source": "WormBase",
+                  "type": "intron",
+                  "parentId": "I,0,27,21-0"
+                },
+                {
+                  "strand": -1,
+                  "uniqueId": "I,0,27,21-0-11",
+                  "start": 5337909,
+                  "end": 5338027,
+                  "refName": "I",
+                  "source": "WormBase",
+                  "type": "exon",
+                  "parentId": "I,0,27,21-0"
+                },
+                {
+                  "strand": -1,
+                  "uniqueId": "I,0,27,21-0-12",
+                  "start": 5337955,
+                  "end": 5338027,
+                  "refName": "I",
+                  "source": "WormBase",
+                  "type": "five_prime_UTR",
+                  "parentId": "I,0,27,21-0"
+                }
+              ],
+              "type": "mRNA",
+              "uniprot_id": "O01575",
+              "wormpep": "CE45198",
+              "parentId": "2040356185-I,0,27,21"
+            }
+          ],
+          "type": "gene"
+        },
+        "view": "EHdh25BYf"
+      }
+    },
+    "activeWidgets": {
+      "hierarchicalTrackSelector": "hierarchicalTrackSelector"
+    },
+    "connectionInstances": [],
+    "sessionTracks": [],
+    "sessionConnections": [],
+    "sessionAssemblies": [],
+    "sessionPlugins": [],
+    "minimized": false,
+    "drawerPosition": "right"
+  }
+}

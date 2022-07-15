@@ -1,0 +1,34 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_rnaseq",
+      "name": "RNASeq",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "These boxes indicate alignments of short read sequences from all available RNASeq projects. The number of reads has been normalised by averaging over the number of libraries. The height of all boxes indicates the relative score of the feature.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/RNASeq/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq-$ASSEMBLY-LinearBasicDisplay",
+          "mouseover": "jexl:'Score: '+get(feature,'score')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "black",
+            "height": "jexl:get(feature,'score')>100?50:floor(get(feature,'score')/2)>4?floor(get(feature,'score')/2):4",
+            "showLabels": false,
+            "displayMode": "collapse"
+          }
+        }
+      ]
+    }
+  ]
+}

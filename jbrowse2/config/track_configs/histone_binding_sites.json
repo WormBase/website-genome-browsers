@@ -1,0 +1,30 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_histone_binding_sites",
+      "name": "Histone binding sites",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Regions within which there is experimental evidence for one or more binding sites of a histone.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Histone binding sites/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "histone_binding_sites-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        }
+      ]
+    }
+  ]
+}
