@@ -1,0 +1,46 @@
+{
+   "tracks" : [
+      {
+         "style" : {
+            "strandArrow" : false,
+            "className" : "feature",
+            "height":6,
+            "color" : "green",
+            "label" : false
+         },
+         "metadata" : {
+            "shortInfo" : "These regions represent concentrated extremely high genetic variation areas that punctuate the autosomes in a non-random distribution. Individual regions correspond to non-overlapping hyper-divergent genomic regions that were identified in at least one isotype when compared to the reference N2 isotype."
+         },
+         "unsafePopup" : true,
+         "category" : "Alleles, Variations, RNAi",
+         "key" : "Hyper-divergent regions",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/Hyper-divergent regions/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Hyper-divergent regions"
+      },
+      {
+         "style" : {
+            "strandArrow" : false,
+            "className" : "feature",
+            "height":6,
+            "color" : "blue",
+            "label" : false
+         },
+         "metadata" : {
+            "shortInfo" : "These represent the smaller regions of clustered genetic variation observed in individual isotypes/strains. WormBase has compressed these clusters to be unique spans shared by multiple isotypes/strains and the individual strains are linked in the feature frame available by clicking on each track feature."
+         },
+         "unsafePopup" : true,
+         "category" : "Alleles, Variations, RNAi",
+         "key" : "Hyper-divergent clusters",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "trackType" : "CanvasFeatures",
+         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/Hyper-divergent clusters/{refseq}/trackData.jsonz",
+         "compress" : 1,
+         "type" : "CanvasFeatures",
+         "label" : "Hyper-divergent clusters"
+      }
+   ]
+}
