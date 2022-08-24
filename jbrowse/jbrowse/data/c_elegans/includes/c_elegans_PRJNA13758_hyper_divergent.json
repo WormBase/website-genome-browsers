@@ -9,9 +9,16 @@
             "label" : false
          },
          "metadata" : {
-            "shortInfo" : "These regions represent concentrated extremely high genetic variation areas that punctuate the autosomes in a non-random distribution. Individual regions correspond to non-overlapping hyper-divergent genomic regions that were identified in at least one isotype when compared to the reference N2 isotype."
+            "shortInfo" : "These regions represent concentrated extremely high genetic variation areas that punctuate the autosomes in a non-random distribution. Individual regions correspond to non-overlapping hyper-divergent genomic regions that were identified in at least one isotype when compared to the reference N2 isotype. For more information about this data, see <a href='/resources/paper/WBPaper00061244'>this paper</a>."
+         },
+         "onClick" : {
+            "label" : "{divergentBalloon}",
+            "content" : "{divergentBalloon}",
+            "title" : " ",
+            "action" : "contentDialog"
          },
          "unsafePopup" : true,
+         "unsafeMouseover":true,
          "category" : "Alleles, Variations, RNAi",
          "key" : "Hyper-divergent regions",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
@@ -30,9 +37,10 @@
             "label" : false
          },
          "metadata" : {
-            "shortInfo" : "These represent the smaller regions of clustered genetic variation observed in individual isotypes/strains. WormBase has compressed these clusters to be unique spans shared by multiple isotypes/strains and the individual strains are linked in the feature frame available by clicking on each track feature."
+            "shortInfo" : "These represent the smaller regions of clustered genetic variation observed in individual isotypes/strains. WormBase has compressed these clusters to be unique spans shared by multiple isotypes/strains and the individual strains are linked in the feature frame available by clicking on each track feature. For more information about this data, see <a href='/resources/paper/WBPaper00061244'>this paper</a>."
          },
          "unsafePopup" : true,
+         "unsafeMouseover":true,
          "category" : "Alleles, Variations, RNAi",
          "key" : "Hyper-divergent clusters",
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
