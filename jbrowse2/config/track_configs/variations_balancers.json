@@ -1,0 +1,34 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY-balancers",
+      "name": "Balancers",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "This track shows the approximate location of balancers.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Balancers/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "balancers-$ASSEMBLY-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'balancer')+': '+get(feature,'note')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "black",
+            "labels": {
+              "description": "jexl:get(feature,'balancer_type') || get(feature,'description')"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
