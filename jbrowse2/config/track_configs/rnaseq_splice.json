@@ -34,6 +34,9 @@
       ]
     },
     {
+      "category": [
+        "Expression"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_rnaseq_splice_junctions_(common)",
       "name": "RNASeq Splice Junctions (common)",
@@ -62,6 +65,9 @@
       ]
     },
     {
+      "category": [
+        "Expression"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_rnaseq_splice_junctions_(rare)",
       "name": "RNASeq Splice Junctions (rare)",
