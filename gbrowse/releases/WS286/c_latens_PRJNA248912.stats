@@ -1,0 +1,8 @@
+gff_version: 3
+file: /usr/local/ftp/pub/wormbase/releases/WS286/species/c_latens/PRJNA248912/c_latens.PRJNA248912.WS286.annotations.gff3.gz
+feature	children	source	method	track	count
+gene:WormBase_imported		WormBase_imported	gene	Genes (genes)	24855
+	mRNA:WormBase_imported	WormBase_imported	mRNA	Genes (genes)	25624
+	five_prime_UTR:WormBase_imported	WormBase_imported	five_prime_UTR	Genes (genes)	6753
+	three_prime_UTR:WormBase_imported	WormBase_imported	three_prime_UTR	Genes (genes)	5900
+low_complexity_region:dust		dust	low_complexity_region	Low complextity region (Dust) (repeats_dust)	200859
