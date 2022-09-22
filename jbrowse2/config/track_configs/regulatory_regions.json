@@ -1,6 +1,10 @@
 {
   "tracks": [
     {
+      "category": [
+        "Sequence Features",
+        "Binding Sites & Regions"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_regulatory_regions",
       "name": "Regulatory regions",

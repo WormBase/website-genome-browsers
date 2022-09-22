@@ -1,6 +1,10 @@
 {
   "tracks": [
     {
+      "category": [
+        "Sequence Features",
+        "Binding Sites & Regions"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_binding_sites_curated",
       "name": "Binding sites (curated)",

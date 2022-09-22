@@ -1,6 +1,9 @@
 {
   "tracks": [
     {
+      "category": [
+        "Reagents"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_pcr_assays",
       "name": "PCR Assays",

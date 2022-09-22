@@ -1,6 +1,10 @@
 {
   "tracks": [
     {
+      "category": [
+        "Sequence Features",
+        "Signals & Motifs"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_dnasei_hypersensitive_site",
       "name": "DNaseI hypersensitive site",

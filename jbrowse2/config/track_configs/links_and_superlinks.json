@@ -1,6 +1,10 @@
 {
   "tracks": [
     {
+      "category": [
+        "Genome Structure",
+        "Assembly & Curation"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_links_and_superlinks",
       "name": "Links and Superlinks",

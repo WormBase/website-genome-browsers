@@ -1,6 +1,10 @@
 {
   "tracks": [
     {
+      "category": [
+        "Sequence Features",
+        "Translated Features"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_protein_motifs",
       "name": "Protein motifs",

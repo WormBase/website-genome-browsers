@@ -1,6 +1,9 @@
 {
   "tracks": [
     {
+      "category": [
+        "Alleles, Variations, RNAi"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY-change_of_function_polymorphisms",
       "name": "Change of function polymorphisms",

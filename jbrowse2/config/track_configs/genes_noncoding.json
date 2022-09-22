@@ -1,6 +1,10 @@
 {
   "tracks": [
     {
+      "category": [
+        "Genes",
+        "Curated Genes"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_curated_genes_noncoding",
       "name": "Curated Genes (noncoding)",

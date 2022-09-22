@@ -1,6 +1,10 @@
 {
   "tracks": [
     {
+      "category": [
+        "Genome Structure",
+        "Assembly & Curation"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_contig_submissions",
       "name": "Contig submissions",

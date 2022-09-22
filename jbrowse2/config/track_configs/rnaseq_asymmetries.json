@@ -1,6 +1,9 @@
 {
   "tracks": [
     {
+      "category": [
+        "Expression"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_rnaseq_asymmetries",
       "name": "RNASeq Asymmetries",

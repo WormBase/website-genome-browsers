@@ -1,6 +1,10 @@
 {
   "tracks": [
     {
+      "category": [
+        "Sequence Features",
+        "Signals & Motifs"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_trans-spliced_acceptor",
       "name": "Trans-spliced acceptor",

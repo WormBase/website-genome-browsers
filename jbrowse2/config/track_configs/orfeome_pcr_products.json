@@ -1,6 +1,10 @@
 {
   "tracks": [
     {
+      "category": [
+        "Genes",
+        "Supporting Evidence"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_orfeome_pcr_products",
       "name": "ORFeome PCR Products",

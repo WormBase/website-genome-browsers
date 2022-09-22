@@ -1,6 +1,9 @@
 {
   "tracks": [
     {
+      "category": [
+        "Alleles, Variations, RNAi"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_classical_alleles",
       "name": "Classical Alleles",

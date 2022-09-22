@@ -1,6 +1,9 @@
 {
   "tracks": [
     {
+      "category": [
+        "Reagents"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_microarray_oligo_probes",
       "name": "Microarray oligo probes",

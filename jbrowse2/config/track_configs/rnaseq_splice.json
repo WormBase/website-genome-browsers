@@ -1,6 +1,9 @@
 {
   "tracks": [
     {
+      "category": [
+        "Expression"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_rnaseq_introns",
       "name": "RNASeq introns",

@@ -1,6 +1,9 @@
 {
   "tracks": [
     {
+      "category": [
+        "Alleles, Variations, RNAi"
+      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_high-throughput_alleles",
       "name": "High-throughput alleles",
