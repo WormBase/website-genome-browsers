@@ -1,0 +1,38 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_transposon_genes",
+      "name": "Transposon Genes",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "These are transposon spans reviewed by WormBase curators.",
+      "category": [
+        "Genes",
+        "Curated Genes"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Transposon Genes/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "transposon_genes-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "gray",
+            "height": 6,
+            "labels": {
+              "description": "jexl:get(feature,'type')=='pseudogenic_transcript'?'transposon pseudogene':'transposon mRNA'"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_transposons",
+      "name": "Transposons",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "These are transposon spans reviewed by WormBase curators.",
+      "category": [
+        "Genes",
+        "Curated Genes"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Transposons/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "transposons-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "gray"
+          }
+        }
+      ]
+    }
+  ]
+}

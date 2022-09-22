@@ -1,0 +1,37 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_gene_models_(historical)",
+      "name": "Gene Models (historical)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Historical gene predictions.",
+      "category": [
+        "Genes",
+        "Curated Genes"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Gene Models (historical)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "gene_models_(historical)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'strand')>0?'violet':'turquoise'",
+            "labels": {
+              "description": "jexl:get(feature,'type')"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

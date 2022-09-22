@@ -1,0 +1,33 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_dicistronic_mrnas",
+      "name": "Dicistronic mRNAs",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Dicistronic mRNA operons - manually observed by curators",
+      "category": [
+        "Genes",
+        "Curated Genes"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Dicistronic mRNAs/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "dicistronic_mrnas-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "darkgreen"
+          }
+      ]
+    }
+  ]
+}
