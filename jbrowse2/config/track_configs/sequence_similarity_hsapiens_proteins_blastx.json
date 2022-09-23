@@ -1,0 +1,37 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_H_sapiens_proteins",
+      "name": "H. sapiens proteins",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Matches to WormBase H. sapiens proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation).",
+      "category": [
+        "Sequence Similarity",
+        "Proteins"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/H. sapiens proteins/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "H_sapiens_proteins-$ASSEMBLY-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'clone')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "orange",
+            "height": 4,
+            "showLabels": false
+          }
+        }
+      ]
+    }
+  ]
+}

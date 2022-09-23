@@ -1,0 +1,37 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_S_ratti_proteins",
+      "name": "S. ratti proteins",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Matches to WormBase S. ratti proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation).",
+      "category": [
+        "Sequence Similarity",
+        "Proteins"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/S. ratti proteins/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "S_ratti_proteins-$ASSEMBLY-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'clone')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "orange",
+            "height": 4,
+            "showLabels": false
+          }
+        }
+      ]
+    }
+  ]
+}

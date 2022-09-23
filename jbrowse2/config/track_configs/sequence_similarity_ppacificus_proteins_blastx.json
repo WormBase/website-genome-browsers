@@ -1,0 +1,37 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_P_pacificus_proteins",
+      "name": "P. pacificus proteins",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Matches to WormBase P. pacificus proteins, aligned with BLASTX (nucleotide to protein, via six-frame translation).",
+      "category": [
+        "Sequence Similarity",
+        "Proteins"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/P. pacificus proteins/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "P_pacificus_proteins-$ASSEMBLY-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'clone')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "orange",
+            "height": 4,
+            "showLabels": false
+          }
+        }
+      ]
+    }
+  ]
+}
