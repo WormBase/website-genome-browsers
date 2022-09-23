@@ -1,0 +1,36 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_transcriptionally_active_region",
+      "name": "Transcriptionally Active Region",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Transcriptionally Active Regions (TARs) found by the Miller lab from tiling-array projects run as part of the modENCODE project.",
+      "category": [
+        "Genes",
+        "Supporting Evidence"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Transcriptionally Active Region/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "transcriptionally_active_region-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green",
+            "height": 5,
+            "showLabels": false
+          }
+        }
+      ]
+    }
+  ]
+}

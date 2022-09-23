@@ -1,0 +1,36 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_trinity-assembled_rnaseq",
+      "name": "Trinity-assembled RNAseq",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Native (same species) RNAseq data was assembled with Trinity and then aligned to the genome with BLAT",
+      "category": [
+        "Genes",
+        "Supporting Evidence"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Trinity-assembled RNAseq/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "trinity-assembled_rnaseq-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "mediumpurple",
+            "height": 5,
+            "showLabels": false
+          }
+        }
+      ]
+    }
+  ]
+}

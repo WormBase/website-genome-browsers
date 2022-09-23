@@ -1,0 +1,35 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_c._elegans_osts",
+      "name": "C. elegans OSTs",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "ORFeome project (http://worfdb.dfci.harvard.edu/) sequence reads. The ORFeome project designs primer assays for spliced C. elegans mRNAs and then performs sequence reads on rtPCR material, producing 'OSTs.' This track shows ORFeome project OSTs aligned to the genome using BLAT. This track shows the best unique location for each OST.",
+      "category": [
+        "Genes",
+        "Supporting Evidence"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/C. elegans OSTs/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c._elegans_osts-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "cyan",
+            "height": 5
+          }
+        }
+      ]
+    }
+  ]
+}

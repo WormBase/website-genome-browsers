@@ -1,17 +1,17 @@
 {
   "tracks": [
     {
-      "category": [
-        "Genes",
-        "Supporting Evidence"
-      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_orfeome_pcr_products",
       "name": "ORFeome PCR Products",
       "assemblyNames": [
         "$ASSEMBLY"
       ],
-      "description": "This track contains Orfeome Project primer pairs and RACE tags.  These primers were used to amplify C. elegans cDNAs.  A positive amplification, shown in green, is evidence that the region between the two primers is transcribed.  Failure to amplify, shown in red, suggests either that the gene model is incorrect, or that the gene is expressed at very low levels. Detailed gene models derived from ORFeome sequencing will be added to this display in the future.  See <i>Reboul et al. Nat. Genet. 2003 Apr 7.</i> and <a href='http://worfdb.dfci.harvard.edu' target='_blank'>WORFdb</a> for further information.",
+      "description": "This track contains Orfeome Project primer pairs and RACE tags.  These primers were used to amplify C. elegans cDNAs.  A positive amplification, shown in green, is evidence that the region between the two primers is transcribed.  Failure to amplify, shown in red, suggests either that the gene model is incorrect, or that the gene is expressed at very low levels. Detailed gene models derived from ORFeome sequencing will be added to this display in the future.  See Reboul et al. Nat. Genet. 2003 Apr 7 and WORFdb for further information.",
+      "category": [
+        "Genes",
+        "Supporting Evidence"
+      ],
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
@@ -26,7 +26,7 @@
           "renderer": {
             "type": "SvgFeatureRenderer",
             "color1": "jexl:get(feature,'amplified')==1?'green':'red'",
-            "height": 4
+            "height": 6
           }
         }
       ]
