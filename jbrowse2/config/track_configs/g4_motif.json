@@ -1,0 +1,35 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_g4_motif",
+      "name": "G4 Motif",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "This track shows the extent of G4 DNA signature. G4 motif is 'Intrinsically mutagenic motif, probably because it can form secondary structures during DNA replication'. Data are from Kruisselbrink E et al. (2008) Curr Biol 'Mutagenic Capacity of Endogenous G4 DNA Underlies Genome Instability in ....'.",
+      "category": [
+        "Sequence Features",
+        "Signals & Motifs"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/G4 Motif/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "g4_motif-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "magenta",
+            "height": 7
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_polya_sites_and_signal_sequences",
+      "name": "PolyA sites and signal sequences",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "High-confidence polyadenylation signal sequences and sites calculated by an algorithm trained with verified sites from full-length mRNAs. Signals are indicated with a diamond; sites with a triangle.",
+      "category": [
+        "Sequence Features",
+        "Signals & Motifs"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/PolyA sites and signal sequences/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "polya_sites_and_signal_sequences-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "purple",
+            "labels": {
+              "description": "jexl:get(feature,'type') || get(feature,'description')"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

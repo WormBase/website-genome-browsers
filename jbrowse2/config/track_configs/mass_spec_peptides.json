@@ -1,0 +1,35 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_mass_spec_peptides",
+      "name": "Mass spec peptides",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "This track shows peptides identified in mass spec proteomics experiments.",
+      "category": [
+        "Sequence Features",
+        "Translated Features"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Mass spec peptides/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mass_spec_peptides-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "red",
+            "height": 7
+          }
+        }
+      ]
+    }
+  ]
+}

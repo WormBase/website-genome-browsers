@@ -2,12 +2,12 @@
   "tracks": [
     {
       "type": "FeatureTrack",
-      "trackId": "$ASSEMBLY_dnasei_hypersensitive_site",
-      "name": "DNaseI hypersensitive site",
+      "trackId": "$ASSEMBLY_transcription_end_site",
+      "name": "Transcription end site",
       "assemblyNames": [
         "$ASSEMBLY"
       ],
-      "description": "DNase I hypersensitive sites from the 2009 paper by Shi et al.",
+      "description": "Transcription_end_site defined by analysis of RNASeq short read datasets (example Hillier et al.)",
       "category": [
         "Sequence Features",
         "Signals & Motifs"
@@ -16,16 +16,17 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/DNaseI hypersensitive site/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Transcription end site/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
         {
           "type": "LinearBasicDisplay",
-          "displayId": "dnasei_hypersensitive_site-$ASSEMBLY-LinearBasicDisplay",
+          "displayId": "transcription_end_site-$ASSEMBLY-LinearBasicDisplay",
           "renderer": {
             "type": "SvgFeatureRenderer",
-            "color1": "green"
+            "color1": "white",
+            "outline": "black"
           }
         }
       ]
