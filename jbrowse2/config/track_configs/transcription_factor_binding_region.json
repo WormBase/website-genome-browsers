@@ -1,0 +1,38 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_transcription_factor_binding_regions",
+      "name": "Transcription factor binding regions",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Regions within which there is experimental evidence of one or more binding sites of a transcription factor.",
+      "category": [
+        "Sequence Features",
+        "Binding Sites & Regions"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Transcription factor binding regions/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "transcription_factor_binding_regions-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green",
+            "height": 5,
+            "labels": {
+              "name": "jexl:get(feature,'tf_name') ? get(feature,'name') + ' ' + get(feature,'tf_name') : get(feature,'name')"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
