@@ -28,7 +28,7 @@
             "color1": "green",
             "height": 5,
             "labels": {
-              "name": "jexl:get(feature,'tf_name') ? get(feature,'name') + ' ' + get(feature,'tf_name') : get(feature,'name')"
+              "name": "jexl:!!get(feature,'tf_name')==true ? get(feature,'name') + ' (' + get(feature,'tf_name') +')' : get(feature,'name')"
             }
           }
         }
