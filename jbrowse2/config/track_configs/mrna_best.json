@@ -1,0 +1,36 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_mrnas/ncrnas_(best)",
+      "name": "mRNAs/ncRNAs (best)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Native (same species) full length cDNAs and ncRNAs aligned to the genome using BLAT. This track shows the best unique location for each cDNA.",
+      "category": [
+        "Genes",
+        "Supporting Evidence"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/mRNAs_ncRNAs (best)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "mrnas/ncrnas_(best)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:startsWith(get(feature,'source'),'BLAT_mRNA_')==true?'yellow':'gray'",
+            "outline": "black",
+            "height": 6
+          }
+        }
+      ]
+    }
+  ]
+}

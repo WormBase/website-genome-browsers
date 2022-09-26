@@ -1,0 +1,35 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_alper_lincrna_(predicted)",
+      "name": "Alper lincRNA (predicted)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Predicted  lincRNAs.  See WBPaper0005624 for more information.",
+      "category": [
+        "Genes",
+        "Ab-initio predictions"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Alper lincRNA (predicted)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "alper_lincrna_(predicted)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "gray",
+            "height": 6
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_c.elegans_rsts",
+      "name": "C.elegans RSTs",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "The submitted RACE data come from cloning and sequencing of 5' and 3' C.elegans RACE PCR products. The experiments were done using RNA isolated from 'mix stage' wild-type N2 worms. SL1 and SL2 were used as 5' universal primers for 5'RACE experiments. The 'RST's' (i.e., RACE Sequence Tags), are 5' reads from cloned RACE products (sequenced as minipools). Sequences are vector trimmed then quality trimmed (SL sequences are not removed from 5' RST's). In quality trimming, the first sliding window of 20 nt long with an average quality score higher than 15 marks the start of good quality sequences. Likewise, the first sliding window of 20 nt with average quality score lower than 15 marks the end of good quality sequences. Each RST is identified as being 5' or 3'(indicated as 5-RST or 3-RST) followed by a unique trace ID (e.g., >CCSB_5-RST_373657). 1,355 5' and 1589 3' RSTs are included in this submission. Data provided by Kourosh Salehi-Ashtiani, Vidal Lab. For information on the project, please see the (http://worfdb.dfci.harvard.edu/index.php?page=race) Race Project Page at (http://worfdb.dfci.harvard.edu/) WorfDB.",
+      "category": [
+        "Genes",
+        "Supporting Evidence"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/C.elegans RSTs/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c.elegans_rsts-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:startsWith(get(feature,'Target'),'RST5')==true?'green':'red'",
+            "height": 5
+          }
+        }
+      ]
+    }
+  ]
+}
