@@ -1,0 +1,35 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_genome_sequence_corrections",
+      "name": "Genome sequence corrections",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Positions within the reference genome sequence that were previously identified as having a base call error. This error has now been corrected.",
+      "category": [
+        "Genome Structure",
+        "Assembly & Curation"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Genome sequence corrections/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "genome_sequence_corrections-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green",
+            "height": 6
+          }
+        }
+      ]
+    }
+  ]
+}

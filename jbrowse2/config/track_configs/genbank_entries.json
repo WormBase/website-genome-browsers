@@ -1,0 +1,36 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_genbank_submissions",
+      "name": "Genbank submissions",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "The C. elegans genome was submitted to the GenBank and EMBL databases in in the form of a set of minimally-overlapping segments.  This track shows the position of these accessioned entries.",
+      "category": [
+        "Genome Structure",
+        "Assembly & Curation"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Genbank submissions/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "genbank_submissions-$ASSEMBLY-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'genbank')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "sienna",
+            "height": 4
+          }
+        }
+      ]
+    }
+  ]
+}

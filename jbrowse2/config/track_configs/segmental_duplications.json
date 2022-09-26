@@ -1,0 +1,36 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_segmental_duplication",
+      "name": "Segmental duplication",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Polymorphic segmental duplication as defined by the tool OrthoCluster. This feature represents one sequence from a pair of duplicons in the N2 genome.",
+      "category": [
+        "Genome Structure",
+        "Genome Structure"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Segmental duplication/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "segmental_duplication-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "white",
+            "outline": "black",
+            "height": 6
+          }
+        }
+      ]
+    }
+  ]
+}

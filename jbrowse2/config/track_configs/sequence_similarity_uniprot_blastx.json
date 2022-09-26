@@ -1,0 +1,37 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_other_uniprot_proteins",
+      "name": "Other UniProt proteins",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Matches to proteins from a slimmed-down version of UniProt (with proteins from WormBase core nematodes, human, fly and yeast removed), aligned with BLASTX (nucleotide to protein, via six-frame translation).",
+      "category": [
+        "Sequence Similarity",
+        "Proteins"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Other UniProt proteins/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "other_uniprot_proteins-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "orange",
+            "height": 4,
+            "showLabels": false,
+            "showDescriptions": false
+          }
+        }
+      ]
+    }
+  ]
+}
