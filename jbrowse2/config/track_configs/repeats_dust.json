@@ -1,0 +1,37 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_low_complextity_region_(dust)",
+      "name": "Low complextity region (Dust)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Low-complexity regions identified by Dust.",
+      "category": [
+        "Genome Structure",
+        "Repeats"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Low complextity region (Dust)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "low_complextity_region_(dust)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "bisque",
+            "height": 4,
+            "showLabels": false,
+            "showDescriptions": false
+          }
+        }
+      ]
+    }
+  ]
+}

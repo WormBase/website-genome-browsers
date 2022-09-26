@@ -1,0 +1,41 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_repeat_region_(repeatmasker)",
+      "name": "Repeat Region (RepeatMasker)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Repetitive regions identified by RepeatMasker.",
+      "category": [
+        "Genome Structure",
+        "Repeats"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Repeat Region (RepeatMasker)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "repeat_region_(repeatmasker)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "bisque",
+            "height": 4,
+            "showLabels": false,
+            "showDescriptions": false
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "repeat_region_(repeatmasker)-1664215402064-LinearArcDisplay"
+        }
+      ]
+    }
+  ]
+}
