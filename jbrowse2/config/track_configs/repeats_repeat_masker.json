@@ -30,10 +30,6 @@
             "showLabels": false,
             "showDescriptions": false
           }
-        },
-        {
-          "type": "LinearArcDisplay",
-          "displayId": "repeat_region_(repeatmasker)-1664215402064-LinearArcDisplay"
         }
       ]
     }

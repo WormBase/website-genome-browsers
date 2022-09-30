@@ -1,34 +1,33 @@
 {
   "tracks": [
     {
-      "category": [
-        "Alleles, Variations, RNAi"
-      ],
       "type": "FeatureTrack",
-      "trackId": "$ASSEMBLY_high-throughput_alleles",
-      "name": "High-throughput alleles",
+      "trackId": "$ASSEMBLY_million_mutation_project",
+      "name": "Million Mutation Project",
       "assemblyNames": [
         "$ASSEMBLY"
       ],
-      "description": "These are alleles generated through high-throughput, genome-wide projects. Million Mutation Project alleles are placed in a separate track. Color signifies the severity of impact predicted by Ensembl's Variant Effect Predictor. 'HIGH' impacts are red, 'MEDIUM' are yellow, 'LOW' are cyan (light blue), and 'MODIFIER' are purple. This is the same color scheme as is used at the Alliance of Genome Resources.",
+      "description": "This track shows SNPs from the The Million Mutation Project (Waterston/Moerman). Color signifies the severity of impact predicted by Ensembl's Variant Effect Predictor. 'HIGH' impacts are red, 'MEDIUM' are yellow, 'LOW' are cyan (light blue), and 'MODIFIER' are purple. This is the same color scheme as is used at the Alliance of Genome Resources.",
+      "category": [
+        "Alleles, Variations, RNAi"
+      ],
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/High-throughput alleles/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Million Mutation Project/{refseq}/trackData.jsonz"
         }
       },
       "displays": [
         {
           "type": "LinearBasicDisplay",
-          "displayId": "high-throughput_alleles-$ASSEMBLY-LinearBasicDisplay",
-          "mouseover": "jexl:get(feature,'name')+', '+get(feature,'strain')",
+          "displayId": "million_mutation_project-$ASSEMBLY-LinearBasicDisplay",
           "renderer": {
             "type": "SvgFeatureRenderer",
             "color1": "jexl:get(feature,'vep_impact')=='HIGH'?'red':get(feature,'vep_impact')=='MODIFIER'?'purple':get(feature,'vep_impact')=='MODERATE'?'gold':get(feature,'vep_impact')=='LOW'?'cyan':'white'",
             "outline": "jexl:get(feature,'vep_impact')=='HIGH'?'red':get(feature,'vep_impact')=='MODIFIER'?'purple':get(feature,'vep_impact')=='MODERATE'?'gold':get(feature,'vep_impact')=='LOW'?'cyan':'black'",
             "labels": {
-              "description": "jexl:get(feature,'type') || get(feature,'description')"
+              "name": "jexl:get(feature,'other_name')=='undefined'?get(feature,'public_name'):get(feature,'public_name')+' '+get(feature,'other_name')"
             }
           }
         }
