@@ -1,0 +1,32 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_landmarks",
+      "name": "Landmarks",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Landmarks/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "landmarks-$ASSEMBLY-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'locus')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "labels": {
+              "name": "jexl:get(feature,'locus') || get(feature,'id')"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
