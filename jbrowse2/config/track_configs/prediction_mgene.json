@@ -1,0 +1,33 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_prediction:_mgene",
+      "name": "Prediction: mGene",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "category": [
+        "Genes",
+        "Ab-initio predictions"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Prediction: mGene/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "prediction:_mgene-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "palevioletred"
+          }
+        }
+      ]
+    }
+  ]
+}
