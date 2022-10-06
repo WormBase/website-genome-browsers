@@ -1,9 +1,6 @@
 {
   "tracks": [
     {
-      "category": [
-        "Reagents"
-      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_yacs_fosmids_cosmids",
       "name": "YACs, Fosmids, & Cosmids",
