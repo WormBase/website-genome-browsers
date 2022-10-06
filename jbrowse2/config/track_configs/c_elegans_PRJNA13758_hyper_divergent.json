@@ -1,0 +1,64 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_hyper-divergent_regions",
+      "name": "Hyper-divergent regions",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "These regions represent concentrated extremely high genetic variation areas that punctuate the autosomes in a non-random distribution. Individual regions correspond to non-overlapping hyper-divergent genomic regions that were identified in at least one isotype when compared to the reference N2 isotype. For more information about this data, see WBPaper00061244.",
+      "category": [
+        "Alleles, Variations, RNAi"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/Hyper-divergent regions/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "hyper-divergent_regions-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green",
+            "height": 6
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_hyper-divergent_clusters",
+      "name": "Hyper-divergent clusters",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "These represent the smaller regions of clustered genetic variation observed in individual isotypes/strains. WormBase has compressed these clusters to be unique spans shared by multiple isotypes/strains and the individual strains are linked in the feature frame available by clicking on each track feature.",
+      "category": [
+        "Alleles, Variations, RNAi"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/Hyper-divergent clusters/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "hyper-divergent_clusters-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "blue",
+            "height": 6
+          }
+        }
+      ]
+    }
+  ]
+}

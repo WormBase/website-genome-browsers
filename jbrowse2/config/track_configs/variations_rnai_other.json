@@ -1,0 +1,34 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_rnai_experiments_(secondary_targets)",
+      "name": "RNAi experiments (secondary targets)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "This track represents RNAi probes that have been aligned to the genome using BLAST program and have sequence identity to the target location from 80 to 94.99% over a stretch of at least 200 nt. Probes that satisfy these criteria may or may not produce RNAi effect on overlapping genes and the corresponding locations represent possible secondary (unintended) genomic targets of an RNAi experiment. Click on the RNAi element to get more information about the experiment.",
+      "category": [
+        "Alleles, Variations, RNAi"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/RNAi experiments (secondary targets)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnai_experiments_(secondary_targets)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "red",
+            "height": 4
+          }
+        }
+      ]
+    }
+  ]
+}

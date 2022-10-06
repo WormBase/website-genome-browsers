@@ -1,0 +1,34 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_sage_tags",
+      "name": "SAGE tags",
+      "assemblyNames": [
+        "$ASSEMBLYs"
+      ],
+      "description": "This track indicates the location of Serial Analysis of Gene Expression (SAGE) patterns associated with a tag and its associated genes.  Tags shown in grey are either unambiguously mapped to a gene elsewhere or are ambigous due to multiple occurences in genomic or trascript sequences.  Colored tags are mapped unambiguously to a single gene or genomic location.  Violet and turquoise refer to the plus strand and minus strands, respectively.  The number shown above tags is the total number of times this tag was observed in all SAGE experiments.",
+      "category": [
+        "Expression"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/SAGE tags/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "sage_tags-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "lightgray",
+            "height": 7
+          }
+        }
+      ]
+    }
+  ]
+}
