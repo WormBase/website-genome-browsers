@@ -25,5 +25,14 @@
           }
         ]
       },
+      "refNameAliases": {
+        "adapter": {
+          "type": "RefNameAliasAdapter",
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/test/jbrowse2/ce_aliases.txt"
+          }
+        }
+      },
       "displayName": "C. elegans N2"
     }]}
