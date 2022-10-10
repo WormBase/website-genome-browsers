@@ -1,0 +1,46 @@
+{
+  "tracks": [
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "$ASSEMBLY_ucsc_conservation",
+      "name": "UCSC Conservation",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "UCSC Nematode conservation calculated across 26 species. For more information about these data, see the README at UCSC (http://hgdownload.soe.ucsc.edu/goldenPath/ce11/phastCons26way/).",
+      "category": [
+        "Externally Sourced Resources",
+        "Other"
+      ],
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/UCSC/ce11.phastCons26way.bw"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "ucsc_conservation-$ASSEMBLY-LinearWiggleDisplay",
+          "minScore": 0,
+          "maxScore": 1,
+          "renderers": {
+            "DensityRenderer": {
+              "type": "DensityRenderer",
+              "color": "grey",
+              "posColor": "grey"
+            },
+            "XYPlotRenderer": {
+              "type": "XYPlotRenderer",
+              "color": "grey",
+              "posColor": "grey",
+              "bicolorPivot": "none",
+              "summaryScoreMode": "avg"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
