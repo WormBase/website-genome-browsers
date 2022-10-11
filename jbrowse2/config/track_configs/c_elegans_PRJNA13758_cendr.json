@@ -28,7 +28,11 @@
       "displays": [
         {
           "type": "LinearVariantDisplay",
-          "displayId": "cendr_variation-$ASSEMBLY-LinearVariantDisplay"
+          "displayId": "cendr_variation-$ASSEMBLY-LinearVariantDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:variantColor(feature)"
+          }
         }
       ]
     }
