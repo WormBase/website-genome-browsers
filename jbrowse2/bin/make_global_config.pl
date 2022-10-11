@@ -83,7 +83,9 @@ $$json{'configuration'}{'logoPath'}{'uri'} = '';
 
 my $plugin;
 $$plugin{'esmUrl'} = "hex_plugin.js";
-my @plugins = ($plugin);
+my $plugin2;
+$$plugin2{'esmUrl'} = "variantColor_plugin.js";
+my @plugins = ($plugin, $plugin2);
 $$json{'plugins'} = \@plugins;
 
 #that might be all that's needed
