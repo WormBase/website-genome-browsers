@@ -79,7 +79,7 @@ $$json{'configuration'}{'rpc'}{'drivers'}{'MainThreadRpcDriver'} = {};
 $$json{'configuration'}{'rpc'}{'drivers'}{'WebWorkerRpcDriver'}  = {};
 
 $$json{'configuration'}{'logoPath'}{'locationType'} = "UriLocation";
-$$json{'configuration'}{'logoPath'}{'uri'} = '';
+$$json{'configuration'}{'logoPath'}{'uri'} = 'logo_wormbase_gradient-150px.png';
 
 my $plugin;
 $$plugin{'esmUrl'} = "hex_plugin.js";
