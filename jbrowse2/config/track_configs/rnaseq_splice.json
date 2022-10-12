@@ -89,8 +89,8 @@
           "mouseover": "jexl:get(feature,'score')+' reads'",
           "renderer": {
             "type": "SvgFeatureRenderer",
-            "color1": "jexl:get(feature,'strand')>0?'#730073':'#007373'",
-            "height": "jexl:get(feature,'logscore')<4?4:get(feature,'logscore')>100?50:floor(get(feature,'logscore'))",
+            "color1": "jexl:get(feature,'score')>20000?(get(feature,'strand')>0?'#730073':'#007373'):get(feature,'strand')>0?'#'+hex(round(255-(140*(get(feature,'score')/20000))))+'00'+hex(round(255-(140*(get(feature,'score')/20000)))):'#00'+hex(round(255-(140*(get(feature,'score')/20000))))+hex(round(255-(140*(get(feature,'score')/20000))))",
+            "height": "4",
             "showLabels": false
           }
         }
