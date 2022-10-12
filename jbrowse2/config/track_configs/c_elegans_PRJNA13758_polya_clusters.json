@@ -1,0 +1,64 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_polya_clusters_plus_strand",
+      "name": "polyA clusters plus strand",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "https://polyasite.unibas.ch/atlas - Clusters of polyA sites using a bespoke clustering procedure which groups together closely-spaced poly(A) sites, that most likely are due to imprecision in cleavage or processing. Construction of the clusters was broadened to include sites with lower read support that were located from -12 to +12 nucleotides around sites with strong support. In another pass, sites that were located within 25 nucleotides of each other were clustered together, and finally, for clusters with no annotated poly(A) signals a more permissive distance of 50 nucleotides was used in clustering.",
+      "category": [
+        "Externally Sourced Resources",
+        "Atlas"
+      ],
+      "adapter": {
+        "type": "BigBedAdapter",
+        "bigBedLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/atlas_plus.2.0.ce11.bb"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "polya_clusters_plus_strand-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "purple"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_polya_clusters_minus_strand",
+      "name": "polyA clusters minus strand",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "https://polyasite.unibas.ch/atlas - Clusters of polyA sites using a bespoke clustering procedure which groups together closely-spaced poly(A) sites, that most likely are due to imprecision in cleavage or processing. Construction of the clusters was broadened to include sites with lower read support that were located from -12 to +12 nucleotides around sites with strong support. In another pass, sites that were located within 25 nucleotides of each other were clustered together, and finally, for clusters with no annotated poly(A) signals a more permissive distance of 50 nucleotides was used in clustering.",
+      "category": [
+        "Externally Sourced Resources",
+        "Atlas"
+      ],
+      "adapter": {
+        "type": "BigBedAdapter",
+        "bigBedLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/atlas_minus.2.0.ce11.bb"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "polya_clusters_minus_strand-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "purple"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_genetic_limits",
+      "name": "Genetic limits",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "This track shows the maximal extents for genetic loci. Loci that have been interpolated onto the physical map (and whose precise location is unknown) are shown as a thin black span.  The physical extent of such loci are determined by interpolating their genetic position onto the physical map using 95% confidence limits.  Please note that the actual location of such loci may lay outside of the span depicted. Loci with known sequence connections are shown in turquoise and depicted using the physical span of the gene.",
+      "category": [
+        "Genes",
+        "Curated Genes"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Genetic limits/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "genetic_limits-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'source')=='interpolated_pmap_position'?'red':'turquoise'",
+            "height": 2
+          }
+        }
+      ]
+    }
+  ]
+}
