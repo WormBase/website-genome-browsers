@@ -26,7 +26,8 @@
           "renderer": {
             "type": "SvgFeatureRenderer",
             "color1": "deeppink",
-            "height": 6
+            "showLabels": false,
+            "height": 5
           }
         }
       ]
@@ -56,8 +57,9 @@
           "displayId": "miranda_predicted_binding_site_(generic)-$ASSEMBLY-LinearBasicDisplay",
           "renderer": {
             "type": "SvgFeatureRenderer",
+            "showLabels": false,
             "color1": "pink",
-            "height": 6
+            "height": 5
           }
         }
       ]
@@ -87,8 +89,9 @@
           "displayId": "predicted_3prime_utr_(filtered)-$ASSEMBLY-LinearBasicDisplay",
           "renderer": {
             "type": "SvgFeatureRenderer",
+            "showLabels": false,
             "color1": "deepskyblue",
-            "height": 6
+            "height": 5
           }
         }
       ]
@@ -118,8 +121,9 @@
           "displayId": "predicted_3prime_utr_(mild)-$ASSEMBLY-LinearBasicDisplay",
           "renderer": {
             "type": "SvgFeatureRenderer",
+            "showLabels": false,
             "color1": "skyblue",
-            "height": 6
+            "height": 5
           }
         }
       ]
@@ -149,9 +153,10 @@
           "displayId": "predicted_3prime_utr_(v1-historical)-$ASSEMBLY-LinearBasicDisplay",
           "renderer": {
             "type": "SvgFeatureRenderer",
+            "showLabels": false,
             "color1": "skyblue",
             "color3": "skyblue",
-            "height": 6
+            "height": 5
           }
         }
       ]
