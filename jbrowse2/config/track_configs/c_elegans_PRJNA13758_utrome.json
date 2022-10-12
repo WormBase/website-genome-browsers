@@ -1,0 +1,36 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_predicted_3prime_utr_(v1-historical)",
+      "name": "Predicted 3prime UTR (v1-historical)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Predictions of 3’UTRs from a previous version of UTRome. From http://utrome.org",
+      "category": [
+        "Externally Sourced Resources",
+        "UTRome v2"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/Predicted 3prime UTR (v1-historical)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "predicted_3prime_utr_(v1-historical)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "skyblue",
+            "color3": "skyblue",
+            "height": 6
+          }
+        }
+      ]
+    }
+  ]
+}
