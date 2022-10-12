@@ -17,13 +17,14 @@ $RELEASE  ||= '284';
 
 #define config dirs
 
-my $TRACKS_CONFIGS   = "$Bin/../config/track_configs/WS$RELEASE/";
+my $TRACK_CONFIGS    = "$Bin/../config/track_configs/";
+my $RELEASE_CONFIGS  =  $TRACK_CONFIGS . "WS$RELEASE/";
 my $ASSEMBLY_CONFIGS = "$Bin/../config/assembly_configs/";
 
 my @assemblies;
 my @tracks;
 
-chdir $TRACKS_CONFIGS;
+chdir $RELEASE_CONFIGS;
 
 my @track_files = <*tracks.json>;
 
@@ -40,6 +41,28 @@ for my $file (@track_files) {
 
     for my $tracks (@$trackList{tracks}) {
 	for my $track (@$tracks) {
+            push @tracks, $track;
+        }
+    }
+}
+
+chdir $TRACK_CONFIGS;
+
+my @synteny_tracks = <*synteny.json>;
+
+for my $file (@synteny_tracks) {
+    my $blob;
+    {
+        local $/ = undef;
+        open (my $F, "<", $file) or die "$!";
+        $blob = <$F>;
+        close $F;
+    }
+
+    my $trackList = JSON->new->decode($blob);
+
+    for my $tracks (@$trackList{tracks}) {
+        for my $track (@$tracks) {
             push @tracks, $track;
         }
     }
