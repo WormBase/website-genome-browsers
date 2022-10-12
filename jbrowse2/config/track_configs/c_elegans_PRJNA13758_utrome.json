@@ -2,6 +2,130 @@
   "tracks": [
     {
       "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_miranda_predicted_binding_site_(restricted)",
+      "name": "miRanda predicted binding site (restricted)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "MiRanda prediction with stringent filters (score>=156 and energy <-7). This file contains the best predictions and is the reference file. From http://utrome.org",
+      "category": [
+        "Externally Sourced Resources",
+        "UTRome v2"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/miRanda predicted binding site (stringent)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "miranda_predicted_binding_site_(restricted)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "deeppink",
+            "height": 6
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_miranda_predicted_binding_site_(generic)",
+      "name": "miRanda predicted binding site (generic)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "All MiRanda predictions (a lot of predictions, also with very low scores, but informative). From http://utrome.org",
+      "category": [
+        "Externally Sourced Resources",
+        "UTRome v2"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/miRanda predicted binding site (all)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "miranda_predicted_binding_site_(generic)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "pink",
+            "height": 6
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_predicted_3prime_utr_(filtered)",
+      "name": "Predicted 3prime UTR (filtered)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "3’UTRs we have identified using filtered by score. From http://utrome.org",
+      "category": [
+        "Externally Sourced Resources",
+        "UTRome v2"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/Predicted 3prime UTR (filtered)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "predicted_3prime_utr_(filtered)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "deepskyblue",
+            "height": 6
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_predicted_3prime_utr_(mild)",
+      "name": "Predicted 3prime UTR (mild)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Database with all the 3’UTRs we have identified using relaxed filters (a lot of 3’UTR isoforms for each gene). From http://utrome.org",
+      "category": [
+        "Externally Sourced Resources",
+        "UTRome v2"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/Predicted 3prime UTR (all)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "predicted_3prime_utr_(mild)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "skyblue",
+            "height": 6
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_predicted_3prime_utr_(v1-historical)",
       "name": "Predicted 3prime UTR (v1-historical)",
       "assemblyNames": [
