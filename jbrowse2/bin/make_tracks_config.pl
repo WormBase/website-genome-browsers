@@ -52,7 +52,10 @@ my $trackList = JSON->new->decode($blob);
 my @includes;
 for my $i (@{$$trackList{'include'}}) {
     $i =~ s/includes\///;
-    push @includes, $i unless ($i =~ /functions.conf/ or $i =~ /PR.*DNA.json/ or $i =~ /pattern_match_tracks/);
+    push @includes, $i unless ($i =~ /functions.conf/
+                            or $i =~ /PR.*DNA.json/
+                            or $i =~ /pattern_match_tracks/
+                            or $i =~ /expression_patterns/);
 }
 
 my $includedir = "$Bin/../config/track_configs";
