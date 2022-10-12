@@ -55,6 +55,8 @@ for my $i (@{$$trackList{'include'}}) {
     push @includes, $i unless ($i =~ /functions.conf/
                             or $i =~ /PR.*DNA.json/
                             or $i =~ /pattern_match_tracks/
+                            or $i =~ /crispr_predictions/
+                            or $i =~ /alphafold/
                             or $i =~ /expression_patterns/);
 }
 
