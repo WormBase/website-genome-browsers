@@ -65,9 +65,6 @@
       ]
     },
     {
-      "category": [
-        "Expression"
-      ],
       "type": "FeatureTrack",
       "trackId": "$ASSEMBLY_rnaseq_splice_junctions_(rare)",
       "name": "RNASeq Splice Junctions (rare)",
@@ -75,6 +72,9 @@
         "$ASSEMBLY"
       ],
       "description": "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'rare' in that there are fewer than 500 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads.",
+      "category": [
+        "Expression"
+      ],
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
@@ -90,7 +90,7 @@
           "renderer": {
             "type": "SvgFeatureRenderer",
             "color1": "jexl:get(feature,'score')>20000?(get(feature,'strand')>0?'#730073':'#007373'):get(feature,'strand')>0?'#'+hex(round(255-(140*(get(feature,'score')/20000))))+'00'+hex(round(255-(140*(get(feature,'score')/20000)))):'#00'+hex(round(255-(140*(get(feature,'score')/20000))))+hex(round(255-(140*(get(feature,'score')/20000))))",
-            "height": "4",
+            "height": "jexl:4",
             "showLabels": false
           }
         }
