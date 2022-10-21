@@ -1,0 +1,17 @@
+# pre-JBrowse build env
+
+
+FROM nginx:latest as build
+ENV DEBIAN_FRONTEND noninteractive
+
+RUN mkdir -p /usr/share/man/man1 /usr/share/man/man7
+
+RUN apt-get -qq update --fix-missing
+RUN apt-get --no-install-recommends -y install wget curl software-properties-common git build-essential zlib1g-dev libpng-dev perl-doc ca-certificates libjson-perl
+
+RUN curl -fsSL https://deb.nodesource.com/setup_14.x | bash -
+
+RUN apt-get -y install nodejs
+
+RUN npm install -g @jbrowse/cli
+

@@ -1,14 +1,8 @@
 # JBrowse 2
 
-FROM gmod/jbrowse-buildenv:latest as build
+FROM gmod/jbrowse2-buildenv:1.0
 
 ARG RELEASE=286
-
-# JBrowse source
-RUN npm install -g @jbrowse/cli
-RUN apt-get install -y libjson-perl
-
-#UN touch /something.txt
 
 RUN git clone --single-branch --branch jb2-284 https://github.com/WormBase/website-genome-browsers.git
 
@@ -20,8 +14,10 @@ RUN ls /usr/share/nginx/html/tools/genome/jbrowse2/
 
 RUN rm /usr/share/nginx/html/index.html && \
     rm /usr/share/nginx/html/50x.html && \
-    cp /website-genome-browsers/jbrowse2/config/variantColor_plugin.js /usr/share/nginx/html/tools/genome/jbrowse2/variantColor_plugin.js && \
-    cp /website-genome-browsers/jbrowse2/config/hex_plugin.js /usr/share/nginx/html/tools/genome/jbrowse2/hex_plugin.js 
+    cp /website-genome-browsers/jbrowse2/config/variantColor_plugin.js \
+            /usr/share/nginx/html/tools/genome/jbrowse2/variantColor_plugin.js && \
+    cp /website-genome-browsers/jbrowse2/config/hex_plugin.js \
+            /usr/share/nginx/html/tools/genome/jbrowse2/hex_plugin.js 
 
 WORKDIR /usr/share/nginx/html/tools/genome
 
@@ -39,6 +35,8 @@ RUN ../../../bin/make_global_config.pl --release $RELEASE > config.json
 
 RUN cp config.json /usr/share/nginx/html/tools/genome/jbrowse2/config.json
 
+RUN mkdir -p /usr/share/nginx/html/tools/genome/jbrowse2/embed/
+RUN cp *embed.json /usr/share/nginx/html/tools/genome/jbrowse2/embed/
 
 
 
