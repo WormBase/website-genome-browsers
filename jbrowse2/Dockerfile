@@ -4,7 +4,7 @@ FROM gmod/jbrowse2-buildenv:1.0
 
 ARG RELEASE=286
 
-RUN git clone --single-branch --branch jb2-284 https://github.com/WormBase/website-genome-browsers.git
+RUN git clone --single-branch --branch jb2-staging https://github.com/WormBase/website-genome-browsers.git
 
 RUN mkdir -p /usr/share/nginx/html/tools/genome
 WORKDIR /usr/share/nginx/html/tools/genome/
@@ -17,7 +17,9 @@ RUN rm /usr/share/nginx/html/index.html && \
     cp /website-genome-browsers/jbrowse2/config/variantColor_plugin.js \
             /usr/share/nginx/html/tools/genome/jbrowse2/variantColor_plugin.js && \
     cp /website-genome-browsers/jbrowse2/config/hex_plugin.js \
-            /usr/share/nginx/html/tools/genome/jbrowse2/hex_plugin.js 
+            /usr/share/nginx/html/tools/genome/jbrowse2/hex_plugin.js && \
+    cp /website-genome-browsers/jbrowse2/logo_wormbase_gradient-150px.png \
+            /usr/share/nginx/html/tools/genome/jbrowse2/logo_wormbase_gradient-150px.png
 
 WORKDIR /usr/share/nginx/html/tools/genome
 
