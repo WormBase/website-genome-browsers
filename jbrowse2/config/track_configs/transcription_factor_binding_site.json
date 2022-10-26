@@ -2,7 +2,7 @@
   "tracks": [
     {
       "type": "FeatureTrack",
-      "trackId": "$ASSEMBLY_factor_binding_sites-1664209498940",
+      "trackId": "$ASSEMBLY_transcription_factor_binding_sites",
       "name": "Transcription factor binding sites",
       "assemblyNames": [
         "$ASSEMBLY"
