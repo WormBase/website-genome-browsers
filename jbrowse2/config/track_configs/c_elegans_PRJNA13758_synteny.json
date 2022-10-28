@@ -1,0 +1,36 @@
+{
+  "tracks": [
+    {
+      "type": "SyntenyTrack",
+      "trackId": "N2_to_briggsae",
+      "name": "C. elegans N2 to C. briggsae",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731",
+        "c_elegans_PRJNA13758"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "targetAssembly": "c_briggsae_PRJNA10731",
+        "queryAssembly": "c_elegans_PRJNA13758",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/test/jbrowse2/N2_to_briggsae.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "N2_to_briggsae.paf-1656525163931-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "N2_to_briggsae.paf-1656525163931-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "N2_to_briggsae.paf-1656525163931-LinearSyntenyDisplay"
+        }
+      ]
+    }
+  ]
+}
