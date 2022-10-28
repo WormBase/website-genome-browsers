@@ -105,12 +105,14 @@ $$json{'configuration'}{'logoPath'}{'locationType'} = "UriLocation";
 $$json{'configuration'}{'logoPath'}{'uri'} = 'logo_wormbase_gradient-150px.png';
 
 $$json{'configuration'}{'theme'}{'palette'}{'secondary'}{'main'} = '#29405F';
-$$json{'configuration'}{'theme'}{'palette'}{'tertiary'}{'main'}  = '#C5D1DE';
+# this color is related to the light blue used on the rest of WB
+# but darkened to improve contrast in some JB2 UI elements
+$$json{'configuration'}{'theme'}{'palette'}{'tertiary'}{'main'}  = '#9da9b6';
 
 # need to add text searching config but not yet
 #$$json{'textSearchAdapter'}{'type'} = "JBrowse1TextSearchAdapter";
-#$$json{'textSearchAdapter'}{'textSearchAdapterId'} ="generate-names-index";
-#$$json{'textSearchAdapter'}{'namesIndexLocation'}{'uri'} = 
+#$$json{'textSearchAdapter'}{'textSearchAdapterId'} ="$ASSEMBLY_generate-names-index";
+#$$json{'textSearchAdapter'}{'namesIndexLocation'}{'uri'} = "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/names";
 #$$json{'textSearchAdapter'}{'namesIndexLocation'}{'locationType'} = "UriLocation";
 
 my $plugin;
