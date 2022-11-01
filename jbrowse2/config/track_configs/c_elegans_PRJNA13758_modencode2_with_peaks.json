@@ -1,4 +1,4 @@
-[
+{"tracks":[
    {
       "assemblyNames" : [
          "c_elegans_PRJNA13758"
@@ -24797,3 +24797,4 @@
       "type" : "QuantitativeTrack"
    }
 ]
+}
