@@ -57,6 +57,7 @@ for my $i (@{$$trackList{'include'}}) {
                             or $i =~ /pattern_match_tracks/
                             or $i =~ /crispr_predictions/
                             or $i =~ /alphafold/
+                            or $1 =~ /modERN/
                             or $i =~ /expression_patterns/);
 }
 
