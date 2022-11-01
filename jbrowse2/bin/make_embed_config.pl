@@ -49,7 +49,7 @@ for my $file (@assembly_files) {
 
     {
         local $/ = undef;
-        open (my $F, "<", $track_file) or die "$!";
+        open (my $F, "<", $track_file) or die "$!: $track_file";
         $blob = <$F>;
         close $F;
     }
