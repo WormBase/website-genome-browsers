@@ -75,6 +75,7 @@ chdir $ASSEMBLY_CONFIGS;
 
 my @assembly_files = <*.json>;
 
+my @text_searches;
 for my $file (@assembly_files) {
     my $blob;
     {
@@ -91,9 +92,24 @@ for my $file (@assembly_files) {
             push @assemblies, $assembly;
 	}
     }
+
+    #create a text search config for this assembly
+    $file =~ /(.*)_assembly.json/;
+    my $assembly_name = $1;
+
+    my $text_config;
+    $$text_config{'type'} = 'JBrowse1TextSearchAdapter';
+    $$text_config{'textSearchAdapterId'} = $assembly_name . '_generate-names-index';
+    $$text_config{'namesIndexLocation'}{'uri'} = 'https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS' .  $RELEASE . '/' . $assembly_name . '/names/';
+   
+    my @assembly_list = ($assembly_name);
+    $$text_config{'assemblyNames'} = \@assembly_list;
+
+    push @text_searches, $text_config;  
 }
 
 $$json{'assemblies'} = \@assemblies;
+$$json{'aggregateTextSearchAdapters'} = \@text_searches;
 
 #now the rest of the config that doesn't change
 
@@ -108,12 +124,6 @@ $$json{'configuration'}{'theme'}{'palette'}{'secondary'}{'main'} = '#29405F';
 # this color is related to the light blue used on the rest of WB
 # but darkened to improve contrast in some JB2 UI elements
 $$json{'configuration'}{'theme'}{'palette'}{'tertiary'}{'main'}  = '#9da9b6';
-
-# need to add text searching config but not yet
-#$$json{'textSearchAdapter'}{'type'} = "JBrowse1TextSearchAdapter";
-#$$json{'textSearchAdapter'}{'textSearchAdapterId'} ="$ASSEMBLY_generate-names-index";
-#$$json{'textSearchAdapter'}{'namesIndexLocation'}{'uri'} = "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/names";
-#$$json{'textSearchAdapter'}{'namesIndexLocation'}{'locationType'} = "UriLocation";
 
 my $plugin;
 $$plugin{'esmUrl'} = "hex_plugin.js";
