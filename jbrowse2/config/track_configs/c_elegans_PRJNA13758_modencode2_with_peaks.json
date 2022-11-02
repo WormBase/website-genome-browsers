@@ -1,4 +1,4 @@
-[
+{"tracks":[
    {
       "name" : "Chromatin fractions extracted with NaCl, 80mM fraction",
       "assemblyNames" : [
@@ -25389,3 +25389,4 @@
       "type" : "QuantitativeTrack"
    }
 ]
+}
