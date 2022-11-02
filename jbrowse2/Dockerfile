@@ -10,7 +10,7 @@ RUN mkdir -p /usr/share/nginx/html/tools/genome
 WORKDIR /usr/share/nginx/html/tools/genome/
 RUN jbrowse create jbrowse2
 #RUN sleep 10
-RUN ls /usr/share/nginx/html/tools/genome/jbrowse2/
+#RUN ls /usr/share/nginx/html/tools/genome/jbrowse2/
 
 RUN rm /usr/share/nginx/html/index.html && \
     rm /usr/share/nginx/html/50x.html && \
@@ -21,7 +21,7 @@ RUN rm /usr/share/nginx/html/index.html && \
     cp /website-genome-browsers/jbrowse2/logo_wormbase_gradient-150px.png \
             /usr/share/nginx/html/tools/genome/jbrowse2/logo_wormbase_gradient-150px.png
 
-WORKDIR /usr/share/nginx/html/tools/genome
+#WORKDIR /usr/share/nginx/html/tools/genome
 
 RUN mkdir -p /website-genome-browsers/jbrowse2/config/track_configs/WS$RELEASE
 
@@ -30,6 +30,8 @@ WORKDIR /website-genome-browsers/jbrowse2/config/track_configs/WS$RELEASE
 RUN cp /website-genome-browsers/jbrowse2/bin/make_tracks.sh .
 
 RUN bash make_tracks.sh -r $RELEASE
+
+#RUN sleep 5
 
 RUN ../../../bin/make_embed_config.pl --release $RELEASE
 
