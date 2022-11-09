@@ -1,6 +1,5 @@
 # pre-JBrowse build env
 
-
 FROM nginx:latest as build
 ENV DEBIAN_FRONTEND noninteractive
 
