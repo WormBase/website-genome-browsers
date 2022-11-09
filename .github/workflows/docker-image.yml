@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file /website-genome-browsers/jbrowse2/Dockerfile --tag jb2:$(date +%s)
+      run: docker build . --file jbrowse2/Dockerfile --tag jb2:$(date +%s)
