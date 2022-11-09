@@ -19,7 +19,8 @@ RUN rm /usr/share/nginx/html/index.html && \
     cp /website-genome-browsers/jbrowse2/config/hex_plugin.js \
             /usr/share/nginx/html/tools/genome/jbrowse2/hex_plugin.js && \
     cp /website-genome-browsers/jbrowse2/logo_wormbase_gradient-150px.png \
-            /usr/share/nginx/html/tools/genome/jbrowse2/logo_wormbase_gradient-150px.png
+            /usr/share/nginx/html/tools/genome/jbrowse2/logo_wormbase_gradient-150px.png && \
+    cp /website-genome-browsers/jbrowse2/docker-entrypoint.sh /
 
 #WORKDIR /usr/share/nginx/html/tools/genome
 
@@ -46,5 +47,4 @@ RUN cp *embed.json /usr/share/nginx/html/tools/genome/jbrowse2/embed/
 
 
 VOLUME /data
-COPY docker-entrypoint.sh /
 CMD ["/docker-entrypoint.sh"]
