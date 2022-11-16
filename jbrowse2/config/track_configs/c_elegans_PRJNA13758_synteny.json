@@ -31,6 +31,48 @@
           "displayId": "N2_to_briggsae.paf-1656525163931-LinearSyntenyDisplay"
         }
       ]
+    },
+    {
+      "type": "SyntenyTrack",
+      "trackId": "c_elegans.c_remanei.anchors-1668630466142",
+      "name": "c_elegans.c_remanei.anchors",
+      "assemblyNames": [
+        "c_remanei_PRJNA53967",
+        "c_elegans_PRJNA13758"
+      ],
+      "adapter": {
+        "type": "MCScanAnchorsAdapter",
+        "mcscanAnchorsLocation": {
+          "locationType": "UriLocation",
+          "localPath": "c_elegans.c_remanei.anchors"
+        },
+        "bed1Location": {
+          "locationType": "UriLocation",
+          "localPath": "c_elegans.bed"
+        },
+        "bed2Location": {
+          "locationType": "UriLocation",
+          "localPath": "c_remanei.bed"
+        },
+        "assemblyNames": [
+          "c_elegans_PRJNA13758",
+          "c_remanei_PRJNA53967"
+        ]
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "c_elegans.c_remanei.anchors-1668630466142-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "c_elegans.c_remanei.anchors-1668630466142-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "c_elegans.c_remanei.anchors-1668630466142-LinearSyntenyDisplay"
+        }
+      ]
     }
   ]
 }
