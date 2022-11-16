@@ -14,6 +14,9 @@ RUN jbrowse create jbrowse2
 
 RUN rm /usr/share/nginx/html/index.html && \
     rm /usr/share/nginx/html/50x.html && \
+    cp /website-genome-browsers/jbrowse2/c_elegans.bed / && \
+    cp /website-genome-browsers/jbrowse2/c_elegans.c_remanei.anchors / && \
+    cp /website-genome-browsers/jbrowse2/c_remanei.bed / && \
     cp /website-genome-browsers/jbrowse2/config/variantColor_plugin.js \
             /usr/share/nginx/html/tools/genome/jbrowse2/variantColor_plugin.js && \
     cp /website-genome-browsers/jbrowse2/config/hex_plugin.js \

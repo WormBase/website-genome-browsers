@@ -44,15 +44,15 @@
         "type": "MCScanAnchorsAdapter",
         "mcscanAnchorsLocation": {
           "locationType": "UriLocation",
-          "localPath": "c_elegans.c_remanei.anchors"
+          "uri": "c_elegans.c_remanei.anchors"
         },
         "bed1Location": {
           "locationType": "UriLocation",
-          "localPath": "c_elegans.bed"
+          "uri": "c_elegans.bed"
         },
         "bed2Location": {
           "locationType": "UriLocation",
-          "localPath": "c_remanei.bed"
+          "uri": "c_remanei.bed"
         },
         "assemblyNames": [
           "c_elegans_PRJNA13758",
