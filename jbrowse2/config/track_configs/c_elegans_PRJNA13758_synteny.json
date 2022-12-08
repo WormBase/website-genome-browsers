@@ -1,6 +1,9 @@
 {
   "tracks": [
     {
+      "category": [
+        "Synteny"
+      ],
       "type": "SyntenyTrack",
       "trackId": "N2_to_briggsae",
       "name": "C. elegans N2 to C. briggsae",
@@ -14,63 +17,126 @@
         "queryAssembly": "c_elegans_PRJNA13758",
         "pafLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/test/jbrowse2/N2_to_briggsae.paf"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_elegans.c_briggsae.paf"
         }
       },
       "displays": [
         {
           "type": "DotplotDisplay",
-          "displayId": "N2_to_briggsae.paf-1656525163931-DotplotDisplay"
+          "displayId": "N2_to_briggsae-DotplotDisplay"
         },
         {
           "type": "LinearComparativeDisplay",
-          "displayId": "N2_to_briggsae.paf-1656525163931-LinearComparativeDisplay"
+          "displayId": "N2_to_briggsae-LinearComparativeDisplay"
         },
         {
           "type": "LinearSyntenyDisplay",
-          "displayId": "N2_to_briggsae.paf-1656525163931-LinearSyntenyDisplay"
+          "displayId": "N2_to_briggsae-LinearSyntenyDisplay"
         }
       ]
     },
     {
+      "category": [
+        "Synteny"
+      ],
       "type": "SyntenyTrack",
-      "trackId": "c_elegans.c_remanei.anchors-1668630466142",
-      "name": "c_elegans.c_remanei.anchors",
+      "trackId": "N2_to_brenneri",
+      "name": "C. elegans N2 to C. brenneri",
       "assemblyNames": [
-        "c_remanei_PRJNA53967",
-        "c_elegans_PRJNA13758"
+        "c_elegans_PRJNA13758",
+        "c_brenneri_PRJNA20035"
       ],
       "adapter": {
-        "type": "MCScanAnchorsAdapter",
-        "mcscanAnchorsLocation": {
+        "type": "PAFAdapter",
+        "targetAssembly": "c_elegans_PRJNA13758",
+        "queryAssembly": "c_brenneri_PRJNA20035",
+        "pafLocation": {
           "locationType": "UriLocation",
-          "uri": "c_elegans.c_remanei.anchors"
-        },
-        "bed1Location": {
-          "locationType": "UriLocation",
-          "uri": "c_elegans.bed"
-        },
-        "bed2Location": {
-          "locationType": "UriLocation",
-          "uri": "c_remanei.bed"
-        },
-        "assemblyNames": [
-          "c_elegans_PRJNA13758",
-          "c_remanei_PRJNA53967"
-        ]
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_elegans.c_brenneri.paf"
+        }
       },
       "displays": [
         {
           "type": "DotplotDisplay",
-          "displayId": "c_elegans.c_remanei.anchors-1668630466142-DotplotDisplay"
+          "displayId": "N2_to_brenneri-DotplotDisplay"
         },
         {
           "type": "LinearComparativeDisplay",
-          "displayId": "c_elegans.c_remanei.anchors-1668630466142-LinearComparativeDisplay"
+          "displayId": "N2_to_brenneri-LinearComparativeDisplay"
         },
         {
           "type": "LinearSyntenyDisplay",
-          "displayId": "c_elegans.c_remanei.anchors-1668630466142-LinearSyntenyDisplay"
+          "displayId": "N2_to_brenneri-LinearSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "category": [
+        "Synteny"
+      ],
+      "type": "SyntenyTrack",
+      "trackId": "N2_to_japonica",
+      "name": "C. elegans N2 to C. japonica",
+      "assemblyNames": [
+        "c_elegans_PRJNA13758",
+        "c_japonica_PRJNA12591"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "targetAssembly": "c_elegans_PRJNA13758",
+        "queryAssembly": "c_japonica_PRJNA12591",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_elegans.c_japonica.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "N2_to_japonica-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "N2_to_japonica-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "N2_to_japonica-LinearSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "category": [
+        "Synteny"
+      ],
+      "type": "SyntenyTrack",
+      "trackId": "N2_to_remanei",
+      "name": "C. elegans N2 to C. remanei",
+      "assemblyNames": [
+        "c_elegans_PRJNA13758",
+        "c_remanei_PRJNA53967"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "queryAssembly": "c_remanei_PRJNA53967",
+        "targetAssembly": "c_elegans_PRJNA13758",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_elegans.c_remanei.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "N2_to_remanei-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "N2_to_remanei-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "N2_to_remanei-LinearSyntenyDisplay"
         }
       ]
     }
