@@ -13,8 +13,8 @@
       ],
       "adapter": {
         "type": "PAFAdapter",
-        "targetAssembly": "c_briggsae_PRJNA10731",
-        "queryAssembly": "c_elegans_PRJNA13758",
+        "targetAssembly": "c_elegans_PRJNA13758",
+        "queryAssembly": "c_briggsae_PRJNA10731",
         "pafLocation": {
           "locationType": "UriLocation",
           "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_elegans.c_briggsae.paf"
