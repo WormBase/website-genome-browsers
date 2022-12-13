@@ -1,0 +1,10 @@
+gff_version: 3
+file: /usr/local/ftp/pub/wormbase/releases/WS287/species/c_panamensis/PRJEB28259/c_panamensis.PRJEB28259.WS287.annotations.gff3.gz
+feature	children	source	method	track	count
+CDS:WormBase		WormBase	CDS	Genes (protein coding) (genes_protein_coding)	134714
+	CDS:WormBase_imported	WormBase_imported	CDS	Genes (protein coding) (genes_protein_coding)	0
+gene:WormBase		WormBase	gene	Genes (genes)	22312
+	mRNA:WormBase	WormBase	mRNA	Genes (genes)	23724
+	five_prime_UTR:WormBase	WormBase	five_prime_UTR	Genes (genes)	0
+	three_prime_UTR:WormBase	WormBase	three_prime_UTR	Genes (genes)	0
+low_complexity_region:dust		dust	low_complexity_region	Low complextity region (Dust) (repeats_dust)	127872
