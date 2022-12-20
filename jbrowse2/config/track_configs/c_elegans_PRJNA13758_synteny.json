@@ -146,7 +146,7 @@
       ],
       "type": "SyntenyTrack",
       "trackId": "N2_to_Hawaiian",
-      "name": "C. elegans N2 to C. elegans (Hawaiian)",
+      "name": "C. elegans N2 to C. elegans Hawaiian",
       "assemblyNames": [
         "c_elegans_PRJNA13758",
         "c_elegans_PRJNA275000"
