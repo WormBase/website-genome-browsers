@@ -139,6 +139,76 @@
           "displayId": "N2_to_remanei-LinearSyntenyDisplay"
         }
       ]
+    },
+    {
+      "category": [
+        "Synteny"
+      ],
+      "type": "SyntenyTrack",
+      "trackId": "N2_to_Hawaiian",
+      "name": "C. elegans N2 to C. elegans (Hawaiian)",
+      "assemblyNames": [
+        "c_elegans_PRJNA13758",
+        "c_elegans_PRJNA275000"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "queryAssembly": "c_elegans_PRJNA275000",
+        "targetAssembly": "c_elegans_PRJNA13758",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_elegans_PRJNA13758.c_elegans_PRJNA275000.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "N2_to_Hawaiian-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "N2_to_Hawaiian-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "N2_to_Hawaiian-LinearSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "category": [
+        "Synteny"
+      ],
+      "type": "SyntenyTrack",
+      "trackId": "N2_to_VC2010",
+      "name": "C. elegans N2 to C. elegans (VC2010)",
+      "assemblyNames": [
+        "c_elegans_PRJNA13758",
+        "c_elegans_PRJEB28388"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "queryAssembly": "c_elegans_PRJEB28388",
+        "targetAssembly": "c_elegans_PRJNA13758",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_elegans_PRJNA13758.c_elegans_PRJEB28388.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "N2_to_VC2010-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "N2_to_VC2010-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "N2_to_VC2010-LinearSyntenyDisplay"
+        }
+      ]
     }
   ]
 }
