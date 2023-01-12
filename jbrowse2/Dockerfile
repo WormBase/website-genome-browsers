@@ -2,9 +2,9 @@
 
 FROM gmod/jbrowse2-buildenv:1.1
 
-ARG RELEASE=286
+ARG RELEASE=287
 
-RUN git clone --single-branch --branch jb2-staging https://github.com/WormBase/website-genome-browsers.git
+RUN git clone --single-branch --branch jb2-287 https://github.com/WormBase/website-genome-browsers.git
 
 RUN mkdir -p /usr/share/nginx/html/tools/genome
 WORKDIR /usr/share/nginx/html/tools/genome/
