@@ -1,0 +1,202 @@
+{
+  "tracks": [
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "$ASSEMBLY_+1_strand",
+      "name": "+1 strand",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Smoothed PhyloCSF analysis of 26 worm species from their trackhub at https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt.  For more information about PhyloCSF, see the documentation at https://github.com/mlin/PhyloCSF/wiki",
+      "category": [
+        "Externally Sourced Resources",
+        "Broad Smoothed PhyloCSF"
+      ],
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF+1.bw"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "+1_strand-$ASSEMBLY-LinearWiggleDisplay",
+          "minScore": -10,
+          "maxScore": 10
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "$ASSEMBLY_+2_strand",
+      "name": "+2 strand",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Smoothed PhyloCSF analysis of 26 worm species from their trackhub at https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt.  For more information about PhyloCSF, see the documentation at https://github.com/mlin/PhyloCSF/wiki",
+      "category": [
+        "Externally Sourced Resources",
+        "Broad Smoothed PhyloCSF"
+      ],
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF+2.bw"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "+2_strand-$ASSEMBLY-LinearWiggleDisplay",
+          "minScore": -10,
+          "maxScore": 10
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "$ASSEMBLY_+3_strand",
+      "name": "+3 strand",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Smoothed PhyloCSF analysis of 26 worm species from their trackhub at https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt.  For more information about PhyloCSF, see the documentation at https://github.com/mlin/PhyloCSF/wiki",
+      "category": [
+        "Externally Sourced Resources",
+        "Broad Smoothed PhyloCSF"
+      ],
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF+3.bw"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "+3_strand-$ASSEMBLY-LinearWiggleDisplay",
+          "minScore": -10,
+          "maxScore": 10
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "$ASSEMBLY_-1_strand",
+      "name": "-1 strand",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Smoothed PhyloCSF analysis of 26 worm species from their trackhub at https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt.  For more information about PhyloCSF, see the documentation at https://github.com/mlin/PhyloCSF/wiki",
+      "category": [
+        "Externally Sourced Resources",
+        "Broad Smoothed PhyloCSF"
+      ],
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF-1.bw"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "-1_strand-$ASSEMBLY-LinearWiggleDisplay",
+          "minScore": -10,
+          "maxScore": 10
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "$ASSEMBLY_-2_strand",
+      "name": "-2 strand",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Smoothed PhyloCSF analysis of 26 worm species from their trackhub at https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt.  For more information about PhyloCSF, see the documentation at https://github.com/mlin/PhyloCSF/wiki",
+      "category": [
+        "Externally Sourced Resources",
+        "Broad Smoothed PhyloCSF"
+      ],
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF-2.bw"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "-2_strand-$ASSEMBLY-LinearWiggleDisplay",
+          "minScore": -10,
+          "maxScore": 10
+        }
+      ]
+    },
+    {
+      "type": "QuantitativeTrack",
+      "trackId": "$ASSEMBLY_-3_strand",
+      "name": "-3 strand",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Smoothed PhyloCSF analysis of 26 worm species from their trackhub at https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt.  For more information about PhyloCSF, see the documentation at https://github.com/mlin/PhyloCSF/wiki",
+      "category": [
+        "Externally Sourced Resources",
+        "Broad Smoothed PhyloCSF"
+      ],
+      "adapter": {
+        "type": "BigWigAdapter",
+        "bigWigLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF-3.bw"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearWiggleDisplay",
+          "displayId": "-3_strand-$ASSEMBLY-LinearWiggleDisplay",
+          "minScore": -10,
+          "maxScore": 10
+        }
+      ]
+    },
+    {
+      "type": "MultiQuantitativeTrack",
+      "trackId": "multiwiggle_phylo",
+      "name": "PhyloCSF (Broad)",
+      "assemblyNames": [
+        "c_elegans_PRJNA13758"
+      ],
+      "description": "Smoothed PhyloCSF analysis of 26 worm species from their trackhub at https://data.broadinstitute.org/compbio1/PhyloCSFtracks/trackHub/ce11/trackDb.txt.  For more information about PhyloCSF, see the documentation at https://github.com/mlin/PhyloCSF/wiki",
+      "category": [
+        "Externally Sourced Resources",
+        "Broad Smoothed PhyloCSF"
+      ],
+      "adapter": {
+        "type": "MultiWiggleAdapter",
+        "bigWigs": [
+          "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF+1.bw",
+          "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF+2.bw",
+          "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF+3.bw",
+         "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF-1.bw",
+         "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF-2.bw",
+         "https://data.broadinstitute.org/compbio1/PhyloCSFtracks/ce11/latest/PhyloCSF-3.bw",
+        ]
+      },
+      "displays": [
+        {
+          "type": "MultiLinearWiggleDisplay",
+          "displayId": "multiwiggle_phylo-MultiLinearWiggleDisplay"
+        }
+      ]
+    }
+  ]
+}

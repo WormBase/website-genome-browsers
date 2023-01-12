@@ -1,0 +1,73 @@
+{"tracks": [
+    {
+      "category": [
+        "Synteny"
+      ],
+      "type": "SyntenyTrack",
+      "trackId": "brenneri_to_japonica",
+      "name": "C. brenneri to C. japonica",
+      "assemblyNames": [
+        "c_brenneri_PRJNA20035",
+        "c_japonica_PRJNA12591"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "queryAssembly": "c_japonica_PRJNA12591",
+        "targetAssembly": "c_brenneri_PRJNA20035",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_brenneri.c_japonica.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "brenneri_to_japonica-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "brenneri_to_japonica-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "brenneri_to_japonica-LinearSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "category": [
+        "Synteny"
+      ],
+      "type": "SyntenyTrack",
+      "trackId": "brenneri_to_remanei",
+      "name": "C. brenneri to C. remanei",
+      "assemblyNames": [
+        "c_brenneri_PRJNA20035",
+        "c_remanei_PRJNA53967"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "queryAssembly": "c_remanei_PRJNA53967",
+        "targetAssembly": "c_brenneri_PRJNA20035",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_brenneri.c_remanei.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "brenneri_to_remanei-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "brenneri_to_remanei-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "brenneri_to_remanei-LinearSyntenyDisplay"
+        }
+      ]
+    }
+  ]
+}

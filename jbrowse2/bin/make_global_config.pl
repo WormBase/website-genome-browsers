@@ -113,9 +113,10 @@ $$json{'aggregateTextSearchAdapters'} = \@text_searches;
 
 #now the rest of the config that doesn't change
 
-$$json{'configuration'}{'rpc'}{'defaultDriver'} = "MainThreadRpcDriver";
-$$json{'configuration'}{'rpc'}{'drivers'}{'MainThreadRpcDriver'} = {};
-$$json{'configuration'}{'rpc'}{'drivers'}{'WebWorkerRpcDriver'}  = {};
+##switching to umd plugins means we don't need this anymore
+#$$json{'configuration'}{'rpc'}{'defaultDriver'} = "MainThreadRpcDriver";
+#$$json{'configuration'}{'rpc'}{'drivers'}{'MainThreadRpcDriver'} = {};
+#$$json{'configuration'}{'rpc'}{'drivers'}{'WebWorkerRpcDriver'}  = {};
 
 $$json{'configuration'}{'logoPath'}{'locationType'} = "UriLocation";
 $$json{'configuration'}{'logoPath'}{'uri'} = 'logo_wormbase_gradient-150px.png';
@@ -126,10 +127,13 @@ $$json{'configuration'}{'theme'}{'palette'}{'secondary'}{'main'} = '#29405F';
 $$json{'configuration'}{'theme'}{'palette'}{'tertiary'}{'main'}  = '#9da9b6';
 
 my $plugin;
-$$plugin{'esmUrl'} = "hex_plugin.js";
-my $plugin2;
-$$plugin2{'esmUrl'} = "variantColor_plugin.js";
-my @plugins = ($plugin, $plugin2);
+my $hex;
+$$hex{'name'}          = "HexJexlPlugin";
+$$hex{'umdLoc'}{'uri'} = "hex_plugin.js";
+my $vColor;
+$$vColor{'name'}       = "VariantColorPlugin";
+$$vColor{'umdLoc'}{'uri'} = "variantColor_plugin.js";
+my @plugins = ($hex, $vColor);
 $$json{'plugins'} = \@plugins;
 
 #that might be all that's needed

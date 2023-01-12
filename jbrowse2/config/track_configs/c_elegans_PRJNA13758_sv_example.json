@@ -1,0 +1,89 @@
+{
+  "tracks": [
+    {
+      "type": "AlignmentsTrack",
+      "trackId": "vc109_het_trim_bwamem_sort.bam-1671129939182",
+      "name": "VC109 Het bam",
+      "assemblyNames": [
+        "c_elegans_PRJNA13758"
+      ],
+      "adapter": {
+        "type": "BamAdapter",
+        "bamLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/test/maroilley/VC109_Het_trim_bwaMEM_sort.bam"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/test/maroilley/VC109_Het_trim_bwaMEM_sort.bam.bai"
+          }
+        },
+        "sequenceAdapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA13758.current.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA13758.current.genomic.fa.gz.fai"
+          },
+          "metadataLocation": {
+            "locationType": "UriLocation",
+            "uri": "/path/to/fa.metadata.yaml"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA13758.current.genomic.fa.gz.gzi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearAlignmentsDisplay",
+          "displayId": "vc109_het_trim_bwamem_sort.bam-1671129939182-LinearAlignmentsDisplay"
+        },
+        {
+          "type": "LinearPileupDisplay",
+          "displayId": "vc109_het_trim_bwamem_sort.bam-1671129939182-LinearPileupDisplay"
+        },
+        {
+          "type": "LinearSNPCoverageDisplay",
+          "displayId": "vc109_het_trim_bwamem_sort.bam-1671129939182-LinearSNPCoverageDisplay"
+        }
+      ]
+    },
+    {
+      "type": "VariantTrack",
+      "trackId": "candidatesv.vcf.gz-1671130032119",
+      "name": "Structural variant candidate",
+      "assemblyNames": [
+        "c_elegans_PRJNA13758"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/test/maroilley/candidateSV.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/test/maroilley/candidateSV.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "candidatesv.vcf.gz-1671130032119-LinearVariantDisplay"
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "candidatesv.vcf.gz-1671130032119-ChordVariantDisplay"
+        }
+      ]
+    }
+  ]
+}
