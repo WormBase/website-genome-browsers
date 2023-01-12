@@ -1,6 +1,6 @@
 # JBrowse 2
 
-FROM gmod/jbrowse2-buildenv:1.1
+FROM gmod/jbrowse2-buildenv:1.2
 
 ARG RELEASE=287
 
