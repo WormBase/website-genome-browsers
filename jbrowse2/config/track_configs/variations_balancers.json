@@ -11,9 +11,6 @@
         "$ASSEMBLY"
       ],
       "description": "This track shows the approximate location of balancers.",
-      "formatDetails": {
-         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/c_elegans_PRJNA13758' + '&name=' + feature.name + '\">'+feature.name+'</a>'}"
-      },
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
