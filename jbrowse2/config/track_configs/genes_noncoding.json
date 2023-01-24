@@ -13,7 +13,7 @@
       ],
       "description": "Non-coding curated gene models, including ncRNA, tRNA, miRNA, snRNA, snoRNA, piRNA, lincRNA and antisense RNA.",
       "formatDetails": {
-         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/c_elegans_PRJNA13758' + '&name=' + feature.name + '\">'+feature.name+'</a>'}"
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>'}"
       },
       "adapter": {
         "type": "NCListAdapter",
