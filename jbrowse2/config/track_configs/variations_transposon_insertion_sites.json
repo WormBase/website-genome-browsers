@@ -8,6 +8,9 @@
         "$ASSEMBLY"
       ],
       "description": "This track shows transposon insertion sites engineered by Laurent Segalat and others: 'Towards a genome-wide collection of transposon insertions', International C. elegans Meeting 1999 Yellow triangles are Mos-derived transposon insertions; red trangles are NemaGENETAG consortium insertion sites; blue triangles are Tc* derived transposon insertions.",
+      "formatDetails": {
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+      },
       "category": [
         "Alleles, Variations, RNAi"
       ],
