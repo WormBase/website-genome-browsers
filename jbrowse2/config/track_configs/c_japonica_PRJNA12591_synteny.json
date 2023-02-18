@@ -1,0 +1,38 @@
+{"tracks": [
+    {
+      "category": [
+        "Synteny"
+      ],
+      "type": "SyntenyTrack",
+      "trackId": "japonica_to_remanei",
+      "name": "C. japonica to C. remanei",
+      "assemblyNames": [
+        "c_japonica_PRJNA12591",
+        "c_remanei_PRJNA53967"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "queryAssembly": "c_remanei_PRJNA53967",
+        "targetAssembly": "c_japonica_PRJNA12591",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_japonica.c_remanei.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "japonica_to_remanei-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "japonica_to_remanei-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "japonica_to_remanei-LinearSyntenyDisplay"
+        }
+      ]
+    }
+  ]
+}

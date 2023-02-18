@@ -1,0 +1,38 @@
+{"tracks": [
+    {
+      "category": [
+        "Synteny"
+      ],
+      "type": "SyntenyTrack",
+      "trackId": "VC2010_to_Hawaiian",
+      "name": "C. elegans VC2010 to C. elegans Hawaiian",
+      "assemblyNames": [
+        "c_elegans_PRJEB28388",
+        "c_elegans_PRJNA275000"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "queryAssembly": "c_remanei_PRJNA53967",
+        "targetAssembly": "c_elegans_PRJNA275000",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_elegans_PRJEB28388.c_elegans_PRJNA275000.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "VC2010_to_Hawaiian-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "VC2010_to_Hawaiian-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "VC2010_to_Hawaiian-LinearSyntenyDisplay"
+        }
+      ]
+    }
+  ]
+}

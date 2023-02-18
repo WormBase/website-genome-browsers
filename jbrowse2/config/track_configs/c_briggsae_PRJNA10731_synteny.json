@@ -1,0 +1,108 @@
+{"tracks":[    
+    {
+      "category": [
+        "Synteny"
+      ],
+      "type": "SyntenyTrack",
+      "trackId": "briggsae_to_brenneri",
+      "name": "C. briggsae to C. brenneri",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731",
+        "c_brenneri_PRJNA20035"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "queryAssembly": "c_brenneri_PRJNA20035",
+        "targetAssembly": "c_briggsae_PRJNA10731",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_briggsae.c_brenneri.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "briggsae_to_brenneri-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "briggsae_to_brenneri-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "briggsae_to_brenneri-LinearSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "category": [
+        "Synteny"
+      ],
+      "type": "SyntenyTrack",
+      "trackId": "briggsae_to_japonica",
+      "name": "C. briggsae to C. japonica",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731",
+        "c_japonica_PRJNA12591"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "queryAssembly": "c_japonica_PRJNA12591",
+        "targetAssembly": "c_briggsae_PRJNA10731",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_briggsae.c_japonica.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "briggsae_to_japonica-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "briggsae_to_japonica-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "briggsae_to_japonica-LinearSyntenyDisplay"
+        }
+      ]
+    },
+    {
+      "category": [
+        "Synteny"
+      ],
+      "type": "SyntenyTrack",
+      "trackId": "briggsae_to_remanei",
+      "name": "C. briggsae to C. remanei",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731",
+        "c_remanei_PRJNA53967"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "queryAssembly": "c_remanei_PRJNA53967",
+        "targetAssembly": "c_briggsae_PRJNA10731",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_briggsae.c_remanei.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "briggsae_to_remanei-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "briggsae_to_remanei-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "briggsae_to_remanei-LinearSyntenyDisplay"
+        }
+      ]
+    }
+  ]
+}
