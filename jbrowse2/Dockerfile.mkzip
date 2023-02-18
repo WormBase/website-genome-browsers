@@ -1,6 +1,8 @@
 # JBrowse 2
 
-FROM gmod/jbrowse2-buildenv:1.3
+#even number minor versions (1.0, 1.2, etc) are for AMD/Intel and odd
+#numbers are for ARM (eg, Mac M1)
+FROM gmod/jbrowse2-buildenv:1.2
 
 ARG RELEASE=287
 ARG AWS_ACCESS_KEY_ID
