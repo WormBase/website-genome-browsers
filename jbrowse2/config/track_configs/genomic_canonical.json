@@ -8,6 +8,9 @@
         "$ASSEMBLY"
       ],
       "description": "This track shows the location and coordinates of contigs (mostly cosmids) submitted to GenBank/EMBL.",
+      "formatDetails": {
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+      },
       "category": [
         "Genome Structure",
         "Assembly & Curation"
