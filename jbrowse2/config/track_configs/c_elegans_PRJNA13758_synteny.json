@@ -209,6 +209,41 @@
           "displayId": "N2_to_VC2010-LinearSyntenyDisplay"
         }
       ]
+    },
+    {
+      "category": [
+        "Synteny"
+      ],
+      "type": "SyntenyTrack",
+      "trackId": "N2_to_inopinata",
+      "name": "C. elegans N2 to C. inopinata",
+      "assemblyNames": [
+        "c_elegans_PRJNA13758",
+        "c_inopinata_PRJDB5687"
+      ],
+      "adapter": {
+        "type": "PAFAdapter",
+        "queryAssembly": "c_inopinata_PRJDB5687",
+        "targetAssembly": "c_elegans_PRJNA13758",
+        "pafLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_elegans.c_inopinata.paf"
+        }
+      },
+      "displays": [
+        {
+          "type": "DotplotDisplay",
+          "displayId": "N2_to_inopinata-DotplotDisplay"
+        },
+        {
+          "type": "LinearComparativeDisplay",
+          "displayId": "N2_to_inopinata-LinearComparativeDisplay"
+        },
+        {
+          "type": "LinearSyntenyDisplay",
+          "displayId": "N2_to_inopinata-LinearSyntenyDisplay"
+        }
+      ]
     }
   ]
 }
