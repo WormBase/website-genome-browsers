@@ -1,0 +1,34 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "s_ratti_PRJEB125_community_annotation",
+      "name": "Community Annotation",
+      "assemblyNames": [
+        "s_ratti_PRJEB125"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://raw.githubusercontent.com/HallemLab/Parasite_Genome_Annotations/main/GFF3s/strongyloides_ratti.PRJEB125.WS287.community.annotations.edit_log.gff3"
+        }
+      },
+      "displays": [
+        {
+          "renderer" : {
+              "type" : "SvgFeatureRenderer",
+              "color1" : "jexl:get(feature,'strand')>0?'darkviolet':'darkturquoise'",
+              "color3" : "#965567"
+          },
+          "type": "LinearBasicDisplay",
+          "displayId": "s_ratti_PRJEB125_community_annotation-LinearBasicDisplay"
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "s_ratti_PRJEB125_community_annotation-LinearArcDisplay"
+        }
+      ]
+    }
+  ]
+}
