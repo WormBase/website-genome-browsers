@@ -13,7 +13,8 @@ RUN git clone --single-branch --branch jb2-288 https://github.com/WormBase/websi
 
 RUN mkdir -p /usr/share/nginx/html/tools/genome
 WORKDIR /usr/share/nginx/html/tools/genome/
-RUN jbrowse create jbrowse2
+RUN jbrowse create --branch save_track_data jbrowse2
+#RUN jbrowse create jbrowse2
 #RUN sleep 10
 #RUN ls /usr/share/nginx/html/tools/genome/jbrowse2/
 
