@@ -9,7 +9,7 @@
 
 FROM gmod/jbrowse-buildenv:latest as build
 
-ARG RELEASE=287
+ARG RELEASE=288
 
 # JBrowse source
 #RUN git clone --single-branch --branch 1.16.8-release https://github.com/GMOD/jbrowse.git
