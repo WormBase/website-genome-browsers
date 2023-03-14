@@ -29,7 +29,8 @@ RUN rm /usr/share/nginx/html/index.html && \
             /usr/share/nginx/html/tools/genome/jbrowse2/hex_plugin.js && \
     cp /website-genome-browsers/jbrowse2/logo_wormbase_gradient-150px.png \
             /usr/share/nginx/html/tools/genome/jbrowse2/logo_wormbase_gradient-150px.png && \
-    cp /website-genome-browsers/jbrowse2/docker-entrypoint.sh /
+    cp /website-genome-browsers/jbrowse2/docker-entrypoint.sh / &&
+    cp /website-genome-browsers/jbrowse2/insert-ga.sh /
 
 #WORKDIR /usr/share/nginx/html/tools/genome
 
@@ -53,6 +54,9 @@ RUN mkdir -p /usr/share/nginx/html/tools/genome/jbrowse2/embed/
 RUN cp *embed.json /usr/share/nginx/html/tools/genome/jbrowse2/embed/
 
 WORKDIR /usr/share/nginx/html/tools/genome/jbrowse2
+
+#insert google analytics to index.html
+RUN /insert-ga.sh
 
 RUN zip -r jbrowse2-release$RELEASE.zip . -x test_data/\*
 
