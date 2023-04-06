@@ -1,0 +1,35 @@
+{
+   "tracks" : [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_bac_end_reads",
+      "name": "BAC end reads",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "BAC end-reads aligned to Assembly CB25 ultracontigs using BLAT. Best matches indicated in white, those with reduced but still significant nucleotide identity in gray.",
+      "category": [
+        "Assembly"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/BAC end reads/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "bac_end_reads-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "white",
+            "outline": "black",
+            "height": 6
+          }
+        }
+      ]
+    }
+   ]
+}
