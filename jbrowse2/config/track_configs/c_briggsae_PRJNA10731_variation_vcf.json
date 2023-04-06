@@ -1,0 +1,44 @@
+{
+   "tracks" : {
+    {
+      "type": "VariantTrack",
+      "trackId": "c_briggsae_PRJNA10731_variation",
+      "name": "C. briggsae variation",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "This track shows C. briggsae SNPs from the Cutter Lab (University of Toronto). Here they performed high-coverage whole-genome sequencing of 37 wild isolates of the nematode C. briggsae; SNP calling was done by GATK UnifiedGenotyper. After filtering a total of 2,700,664 sites across all strains were identified, of which 439,139 SNPs had high-quality allele calls in every strain. (WBPaper00046558) Thomas CG et al. (2015) Genome Res 'Full-genome evolutionary histories of selfing, splitting, and selection in Caenorhabditis.'",
+      "category": [
+        "Externally Sourced Resources",
+        "Other"
+      ],
+      "adapter": {
+        "type": "VcfTabixAdapter",
+        "vcfGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_briggsae_PRJNA10731/c.briggsae_snps.vcf.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_briggsae_PRJNA10731/c.briggsae_snps.vcf.gz.tbi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearVariantDisplay",
+          "displayId": "c_briggsae_PRJNA10731_variation-LinearVariantDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green"
+          }
+        },
+        {
+          "type": "ChordVariantDisplay",
+          "displayId": "c_briggsae_PRJNA10731_variation-ChordVariantDisplay"
+        }
+      ]
+    }
+   }
+}
