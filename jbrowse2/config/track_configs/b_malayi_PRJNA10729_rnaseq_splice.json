@@ -1,0 +1,102 @@
+{
+  "tracks": [
+    {
+      "category": [
+        "Expression"
+      ],
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_rnaseq_introns",
+      "name": "RNASeq introns",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. The number of reads spanning the introns is indicated by the thickness of the display.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/RNASeq introns/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq_introns-$ASSEMBLY-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'score')+' reads'",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green",
+            "height": "jexl:get(feature,'score')>100?50:get(feature,'score')<8?4:floor(get(feature,'score')/2)",
+            "showLabels": false,
+            "showDescriptions": false
+          }
+        }
+      ]
+    },
+    {
+      "category": [
+        "Expression"
+      ],
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_rnaseq_splice_junctions_(common)",
+      "name": "RNASeq Splice Junctions (common)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'common' in that there are more than 500 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads.",
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/RNASeq Splice Junctions (common)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq_splice_junctions_(common)-$ASSEMBLY-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'score')+' reads'",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "showDescriptions" : false,
+            "color1": "jexl:get(feature,'score')>1000?(get(feature,'strand')>0?'#730073':'#007373'):get(feature,'strand')>0?'#'+hex(round(255-(140*(get(feature,'score')/1000))))+'00'+hex(round(255-(140*(get(feature,'score')/1000)))):'#00'+hex(round(255-(140*(get(feature,'score')/1000))))+hex(round(255-(140*(get(feature,'score')/1000))))",
+            "showLabels": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_rnaseq_splice_junctions_(rare)",
+      "name": "RNASeq Splice Junctions (rare)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "These are introns formed by aligned RNASeq reads spanning a region of the genome. Alignments of short read sequences from all available RNASeq projects were used. These junctions are considered 'rare' in that there are fewer than 500 reads confirming their existence. The number of reads spanning the introns is indicated by the darkness of the color (shades of cyan for reverse, shades of violet for forward).  Darker is more reads.",
+      "category": [
+        "Expression"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/RNASeq Splice Junctions (rare)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "rnaseq_splice_junctions_(rare)-$ASSEMBLY-LinearBasicDisplay",
+          "mouseover": "jexl:get(feature,'score')+' reads'",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'score')>1000?(get(feature,'strand')>0?'#730073':'#007373'):get(feature,'strand')>0?'#'+hex(round(255-(140*(get(feature,'score')/1000))))+'00'+hex(round(255-(140*(get(feature,'score')/1000)))):'#00'+hex(round(255-(140*(get(feature,'score')/1000))))+hex(round(255-(140*(get(feature,'score')/1000))))",
+            "height": "jexl:4",
+            "showDescriptions" : false,
+            "showLabels": false
+          }
+        }
+      ]
+    }
+  ]
+}
