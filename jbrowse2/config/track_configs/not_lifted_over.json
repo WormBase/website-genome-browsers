@@ -1,0 +1,25 @@
+{
+  "tracks" : [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_regions_not_lifted_over_from_n2",
+      "name": "Regions not lifted over from N2",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Regions not lifted over from N2/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "$ASSEMBLY_regions_not_lifted_over_from_n2-LinearBasicDisplay"
+        }
+      ]
+    }
+  ]
+}
