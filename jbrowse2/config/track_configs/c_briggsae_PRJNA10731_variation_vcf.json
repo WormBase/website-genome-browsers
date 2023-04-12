@@ -1,5 +1,5 @@
 {
-   "tracks" : {
+   "tracks" : [
     {
       "type": "VariantTrack",
       "trackId": "c_briggsae_PRJNA10731_variation",
@@ -40,5 +40,5 @@
         }
       ]
     }
-   }
+   ]
 }
