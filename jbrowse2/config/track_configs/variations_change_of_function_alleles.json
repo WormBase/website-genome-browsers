@@ -9,7 +9,7 @@
       "name": "Change-of-function alleles",
       "description" : "This track shows alleles that generate a putative change-of-function. In this track, the type of mutation is indicated by its glyph: Boxes are deletions or substitutions. Triangles are insertions. Point mutations are diamonds. Color signifies the severity of impact predicted by Ensembl's Variant Effect Predictor. 'HIGH' impacts are red, 'MEDIUM' are yellow, 'LOW' are cyan (light blue), and 'MODIFIER' are purple. This is the same color scheme as is used at the Alliance of Genome Resources.",
       "formatDetails": {
-         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>'}"
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>', WormBase: <a href=\"/get?name='+feature.name+';class=variation\">Variation Page</a>':''}"
       },
       "assemblyNames": [
         "$ASSEMBLY"

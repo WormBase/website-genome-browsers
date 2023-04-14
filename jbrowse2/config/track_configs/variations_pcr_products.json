@@ -9,7 +9,7 @@
       ],
       "description": "This track indicates the location of primer pairs that were generated to confirm the existence of indels but the exact size and context of the alteration was not determined. The span feature identifies the broad region where the variation exists. Click on the element to obtain additional information.",
       "formatDetails": {
-         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>'}"
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>', WormBase: <a href=\"/get?name='+feature.name+';class=variation\">Variation Page</a>':''}"
       },
       "category": [
         "Alleles, Variations, RNAi"
