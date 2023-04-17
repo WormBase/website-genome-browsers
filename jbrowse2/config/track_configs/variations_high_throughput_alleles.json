@@ -12,7 +12,7 @@
       ],
       "description": "These are alleles generated through high-throughput, genome-wide projects. Million Mutation Project alleles are placed in a separate track. Color signifies the severity of impact predicted by Ensembl's Variant Effect Predictor. 'HIGH' impacts are red, 'MEDIUM' are yellow, 'LOW' are cyan (light blue), and 'MODIFIER' are purple. This is the same color scheme as is used at the Alliance of Genome Resources.",
       "formatDetails": {
-         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>', WormBase: <a href=\"/get?name='+feature.name+';class=variation\">Variation Page</a>':''}"
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>', WormBase: '<a href=\"/get?name='+feature.variation+';class=variation\">Variation Page</a>'}"
       },
       "adapter": {
         "type": "NCListAdapter",
