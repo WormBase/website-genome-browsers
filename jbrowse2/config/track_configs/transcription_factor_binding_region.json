@@ -30,6 +30,7 @@
             "type": "SvgFeatureRenderer",
             "showLabels": false,
             "showDescriptions" : false,
+            "maxHeight" : 5000,
             "color1": "green",
             "height": 5,
             "labels": {
