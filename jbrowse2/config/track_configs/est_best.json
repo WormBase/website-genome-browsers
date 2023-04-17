@@ -28,6 +28,7 @@
           "displayId": "ests-$ASSEMBLY-LinearBasicDisplay",
           "renderer": {
             "type": "SvgFeatureRenderer",
+            "maxHeight" : 5000,
             "color1": "jexl:parent(feature)=='undefined'?'red':get(parent(feature),'has_mate')==1?'limegreen':get(parent(feature),'has_mate')==2?'green':get(parent(feature),'has_mate')==0?'gold':'black'"
           }
         }

@@ -28,6 +28,7 @@
           "displayId": "binding_sites_(predicted)-$ASSEMBLY-LinearBasicDisplay",
           "renderer": {
             "type": "SvgFeatureRenderer",
+            "maxHeight" : 5000,
             "color1": "jexl:get(feature,'source')=='PicTar'?'blue':get(feature,'source')=='miRanda'?'red':'green'"
           }
         }

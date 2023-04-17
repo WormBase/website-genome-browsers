@@ -25,6 +25,7 @@
           "displayId": "nanopore_matches-$ASSEMBLY-LinearBasicDisplay",
           "renderer": {
             "type": "SvgFeatureRenderer",
+            "maxHeight" : 5000,
             "color1": "jexl:get(feature,'source')=='BLAT_Caen_mRNA'?'lightblue':'green'",
             "height": 4,
             "showLabels": false
