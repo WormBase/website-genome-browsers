@@ -1,0 +1,35 @@
+{
+   "tracks" : [
+          {
+      "type": "FeatureTrack",
+      "trackId": "c_briggsae_PRJNA10731_pirna_genes",
+      "name": "piRNA Genes",
+      "assemblyNames": [
+        "c_briggsae_PRJNA10731"
+      ],
+      "description": "piRNA genes identified in https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9683057/. Sequencing data (from biological replicates) are available at GEO under the accession number GSE203297. The normalized abundance score ranges from 0.059 to 2865.",
+      "category": [
+        "Externally Sourced Resources",
+        "Other"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/c_briggsae_PRJNA10731/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "c_briggsae_PRJNA10731_pirna_genes-LinearBasicDisplay",
+          "mouseover": "jexl:'Normalized abundance: '+get(feature,'score')",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'score')>10?'darkgrey':'lightgrey'"
+          }
+        }
+      ]
+    }
+   ]
+}

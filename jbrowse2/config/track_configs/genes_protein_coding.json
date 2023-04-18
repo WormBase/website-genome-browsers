@@ -28,6 +28,7 @@
           "displayId": "curated_genes_(protein_coding)-$ASSEMBLY-LinearBasicDisplay",
           "renderer": {
             "type": "SvgFeatureRenderer",
+            "maxHeight" : 5000,
             "color1": "jexl:get(feature,'strand')>0?'violet':'turquoise'",
             "color3": "#965567"
           }

@@ -28,6 +28,9 @@
           "displayId": "transcription_factor_binding_regions-$ASSEMBLY-LinearBasicDisplay",
           "renderer": {
             "type": "SvgFeatureRenderer",
+            "showLabels": false,
+            "showDescriptions" : false,
+            "maxHeight" : 5000,
             "color1": "green",
             "height": 5,
             "labels": {

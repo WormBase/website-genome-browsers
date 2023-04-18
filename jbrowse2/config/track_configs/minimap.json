@@ -1,0 +1,34 @@
+{
+  "tracks" : [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_n2_genes_(minimap)",
+      "name": "N2 Genes (minimap)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Regions present in the VC2010 assembly that are not in the N2 assembly.",
+      "category": [
+        "Genes",
+        "Supporting Evidence"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/N2 Genes (minimap)/{refseq}/trackData.jsonz"
+        }
+    },
+    "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "$ASSEMBLY_n2_genes_(minimap)-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "height": 5
+          }
+        }
+      ]
+    }
+  ]
+}
