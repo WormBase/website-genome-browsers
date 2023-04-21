@@ -9,7 +9,7 @@
 
 FROM gmod/jbrowse-buildenv:latest as build
 
-ARG RELEASE=287
+ARG RELEASE=288
 
 # JBrowse source
 RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
@@ -25,7 +25,7 @@ RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
 
 
 #RUN git clone --single-branch --branch jbrowse-${RELEASE} https://github.com/WormBase/website-genome-browsers.git
-RUN git clone --single-branch --branch jbrowse-287 https://github.com/WormBase/website-genome-browsers.git
+RUN git clone --single-branch --branch jbrowse-288 https://github.com/WormBase/website-genome-browsers.git
 
 # Provides the PWM motif search plugin
 RUN git clone --single-branch --branch 1.0 https://github.com/scottcain/MotifSearch.git
@@ -67,7 +67,8 @@ RUN rm /usr/share/nginx/html/index.html && rm /usr/share/nginx/html/50x.html && 
     cp -r /jbrowse/.htaccess /usr/share/nginx/html/tools/genome/jbrowse/.htaccess && \
     ln -s /usr/share/nginx/html/tools/genome/jbrowse/index.html /usr/share/nginx/html/tools/genome/jbrowse/full.html && \
     cp /website-genome-browsers/jbrowse/jbrowse/jbrowse-simple.conf /usr/share/nginx/html/tools/genome/jbrowse-simple/jbrowse.conf && \
-    cp /website-genome-browsers/jbrowse/jbrowse/jbrowse.conf /usr/share/nginx/html/tools/genome/jbrowse/jbrowse.conf
+    cp /website-genome-browsers/jbrowse/jbrowse/jbrowse.conf /usr/share/nginx/html/tools/genome/jbrowse/jbrowse.conf && \
+    cp /website-genome-browsers/jbrowse/insert-ga.sh /
     
 WORKDIR /usr/share/nginx/html/tools/genome/jbrowse
 
@@ -81,6 +82,7 @@ RUN ./fetch_trackList.sh -r WS${RELEASE}
 
 RUN ./setup.sh -f
 
+RUN /insert-ga.sh
 
 FROM nginx:latest as production
 COPY --from=build /usr/share/nginx/html/tools/genome/jbrowse/dist /usr/share/nginx/html/tools/genome/jbrowse/dist

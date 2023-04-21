@@ -1,0 +1,12 @@
+{
+   "tracks" : [
+      {
+          "storeClass": "JBrowse/Store/SeqFeature/GFF3",
+          "urlTemplate" : "https://raw.githubusercontent.com/HallemLab/Parasite_Genome_Annotations/main/GFF3s/strongyloides_ratti.PRJEB125.WS287.community.annotations.edit_log.gff3",
+          "label": "Community annotation",
+          "key": "Community annotation",
+          "type": "JBrowse/View/Track/CanvasFeatures",
+          "category" : "Externally Sourced Resources/Other"
+      }
+   ]
+}
