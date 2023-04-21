@@ -1,0 +1,37 @@
+{
+  "tracks" : [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASEMBLY_insdc_nematode_cdnas",
+      "name": "INSDC nematode cDNAs",
+      "assemblyNames": [
+        "$ASEMBLY"
+      ],
+      "description": "cDNAs from this species from INSDC that have been aligned to the genome using STAR.",
+      "category": [
+        "Sequence Similarity",
+        "Nucleotide"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASEMBLY/tracks/INSDC nematode cDNAs/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "$ASEMBLY_insdc_nematode_cdnas-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "grey",
+            "height": 4,
+            "showLabels": false,
+            "showDescriptions": false
+          }
+        }
+      ]
+    }
+  ]
+}

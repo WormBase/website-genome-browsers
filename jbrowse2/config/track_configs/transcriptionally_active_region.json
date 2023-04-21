@@ -8,6 +8,9 @@
         "$ASSEMBLY"
       ],
       "description": "Transcriptionally Active Regions (TARs) found by the Miller lab from tiling-array projects run as part of the modENCODE project.",
+      "formatDetails": {
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+      },
       "category": [
         "Genes",
         "Supporting Evidence"

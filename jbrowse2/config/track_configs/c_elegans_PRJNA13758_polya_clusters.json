@@ -8,6 +8,9 @@
         "$ASSEMBLY"
       ],
       "description": "https://polyasite.unibas.ch/atlas - Clusters of polyA sites using a bespoke clustering procedure which groups together closely-spaced poly(A) sites, that most likely are due to imprecision in cleavage or processing. Construction of the clusters was broadened to include sites with lower read support that were located from -12 to +12 nucleotides around sites with strong support. In another pass, sites that were located within 25 nucleotides of each other were clustered together, and finally, for clusters with no annotated poly(A) signals a more permissive distance of 50 nucleotides was used in clustering.",
+      "formatDetails": {
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+      },
       "category": [
         "Externally Sourced Resources",
         "Atlas"
@@ -38,6 +41,9 @@
         "$ASSEMBLY"
       ],
       "description": "https://polyasite.unibas.ch/atlas - Clusters of polyA sites using a bespoke clustering procedure which groups together closely-spaced poly(A) sites, that most likely are due to imprecision in cleavage or processing. Construction of the clusters was broadened to include sites with lower read support that were located from -12 to +12 nucleotides around sites with strong support. In another pass, sites that were located within 25 nucleotides of each other were clustered together, and finally, for clusters with no annotated poly(A) signals a more permissive distance of 50 nucleotides was used in clustering.",
+      "formatDetails": {
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+      },
       "category": [
         "Externally Sourced Resources",
         "Atlas"

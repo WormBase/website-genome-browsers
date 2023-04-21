@@ -8,6 +8,9 @@
         "$ASSEMBLY"
       ],
       "description": "Predicted  lincRNAs.  See WBPaper0005624 for more information.",
+      "formatDetails": {
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+      },
       "category": [
         "Genes",
         "Ab-initio predictions"

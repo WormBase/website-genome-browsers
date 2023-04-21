@@ -11,6 +11,9 @@
         "$ASSEMBLY"
       ],
       "description": "This track shows single nucleotide polymorphisms (SNPs) that may generate a change of function. In this track, the molecular nature of the polymorphism is indicated by its glyph: Boxes are deletions or substitutions; triangles are insertions; point mutations are diamonds. Color signifies the severity of impact predicted by Ensembl's Variant Effect Predictor. 'HIGH' impacts are red, 'MEDIUM' are yellow, 'LOW' are cyan (light blue), and 'MODIFIER' are purple. This is the same color scheme as is used at the Alliance of Genome Resources.",
+      "formatDetails": {
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>', WormBase: '<a href=\"/get?name='+feature.variation+';class=variation\">Variation Page</a>'}"
+      },
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
@@ -25,6 +28,7 @@
           "mouseover": "jexl:get(feature,'name')+', '+get(feature,'consequence')",
           "renderer": {
             "type": "SvgFeatureRenderer",
+            "maxHeight" : 5000,
             "color1": "jexl:get(feature,'vep_impact')=='HIGH'?'red':get(feature,'vep_impact')=='MODIFIER'?'purple':get(feature,'vep_impact')=='MODERATE'?'gold':get(feature,'vep_impact')=='LOW'?'cyan':'white'",
             "outline": "jexl:get(feature,'vep_impact')=='HIGH'?'red':get(feature,'vep_impact')=='MODIFIER'?'purple':get(feature,'vep_impact')=='MODERATE'?'gold':get(feature,'vep_impact')=='LOW'?'cyan':'black'"
           }

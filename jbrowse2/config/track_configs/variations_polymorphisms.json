@@ -11,6 +11,9 @@
         "$ASSEMBLY"
       ],
       "description": "This track shows single nucleotide polymorphisms (SNPs). In this track, the molecular nature of the polymorphism is indicated by its glyph: Boxes are deletions; triangles are insertions; point mutations and substitutions are diamonds. Color reflects the source strain: polymorphisms found in CB4858 (Pasadena) are shown in blue; those found in CB4856 (Hawaii) in yellow, and all others in white.",
+      "formatDetails": {
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>', WormBase: '<a href=\"/get?name='+feature.variation+';class=variation\">Variation Page</a>'}"
+      },
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {
@@ -25,6 +28,7 @@
           "mouseover": "jexl:get(feature,'type')+': '+get(feature,'strain')",
           "renderer": {
             "type": "SvgFeatureRenderer",
+            "maxHeight" : 5000,
             "color1": "jexl:get(feature,'strain')=='CB4858'||get(feature,'strain')=='AF16'?'blue':get(feature,'strain')=='CB4856'||get(feature,'strain')=='HK104'?'yellow':'white'",
             "outline": "jexl:get(feature,'strain')=='CB4858'||get(feature,'strain')=='AF16'?'blue':get(feature,'strain')=='CB4856'||get(feature,'strain')=='HK104'?'yellow':'black'"
           }

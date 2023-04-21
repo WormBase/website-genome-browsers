@@ -12,6 +12,9 @@
         "$ASSEMBLY"
       ],
       "description": "Regions within which there is experimental evidence for a promoter.",
+      "formatDetails": {
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+      },
       "adapter": {
         "type": "NCListAdapter",
         "rootUrlTemplate": {

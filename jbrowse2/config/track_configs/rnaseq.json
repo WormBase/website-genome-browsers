@@ -28,6 +28,7 @@
             "color1": "black",
             "height": "jexl:get(feature,'score')>100?50:floor(get(feature,'score')/2)>4?floor(get(feature,'score')/2):4",
             "showLabels": false,
+            "showDescriptions" : false,
             "displayMode": "collapse"
           }
         }

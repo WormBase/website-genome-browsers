@@ -8,6 +8,9 @@
         "$ASSEMBLY"
       ],
       "description": "Historical gene predictions.",
+      "formatDetails": {
+         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.name+'</a>'}"
+      },
       "category": [
         "Genes",
         "Curated Genes"

@@ -2,17 +2,19 @@
 
 #even number minor versions (1.0, 1.2, etc) are for AMD/Intel and odd
 #numbers are for ARM (eg, Mac M1)
+
 FROM gmod/jbrowse2-buildenv:1.2
 
-ARG RELEASE=287
+ARG RELEASE=288
 ARG AWS_ACCESS_KEY_ID
 ARG AWS_SECRET_ACCESS_KEY
 
-RUN git clone --single-branch --branch jb2-287 https://github.com/WormBase/website-genome-browsers.git
+RUN git clone --single-branch --branch jb2-288 https://github.com/WormBase/website-genome-browsers.git
 
 RUN mkdir -p /usr/share/nginx/html/tools/genome
 WORKDIR /usr/share/nginx/html/tools/genome/
-RUN jbrowse create jbrowse2
+RUN jbrowse create --branch save_track_data jbrowse2
+#RUN jbrowse create jbrowse2
 #RUN sleep 10
 #RUN ls /usr/share/nginx/html/tools/genome/jbrowse2/
 
@@ -27,7 +29,8 @@ RUN rm /usr/share/nginx/html/index.html && \
             /usr/share/nginx/html/tools/genome/jbrowse2/hex_plugin.js && \
     cp /website-genome-browsers/jbrowse2/logo_wormbase_gradient-150px.png \
             /usr/share/nginx/html/tools/genome/jbrowse2/logo_wormbase_gradient-150px.png && \
-    cp /website-genome-browsers/jbrowse2/docker-entrypoint.sh /
+    cp /website-genome-browsers/jbrowse2/docker-entrypoint.sh / &&
+    cp /website-genome-browsers/jbrowse2/insert-ga.sh /
 
 #WORKDIR /usr/share/nginx/html/tools/genome
 
@@ -51,6 +54,9 @@ RUN mkdir -p /usr/share/nginx/html/tools/genome/jbrowse2/embed/
 RUN cp *embed.json /usr/share/nginx/html/tools/genome/jbrowse2/embed/
 
 WORKDIR /usr/share/nginx/html/tools/genome/jbrowse2
+
+#insert google analytics to index.html
+RUN /insert-ga.sh
 
 RUN zip -r jbrowse2-release$RELEASE.zip . -x test_data/\*
 
