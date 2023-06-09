@@ -5,11 +5,11 @@
 
 FROM gmod/jbrowse2-buildenv:1.2
 
-ARG RELEASE=288
+ARG RELEASE=289
 ARG AWS_ACCESS_KEY_ID
 ARG AWS_SECRET_ACCESS_KEY
 
-RUN git clone --single-branch --branch jb2-staging https://github.com/WormBase/website-genome-browsers.git
+RUN git clone --single-branch --branch jb2-289 https://github.com/WormBase/website-genome-browsers.git
 
 RUN mkdir -p /usr/share/nginx/html/tools/genome
 WORKDIR /usr/share/nginx/html/tools/genome/
