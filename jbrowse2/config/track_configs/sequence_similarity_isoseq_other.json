@@ -1,0 +1,35 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "non-c._elegans_isoseq_collection_(best)-$ASSEMBLY",
+      "name": "Non-C. elegans Isoseq collection (best)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "IsoSeq from other WormBase core species aligned to the genome using UCSC's BLAT. This track shows the best location for each IsoSeqsequence.",
+      "category": [
+        "Sequence Similarity",
+        "Nucleotide"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/Non-C. elegans Isoseq collection (best)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "non-c._elegans_isoseq_collection_(best)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "green",
+            "height": 4
+          }
+        }
+      ]
+    }
+  ]
+}
