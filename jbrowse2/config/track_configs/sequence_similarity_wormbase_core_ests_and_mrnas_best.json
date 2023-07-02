@@ -1,0 +1,38 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "wormbase_nematode_mrnas/ests_(best)-$ASSEMBLY",
+      "name": "WormBase nematode mRNAs/ESTs (best)",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "ESTs and mRNAs from other WormBase core species aligned to the genome using UCSC's BLAT. This track shows the best location for each cDNA sequence. mRNAs are shown in light blue; ESTs in green.",
+      "category": [
+        "Sequence Similarity",
+        "Nucleotide"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/WS$RELEASE/$ASSEMBLY/tracks/WormBase nematode mRNAs_ESTs (best)/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "wormbase_nematode_mrnas/ests_(best)-$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'source')=='BLAT_Caen_mRNA_BEST'?'lightblue':get(feature,'source')=='BLAT_Caen_EST_BEST'?'green':'black'",
+            "height": 4,
+            "labels": {
+              "name": "jexl:get(feature,'species') || get(feature,'id')"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
