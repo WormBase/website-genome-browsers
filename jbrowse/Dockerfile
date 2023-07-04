@@ -25,7 +25,7 @@ RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
 
 
 #RUN git clone --single-branch --branch jbrowse-${RELEASE} https://github.com/WormBase/website-genome-browsers.git
-RUN git clone --single-branch --branch jbrowse-289 https://github.com/WormBase/website-genome-browsers.git
+RUN git clone --single-branch --branch jbrowse-staging  https://github.com/WormBase/website-genome-browsers.git
 
 # Provides the PWM motif search plugin
 RUN git clone --single-branch --branch 1.0 https://github.com/scottcain/MotifSearch.git
