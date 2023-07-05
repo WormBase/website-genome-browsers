@@ -5,7 +5,7 @@
 
     install(pluginManager) {
       pluginManager.jexl.addFunction('variantColor', f => {
-            if (f['variant']['INFO']['ANN']) {
+            if ('variant' in f && 'INFO' in f['variant'] && 'ANN' in f['variant']['INFO']) {
                 var ann = f['variant']['INFO']['ANN'][0].split('|')
                 var cons = ann[1]
                 if (cons.indexOf('&') > -1) {
