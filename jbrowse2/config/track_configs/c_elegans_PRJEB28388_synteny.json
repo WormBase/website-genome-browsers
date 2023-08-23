@@ -12,7 +12,7 @@
       ],
       "adapter": {
         "type": "PAFAdapter",
-        "queryAssembly": "c_remanei_PRJNA53967",
+        "queryAssembly": "c_elegans_PRJEB28388",
         "targetAssembly": "c_elegans_PRJNA275000",
         "pafLocation": {
           "locationType": "UriLocation",
