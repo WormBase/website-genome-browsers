@@ -1,0 +1,37 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "c_elegans_PRJNA13758-crispr_cas9_sgrna_predictions",
+      "name": "CRISPR_Cas9 sgRNA predictions",
+      "assemblyNames": [
+        "c_elegans_PRJNA13758"
+      ],
+      "description": "sgRNA predictions from http://genome.sfu.ca/crispr/.  Used by permission.",
+      "category": [
+        "Externally Sourced Resources",
+        "CRISPR predictions"
+      ],
+      "adapter": {
+        "type": "NCListAdapter",
+        "rootUrlTemplate": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/CRISPR_Cas9 sgRNA predictions/{refseq}/trackData.jsonz"
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "crispr_cas9_sgrna_predictions-c_elegans_PRJNA13758-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "gold",
+            "height": 4,
+            "showLabels": false,
+            "showDescriptions": false
+          }
+        }
+      ]
+    }
+  ]
+}
