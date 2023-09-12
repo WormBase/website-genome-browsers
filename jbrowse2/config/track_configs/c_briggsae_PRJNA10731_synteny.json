@@ -1,4 +1,39 @@
 {"tracks":[    
+      {
+         "assemblyNames" : [
+            "c_briggsae_PRJNA10731",
+            "c_nigoni_PRJNA384657"
+         ],
+         "displays" : [
+            {
+               "displayId" : "briggsae_to_nigoni-DotplotDisplay",
+               "type" : "DotplotDisplay"
+            },
+            {
+               "displayId" : "briggsae_to_nigoni-LinearComparativeDisplay",
+               "type" : "LinearComparativeDisplay"
+            },
+            {
+               "displayId" : "briggsae_to_nigoni-LinearSyntenyDisplay",
+               "type" : "LinearSyntenyDisplay"
+            }
+         ],
+         "name" : "C. briggsae to C. nigoni",
+         "adapter" : {
+            "type" : "PAFAdapter",
+            "pafLocation" : {
+               "locationType" : "UriLocation",
+               "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/synteny_data/c_briggsae.c_nigoni.paf"
+            },
+            "queryAssembly" : "c_nigoni_PRJNA384657",
+            "targetAssembly" : "c_briggsae_PRJNA10731"
+         },
+         "category" : [
+            "Synteny"
+         ],
+         "trackId" : "briggsae_to_nigoni",
+         "type" : "SyntenyTrack"
+      },
     {
       "category": [
         "Synteny"

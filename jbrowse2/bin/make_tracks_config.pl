@@ -27,6 +27,9 @@ $RELEASE  ||= '284';
 $ASSEMBLY ||= 'c_elegans_PRJNA13758';
 $S3URL    ||= 'https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase';
 
+my $SEQUENCE = $ASSEMBLY;
+$SEQUENCE =~ s/_P/.P/;
+
 #fetch trackList.json, parse into JSON object
 # the ".old" json file is the one that has the includes list
 # rather than the trackList.json that is used for JB 1, where
@@ -54,8 +57,6 @@ for my $i (@{$$trackList{'include'}}) {
     $i =~ s/includes\///;
     push @includes, $i unless ($i =~ /functions.conf/
                             or $i =~ /PR.*DNA.json/
-                            or $i =~ /pattern_match_tracks/
-                            or $i =~ /crispr_predictions/
                             or $i =~ /alphafold/
                             or $i =~ /expression_patterns/);
 }
@@ -77,6 +78,7 @@ for my $f (@includes) {
     #do the substitutions, then json-ify
     $data =~ s/\$RELEASE/$RELEASE/g;
     $data =~ s/\$ASSEMBLY/$ASSEMBLY/g;
+    $data =~ s/\$SEQUENCE/$SEQUENCE/g;
     my $json = JSON->new->decode($data);
 
     push @tracks, @{$json->{tracks}};
