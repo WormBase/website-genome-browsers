@@ -127,10 +127,10 @@ $$json{'configuration'}{'theme'}{'palette'}{'secondary'}{'main'} = '#29405F';
 $$json{'configuration'}{'theme'}{'palette'}{'tertiary'}{'main'}  = '#9da9b6';
 
 #add config for sorting/collapsing categories
-$$json{'configuration'}{'sort'}{'trackNames'} = $JSON::true;
-$$json{'configuration'}{'sort'}{'categories'} = $JSON::true;
-$$json{'configuration'}{'defaultCollapsed'}{'subCategories'} = $JSON::true;
-$$json{'configuration'}{'defaultCollapsed'}{'topLevelCategories'} = $JSON::true;
+$$json{'configuration'}{'hierarchical'}{'sort'}{'trackNames'} = $JSON::true;
+$$json{'configuration'}{'hierarchical'}{'sort'}{'categories'} = $JSON::true;
+$$json{'configuration'}{'hierarchical'}{'defaultCollapsed'}{'subCategories'} = $JSON::true;
+$$json{'configuration'}{'hierarchical'}{'defaultCollapsed'}{'topLevelCategories'} = $JSON::true;
 
 
 
