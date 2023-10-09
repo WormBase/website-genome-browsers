@@ -549,8 +549,11 @@ sub process_grep_track {
     if (!-e "$INCLUDES/$section.json") {
         $log->error( "\nMISSING INCLUDE FILE: $section.json\n\n");
     }
-    push @include, "includes/$section.json" unless ($empty_result{$section} or $config->{$section}->{no_config});
-
+    push @include, "includes/$section.json" unless ($empty_result{$section}
+		                                 or $config->{$section}->{no_config}
+				                 or $section eq 'rnaseq_splice');
+                                          ### special handling of splice junction tracks
+					  # config will get pulled in via species specific
     return;
 }
 
