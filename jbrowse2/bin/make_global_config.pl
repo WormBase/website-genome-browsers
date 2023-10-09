@@ -143,7 +143,7 @@ $$vColor{'name'}       = "VariantColorPlugin";
 $$vColor{'umdLoc'}{'uri'} = "variantColor_plugin.js";
 my $help;
 $$help{'name'}         = "JBrowseSiteSpecificHelp";
-$$help{'umdLoc'}{'uri'}= "plugins/JBrowseSiteSpeci…help.umd.development.js";
+$$help{'umdLoc'}{'uri'}= "plugins/JBrowseSiteSpecificHelp/jbrowse-site-specific-help.umd.development.js";
 my @plugins = ($hex, $vColor, $help);
 $$json{'plugins'} = \@plugins;
 
