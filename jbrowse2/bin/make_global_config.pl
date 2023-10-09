@@ -126,6 +126,14 @@ $$json{'configuration'}{'theme'}{'palette'}{'secondary'}{'main'} = '#29405F';
 # but darkened to improve contrast in some JB2 UI elements
 $$json{'configuration'}{'theme'}{'palette'}{'tertiary'}{'main'}  = '#9da9b6';
 
+#add config for sorting/collapsing categories
+$$json{'configuration'}{'sort'}{'trackNames'} = 'true';
+$$json{'configuration'}{'sort'}{'categories'} = 'true';
+$$json{'configuration'}{'defaultCollapsed'}{'subCategories'} = 'true';
+$$json{'configuration'}{'defaultCollapsed'}{'topLevelCategories'} = 'true';
+
+
+
 my $plugin;
 my $hex;
 $$hex{'name'}          = "HexJexlPlugin";
