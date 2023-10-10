@@ -126,6 +126,14 @@ $$json{'configuration'}{'theme'}{'palette'}{'secondary'}{'main'} = '#29405F';
 # but darkened to improve contrast in some JB2 UI elements
 $$json{'configuration'}{'theme'}{'palette'}{'tertiary'}{'main'}  = '#9da9b6';
 
+#add config for sorting/collapsing categories
+$$json{'configuration'}{'hierarchical'}{'sort'}{'trackNames'} = $JSON::true;
+$$json{'configuration'}{'hierarchical'}{'sort'}{'categories'} = $JSON::true;
+$$json{'configuration'}{'hierarchical'}{'defaultCollapsed'}{'subCategories'} = $JSON::true;
+$$json{'configuration'}{'hierarchical'}{'defaultCollapsed'}{'topLevelCategories'} = $JSON::true;
+
+
+
 my $plugin;
 my $hex;
 $$hex{'name'}          = "HexJexlPlugin";
@@ -138,6 +146,7 @@ $$help{'name'}         = "JBrowseSiteSpecificHelp";
 $$help{'umdLoc'}{'uri'}= "plugins/JBrowseSiteSpecificHelp/jbrowse-site-specific-help.umd.development.js";
 my @plugins = ($hex, $vColor, $help);
 $$json{'plugins'} = \@plugins;
+
 
 #that might be all that's needed
 #I dont think we need several of the things that are empty arrays 
