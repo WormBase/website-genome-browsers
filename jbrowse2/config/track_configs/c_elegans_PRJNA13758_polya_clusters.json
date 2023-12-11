@@ -19,7 +19,7 @@
         "type": "BigBedAdapter",
         "bigBedLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/atlas_plus.2.0.ce11.bb"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/c_elegans/tracks/atlas_plus.2.0.ce11.bb"
         }
       },
       "displays": [
@@ -52,7 +52,7 @@
         "type": "BigBedAdapter",
         "bigBedLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/atlas_minus.2.0.ce11.bb"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/c_elegans/tracks/atlas_minus.2.0.ce11.bb"
         }
       },
       "displays": [

@@ -16,7 +16,7 @@
         "type": "BigWigAdapter",
         "bigWigLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Chen.Forward.bw"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/wiggle_binaries/TSS_Chen.Forward.bw"
         }
       },
       "displays": [
@@ -58,7 +58,7 @@
         "type": "BigWigAdapter",
         "bigWigLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Chen.Reverse.bw"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/wiggle_binaries/TSS_Chen.Reverse.bw"
         }
       },
       "displays": [
@@ -100,7 +100,7 @@
         "type": "BigWigAdapter",
         "bigWigLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Saito.Forward.bw"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/wiggle_binaries/TSS_Saito.Forward.bw"
         }
       },
       "displays": [
@@ -142,7 +142,7 @@
         "type": "BigWigAdapter",
         "bigWigLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Saito.Reverse.bw"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/wiggle_binaries/TSS_Saito.Reverse.bw"
         }
       },
       "displays": [
@@ -183,7 +183,7 @@
         "type": "BigWigAdapter",
         "bigWigLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Gu.Reverse.bw"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/wiggle_binaries/TSS_Gu.Reverse.bw"
         }
       },
       "displays": [
@@ -224,7 +224,7 @@
         "type": "BigWigAdapter",
         "bigWigLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Gu.Forward.bw"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/wiggle_binaries/TSS_Gu.Forward.bw"
         }
       },
       "displays": [
@@ -266,7 +266,7 @@
         "type": "BigWigAdapter",
         "bigWigLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Kruesi.Forward.bw"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/wiggle_binaries/TSS_Kruesi.Forward.bw"
         }
       },
       "displays": [
@@ -308,7 +308,7 @@
         "type": "BigWigAdapter",
         "bigWigLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/wiggle_binaries/TSS_Kruesi.Reverse.bw"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/wiggle_binaries/TSS_Kruesi.Reverse.bw"
         }
       },
       "displays": [

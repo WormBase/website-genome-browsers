@@ -16,7 +16,7 @@
         "type": "BigWigAdapter",
         "bigWigLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/UCSC/ce11.phastCons26way.bw"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/UCSC/ce11.phastCons26way.bw"
         }
       },
       "displays": [
