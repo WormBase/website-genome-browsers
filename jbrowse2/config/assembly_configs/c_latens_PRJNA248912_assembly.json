@@ -7,15 +7,15 @@
           "type": "BgzipFastaAdapter",
           "fastaLocation": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_latens.PRJNA248912.WS284.genomic.fa.gz"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/c_latens.PRJNA248912.WS284.genomic.fa.gz"
           },
           "faiLocation": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_latens.PRJNA248912.WS284.genomic.fa.gz.fai"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/c_latens.PRJNA248912.WS284.genomic.fa.gz.fai"
           },
           "gziLocation": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_latens.PRJNA248912.WS284.genomic.fa.gz.gzi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/c_latens.PRJNA248912.WS284.genomic.fa.gz.gzi"
           }
         },
         "displays": [
