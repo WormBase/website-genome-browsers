@@ -5,7 +5,7 @@
          "compress" : 1,
          "unsafeMouseover" : true,
          "codonStarts" : "[ATG]",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans_PRJNA13758/seq/{refseq_dirpath}/{refseq}-",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/c_elegans_PRJNA13758/seq/{refseq_dirpath}/{refseq}-",
          "unsafePopup" : true,
          "key" : "Reference sequence (DNA)",
          "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
@@ -19,7 +19,7 @@
          "compress" : 1,
          "windowSize": 10,
          "windowDelta": 2,
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans_PRJNA13758/seq/{refseq_dirpath}/{refseq}-",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/c_elegans_PRJNA13758/seq/{refseq_dirpath}/{refseq}-",
          "bicolor_pivot": 0.5
       }
    ]

@@ -8,7 +8,7 @@
          "key" : "Reference sequence (DNA)",
          "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/s_ratti_PRJEB125/seq/{refseq_dirpath}/{refseq}-",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/s_ratti_PRJEB125/seq/{refseq_dirpath}/{refseq}-",
          "chunkSize" : 80000,
          "type" : "SequenceTrack"
       }

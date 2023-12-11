@@ -5,7 +5,7 @@
          "compress" : 1,
          "unsafeMouseover" : true,
          "codonStarts" : "[ATG]",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/p_pacificus_PRJNA12644/seq/{refseq_dirpath}/{refseq}-",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/p_pacificus_PRJNA12644/seq/{refseq_dirpath}/{refseq}-",
          "unsafePopup" : true,
          "key" : "Reference sequence (DNA)",
          "storeClass" : "JBrowse/Store/Sequence/StaticChunked",

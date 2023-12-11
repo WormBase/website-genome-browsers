@@ -2,7 +2,7 @@
    "tracks" : [
       {
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/o_tipulae_PRJEB15512/seq/{refseq_dirpath}/{refseq}-",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/o_tipulae_PRJEB15512/seq/{refseq_dirpath}/{refseq}-",
          "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
          "key" : "Reference sequence (DNA)",
          "type" : "SequenceTrack",
