@@ -5,7 +5,7 @@
         "key" : "IsoSeq collection alignments",
         "storeClass" : "JBrowse/Store/SeqFeature/BAM",
         "unsafePopup" : true,
-        "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/t_muris_PRJEB126/Tmuris_isoseq.bam",
+        "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/t_muris_PRJEB126/Tmuris_isoseq.bam",
         "maxHeight" : 3000,
         "category" : "Expression",
         "style" : {

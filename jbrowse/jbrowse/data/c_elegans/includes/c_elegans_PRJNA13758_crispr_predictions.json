@@ -19,7 +19,7 @@
          "storeClass" : "JBrowse/Store/SeqFeature/NCList",
          "key" : "CRISPR_Cas9 sgRNA predictions",
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/CRISPR_Cas9 sgRNA predictions/{refseq}/trackData.jsonz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/c_elegans/tracks/CRISPR_Cas9 sgRNA predictions/{refseq}/trackData.jsonz",
          "trackType" : "CanvasFeatures",
          "type" : "CanvasFeatures",
          "unsafeMouseover" : true,

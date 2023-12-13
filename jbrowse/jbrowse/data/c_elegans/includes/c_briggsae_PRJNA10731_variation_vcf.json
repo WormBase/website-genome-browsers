@@ -7,7 +7,7 @@
          "unsafeMouseover" : true,
          "type" : "CanvasVariants",
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_briggsae_PRJNA10731/c.briggsae_snps.vcf.gz",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/c_briggsae_PRJNA10731/c.briggsae_snps.vcf.gz",
          "storeClass" : "JBrowse/Store/SeqFeature/VCFTabix",
          "key" : "C. briggsae variation",
          "label" : "C. briggsae variation",
