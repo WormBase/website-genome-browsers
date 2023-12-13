@@ -7,7 +7,7 @@
          "label" : "DNA",
          "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
          "key" : "Reference sequence (DNA)",
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/b_malayi_PRJNA10729/seq/{refseq_dirpath}/{refseq}-",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/b_malayi_PRJNA10729/seq/{refseq_dirpath}/{refseq}-",
          "unsafePopup" : true,
          "chunkSize" : 80000,
          "type" : "SequenceTrack"

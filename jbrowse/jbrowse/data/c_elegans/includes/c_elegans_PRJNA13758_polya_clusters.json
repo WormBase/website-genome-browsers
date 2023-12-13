@@ -7,7 +7,7 @@
          "unsafeMouseover" : true,
          "type" : "CanvasFeatures",
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/atlas_plus.2.0.ce11.bw",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/c_elegans/tracks/atlas_plus.2.0.ce11.bw",
          "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/RightTriangle",
          "style" : {
@@ -27,7 +27,7 @@
          "unsafeMouseover" : true,
          "type" : "CanvasFeatures",
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/atlas_minus.2.0.ce11.bw",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/c_elegans/tracks/atlas_minus.2.0.ce11.bw",
          "storeClass" : "JBrowse/Store/SeqFeature/BigWig",
          "glyph" : "wormbase-glyphs/View/FeatureGlyph/LeftTriangle",
          "style" : {

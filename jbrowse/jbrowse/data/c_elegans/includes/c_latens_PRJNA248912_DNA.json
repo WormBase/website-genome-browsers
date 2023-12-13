@@ -6,7 +6,7 @@
          "unsafeMouseover" : true,
          "codonStarts" : "[ATG]",
          "unsafePopup" : true,
-         "urlTemplate" : "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_latens_PRJNA248912/seq/{refseq_dirpath}/{refseq}-",
+         "urlTemplate" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/c_latens_PRJNA248912/seq/{refseq_dirpath}/{refseq}-",
          "key" : "Reference sequence (DNA)",
          "storeClass" : "JBrowse/Store/Sequence/StaticChunked",
          "type" : "SequenceTrack",
