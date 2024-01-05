@@ -10,6 +10,8 @@
 FROM gmod/jbrowse-buildenv:latest as build
 
 ARG RELEASE=291
+RUN apt-get --allow-releaseinfo-change -qq --fix-missing update
+RUN apt-get --no-install-recommends -y install rsync
 
 # JBrowse source
 #RUN git clone --single-branch --branch 1.16.8-release https://github.com/GMOD/jbrowse.git
@@ -20,15 +22,15 @@ RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
 RUN git clone --single-branch --branch protein-${RELEASE} https://github.com/WormBase/website-genome-browsers.git
 
 # Provides the phantomJS powered screenshot plugin
-RUN git clone https://github.com/WormBase/jbplugin-screenshot.git
+RUN git clone https://github.com/WormBase/jbplugin-screenshot.git ScreenShotPlugin
 
 RUN mkdir -p /usr/share/nginx/html/tools/protein_schematic
 
 RUN rm /usr/share/nginx/html/index.html && rm /usr/share/nginx/html/50x.html && \
-    cp -r /website-genome-browsers/protein_schematic/jbrowse/data /jbrowse/data/ && \
-    cp -r /jbplugin-screenshot /jbrowse/plugins/ScreenShotPlugin && \
+    rsync -rLp --exclude '.git' /website-genome-browsers/protein_schematic/jbrowse/data/ /jbrowse/data/ && \
+    rsync -rLp --exclude '.git' /ScreenShotPlugin /jbrowse/plugins/ScreenShotPlugin && \
     cp -r /jbrowse/* /usr/share/nginx/html/tools/protein_schematic && \
-    cp -r /jbrowse/.htaccess /usr/share/nginx/html/tools/protein_schematic/.htaccess && \
+    cp /jbrowse/.htaccess /usr/share/nginx/html/tools/protein_schematic/.htaccess && \
     cp /website-genome-browsers/protein_schematic/jbrowse/jbrowse.conf /usr/share/nginx/html/tools/protein_schematic/jbrowse.conf && \
     cp /website-genome-browsers/protein_schematic/jbrowse/url_builder.html /usr/share/nginx/html/tools/protein_schematic/url_builder.html
     
@@ -60,6 +62,9 @@ COPY --from=build /usr/share/nginx/html/tools/protein_schematic/site.webmanifest
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/.htaccess /usr/share/nginx/html/tools/protein_schematic/.htaccess
 
 COPY --from=build /usr/share/nginx/html/tools/protein_schematic/url_builder.html /usr/share/nginx/html/tools/protein_schematic/url_builder.html
+
+WORKDIR /usr/share/nginx/html/tools
+RUN tar zcvf  protein_schematic.tar.gz protein_schematic
 
 VOLUME /data
 COPY docker-entrypoint.sh /
