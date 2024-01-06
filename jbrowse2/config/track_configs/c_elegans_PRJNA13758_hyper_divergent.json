@@ -9,7 +9,7 @@
       ],
       "description": "These regions represent concentrated extremely high genetic variation areas that punctuate the autosomes in a non-random distribution. Individual regions correspond to non-overlapping hyper-divergent genomic regions that were identified in at least one isotype when compared to the reference N2 isotype. For more information about this data, see WBPaper00061244.",
       "formatDetails": {
-         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+         "feature": "jexl:{ JBrowse1: '<a href=\"https://stage.alliancegenome.org/jbrowse/worms/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
       },
       "category": [
         "Alleles, Variations, RNAi"
@@ -42,7 +42,7 @@
       ],
       "description": "These represent the smaller regions of clustered genetic variation observed in individual isotypes/strains. WormBase has compressed these clusters to be unique spans shared by multiple isotypes/strains and the individual strains are linked in the feature frame available by clicking on each track feature.",
       "formatDetails": {
-         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+         "feature": "jexl:{ JBrowse1: '<a href=\"https://stage.alliancegenome.org/jbrowse/worms/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
       },
       "category": [
         "Alleles, Variations, RNAi"
