@@ -1,1 +1,184 @@
-c_elegans_PRJNA13758_pattern_match_tracks.json
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_TTCN_sequence_search",
+      "name": "Cas12e TTCN PAM sites",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Cas12e (CasX) PAM sites based on TTCN motif. Computed on the fly at load time.",
+      "category": [
+        "Externally Sourced Resources",
+        "CRISPR predictions"
+      ],
+      "adapter": {
+        "type": "SequenceSearchAdapter",
+        "search": "TTC.",
+        "sequenceAdapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/$SEQUENCE.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/$SEQUENCE.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/$SEQUENCE.WS284.genomic.fa.gz.gzi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "TTCN_sequence_search_$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "SlateBlue",
+            "height": 4,
+            "showLabels": false,
+            "showDescriptions": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_TTN_sequence_search",
+      "name": "Cas12a TTN PAM sites",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Cas12a (Cpf1) PAM sites based on TTN motif. Computed on the fly at load time.",
+      "category": [
+        "Externally Sourced Resources",
+        "CRISPR predictions"
+      ],
+      "adapter": {
+        "type": "SequenceSearchAdapter",
+        "search": "TT.",
+        "sequenceAdapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/$SEQUENCE.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/$SEQUENCE.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/$SEQUENCE.WS284.genomic.fa.gz.gzi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "TTN_sequence_search_$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "Indigo",
+            "height": 4,
+            "showLabels": false,
+            "showDescriptions": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_NNGRRT_sequence_search",
+      "name": "SaCas9 NNGRRT PAM sites",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Staphylococcus aureus Cas9 PAM sites based on NNGRRT motif. Computed on the fly at load time.",
+      "category": [
+        "Externally Sourced Resources",
+        "CRISPR predictions"
+      ],
+      "adapter": {
+        "type": "SequenceSearchAdapter",
+        "search": "..G[AG][AG]T",
+        "sequenceAdapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/$SEQUENCE.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/$SEQUENCE.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/$SEQUENCE.WS284.genomic.fa.gz.gzi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "NNGRRT_sequence_search_$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "DarkViolet",
+            "height": 4,
+            "showLabels": false,
+            "showDescriptions": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "$ASSEMBLY_NGG_sequence_search",
+      "name": "SpCas9 NGG PAM sites",
+      "assemblyNames": [
+        "$ASSEMBLY"
+      ],
+      "description": "Streptococcus pyogenes Cas9 PAM sites based on NGG motif. Computed on the fly at load time.",
+      "category": [
+        "Externally Sourced Resources",
+        "CRISPR predictions"
+      ],
+      "adapter": {
+        "type": "SequenceSearchAdapter",
+        "search": ".GG",
+        "sequenceAdapter": {
+          "type": "BgzipFastaAdapter",
+          "fastaLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/$SEQUENCE.WS284.genomic.fa.gz"
+          },
+          "faiLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/$SEQUENCE.WS284.genomic.fa.gz.fai"
+          },
+          "gziLocation": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/$SEQUENCE.WS284.genomic.fa.gz.gzi"
+          }
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "NGG_sequence_search_$ASSEMBLY-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "RebeccaPurple",
+            "height": 4,
+            "showLabels": false,
+            "showDescriptions": false
+          }
+        }
+      ]
+    }
+  ]
+}

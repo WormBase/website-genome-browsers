@@ -9,7 +9,7 @@
       ],
       "description": "Strain variant data from https://www.elegansvariation.org/.  For more information see Cook DE, Zdraljevic S, Roberts JP, Andersen EC. CeNDR, the Caenorhabditis elegans natural diversity resource. Nucleic Acids Res. 2017 Jan 4;45(D1):D650-D657. doi: 10.1093/nar/gkw893. Epub 2016 Oct 3. PubMed PMID: 27701074; PubMed Central PMCID: PMC5210618. Colors follow the same scheme as ENSEMBL for predicted variants (https://uswest.ensembl.org/info/genome/variation/prediction/predicted_data.html), and variants with no predicted impact are black and variants that don't have recognized predicted consequence are peachpuff (a pale pink-orange). Variants with more than one predicted consequences are colored by the first annotation.",
       "formatDetails": {
-         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+         "feature": "jexl:{ JBrowse1: '<a href=\"https://stage.alliancegenome.org/jbrowse/worms/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
       },
       "category": [
         "Externally Sourced Resources",

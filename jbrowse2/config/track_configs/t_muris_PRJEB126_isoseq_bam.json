@@ -15,12 +15,12 @@
         "type": "BamAdapter",
         "bamLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/t_muris_PRJEB126/Tmuris_isoseq.bam"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/t_muris_PRJEB126/Tmuris_isoseq.bam"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/t_muris_PRJEB126/Tmuris_isoseq.bam.bai"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/t_muris_PRJEB126/Tmuris_isoseq.bam.bai"
           }
         }
       },

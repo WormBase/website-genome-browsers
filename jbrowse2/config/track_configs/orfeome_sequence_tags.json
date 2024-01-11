@@ -9,7 +9,7 @@
       ],
       "description": "ORFeome project (http://worfdb.dfci.harvard.edu/) sequence reads. The ORFeome project designs primer assays for spliced C. elegans mRNAs and then performs sequence reads on rtPCR material, producing 'OSTs.' This track shows ORFeome project OSTs aligned to the genome using BLAT. This track shows the best unique location for each OST.",
       "formatDetails": {
-         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+         "feature": "jexl:{ JBrowse1: '<a href=\"https://stage.alliancegenome.org/jbrowse/worms/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
       },
       "category": [
         "Genes",
