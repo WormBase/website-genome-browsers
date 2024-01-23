@@ -60,7 +60,7 @@ return declare( JBrowsePlugin,
 			url = (domain == 'wormbase') ? '/tools/genome/jbrowse/': '/jbrowse/worms/jbrowse/';
                 }
 		else {
-			url = (domain == 'wormbase') ? '/tools/genome/jbrowse-simple/' : /jbrowse/worms/jbrowse-simple/;
+			url = (domain == 'wormbase') ? '/tools/genome/jbrowse-simple/' : '/jbrowse/worms/jbrowse-simple/';
 		}
 
                 var get = document.location.search;
