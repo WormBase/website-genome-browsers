@@ -43,6 +43,10 @@ return declare( JBrowsePlugin,
             selector = 'checkboxes';
             otherSelector = 'faceted';
         }
+        var domain = 'alliance';
+        if(String(fullurl).toLowerCase().match('wormbase.org')) {
+            domain = 'wormbase';
+        }
 	
 	var switchSelector = function(){
 		var ele = document.getElementById("GenomeBrowser");
@@ -53,10 +57,10 @@ return declare( JBrowsePlugin,
                 var url;
 
 		if (selector == 'checkboxes') {
-			url = '/tools/genome/jbrowse/';
+			url = (domain == 'wormbase') ? '/tools/genome/jbrowse/': '/jbrowse/worms/jbrowse/';
                 }
 		else {
-			url = '/tools/genome/jbrowse-simple/';
+			url = (domain == 'wormbase') ? '/tools/genome/jbrowse-simple/' : /jbrowse/worms/jbrowse-simple/;
 		}
 
                 var get = document.location.search;
