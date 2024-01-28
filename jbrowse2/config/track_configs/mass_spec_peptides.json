@@ -9,7 +9,7 @@
       ],
       "description": "This track shows peptides identified in mass spec proteomics experiments.",
       "formatDetails": {
-         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+         "feature": "jexl:{ JBrowse1: '<a href=\"https://stage.alliancegenome.org/jbrowse/worms/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
       },
       "category": [
         "Sequence Features",

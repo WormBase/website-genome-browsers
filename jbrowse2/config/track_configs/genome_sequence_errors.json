@@ -13,7 +13,7 @@
       ],
       "description": "Positions within the reference genome sequence that have been identified as having a base call error. This error has not yet been corrected.",
       "formatDetails": {
-         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+         "feature": "jexl:{ JBrowse1: '<a href=\"https://stage.alliancegenome.org/jbrowse/worms/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
       },
       "adapter": {
         "type": "NCListAdapter",

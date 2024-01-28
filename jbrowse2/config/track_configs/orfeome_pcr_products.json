@@ -9,7 +9,7 @@
       ],
       "description": "This track contains Orfeome Project primer pairs and RACE tags.  These primers were used to amplify C. elegans cDNAs.  A positive amplification, shown in green, is evidence that the region between the two primers is transcribed.  Failure to amplify, shown in red, suggests either that the gene model is incorrect, or that the gene is expressed at very low levels. Detailed gene models derived from ORFeome sequencing will be added to this display in the future.  See Reboul et al. Nat. Genet. 2003 Apr 7 and WORFdb for further information.",
       "formatDetails": {
-         "feature": "jexl:{ JBrowse1: '<a href=\"/tools/genome/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
+         "feature": "jexl:{ JBrowse1: '<a href=\"https://stage.alliancegenome.org/jbrowse/worms/jbrowse-simple/?data=data/$ASSEMBLY' + '&loc=' +feature.refName+':'+feature.start+'..'+feature.end+ '\">'+feature.refName+':'+feature.start+'..'+feature.end+'</a>'}"
       },
       "category": [
         "Genes",

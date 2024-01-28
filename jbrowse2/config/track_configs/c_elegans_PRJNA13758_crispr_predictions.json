@@ -16,7 +16,7 @@
         "type": "NCListAdapter",
         "rootUrlTemplate": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_elegans/tracks/CRISPR_Cas9 sgRNA predictions/{refseq}/trackData.jsonz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/c_elegans/tracks/CRISPR_Cas9 sgRNA predictions/{refseq}/trackData.jsonz"
         }
       },
       "displays": [

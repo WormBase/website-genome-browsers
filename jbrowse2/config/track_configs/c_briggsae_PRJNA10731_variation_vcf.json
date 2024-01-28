@@ -16,12 +16,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_briggsae_PRJNA10731/c.briggsae_snps.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/c_briggsae_PRJNA10731/c.briggsae_snps.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/wormbase-modencode/jbrowse/data/c_briggsae_PRJNA10731/c.briggsae_snps.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/jbrowse/data/c_briggsae_PRJNA10731/c.briggsae_snps.vcf.gz.tbi"
           }
         }
       },

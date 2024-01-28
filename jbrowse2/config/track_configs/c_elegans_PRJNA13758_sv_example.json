@@ -11,23 +11,23 @@
         "type": "BamAdapter",
         "bamLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/test/maroilley/VC109_Het_trim_bwaMEM_sort.bam"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/test/maroilley/VC109_Het_trim_bwaMEM_sort.bam"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/wormbase-modencode/test/maroilley/VC109_Het_trim_bwaMEM_sort.bam.bai"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/test/maroilley/VC109_Het_trim_bwaMEM_sort.bam.bai"
           }
         },
         "sequenceAdapter": {
           "type": "BgzipFastaAdapter",
           "fastaLocation": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA13758.current.genomic.fa.gz"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/c_elegans.PRJNA13758.current.genomic.fa.gz"
           },
           "faiLocation": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA13758.current.genomic.fa.gz.fai"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/c_elegans.PRJNA13758.current.genomic.fa.gz.fai"
           },
           "metadataLocation": {
             "locationType": "UriLocation",
@@ -35,7 +35,7 @@
           },
           "gziLocation": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/wormbase-modencode/fasta/current/c_elegans.PRJNA13758.current.genomic.fa.gz.gzi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/fasta/current/c_elegans.PRJNA13758.current.genomic.fa.gz.gzi"
           }
         }
       },
@@ -65,12 +65,12 @@
         "type": "VcfTabixAdapter",
         "vcfGzLocation": {
           "locationType": "UriLocation",
-          "uri": "https://s3.amazonaws.com/wormbase-modencode/test/maroilley/candidateSV.vcf.gz"
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/test/maroilley/candidateSV.vcf.gz"
         },
         "index": {
           "location": {
             "locationType": "UriLocation",
-            "uri": "https://s3.amazonaws.com/wormbase-modencode/test/maroilley/candidateSV.vcf.gz.tbi"
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/test/maroilley/candidateSV.vcf.gz.tbi"
           }
         }
       },
