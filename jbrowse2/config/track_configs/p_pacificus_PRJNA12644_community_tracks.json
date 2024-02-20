@@ -1,0 +1,68 @@
+{
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "p_pacificus_PRJNA12644_community_edited_genes",
+      "name": "Community edited genes",
+      "assemblyNames": [
+        "p_pacificus_PRJNA12644"
+      ],
+      "description": "A set of genes edited by the Pristionchus community. For more information see http://pristionchus.org/",
+      "category": [
+        "Externally Sourced Resources",
+        "Community Annotations"
+      ],
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "locationType": "UriLocation",
+          "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/p_pacificus_PRJNA12644/pristionchus.sorted.gff3.gz"
+        },
+        "index": {
+          "location": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/p_pacificus_PRJNA12644/pristionchus.sorted.gff3.gz.tbi"
+          }
+        }
+      },
+      "textSearching": {
+        "textSearchAdapter": {
+          "type": "TrixTextSearchAdapter",
+          "textSearchAdapterId": "community_edited_genes-1708462386536-index",
+          "ixFilePath": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/p_pacificus_PRJNA12644/community_edited_genes-1708462386536-index.ix"
+          },
+          "ixxFilePath": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/p_pacificus_PRJNA12644/community_edited_genes-1708462386536-index.ixx"
+          },
+          "metaFilePath": {
+            "locationType": "UriLocation",
+            "uri": "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/p_pacificus_PRJNA12644/community_edited_genes-1708462386536-index_meta.json"
+          },
+          "tracks": [
+            "p_pacificus_PRJNA12644_community_edited_genes"
+          ],
+          "assemblyNames": [
+            "p_pacificus_PRJNA12644"
+          ]
+        }
+      },
+      "displays": [
+        {
+          "type": "LinearBasicDisplay",
+          "displayId": "p_pacificus_PRJNA12644_community_edited_genes-LinearBasicDisplay",
+          "renderer": {
+            "type": "SvgFeatureRenderer",
+            "color1": "jexl:get(feature,'strand')>0?'#f19bf1':'#66e6d9'"
+          }
+        },
+        {
+          "type": "LinearArcDisplay",
+          "displayId": "p_pacificus_PRJNA12644_community_edited_genes-LinearArcDisplay"
+        }
+     ]   
+    }
+  ]
+}
