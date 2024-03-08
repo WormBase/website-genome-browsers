@@ -115,6 +115,9 @@ for my $i (@{$$trackList{'include'}}) {
 my $includedir = "$Bin/../jbrowse/data/c_elegans";
 
 for my $f (@includes) {
+    if ($f == 'rnaseq_splice.json') {
+         $f = $BIOPROJECT .'_rnaseq_splice.json';
+    }
     local $/ = undef;
     open (my $F, "<", "$includedir/$f") or die "$!:$f";
     my $data = <$F>;
