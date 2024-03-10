@@ -152,10 +152,24 @@ $$json{'plugins'} = \@plugins;
 #I dont think we need several of the things that are empty arrays 
 #in the existing config
 
-
-
-
-
-
 print JSON->new->pretty(1)->encode($json);
+
+# build the bioproject-->tracks for jbrowse blast file
+open (my $blast, "<", "blast_tracks.txt") or die "unable to open blast/tracks text file: $!";
+open (my $blastjson, ">", "blast_tracks.json") or die "unable to open blast_tracks.json for writing: $!";
+my @blastarray;
+while (<$blast>) {
+    chomp;
+    my ($assembly, $tracklist) = split /\t/;
+    my ($bioproject) = split '_', $assembly;
+    my @blasttracks = split ",", $tracklist;
+    my $hashref;
+    $$hashref{'bioproject'} = $bioproject;
+    $$hashref{'genomebrowser'}{'tracks'} = @blasttracks;
+    push @blastarray, $hashref;
+}
+print $blastjson JSON->new->pretty(1)->encode(\@blastarray);
+close $blast;
+close $blastjson;
+
 
