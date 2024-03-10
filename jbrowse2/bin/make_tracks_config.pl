@@ -77,10 +77,10 @@ for my $i (@{$$trackList{'include'}}) {
     elsif ($i eq 'protein_motifs.json') {
         push @blast_tracks, $ASSEMBLY . "_protein_motifs";
     }
-    elsif ($1 eq 'variations_classical_alleles.json') {
+    elsif ($i eq 'variations_classical_alleles.json') {
         push @blast_tracks, $ASSEMBLY . "_classical_alleles";
     }
-    elsif ($1 eq 'genblastg.json') {
+    elsif ($i eq 'genblastg.json') {
         push @blast_tracks, $ASSEMBLY . "_genblastg_cds_predictions";
     }
 }
