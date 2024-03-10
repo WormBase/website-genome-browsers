@@ -116,17 +116,22 @@ my $includedir = "$Bin/../jbrowse/data/c_elegans";
 
 for my $f (@includes) {
     if ($f eq 'includes/rnaseq_splice.json') {
-         $f = 'includes/' . $BIOPROJECT .'_rnaseq_splice.json';
-         warn $f;
+         #$f = 'includes/' . $BIOPROJECT .'_rnaseq_splice.json';
+         #warn $f;
+         # explicitly skipping this since the species specific config will get picked up
+         next;
     }
     if ($f eq 'includes/operons.json') {
-         $f = 'includes/' .$BIOPROJECT .'_operons.json';
-         warn $f;
+         #$f = 'includes/' .$BIOPROJECT .'_operons.json';
+         #warn $f;
+         # explicitly skipping this since the species specific config will get picked up
+         next;
     }
+    my $data;
     {
         local $/ = undef;
         open (my $F, "<", "$includedir/$f") or die "$!:$f";
-        my $data = <$F>;
+        $data = <$F>;
         close $F;
     }
     #warn $f;
