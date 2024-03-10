@@ -57,10 +57,14 @@ my @blast_tracks;
 for my $i (@{$$trackList{'include'}}) {
     $i =~ s/includes\///;
     if ($i eq 'operons.json') {
-        $i = $ASSEMBLY . '_operons.json';
+        #$i = $ASSEMBLY . '_operons.json';
+        # explicitly skip this since the species specific config will get picked up
+        next;
     }
     if ($i eq 'rnaseq_splice.json') {
-        $i = $ASSEMBLY . '_rnaseq_splice.json';
+        #$i = $ASSEMBLY . '_rnaseq_splice.json';
+        # explicitly skip this since the species specific config will get picked up
+        next;
     }
     push @includes, $i unless ($i =~ /functions.conf/
                             or $i =~ /PR.*DNA.json/
