@@ -117,6 +117,8 @@ $$outputjson{tracks} = \@tracks;
 #print JSON->new->pretty(1)->encode($outputjson);
 
 open (my $BLAST, ">>", 'blast_tracks.txt') or die "couldn't open blast_tracks.txt: $!";
+
+warn join(',',@blast_tracks);
 if (scalar @blast_tracks > 0) {
      print $BLAST "$ASSEMBLY\t" . join(',',@blast_tracks) . "\n"; 
 }
