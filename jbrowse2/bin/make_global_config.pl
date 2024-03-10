@@ -168,7 +168,7 @@ while (<$blast>) {
     $$hashref{'genomebrowser'}{'tracks'} = @blasttracks;
     push @blastarray, $hashref;
 }
-print $blastjson JSON->new->pretty(1)->encode(@blastarray);
+print $blastjson JSON->new->pretty(1)->encode(\@blastarray);
 close $blast;
 close $blastjson;
 
