@@ -155,8 +155,8 @@ $$json{'plugins'} = \@plugins;
 print JSON->new->pretty(1)->encode($json);
 
 # build the bioproject-->tracks for jbrowse blast file
-open (my $blast, "<", "blast_tracks.txt") or die "unable to open blast/tracks text file: $!";
-open (my $blastjson, ">", "blast_tracks.json") or die "unable to open blast_tracks.json for writing: $!";
+open (my $blast, "<", "/blast_tracks.txt") or die "unable to open blast/tracks text file: $!";
+open (my $blastjson, ">", "/blast_tracks.json") or die "unable to open blast_tracks.json for writing: $!";
 my @blastarray;
 while (<$blast>) {
     chomp;
