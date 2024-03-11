@@ -165,7 +165,7 @@ while (<$blast>) {
     my @blasttracks = split ",", $tracklist;
     my $hashref;
     $$hashref{'bioproject'} = $bioproject;
-    $$hashref{'genomebrowser'}{'tracks'} = @blasttracks;
+    $$hashref{'genomebrowser'}{'tracks'} = \@blasttracks;
     push @blastarray, $hashref;
 }
 print $blastjson JSON->new->pretty(1)->encode(\@blastarray);
