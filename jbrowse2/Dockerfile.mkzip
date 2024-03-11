@@ -49,6 +49,8 @@ RUN ../../../bin/make_embed_config.pl --release $RELEASE
 RUN ../../../bin/make_global_config.pl --release $RELEASE > config.json
 
 RUN cp config.json /usr/share/nginx/html/tools/genome/jbrowse2/config.json
+RUN cp /blast_tracks.json /usr/share/nginx/html/tools/genome/jbrowse2/blast_tracks.json
+RUN cp /blast_tracks.txt /usr/share/nginx/html/tools/genome/jbrowse2/blast_tracks.txt
 
 RUN mkdir -p /usr/share/nginx/html/tools/genome/jbrowse2/embed/
 RUN cp *embed.json /usr/share/nginx/html/tools/genome/jbrowse2/embed/
