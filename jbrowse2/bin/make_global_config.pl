@@ -161,7 +161,7 @@ my @blastarray;
 while (<$blast>) {
     chomp;
     my ($assembly, $tracklist) = split /\t/;
-    my ($bioproject) = split '\_', $assembly;  #literal underscore
+    my (undef, undef, $bioproject) = split '_', $assembly;  #literal underscore
     my @blasttracks = split ",", $tracklist;
     my $hashref;
     $$hashref{'bioproject'} = $bioproject;
