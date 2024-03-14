@@ -168,7 +168,10 @@ while (<$blast>) {
     $$hashref{'genomebrowser'}{'tracks'} = \@blasttracks;
     push @blastarray, $hashref;
 }
-print $blastjson JSON->new->pretty(1)->encode(\@blastarray);
+my $toplevelhash;
+$$toplevelhash{'wormbaseVersion'} = 'WS'.$RELEASE;
+$$toplevelhash{'bioprojects'} = \@blastarray;
+print $blastjson JSON->new->pretty(1)->encode($toplevelhash);
 close $blast;
 close $blastjson;
 
