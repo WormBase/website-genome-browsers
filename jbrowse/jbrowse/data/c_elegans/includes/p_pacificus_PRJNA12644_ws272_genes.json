@@ -1,0 +1,25 @@
+{
+   "tracks" : [
+      {
+         "unsafeMouseover" : true,
+         "maxExportSpan" : 50000000,
+         "compress" : 1,
+         "maxHeight" : 3000,
+         "category" : "Genes/Curated Genes",
+         "storeClass" : "JBrowse/Store/SeqFeature/NCList",
+         "key" : "WS272 Genes",
+         "urlTemplate" : ""https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/p_pacificus_PRJNA12644/WS272%20Genes/{refseq}/trackData.jsonz,
+         "unsafePopup" : true,
+         "label" : "WS272 Genes",
+         "style" : {
+            "height" : "function(f) {var type = f.get('type'); if (type == 'CDS') {return 10;} return 6;  }",
+            "className" : "feature"
+         },
+         "metadata" : {
+            "shortInfo" : "Curated genes as of the WS272 release of WormBase (June, 2019)"
+         },
+         "trackType" : "CanvasFeatures",
+         "type" : "CanvasFeatures"
+      }
+   ]
+}
