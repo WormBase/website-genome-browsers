@@ -9,7 +9,7 @@
 
 FROM gmod/jbrowse-buildenv:latest as build
 
-ARG RELEASE=291
+ARG RELEASE=292
 RUN apt-get --allow-releaseinfo-change -qq --fix-missing update
 RUN apt-get --no-install-recommends -y install rsync
 
@@ -27,7 +27,7 @@ RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
 
 
 #RUN git clone --single-branch --branch jbrowse-${RELEASE} https://github.com/WormBase/website-genome-browsers.git
-RUN git clone --single-branch --branch jbrowse-291  https://github.com/WormBase/website-genome-browsers.git
+RUN git clone --single-branch --branch jbrowse-292  https://github.com/WormBase/website-genome-browsers.git
 
 # Provides the PWM motif search plugin
 RUN git clone --single-branch --branch 1.0 https://github.com/scottcain/MotifSearch.git
