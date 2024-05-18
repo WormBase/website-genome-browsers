@@ -63,6 +63,7 @@ Alliance of Genome Resources JBrowse plugin:
    b. https://github.com/WormBase/website-jbrowse-protein processes the "amino
    acid" space GFF files from the WormBase ftp site and places them in the
    Alliance JBrowse S3 bucket.
+   
    See the README documents in each of these repos for details on how they run.
 
 4. Build the configuration files
