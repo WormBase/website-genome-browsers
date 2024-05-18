@@ -56,11 +56,14 @@ Alliance of Genome Resources JBrowse plugin:
    (s3://agrjbrowse/MOD-jbrowses/WormBase/): Data preperation takes place in
    Docker containers that run on the Alliance GoCD server. These containers are
    defined in their own GitHub repos:
+   
    a. https://github.com/WormBase/website-jbrowse-gff processes the GFF files
    obtained from ftp.wormbase.org and places the results in the agrjbrowse bucket.
+   
    b. https://github.com/WormBase/website-jbrowse-protein processes the "amino
    acid" space GFF files from the WormBase ftp site and places them in the
    Alliance JBrowse S3 bucket.
+   
    See the README documents in each of these repos for details on how they run.
 
 3. Build the configuration files. During the running of the previous step for
@@ -75,7 +78,9 @@ Alliance of Genome Resources JBrowse plugin:
    and
    b. https://github.com/WormBase/website-genome-browsers/blob/jb2-staging/jbrowse2/Dockerfile.mkzip
 
-4. Update the "amplify" repos for each of the servers.
+4. Build the configuration files
+
+5. Update the "amplify" repos for each of the servers.
 
 # Moving from staging to production
 
