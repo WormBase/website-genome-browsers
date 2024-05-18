@@ -63,7 +63,17 @@ Alliance of Genome Resources JBrowse plugin:
    Alliance JBrowse S3 bucket.
    See the README documents in each of these repos for details on how they run.
 
-3. Build the configuration files
+3. Build the configuration files. During the running of the previous step for
+   genomic assemblies (as opposed to the protein browser, more on that below),
+   "preliminary" trackConfig.json files are created that indicate what data
+   types are available for each assembly and placed in the S3 bucket along with
+   the formatted data. The Dockerfiles that used to be used to serve JBrowse 1
+   and 2 (and still can be for testing or providing to users) now generates
+   full configuration files for the current release's JBrowse 1 and 2. The
+   relevent Dockerfiles that are needed are:
+   a. https://github.com/WormBase/website-genome-browsers/blob/jbrowse-staging/jbrowse/Dockerfile
+   and
+   b. https://github.com/WormBase/website-genome-browsers/blob/jb2-staging/jbrowse2/Dockerfile.mkzip
 
 4. Update the "amplify" repos for each of the servers.
 
