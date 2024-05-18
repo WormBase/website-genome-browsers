@@ -29,7 +29,13 @@ For the protein schematic tool:
 
 - protein_schematic_production is the production config
 - protein_schematic_staging is the staging config
-- protein -### is the branch for building specific releases
+- protein-### is the branch for building specific releases
+
+JBrowse 2
+
+- jb2-production is the production config
+- jb2-staging is the staging config
+- jb2-### is the branch for building specific releases
 
 Alliance of Genome Resources JBrowse plugin:
 
@@ -42,111 +48,27 @@ Alliance of Genome Resources JBrowse plugin:
 
 1. After GFF files are available on dev server at `/usr/local/ftp/pub/wormbase/releases/`,
    create branches of this repo for each JBrowse (jbrowse-$RELEASE),
-GBrowse ($RELEASE-gbrowse), and protein-schematic (protein-$RELEASE)
-   off of their "staging" branches and clone it into a space with room to
-   build (currently, a jbrowse build takes about 30GB and protein schematic
-   takes about 15GB). Note that references to $RELEASE in this document means
-   the release numeral (ie, without the "WS").
+   protein-schematic (protein-$RELEASE) and JBrowse 2 (jb2-$RELEASE)
+   off of their "staging" branches. Note that references to $RELEASE in this
+   document means the release numeral (ie, without the "WS").
 
-2. Build GBrowse config files:
+2. Prepare JBrowse data and place in the Alliance JBrowse S3 bucket
+   (s3://agrjbrowse/MOD-jbrowses/WormBase/): Data preperation takes place in
+   Docker containers that run on the Alliance GoCD server. These containers are
+   defined in their own GitHub repos:
+   a. https://github.com/WormBase/website-jbrowse-gff processes the GFF files
+   obtained from ftp.wormbase.org and places the results in the agrjbrowse bucket.
+   b. https://github.com/WormBase/website-jbrowse-protein processes the "amino
+   acid" space GFF files from the WormBase ftp site and places them in the
+   Alliance JBrowse S3 bucket.
+   See the README documents in each of these repos for details on how they run.
 
-   a. Run website-admin/update/staging/steps/create_gbrowse_configuration.pl
-   with --release WSnumber and --path pointing at the new git clone,
-   new_gbrowse_release_clone/gbrowse. This process will take a while
-   but generally less than 30 minutes.
+3. Build the configuration files
 
-   b. Add, commit and push the newly created release directory as well as all
-   of the updated symlinks in the main directory. The remaining GBrowse tasks
-   will take place on the gbrowse.wormbase.org server.
-
-3. Build JBrowse. This is a much more involved process at the moment.
-
-   a. Copy the c_elegans.jbrowse.conf (the controling config file for
-   the build) and update the release number and paths (basically,
-   do `:% s/oldreleasenumber/newreleasenumber/g` (vim) in the file) and
-   log4perl.conf to the jbrowse_build/build directory.
-
-   b. Run website-genome-browsers/jbrowse/bin/build.sh -r $RELEASE in
-   the jbrowse_build/build directory in a screen process. It will
-   take a long time run, generally in the ballpark of 24 hours.
-
-   c. Run website-genome-browsers/jbrowse/bin/upload2s3.sh -r $RELEASE
-   This will also take a long time and should be done in a screen.
-
-   d. In parallel with "b", run website-genome-browsers/jbrowse/bin/s3ify_trackList.sh -r $RELEASE
-   in the jbrowse_build/jbrowse/tools/genome/jbrowse/data/ directory.
-   This "unrolls" the includes in the trackList.json files and
-   changes the relative urlTemplate entries to use absolute S3 URLs.
-
-   e. Also in the jbrowse_build/jbrowse/tools/genome/jbrowse/data/ directory,
-   run website-genome-browsers/jbrowse/bin/mv_trackLists.sh -r $RELEASE
-   which will take the results of the s3ify_trackList.sh script and
-   move them into the place in the checked out git branch for
-   this jbrowse release. Git add, commit and push these files.
-
-   f. Edit website-genome-browsers/jbrowse/jbrowse/plugins/wormbase-glyphs/js/main.js
-   to bump the version number (this drives the displayed version in JBrowse)
-
-   g. Build the jbrowse docker image. In website-genome-browsers/jbrowse/
-   run docker build --no-cache -t ws$RELEASE_jbrowse . --build-arg RELEASE=$RELEASE
-   and then run a container of the image to test it:
-   docker run docker run -d -p 9020:80 ws$RELEASE_jbrowse. Note that
-   the staging image of the previous release may still be running
-   so it might have to be stopped and removed before running the
-   newly built image. This instance, running on dev.wormbase.org
-   port 9020 is the JBrowse instance for staging.wormbase.org.
-
-   h. Push the docker container to the GMOD account at Docker Hub:
-   docker commit -m "WormBase JBrowse release $RELEASE" -a "Scott Cain" <container name> gmod/wormbase-jbrowse:WS$RELEASE;
-   docker login; docker push gmod/wormbase-jbrowse:WS$RELEASE
-
-4. Building the JBrowse-based protein_schematic tool.
-
-   a. Copy the build.sh script from the previous build and update
-   the release numbers (this should be converted to a "real" bash
-   script like is used for JBrowse building). Run build.sh
-   in a screen process since it will take a long time.
-
-   b. upload data to S3, build/run docker container
-
-5. Transfer the GBrowse build results to the gbrowse.wormbase.org
-   server's staging section:
-
-   a. In gbrowse.wormbase.org:staging/gbrowse/website-genome-browsers,
-   checkout the release version branch for gbrowse. Restart apache2
-   so that it will reread the config files.
-
-   b. Once you're convinced that this build is good, create a pull request
-   to merge the release version branch into the staging branch.
-
-   c. Checkout the staging branch on the gbrowse server.
+4. Update the "amplify" repos for each of the servers.
 
 # Moving from staging to production
 
-Before the move, the pull requests should be made from the build-specific
-branches into the staging branches ("staging" for GBrowse, "jbrowse-staging"
-for JBrowse, protein-staging for protein-schematic), and those should get
-pulled into staging with subsequent merges. See the section above for
-more on that. At some point after that, right before the move to production,
-there should be pull requests from staging into the production branches
-("production" for GBrowse, "jbrowse-production" for JBrowse, "protein-production"
-for protein-schematic), and subsequent merges. Note that functionally
-speaking, the jbrowse and protein-schematic versions of the production
-branches don't really get used for anything, as the docker images are
-built from the release branches, and the staging branches only serve to
-preserve changes from one release branch to the next.
-
-To implement the move to production, for GBrowse all that needs to happen
-is a pull into the production branch checkout that is set up to serve
-GBrowse and restarting apache.
-
-# Important paths on the server
-
-Obviously, in the ubuntu user's home directory are staging and production
-directories.
-
-/etc/apache2/sites-available - contains apache VIRTUALHOST configs for GBrowse, GBrowse_syn, and JBrowse. This should be in the repo somewhere but currently are not.
-
-/etc/apache2/conf-available - more apache configs for GBrowse where paths and aliases are set.
-
-/usr/share/perl5/Bio/Graphics/Browser2 - where the perl code for GBrowse resides. Yes, I have edited this manually to fix bugs even though it's under apt control.
+Since the three JBrowse instances are all served by AWS Amplify, all that
+needs to be done to move the staging instances into production is to merge
+each of the staging branches into the main branch in each "amplify-wb" repo.
