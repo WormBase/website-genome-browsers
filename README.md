@@ -194,7 +194,29 @@ Alliance of Genome Resources JBrowse plugin:
 # Updating the protein schematic JBrowse instance
 
 Updating the protein schematic JBrowse instance is similar to it nucleotide
-based cousin.
+based cousin. Following the first two steps above will result in the protein
+data being in place for the coming WormBase release. Updating the configuration
+to allow the protein JBrowse find it's data is fairly straight foward, since
+the tracks available for each "assembly" doesn't change from release to release.
+The only thing that needs to change is the release number in the URLs that point
+to the data. Perhaps the easist way to do that is a perl one-liner that updates
+all of the involved trackList.json files. For example:
+
+```
+cd amplify-wb-prot-schematic/data
+git checkout staging
+perl -pi -e 's/WS292/WS293/' */trackList.json
+git add */trackList.json
+git commit
+git push
+```
+
+And once again, pushing these commits to the staging branch of the
+amplify-wb-prot-schematic repo will cause a rebuild of the protein schematic
+JBrowse instance on the staging site.
+
+Note that there is a similarly named repo in the WormBase GitHub; please be sure
+to use the right one!
 
 # Moving from staging to production
 
