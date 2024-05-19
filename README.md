@@ -127,9 +127,10 @@ Alliance of Genome Resources JBrowse plugin:
 
    CHECK THIS!!!!!! ^^^^^^
 
-   Add, commit and push these changes to the staging branch of the
-   `amplify-wb-jbrowse1` repo which will trigger the rebuilding of the staging
-   JBrowse 1 instance.
+   IMPORTANT NOTE: this rsyncing must be done for both directories: jbrowse
+   and jbrowse-simple. Add, commit and push these changes to the staging branch
+   of the `amplify-wb-jbrowse1` repo which will trigger the rebuilding of the
+   staging JBrowse 1 instance.
 
    For JBrowse 2, expand the zip file in a temporary directory (it expands
    in place, so make sure to use a temp directory!):
@@ -143,7 +144,57 @@ Alliance of Genome Resources JBrowse plugin:
    Committing this file and pushing it will trigger a rebuilding the staging
    JBrowse 2 instance.
 
-6. Update JBrowse 1 or 2 source.
+6. Update JBrowse 1 or 2 source (optional). The above directions will cause
+   the JBrowse instances to be rebuilt with the new configurations that point at
+   the next WormBase data release. If it is desired to update the JBrowse software
+   version, that is not too hard.
+
+   a. JBrowse 1: the tarball that contained the configurations for JBrowse 1
+   also have all of the code needed to run JBrowse. The build depends on the
+   jbrowse github repo and is built from the `dev` branch. If another branch is
+   required, be sure to change it before building the container in step 3 above.
+   With the contents of the tarball in hand, copy the contents of the `dist`
+   directories in each of the jbrowse and jbrowse-simple directories. It is
+   typically a good idea to clear out the contents of those directories with
+   `git rm` first, to help avoid clutter. So something like this:
+
+   ```
+   cd amplify-wb-jbrowse1/jbrowse-simple/dist
+   git checkout staging
+   git rm *
+   cp ~/tmp/jbrowse-simple/dist/* .
+   git add *
+   git commit
+   git push
+   ```
+
+   Again, pushing to the staging branch will cause the rebuild of JBrowse 1.
+
+   b. JBrowse 2: to update the JBrowse 2 version that is running at WormBase,
+   it's easy to make use of the JBrowse command line interface:
+   https://jbrowse.org/jb2/docs/cli/#installation. In this instance, it's a
+   good idea to clear out the javascript directory where the code is for
+   JBrowse 2, again to prevent the build up of clutter. Upgrading to the
+   current release of JBrowse 2 would then look something like this:
+
+   ```
+   cd amplify-wb-jbrowse2/static/js
+   git checkout staging
+   git rm *
+   cd ../..
+   jbrowse upgrade
+   git add --all
+   git commit
+   git push
+   ```
+
+   Again, pushing to the staging branch will cause the rebuild of JBrowse 2 for
+   the staging site.
+
+# Updating the protein schematic JBrowse instance
+
+Updating the protein schematic JBrowse instance is similar to it nucleotide
+based cousin.
 
 # Moving from staging to production
 
