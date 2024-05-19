@@ -71,12 +71,13 @@ Alliance of Genome Resources JBrowse plugin:
 3. Build the configuration files. During the running of the previous step for
    genomic assemblies (as opposed to the protein browser, more on that below),
    "preliminary" trackConfig.json files are created that indicate what data
-   types are available for each assembly and placed in the S3 bucket along with
-   the formatted data. The Dockerfile that used to be used to serve JBrowse 1
-   (and still can be for testing or providing to users) now generates
-   full configuration files for the current release's JBrowse 1. For JBrowse 2,
-   the `Dockerfile.mkzip` container places a zip file of the entire set of files
-   needed for running JBrowse 2. The relevent Dockerfiles that are needed are:
+   types are available (and thus, what tracks will appear) for each assembly
+   and placed in the S3 bucket along with the formatted data. The Dockerfile
+   that used to be used to serve JBrowse 1 (and still can be for testing or
+   providing to users) now generates full configuration files for the current
+   release's JBrowse 1. For JBrowse 2, the `Dockerfile.mkzip` container places
+   a zip file of the entire set of files needed for running JBrowse 2. The
+   relevent Dockerfiles that are needed are:
 
    a. https://github.com/WormBase/website-genome-browsers/blob/jbrowse-staging/jbrowse/Dockerfile
 
@@ -89,7 +90,9 @@ Alliance of Genome Resources JBrowse plugin:
    `docker run` command). Usually, I just run the container on my laptop, so the
    run command looks like:
 
+   ```
    docker run -d -p 8080:80 jb1_container
+   ```
 
    point your browser at (or `curl -O` at) http://servername:port/tools/genome.tar.gz
    The contents of the genome.tar.gz file are the jbrowse and jbrowse-simple
@@ -100,15 +103,45 @@ Alliance of Genome Resources JBrowse plugin:
    container doesn't need to `run`. Just building it gets the necessary file.
    The build command looks like this:
 
+   ```
    docker build --build-arg "AWS_ACCESS_KEY_ID=<access>" \
     --build-arg "AWS_SECRET_ACCESS_KEY=<secret>" \
     --no-cache -f Dockerfile.mkzip -t jb2-mkzip .
+   ```
 
    Get the zip file from the bucket:
 
+   ```
    aws s3 cp s3://agrjbrowse/jbrowse2-release$RELEASE.zip .
+   ```
 
-5. Update the Amplify repos.
+5. Update the Amplify repos. For JBrowse 1, expand the tarball in a temporary
+   directory where you will get a `jbrowse` and `jbrowse-simple` directories.
+   The contents of the data directories in each of these jbrowse directories
+   needs to be rsync'ed to the same directory in the `amplify-wb-jbrowse1`
+   repo. For example, like this:
+
+   ```
+   rsync -av jbrowse/data/ ~/amplify-wb-jbrowse1/jbrowse/data/
+   ```
+
+   CHECK THIS!!!!!! ^^^^^^
+
+   Add, commit and push these changes to the staging branch of the
+   `amplify-wb-jbrowse1` repo which will trigger the rebuilding of the staging
+   JBrowse 1 instance.
+
+   For JBrowse 2, expand the zip file in a temporary directory (it expands
+   in place, so make sure to use a temp directory!):
+
+   ```
+   unzip jbrowse2-release$RELEASE.zip
+   ```
+
+   and copy the `config.json` file to the top level of the `amplify-wb-jbrowse2`
+   repo's staging branch (replacing the config file from the previous release)
+   Committing this file and pushing it will trigger a rebuilding the staging
+   JBrowse 2 instance.
 
 6. Update JBrowse 1 or 2 source.
 
