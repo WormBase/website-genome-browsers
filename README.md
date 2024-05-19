@@ -1,5 +1,3 @@
-This needs to be updated for multiple changes in the jbrowse build process.
-
 This is the WormBase website-genome-browsers repository.
 
 It contains the configuration files for GBrowse and GBrowse_syn (no longer
@@ -46,7 +44,7 @@ Alliance of Genome Resources JBrowse plugin:
 
 # Typical build procedure
 
-1. After GFF files are available on dev server at `/usr/local/ftp/pub/wormbase/releases/`,
+1. After GFF files are available on the ftp site ftp.wormbase.org,
    create branches of this repo for each JBrowse (jbrowse-$RELEASE),
    protein-schematic (protein-$RELEASE) and JBrowse 2 (jb2-$RELEASE)
    off of their "staging" branches. Note that references to $RELEASE in this
@@ -56,31 +54,63 @@ Alliance of Genome Resources JBrowse plugin:
    (s3://agrjbrowse/MOD-jbrowses/WormBase/): Data preperation takes place in
    Docker containers that run on the Alliance GoCD server. These containers are
    defined in their own GitHub repos:
-   
+
    a. https://github.com/WormBase/website-jbrowse-gff processes the GFF files
    obtained from ftp.wormbase.org and places the results in the agrjbrowse bucket.
-   
+
    b. https://github.com/WormBase/website-jbrowse-protein processes the "amino
    acid" space GFF files from the WormBase ftp site and places them in the
    Alliance JBrowse S3 bucket.
-   
+
    See the README documents in each of these repos for details on how they run.
+   Usually, the only thing that needs to change those repos the value of
+   `$RELEASE` in their `parallel.sh` scripts (if those aren't updated, you run
+   the risk of overwriting the data of the current production release when
+   these tools are run).
 
 3. Build the configuration files. During the running of the previous step for
    genomic assemblies (as opposed to the protein browser, more on that below),
    "preliminary" trackConfig.json files are created that indicate what data
    types are available for each assembly and placed in the S3 bucket along with
-   the formatted data. The Dockerfiles that used to be used to serve JBrowse 1
-   and 2 (and still can be for testing or providing to users) now generates
-   full configuration files for the current release's JBrowse 1 and 2. The
-   relevent Dockerfiles that are needed are:
+   the formatted data. The Dockerfile that used to be used to serve JBrowse 1
+   (and still can be for testing or providing to users) now generates
+   full configuration files for the current release's JBrowse 1. For JBrowse 2,
+   the `Dockerfile.mkzip` container places a zip file of the entire set of files
+   needed for running JBrowse 2. The relevent Dockerfiles that are needed are:
+
    a. https://github.com/WormBase/website-genome-browsers/blob/jbrowse-staging/jbrowse/Dockerfile
+
    and
+
    b. https://github.com/WormBase/website-genome-browsers/blob/jb2-staging/jbrowse2/Dockerfile.mkzip
 
-4. Build the configuration files
+4. Get the configuration files. For JBrowse 1, run the docker container somewhere
+   in a server configuration (that is, provide `-d` and `-p ##:##` flags in the
+   `docker run` command). Usually, I just run the container on my laptop, so the
+   run command looks like:
 
-5. Update the "amplify" repos for each of the servers.
+   docker run -d -p 8080:80 jb1_container
+
+   point your browser at (or `curl -O` at) http://servername:port/tools/genome.tar.gz
+   The contents of the genome.tar.gz file are the jbrowse and jbrowse-simple
+   directories that also exist in the JBrowse 1 Amplify repo.
+
+   For JBrowse 2, building the `Dockerfile.mkzip` deposits a zip file in the
+   top level directory of the Alliance JBrowse S3 bucket. Note that this
+   container doesn't need to `run`. Just building it gets the necessary file.
+   The build command looks like this:
+
+   docker build --build-arg "AWS_ACCESS_KEY_ID=<access>" \
+    --build-arg "AWS_SECRET_ACCESS_KEY=<secret>" \
+    --no-cache -f Dockerfile.mkzip -t jb2-mkzip .
+
+   Get the zip file from the bucket:
+
+   aws s3 cp s3://agrjbrowse/jbrowse2-release$RELEASE.zip .
+
+5. Update the Amplify repos.
+
+6. Update JBrowse 1 or 2 source.
 
 # Moving from staging to production
 
