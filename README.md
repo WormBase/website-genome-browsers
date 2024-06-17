@@ -57,6 +57,8 @@ Alliance of Genome Resources JBrowse plugin:
 
    a. https://github.com/WormBase/website-jbrowse-gff processes the GFF files
    obtained from ftp.wormbase.org and places the results in the agrjbrowse bucket.
+   (Note that the README in the website-jbrowse-gff repo will require
+   changes to this repo before running the analysis step.)
 
    b. https://github.com/WormBase/website-jbrowse-protein processes the "amino
    acid" space GFF files from the WormBase ftp site and places them in the
@@ -68,7 +70,7 @@ Alliance of Genome Resources JBrowse plugin:
    the risk of overwriting the data of the current production release when
    these tools are run).
 
-3. Build the configuration files. During the running of the previous step for
+4. Build the configuration files. During the running of the previous step for
    genomic assemblies (as opposed to the protein browser, more on that below),
    "preliminary" trackConfig.json files are created that indicate what data
    types are available (and thus, what tracks will appear) for each assembly
@@ -85,7 +87,7 @@ Alliance of Genome Resources JBrowse plugin:
 
    b. https://github.com/WormBase/website-genome-browsers/blob/jb2-staging/jbrowse2/Dockerfile.mkzip
 
-4. Get the configuration files. For JBrowse 1, run the docker container somewhere
+5. Get the configuration files. For JBrowse 1, run the docker container somewhere
    in a server configuration (that is, provide `-d` and `-p ##:##` flags in the
    `docker run` command). Usually, I just run the container on my laptop, so the
    run command looks like:
@@ -115,7 +117,7 @@ Alliance of Genome Resources JBrowse plugin:
    aws s3 cp s3://agrjbrowse/jbrowse2-release$RELEASE.zip .
    ```
 
-5. Update the Amplify repos. For JBrowse 1, expand the tarball in a temporary
+6. Update the Amplify repos. For JBrowse 1, expand the tarball in a temporary
    directory where you will get a `jbrowse` and `jbrowse-simple` directories.
    The contents of the data directories in each of these jbrowse directories
    needs to be rsync'ed to the same directory in the `amplify-wb-jbrowse1`
@@ -144,7 +146,7 @@ Alliance of Genome Resources JBrowse plugin:
    Committing this file and pushing it will trigger a rebuilding the staging
    JBrowse 2 instance.
 
-6. Update JBrowse 1 or 2 source (optional). The above directions will cause
+7. Update JBrowse 1 or 2 source (optional). The above directions will cause
    the JBrowse instances to be rebuilt with the new configurations that point at
    the next WormBase data release. If it is desired to update the JBrowse software
    version, that is not too hard.
