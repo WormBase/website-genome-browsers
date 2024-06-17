@@ -9,7 +9,7 @@
 
 FROM gmod/jbrowse-buildenv:latest as build
 
-ARG RELEASE=283
+ARG RELEASE=292
 
 # JBrowse source
 RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
@@ -25,7 +25,7 @@ RUN git clone --single-branch --branch dev https://github.com/GMOD/jbrowse.git
 
 
 RUN git clone --single-branch --branch jbrowse-${RELEASE} https://github.com/WormBase/website-genome-browsers.git
-#RUN git clone --single-branch --branch jbrowse-production https://github.com/WormBase/website-genome-browsers.git
+#UN git clone --single-branch --branch add_blast_track_config https://github.com/WormBase/website-genome-browsers.git
 
 # Provides the PWM motif search plugin
 RUN git clone --single-branch --branch 1.0 https://github.com/scottcain/MotifSearch.git
