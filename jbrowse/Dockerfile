@@ -9,7 +9,7 @@
 
 FROM gmod/jbrowse-buildenv:latest as build
 
-ARG RELEASE=291
+ARG RELEASE=293
 RUN apt-get --allow-releaseinfo-change -qq --fix-missing update
 RUN apt-get --no-install-recommends -y install rsync
 
