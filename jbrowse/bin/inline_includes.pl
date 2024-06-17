@@ -115,12 +115,26 @@ for my $i (@{$$trackList{'include'}}) {
 my $includedir = "$Bin/../jbrowse/data/c_elegans";
 
 for my $f (@includes) {
-    local $/ = undef;
-    open (my $F, "<", "$includedir/$f") or die "$!:$f";
-    my $data = <$F>;
-    close $F;
-
-    warn $f;
+    if ($f eq 'includes/rnaseq_splice.json') {
+         #$f = 'includes/' . $BIOPROJECT .'_rnaseq_splice.json';
+         #warn $f;
+         # explicitly skipping this since the species specific config will get picked up
+         next;
+    }
+    if ($f eq 'includes/operons.json') {
+         #$f = 'includes/' .$BIOPROJECT .'_operons.json';
+         #warn $f;
+         # explicitly skipping this since the species specific config will get picked up
+         next;
+    }
+    my $data;
+    {
+        local $/ = undef;
+        open (my $F, "<", "$includedir/$f") or die "$!:$f";
+        $data = <$F>;
+        close $F;
+    }
+    #warn $f;
     $json = JSON->new->decode($data);
 
     for my $a (@{$$json{'tracks'}}){
