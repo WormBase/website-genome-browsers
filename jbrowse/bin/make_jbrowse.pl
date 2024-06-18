@@ -578,7 +578,7 @@ if ($copyfailed == 1 and !$SIMPLE) {
 
 ##    my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
     my $httppath = "/releases/WS$RELEASE/species/$speciesdir/$projectdir";
-    my $gff      = "$httppath$GFFFILE.gz";
+    my $gff      = "$httppath/$GFFFILE.gz";
 
 ##    my $gff = "$ftpgffpath/$GFFFILE.gz";
 ##    my $fasta = "$ftpgffpath/$FASTAFILE.gz";
