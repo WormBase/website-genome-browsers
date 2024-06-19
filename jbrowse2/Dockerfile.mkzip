@@ -5,11 +5,11 @@
 
 FROM gmod/jbrowse2-buildenv:1.2
 
-ARG RELEASE=289
+ARG RELEASE=292
 ARG AWS_ACCESS_KEY_ID
 ARG AWS_SECRET_ACCESS_KEY
 
-RUN git clone --single-branch --branch jb2-289 https://github.com/WormBase/website-genome-browsers.git
+RUN git clone --single-branch --branch jb2-292 https://github.com/WormBase/website-genome-browsers.git
 
 RUN mkdir -p /usr/share/nginx/html/tools/genome
 WORKDIR /usr/share/nginx/html/tools/genome/
@@ -49,6 +49,8 @@ RUN ../../../bin/make_embed_config.pl --release $RELEASE
 RUN ../../../bin/make_global_config.pl --release $RELEASE > config.json
 
 RUN cp config.json /usr/share/nginx/html/tools/genome/jbrowse2/config.json
+RUN cp /blast_tracks.json /usr/share/nginx/html/tools/genome/jbrowse2/blast_tracks.json
+RUN cp /blast_tracks.txt /usr/share/nginx/html/tools/genome/jbrowse2/blast_tracks.txt
 
 RUN mkdir -p /usr/share/nginx/html/tools/genome/jbrowse2/embed/
 RUN cp *embed.json /usr/share/nginx/html/tools/genome/jbrowse2/embed/

@@ -53,12 +53,36 @@ my $trackList = JSON->new->decode($blob);
 
 #create list of track configs to include
 my @includes;
+my @blast_tracks;
 for my $i (@{$$trackList{'include'}}) {
     $i =~ s/includes\///;
+    if ($i eq 'operons.json') {
+        #$i = $ASSEMBLY . '_operons.json';
+        # explicitly skip this since the species specific config will get picked up
+        next;
+    }
+    if ($i eq 'rnaseq_splice.json') {
+        #$i = $ASSEMBLY . '_rnaseq_splice.json';
+        # explicitly skip this since the species specific config will get picked up
+        next;
+    }
     push @includes, $i unless ($i =~ /functions.conf/
                             or $i =~ /PR.*DNA.json/
                             or $i =~ /alphafold/
                             or $i =~ /expression_patterns/);
+
+    if ($i eq 'genes.json') {
+        push @blast_tracks, $ASSEMBLY . "_curated_genes";
+    }
+    elsif ($i eq 'protein_motifs.json') {
+        push @blast_tracks, $ASSEMBLY . "_protein_motifs";
+    }
+    elsif ($i eq 'variations_classical_alleles.json') {
+        push @blast_tracks, $ASSEMBLY . "_classical_alleles";
+    }
+    elsif ($i eq 'genblastg.json') {
+        push @blast_tracks, $ASSEMBLY . "_genblastg_cds_predictions";
+    }
 }
 
 my $includedir = "$Bin/../config/track_configs";
@@ -92,6 +116,14 @@ $$outputjson{tracks} = \@tracks;
 
 #print JSON->new->pretty(1)->encode($outputjson);
 
+open (my $BLAST, ">>", '/blast_tracks.txt') or die "couldn't open blast_tracks.txt: $!";
+
+warn join(',',@blast_tracks);
+if (scalar @blast_tracks > 0) {
+     warn "$ASSEMBLY\t" . join(',',@blast_tracks) . "\n";
+     print $BLAST "$ASSEMBLY\t" . join(',',@blast_tracks) . "\n"; 
+}
+close $BLAST;
 
 # create a 'tracks' section for a server instance
 open (my $trackout, ">", $ASSEMBLY."_tracks.json") or die "$!";
