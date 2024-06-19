@@ -124,7 +124,8 @@ Alliance of Genome Resources JBrowse plugin:
    repo. For example, like this:
 
    ```
-   rsync -av jbrowse/data/ ~/amplify-wb-jbrowse1/jbrowse/data/
+   rsync -av jbrowse/data/        ~/amplify-wb-jbrowse1/jbrowse/data/
+   rsync -av jbrowse-simple/data/ ~/amplify-wb-jbrowse1/jbrowse-simple/data/
    ```
 
    CHECK THIS!!!!!! ^^^^^^
