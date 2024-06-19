@@ -129,7 +129,8 @@ Alliance of Genome Resources JBrowse plugin:
    ```
 
    IMPORTANT NOTE: this rsyncing must be done for both directories: jbrowse
-   and jbrowse-simple. Add, commit and push these changes to the staging branch
+   and jbrowse-simple. Add (probably best done via `git add --all`),
+   commit and push these changes to the staging branch
    of the `amplify-wb-jbrowse1` repo which will trigger the rebuilding of the
    staging JBrowse 1 instance.
 
@@ -145,7 +146,7 @@ Alliance of Genome Resources JBrowse plugin:
    Committing this file and pushing it will trigger a rebuilding the staging
    JBrowse 2 instance.
 
-7. Update JBrowse 1 or 2 source (optional). The above directions will cause
+8. Update JBrowse 1 or 2 source (optional). The above directions will cause
    the JBrowse instances to be rebuilt with the new configurations that point at
    the next WormBase data release. If it is desired to update the JBrowse software
    version, that is not too hard.
