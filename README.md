@@ -128,8 +128,6 @@ Alliance of Genome Resources JBrowse plugin:
    rsync -av jbrowse-simple/data/ ~/amplify-wb-jbrowse1/jbrowse-simple/data/
    ```
 
-   CHECK THIS!!!!!! ^^^^^^
-
    IMPORTANT NOTE: this rsyncing must be done for both directories: jbrowse
    and jbrowse-simple. Add, commit and push these changes to the staging branch
    of the `amplify-wb-jbrowse1` repo which will trigger the rebuilding of the
