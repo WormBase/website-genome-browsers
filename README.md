@@ -142,7 +142,9 @@ Alliance of Genome Resources JBrowse plugin:
    ```
 
    and copy the `config.json` file to the top level of the `amplify-wb-jbrowse2`
-   repo's staging branch (replacing the config file from the previous release)
+   repo's staging branch (replacing the config file from the previous release),
+   as well as the contents of the `embed` directory to the corresponding
+   dirctory in the amplify repo.
    Committing this file and pushing it will trigger a rebuilding the staging
    JBrowse 2 instance.
 
