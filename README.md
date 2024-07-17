@@ -27,7 +27,8 @@ For the protein schematic tool:
 
 - protein_schematic_production is the production config
 - protein_schematic_staging is the staging config
-- protein-### is the branch for building specific releases
+- protein-### is the branch for building specific releases (this branch is
+  generally not needed any more since the switch to AWS Amplify--see notes below).
 
 JBrowse 2
 
@@ -46,9 +47,10 @@ Alliance of Genome Resources JBrowse plugin:
 
 1. After GFF files are available on the ftp site ftp.wormbase.org,
    create branches of this repo for each JBrowse (jbrowse-$RELEASE),
-   protein-schematic (protein-$RELEASE) and JBrowse 2 (jb2-$RELEASE)
-   off of their "staging" branches. Note that references to $RELEASE in this
-   document means the release numeral (ie, without the "WS").
+   and JBrowse 2 (jb2-$RELEASE) off of their "staging" branches. Note that
+   references to $RELEASE in this document means the release numeral (ie,
+   without the "WS"). Note that it is generally not necessary to create a
+   release specific banch for the protein browser.
 
 2. Prepare JBrowse data and place in the Alliance JBrowse S3 bucket
    (s3://agrjbrowse/MOD-jbrowses/WormBase/): Data preperation takes place in
@@ -70,7 +72,7 @@ Alliance of Genome Resources JBrowse plugin:
    the risk of overwriting the data of the current production release when
    these tools are run).
 
-4. Build the configuration files. During the running of the previous step for
+3. Build the configuration files. During the running of the previous step for
    genomic assemblies (as opposed to the protein browser, more on that below),
    "preliminary" trackConfig.json files are created that indicate what data
    types are available (and thus, what tracks will appear) for each assembly
@@ -78,8 +80,9 @@ Alliance of Genome Resources JBrowse plugin:
    that used to be used to serve JBrowse 1 (and still can be for testing or
    providing to users) now generates full configuration files for the current
    release's JBrowse 1. For JBrowse 2, the `Dockerfile.mkzip` container places
-   a zip file of the entire set of files needed for running JBrowse 2. The
-   relevent Dockerfiles that are needed are:
+   a zip file of the entire set of files needed for running JBrowse 2 in the top
+   level of the AWS S3 bucket (agrjbrowse). The relevent Dockerfiles that are
+   needed are:
 
    a. https://github.com/WormBase/website-genome-browsers/blob/jbrowse-staging/jbrowse/Dockerfile
 
@@ -87,7 +90,7 @@ Alliance of Genome Resources JBrowse plugin:
 
    b. https://github.com/WormBase/website-genome-browsers/blob/jb2-staging/jbrowse2/Dockerfile.mkzip
 
-5. Get the configuration files. For JBrowse 1, run the docker container somewhere
+4. Get the configuration files. For JBrowse 1, run the docker container somewhere
    in a server configuration (that is, provide `-d` and `-p ##:##` flags in the
    `docker run` command). Usually, I just run the container on my laptop, so the
    run command looks like:
@@ -117,7 +120,7 @@ Alliance of Genome Resources JBrowse plugin:
    aws s3 cp s3://agrjbrowse/jbrowse2-release$RELEASE.zip .
    ```
 
-6. Update the Amplify repos. For JBrowse 1, expand the tarball in a temporary
+5. Update the Amplify repos. For JBrowse 1, expand the tarball in a temporary
    directory where you will get a `jbrowse` and `jbrowse-simple` directories.
    The contents of the data directories in each of these jbrowse directories
    needs to be rsync'ed to the same directory in the `amplify-wb-jbrowse1`
@@ -145,10 +148,10 @@ Alliance of Genome Resources JBrowse plugin:
    repo's staging branch (replacing the config file from the previous release),
    as well as the contents of the `embed` directory to the corresponding
    dirctory in the amplify repo.
-   Committing this file and pushing it will trigger a rebuilding the staging
+   Committing these files and pushing will trigger a rebuilding the staging
    JBrowse 2 instance.
 
-8. Update JBrowse 1 or 2 source (optional). The above directions will cause
+6. Update JBrowse 1 or 2 source (optional). The above directions will cause
    the JBrowse instances to be rebuilt with the new configurations that point at
    the next WormBase data release. If it is desired to update the JBrowse software
    version, that is not too hard.
