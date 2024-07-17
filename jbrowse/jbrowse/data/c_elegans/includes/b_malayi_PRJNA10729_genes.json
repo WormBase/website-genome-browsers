@@ -37,7 +37,7 @@
          },
          "onClick" : {
             "label" : "Right/Control click for more options",
-            "url" : "{transcriptURL}",
+            "url" : "{simpleGeneURL}",
             "title" : "Feature in WormBase",
             "action" : "iframeDialog"
          },
