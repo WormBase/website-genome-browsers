@@ -127,6 +127,10 @@ for my $f (@includes) {
          # explicitly skipping this since the species specific config will get picked up
          next;
     }
+    if ($BIOPROJECT !~ /simple/ and $f eq 'includes/genes.json') {
+        # explicitly skipping this since the species specific config will get picked up
+        next;
+    }
     my $data;
     {
         local $/ = undef;

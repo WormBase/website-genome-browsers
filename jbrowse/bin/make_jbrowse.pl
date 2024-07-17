@@ -208,6 +208,7 @@ $JBROWSESRC = $Config->{_}->{jbrowsesrc};
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||=  $Config->{_}->{jbrowsedir};;
 $FTPHOST    = 'ftp://ftp.wormbase.org';
+my $HTTPHOST= 'https://downloads.wormbase.org';
 $FASTAMD5   = "$JBROWSEREPO/../conf/fasta_md5.txt";
 
 if ($SPECIES eq 'c_elegans_simple') {
@@ -452,7 +453,7 @@ chdir $INITIALDIR;
 #check for tracks that have data but didn't get processed
 for my $key (keys %{ $speciesdata{$species} }) {
     next if $speciesdata{$species}{$key} == -1;
-    $log->error( "\n\nWARNING: TRACK WITH DATA BUT NO CONFIG: $key\n\n");
+    $log->warn( "\n\nWARNING: TRACK WITH DATA BUT NO CONFIG: $key\n\n");
 }
 
 exit(0);
@@ -575,13 +576,16 @@ if ($copyfailed == 1 and !$SIMPLE) {
 ##    die "local copying of data files failed";
     #use ftp to fetch them
 
-    my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
+##    my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
+    my $httppath = "/releases/WS$RELEASE/species/$speciesdir/$projectdir";
+    my $gff      = "$httppath/$GFFFILE.gz";
 
-    my $gff = "$ftpgffpath/$GFFFILE.gz";
+##    my $gff = "$ftpgffpath/$GFFFILE.gz";
 ##    my $fasta = "$ftpgffpath/$FASTAFILE.gz";
 
     my $quiet = $QUIET ? '-q' : '';
-    system("wget $quiet $FTPHOST$gff");
+    system("wget", $quiet, "$HTTPHOST$gff") == 0 or die "unable to fetch $HTTPHOST$gff: $!";
+##    system("wget $quiet $FTPHOST$gff");
 ##    system("wget $quiet $FTPHOST$fasta");
 }
 
