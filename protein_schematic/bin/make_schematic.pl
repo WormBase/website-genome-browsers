@@ -75,14 +75,17 @@ chdir $JBROWSEDIR or die $!." $JBROWSEDIR\n";
 
 #prepare refseqs
 #fetch fasta file from ftp
-my $FTPHOST    = 'ftp://ftp.wormbase.org';
+#my $FTPHOST    = 'ftp://ftp.wormbase.org';
+#
+# fetch files via https instead
+my $HTTPHOST = 'https://downloads.wormbase.org';
 
 
 my ($GENUS,$species,$BIOPROJECT) = split('_', $SPECIES);
 $FASTAFILE ||= $GENUS . "_" . "$species.$BIOPROJECT.WS$RELEASE.protein.fa.gz";
-my $FTPPATH = "/pub/wormbase/releases/WS$RELEASE/species/$GENUS" . "_" . "$species/$BIOPROJECT";
-my $ftpfastapath = "$FTPPATH/$FASTAFILE";
-system("wget $FTPHOST/$ftpfastapath");
+my $HTTPPATH = "/releases/WS$RELEASE/species/$GENUS" . "_" . "$species/$BIOPROJECT";
+my $httpfastapath = "$HTTPPATH/$FASTAFILE";
+system("wget $HTTPHOST/$httpfastapath") == 0 or die "couldn't fetch $HTTPHOST/$httpfastapath: $!";
 #my $fasta_fullpath = $FILEDIR.$GENUS."_$species/$BIOPROJECT/$FASTAFILE";
 my $command = "bin/prepare-refseqs.pl --compress --fasta $FASTAFILE --out $DATADIR";
 
@@ -92,10 +95,10 @@ unlink $FASTAFILE;
 #only generate names on the protein names
 system("$nice bin/generate-names.pl --out $DATADIR --compress");
 
-#fetch GFF file from ftp
+#fetch GFF file from http
 $GFFFILE ||= $GENUS . "_" . "$species.$BIOPROJECT.WS$RELEASE.protein_annotation.gff3";
-my $ftpgffpath = "$FTPPATH/$GFFFILE.gz";
-system("wget $FTPHOST/$ftpgffpath");
+my $httpgffpath = "$HTTPPATH/$GFFFILE.gz";
+system("wget $HTTPHOST/$httpgffpath");
 system("gzip -d $GFFFILE.gz");
 
 #process GFF file
