@@ -87,11 +87,16 @@ for my $i (@{$$trackList{'include'}}) {
 
 my $includedir = "$Bin/../config/track_configs";
 
+my $seenRNASeq = 0;
 for my $f (@includes) {
     local $/ = undef;
     if (!-e "$includedir/$f") {
         warn "$includedir/$f not found\n";
-	next;
+      	next;
+    }
+    if ($f =~ "rnaseq_splice") {
+        next if ($seenRNASeq);
+        $seenRNASeq++;
     }
     open (my $F, "<", "$includedir/$f") or die "$!:$f";
     my $data = <$F>;

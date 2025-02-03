@@ -12624,7 +12624,7 @@
       }
    },
    {
-      "name" : "GEI-11 Combined (GFP ChIP), GEI-11_Emb w peaks",
+      "name" : "SNPC-4 Combined (GFP ChIP), GEI-11_Emb w peaks",
       "assemblyNames" : [
          "c_elegans_PRJNA13758"
       ],
@@ -12653,7 +12653,7 @@
       ]
    },
    {
-      "description" : "Peak calls for GEI-11 Combined (GFP ChIP), GEI-11_Emb w peaks",
+      "description" : "Peak calls for SNPC-4 (was GEI-11) Combined (GFP ChIP), GEI-11_Emb w peaks",
       "category" : [
          "modENCODE data (2014)",
          "Transcription Factors",
@@ -12673,7 +12673,7 @@
          }
       ],
       "trackId" : "c_elegans_PRJNA13758__Transcription Factors_GFP ChIP_GEI-11 Combined (GFP ChIP)_ GEI-11_Emb w peaks_bigbed_peaks",
-      "name" : "__GEI-11 Combined (GFP ChIP), GEI-11_Emb peaks",
+      "name" : "__SNPC-4 Combined (GFP ChIP), GEI-11_Emb peaks",
       "type" : "FeatureTrack",
       "assemblyNames" : [
          "c_elegans_PRJNA13758"
@@ -12713,10 +12713,10 @@
       "assemblyNames" : [
          "c_elegans_PRJNA13758"
       ],
-      "name" : "GEI-11 Combined (GFP ChIP), GEI11_L2_GFP w peaks"
+      "name" : "SNPC-4 Combined (GFP ChIP), GEI11_L2_GFP w peaks"
    },
    {
-      "name" : "__GEI-11 Combined (GFP ChIP), GEI11_L2_GFP peaks",
+      "name" : "__SNPC-4 Combined (GFP ChIP), GEI11_L2_GFP peaks",
       "assemblyNames" : [
          "c_elegans_PRJNA13758"
       ],
@@ -12728,7 +12728,7 @@
          },
          "type" : "BigBedAdapter"
       },
-      "description" : "Peak calls for GEI-11 Combined (GFP ChIP), GEI11_L2_GFP w peaks",
+      "description" : "Peak calls for SNPC-4 (was GEI-11) Combined (GFP ChIP), GEI11_L2_GFP w peaks",
       "displays" : [
          {
             "type" : "LinearBasicDisplay",
@@ -12750,7 +12750,7 @@
       "trackId" : "c_elegans_PRJNA13758__Transcription Factors_GFP ChIP_GEI-11 Combined (GFP ChIP)_ GEI11_L2_GFP w peaks_bigbed_peaks"
    },
    {
-      "name" : "GEI-11 Combined (GFP ChIP), GEI11_L3_GFP w peaks",
+      "name" : "SNPC-4 Combined (GFP ChIP), GEI11_L3_GFP w peaks",
       "type" : "QuantitativeTrack",
       "assemblyNames" : [
          "c_elegans_PRJNA13758"
@@ -12779,7 +12779,7 @@
       "trackId" : "c_elegans_PRJNA13758__Transcription Factors_GFP ChIP_GEI-11 Combined (GFP ChIP)_ GEI11_L3_GFP w peaks"
    },
    {
-      "description" : "Peak calls for GEI-11 Combined (GFP ChIP), GEI11_L3_GFP w peaks",
+      "description" : "Peak calls for SNPC-4 (was GEI-11) Combined (GFP ChIP), GEI11_L3_GFP w peaks",
       "displays" : [
          {
             "displayId" : "GEI-11 Combined (GFP ChIP)_ GEI11_L3_GFP w peaks_Transcription Factors_GFP ChIP_bigbed_peaks",
@@ -12803,7 +12803,7 @@
       "assemblyNames" : [
          "c_elegans_PRJNA13758"
       ],
-      "name" : "__GEI-11 Combined (GFP ChIP), GEI11_L3_GFP peaks",
+      "name" : "__SNPC-4 Combined (GFP ChIP), GEI11_L3_GFP peaks",
       "adapter" : {
          "bigBedLocation" : {
             "locationType" : "UriLocation",
@@ -12817,7 +12817,7 @@
       "assemblyNames" : [
          "c_elegans_PRJNA13758"
       ],
-      "name" : "GEI-11 Combined (GFP ChIP), GEI11_L4_GFP w peaks",
+      "name" : "SNPC-4 Combined (GFP ChIP), GEI11_L4_GFP w peaks",
       "adapter" : {
          "bigWigLocation" : {
             "locationType" : "UriLocation",
@@ -12861,7 +12861,7 @@
          "Transcription Factors",
          "GFP ChIP"
       ],
-      "description" : "Peak calls for GEI-11 Combined (GFP ChIP), GEI11_L4_GFP w peaks",
+      "description" : "Peak calls for SNPC-4 (GEI-11) Combined (GFP ChIP), GEI11_L4_GFP w peaks",
       "adapter" : {
          "type" : "BigBedAdapter",
          "bigBedLocation" : {
@@ -12869,7 +12869,7 @@
             "locationType" : "UriLocation"
          }
       },
-      "name" : "__GEI-11 Combined (GFP ChIP), GEI11_L4_GFP peaks",
+      "name" : "__SNPC-4 Combined (GFP ChIP), GEI11_L4_GFP peaks",
       "assemblyNames" : [
          "c_elegans_PRJNA13758"
       ],
@@ -12902,14 +12902,14 @@
          "c_elegans_PRJNA13758"
       ],
       "type" : "QuantitativeTrack",
-      "name" : "GEI-11 Combined (GFP ChIP), GEI-11_L1 w peaks"
+      "name" : "SNPC-4 Combined (GFP ChIP), GEI-11_L1 w peaks"
    },
    {
       "assemblyNames" : [
          "c_elegans_PRJNA13758"
       ],
       "type" : "FeatureTrack",
-      "name" : "__GEI-11 Combined (GFP ChIP), GEI-11_L1 peaks",
+      "name" : "__SNPC-4 Combined (GFP ChIP), GEI-11_L1 peaks",
       "adapter" : {
          "type" : "BigBedAdapter",
          "bigBedLocation" : {
@@ -12917,7 +12917,7 @@
             "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/bigbed_binaries/18819_details.gff.bb"
          }
       },
-      "description" : "Peak calls for GEI-11 Combined (GFP ChIP), GEI-11_L1 w peaks",
+      "description" : "Peak calls for SNPC-4 (was GEI-11) Combined (GFP ChIP), GEI-11_L1 w peaks",
       "displays" : [
          {
             "displayId" : "GEI-11 Combined (GFP ChIP)_ GEI-11_L1 w peaks_Transcription Factors_GFP ChIP_bigbed_peaks",
@@ -12954,7 +12954,7 @@
          "Transcription Factors",
          "GFP ChIP"
       ],
-      "name" : "GEI-11 Combined (GFP ChIP), GEI-11_YA w peaks",
+      "name" : "SNPC-4 Combined (GFP ChIP), GEI-11_YA w peaks",
       "assemblyNames" : [
          "c_elegans_PRJNA13758"
       ],
@@ -12972,7 +12972,7 @@
          "c_elegans_PRJNA13758"
       ],
       "type" : "FeatureTrack",
-      "name" : "__GEI-11 Combined (GFP ChIP), GEI-11_YA peaks",
+      "name" : "__SNPC-4 Combined (GFP ChIP), GEI-11_YA peaks",
       "adapter" : {
          "bigBedLocation" : {
             "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/bigbed_binaries/18904_details.gff.bb",
@@ -12981,7 +12981,7 @@
          "type" : "BigBedAdapter"
       },
       "trackId" : "c_elegans_PRJNA13758__Transcription Factors_GFP ChIP_GEI-11 Combined (GFP ChIP)_ GEI-11_YA w peaks_bigbed_peaks",
-      "description" : "Peak calls for GEI-11 Combined (GFP ChIP), GEI-11_YA w peaks",
+      "description" : "Peak calls for SNPC-4 (GEI-11) Combined (GFP ChIP), GEI-11_YA w peaks",
       "displays" : [
          {
             "type" : "LinearBasicDisplay",
@@ -14921,7 +14921,7 @@
       }
    },
    {
-      "name" : "GEI-11 Combined (GFP ChIP) recalled peaks w peaks",
+      "name" : "SNPC-4 Combined (GFP ChIP) recalled peaks w peaks",
       "type" : "QuantitativeTrack",
       "assemblyNames" : [
          "c_elegans_PRJNA13758"
@@ -14950,7 +14950,7 @@
       "trackId" : "c_elegans_PRJNA13758__Transcription Factors_GFP ChIP (Peak Recall)_GEI-11 Combined (GFP ChIP) recalled peaks w peaks"
    },
    {
-      "name" : "__GEI-11 Combined (GFP ChIP) recalled peaks peaks",
+      "name" : "__SNPC-4 Combined (GFP ChIP) recalled peaks peaks",
       "assemblyNames" : [
          "c_elegans_PRJNA13758"
       ],
@@ -14962,7 +14962,7 @@
             "uri" : "https://s3.amazonaws.com/agrjbrowse/MOD-jbrowses/WormBase/static_tracks/modencode-bucket/bigbed_binaries/8063_details.gff.bb"
          }
       },
-      "description" : "Peak calls for GEI-11 Combined (GFP ChIP) recalled peaks w peaks",
+      "description" : "Peak calls for SNPC-4 (was GEI-11) Combined (GFP ChIP) recalled peaks w peaks",
       "displays" : [
          {
             "type" : "LinearBasicDisplay",
