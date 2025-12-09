@@ -206,7 +206,8 @@ $ALLSTATS ||= $Config->{_}->{allstats};
 $JBROWSESRC = $Config->{_}->{jbrowsesrc};
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||=  $Config->{_}->{jbrowsedir};;
-$FTPHOST    = 'ftp://ftp.wormbase.org';
+$FTPHOST    = "https://downloads.wormbase.org";
+#$FTPHOST    = 'ftp://ftp.wormbase.org';
 $FASTAMD5   = "$JBROWSEREPO/../conf/fasta_md5.txt";
 
 if ($SPECIES eq 'c_elegans_simple') {
@@ -540,7 +541,8 @@ if ($copyfailed == 1 and !$SIMPLE) {
 ##    die "local copying of data files failed";
     #use ftp to fetch them
 
-    my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
+    #my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
+    my $ftpgffpath = "/releases/WS$RELEASE/species/$speciesdir/$projectdir";
 
     my $gff = "$ftpgffpath/$GFFFILE.gz";
 ##    my $fasta = "$ftpgffpath/$FASTAFILE.gz";
