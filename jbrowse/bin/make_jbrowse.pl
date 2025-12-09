@@ -147,7 +147,6 @@ it under the same terms as Perl itself.
 
 
 my $INITIALDIR = cwd();
-$INITIALDIR = '' if $INITIALDIR eq '/';
 my $PRIMARY_SPECIES = "PRJNA13758";
 
 my ($GFFFILE, $FASTAFILE, $CONFIG, $DATADIR, $NOSPLITGFF, $USENICE,
@@ -207,8 +206,8 @@ $ALLSTATS ||= $Config->{_}->{allstats};
 $JBROWSESRC = $Config->{_}->{jbrowsesrc};
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||=  $Config->{_}->{jbrowsedir};;
-$FTPHOST    = 'ftp://ftp.wormbase.org';
-my $HTTPHOST= 'https://downloads.wormbase.org';
+$FTPHOST    = "https://downloads.wormbase.org";
+#$FTPHOST    = 'ftp://ftp.wormbase.org';
 $FASTAMD5   = "$JBROWSEREPO/../conf/fasta_md5.txt";
 
 if ($SPECIES eq 'c_elegans_simple') {
@@ -445,15 +444,13 @@ close TL;
 
 #clean up temporary gff files
 chdir $INITIALDIR;
-
-#stopping this clean up while tabix is being worked on
-#my @tmp_gffs = glob("*_$GFFFILE*") if $GFFFILE;
-#foreach my $file (@tmp_gffs) {unlink $file;} 
+my @tmp_gffs = glob("*_$GFFFILE*") if $GFFFILE;
+foreach my $file (@tmp_gffs) {unlink $file;} 
 
 #check for tracks that have data but didn't get processed
 for my $key (keys %{ $speciesdata{$species} }) {
     next if $speciesdata{$species}{$key} == -1;
-    $log->warn( "\n\nWARNING: TRACK WITH DATA BUT NO CONFIG: $key\n\n");
+    $log->error( "\n\nWARNING: TRACK WITH DATA BUT NO CONFIG: $key\n\n");
 }
 
 exit(0);
@@ -513,44 +510,12 @@ sub process_grep_track {
 
         if ($stderr =~ /No matching features/) {
             $empty_result{$section}=1;
-            next;
         }
-
-        #add tabix indexing here (since this is where 
-        #individual files are getting processed)
-
-        next if -e "$file[$i].tidy.gz";
-        (warn $file[$i] && next) if !-e "$file[$i]";
-
-        #first sort with genometools
-        #system("/usr/bin/gt gff3 -tidy -sortlines -retainids -force -o $file[$i].tidy $file[$i]") == 0
-        #    or $log->warn( "genometools failed $file[$i]: $!" ) and die; 
-        #
-        #    Bug in genometools means fall back on gnu sort for now
-        system("sort -k1,1 -k4,4n -k5,5n $file[$i] > $file[$i].tidy") == 0
-            or $log->warn( "sort failed $file[$i]: $!") and die;
-
-        #then bgzip
-        system("bgzip $file[$i].tidy") == 0
-            or $log->warn( "bgzip failed $file[$i].tidy: $!" ) and die;
-
-        #finally tabix
-        system("tabix $file[$i].tidy.gz") == 0
-            or $log->warn( "tabix failed $file[$i].tidy.gz: $! " ) and die;
-
-        mkdir "$DATADIR/gff-tabix" unless -e "$DATADIR/gff-tabix";
-
-        #then move them to the out dir so they'll get picked up for transfer
-        system("mv $file[$i].tidy.gz     $DATADIR/gff-tabix") == 0
-            or die "mv failed $file[$i].tidy.gz: $!";
-        system("mv $file[$i].tidy.gz.tbi $DATADIR/gff-tabix") == 0
-            or die "mv failed $file[$i].tidy.gz.tbi: $!";
-
     }
     if (!-e "$INCLUDES/$section.json") {
         $log->error( "\nMISSING INCLUDE FILE: $section.json\n\n");
     }
-    push @include, "includes/$section.json" unless ($empty_result{$section} or $config->{$section}->{no_config});
+    push @include, "includes/$section.json" unless $empty_result{$section};
 
     return;
 }
@@ -576,16 +541,14 @@ if ($copyfailed == 1 and !$SIMPLE) {
 ##    die "local copying of data files failed";
     #use ftp to fetch them
 
-##    my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
-    my $httppath = "/releases/WS$RELEASE/species/$speciesdir/$projectdir";
-    my $gff      = "$httppath/$GFFFILE.gz";
+    #my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
+    my $ftpgffpath = "/releases/WS$RELEASE/species/$speciesdir/$projectdir";
 
-##    my $gff = "$ftpgffpath/$GFFFILE.gz";
+    my $gff = "$ftpgffpath/$GFFFILE.gz";
 ##    my $fasta = "$ftpgffpath/$FASTAFILE.gz";
 
     my $quiet = $QUIET ? '-q' : '';
-    system("wget", $quiet, "$HTTPHOST$gff") == 0 or die "unable to fetch $HTTPHOST$gff: $!";
-##    system("wget $quiet $FTPHOST$gff");
+    system("wget $quiet $FTPHOST$gff");
 ##    system("wget $quiet $FTPHOST$fasta");
 }
 
@@ -598,7 +561,6 @@ system("gunzip -f $GFFFILE.gz");
 #use grep to create type specific gff files
 unless ($SKIPFILESPLIT) {
   for my $section (keys %{$config}) {
-    next if $section eq '_';
 
     $log->debug($section);
     if ($section =~ /RNASeq/i) {
@@ -609,9 +571,6 @@ unless ($SKIPFILESPLIT) {
     my $alt = $Config->{$section}->{altfile};
     my $key = $alt ? $alt : $section;
 
-    if (!$Config->{$key}->{prefix}) {
-        $log->warn("tracking down single undef warning: section:$section, alt:$alt, key:$key");
-    }
     my $gffout      ||= $Config->{$key}->{prefix} . "_$GFFFILE";
     my $greppattern ||= $Config->{$key}->{grep};
     my $postprocess ||= $Config->{$key}->{postprocess};
