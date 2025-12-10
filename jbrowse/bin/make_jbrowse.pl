@@ -206,7 +206,7 @@ $ALLSTATS ||= $Config->{_}->{allstats};
 $JBROWSESRC = $Config->{_}->{jbrowsesrc};
 my $nice = $USENICE ? "nice" : '';
 $JBROWSEDIR ||=  $Config->{_}->{jbrowsedir};;
-$FTPHOST    = "https://downloads.wormbase.org";
+$FTPHOST    = "https://ftp.ebi.ac.uk";
 #$FTPHOST    = 'ftp://ftp.wormbase.org';
 $FASTAMD5   = "$JBROWSEREPO/../conf/fasta_md5.txt";
 
@@ -542,7 +542,8 @@ if ($copyfailed == 1 and !$SIMPLE) {
     #use ftp to fetch them
 
     #my $ftpgffpath = "/pub/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
-    my $ftpgffpath = "/releases/WS$RELEASE/species/$speciesdir/$projectdir";
+    #using EBI server
+    my $ftpgffpath = "/puv/databases/wormbase/releases/WS$RELEASE/species/$speciesdir/$projectdir";
 
     my $gff = "$ftpgffpath/$GFFFILE.gz";
 ##    my $fasta = "$ftpgffpath/$FASTAFILE.gz";
